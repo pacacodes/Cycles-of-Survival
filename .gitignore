@@ -13,6 +13,13 @@ yarn-error.log*
 /build
 
 # Generated assets (PNGs, layers, etc.)
+output/
+--output=log.txt
+
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*$py.class
 
 # Misc
 .DS_Store
