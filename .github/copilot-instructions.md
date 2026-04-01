@@ -1,4 +1,4 @@
-# Copilot Instructions for ELPACA: Cycles of Survival
+# Copilot Instructions for Cycles of Survival: Cycles of Survival
 
 ## Project Overview
 - **Purpose:** Node.js-based generators for print-ready PNGs of cards and a board for the physical game "Cycles of Survival."

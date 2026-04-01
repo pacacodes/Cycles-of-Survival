@@ -50,7 +50,7 @@ function getText(url) {
         url,
         {
           headers: {
-            'User-Agent': 'ELPACA-DNA-Fetcher/2.0',
+            'User-Agent': 'Cycles-of-Survival-DNA-Fetcher/2.0',
             'Accept-Encoding': 'gzip,deflate'
           }
         },

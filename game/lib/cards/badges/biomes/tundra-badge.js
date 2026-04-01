@@ -12,7 +12,7 @@ module.exports = async function tundraBadge(ctx, options = {}) {
   ctx.arc(x, y, radius, 0, 2 * Math.PI);
   ctx.closePath();
   ctx.clip();
-  const imgPath = '/workspaces/ELPACA/game/lib/cards/layers/biomes/Tundra.png';
+  const imgPath = '/workspaces/Cycles-of-Survival/game/lib/cards/layers/biomes/Tundra.png';
   const tundraImg = await loadImage(imgPath);
   ctx.drawImage(tundraImg, x - radius, y - radius, radius * 2, radius * 2);
   ctx.restore();

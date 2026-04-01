@@ -19,7 +19,7 @@ module.exports = async function floodplainBadge(ctx, x, y, radius, card, scale) 
   ctx.fill();
   ctx.restore();
   ctx.save();
-  const imgPath = '/workspaces/ELPACA/game/lib/cards/layers/biomes/Floodplain.png';
+  const imgPath = '/workspaces/Cycles-of-Survival/game/lib/cards/layers/biomes/Floodplain.png';
   const floodplainImg = await loadImage(imgPath);
   const scaleDown = 0.91;
   const size = _radius * 2 * scaleDown;

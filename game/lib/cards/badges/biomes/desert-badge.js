@@ -12,7 +12,7 @@ module.exports = async function desertBadge(ctx, options = {}) {
   ctx.arc(x, y, radius, 0, 2 * Math.PI);
   ctx.closePath();
   ctx.clip();
-  const imgPath = '/workspaces/ELPACA/game/lib/cards/layers/biomes/Desert.png';
+  const imgPath = '/workspaces/Cycles-of-Survival/game/lib/cards/layers/biomes/Desert.png';
   const desertImg = await loadImage(imgPath);
   ctx.drawImage(desertImg, x - radius, y - radius, radius * 2, radius * 2);
   ctx.restore();

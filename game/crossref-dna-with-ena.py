@@ -10,7 +10,7 @@ from urllib.parse import quote
 import urllib.request
 import urllib.error
 
-ROOT = Path('/workspaces/ELPACA')
+ROOT = Path('/workspaces/Cycles-of-Survival')
 ORGS_PATH = ROOT / 'game' / 'config' / 'organisms.json'
 OUT_REPORT = ROOT / 'output' / 'ena-crossref-report.json'
 
@@ -22,7 +22,7 @@ def http_get(url, timeout=60, retries=4, backoff=1.6):
     delay = 1.2
     for attempt in range(1, retries + 1):
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'ELPACA-ENA-Crossref/1.0'})
+            req = urllib.request.Request(url, headers={'User-Agent': 'Cycles-of-Survival-ENA-Crossref/1.0'})
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 data = resp.read()
                 encoding = (resp.headers.get('Content-Encoding') or '').lower()

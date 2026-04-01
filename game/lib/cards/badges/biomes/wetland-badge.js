@@ -17,7 +17,7 @@ module.exports = async function wetlandBadge(ctx, x, y, radius, card, scale) {
   ctx.arc(_x, _y, _radius, 0, 2 * Math.PI);
   ctx.closePath();
   ctx.clip();
-  const imgPath = '/workspaces/ELPACA/game/lib/cards/layers/biomes/Wetland.png';
+  const imgPath = '/workspaces/Cycles-of-Survival/game/lib/cards/layers/biomes/Wetland.png';
   const wetlandImg = await loadImage(imgPath);
   ctx.drawImage(wetlandImg, _x - _radius, _y - _radius, _radius * 2, _radius * 2);
   ctx.restore();

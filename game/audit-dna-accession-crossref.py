@@ -8,7 +8,7 @@ import urllib.request
 import urllib.parse
 from pathlib import Path
 
-ROOT = Path('/workspaces/ELPACA')
+ROOT = Path('/workspaces/Cycles-of-Survival')
 ORGS_PATH = ROOT / 'game' / 'config' / 'organisms.json'
 OUT_PATH = ROOT / 'output' / 'dna-accession-crossref.json'
 
@@ -26,7 +26,7 @@ def http_get(url, timeout=60, retries=5):
     delay = 1.2
     for attempt in range(1, retries + 1):
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'ELPACA-DNA-Audit/1.0'})
+            req = urllib.request.Request(url, headers={'User-Agent': 'Cycles-of-Survival-DNA-Audit/1.0'})
             with urllib.request.urlopen(req, timeout=timeout) as resp:
                 data = resp.read()
                 return data, (resp.headers.get('Content-Encoding') or '').lower()

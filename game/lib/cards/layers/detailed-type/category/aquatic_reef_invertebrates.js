@@ -8,7 +8,7 @@ const LABEL = 'ARI';
 const FILL = '#80DEEA';
 const STROKE = '#00838F';
 const TEXT = '#004D40';
-const ICON_PNG = '/workspaces/ELPACA/output/Aquatic & Reef Invertebrates Icon.png';
+const ICON_PNG = '/workspaces/Cycles-of-Survival/output/Aquatic & Reef Invertebrates Icon.png';
 
 async function drawCategoryLogo(ctx, xPt, yPt, sizePt, scale) {
   const x = xPt * scale;
