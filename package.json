@@ -1,0 +1,38 @@
+{
+  "name": "elpaca",
+  "version": "1.0.0",
+  "description": "Cycles of Survival: PNG generators for cards and board.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:cards": "node game/generate-cards.js",
+    "generate:board": "node game/generate-board.js",
+    "watch": "npm run generate:cards && npm run generate:board && chokidar \"game/config/*.json\" -c \"npm run generate:cards && npm run generate:board\"",
+    "watch:cards": "npm run generate:cards && chokidar \"game/config/cards.json\" -c \"npm run generate:cards\"",
+    "watch:board": "npm run generate:board && chokidar \"game/config/board.json\" -c \"npm run generate:board\"",
+    "start:cards": "npm run watch:cards",
+    "start:board": "npm run watch:board",
+    "generate:cards:sheet": "npm run generate:cards",
+    "generate:cards:single": "node game/generate-cards.js --singlePages --out output/cards-single.png",
+    "watch:cards:sheet": "npm run generate:cards:sheet && npm run watch:cards",
+    "watch:cards:single": "npm run generate:cards:single && chokidar \"game/config/cards.json\" -c \"npm run generate:cards:single\"",
+    "start:cards:sheet": "npm run watch:cards:sheet",
+    "start:cards:single": "npm run watch:cards:single",
+    "generate:card:blank": "node game/generate-cards.js --config game/config/cards.blank.single.json",
+    "dna:fill:4000:batch": "python3 game/fill-organism-dna-4000-batch.py",
+    "generate:cards:blank:sheet": "node game/generate-cards.js --config game/config/cards.blank.sheet.json --out output/cards.png",
+    "generate:board:blank": "node game/generate-board.js --config game/config/board.blank-24x20.json --out output/Board/board.png",
+    "generate:organisms:working": "node game/generate-organism-working-cards.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.92",
+    "canvas": "^3.2.1",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0"
+  }
+}

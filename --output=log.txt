@@ -1,0 +1,28 @@
+5e3656b12bee968e7c3a9a14256ab08650d1cea6 feat: enhance functional category badge and connector with three-layered neon effect
+a4606b903d16ac81fb720761ccd00e0f589e4c39 Refactor code structure for improved readability and maintainability
+1a79944ed6a848237c984206cf15ff8a148b0953 feat: enhance badge and connector rendering; implement dynamic badge geometry and color matching for functional categories, biomes, trophic levels, eras, and periods
+2fcb0af93790a53701d827c9067f404d83c32d92 feat: adjust connector end positions for improved alignment across biomes, eras, functional categories, periods, and trophic levels
+4b1f1fb1c1e4e608d8462c4102a99b9c27756c9a feat: update connector functions to accept background right edge parameter for improved alignment
+aa85305b14823785ce3e859b99f9fdc8749aab69 feat: enhance connector line drawing; add background right edge parameter for improved alignment
+c6256a31478fb442487ce8444f194c17b4ad7e14 feat: update functional category labels for clarity; remove redundancy
+6ac65755e1d1e99e3e69dd025fe99f5423fb8f83 feat: implement title color block layer for cards; enhance visual categorization
+7d08b7854951f32ba2fe9339fec7004b9c5fa007 chore: clean up empty code change sections in the changes log
+9c1ea833ec4c904505f527401964f7b9426767d5 Add SVG to PNG conversion utility for badge images
+bfc2f0503706ca0a9b8fd41c421a345567882d95 feat: simplify trophic level labels; remove text in parentheses for improved clarity
+49027089bdd9c2ba58a534116e521875bd480eb3 feat: add eras and periods connector logic; implement drawing functions for badge connectors
+45173a763218605a1a25b18f038da9669f6747b9 feat: adjust text positioning for various layers; shift text 20px to the right for improved layout
+cee994537cbb5f6942d4bb1cc0b648149d675fd6 feat: implement trophic level badge and connector; add drawing logic for badge and its connector line
+029f31891182d52c72fdde766b442981c79f35c3 feat: add biomes connector drawing; implement connector logic for biomes badge
+6656e40e90f8769aaf9d79e169db18c7baf419a9 feat: implement functional category connector drawing; enhance badge connection logic
+e08b580386981579b3d84ae46aa716d7c96b8d01 feat: update connector line drawing logic; adjust badge radius and gap for improved layout
+c2c16317b2dc1fd516b530a54cd5854883fb7fac feat: add connector lines between badges and associated fields; implement dynamic badge rendering
+ed2bb22aefb443ffdfd77389d0124b91fec9245b feat: update trophic level descriptions for consistency and clarity; enhance badge rendering layout
+ff7a195be11e3ad72816581be5f519a8a926e265 feat: enhance functional category rendering with improved layout and badge display
+be933d19318f47c9e1345ec78590bcc2378c239d feat: implement badge rendering for functional categories, biomes, eras, periods, and trophic levels in card layout
+422b72aecc1d0857b315f212b6f129a94c7dcabf feat: enhance card rendering by adding detailed taxonomy layers and biomes, eras, and trophic levels
+bbd87317147a0dac20004d4d7547ad003c8e9b11 feat: update font family to Courier for consistency across card layers and add functional category drawing
+2e42dcaca9d8c52ecb011d70fd69cfbb899ff043 feat: add functional category drawing and refactor title rendering
+f7c52e3cef0f6ee0a487654a656c59da7a825dc2 feat: refactor card generation to use new layout function and improve file naming
+d6ef98203fe64f8b094d13a916d050228925030c feat: enhance title drawing with dynamic font sizing and add card number display
+db83fed5ae73359d45fa0328c0fcbbfe7becd03f feat: implement card layers for biomes, trophic levels, and soil types with respective drawing functions
+9ec6d531279c913148d4edff7bd1db8e26d54871 feat: update project to support PNG generation for cards and boards

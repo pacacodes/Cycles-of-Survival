@@ -1,0 +1,13 @@
+{
+  "cards": [
+    {
+      "id": "blank",
+      "title": "Blank",
+      "value": "",
+      "suit": "",
+      "text": "",
+      "background": "#FFFFFF",
+      "titleColor": "#000000"
+    }
+  ]
+}

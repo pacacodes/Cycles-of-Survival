@@ -1,0 +1,571 @@
+{
+  "timestamp": "2026-03-10T18:14:43.323Z",
+  "dryRun": false,
+  "source": "ENA sequence (standard)",
+  "targetBases": 4000,
+  "onlyMissing": true,
+  "total": 89,
+  "considered": 28,
+  "updated": 0,
+  "skippedExisting": [
+    {
+      "index": 0,
+      "card_label": "Card 1",
+      "scientific_name": "Anabaena sp.",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 1,
+      "card_label": "Card 2",
+      "scientific_name": "Thalassiosira pseudonana",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 2,
+      "card_label": "Card 3",
+      "scientific_name": "Conophyton sp.",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 3,
+      "card_label": "Card 4",
+      "scientific_name": "Escherichia coli",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 4,
+      "card_label": "Card 5",
+      "scientific_name": "Bacillus polymyxa",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 5,
+      "card_label": "Card 6",
+      "scientific_name": "Methanococcus maripaludis",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 6,
+      "card_label": "Card 7",
+      "scientific_name": "Desulfovibrio vulgaris",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 7,
+      "card_label": "Card 8",
+      "scientific_name": "Vibrio cholerae",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 9,
+      "card_label": "Card 10",
+      "scientific_name": "Nostoc commune",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 11,
+      "card_label": "Card 12",
+      "scientific_name": "Corallina officinalis",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 12,
+      "card_label": "Card 13",
+      "scientific_name": "Emiliania huxleyi",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 13,
+      "card_label": "Card 14",
+      "scientific_name": "Laminaria digitata",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 14,
+      "card_label": "Card 15",
+      "scientific_name": "Polytrichum commune",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 18,
+      "card_label": "Card 19",
+      "scientific_name": "Pinus sylvestris",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 20,
+      "card_label": "Card 21",
+      "scientific_name": "Quercus robur",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 22,
+      "card_label": "Card 23",
+      "scientific_name": "Trifolium pratense",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 23,
+      "card_label": "Card 24",
+      "scientific_name": "Setaria italica",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 24,
+      "card_label": "Card 25",
+      "scientific_name": "Nymphaea odorata",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 25,
+      "card_label": "Card 26",
+      "scientific_name": "Carnegiea gigantea",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 26,
+      "card_label": "Card 27",
+      "scientific_name": "Petromyzon marinus",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 28,
+      "card_label": "Card 29",
+      "scientific_name": "Carcharodon carcharias",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 29,
+      "card_label": "Card 30",
+      "scientific_name": "Zebrasoma flavescens",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 30,
+      "card_label": "Card 31",
+      "scientific_name": "Thunnus albacares",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 31,
+      "card_label": "Card 32",
+      "scientific_name": "Esox lucius",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 33,
+      "card_label": "Card 34",
+      "scientific_name": "Latimeria chalumnae",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 35,
+      "card_label": "Card 36",
+      "scientific_name": "Orcinus orca",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 37,
+      "card_label": "Card 38",
+      "scientific_name": "Acropora palmata",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 40,
+      "card_label": "Card 41",
+      "scientific_name": "Fissurella volcano",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 41,
+      "card_label": "Card 42",
+      "scientific_name": "Mytilus edulis",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 42,
+      "card_label": "Card 43",
+      "scientific_name": "Nautilus pompilius",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 43,
+      "card_label": "Card 44",
+      "scientific_name": "Euphausia superba",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 47,
+      "card_label": "Card 48",
+      "scientific_name": "Rana temporaria",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 49,
+      "card_label": "Card 50",
+      "scientific_name": "Heloderma suspectum",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 52,
+      "card_label": "Card 53",
+      "scientific_name": "Alligator mississippiensis",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 53,
+      "card_label": "Card 54",
+      "scientific_name": "Testudo graeca",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 55,
+      "card_label": "Card 56",
+      "scientific_name": "Varanus komodoensis",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 63,
+      "card_label": "Card 64",
+      "scientific_name": "Colinus virginianus",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 64,
+      "card_label": "Card 65",
+      "scientific_name": "Phoebastria immutabilis",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 65,
+      "card_label": "Card 66",
+      "scientific_name": "Struthio camelus",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 67,
+      "card_label": "Card 68",
+      "scientific_name": "Cynomys ludovicianus",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 69,
+      "card_label": "Card 70",
+      "scientific_name": "Equus ferus",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 70,
+      "card_label": "Card 71",
+      "scientific_name": "Panthera leo",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 71,
+      "card_label": "Card 72",
+      "scientific_name": "Balaenoptera musculus",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 72,
+      "card_label": "Card 73",
+      "scientific_name": "Mammuthus primigenius",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 74,
+      "card_label": "Card 75",
+      "scientific_name": "Ursus arctos",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 75,
+      "card_label": "Card 76",
+      "scientific_name": "Pteropus vampyrus",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 76,
+      "card_label": "Card 77",
+      "scientific_name": "Schistocerca gregaria",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 77,
+      "card_label": "Card 78",
+      "scientific_name": "Apis mellifera",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 78,
+      "card_label": "Card 79",
+      "scientific_name": "Atta cephalotes",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 79,
+      "card_label": "Card 80",
+      "scientific_name": "Cladonia rangiferina",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 81,
+      "card_label": "Card 82",
+      "scientific_name": "Aspergillus fumigatus",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 82,
+      "card_label": "Card 83",
+      "scientific_name": "Tenebrio molitor",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 83,
+      "card_label": "Card 84",
+      "scientific_name": "Lumbricus terrestris",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 84,
+      "card_label": "Card 85",
+      "scientific_name": "Argiope bruennichi",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 85,
+      "card_label": "Card 86",
+      "scientific_name": "Macrotermes bellicosus",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 86,
+      "card_label": "Card 87",
+      "scientific_name": "Panthera onca",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 87,
+      "card_label": "Card 88",
+      "scientific_name": "Castor canadensis",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    },
+    {
+      "index": 88,
+      "card_label": "Card 89",
+      "scientific_name": "Acropora cervicornis",
+      "reason": "Existing dna_sequence already has >= 4000 bases"
+    }
+  ],
+  "skippedAmbiguous": [
+    {
+      "index": 10,
+      "card_label": "Card 11",
+      "scientific_name": "Spirogyra sp.",
+      "reason": "Ambiguous scientific name (e.g., sp.)"
+    },
+    {
+      "index": 16,
+      "card_label": "Card 17",
+      "scientific_name": "Psaronius sp.",
+      "reason": "Ambiguous scientific name (e.g., sp.)"
+    },
+    {
+      "index": 45,
+      "card_label": "Card 46",
+      "scientific_name": "Acanthoceras sp.",
+      "reason": "Ambiguous scientific name (e.g., sp.)"
+    }
+  ],
+  "failed": [
+    {
+      "index": 8,
+      "card_label": "Card 9",
+      "scientific_name": "Karlodinium veneficum",
+      "reason": "Sequence too short or missing (length=945)",
+      "accession": "GH268983",
+      "title": "AmSd61SL1 Karlodinium veneficum 0 hr post infection Karlodinium veneficum cDNA clone AmSd61 5', mRNA sequence."
+    },
+    {
+      "index": 15,
+      "card_label": "Card 16",
+      "scientific_name": "Rhynia major",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 17,
+      "card_label": "Card 18",
+      "scientific_name": "Lepidodendron aculeatum",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 19,
+      "card_label": "Card 20",
+      "scientific_name": "Pinus edulis",
+      "reason": "Sequence too short or missing (length=850)",
+      "accession": "JX856176",
+      "title": "Pinus edulis clone G448 microsatellite sequences."
+    },
+    {
+      "index": 21,
+      "card_label": "Card 22",
+      "scientific_name": "Lupinus perennis",
+      "reason": "Sequence too short or missing (length=240)",
+      "accession": "Z72162",
+      "title": "Lupinus perennis ITS1"
+    },
+    {
+      "index": 27,
+      "card_label": "Card 28",
+      "scientific_name": "Dunkleosteus terrelli",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 32,
+      "card_label": "Card 33",
+      "scientific_name": "Tiktaalik roseae",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 34,
+      "card_label": "Card 35",
+      "scientific_name": "Mosasaurus hoffmannii",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 36,
+      "card_label": "Card 37",
+      "scientific_name": "Paradoxides davidis",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 38,
+      "card_label": "Card 39",
+      "scientific_name": "Aplysina fistularis",
+      "reason": "Sequence too short or missing (length=1278)",
+      "accession": "JQ606781",
+      "title": "Aplysina fistularis ATP synthase beta chain (ATPB) mRNA, partial cds."
+    },
+    {
+      "index": 39,
+      "card_label": "Card 40",
+      "scientific_name": "Cancer productus",
+      "reason": "Sequence too short or missing (length=1884)",
+      "accession": "KU613109",
+      "title": "Cancer productus clone A heat shock protein 70 kDa (hsp70) gene, partial cds."
+    },
+    {
+      "index": 44,
+      "card_label": "Card 45",
+      "scientific_name": "Gammarus pulex",
+      "reason": "Sequence too short or missing (length=2215)",
+      "accession": "LT546439",
+      "title": "Gammarus pulex mRNA for Catalase (Cata gene)"
+    },
+    {
+      "index": 46,
+      "card_label": "Card 47",
+      "scientific_name": "Ichthyostega stensioei",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 48,
+      "card_label": "Card 49",
+      "scientific_name": "Hylonomus lyelli",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 50,
+      "card_label": "Card 51",
+      "scientific_name": "Dimetrodon grandis",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 51,
+      "card_label": "Card 52",
+      "scientific_name": "Diplocaulus magnicornis",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 54,
+      "card_label": "Card 55",
+      "scientific_name": "Salamandra salamandra",
+      "reason": "Sequence too short or missing (length=1260)",
+      "accession": "KC165325",
+      "title": "Salamandra salamandra hypothetical protein gene, partial cds."
+    },
+    {
+      "index": 56,
+      "card_label": "Card 57",
+      "scientific_name": "Stegosaurus stenops",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 57,
+      "card_label": "Card 58",
+      "scientific_name": "Brachiosaurus altithorax",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 58,
+      "card_label": "Card 59",
+      "scientific_name": "Velociraptor mongoliensis",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 59,
+      "card_label": "Card 60",
+      "scientific_name": "Tyrannosaurus rex",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 60,
+      "card_label": "Card 61",
+      "scientific_name": "Archaeopteryx lithographica",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 61,
+      "card_label": "Card 62",
+      "scientific_name": "Triceratops horridus",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 62,
+      "card_label": "Card 63",
+      "scientific_name": "Microraptor gui",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 66,
+      "card_label": "Card 67",
+      "scientific_name": "Morganucodon watsoni",
+      "reason": "No ENA sequence-standard record found"
+    },
+    {
+      "index": 68,
+      "card_label": "Card 69",
+      "scientific_name": "Procyon lotor",
+      "reason": "Sequence too short or missing (length=853)",
+      "accession": "GU931166",
+      "title": "Procyon lotor PLP1 gene, partial sequence."
+    },
+    {
+      "index": 73,
+      "card_label": "Card 74",
+      "scientific_name": "Smilodon fatalis",
+      "reason": "Sequence too short or missing (length=132)",
+      "accession": "S46659",
+      "title": "12S rRNA [Smilodon fatalis=saber-toothed cats, Mitochondrial, 132 nt]."
+    },
+    {
+      "index": 80,
+      "card_label": "Card 81",
+      "scientific_name": "Neophron percnopterus",
+      "reason": "Sequence too short or missing (length=2921)",
+      "accession": "DQ650062",
+      "title": "Neophron percnopterus recombination activating protein 1 (RAG-1) gene, partial cds."
+    }
+  ],
+  "records": []
+}

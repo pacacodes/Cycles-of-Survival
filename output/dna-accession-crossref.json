@@ -1,0 +1,1767 @@
+{
+  "timestamp": "2026-03-04T20:05:52Z",
+  "total": 89,
+  "items": [
+    {
+      "card_label": "Card 1",
+      "scientific_name": "Anabaena sp.",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": true,
+      "ncbi": null,
+      "ena": null,
+      "status": "ambiguous_name"
+    },
+    {
+      "card_label": "Card 2",
+      "scientific_name": "Thalassiosira pseudonana",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_012086.1",
+        "title": "Thalassiosira pseudonana CCMP1335 chromosome 23, whole genome shotgun sequence",
+        "organism": "Thalassiosira pseudonana CCMP1335",
+        "search_term": "Thalassiosira pseudonana[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 3",
+      "scientific_name": "Conophyton sp.",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": true,
+      "ncbi": null,
+      "ena": null,
+      "status": "ambiguous_name"
+    },
+    {
+      "card_label": "Card 4",
+      "scientific_name": "Escherichia coli",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NZ_JAQMZI000000000.1",
+        "title": "Escherichia coli strain FPL2, whole genome shotgun sequencing project",
+        "organism": "Escherichia coli",
+        "search_term": "Escherichia coli[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 5",
+      "scientific_name": "Bacillus polymyxa",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NZ_JBVBQH000000000.1",
+        "title": "Paenibacillus polymyxa strain Amcv14, whole genome shotgun sequencing project",
+        "organism": "Paenibacillus polymyxa",
+        "search_term": "Bacillus polymyxa[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "blank_but_ncbi_available",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 6",
+      "scientific_name": "Methanococcus maripaludis",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NZ_DAIRMP000000000.1",
+        "title": "MAG: Methanococcus maripaludis isolate CTOTU39187, whole genome shotgun sequencing project",
+        "organism": "Methanococcus maripaludis",
+        "search_term": "Methanococcus maripaludis[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 7",
+      "scientific_name": "Desulfovibrio vulgaris",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NZ_JBSQKK000000000.1",
+        "title": "MAG: Nitratidesulfovibrio vulgaris isolate AND-3_PF_day141_bin.20, whole genome shotgun sequencing project",
+        "organism": "Nitratidesulfovibrio vulgaris",
+        "search_term": "Desulfovibrio vulgaris[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "blank_but_ncbi_available",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 8",
+      "scientific_name": "Vibrio cholerae",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NZ_JBTZSH000000000.1",
+        "title": "Vibrio cholerae strain MTI73, whole genome shotgun sequencing project",
+        "organism": "Vibrio cholerae",
+        "search_term": "Vibrio cholerae[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 9",
+      "scientific_name": "Karlodinium veneficum",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "PX022790.1",
+        "title": "Karlodinium veneficum strain IMB_KV23 large subunit ribosomal RNA gene, partial sequence",
+        "organism": "Karlodinium veneficum",
+        "search_term": "Karlodinium veneficum[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "PX022790.1",
+        "letters_total": 1024,
+        "first1000_len": 1000
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": true
+    },
+    {
+      "card_label": "Card 10",
+      "scientific_name": "Nostoc commune",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NZ_WBKN00000000.1",
+        "title": "Nostoc commune BAE voucher BM001199053 (NHM), whole genome shotgun sequencing project",
+        "organism": "Nostoc commune BAE",
+        "search_term": "Nostoc commune[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 11",
+      "scientific_name": "Spirogyra sp.",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": true,
+      "ncbi": null,
+      "ena": null,
+      "status": "ambiguous_name"
+    },
+    {
+      "card_label": "Card 12",
+      "scientific_name": "Corallina officinalis",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_033904.1",
+        "title": "Corallina officinalis mitochondrion, complete genome",
+        "organism": "Corallina officinalis",
+        "search_term": "Corallina officinalis[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 13",
+      "scientific_name": "Emiliania huxleyi",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NW_005200600.1",
+        "title": "Emiliania huxleyi CCMP1516 chromosome Unknown EMIHUscaffold_20, whole genome shotgun sequence",
+        "organism": "Emiliania huxleyi CCMP1516",
+        "search_term": "Emiliania huxleyi[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 14",
+      "scientific_name": "Laminaria digitata",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_044689.1",
+        "title": "Laminaria digitata chloroplast, complete genome",
+        "organism": "Laminaria digitata",
+        "search_term": "Laminaria digitata[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 15",
+      "scientific_name": "Polytrichum commune",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_039775.1",
+        "title": "Polytrichum commune mitochondrion, complete genome",
+        "organism": "Polytrichum commune",
+        "search_term": "Polytrichum commune[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 16",
+      "scientific_name": "Rhynia major",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 17",
+      "scientific_name": "Psaronius sp.",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": true,
+      "ncbi": null,
+      "ena": null,
+      "status": "ambiguous_name"
+    },
+    {
+      "card_label": "Card 18",
+      "scientific_name": "Lepidodendron aculeatum",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 19",
+      "scientific_name": "Pinus sylvestris",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_035069.1",
+        "title": "Pinus sylvestris chloroplast, complete genome",
+        "organism": "Pinus sylvestris",
+        "search_term": "Pinus sylvestris[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 20",
+      "scientific_name": "Pinus edulis",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "DQ642518.1",
+        "title": "Pinus edulis voucher EDUL09S1 putative LEA protein (IFG8612) gene, IFG8612-1 allele, partial cds",
+        "organism": "Pinus edulis",
+        "search_term": "Pinus edulis[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 965,
+        "first1000_len": 965
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "DQ642518.1",
+        "letters_total": 965,
+        "first1000_len": 965
+      },
+      "status": "blank_ncbi_short",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 21",
+      "scientific_name": "Quercus robur",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_065534.1",
+        "title": "Quercus robur chromosome 1, dhQueRobu3.1, whole genome shotgun sequence",
+        "organism": "Quercus robur",
+        "search_term": "Quercus robur[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 22",
+      "scientific_name": "Lupinus perennis",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "MK482723.1",
+        "title": "Lupinus perennis isolate LP_L small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence",
+        "organism": "Lupinus perennis",
+        "search_term": "Lupinus perennis[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 684,
+        "first1000_len": 684
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "MK482723.1",
+        "letters_total": 684,
+        "first1000_len": 684
+      },
+      "status": "blank_ncbi_short",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 23",
+      "scientific_name": "Trifolium pratense",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_060059.1",
+        "title": "Trifolium pratense cultivar HEN17-A07 linkage group LG1, ARS_RC_1.1, whole genome shotgun sequence",
+        "organism": "Trifolium pratense",
+        "search_term": "Trifolium pratense[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 24",
+      "scientific_name": "Setaria italica",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_028450.1",
+        "title": "Setaria italica strain Yugu1 chromosome I, Setaria_italica_v2.0, whole genome shotgun sequence",
+        "organism": "Setaria italica",
+        "search_term": "Setaria italica[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 25",
+      "scientific_name": "Nymphaea odorata",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_057567.1",
+        "title": "Nymphaea odorata chloroplast, complete genome",
+        "organism": "Nymphaea odorata",
+        "search_term": "Nymphaea odorata[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 26",
+      "scientific_name": "Carnegiea gigantea",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_027618.1",
+        "title": "Carnegiea gigantea chloroplast, complete genome",
+        "organism": "Carnegiea gigantea",
+        "search_term": "Carnegiea gigantea[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 27",
+      "scientific_name": "Petromyzon marinus",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_133667.1",
+        "title": "Petromyzon marinus isolate PM22_M1 ecotype Great Lakes invasive population chromosome 1, UKy_Petmar_22M1.pri1.0, whole genome shotgun sequence",
+        "organism": "Petromyzon marinus",
+        "search_term": "Petromyzon marinus[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 28",
+      "scientific_name": "Dunkleosteus terrelli",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 29",
+      "scientific_name": "Carcharodon carcharias",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_054467.1",
+        "title": "Carcharodon carcharias isolate sCarCar2 chromosome 1, sCarCar2.pri, whole genome shotgun sequence",
+        "organism": "Carcharodon carcharias",
+        "search_term": "Carcharodon carcharias[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 30",
+      "scientific_name": "Zebrasoma flavescens",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_009874.1",
+        "title": "Zebrasoma flavescens mitochondrion, complete genome",
+        "organism": "Zebrasoma flavescens",
+        "search_term": "Zebrasoma flavescens[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 31",
+      "scientific_name": "Thunnus albacares",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_058106.1",
+        "title": "Thunnus albacares chromosome 1, fThuAlb1.1, whole genome shotgun sequence",
+        "organism": "Thunnus albacares",
+        "search_term": "Thunnus albacares[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 32",
+      "scientific_name": "Esox lucius",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_047569.1",
+        "title": "Esox lucius isolate fEsoLuc1 chromosome 1, fEsoLuc1.pri, whole genome shotgun sequence",
+        "organism": "Esox lucius",
+        "search_term": "Esox lucius[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 33",
+      "scientific_name": "Tiktaalik roseae",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 34",
+      "scientific_name": "Latimeria chalumnae",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_088139.1",
+        "title": "Latimeria chalumnae isolate fLatCha1 chromosome 1, fLatCha1.pri, whole genome shotgun sequence",
+        "organism": "Latimeria chalumnae",
+        "search_term": "Latimeria chalumnae[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 35",
+      "scientific_name": "Mosasaurus hoffmannii",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 36",
+      "scientific_name": "Orcinus orca",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_064559.1",
+        "title": "Orcinus orca chromosome 1, mOrcOrc1.1, whole genome shotgun sequence",
+        "organism": "Orcinus orca",
+        "search_term": "Orcinus orca[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 37",
+      "scientific_name": "Paradoxides davidis",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 38",
+      "scientific_name": "Acropora palmata",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_133882.1",
+        "title": "Acropora palmata chromosome 1, jaAcrPala1.3, whole genome shotgun sequence",
+        "organism": "Acropora palmata",
+        "search_term": "Acropora palmata[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 39",
+      "scientific_name": "Aplysina fistularis",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "MW092799.1",
+        "title": "Aplysina fistularis isolate UFPEPOR1688 cytochrome B (cytB) gene, partial cds; mitochondrial",
+        "organism": "Aplysina fistularis",
+        "search_term": "Aplysina fistularis[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 364,
+        "first1000_len": 364
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_present_ncbi_short",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 40",
+      "scientific_name": "Cancer productus",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "EU329145.1",
+        "title": "Cancer productus arginine kinase (AK) gene, partial cds",
+        "organism": "Cancer productus",
+        "search_term": "Cancer productus[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 603,
+        "first1000_len": 603
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "EU329145.1",
+        "letters_total": 603,
+        "first1000_len": 603
+      },
+      "status": "blank_ncbi_short",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 41",
+      "scientific_name": "Fissurella volcano",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_016953.1",
+        "title": "Fissurella volcano mitochondrion, complete genome",
+        "organism": "Fissurella volcano",
+        "search_term": "Fissurella volcano[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 42",
+      "scientific_name": "Mytilus edulis",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_092344.1",
+        "title": "Mytilus edulis chromosome 1, xbMytEdul2.2, whole genome shotgun sequence",
+        "organism": "Mytilus edulis",
+        "search_term": "Mytilus edulis[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 43",
+      "scientific_name": "Nautilus pompilius",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_035715.1",
+        "title": "Nautilus pompilius mitochondrion, complete genome",
+        "organism": "Nautilus pompilius",
+        "search_term": "Nautilus pompilius[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 44",
+      "scientific_name": "Euphausia superba",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_040987.1",
+        "title": "Euphausia superba mitochondrion, complete genome",
+        "organism": "Euphausia superba",
+        "search_term": "Euphausia superba[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 45",
+      "scientific_name": "Gammarus pulex",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "PQ285693.1",
+        "title": "Gammarus pulex isolate GP_H38 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial",
+        "organism": "Gammarus pulex",
+        "search_term": "Gammarus pulex[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 570,
+        "first1000_len": 570
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "PQ285693.1",
+        "letters_total": 570,
+        "first1000_len": 570
+      },
+      "status": "blank_ncbi_short",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 46",
+      "scientific_name": "Acanthoceras sp.",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": true,
+      "ncbi": null,
+      "ena": null,
+      "status": "ambiguous_name"
+    },
+    {
+      "card_label": "Card 47",
+      "scientific_name": "Ichthyostega stensioei",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 48",
+      "scientific_name": "Rana temporaria",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_053489.1",
+        "title": "Rana temporaria chromosome 1, aRanTem1.1, whole genome shotgun sequence",
+        "organism": "Rana temporaria",
+        "search_term": "Rana temporaria[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 49",
+      "scientific_name": "Hylonomus lyelli",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 50",
+      "scientific_name": "Heloderma suspectum",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_008776.1",
+        "title": "Heloderma suspectum mitochondrion, complete genome",
+        "organism": "Heloderma suspectum",
+        "search_term": "Heloderma suspectum[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 51",
+      "scientific_name": "Dimetrodon grandis",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 52",
+      "scientific_name": "Diplocaulus magnicornis",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 53",
+      "scientific_name": "Alligator mississippiensis",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_081824.1",
+        "title": "Alligator mississippiensis isolate rAllMis1 chromosome 1, rAllMis1, whole genome shotgun sequence",
+        "organism": "Alligator mississippiensis",
+        "search_term": "Alligator mississippiensis[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 54",
+      "scientific_name": "Testudo graeca",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_007692.1",
+        "title": "Testudo graeca mitochondrion, complete genome",
+        "organism": "Testudo graeca",
+        "search_term": "Testudo graeca[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 55",
+      "scientific_name": "Salamandra salamandra",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "PV804993.1",
+        "title": "Salamandra salamandra isolate FR titin (TTN) gene, partial cds",
+        "organism": "Salamandra salamandra",
+        "search_term": "Salamandra salamandra[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 183,
+        "first1000_len": 183
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "PV804993.1",
+        "letters_total": 183,
+        "first1000_len": 183
+      },
+      "status": "blank_ncbi_short",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 56",
+      "scientific_name": "Varanus komodoensis",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NW_025335268.1",
+        "title": "Varanus komodoensis strain SLA01 unplaced genomic scaffold, ASM479886v1 scaffold1, whole genome shotgun sequence",
+        "organism": "Varanus komodoensis",
+        "search_term": "Varanus komodoensis[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 57",
+      "scientific_name": "Stegosaurus stenops",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 58",
+      "scientific_name": "Brachiosaurus altithorax",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 59",
+      "scientific_name": "Velociraptor mongoliensis",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 60",
+      "scientific_name": "Tyrannosaurus rex",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 61",
+      "scientific_name": "Archaeopteryx lithographica",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 62",
+      "scientific_name": "Triceratops horridus",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 63",
+      "scientific_name": "Microraptor gui",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 64",
+      "scientific_name": "Colinus virginianus",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_024620.1",
+        "title": "Colinus virginianus mitochondrion, complete genome",
+        "organism": "Colinus virginianus",
+        "search_term": "Colinus virginianus[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 65",
+      "scientific_name": "Phoebastria immutabilis",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_026189.1",
+        "title": "Phoebastria immutabilis mitochondrion, complete genome",
+        "organism": "Phoebastria immutabilis",
+        "search_term": "Phoebastria immutabilis[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 66",
+      "scientific_name": "Struthio camelus",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_090942.1",
+        "title": "Struthio camelus isolate bStrCam1 chromosome 1, bStrCam1.hap1, whole genome shotgun sequence",
+        "organism": "Struthio camelus",
+        "search_term": "Struthio camelus[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 67",
+      "scientific_name": "Morganucodon watsoni",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": null,
+      "ena": null,
+      "status": "no_ncbi_record"
+    },
+    {
+      "card_label": "Card 68",
+      "scientific_name": "Cynomys ludovicianus",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_026706.1",
+        "title": "Cynomys ludovicianus mitochondrion, complete genome",
+        "organism": "Cynomys ludovicianus",
+        "search_term": "Cynomys ludovicianus[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 69",
+      "scientific_name": "Procyon lotor",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_009126.1",
+        "title": "Procyon lotor mitochondrion, complete genome",
+        "organism": "Procyon lotor",
+        "search_term": "Procyon lotor[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 70",
+      "scientific_name": "Equus ferus",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "PG341919.1",
+        "title": "JP 2023515773-A/3: ANTI-THYMOCYTE GLOBULIN",
+        "organism": "Equus ferus",
+        "search_term": "Equus ferus[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "PG341919.1",
+        "letters_total": 10298,
+        "first1000_len": 1000
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": true
+    },
+    {
+      "card_label": "Card 71",
+      "scientific_name": "Panthera leo",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_056679.1",
+        "title": "Panthera leo isolate Ple1 chromosome A1, P.leo_Ple1_pat1.1, whole genome shotgun sequence",
+        "organism": "Panthera leo",
+        "search_term": "Panthera leo[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 72",
+      "scientific_name": "Balaenoptera musculus",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_045785.1",
+        "title": "Balaenoptera musculus isolate JJ_BM4_2016_0621 chromosome 1, mBalMus1.pri.v3, whole genome shotgun sequence",
+        "organism": "Balaenoptera musculus",
+        "search_term": "Balaenoptera musculus[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 73",
+      "scientific_name": "Mammuthus primigenius",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_007596.2",
+        "title": "Mammuthus primigenius mitochondrion, complete genome",
+        "organism": "Mammuthus primigenius",
+        "search_term": "Mammuthus primigenius[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 74",
+      "scientific_name": "Smilodon fatalis",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "S46659.1",
+        "title": "12S rRNA [Smilodon fatalis=saber-toothed cats, Mitochondrial, 132 nt]",
+        "organism": "Smilodon fatalis",
+        "search_term": "Smilodon fatalis[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 132,
+        "first1000_len": 132
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "S46659.1",
+        "letters_total": 132,
+        "first1000_len": 132
+      },
+      "status": "blank_ncbi_short",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 75",
+      "scientific_name": "Ursus arctos",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_079873.1",
+        "title": "Ursus arctos isolate Adak ecotype North America chromosome X, UrsArc2.0, whole genome shotgun sequence",
+        "organism": "Ursus arctos",
+        "search_term": "Ursus arctos[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 76",
+      "scientific_name": "Pteropus vampyrus",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NW_011888782.1",
+        "title": "Pteropus vampyrus isolate Shadow unplaced genomic scaffold, Pvam_2.0 Scaffold1, whole genome shotgun sequence",
+        "organism": "Pteropus vampyrus",
+        "search_term": "Pteropus vampyrus[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 77",
+      "scientific_name": "Schistocerca gregaria",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_064920.1",
+        "title": "Schistocerca gregaria isolate iqSchGreg1 chromosome 1, iqSchGreg1.2, whole genome shotgun sequence",
+        "organism": "Schistocerca gregaria",
+        "search_term": "Schistocerca gregaria[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 78",
+      "scientific_name": "Apis mellifera",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_037638.1",
+        "title": "Apis mellifera strain DH4 linkage group LG1, Amel_HAv3.1, whole genome shotgun sequence",
+        "organism": "Apis mellifera",
+        "search_term": "Apis mellifera[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 79",
+      "scientific_name": "Atta cephalotes",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NW_012130065.1",
+        "title": "Atta cephalotes unplaced genomic scaffold scaffold00001, whole genome shotgun sequence",
+        "organism": "Atta cephalotes",
+        "search_term": "Atta cephalotes[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 80",
+      "scientific_name": "Cladonia rangiferina",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_036309.1",
+        "title": "Cladonia rangiferina voucher NY:Lendemer 46392 mitochondrion, complete genome",
+        "organism": "Cladonia rangiferina",
+        "search_term": "Cladonia rangiferina[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 81",
+      "scientific_name": "Neophron percnopterus",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "OK376757.1",
+        "title": "Neophron percnopterus isolate 71S chromosome W chromo-helicase-DNA binding protein (CHD1-W) gene, exons 17 and 18 and partial cds",
+        "organism": "Neophron percnopterus",
+        "search_term": "Neophron percnopterus[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 452,
+        "first1000_len": 452
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "OK376757.1",
+        "letters_total": 452,
+        "first1000_len": 452
+      },
+      "status": "blank_ncbi_short",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 82",
+      "scientific_name": "Aspergillus fumigatus",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_007201.1",
+        "title": "Aspergillus fumigatus Af293 chromosome 8, whole genome shotgun sequence",
+        "organism": "Aspergillus fumigatus Af293",
+        "search_term": "Aspergillus fumigatus[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 83",
+      "scientific_name": "Tenebrio molitor",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_091046.1",
+        "title": "Tenebrio molitor chromosome 1, icTenMoli1.1, whole genome shotgun sequence",
+        "organism": "Tenebrio molitor",
+        "search_term": "Tenebrio molitor[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 84",
+      "scientific_name": "Lumbricus terrestris",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_001673.1",
+        "title": "Lumbricus terrestris mitochondrion, complete genome",
+        "organism": "Lumbricus terrestris",
+        "search_term": "Lumbricus terrestris[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 85",
+      "scientific_name": "Argiope bruennichi",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_079151.1",
+        "title": "Argiope bruennichi chromosome 1, qqArgBrue1.1, whole genome shotgun sequence",
+        "organism": "Argiope bruennichi",
+        "search_term": "Argiope bruennichi[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 86",
+      "scientific_name": "Macrotermes bellicosus",
+      "stored_len": 0,
+      "stored_has_dna": false,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "CDWTNZ000000000.1",
+        "title": "Macrotermes bellicosus isolate BTQ-2023a-MbelQ, whole genome shotgun sequencing project",
+        "organism": "Macrotermes bellicosus",
+        "search_term": "Macrotermes bellicosus[Organism] AND biomol_genomic[prop]",
+        "letters_first_fetch": 364,
+        "first1000_len": 364
+      },
+      "ena": {
+        "available": true,
+        "accession_used": "CDWTNZ000000000.1",
+        "letters_total": 1340725563,
+        "first1000_len": 1000
+      },
+      "status": "blank_ncbi_short",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 87",
+      "scientific_name": "Panthera onca",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_136074.1",
+        "title": "Panthera onca isolate mPanOnc1 chromosome A1, mPanOnc1 haplotype 1, whole genome shotgun sequence",
+        "organism": "Panthera onca",
+        "search_term": "Panthera onca[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 88",
+      "scientific_name": "Castor canadensis",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_133386.1",
+        "title": "Castor canadensis chromosome 1, mCasCan1.hap1v2, whole genome shotgun sequence",
+        "organism": "Castor canadensis",
+        "search_term": "Castor canadensis[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    },
+    {
+      "card_label": "Card 89",
+      "scientific_name": "Acropora cervicornis",
+      "stored_len": 1000,
+      "stored_has_dna": true,
+      "ambiguous_name": false,
+      "ncbi": {
+        "accession": "NC_083272.1",
+        "title": "Acropora cervicornis mitochondrion, complete genome",
+        "organism": "Acropora cervicornis",
+        "search_term": "Acropora cervicornis[Organism] AND biomol_genomic[prop] AND srcdb_refseq[prop]",
+        "letters_first_fetch": 1000,
+        "first1000_len": 1000
+      },
+      "ena": {
+        "available": false,
+        "accession_used": null,
+        "letters_total": 0,
+        "first1000_len": 0
+      },
+      "status": "stored_matches_ncbi",
+      "ena_vs_ncbi_first1000_match": null
+    }
+  ],
+  "summary": {
+    "status_counts": {
+      "ambiguous_name": 5,
+      "stored_matches_ncbi": 55,
+      "blank_but_ncbi_available": 2,
+      "no_ncbi_record": 18,
+      "blank_ncbi_short": 8,
+      "stored_present_ncbi_short": 1
+    },
+    "ena_available_count": 10,
+    "blank_with_ncbi_available": 2,
+    "stored_differs_from_ncbi": 0
+  }
+}

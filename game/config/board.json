@@ -1,0 +1,24 @@
+{
+  "page": {
+    "widthIn": 18,
+    "heightIn": 24,
+    "background": "#FAFAF8"
+  },
+  "title": {
+    "text": "Cycles of Survival",
+    "color": "#263238",
+    "size": 48,
+    "topIn": 0.75
+  },
+  "grid": {
+    "rows": 10,
+    "cols": 8,
+    "cellIn": 1,
+    "lineColor": "#9E9E9E",
+    "borderColor": "#424242"
+  },
+  "spaces": [
+    { "row": 0, "col": 0, "label": "Start", "fill": "#E8F5E9", "color": "#1B5E20" },
+    { "row": 9, "col": 7, "label": "Goal", "fill": "#FFF3E0", "color": "#E65100" }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "page": {
+    "widthIn": 24,
+    "heightIn": 20,
+    "background": "#FFFFFF"
+  },
+  "title": {
+    "text": "",
+    "color": "#000000",
+    "size": 36,
+    "topIn": 0.5
+  },
+  "grid": {
+    "rows": 10,
+    "cols": 12,
+    "cellIn": 1,
+    "lineColor": "#CCCCCC",
+    "borderColor": "#000000"
+  },
+  "spaces": []
+}

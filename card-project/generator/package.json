@@ -1,0 +1,13 @@
+{
+  "name": "card-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PNG layer-based card/board generator scaffold",
+  "type": "module",
+  "scripts": {
+    "start": "echo 'Use root scripts in ../.. for generation'"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2"
+  }
+}

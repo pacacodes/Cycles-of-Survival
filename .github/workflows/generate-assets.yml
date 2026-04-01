@@ -1,0 +1,53 @@
+name: Generate game assets
+
+on:
+  push:
+    branches: [ Cycles-of-Survival ]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate cards
+        run: npm run generate:cards
+
+      - name: Generate board
+        run: npm run generate:board
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: game-assets
+          path: |
+            output/cards.pdf
+            output/Board/board.pdf
+
+      - name: Compute tag
+        id: tag
+        run: echo "value=assets-$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.tag.outputs.value }}
+          name: Cycles of Survival Assets ${{ steps.tag.outputs.value }}
+          files: |
+            output/cards.pdf
+            output/Board/board.pdf
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

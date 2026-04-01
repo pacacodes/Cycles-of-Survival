@@ -1,0 +1,10 @@
+{
+  "cards": [
+    { "id": "blank-a", "title": "", "value": "", "suit": "", "text": "", "background": "#FFFFFF", "titleColor": "#000000" },
+    { "id": "blank-b", "title": "", "value": "", "suit": "", "text": "", "background": "#FFFFFF", "titleColor": "#000000" },
+    { "id": "blank-c", "title": "", "value": "", "suit": "", "text": "", "background": "#FFFFFF", "titleColor": "#000000" },
+    { "id": "blank-d", "title": "", "value": "", "suit": "", "text": "", "background": "#FFFFFF", "titleColor": "#000000" },
+    { "id": "blank-e", "title": "", "value": "", "suit": "", "text": "", "background": "#FFFFFF", "titleColor": "#000000" },
+    { "id": "blank-f", "title": "", "value": "", "suit": "", "text": "", "background": "#FFFFFF", "titleColor": "#000000" }
+  ]
+}
