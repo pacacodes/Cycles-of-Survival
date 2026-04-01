@@ -575,6 +575,14 @@ async function writeSingleCardPNG(card, outPath, options = {}) {
   writeCanvasPNG(canvas, outPath);
 }
 
+function getEachCardBaseName(card, options = {}) {
+  let baseName = (card.fileName && card.fileName.replace(/\.png$/, ''))
+    || (options.fileName && options.fileName.replace(/\.png$/, ''))
+    || `Organism-Plant-${(card.id || card.title || 'card')}`;
+
+  return baseName.replace(/[^a-zA-Z0-9-_]/g, '_');
+}
+
 async function writeEachCardPNG(cards, outDir, options = {}) {
   fs.mkdirSync(outDir, { recursive: true });
   const dpi = options.dpi || 300;
@@ -582,12 +590,8 @@ async function writeEachCardPNG(cards, outDir, options = {}) {
   const gapPt = options.gapPt != null ? options.gapPt : (0.5 * INCH);
   try {
     for (const card of cards) {
-      let baseName = (card.fileName && card.fileName.replace(/\.png$/, ''))
-        || (options.fileName && options.fileName.replace(/\.png$/, ''))
-        || `Organism-Plant-${(card.id || card.title || 'card')}`;
-      // Sanitize baseName for filesystem
-      baseName = baseName.replace(/[^a-zA-Z0-9-_]/g, '_');
-      const filePath = path.resolve(process.cwd(), path.join(outDir, `${baseName}.png`));
+      const baseName = getEachCardBaseName(card, options);
+      const filePath = path.resolve(outDir, `${baseName}.png`);
       try {
         await writeFrontBackPairPNG({
           card,
@@ -621,4 +625,5 @@ module.exports = {
   writeEachCardPNG,
   writeSingleCardPNG,
   getBadgeGeometry,
+  getEachCardBaseName,
 };

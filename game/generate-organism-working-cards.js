@@ -2,14 +2,18 @@
 
 const fs = require('fs');
 const path = require('path');
-const { writeEachCardPNG } = require('./lib/cards/layout-png');
+const crypto = require('crypto');
+const { writeEachCardPNG, getEachCardBaseName } = require('./lib/cards/layout-png');
 const { ensureDir, slugify } = require('./lib/file');
+
+const REPO_ROOT = path.resolve(__dirname, '..');
 
 function parseArgs() {
   const args = process.argv.slice(2);
   const opts = {
     config: 'game/config/organisms.json',
-    outDir: 'output/Working Organism Cards',
+    outDir: 'output/Working Organism Cards/current',
+    safeDir: 'saved_files/Working Organism Cards/current',
     noOpen: true,
     printSafe: false,
     forceAll: false,
@@ -19,6 +23,7 @@ function parseArgs() {
     const a = args[i];
     if (a === '--config' && args[i + 1]) opts.config = args[++i];
     else if (a === '--outDir' && args[i + 1]) opts.outDir = args[++i];
+    else if (a === '--safeDir' && args[i + 1]) opts.safeDir = args[++i];
     else if (a === '--open') opts.noOpen = false;
     else if (a === '--printSafe') opts.printSafe = true;
     else if (a === '--forceAll') opts.forceAll = true;
@@ -34,7 +39,7 @@ function parseArgs() {
 }
 
 function loadOrganisms(configPath) {
-  const abs = path.resolve(process.cwd(), configPath);
+  const abs = path.resolve(REPO_ROOT, configPath);
   const raw = fs.readFileSync(abs, 'utf8');
   const data = JSON.parse(raw);
   if (!Array.isArray(data.organisms)) throw new Error('organisms.json must contain an array field: organisms');
@@ -63,12 +68,67 @@ function getMainPhotoAssetSignature(card) {
   }
 }
 
+function getCardFileName(card) {
+  return `${getEachCardBaseName(card)}.png`;
+}
+
+function atomicWriteJson(filePath, data) {
+  ensureDir(path.dirname(filePath));
+  const tempPath = `${filePath}.tmp-${process.pid}`;
+  fs.writeFileSync(tempPath, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
+  fs.renameSync(tempPath, filePath);
+}
+
+function loadManifest(manifestPath) {
+  try {
+    if (!fs.existsSync(manifestPath)) return {};
+    return JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+  } catch (_) {
+    return {};
+  }
+}
+
+function getManifestRecord(manifest, cardId) {
+  const cards = manifest && manifest._cards ? manifest._cards : manifest;
+  if (!cards || !Object.prototype.hasOwnProperty.call(cards, cardId)) {
+    return null;
+  }
+
+  const record = cards[cardId];
+  if (typeof record === 'string') {
+    return { signature: record, fileName: null };
+  }
+
+  return record;
+}
+
+function removeUnexpectedPNGs(dirPath, expectedFiles) {
+  if (!fs.existsSync(dirPath)) return;
+
+  for (const entry of fs.readdirSync(dirPath)) {
+    if (!entry.toLowerCase().endsWith('.png')) continue;
+    if (expectedFiles.has(entry)) continue;
+    fs.unlinkSync(path.join(dirPath, entry));
+  }
+}
+
+function syncDirectoryFiles(sourceDir, targetDir, fileNames) {
+  ensureDir(targetDir);
+  for (const fileName of fileNames) {
+    const sourcePath = path.join(sourceDir, fileName);
+    const targetPath = path.join(targetDir, fileName);
+    fs.copyFileSync(sourcePath, targetPath);
+  }
+}
+
 (async function main() {
   try {
     const opts = parseArgs();
     const organisms = loadOrganisms(opts.config);
-    const outDir = path.resolve(process.cwd(), opts.outDir);
+    const outDir = path.resolve(REPO_ROOT, opts.outDir);
+    const safeDir = path.resolve(REPO_ROOT, opts.safeDir);
     ensureDir(outDir);
+    ensureDir(safeDir);
 
     // Use getBadgeGeometry from layout-png.js for badge/connector placement
     const { getBadgeGeometry } = require('./lib/cards/layout-png');
@@ -93,17 +153,11 @@ function getMainPhotoAssetSignature(card) {
       };
     });
 
-    // Load previous manifest for change detection
     const manifestPath = path.join(outDir, '.manifest.json');
-    let previousManifest = {};
-    try {
-      if (fs.existsSync(manifestPath)) {
-        const manifestJson = fs.readFileSync(manifestPath, 'utf8');
-        previousManifest = JSON.parse(manifestJson);
-      }
-    } catch (err) {
-      // Start fresh if manifest is corrupted
-    }
+    const safeManifestPath = path.join(safeDir, '.manifest.json');
+    const previousManifest = loadManifest(manifestPath);
+    const fallbackManifest = loadManifest(safeManifestPath);
+    const activeManifest = Object.keys(previousManifest).length ? previousManifest : fallbackManifest;
 
     // Signature includes all render-driving card fields so only changed cards regenerate.
     function cardSignature(card) {
@@ -133,7 +187,6 @@ function getMainPhotoAssetSignature(card) {
     }
 
     // Calculate checksum of layout + layer code so any code changes trigger rebuild
-    const crypto = require('crypto');
     function getLayoutCodeChecksum() {
       const hash = crypto.createHash('md5');
       const roots = [
@@ -172,45 +225,67 @@ function getMainPhotoAssetSignature(card) {
     }
 
     const currentCodeChecksum = getLayoutCodeChecksum();
+    const expectedFiles = new Set(cards.map(getCardFileName));
 
     // Filter to only cards that changed
     const cardsToRender = opts.forceAll ? cards : cards.filter(card => {
       // If code changed, regenerate all
-      if (previousManifest._codeChecksum !== currentCodeChecksum) {
+      if (activeManifest._codeChecksum !== currentCodeChecksum) {
         return true;
       }
+
       const sig = cardSignature(card);
-      const prevSig = previousManifest[card.id];
-      return sig !== prevSig;
+      const prevRecord = getManifestRecord(activeManifest, card.id);
+      const fileName = getCardFileName(card);
+      if (!prevRecord || sig !== prevRecord.signature) {
+        return true;
+      }
+
+      return !fs.existsSync(path.join(outDir, fileName)) || !fs.existsSync(path.join(safeDir, fileName));
     });
 
-    if (cardsToRender.length === 0) {
-      console.log('No changes detected. All cards up to date.');
-      return;
+    if (cardsToRender.length > 0) {
+      console.log(`Rendering ${cardsToRender.length} of ${cards.length} cards (${opts.forceAll ? 'force-all' : 'changed only'})...`);
+      if (cardsToRender.length < cards.length) {
+        console.log(`Changed cards: ${cardsToRender.map(c => c.card_label).join(', ')}`);
+      }
+
+      await writeEachCardPNG(cardsToRender, outDir, {
+        includeGuides: !opts.printSafe,
+        dpi: opts.dpi,
+      });
+    } else {
+      console.log('No card content changes detected. Verifying current and safe sets...');
     }
 
-    console.log(`Rendering ${cardsToRender.length} of ${cards.length} cards (${opts.forceAll ? 'force-all' : 'changed only'})...`);
-    if (cardsToRender.length < cards.length) {
-      console.log(`Changed cards: ${cardsToRender.map(c => c.card_label).join(', ')}`);
-    }
+    syncDirectoryFiles(outDir, safeDir, Array.from(expectedFiles).sort());
+    removeUnexpectedPNGs(outDir, expectedFiles);
+    removeUnexpectedPNGs(safeDir, expectedFiles);
 
-    await writeEachCardPNG(cardsToRender, outDir, {
-      includeGuides: !opts.printSafe,
-      dpi: opts.dpi,
-    });
-
-    // Update manifest
     const newManifest = {
       _codeChecksum: currentCodeChecksum,
+      _generatedAt: new Date().toISOString(),
+      _paths: {
+        current: outDir,
+        safe: safeDir,
+      },
+      _cards: {},
     };
     for (const card of cards) {
-      newManifest[card.id] = cardSignature(card);
+      newManifest._cards[card.id] = {
+        signature: cardSignature(card),
+        fileName: getCardFileName(card),
+      };
     }
-    fs.writeFileSync(manifestPath, JSON.stringify(newManifest, null, 2));
+    atomicWriteJson(manifestPath, newManifest);
+    atomicWriteJson(safeManifestPath, newManifest);
 
-    console.log(`✓ Regenerated ${cardsToRender.length} working organism cards`);
+    console.log(`✓ Current set updated in ${outDir}`);
+    console.log(`✓ Safe set mirrored in ${safeDir}`);
     if (cardsToRender.length <= 5) {
-      console.log(`  Changed: ${cardsToRender.map(c => c.card_label).join(', ')}`);
+      if (cardsToRender.length > 0) {
+        console.log(`  Changed: ${cardsToRender.map(c => c.card_label).join(', ')}`);
+      }
     }
   } catch (err) {
     console.error('Failed to generate working organism cards:', err.message);

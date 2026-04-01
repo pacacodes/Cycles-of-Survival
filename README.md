@@ -90,6 +90,23 @@ npm run generate:cards -- --each --out output/cards
 ```
 This writes `output/cards/<card-name>.png` for every card.
 
+### Generate the working organism current set
+```bash
+npm run generate:organisms:working
+```
+This keeps one canonical PNG per organism card in `output/Working Organism Cards/current` and mirrors the same current set into `saved_files/Working Organism Cards/current` for persistent recovery.
+
+Options:
+```bash
+node game/generate-organism-working-cards.js --outDir "output/Working Organism Cards/current" --safeDir "saved_files/Working Organism Cards/current"
+node game/generate-organism-working-cards.js --forceAll
+```
+
+Behavior:
+- Existing cards are updated in place instead of creating duplicate versions.
+- Removed or renamed cards are pruned from both current-set directories.
+- The safe copy follows ELPACA's `saved_files/` pattern so the latest full set survives transient output loss.
+
 Options:
 ```bash
 node game/generate-board.js --config game/config/board.json --out output/Board/board.png
