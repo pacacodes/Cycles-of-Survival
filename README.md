@@ -1,6 +1,6 @@
 # Cycles of Survival — Cycles of Survival (Board/Card Game)
 
-This branch pivots Cycles of Survival from a web app into a tooling repo for a physical board/card game: Cycles of Survival. It now provides Node-based generators to produce print-ready PNGs for standard playing card–sized cards and a grid-based game board. Layers are saved per element (background, grid, spaces, title) and composited into final images.
+A physical board/card game: Cycles of Survival. It now provides Node-based generators to produce print-ready PNGs for standard playing card–sized cards and a grid-based game board. Layers are saved per element (background, grid, spaces, title) and composited into final images.
 
 ## What’s Included
 
