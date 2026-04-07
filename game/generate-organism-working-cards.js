@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const { writeEachCardPNG, getEachCardBaseName } = require('./lib/cards/layout-png');
-const { ensureDir, slugify } = require('./lib/file');
+const { ensureDir } = require('./lib/file');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
 
@@ -14,6 +14,7 @@ function parseArgs() {
     config: 'game/config/organisms.json',
     outDir: 'output/Working Organism Cards/current',
     safeDir: 'saved_files/Working Organism Cards/current',
+    legacyDir: 'Output/working organisms',
     noOpen: true,
     printSafe: false,
     forceAll: false,
@@ -24,6 +25,7 @@ function parseArgs() {
     if (a === '--config' && args[i + 1]) opts.config = args[++i];
     else if (a === '--outDir' && args[i + 1]) opts.outDir = args[++i];
     else if (a === '--safeDir' && args[i + 1]) opts.safeDir = args[++i];
+    else if (a === '--legacyDir' && args[i + 1]) opts.legacyDir = args[++i];
     else if (a === '--open') opts.noOpen = false;
     else if (a === '--printSafe') opts.printSafe = true;
     else if (a === '--forceAll') opts.forceAll = true;
@@ -46,30 +48,91 @@ function loadOrganisms(configPath) {
   return data.organisms;
 }
 
-function getMainPhotoAssetSignature(card) {
-  const photoFile = (card && card.main_photo) || (card && card.scientific_name ? `${card.scientific_name}.png` : '');
-  if (!photoFile) {
-    return null;
+function withPhotoExtensions(fileBase) {
+  const noExt = fileBase.replace(/\.[^.]+$/, '');
+  return [
+    `${noExt}.png`,
+    `${noExt}.jpg`,
+    `${noExt}.jpeg`,
+    `${noExt}.webp`,
+  ];
+}
+
+function buildMainPhotoCandidates(card) {
+  const explicit = (card && card.main_photo) || '';
+  const scientific = (card && card.scientific_name) || '';
+  const trimmedScientific = scientific.trim();
+  const noTrailingDot = trimmedScientific.replace(/\.+$/, '');
+
+  const candidates = [];
+  if (explicit) candidates.push(explicit);
+  if (trimmedScientific) {
+    candidates.push(`${trimmedScientific}.png`);
+    candidates.push(`${trimmedScientific.replace(/\s+/g, '_')}.png`);
+  }
+  if (noTrailingDot && noTrailingDot !== trimmedScientific) {
+    candidates.push(`${noTrailingDot}.png`);
+    candidates.push(`${noTrailingDot.replace(/\s+/g, '_')}.png`);
   }
 
-  const photoPath = path.resolve(__dirname, './lib/cards/layers/main-photo', photoFile);
-  try {
-    const stats = fs.statSync(photoPath);
-    return {
-      file: photoFile,
-      size: stats.size,
-      mtimeMs: Math.trunc(stats.mtimeMs),
-    };
-  } catch (err) {
-    return {
-      file: photoFile,
-      missing: true,
-    };
+  const expanded = [];
+  for (const candidate of candidates) {
+    expanded.push(candidate);
+    for (const variant of withPhotoExtensions(candidate)) {
+      expanded.push(variant);
+    }
   }
+
+  const seen = new Set();
+  return expanded.filter((name) => {
+    const key = name.toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function getMainPhotoAssetSignature(card) {
+  const photoDir = path.resolve(__dirname, './lib/cards/layers/main-photo');
+  const candidates = buildMainPhotoCandidates(card);
+  if (!candidates.length) return null;
+
+  for (const photoFile of candidates) {
+    const photoPath = path.resolve(photoDir, photoFile);
+    try {
+      const stats = fs.statSync(photoPath);
+      return {
+        file: photoFile,
+        size: stats.size,
+        mtimeMs: Math.trunc(stats.mtimeMs),
+      };
+    } catch (err) {
+      // Continue until we find the first real asset match.
+    }
+  }
+
+  return {
+    file: candidates[0],
+    missing: true,
+  };
 }
 
 function getCardFileName(card) {
   return `${getEachCardBaseName(card)}.png`;
+}
+
+function getCardNumberFromLabel(cardLabel) {
+  const match = String(cardLabel || '').match(/card\s*(\d+)/i);
+  return match ? Number(match[1]) : null;
+}
+
+function getOrderedCardBaseName(cardLabel, fallbackIndex, totalCards) {
+  const digits = Math.max(2, String(totalCards).length);
+  const cardNumber = getCardNumberFromLabel(cardLabel);
+  const resolvedNumber = Number.isInteger(cardNumber) && cardNumber > 0
+    ? cardNumber
+    : fallbackIndex + 1;
+  return `card-${String(resolvedNumber).padStart(digits, '0')}`;
 }
 
 function atomicWriteJson(filePath, data) {
@@ -127,8 +190,10 @@ function syncDirectoryFiles(sourceDir, targetDir, fileNames) {
     const organisms = loadOrganisms(opts.config);
     const outDir = path.resolve(REPO_ROOT, opts.outDir);
     const safeDir = path.resolve(REPO_ROOT, opts.safeDir);
+    const legacyDir = opts.legacyDir ? path.resolve(REPO_ROOT, opts.legacyDir) : null;
     ensureDir(outDir);
     ensureDir(safeDir);
+    if (legacyDir) ensureDir(legacyDir);
 
     // Use getBadgeGeometry from layout-png.js for badge/connector placement
     const { getBadgeGeometry } = require('./lib/cards/layout-png');
@@ -149,7 +214,7 @@ function syncDirectoryFiles(sourceDir, targetDir, fileNames) {
         neonColor,
         titleColor: '#000000',
         background: '#FFFFFF',
-        fileName: `${slugify(organism.card_label || `card-${index + 1}`)}`
+        fileName: getOrderedCardBaseName(organism.card_label || `Card ${index + 1}`, index, organisms.length)
       };
     });
 
@@ -259,8 +324,14 @@ function syncDirectoryFiles(sourceDir, targetDir, fileNames) {
     }
 
     syncDirectoryFiles(outDir, safeDir, Array.from(expectedFiles).sort());
+    if (legacyDir) {
+      syncDirectoryFiles(outDir, legacyDir, Array.from(expectedFiles).sort());
+    }
     removeUnexpectedPNGs(outDir, expectedFiles);
     removeUnexpectedPNGs(safeDir, expectedFiles);
+    if (legacyDir) {
+      removeUnexpectedPNGs(legacyDir, expectedFiles);
+    }
 
     const newManifest = {
       _codeChecksum: currentCodeChecksum,
@@ -279,9 +350,15 @@ function syncDirectoryFiles(sourceDir, targetDir, fileNames) {
     }
     atomicWriteJson(manifestPath, newManifest);
     atomicWriteJson(safeManifestPath, newManifest);
+    if (legacyDir) {
+      atomicWriteJson(path.join(legacyDir, '.manifest.json'), newManifest);
+    }
 
     console.log(`✓ Current set updated in ${outDir}`);
     console.log(`✓ Safe set mirrored in ${safeDir}`);
+    if (legacyDir) {
+      console.log(`✓ Legacy set mirrored in ${legacyDir}`);
+    }
     if (cardsToRender.length <= 5) {
       if (cardsToRender.length > 0) {
         console.log(`  Changed: ${cardsToRender.map(c => c.card_label).join(', ')}`);
