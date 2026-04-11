@@ -27,6 +27,7 @@ function parseArgs() {
   const opts = {
     config: 'game/config/cards.json',
     out: 'output/cards.png',
+    dpi: 300,
     mode: 'sheet', // 'sheet' (grid on letter) or 'single' (all cards, one image each)
     cardIndex: null,
     cardTitle: null,
@@ -39,6 +40,13 @@ function parseArgs() {
     const a = args[i];
     if (a === '--config' && args[i + 1]) opts.config = args[++i];
     else if (a === '--out' && args[i + 1]) opts.out = args[++i];
+    else if (a === '--dpi' && args[i + 1]) {
+      const parsed = Number(args[++i]);
+      if (!Number.isFinite(parsed) || parsed <= 0) {
+        throw new Error('--dpi must be a positive number');
+      }
+      opts.dpi = parsed;
+    }
     else if (a === '--singlePages') opts.mode = 'single';
     else if (a === '--cardIndex' && args[i + 1]) opts.cardIndex = parseInt(args[++i], 10);
     else if (a === '--cardTitle' && args[i + 1]) opts.cardTitle = args[++i];
@@ -75,7 +83,7 @@ function loadCards(configPath) {
         const plantName = slugify(single.card.title || single.card.id || single.name);
         const fileName = `Organism-Plant-${plantName}.png`;
         const outPath = path.resolve(baseDir, fileName);
-        await writeSingleCardPNG(single.card, outPath, { includeGuides: !opts.printSafe });
+        await writeSingleCardPNG(single.card, outPath, { dpi: opts.dpi, includeGuides: !opts.printSafe });
         console.log(`Wrote single card PNG to ${outPath}`);
         if (!opts.noOpen) autoOpen(outPath);
         return;
@@ -84,14 +92,14 @@ function loadCards(configPath) {
     // Each card to its own file
     if (opts.each) {
       const outDir = path.resolve(process.cwd(), 'output/Card/Organism/Plant');
-      await writeEachCardPNG(cards, outDir, { includeGuides: !opts.printSafe });
+      await writeEachCardPNG(cards, outDir, { dpi: opts.dpi, includeGuides: !opts.printSafe });
       console.log(`Wrote ${cards.length} front/back card PNGs to ${outDir}`);
       if (!opts.noOpen) autoOpen(outDir);
       return;
     }
 
     // Batch modes (sheet or single-pages)
-    const layoutOpts = { includeGuides: !opts.printSafe };
+    const layoutOpts = { dpi: opts.dpi, includeGuides: !opts.printSafe };
     const { write } = opts.mode === 'single' ? layoutSinglePagesPNG(cards, layoutOpts) : layoutSheetPNG(cards, layoutOpts);
     const outPath = path.resolve(process.cwd(), opts.out);
     await write(outPath);

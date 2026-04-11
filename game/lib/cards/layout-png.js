@@ -6,7 +6,7 @@ const drawFunctionalCategory = require('./layers/detailed-type/category/function
 const { drawTitleColorBlock } = require('./layers/title-color-block');
 const fs = require('fs');
 const path = require('path');
-const { createCanvasInches, writeCanvasPNG } = require('../png');
+const { configureCanvasContext, createCanvasInches, writeCanvasPNG } = require('../png');
 const { INCH, CARD_TRIM_W, CARD_TRIM_H, CARD_BLEED_W, CARD_BLEED_H, BLEED, PAGE_W, PAGE_H, COLS, ROWS, GAP_X, GAP_Y } = require('../size');
 const roundedRectPath = require('./utils/path');
 const wrapText = require('./utils/text');
@@ -527,7 +527,7 @@ function layoutSheetPNG(cards, options = {}) {
           }
         }
 
-        writeCanvasPNG(canvas, outPath);
+        writeCanvasPNG(canvas, outPath, dpi);
       } catch (e) {
         throw e;
       }
@@ -547,19 +547,19 @@ function layoutSinglePagesPNG(cards, options = {}) {
       const scale = dims.scale;
       const { createCanvas } = require('@napi-rs/canvas');
       const composite = createCanvas(cardW, cardH * rows);
-      const cctx = composite.getContext('2d');
+      const cctx = configureCanvasContext(composite.getContext('2d'));
       cctx.fillStyle = '#FFFFFF';
       cctx.fillRect(0, 0, cardW, cardH * rows);
       for (let i = 0; i < rows; i++) {
         const rowCanvas = createCanvas(cardW, cardH);
-        const rowCtx = rowCanvas.getContext('2d');
+        const rowCtx = configureCanvasContext(rowCanvas.getContext('2d'));
         await drawCardPNG(rowCtx, 0, 0, cards[i], scale, { includeGuides: false });
         if (includeGuides) {
           drawCardGuides(rowCtx, 0, 0, scale);
         }
         cctx.drawImage(rowCanvas, 0, i * cardH);
       }
-      writeCanvasPNG(composite, outPath);
+      writeCanvasPNG(composite, outPath, dpi);
     }
   };
 }
@@ -572,7 +572,7 @@ async function writeSingleCardPNG(card, outPath, options = {}) {
   if (includeGuides) {
     drawCardGuides(ctx, 0, 0, scale);
   }
-  writeCanvasPNG(canvas, outPath);
+  writeCanvasPNG(canvas, outPath, dpi);
 }
 
 function getEachCardBaseName(card, options = {}) {

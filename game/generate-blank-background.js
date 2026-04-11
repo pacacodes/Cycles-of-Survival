@@ -29,7 +29,7 @@ function generateBlankBackground(outPath, options = {}) {
   const backXpt = CARD_BLEED_W + gap;
   drawBlankCard(ctx, backXpt, 0, scale, 'BACK');
   
-  writeCanvasPNG(canvas, outPath);
+  writeCanvasPNG(canvas, outPath, dpi);
   console.log(`✓ Blank background card generated: ${outPath}`);
 }
 

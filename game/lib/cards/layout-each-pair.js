@@ -24,7 +24,7 @@ async function writeFrontBackPairPNG({ card, outPath, dpi = 300, gapPt = 0.5 * I
     drawCardGuides(ctx, backXPt, yPt, scale);
   }
 
-  writeCanvasPNG(canvas, outPath);
+  writeCanvasPNG(canvas, outPath, dpi);
 }
 
 module.exports = {

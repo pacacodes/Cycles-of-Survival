@@ -21,13 +21,13 @@ function renderBoardPNG(cfg, outPath, options = {}) {
   // Background layer
   drawBackground(bg, cfg, widthPx, heightPx);
   const bgPath = path.join(layersDir, 'background.png');
-  writeCanvasPNG(bgCanvas, bgPath);
+  writeCanvasPNG(bgCanvas, bgPath, dpi);
 
   // Title layer
   const { canvas: titleCanvas, ctx: title } = createCanvasInches(widthIn, heightIn, dpi);
   drawTitle(title, cfg, widthPx, scale, INCH);
   const titlePath = path.join(layersDir, 'title.png');
-  writeCanvasPNG(titleCanvas, titlePath);
+  writeCanvasPNG(titleCanvas, titlePath, dpi);
 
   // Grid layer
   const { canvas: gridCanvas, ctx: grid } = createCanvasInches(widthIn, heightIn, dpi);
@@ -42,17 +42,17 @@ function renderBoardPNG(cfg, outPath, options = {}) {
 
   drawGrid(grid, cfg, { rows, cols, gx, gy, gridW, gridH, cellPx, scale });
   const gridPath = path.join(layersDir, 'grid.png');
-  writeCanvasPNG(gridCanvas, gridPath);
+  writeCanvasPNG(gridCanvas, gridPath, dpi);
 
   // Spaces layer
   const { canvas: spacesCanvas, ctx: spaces } = createCanvasInches(widthIn, heightIn, dpi);
   drawSpaces(spaces, cfg, { gx, gy, cellPx, scale, INCH });
   const spacesPath = path.join(layersDir, 'spaces.png');
-  writeCanvasPNG(spacesCanvas, spacesPath);
+  writeCanvasPNG(spacesCanvas, spacesPath, dpi);
 
   // Composite final board
   const finalPath = outPath;
-  compositePNG(finalPath, widthPx, heightPx, [bgPath, gridPath, spacesPath, titlePath]);
+  compositePNG(finalPath, widthPx, heightPx, [bgPath, gridPath, spacesPath, titlePath], dpi);
   return finalPath;
 }
 
