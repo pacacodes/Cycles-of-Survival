@@ -228,7 +228,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     } else if (isCard58) {
       mainPhotoOptions.photoScaleMultiplier = 1.11;
     } else if (isCard59) {
-      mainPhotoOptions.photoScaleMultiplier = 1.16;
+      mainPhotoOptions.photoScaleMultiplier = 0.98;
     } else if (isCard60) {
       mainPhotoOptions.photoScaleMultiplier = 1.02;
       mainPhotoOptions.photoFitMode = 'contain';

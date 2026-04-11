@@ -91,7 +91,7 @@ module.exports = async function organismPhoto(ctx, x, y, { width, height, scale,
       const img = await loadImage(imgPath);
       // Fill the target area while preserving original image proportions.
       const colorBlockHeight = Math.round(72 * 0.5 + 20 + 20); // 0.5" in px + 40px extra
-      const scaleFactor = 1.10 * photoScaleMultiplier;
+      const scaleFactor = photoScaleMultiplier;
       const targetW = width * scaleFactor;
       const targetH = (height - colorBlockHeight) * scaleFactor;
       const targetX = x + (width - targetW) / 2;
