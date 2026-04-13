@@ -591,14 +591,14 @@
     {
       "card_label": "Card 16",
       "common_name": "Early land plant",
-      "scientific_name": "Rhynia major",
+      "scientific_name": "Aglaophyton major",
       "organism_type": "Plants & Algae",
       "kingdom": "Plantae",
       "phylum": "Tracheophyta",
       "class": "Rhyniopsida",
       "order": "Rhyniales",
       "family": "Rhyniaceae",
-      "genus": "Rhynia",
+      "genus": "Aglaophyton",
       "species": "major",
       "biomes": [
         "Forest",
