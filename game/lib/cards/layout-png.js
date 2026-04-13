@@ -60,6 +60,8 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
   const isCard4 = (card && card.card_label === 'Card 4') ||
     ((card && card.scientific_name || '').toLowerCase() === 'escherichia coli');
   const isCard6 = card && card.card_label === 'Card 6';
+  const isCard12 = card && card.card_label === 'Card 12';
+  const isCard13 = card && card.card_label === 'Card 13';
   const isCard21 = (card && card.card_label === 'Card 21') ||
     ((card && card.scientific_name || '').toLowerCase() === 'quercus robur');
   const isCard29 = card && card.card_label === 'Card 29';
@@ -174,6 +176,9 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     if (isCard6) {
       mainPhotoY -= 40;
     }
+    if (isCard12) {
+      mainPhotoY -= 40;
+    }
     if (isCard21) {
       mainPhotoX += 25;
     }
@@ -224,6 +229,8 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       mainPhotoOptions.photoScaleMultiplier = 0.96;
     } else if (isCard3) {
       mainPhotoOptions.photoScaleMultiplier = 1.10;
+    } else if (isCard13) {
+      mainPhotoOptions.photoScaleMultiplier = 0.96;
     } else if (isCard4) {
       mainPhotoOptions.photoScaleMultiplier = 1.00;
     } else if (isCard21) {
