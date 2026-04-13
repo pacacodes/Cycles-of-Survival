@@ -55,8 +55,11 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     ((card && card.scientific_name || '').toLowerCase() === 'anabaena sp.');
   const isCard2 = (card && card.card_label === 'Card 2') ||
     ((card && card.scientific_name || '').toLowerCase() === 'thalassiosira pseudonana');
+  const isCard3 = (card && card.card_label === 'Card 3') ||
+    ((card && card.scientific_name || '').toLowerCase() === 'conophyton sp.');
   const isCard4 = (card && card.card_label === 'Card 4') ||
     ((card && card.scientific_name || '').toLowerCase() === 'escherichia coli');
+  const isCard6 = card && card.card_label === 'Card 6';
   const isCard21 = (card && card.card_label === 'Card 21') ||
     ((card && card.scientific_name || '').toLowerCase() === 'quercus robur');
   const isCard29 = card && card.card_label === 'Card 29';
@@ -161,9 +164,15 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     if (isCard2) {
       mainPhotoX -= 20;
     }
+    if (isCard3) {
+      mainPhotoY -= 100;
+    }
     if (isCard4) {
       mainPhotoX -= 10;
       mainPhotoY -= 30;
+    }
+    if (isCard6) {
+      mainPhotoY -= 40;
     }
     if (isCard21) {
       mainPhotoX += 25;
@@ -213,6 +222,8 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     }
     if (isCard2) {
       mainPhotoOptions.photoScaleMultiplier = 0.96;
+    } else if (isCard3) {
+      mainPhotoOptions.photoScaleMultiplier = 1.10;
     } else if (isCard4) {
       mainPhotoOptions.photoScaleMultiplier = 1.00;
     } else if (isCard21) {
