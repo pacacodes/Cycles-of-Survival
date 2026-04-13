@@ -179,6 +179,9 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     if (isCard12) {
       mainPhotoY -= 40;
     }
+    if (isCard13) {
+      mainPhotoY += 3;
+    }
     if (isCard21) {
       mainPhotoX += 25;
     }
@@ -230,7 +233,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     } else if (isCard3) {
       mainPhotoOptions.photoScaleMultiplier = 1.10;
     } else if (isCard13) {
-      mainPhotoOptions.photoScaleMultiplier = 0.96;
+      mainPhotoOptions.photoScaleMultiplier = 0.94;
     } else if (isCard4) {
       mainPhotoOptions.photoScaleMultiplier = 1.00;
     } else if (isCard21) {
