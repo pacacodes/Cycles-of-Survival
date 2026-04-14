@@ -63,6 +63,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
   const isCard12 = card && card.card_label === 'Card 12';
   const isCard13 = card && card.card_label === 'Card 13';
   const isCard16 = card && card.card_label === 'Card 16';
+  const isCard17 = card && card.card_label === 'Card 17';
   const isCard21 = (card && card.card_label === 'Card 21') ||
     ((card && card.scientific_name || '').toLowerCase() === 'quercus robur');
   const isCard29 = card && card.card_label === 'Card 29';
@@ -185,6 +186,9 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     }
     if (isCard16) {
       mainPhotoY -= 40;
+    }
+    if (isCard17) {
+      mainPhotoX += 40;
     }
     if (isCard21) {
       mainPhotoX += 25;
