@@ -26,7 +26,7 @@ module.exports = async function pinusEdulisBackground(ctx, x, y, { width, height
       const imgW = width * scaleFactor;
       const imgH = (height - colorBlockHeight) * scaleFactor;
       const imgX = x + (width - imgW) / 2 + 40;
-      const imgY = y + colorBlockHeight + 40;
+      const imgY = y + colorBlockHeight - 20;
       ctx.save();
       ctx.globalAlpha = 1.0;
       ctx.drawImage(img, imgX, imgY, imgW, imgH);

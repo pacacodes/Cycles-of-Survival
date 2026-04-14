@@ -193,7 +193,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     }
     if (isCard20) {
       mainPhotoX -= 10;
-      mainPhotoY -= 40;
+      mainPhotoY -= 60;
     }
     if (isCard21) {
       mainPhotoX += 25;
