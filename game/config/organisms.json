@@ -3563,7 +3563,7 @@
       },
       "bits": null,
       "role": [
-        "grazer",
+        "herbivore",
         "scavenger"
       ]
     },
@@ -3707,7 +3707,7 @@
       },
       "bits": null,
       "role": [
-        "benthic_feeder"
+        "herbivore"
       ]
     },
     {
@@ -3919,7 +3919,7 @@
       },
       "bits": null,
       "role": [
-        "durophagous_grazer"
+        "predator"
       ]
     },
     {
@@ -4024,7 +4024,7 @@
       },
       "bits": null,
       "role": [
-        "durophagous_feeder",
+        "predator",
         "scavenger"
       ]
     },

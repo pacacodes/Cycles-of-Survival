@@ -1,18 +1,18 @@
+// Canonical roles an organism can be classified under.
 const badgeMap = {
+  producer:           require('./role/producer-badge'),
+  herbivore:          require('./role/herbivore-badge'),
+  predator:           require('./role/predator-badge'),
   apexpredator:       require('./role/apex-predator-badge'),
-  predator:           require('./role/apex-predator-badge'),
-  filterfeeder:       require('./role/filter-feeder-badge'),
   scavenger:          require('./role/scavenger-badge'),
-  builder:            require('./role/builder-badge'),
-  ecosystemengineer:  require('./role/ecosystem-engineer-badge'),
-  mutualist:          require('./role/mutualist-badge'),
-  plagueswarm:        require('./role/plague-swarm-badge'),
+  filterfeeder:       require('./role/filter-feeder-badge'),
+  decomposer:         require('./role/decomposer-badge'),
   detritivore:        require('./role/detritivore-badge'),
-  // Roles that share closest visual match
-  benthicfeeder:      require('./role/filter-feeder-badge'),
-  durophagousgrazer:  require('./role/scavenger-badge'),
-  durophagousfeeder:  require('./role/scavenger-badge'),
-  grazer:             require('./role/filter-feeder-badge'),
+  ecosystemengineer:  require('./role/ecosystem-engineer-badge'),
+  builder:            require('./role/builder-badge'),
+  mutualist:          require('./role/mutualist-badge'),
+  parasite:           require('./role/scavenger-badge'),  // placeholder – no PNG yet
+  plagueswarm:        require('./role/plague-swarm-badge'),
 };
 
 module.exports = async function drawRoleBadge(ctx, x, y, radius, card, scale, neonColor) {

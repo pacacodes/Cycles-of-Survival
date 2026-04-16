@@ -11,7 +11,7 @@ module.exports = async function (ctx, x, y, radius, card, scale) {
     _radius = options.radius;
   }
   ctx.save();
-  const imgPath = path.join(__dirname, './Decomposer.png');
+  const imgPath = path.join(__dirname, './Decomposer_Detritivore.png');
   const img = await loadImage(imgPath);
   const scaleDown = 0.95;
   const size = _radius * 2 * scaleDown;

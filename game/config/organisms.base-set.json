@@ -96,7 +96,7 @@
       ],
       "trophic_level": "Primary consumers (herbivores)",
       "role": [
-        "grazer",
+        "herbivore",
         "scavenger"
       ],
       "dna_sequence": null,
@@ -240,7 +240,7 @@
       ],
       "trophic_level": "Primary consumers (herbivores)",
       "role": [
-        "benthic_feeder"
+        "herbivore"
       ],
       "dna_sequence": null,
       "effects": {
@@ -487,7 +487,7 @@
       ],
       "trophic_level": "Primary consumers (herbivores)",
       "role": [
-        "durophagous_grazer"
+        "predator"
       ],
       "dna_sequence": null,
       "effects": {
@@ -627,7 +627,7 @@
       ],
       "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
       "role": [
-        "durophagous_feeder",
+        "predator",
         "scavenger"
       ],
       "dna_sequence": null,

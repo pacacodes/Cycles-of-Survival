@@ -6,20 +6,11 @@ const badgeMap = {
   tertiaryconsumerscarnivoresthateatothercarnivores:    require('./trophic level/apex-predator-badge'),
   decomposersdetritivoresorganismsthatbreakdowndeadmaterial: require('./trophic level/decomposer-badge'),
   // Legacy short-form values (kept for backward compatibility)
-  builder: require('./trophic level/builder-badge'),
   producer: require('./trophic level/producer-badge'),
   secondaryconsumer: require('./trophic level/secondary-consumer-badge'),
   primaryconsumer: require('./trophic level/primary-consumer-badge'),
-  consumer: require('./trophic level/consumer-badge'),
-  detritivore: require('./trophic level/detritivore-badge'),
   decomposer: require('./trophic level/decomposer-badge'),
-  filterfeeder: require('./trophic level/filter-feeder-badge'),
-  scavenger: require('./trophic level/scavenger-badge'),
-  mutualist: require('./trophic level/mutualist-badge'),
-  ecosystemengineer: require('./trophic level/ecosystem-engineer-badge'),
-  nutrientcyclesdetoxifier: require('./trophic level/nutrient-cycler-detoxifier-badge'),
-  nutrientcyclerdetoxifier: require('./trophic level/nutrient-cycler-detoxifier-badge'),
-  plagueswarmorganism: require('./trophic level/plague-swarm-organism-badge'),
+  detritivore: require('./trophic level/decomposer-badge'),
   apexpredator: require('./trophic level/apex-predator-badge'),
 };
 
