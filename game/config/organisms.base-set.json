@@ -3,18 +3,18 @@
   "organisms": [
     {
       "type": "organism",
-      "card_label": "Card 90",
-      "common_name": "Tamisiocaris",
-      "scientific_name": "Tamisiocaris borealis",
+      "card_label": "Card 109",
+      "common_name": "Cambrian algae",
+      "scientific_name": "Fuxianospira gyrata",
       "main_photo": null,
-      "organism_type": "Aquatic & Reef Invertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Arthropoda",
-      "class": "Dinocarida",
-      "order": "Radiodonta",
-      "family": "Tamisiocarididae",
-      "genus": "Tamisiocaris",
-      "species": "borealis",
+      "organism_type": "Algae and phytoplankton",
+      "kingdom": "Chromista",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Fuxianospira",
+      "species": "gyrata",
       "biomes": [
         "Marine"
       ],
@@ -24,17 +24,17 @@
       "periods": [
         "Cambrian"
       ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "role": [
-        "filter_feeder"
-      ],
+      "trophic_level": "Primary producers (autotrophs)",
       "dna_sequence": null,
       "effects": {
-        "oxygen": 1,
-        "co2": -1,
+        "oxygen": 0,
+        "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "producer"
+      ]
     },
     {
       "type": "organism",
@@ -42,7 +42,7 @@
       "common_name": "Anomalocaris",
       "scientific_name": "Anomalocaris canadensis",
       "main_photo": null,
-      "organism_type": "Aquatic & Reef Invertebrates",
+      "organism_type": "Aquatic invertebrates",
       "kingdom": "Animalia",
       "phylum": "Arthropoda",
       "class": "Dinocarida",
@@ -60,52 +60,16 @@
         "Cambrian"
       ],
       "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
       "role": [
         "predator"
-      ],
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 92",
-      "common_name": "Giant Trilobite",
-      "scientific_name": "Isotelus maximus",
-      "main_photo": null,
-      "organism_type": "Aquatic & Reef Invertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Arthropoda",
-      "class": "Trilobita",
-      "order": "Asaphida",
-      "family": "Asaphidae",
-      "genus": "Isotelus",
-      "species": "maximus",
-      "biomes": [
-        "Marine"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Ordovician"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "role": [
-        "herbivore",
-        "scavenger"
-      ],
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null
+      ]
     },
     {
       "type": "organism",
@@ -113,7 +77,7 @@
       "common_name": "Orthoceras",
       "scientific_name": "Orthoceras regulare",
       "main_photo": null,
-      "organism_type": "Aquatic & Reef Invertebrates",
+      "organism_type": "Aquatic invertebrates",
       "kingdom": "Animalia",
       "phylum": "Mollusca",
       "class": "Cephalopoda",
@@ -131,51 +95,16 @@
         "Ordovician"
       ],
       "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "role": [
-        "predator"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 94",
-      "common_name": "Sea Scorpion",
-      "scientific_name": "Eurypterus remipes",
-      "main_photo": null,
-      "organism_type": "Aquatic & Reef Invertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Arthropoda",
-      "class": "Merostomata",
-      "order": "Eurypterida",
-      "family": "Eurypteridae",
-      "genus": "Eurypterus",
-      "species": "remipes",
-      "biomes": [
-        "Marine"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Silurian"
-      ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "bits": null,
       "role": [
         "predator"
-      ],
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null
+      ]
     },
     {
       "type": "organism",
@@ -183,7 +112,7 @@
       "common_name": "Sea Lily",
       "scientific_name": "Crinoidea sp.",
       "main_photo": null,
-      "organism_type": "Aquatic & Reef Invertebrates",
+      "organism_type": "Aquatic invertebrates",
       "kingdom": "Animalia",
       "phylum": "Echinodermata",
       "class": "Crinoidea",
@@ -201,18 +130,88 @@
         "Silurian"
       ],
       "trophic_level": "Primary consumers (herbivores)",
-      "role": [
-        "filter_feeder",
-        "ecosystem_engineer",
-        "builder"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 1,
         "co2": -1,
         "biodiversity": 2
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "ecosystem_engineer",
+        "builder"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 94",
+      "common_name": "Sea Scorpion",
+      "scientific_name": "Eurypterus remipes",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Merostomata",
+      "order": "Eurypterida",
+      "family": "Eurypteridae",
+      "genus": "Eurypterus",
+      "species": "remipes",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 110",
+      "common_name": "Lingula brachiopod",
+      "scientific_name": "Lingula sp.",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Lingula",
+      "species": "sp.",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder"
+      ]
     },
     {
       "type": "organism",
@@ -220,7 +219,7 @@
       "common_name": "Bothriolepis",
       "scientific_name": "Bothriolepis canadensis",
       "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Placodermi",
@@ -239,24 +238,22 @@
         "Devonian"
       ],
       "trophic_level": "Primary consumers (herbivores)",
-      "role": [
-        "herbivore"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "filter_feeder"
+      ]
     },
     {
-      "type": "organism",
       "card_label": "Card 28",
-      "common_name": "Dunkleosteus",
+      "common_name": "Armored fish",
       "scientific_name": "Dunkleosteus terrelli",
-      "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Placodermi",
@@ -274,51 +271,16 @@
         "Devonian"
       ],
       "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
-      "role": [
-        "apex_predator"
-      ],
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 2
-      },
-      "bits": null
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 97",
-      "common_name": "Scissor-tooth Shark",
-      "scientific_name": "Edestus heinrichi",
-      "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Chondrichthyes",
-      "order": "Eugeneodontida",
-      "family": "Edestidae",
-      "genus": "Edestus",
-      "species": "heinrichi",
-      "biomes": [
-        "Marine"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "role": [
-        "predator"
-      ],
-      "dna_sequence": null,
+      "dna_sequence": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "apex_predator"
+      ]
     },
     {
       "type": "organism",
@@ -326,7 +288,7 @@
       "common_name": "Productid Brachiopod",
       "scientific_name": "Productida sp.",
       "main_photo": null,
-      "organism_type": "Aquatic & Reef Invertebrates",
+      "organism_type": "Aquatic invertebrates",
       "kingdom": "Animalia",
       "phylum": "Brachiopoda",
       "class": "Rhynchonellata",
@@ -344,16 +306,51 @@
         "Carboniferous"
       ],
       "trophic_level": "Primary consumers (herbivores)",
-      "role": [
-        "filter_feeder"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 1,
         "co2": -1,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "filter_feeder"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 97",
+      "common_name": "Scissor-tooth Shark",
+      "scientific_name": "Edestus heinrichi",
+      "main_photo": null,
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Chondrichthyes",
+      "order": "Eugeneodontida",
+      "family": "Edestidae",
+      "genus": "Edestus",
+      "species": "heinrichi",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ]
     },
     {
       "type": "organism",
@@ -361,7 +358,7 @@
       "common_name": "Mesosaurus",
       "scientific_name": "Mesosaurus tenuidens",
       "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Reptilia",
@@ -380,16 +377,16 @@
         "Permian"
       ],
       "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "role": [
-        "predator"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "predator"
+      ]
     },
     {
       "type": "organism",
@@ -397,7 +394,7 @@
       "common_name": "Coiled Nautiloid",
       "scientific_name": "Metacoceras sp.",
       "main_photo": null,
-      "organism_type": "Aquatic & Reef Invertebrates",
+      "organism_type": "Aquatic invertebrates",
       "kingdom": "Animalia",
       "phylum": "Mollusca",
       "class": "Cephalopoda",
@@ -415,17 +412,17 @@
         "Permian"
       ],
       "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "role": [
-        "predator",
-        "scavenger"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "predator",
+        "scavenger"
+      ]
     },
     {
       "type": "organism",
@@ -433,7 +430,7 @@
       "common_name": "Nothosaurus",
       "scientific_name": "Nothosaurus mirabilis",
       "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Reptilia",
@@ -451,16 +448,16 @@
         "Triassic"
       ],
       "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "role": [
-        "predator"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "predator"
+      ]
     },
     {
       "type": "organism",
@@ -468,7 +465,7 @@
       "common_name": "Placodus",
       "scientific_name": "Placodus gigas",
       "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Reptilia",
@@ -486,16 +483,16 @@
         "Triassic"
       ],
       "trophic_level": "Primary consumers (herbivores)",
-      "role": [
-        "predator"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "herbivore"
+      ]
     },
     {
       "type": "organism",
@@ -503,7 +500,7 @@
       "common_name": "Leedsichthys",
       "scientific_name": "Leedsichthys problematicus",
       "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Actinopterygii",
@@ -521,16 +518,16 @@
         "Jurassic"
       ],
       "trophic_level": "Primary consumers (herbivores)",
-      "role": [
-        "filter_feeder"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 1,
         "co2": -1,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "filter_feeder"
+      ]
     },
     {
       "type": "organism",
@@ -538,7 +535,7 @@
       "common_name": "Plesiosaurus",
       "scientific_name": "Plesiosaurus dolichodeirus",
       "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Reptilia",
@@ -556,24 +553,22 @@
         "Jurassic"
       ],
       "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "role": [
-        "predator"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "predator"
+      ]
     },
     {
-      "type": "organism",
       "card_label": "Card 35",
-      "common_name": "Mosasaurus",
+      "common_name": "Mosasaur",
       "scientific_name": "Mosasaurus hoffmannii",
-      "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Reptilia",
@@ -591,16 +586,16 @@
         "Cretaceous"
       ],
       "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
-      "role": [
-        "apex_predator"
-      ],
-      "dna_sequence": null,
+      "dna_sequence": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
       "effects": {
         "oxygen": 0,
         "co2": 0,
-        "biodiversity": 2
+        "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "apex_predator"
+      ]
     },
     {
       "type": "organism",
@@ -608,7 +603,7 @@
       "common_name": "Giant Sea Turtle",
       "scientific_name": "Archelon ischyros",
       "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Reptilia",
@@ -625,18 +620,65 @@
       "periods": [
         "Cretaceous"
       ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "role": [
-        "predator",
-        "scavenger"
-      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
       "dna_sequence": null,
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 1
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "predator",
+        "scavenger"
+      ]
+    },
+    {
+      "card_label": "Card 13",
+      "common_name": "Calcifying Phytoplanktone",
+      "scientific_name": "Emiliania huxleyi",
+      "organism_type": "Algae and phytoplankton",
+      "kingdom": "Chromista",
+      "phylum": "Haptophyta",
+      "class": "Prymnesiophyceae",
+      "order": "Isochrysidales",
+      "family": "Noelaerhabdaceae",
+      "genus": "Emiliania",
+      "species": "huxleyi",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": "TTTGCAGCAGGATGCCTCATTGTGTGGCTGCTTATGCTGCCTGCTTACGGGTTGGCTTGGAGTCAGAGGTCAGGAGTCAGCTTAAGGTTGCTTCAGTTGCTCACGGCGACGCCCAATGCGTGCGCCGGTGGGAGGGAGTGTGTGTGCGCGCGCATTGTGGCTATGTGCGCATTGTGCGCATTGTGGCAGGCTTGCTGCTGCTGATGGTGGGAAGTGTGCTCTGTGTGTAGCGCTGCGCTGGCGTGCGGCGCGCGCGTGCTGTGCGCGTGTGCGAGTTGGATTCGCGTGTGCGTCTCGCTGGGGACGACACGCTGCGGAATCGGACCGAGCCCATGCACCGGGCAAAGAAGGACGCTGCAGAAGCGGTTGGAGAGGCAGCCGGCGTCTGCCGTCACAACGAGTCCCAGCGCTGGTTGGACATGCGCGTCGGCTCGCCCGAGGACTGCTGTCGCGACCCTCCCGTCGTGCCACAGCCTCCGACGAGCTCTGCAACCGAGGAGAGTGAGGGTGCGCCTCCCCTCACTGCTGGCCTGGCTGCGCACCGCCCCACAAAGCACCCCCTCGAGCATCTCTACAAGTACAAGTGCAAGGGCGACCTTCTCCAAGTCGTCAACGCGCCCGGCGGCTCCGGCAAGACTTTAGCCTTGGCCACCCTCCTTGCGGAGCAGGAGGAGATCCGCTCTCGGTCGGCAACGTGGCAGCTAGTCGAGGGACTCGGTAGTTGTGACCCCCCTGAGTGAGGAGACAGGAGAGAGAGAGCTTTTGTGGTGTTGGTGTACGCAATAACGGGACAGGGTAGTCGTTCTCTCTAGCTCCCCTTCTAGCTCTTAAGCATGAGCTGCGCCCTGTGTCCGACCCCTTTTGCGCAGCAACACCTTAAACTTTTAGGCCCTCCAAATTCGGGTCGGAGCGTAGCGGAGTGGGCCCCGAGTTTGAAAAGGGCGACGGACGCTTGCGTCCTAGCCTCCAACAACGCCTCCCCGGCGCAGAGAGAGGGGCCCCCGGAGGGATGCTCAACCGCTCCACGCCACGCCGCTTGCGGCGGTCCTATTCCCAGCTCCGCTGAGGGGGCACTTGGAGCACTTGGAGTGCAGTCGGCAACCTCAAAGAAAGAAAGAAAGAAAACAGACAAACCCAAACGAGGGATGGGGGAGGAGGACAGGGTCCACACCTGCACGAGCAGGATTTTGGAAGGACGATCAGGGGCACAGGTGGGGCTCTCCTGCTCCTGACAAGGGAACGCTTGGCGGGGGGCATATGCTGCCGAGCCGCGCGTCCACTGTGGGTTCCGCCTCCCTTGGGGTGCACATATTATTTTTTAAATAAATAAATAAAACGGTCACACCAAACAAGGGGTGGGAGAAGGACAGGGTCCCCACCTGCACGAGCAGGATCTTGTAAGGACGATCAGGGACAGCAGGCAAATTTTTTGCGGCCCCCCGGACTTGGCCGCGACACGAGCTAATGTGCTGTGCCGCGGATCCCGAGACGAGCTGCCTCCTCAACCTGCCCCAAGAGATTCTCCGCCTCATAACCTCGCTTTTTGCCGAGTGGACGCTGGACGAGCACGGGCGCTTGTCACAGCCCGCCGTGAGCCTCGTCTGCAAGGCACTGCAACGTGCCACTTGCCCGGAAGCTGGGGTGGTGCTGCGGCTCACCGGCCTGCGTCTCAGTCGCGACGAAGATCCTGGTGTGATGTGCTGGCGCCGCCTGCTCAAGCGAGTCGCAGCCCTACGTCCTGAGGTGCCTCCTCCAGCTCGCAGCCTTCGCCCCGTCTCCTACATAACCACGCGGCCCGTCTCTGCTGATGCGGAAGTTCTGCCCGCAGGCGCTCCTGATGGAGGATTGCAACGTGCGAGCTGCCGAGCTAGGCGCCGCCCTCCCTCTCTGTCTCCCGTTCTCGGCGCTCGCCCTCAATCGCTGCCATTCTGCGGGCGGCGCCGTCCGCGAGATGCTCGAGGCATGGGCAGCTGCCACCGCAACCGCCGCCGCCACCGCTGCTGCCACCGCCACCGCCGCCGCCGCCGCCGATCCGGTCCTCGCGACGGACGCCGCCGCCGCCGCCGCCGCCGATCCGGTCCTCGCGACGGACGCCCTTCTCGTGACTGGCGCCGTCGAGCCGATCCCGCCGACCGTCGACGTCGGCCTCTCACTTGGCCGCCTCTCGCTGCTGTGCCTCTGCAACAGCGTGCTGCGGCAGCGCTGGCTCAGGGAGGTGAGCGCCAGCCCTCACCGGCCTCGACCCTTTGGCCGCCCGCCCCGGGGCTGTGCCTTCACCCCCCCCCCCCCCCCTTCTCCTCCGCGCAGGGGCTTCCACAGCTGCCGCGGCTTCGCGCCCTATTCCTCGGCGGGGCGCTCGTGCTTCCAGAGAGTGGCGCCGAGGAGGGGCAGGGAGAGCAAGAGGCGCGGCCGCTCTCCTCCCTCCTCCCACTCTCCTCCCACCCGCCGCCCGCCGCATCCTCCTCCCGCCACTTCGCCTCCCGCCACCTGCGACTCGCCCACACCGCCCGCCACCTGCCACCTCTTCCGCCGACGGCGTCCCTACGCGCGCGGCTCACCCATACCCGCCTCCCACCCGCCTCCCACCCGCGCCCCTCCGCGCCCCACCCCCCCGAATCGCTCCGCCAGGCTGCCGCCGTGGCCGGCCCTGTGCGCCCTCCCGCACCGATTGAGCCGTCGGCATTCCTCGGCGGCGGCAGCAGCTCGCTCTCCCTGGTTGAGGCAACCTTTGCAGACCCGAGCCTTGCCGCCGCGCTGCTCGCCGCCGCGCCCGCCGCCAGCCTGGTCGACCTCAGCCGCGCGGGCAACAGCGCGCAGCTCGACGCCCTCTGCGAGACGGCGACACGGCTGGTGGGTGGGGGCGCCGCCGCCGCCGCCGCCGCCGCCGCTGCGGTACGAGGGGCGGCTTCGTGCCGTCTGGCTGGGCGAGGCCCGACGCCGCTGCACCGCGCCGCGATGAGCGGCGACGGCGAGATGTGCGCCGCGCTGCTGCGCGCGGGCGCGAGCGTCGCGACCAAGGAGCGAGATCACCAGAGATCACCAGAGAGCACCAGAGAGCACCAGAGAGCACCAGAGAGTACCCTAGATCACCCGAGAGAGTCCCCGGGATGTGAGTCGTGATCGAGGCGCGGAAACCCCACATCTCCCCACATCTCCCCACATCTCCCCACATCTCCCCACATCTCCCCACATCTCCCGAGCCCCTCCTGCAGGACGAAAGGGCACATCTCCCCACATCTCCCCACATCTCCCCACATCTCCCCACATCTCCCCGAGCCCCTCCTGCAGGACGAGAAAGGGCACACGCCGCTGCATCGCGCCGTGTGGGGAGGACACGTCGCAGTCACGGAGGCGCTCCTACGCGCTGCCGGCGGCGGCCCGGCGCCCCAGATGCGGAATAGAGACCCGGTAGCCCGGCTCGAGTCTCGGTTGTGTCCGGGCTGCACGCCGACGCACTCCACTGTATTCGTCGCCCTTGTGTTCACGCGGTGCTCCAAGGCCCGCTCTCGCCCTGTGTTTGCCCCAGGACCGAGATTGAATCCCGACGGCGTTTGAGGACTTGAGGCTGGCGCTCGCGTCGCGCGATTTAGGCGCTGCTCTCTCGGCCGTGCTGCTCGCCACAAACCACGGCATGGAGACGCCACTCTACCTCGCGTCGCTGCGCGGACAGCCCGAGTGCTGCGAGGCGCTGCTCTCCGCCGGCAGCGAGGCGCCACTCTCTCCGCATCCTCAGCGCTGCTCCCCGCACCTCTTTCCTTCCCCGCATCCCTCAGCGCTGCTCTCTCCGCACCTCTTTCCCCGCATCCCTCGGCGCGCGCTCCCCCCCCCCCCCCTCCCCCCCCCGCCCCCCCCGTTCGGTGCTCTTCCGCACCCCGCGACATCCACAGACGCCGAGGCAGTCGTGACTCGCCTCTTCACGGCATTCTCGCGATCGCGTTTCTTTTTTCGAAGGCGCTGTTCGCGACCGACCGGTACCACGACGGCTACACCCCTCTCCACG",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "dna_source": {
+        "sequence_source": "NCBI",
+        "ncbi_accession": "NW_005200600.1",
+        "ena_accession": null,
+        "verification": "ncbi_only",
+        "wikipedia_available": true,
+        "wikipedia_title": "Gephyrocapsa huxleyi",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gephyrocapsa_huxleyi",
+        "ensembl_available": false,
+        "ensembl_url": "https://www.ensembl.org/emiliania_huxleyi/Info/Index",
+        "length": 4000,
+        "updated_utc": "2026-03-09T18:42:54Z"
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
     },
     {
       "type": "organism",
@@ -644,7 +686,7 @@
       "common_name": "Basilosaurus",
       "scientific_name": "Basilosaurus cetoides",
       "main_photo": null,
-      "organism_type": "Mammals",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Mammalia",
@@ -662,16 +704,16 @@
         "Paleogene"
       ],
       "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
-      "role": [
-        "apex_predator"
-      ],
       "dna_sequence": null,
       "effects": {
         "oxygen": 0,
         "co2": 0,
         "biodiversity": 2
       },
-      "bits": null
+      "bits": null,
+      "role": [
+        "apex_predator"
+      ]
     },
     {
       "type": "organism",
@@ -679,7 +721,7 @@
       "common_name": "Megalodon",
       "scientific_name": "Carcharocles megalodon",
       "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Chondrichthyes",
@@ -697,132 +739,23 @@
         "Paleogene"
       ],
       "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
+      "bits": null,
       "role": [
         "apex_predator",
         "scavenger"
-      ],
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 2
-      },
-      "bits": null
+      ]
     },
     {
-      "type": "organism",
-      "card_label": "Card 36",
-      "common_name": "Killer Whale",
-      "scientific_name": "Orcinus orca",
-      "main_photo": null,
-      "organism_type": "Mammals",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Artiodactyla",
-      "family": "Delphinidae",
-      "genus": "Orcinus",
-      "species": "orca",
-      "biomes": [
-        "Marine"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene"
-      ],
-      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
-      "role": [
-        "apex_predator",
-        "ecosystem_engineer"
-      ],
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 2
-      },
-      "bits": null
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 29",
-      "common_name": "Great White Shark",
-      "scientific_name": "Carcharodon carcharias",
-      "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Chondrichthyes",
-      "order": "Lamniformes",
-      "family": "Lamnidae",
-      "genus": "Carcharodon",
-      "species": "carcharias",
-      "biomes": [
-        "Marine"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene"
-      ],
-      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
-      "role": [
-        "apex_predator"
-      ],
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 2
-      },
-      "bits": null
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 72",
-      "common_name": "Blue Whale",
-      "scientific_name": "Balaenoptera musculus",
-      "main_photo": null,
-      "organism_type": "Mammals",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Artiodactyla",
-      "family": "Balaenopteridae",
-      "genus": "Balaenoptera",
-      "species": "musculus",
-      "biomes": [
-        "Marine"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Quaternary"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "role": [
-        "filter_feeder",
-        "ecosystem_engineer"
-      ],
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null
-    },
-    {
-      "type": "organism",
       "card_label": "Card 44",
-      "common_name": "Antarctic Krill",
+      "common_name": "Antarctic krill",
       "scientific_name": "Euphausia superba",
-      "main_photo": null,
-      "organism_type": "Aquatic & Reef Invertebrates",
+      "organism_type": "Aquatic invertebrates",
       "kingdom": "Animalia",
       "phylum": "Arthropoda",
       "class": "Malacostraca",
@@ -840,17 +773,78 @@
         "Quaternary"
       ],
       "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": "ATTGTGTTTTCCCCTTCTCGTTGTTTGTTTATAAGAACGCTGATCTTAGGTATCACAATCTCAATTTCATCAAACTCCTGATTCGGAGCTTGAATAGGTTTAGAATTAAATCTACTCTCTTTTATCCCCTTAATTTTTATAAAAGATAACCAGTATTCGTCTGAAGCCGCCTTAAAATACTTCTTAATCCAAGCATTGGGATCAACCGTTTTATTGATTTCCGCTGTAATAATTATAATAAAGATACAGGTATTTTCTGCCCCATTGTCAGCTGCTTTATTGCTTAAAGCAGGCTCTGCGCCCTTTCATTTTTGATTTCCGCCAACCCTAGAAGGAATGATATGACCGCAAGCGTTAGTGTTAATGACAATCCAGAAAATTACACCAATATCACTATTATCTTATTACATCGAAGACCAAATAATACTGATCTCAGTCGCAGCCATAATATCGGCTGTAGTAGGAGCTCTAGGGGGGTTAAACCAAACCCTTCTACGAAAACTTCTTGGTTACTCATCAATTAACCACATAGCTTGAATAATATCGGCACTCCTGATAAGAGAAAGCATGTGGTTATTATACTTTGCTGTCTATTCTGTTATATCCTTTTCAGTAGTTATGCTCTTCCACTTTACACAGACCTTCCACTTTAACCATTTGTTAAATCACATTCCACCCGGTTCAGCAGTTAAAATAGTTATGTTTATAAGTCTTTTATCTCTAGGTGGCCTACCGCCTTTTACAGGATTTGTTCCAAAATGAATTGTTATTCAGCAATTATGCTGATCAAGTAACTTTTTAATGTTAACAATCCTTCTAGGTTCGTCTTTATTTACGCTCTTTTACTATCTACGAGTTACACTAAGCTCGCTTGTCCTAAGCTCCGCTAAGACTAAGTGGTCTATCAAGGTCGCTCTCAAGAGAAAACTTGTTATTATAGCCATGTTCGTCAATATAGTCGGACTACTAGTGCCATCAGCTGCTTATTCTTTTATAATATAAGCCTCAGCAACAGTGTGCATCTTCAGATTTGCAATCCGACGTCTTAAATTCCACTACAAGGCCCTTAAGGGTATAGTAGAAGAGTTTACAACTCGTTAATAAATTTACAGTTTATCGCTTTAAACCTCGGCCATTCCACTAATTTCCCCGGAGTGAAGGTTTTAAGTTATTAAACTAGTAGCCTTCAAAGTTGCCATAAAGAGTAGCTCACTCTCTTAGACCTTAACCAACGCAGCAGCGTTGGCTATTCTCAACTAATCACAAAGACATTGGTACATTATACTTTATTTTCGGTGCATGAGCTGGGATAGTAGGTACTTCACTAAGATTGATTATTCGAGCTGAGTTAGGACAACCAGGTAGTTTAATTGGAGATGACCAAATTTATAATGTTGTAGTTACAGCACATGCTTTTGTTATAATCTTCTTTATGGTAATACCAATTATGATTGGTGGCTTTGGTAACTGGCTTGTTCCACTAATGCTAGGAGCCCCTGATATGGCATTCCCACGAATAAACAACATAAGATTTTGATTGTTACCCCCTTCCTTAACTCTCTTATTAGGAAGAGGTTTAGTAGAAAGTGGGGTTGGTACTGGGTGAACAGTATATCCACCTTTATCAGCAGGAATCGCTCATGCTGGAGCCTCTGTTGATATAGGAATCTTCTCGCTTCATATTGCCGGTGCTTCTTCAATTTTAGGAGCCGTAAACTTTATTACAACTGTAATTAATATACGATCAGCAGGTATAACTATAGACCGTATTCCATTATTTGTATGATCAGTGTTTATTACAGCTATCCTACTTCTCCTCTCTCTCCCGGTTCTAGCTGGAGCAATTACTATGCTTCTTACAGATCGTAATTTAAATACCTCATTCTTCGACCCAGCCGGTGGTGGTGACCCTATTCTCTACCAACATTTATTTTGGTTTTTTGGGCACCCAGAGGTCTATATTCTCATTTTACCTGCATTCGGTATAATCTCCCATATTATTAGACAAGAATCAGGTAAAAAACAAGCATTCGGTACACTAGGTATAATTTATGCTATAATGGCAATTGGTGTTCTTGGATTTGTAGTATGAGCTCACCATATATTTACAGTAGGGATAGACGTAGATACTCGAGCTTACTTCACTTCTGCCACTATAATTATTGCTGTTCCAACGGGAATTAAAATTTTTAGGTGATTAGGAACCCTTCACGGTGCACAACTTAATTATTCTCCGTCACTAATTTGGGCACTTGGTTTTGTCTTCTTATTTACAGTTGGTGGTCTTACAGGAGTAGTACTTGCAAATTCATCAATTGATGTAGTTCTACACGACACATACTACGTTGTAGCTCATTTCCACTATGTGCTATCAATAGGAGCTGTCTTTGGGATTTTTGCTGGAATTGCTCATTGATTCCCTCTCTTCACAGGATTAACTATAAACCCTAAATGACTAAAACTTCATTTCTTGGTCATGTTTACTGGAGTTAATGTTACTTTCTTCCCTCAACATTTCTTAGGACTTAACGGTATACCGCGGCGATACTCAGACTACCCAGATGCTTATACACCTTGAAATGTGTTATCCTCTATCGGGTCAACCATTTCGCTTATTGCTGTACTAGGTTTTATGCTTATTGTATGAGAAGCCTTAGTTAGAGCTCGACCAGTTCTATTCTCTTTATTTTTACCAACTTCTCTTGAGTGGGAACATAATCTTCCACCTGCAGACCACAGTTATATAGAAATCCCTATGATTTCAGCATAAGTTGCATAGCTAGTTCTAACGTGGCAGAGCTATGCATAGGATTTAGGATCCTAACACGAAATCAATATTTCCGTAGAAAATAGCAACATGAGGTTTCTTAGGATTTCAAGACAGTGCTTCTCCTCTTATAGAGCAACTAATCTTCTTTCATGACCACACCATAATTATCTTAATCTTAATTACAACCCTTGTAGGATACATAATAGCAACATTATTTTTTAATTCTATTACAAATCGATTCCTACTAGAGGGTCAAACAATCGAAATTATTTGAACTGTGGTACCGGCTATTATTCTTATTTTTATTGCTCTACCATCTCTCCGACTATTATATATATTAGATGAAGTTAATAACCCCAGAGTAACTCTTAAAACTATTGGACATCAGTGATACTGAAGCTATGAGTATTCAGACTTTCTAGAAGTAGAGTTTGATGCGTATATGGTCCCAACTGCTGACTTAGAGGAGAATGGCTTCCGTCTCCTTGATGTAGACAACCGTACTGTATTACCAATAAATACACAGATTCGAATTCTAATTAATGCAGCTGATGTTATTCACTCTTGAACTGTACCAGCCCTTGGAGTTAAAGCAGATGCAGTACCCGGTCGTCTGAATCAGACAAGGTTTTTAATTAATCGACCTGGTTTATTCTATGGGCAATGTTCAGAAATCTGTGGTGCAAATCACAGATTTATACCTATTGTAGTAGAAAGAGTATCAATTTCATCCTTCTTAGATTGAATCTCTTCTACAAGAGATGCCTCATTAGGTGACTGAAAGCAAGTGTATGTCTTTTAAACCTATAATGGTAGATAGCAACTACCCCTAATGAAAAAGATTAGTTAATTATATAACATAAGCTTGTCAAGCTTAAATTGTCGCTTTAAGCAACATTTTTTAATCCCACAAATATCACCACTATTATGACTAAATCTATTTATCATATTTTCAACTACATTTATAGTATTTATAACTGTAAATTACTTCATAAAAGTTCCTTCCAAACTTACGTCAACTCAATCTAAGTTAACTTACACTAAAATATTTTGAAAATGATAACAAACTTATTTTCAGTTTTTGACCCTGTATCATCTGTTATAGCACTACCCCTAAACTGAGTCTCTACTTTCCTAGGACTTTTATTTATACCAGTATTATATTGAATAATACCATCTCGTTGATCTTTATTATGATCTAAAGTTTTAACTACCCTACACGGAGAGTTT",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "dna_source": {
+        "sequence_source": "NCBI",
+        "ncbi_accession": "NC_040987.1",
+        "ena_accession": null,
+        "verification": "ncbi_only",
+        "wikipedia_available": true,
+        "wikipedia_title": "Antarctic krill",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Antarctic_krill",
+        "ensembl_available": false,
+        "ensembl_url": "https://www.ensembl.org/euphausia_superba/Info/Index",
+        "length": 4000,
+        "updated_utc": "2026-03-09T18:48:25Z"
+      },
+      "bits": null,
       "role": [
         "filter_feeder",
         "plague_swarm"
+      ]
+    },
+    {
+      "card_label": "Card 72",
+      "common_name": "Blue whale",
+      "scientific_name": "Balaenoptera musculus",
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Cetacea",
+      "family": "Balaenopteridae",
+      "genus": "Balaenoptera",
+      "species": "musculus",
+      "biomes": [
+        "Marine"
       ],
-      "dna_sequence": null,
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": "GAGAGACCAAAATAAACCTACCATAAATCCCTTCTGTGAGGTGTTTTTTGACGCTGAAGAAGATGCAGAGAACACTCATCCACAGAAGACAAACATGACCACACACTTTCTTATAACCCGTTGTTTTCCAAAGAACTCGTTAGTCTTTCCTGAAGAAACCTCTCTGTTCTTCCCATAGAAGCCAATTCTCCCCTCTCCCTTTCTGCTATTACGTTAGGTTTATAAGCTTTGAACTTTCACCGTTTAACATGTCAGTTACTTTTTCGGTTGGCTCTTGGCTGTAGAAATAACCCTTTCCTCTGTTCATCTACTCTTTCTTTCTTTCTTTGGCAGTGACTCTGGATCATGGGGGCTGCTCTGTTTTCACCCTCTTTAGTGACATCTTGTCCATGGTTAAGCTATGAAAAGGCTTACTGGGGACTTCCCTGGTGGTCCAGTGGGTAAGGCTCCGTGCTCCCAATACAGGGGACCTGGGTTTGATCCCTGGTTGGGGAACTAGATCCTGCGTGCTGCAACTAAGAGTCCGCATGCCGAAACTAAGACCTGGAGCAGCCAAAATTAATTAATTAATTAATTTTTTAAACGGCTTATTGGTTTTGACTCACATTTGGAATAGGTGTACCTTTGGAGACCCCCTGCGAGGAAGAAACAGGTTCAATACTGCCAGGAGAATTTACCGGTTGTCCTGGCCAAATACCTGATAAAACAATATTTGCAAGGATTTTTTTTTTTTTTTTTAGGTTTTCACCCTGAAACAAAGATCCTATTGAAACCTCTCAGATGATCAAATTAAAAGAATGACAAAGGAGTATCATGGAGAGCCTAAGAACACTTCCTTAACAAAACAAAGAACAGAAATCAGATTTAGAGCAAAAATTAAAGAGAATTTCCTGGCGGTCCAGGGGTTAAGACTTGGTGCTTTCACTGCCGTGGGCCTGGATTCAATCCCTGGTTGGGGAACTAAGATCCTGCAAGCCACGTGGCGTGGCAAAACAAAACAAAACAAAACAAAACTTAAAATCCTTGTACACCATCAATCATCCCACCCATATATACACTGTGCTCATGCCATCCTCCAGATGGGCAGGTCAGCCTCTTGAAGTTATCATTGAGTAGGATATGCAATTCTTCAAAGAATTCAAAACAACCATCCGGGACTTACCTGGTGGTGCAGTGGTTAAGAATCCGCCTGCCAACACAGGGAACATGGGTTCGAGCCCTGGTCCAGGAAGACCCCACAGGCCTTGGAGCAACTAGGCCCATGTGCCACAACTACTGAGCCTGTGCTCTAGCGCTCGCGAGCCACAACTGCTGAAGCCCACGCGCCTAGAGCCCGTGTTCTGCAACAAGAGAAGGCGCCACAATGAGAAGCCCGCGCACCGCAATGAAAAGTAGCCCCAGCTCGCGGCAACTAGAGAAAGCCCGCGCACAGCAACGAAGACTCCAAAATAAAATAAAGAAATTTTTTTAAAAAATTTTCAAGTATTATATCATTTTTTTAAAAAGGGGCGGCTAATACTCCTAATATATAAAGAGCTTTTAAAAATCGAAAAGAAAAAAACTTAAAGCCCTTTAAAAAAAAATAGGCAAAATACACGAACAGTCTGTTCACAGAAAAGACAGTGCAAACAGCCCTTGAACATATAAAAAGATGCTTGATTTCACTAATAATAAGAGAAATGCAAATTACATTAAATTACAGTGACTTATCATGAATTATTTCTCATCTATCGAAGTGACAAAAATCCAGAATTCTGACAAAATGCTCCGCTGGAGAAGTTGTGGAAGAATGGGCAGAAAGTGTGTTACCAGCTTCGGCGGCAGGTGCCACGTCCGGTGGCAAAGGTGACGAGAAACAGCCCCTGGAGCAGCCCCGGAAGCCGGCCAAGGAGGTGGATGAGGAAGACGAGGCGTTCCCGCAGAAACAGGAGGATGAGCAGGAGGAACTCAAGGAGCGGAAAGGGAGGCCACGGGGAAGGGCCCTGCCCACAGCGGGGATTAAGAGATCTGGCACAACAATGAGCTGTTCCTTCTGCCTGAGGCAACGATGAGCCTTAGCCCCACTCCTGTGTAAACATCTGGGTTCCCTGCCGTAACATCTGCTGCCACCTACAGCTAGAATGAAGTGTTGTCTCAAAACCTATTGTACATTTAAGAAACATACAGTGGCTCATCTTTTCTTTAGTTCTTCTCAGCCATTTCTACCTCATCTGTGAGATCAAAGTAAACCCAGCCCAGAATCCTGCCAATGTGTGTTCTTCAGGTTCTGTTCTATCCTGAATTCTGTTCCACCTGGAATTAAACCAACTCATTTCAAATGGCAAAAAAAAAAAAGAGTATATTATCAATGAGAAGAATTTGATTCCATCTAACAAAGTTATGGGTACATTGCCCTTTGACCTGGCAATCCCACTTCCAGGAATCTATCCTGAAGATACACCTCCACAAGTCAAAATGTTATATGCCTGAGGTCTTCACTTAAAGCAATATTTGTAAAAGCAAAATATTAGAAACAACCCAAATGTCTCTCAGCAGGGAACTGGCTGAATAAACTGCAGTGCATCCGCATATGCAGAACTATGCACATAAAAAGCAAGAGGAGGGACTTCCCTGATGGCACAGTGGATAAGACTCCGCAGTCCCAATGCAGGGGGCCTGGGTTCGATCCCTGAAGAGGGAACTAGATCCCACGTGTATGCCACAACTAAGAATTTGCATGCCACAATTAAGGAACCCACGTGCCGCAACTAAGGAGCCCTGGAGCCGCAACTAAAGAGCCCATGGGCTGCAACTAAGACCCGGCACAACCAAATAAATAAATAAATTTTTTTTAAAAAAAAAAAGGCAAGAGGAGGGTCCCTTGCCCTTGGAAGAGTGTGGAGGGCTCTTCCAAGACACAAGCAGGGTGCTGGGCAGCCCACACAGTGTCTATCGTCTGTGAAAAAAGAAAGTGAATGAGAAGGTCCGTGTGGGCATTTGCATAGTTTGCTTCCAAAATAAGGGTTCACCAGAAACTCACAAAACGTGTTGTATTTGGGGAGGAGGTAGGCAGGGAACCAAGATTTTCAGGTCTCGCTGTTGGTCTGAGTTGTGAACCACGTAAGCAACCAGAAAACTGAACAAAACAGCAATAGCTGCTTAGAGACTCTGGAAAATAGGCAAGGCAGGGCTGTAATCCCCGAGAGAAGGGAAATAAAACTGTGAGTCCTAAAACCACCACAGCTCCCTTCCTGGTCCTTATCTCTGCTTGGGCCTCCCTTGCCCTGACCACCCAGACCTGCGGGGCATAAACAGGGCTCGGAGAAATAAGACTTTTCTATGGCAGAAAAGAGAAAATAGCCAAGATAATGCAACCTTTTCCTGACGACAGTCATATATAATTATTATGAGATTCCCTCTGATGAATAGAAGAGTCAACATAACCCTGCCAAGTTCAGCCACCGAGCAATAATCCCTCCTGAGGGGTCTGGCAACTTAAGGGGCGAGGGCATTCCCTGCATCTTTACCAAGAAATCTGAGTGCCTAGCAAATTTAACTTTAAAAAAAAAAAAATGTCTCTCAAATTTAATTGAGAGGCCAGGATACAATACATCAAATCAAGATAACCAGAAATACAATACACATGTGCCAAAGCAAAGCCAGCTTAAAGAGCACAGCAATTGAATCAAAACTACAGAAATCCGCCTGCCTGGGAAAACAATACGTAAGCAAAAGGGAAAAGCAACAGTTTTATCTCAGAGAAACCTCACAGCGAGGAGCTCACTCCTGTCACTAGTCGGCAGGCCCTGGACAACGAACCTCTTGTGGGAAAGTGTGACCCTGGGGGTCACTCACAGGTCAGATCTCTGAACTTAGCTCCCACCATAGAACACTTCGGTCCTGTTTTTCTAGTCAGGAGGCACTATGATCTTGAAGTTTGTGTTCCCCCGCCTCCACACCAAAATTCACATGTTGGAATCCTAATGCCCAATGTGATAATGTTAGAAGGTGGGGCCTTTGG",
       "effects": {
-        "oxygen": 1,
-        "co2": -1,
+        "oxygen": 0,
+        "co2": 1,
         "biodiversity": 1
       },
-      "bits": null
+      "dna_source": {
+        "sequence_source": "NCBI",
+        "ncbi_accession": "NC_045785.1",
+        "ena_accession": null,
+        "verification": "ncbi_only",
+        "wikipedia_available": true,
+        "wikipedia_title": "Blue whale",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Blue_whale",
+        "ensembl_available": false,
+        "ensembl_url": "https://www.ensembl.org/balaenoptera_musculus/Info/Index",
+        "length": 4000,
+        "updated_utc": "2026-03-09T18:51:50Z"
+      },
+      "main_photo": "Balaenoptera musculus.png",
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "ecosystem_engineer"
+      ]
     },
     {
       "type": "organism",
@@ -858,7 +852,7 @@
       "common_name": "Leatherback Sea Turtle",
       "scientific_name": "Dermochelys coriacea",
       "main_photo": null,
-      "organism_type": "Aquatic Vertebrates",
+      "organism_type": "Aquatic vertebrates",
       "kingdom": "Animalia",
       "phylum": "Chordata",
       "class": "Reptilia",

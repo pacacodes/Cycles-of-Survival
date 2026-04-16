@@ -59,7 +59,7 @@ module.exports = function drawFunctionalCategory(ctx, contentX, contentY, conten
     let color = getCardColorBlock(card);
     ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
     const label = 'Organism Type';
-    const value = (card.organism_type.match(/^(.*?)(\s*\(.*?\))?$/) || [null, card.organism_type])[1].trim();
+    const value = titleCaseWords((card.organism_type.match(/^(.*?)(\s*\(.*?\))?$/) || [null, card.organism_type])[1].trim());
     const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
     const labelW = ctx.measureText(label).width;
     ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
@@ -106,7 +106,7 @@ module.exports = function drawFunctionalCategory(ctx, contentX, contentY, conten
     let color = getCardColorBlock(card);
     ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
     const label = 'Biomes';
-    const value = card.biomes.join(', ');
+    const value = card.biomes.map(b => titleCaseWords(b)).join(', ');
     const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
     const labelW = ctx.measureText(label).width;
     ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
@@ -245,7 +245,7 @@ module.exports = function drawFunctionalCategory(ctx, contentX, contentY, conten
     let color = getCardColorBlock(card);
     ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
     const label = 'Periods';
-    const value = card.periods.join(', ');
+    const value = card.periods.map(p => titleCaseWords(p)).join(', ');
     const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
     const labelW = ctx.measureText(label).width;
     ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;

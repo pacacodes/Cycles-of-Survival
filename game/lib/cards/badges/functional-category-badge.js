@@ -2,7 +2,7 @@ const { loadImage } = require('canvas');
 const path = require('path');
 
 const categoryBadgeImageMap = {
-  // New taxonomy keys (normalized: lowercase, alphanum only)
+  // New taxonomy keys
   microbes:                  path.join(__dirname, '../layers/detailed-type/category/Microbes_Early_Life.png'),
   algaeandphytoplankton:     path.join(__dirname, '../layers/detailed-type/category/Plants_Algae.png'),
   aquaticplants:             path.join(__dirname, '../layers/detailed-type/category/Plants_Algae.png'),
@@ -12,7 +12,7 @@ const categoryBadgeImageMap = {
   plants:                    path.join(__dirname, '../layers/detailed-type/category/Plants_Algae.png'),
   terrestrialinvertebrates:  path.join(__dirname, '../layers/detailed-type/category/Terrestrial_Invertebrates.png'),
   terrestrialvertebrates:    path.join(__dirname, '../layers/detailed-type/category/Terrestrial_Vertebrates.png'),
-  decomposersdetritivores:   path.join(__dirname, '../layers/detailed-type/category/Microbes_Early_Life.png'),
+  decomposersanddetritivores: path.join(__dirname, '../layers/detailed-type/category/Microbes_Early_Life.png'),
   // Legacy keys
   plantsalgae:               path.join(__dirname, '../layers/detailed-type/category/Plants_Algae.png'),
   microbesearlylife:         path.join(__dirname, '../layers/detailed-type/category/Microbes_Early_Life.png'),
