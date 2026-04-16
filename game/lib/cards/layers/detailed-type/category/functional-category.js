@@ -8,7 +8,7 @@ module.exports = function drawFunctionalCategory(ctx, contentX, contentY, conten
 
   const badgeRadius   = 0.18 * 72 * scale;
   const badgeTextGap  = 10 * scale;
-  const leftPadding   = Math.round(36 * scale);
+  const leftPadding   = Math.round(21 * scale);
   const rowH          = Math.round((badgeRadius * 2) + (6 * scale));
   const condensedRowH = Math.round(rowH * 0.60);
   const blockHeight   = fields.length * condensedRowH;

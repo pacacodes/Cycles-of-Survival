@@ -1,5 +1,40 @@
 const { parseField, formatValue } = require('./field-helpers');
 
+// Geological period time ranges (start Ma = million years ago, end Ma; Ga = billion)
+// Format: [startMa, endMa, label] — end=0 means "Present"
+const PERIOD_RANGES = {
+  'Early Archean':     [4000,  3200, '~4.0 – 3.2 Ga'],
+  'Late Archean':      [3200,  2500, '~3.2 – 2.5 Ga'],
+  'Early Proterozoic': [2500,  1600, '~2.5 – 1.6 Ga'],
+  'Late Proterozoic':  [1000,   539, '~1.0 Ga – 539 Ma'],
+  'Cambrian':          [ 539,   485, '539 – 485 Ma'],
+  'Ordovician':        [ 485,   444, '485 – 444 Ma'],
+  'Silurian':          [ 444,   419, '444 – 419 Ma'],
+  'Devonian':          [ 419,   359, '419 – 359 Ma'],
+  'Carboniferous':     [ 359,   299, '359 – 299 Ma'],
+  'Permian':           [ 299,   252, '299 – 252 Ma'],
+  'Triassic':          [ 252,   201, '252 – 201 Ma'],
+  'Jurassic':          [ 201,   145, '201 – 145 Ma'],
+  'Cretaceous':        [ 145,    66, '145 – 66 Ma'],
+  'Paleogene':         [  66,    23, '66 – 23 Ma'],
+  'Neogene':           [  23,   2.6, '23 – 2.6 Ma'],
+  'Quaternary':        [ 2.6,     0, '2.6 Ma – Present'],
+};
+
+function periodTimeSpan(periods) {
+  const matched = periods.map(p => PERIOD_RANGES[p]).filter(Boolean);
+  if (!matched.length) return null;
+  if (matched.length === 1) return matched[0][2];
+  // Multiple periods: show span from oldest start to newest end
+  const oldest  = Math.max(...matched.map(r => r[0]));
+  const newest  = Math.min(...matched.map(r => r[1]));
+  const oldestEntry = matched.find(r => r[0] === oldest);
+  const newestEntry = matched.find(r => r[1] === newest);
+  const startLabel = oldestEntry[2].split('–')[0].trim();
+  const endLabel   = newestEntry[2].split('–')[1].trim();
+  return `${startLabel} – ${endLabel}`;
+}
+
 const ORGANISM_TYPE_DESC = {
   'Microbes':                   'bacteria, archaea & protists',
   'Algae and phytoplankton':    'photosynthetic aquatic organisms',
@@ -28,6 +63,21 @@ const ROLE_DESC = {
   'plague_swarm':       'mass-impact outbreak organism',
 };
 
+const BIOME_DESC = {
+  'Desert':     'arid, low-rainfall landscapes',
+  'Farmland':   'agricultural & cultivated land',
+  'Floodplain': 'low land subject to river flooding',
+  'Forest':     'dense tree-dominated ecosystems',
+  'Freshwater': 'rivers, lakes & ponds',
+  'Grassland':  'open grassy plains & savannas',
+  'Marine':     'open ocean & coastal seas',
+  'Reef':       'coral & rocky reef ecosystems',
+  'Taiga':      'boreal coniferous forest belt',
+  'Tundra':     'cold, treeless Arctic & alpine zones',
+  'Urban':      'cities & human-built environments',
+  'Wetland':    'marshes, swamps & bogs',
+};
+
 /**
  * Returns an ordered array of field row configs for a card.
  * Each entry: { label, main, sub, drawTop, drawBottom }
@@ -38,7 +88,7 @@ module.exports = function getFieldDefinitions(card) {
   if (card.organism_type) {
     const parsed = parseField(card.organism_type);
     fields.push({
-      label: 'Organism Type',
+      label: 'Type',
       main:  parsed.main,
       sub:   parsed.sub || ORGANISM_TYPE_DESC[card.organism_type] || null,
       drawTop:    require('./functional-category-background-top'),
@@ -47,24 +97,40 @@ module.exports = function getFieldDefinitions(card) {
   }
 
   if (card.biomes && card.biomes.length) {
+    const biomeNames = card.biomes.map(b => formatValue(b));
+    const singleDesc = card.biomes.length === 1 ? (BIOME_DESC[card.biomes[0]] || null) : null;
     fields.push({
       label: 'Biomes',
-      main:  card.biomes.map(b => formatValue(b)).join(', '),
-      sub:   null,
+      main:  biomeNames.join(', '),
+      sub:   singleDesc,
       drawTop:    require('./biomes-background-top'),
       drawBottom: require('./biomes-background-bottom'),
     });
   }
 
   if (card.trophic_level) {
-    const parsed = parseField(card.trophic_level);
-    fields.push({
-      label: 'Trophic Level',
-      main:  parsed.main,
-      sub:   parsed.sub || null,
-      drawTop:    require('./trophic-level-background-top'),
-      drawBottom: require('./trophic-level-background-bottom'),
-    });
+    const isCombined = /decompos|detrit/i.test(card.trophic_level);
+    if (isCombined) {
+      // Split into specific entry based on primary role
+      const roles = Array.isArray(card.role) ? card.role : (card.role ? [card.role] : []);
+      const isDetritivore = roles.some(r => /detrit/i.test(r));
+      fields.push({
+        label: 'Trophic Level',
+        main:  isDetritivore ? 'Detritivores' : 'Decomposers',
+        sub:   isDetritivore ? 'consumes decomposing material' : 'breaks down dead organic matter',
+        drawTop:    require('./trophic-level-background-top'),
+        drawBottom: require('./trophic-level-background-bottom'),
+      });
+    } else {
+      const parsed = parseField(card.trophic_level);
+      fields.push({
+        label: 'Trophic Level',
+        main:  parsed.main,
+        sub:   parsed.sub || null,
+        drawTop:    require('./trophic-level-background-top'),
+        drawBottom: require('./trophic-level-background-bottom'),
+      });
+    }
   }
 
   if (card.role && (Array.isArray(card.role) ? card.role.length : card.role)) {
@@ -83,7 +149,7 @@ module.exports = function getFieldDefinitions(card) {
     fields.push({
       label: 'Periods',
       main:  card.periods.map(p => formatValue(p)).join(', '),
-      sub:   null,
+      sub:   periodTimeSpan(card.periods),
       drawTop:    require('./periods-background-top'),
       drawBottom: require('./periods-background-bottom'),
     });

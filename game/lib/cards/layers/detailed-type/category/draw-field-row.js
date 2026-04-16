@@ -22,7 +22,7 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   ctx.textBaseline = 'top';
   ctx.fillStyle = titleColor || '#000000';
 
-  const fieldSize = Math.round(6 * scale);
+  const fieldSize = Math.round(4.5 * scale);
   const subSize   = Math.round(4.5 * scale);
   const boxPadX   = 4 * scale;
   const boxPadY   = 2 * scale;
@@ -32,9 +32,9 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
 
   // Measure widths for background box
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
-  const labelPart = `${label}: `;
+  const labelPart = `${label} : `;
   const labelPartW = ctx.measureText(labelPart).width;
-  ctx.font = `${fieldSize}px "DejaVu Sans", sans-serif`;
+  ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
   const mainW = ctx.measureText(main).width;
   let subW = 0;
   if (sub) {
@@ -51,12 +51,11 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   drawBottom(ctx, textX - boxPadX, rowY - boxPadY, contentW + 2 * boxPadX, boxH, boxRadius, color, hexToRgba, 0.8);
   ctx.restore();
 
-  // Line 1: "Bold Label: " then normal "Main Value"
+  // Line 1: "Bold Label: " then bold "Main Value"
   ctx.shadowColor = '#FFFFFF';
   ctx.shadowBlur = 10 * scale;
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
   ctx.fillText(labelPart, textX, rowY);
-  ctx.font = `${fieldSize}px "DejaVu Sans", sans-serif`;
   ctx.fillText(main, textX + labelPartW, rowY);
 
   // Line 2: sub description, smaller

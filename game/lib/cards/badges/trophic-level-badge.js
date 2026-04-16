@@ -5,13 +5,13 @@ const badgeMap = {
   secondaryconsumerscarnivoresthateatherbivores:        require('./trophic level/secondary-consumer-badge'),
   tertiaryconsumerscarnivoresthateatothercarnivores:    require('./trophic level/apex-predator-badge'),
   decomposersdetritivoresorganismsthatbreakdowndeadmaterial: require('./trophic level/decomposer-badge'),
-  // Legacy short-form values (kept for backward compatibility)
-  producer: require('./trophic level/producer-badge'),
+  // Legacy short-form values
+  producer:          require('./trophic level/producer-badge'),
   secondaryconsumer: require('./trophic level/secondary-consumer-badge'),
-  primaryconsumer: require('./trophic level/primary-consumer-badge'),
-  decomposer: require('./trophic level/decomposer-badge'),
-  detritivore: require('./trophic level/decomposer-badge'),
-  apexpredator: require('./trophic level/apex-predator-badge'),
+  primaryconsumer:   require('./trophic level/primary-consumer-badge'),
+  decomposer:        require('./trophic level/decomposer-badge'),
+  detritivore:       require('./trophic level/detritivore-badge'),
+  apexpredator:      require('./trophic level/apex-predator-badge'),
 };
 
 module.exports = async function drawTrophicLevelBadge(ctx, x, y, radius, card, scale, neonColor) {
