@@ -1,0 +1,106 @@
+{
+  "_codeChecksum": "b252bb96d0f18f4cc45972afc9f190ad",
+  "_generatedAt": "2026-04-16T19:04:14.930Z",
+  "_paths": {
+    "current": "/workspaces/Cycles-of-Survival/output/Working Organism Cards/Organisms Base Set",
+    "safe": "/workspaces/Cycles-of-Survival/saved_files/Working Organism Cards/Organisms Base Set"
+  },
+  "_cards": {
+    "organism-1": {
+      "signature": "{\"id\":\"organism-1\",\"common_name\":\"Tamisiocaris\",\"scientific_name\":\"Tamisiocaris borealis\",\"card_label\":\"Card 90\",\"main_photo\":null,\"organism_type\":\"Aquatic & Reef Invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Arthropoda\",\"class\":\"Dinocarida\",\"order\":\"Radiodonta\",\"family\":\"Tamisiocarididae\",\"genus\":\"Tamisiocaris\",\"species\":\"borealis\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Cambrian\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Tamisiocaris borealis.png\",\"missing\":true}}",
+      "fileName": "card-90.png"
+    },
+    "organism-2": {
+      "signature": "{\"id\":\"organism-2\",\"common_name\":\"Anomalocaris\",\"scientific_name\":\"Anomalocaris canadensis\",\"card_label\":\"Card 91\",\"main_photo\":null,\"organism_type\":\"Aquatic & Reef Invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Arthropoda\",\"class\":\"Dinocarida\",\"order\":\"Radiodonta\",\"family\":\"Anomalocarididae\",\"genus\":\"Anomalocaris\",\"species\":\"canadensis\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Cambrian\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Anomalocaris canadensis.png\",\"missing\":true}}",
+      "fileName": "card-91.png"
+    },
+    "organism-3": {
+      "signature": "{\"id\":\"organism-3\",\"common_name\":\"Giant Trilobite\",\"scientific_name\":\"Isotelus maximus\",\"card_label\":\"Card 92\",\"main_photo\":null,\"organism_type\":\"Aquatic & Reef Invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Arthropoda\",\"class\":\"Trilobita\",\"order\":\"Asaphida\",\"family\":\"Asaphidae\",\"genus\":\"Isotelus\",\"species\":\"maximus\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Ordovician\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Isotelus maximus.png\",\"missing\":true}}",
+      "fileName": "card-92.png"
+    },
+    "organism-4": {
+      "signature": "{\"id\":\"organism-4\",\"common_name\":\"Orthoceras\",\"scientific_name\":\"Orthoceras regulare\",\"card_label\":\"Card 93\",\"main_photo\":null,\"organism_type\":\"Aquatic & Reef Invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Mollusca\",\"class\":\"Cephalopoda\",\"order\":\"Orthocerida\",\"family\":\"Orthoceratidae\",\"genus\":\"Orthoceras\",\"species\":\"regulare\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Ordovician\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Orthoceras regulare.png\",\"missing\":true}}",
+      "fileName": "card-93.png"
+    },
+    "organism-5": {
+      "signature": "{\"id\":\"organism-5\",\"common_name\":\"Sea Scorpion\",\"scientific_name\":\"Eurypterus remipes\",\"card_label\":\"Card 94\",\"main_photo\":null,\"organism_type\":\"Aquatic & Reef Invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Arthropoda\",\"class\":\"Merostomata\",\"order\":\"Eurypterida\",\"family\":\"Eurypteridae\",\"genus\":\"Eurypterus\",\"species\":\"remipes\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Silurian\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Eurypterus remipes.png\",\"missing\":true}}",
+      "fileName": "card-94.png"
+    },
+    "organism-6": {
+      "signature": "{\"id\":\"organism-6\",\"common_name\":\"Sea Lily\",\"scientific_name\":\"Crinoidea sp.\",\"card_label\":\"Card 95\",\"main_photo\":null,\"organism_type\":\"Aquatic & Reef Invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Echinodermata\",\"class\":\"Crinoidea\",\"order\":\"sp.\",\"family\":\"sp.\",\"genus\":\"Crinoidea\",\"species\":\"sp.\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Silurian\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Crinoidea sp..png\",\"missing\":true}}",
+      "fileName": "card-95.png"
+    },
+    "organism-7": {
+      "signature": "{\"id\":\"organism-7\",\"common_name\":\"Bothriolepis\",\"scientific_name\":\"Bothriolepis canadensis\",\"card_label\":\"Card 96\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Placodermi\",\"order\":\"Antiarchi\",\"family\":\"Bothriolepidae\",\"genus\":\"Bothriolepis\",\"species\":\"canadensis\",\"biomes\":[\"Marine\",\"Freshwater\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Devonian\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Bothriolepis canadensis.png\",\"missing\":true}}",
+      "fileName": "card-96.png"
+    },
+    "organism-8": {
+      "signature": "{\"id\":\"organism-8\",\"common_name\":\"Dunkleosteus\",\"scientific_name\":\"Dunkleosteus terrelli\",\"card_label\":\"Card 28\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Placodermi\",\"order\":\"Arthrodira\",\"family\":\"Dunkleosteidae\",\"genus\":\"Dunkleosteus\",\"species\":\"terrelli\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Devonian\"],\"trophic_level\":\"Tertiary consumers (carnivores that eat other carnivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Dunkleosteus terrelli.png\",\"size\":7462179,\"mtimeMs\":1775934323430}}",
+      "fileName": "card-28.png"
+    },
+    "organism-9": {
+      "signature": "{\"id\":\"organism-9\",\"common_name\":\"Scissor-tooth Shark\",\"scientific_name\":\"Edestus heinrichi\",\"card_label\":\"Card 97\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Chondrichthyes\",\"order\":\"Eugeneodontida\",\"family\":\"Edestidae\",\"genus\":\"Edestus\",\"species\":\"heinrichi\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Carboniferous\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Edestus heinrichi.png\",\"missing\":true}}",
+      "fileName": "card-97.png"
+    },
+    "organism-10": {
+      "signature": "{\"id\":\"organism-10\",\"common_name\":\"Productid Brachiopod\",\"scientific_name\":\"Productida sp.\",\"card_label\":\"Card 98\",\"main_photo\":null,\"organism_type\":\"Aquatic & Reef Invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Brachiopoda\",\"class\":\"Rhynchonellata\",\"order\":\"Productida\",\"family\":\"Productidae\",\"genus\":\"Productida\",\"species\":\"sp.\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Carboniferous\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Productida sp..png\",\"missing\":true}}",
+      "fileName": "card-98.png"
+    },
+    "organism-11": {
+      "signature": "{\"id\":\"organism-11\",\"common_name\":\"Mesosaurus\",\"scientific_name\":\"Mesosaurus tenuidens\",\"card_label\":\"Card 99\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Reptilia\",\"order\":\"Mesosauria\",\"family\":\"Mesosauridae\",\"genus\":\"Mesosaurus\",\"species\":\"tenuidens\",\"biomes\":[\"Marine\",\"Freshwater\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Permian\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Mesosaurus tenuidens.png\",\"missing\":true}}",
+      "fileName": "card-99.png"
+    },
+    "organism-12": {
+      "signature": "{\"id\":\"organism-12\",\"common_name\":\"Coiled Nautiloid\",\"scientific_name\":\"Metacoceras sp.\",\"card_label\":\"Card 100\",\"main_photo\":null,\"organism_type\":\"Aquatic & Reef Invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Mollusca\",\"class\":\"Cephalopoda\",\"order\":\"Nautilida\",\"family\":\"Metacoceratidae\",\"genus\":\"Metacoceras\",\"species\":\"sp.\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Permian\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Metacoceras sp..png\",\"missing\":true}}",
+      "fileName": "card-100.png"
+    },
+    "organism-13": {
+      "signature": "{\"id\":\"organism-13\",\"common_name\":\"Nothosaurus\",\"scientific_name\":\"Nothosaurus mirabilis\",\"card_label\":\"Card 101\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Reptilia\",\"order\":\"Nothosauroidea\",\"family\":\"Nothosauridae\",\"genus\":\"Nothosaurus\",\"species\":\"mirabilis\",\"biomes\":[\"Marine\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Triassic\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Nothosaurus mirabilis.png\",\"missing\":true}}",
+      "fileName": "card-101.png"
+    },
+    "organism-14": {
+      "signature": "{\"id\":\"organism-14\",\"common_name\":\"Placodus\",\"scientific_name\":\"Placodus gigas\",\"card_label\":\"Card 102\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Reptilia\",\"order\":\"Placodontia\",\"family\":\"Placodontidae\",\"genus\":\"Placodus\",\"species\":\"gigas\",\"biomes\":[\"Marine\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Triassic\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Placodus gigas.png\",\"missing\":true}}",
+      "fileName": "card-102.png"
+    },
+    "organism-15": {
+      "signature": "{\"id\":\"organism-15\",\"common_name\":\"Leedsichthys\",\"scientific_name\":\"Leedsichthys problematicus\",\"card_label\":\"Card 103\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Actinopterygii\",\"order\":\"Pachycormiformes\",\"family\":\"Leedsichthyidae\",\"genus\":\"Leedsichthys\",\"species\":\"problematicus\",\"biomes\":[\"Marine\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Leedsichthys problematicus.png\",\"missing\":true}}",
+      "fileName": "card-103.png"
+    },
+    "organism-16": {
+      "signature": "{\"id\":\"organism-16\",\"common_name\":\"Plesiosaurus\",\"scientific_name\":\"Plesiosaurus dolichodeirus\",\"card_label\":\"Card 104\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Reptilia\",\"order\":\"Plesiosauria\",\"family\":\"Plesiosauridae\",\"genus\":\"Plesiosaurus\",\"species\":\"dolichodeirus\",\"biomes\":[\"Marine\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Plesiosaurus dolichodeirus.png\",\"missing\":true}}",
+      "fileName": "card-104.png"
+    },
+    "organism-17": {
+      "signature": "{\"id\":\"organism-17\",\"common_name\":\"Mosasaurus\",\"scientific_name\":\"Mosasaurus hoffmannii\",\"card_label\":\"Card 35\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Reptilia\",\"order\":\"Squamata\",\"family\":\"Mosasauridae\",\"genus\":\"Mosasaurus\",\"species\":\"hoffmannii\",\"biomes\":[\"Marine\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Tertiary consumers (carnivores that eat other carnivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Mosasaurus hoffmannii.png\",\"size\":8084017,\"mtimeMs\":1775934324261}}",
+      "fileName": "card-35.png"
+    },
+    "organism-18": {
+      "signature": "{\"id\":\"organism-18\",\"common_name\":\"Giant Sea Turtle\",\"scientific_name\":\"Archelon ischyros\",\"card_label\":\"Card 105\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Reptilia\",\"order\":\"Testudines\",\"family\":\"Protostegidae\",\"genus\":\"Archelon\",\"species\":\"ischyros\",\"biomes\":[\"Marine\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Archelon ischyros.png\",\"missing\":true}}",
+      "fileName": "card-105.png"
+    },
+    "organism-19": {
+      "signature": "{\"id\":\"organism-19\",\"common_name\":\"Basilosaurus\",\"scientific_name\":\"Basilosaurus cetoides\",\"card_label\":\"Card 106\",\"main_photo\":null,\"organism_type\":\"Mammals\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Mammalia\",\"order\":\"Artiodactyla\",\"family\":\"Basilosauridae\",\"genus\":\"Basilosaurus\",\"species\":\"cetoides\",\"biomes\":[\"Marine\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Tertiary consumers (carnivores that eat other carnivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Basilosaurus cetoides.png\",\"missing\":true}}",
+      "fileName": "card-106.png"
+    },
+    "organism-20": {
+      "signature": "{\"id\":\"organism-20\",\"common_name\":\"Megalodon\",\"scientific_name\":\"Carcharocles megalodon\",\"card_label\":\"Card 107\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Chondrichthyes\",\"order\":\"Lamniformes\",\"family\":\"Otodontidae\",\"genus\":\"Carcharocles\",\"species\":\"megalodon\",\"biomes\":[\"Marine\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Tertiary consumers (carnivores that eat other carnivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Carcharocles megalodon.png\",\"missing\":true}}",
+      "fileName": "card-107.png"
+    },
+    "organism-21": {
+      "signature": "{\"id\":\"organism-21\",\"common_name\":\"Killer Whale\",\"scientific_name\":\"Orcinus orca\",\"card_label\":\"Card 36\",\"main_photo\":null,\"organism_type\":\"Mammals\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Mammalia\",\"order\":\"Artiodactyla\",\"family\":\"Delphinidae\",\"genus\":\"Orcinus\",\"species\":\"orca\",\"biomes\":[\"Marine\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Tertiary consumers (carnivores that eat other carnivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Orcinus orca.png\",\"size\":1511699,\"mtimeMs\":1775934324378}}",
+      "fileName": "card-36.png"
+    },
+    "organism-22": {
+      "signature": "{\"id\":\"organism-22\",\"common_name\":\"Great White Shark\",\"scientific_name\":\"Carcharodon carcharias\",\"card_label\":\"Card 29\",\"main_photo\":null,\"organism_type\":\"Aquatic Vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Chondrichthyes\",\"order\":\"Lamniformes\",\"family\":\"Lamnidae\",\"genus\":\"Carcharodon\",\"species\":\"carcharias\",\"biomes\":[\"Marine\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Tertiary consumers (carnivores that eat other carnivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Carcharodon carcharias.png\",\"size\":7491375,\"mtimeMs\":1775934323093}}",
+      "fileName": "card-29.png"
+    },
+    "organism-23": {
+      "signature": "{\"id\":\"organism-23\",\"common_name\":\"Blue Whale\",\"scientific_name\":\"Balaenoptera musculus\",\"card_label\":\"Card 72\",\"main_photo\":null,\"organism_type\":\"Mammals\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Mammalia\",\"order\":\"Artiodactyla\",\"family\":\"Balaenopteridae\",\"genus\":\"Balaenoptera\",\"species\":\"musculus\",\"biomes\":[\"Marine\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Balaenoptera musculus.png\",\"size\":6130391,\"mtimeMs\":1775934323035}}",
+      "fileName": "card-72.png"
+    },
+    "organism-24": {
+      "signature": "{\"id\":\"organism-24\",\"common_name\":\"Antarctic Krill\",\"scientific_name\":\"Euphausia superba\",\"card_label\":\"Card 44\",\"main_photo\":null,\"organism_type\":\"Aquatic & Reef Invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Arthropoda\",\"class\":\"Malacostraca\",\"order\":\"Euphausiacea\",\"family\":\"Euphausiidae\",\"genus\":\"Euphausia\",\"species\":\"superba\",\"biomes\":[\"Marine\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Euphausia superba.png\",\"size\":7458573,\"mtimeMs\":1775934323575}}",
+      "fileName": "card-44.png"
+    }
+  }
+}

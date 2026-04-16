@@ -3,7 +3,7 @@
 
 const drawFunctionalCategoryBadge = require('../../../badges/functional-category-badge');
 const drawBiomesBadge = require('../../../badges/biomes-badge');
-const drawErasBadge = require('../../../badges/eras-badge');
+const drawRoleBadge = require('../../../badges/role-badge');
 const drawPeriodsBadge = require('../../../badges/periods-badge');
 const drawTrophicLevelBadge = require('../../../badges/trophic-level-badge');
 
@@ -23,7 +23,7 @@ module.exports = function drawFunctionalCategory(ctx, contentX, contentY, conten
   const rowH = Math.round((badgeRadius * 2) + (6 * scale));
 
   // Calculate starting y for condensed block so last field isn't cut off
-  const blockFieldCount = [card.organism_type ? 1 : 0, card.biomes && card.biomes.length ? 1 : 0, card.trophic_level ? 1 : 0, card.eras && card.eras.length ? 1 : 0, card.periods && card.periods.length ? 1 : 0].reduce((a, b) => a + b, 0);
+  const blockFieldCount = [card.organism_type ? 1 : 0, card.biomes && card.biomes.length ? 1 : 0, card.trophic_level ? 1 : 0, card.role && (Array.isArray(card.role) ? card.role.length : 1) ? 1 : 0, card.periods && card.periods.length ? 1 : 0].reduce((a, b) => a + b, 0);
   // Reduce vertical padding between each field
   const condensedRowH = Math.round(rowH * 0.60); // slightly more compact, but not too tight
   const blockHeight = blockFieldCount * condensedRowH;
@@ -192,14 +192,15 @@ module.exports = function drawFunctionalCategory(ctx, contentX, contentY, conten
     blockRow++;
   }
 
-  // Draw Eras (split background, color-matched)
-  if (card.eras && card.eras.length) {
+  // Draw Role (split background, color-matched)
+  if (card.role && (Array.isArray(card.role) ? card.role.length : card.role)) {
     let rowY = blockY + blockRow * condensedRowH + 2;
     ctx.save();
     let color = getCardColorBlock(card);
     ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-    const label = 'Eras';
-    const value = card.eras.join(', ');
+    const label = 'Role';
+    const roleVal = Array.isArray(card.role) ? card.role[0] : card.role;
+    const value = (roleVal || '').replace(/_/g, ' ').replace(/\b([a-z])/g, c => c.toUpperCase());
     const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
     const labelW = ctx.measureText(label).width;
     ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
@@ -215,9 +216,8 @@ module.exports = function drawFunctionalCategory(ctx, contentX, contentY, conten
     const ry = rowY - boxPadY;
     const rw = (maxX - minX) + 2 * boxPadX;
     const rh = boxH;
-    // Split background: top and bottom
-    const drawTop = require('./eras-background-top');
-    const drawBottom = require('./eras-background-bottom');
+    const drawTop = require('./role-background-top');
+    const drawBottom = require('./role-background-bottom');
     drawTop(ctx, rx, ry, rw, rh, boxRadius, color, hexToRgba, 0.45);
     drawBottom(ctx, rx, ry, rw, rh, boxRadius, color, hexToRgba, 0.8);
     ctx.restore();

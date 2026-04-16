@@ -3,7 +3,7 @@
   "organisms": [
     {
       "type": "organism",
-      "card_label": "Card 1",
+      "card_label": "Card 90",
       "common_name": "Tamisiocaris",
       "scientific_name": "Tamisiocaris borealis",
       "main_photo": null,
@@ -15,18 +15,30 @@
       "family": "Tamisiocarididae",
       "genus": "Tamisiocaris",
       "species": "borealis",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Cambrian"],
-      "trophic_level": "Primary consumer",
-      "role": ["filter_feeder"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Cambrian"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "role": [
+        "filter_feeder"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 1, "co2": -1, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 2",
+      "card_label": "Card 91",
       "common_name": "Anomalocaris",
       "scientific_name": "Anomalocaris canadensis",
       "main_photo": null,
@@ -38,18 +50,30 @@
       "family": "Anomalocarididae",
       "genus": "Anomalocaris",
       "species": "canadensis",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Cambrian"],
-      "trophic_level": "Secondary consumer",
-      "role": ["predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Cambrian"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "role": [
+        "predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 3",
+      "card_label": "Card 92",
       "common_name": "Giant Trilobite",
       "scientific_name": "Isotelus maximus",
       "main_photo": null,
@@ -61,18 +85,31 @@
       "family": "Asaphidae",
       "genus": "Isotelus",
       "species": "maximus",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Ordovician"],
-      "trophic_level": "Primary consumer",
-      "role": ["grazer", "scavenger"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Ordovician"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "role": [
+        "grazer",
+        "scavenger"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 4",
+      "card_label": "Card 93",
       "common_name": "Orthoceras",
       "scientific_name": "Orthoceras regulare",
       "main_photo": null,
@@ -84,18 +121,30 @@
       "family": "Orthoceratidae",
       "genus": "Orthoceras",
       "species": "regulare",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Ordovician"],
-      "trophic_level": "Secondary consumer",
-      "role": ["predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Ordovician"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "role": [
+        "predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 5",
+      "card_label": "Card 94",
       "common_name": "Sea Scorpion",
       "scientific_name": "Eurypterus remipes",
       "main_photo": null,
@@ -107,18 +156,30 @@
       "family": "Eurypteridae",
       "genus": "Eurypterus",
       "species": "remipes",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Silurian"],
-      "trophic_level": "Secondary consumer",
-      "role": ["predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "role": [
+        "predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 6",
+      "card_label": "Card 95",
       "common_name": "Sea Lily",
       "scientific_name": "Crinoidea sp.",
       "main_photo": null,
@@ -130,18 +191,32 @@
       "family": "sp.",
       "genus": "Crinoidea",
       "species": "sp.",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Silurian"],
-      "trophic_level": "Primary consumer",
-      "role": ["filter_feeder", "ecosystem_engineer", "builder"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "role": [
+        "filter_feeder",
+        "ecosystem_engineer",
+        "builder"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 1, "co2": -1, "biodiversity": 2 },
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 7",
+      "card_label": "Card 96",
       "common_name": "Bothriolepis",
       "scientific_name": "Bothriolepis canadensis",
       "main_photo": null,
@@ -153,18 +228,31 @@
       "family": "Bothriolepidae",
       "genus": "Bothriolepis",
       "species": "canadensis",
-      "biomes": ["Marine", "Freshwater"],
-      "eras": ["Paleozoic"],
-      "periods": ["Devonian"],
-      "trophic_level": "Primary consumer",
-      "role": ["benthic_feeder"],
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "role": [
+        "benthic_feeder"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 8",
+      "card_label": "Card 28",
       "common_name": "Dunkleosteus",
       "scientific_name": "Dunkleosteus terrelli",
       "main_photo": null,
@@ -176,18 +264,30 @@
       "family": "Dunkleosteidae",
       "genus": "Dunkleosteus",
       "species": "terrelli",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Devonian"],
-      "trophic_level": "Apex predator",
-      "role": ["apex_predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "role": [
+        "apex_predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 2 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 9",
+      "card_label": "Card 97",
       "common_name": "Scissor-tooth Shark",
       "scientific_name": "Edestus heinrichi",
       "main_photo": null,
@@ -199,18 +299,30 @@
       "family": "Edestidae",
       "genus": "Edestus",
       "species": "heinrichi",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Carboniferous"],
-      "trophic_level": "Secondary consumer",
-      "role": ["predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "role": [
+        "predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 10",
+      "card_label": "Card 98",
       "common_name": "Productid Brachiopod",
       "scientific_name": "Productida sp.",
       "main_photo": null,
@@ -222,18 +334,30 @@
       "family": "Productidae",
       "genus": "Productida",
       "species": "sp.",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Carboniferous"],
-      "trophic_level": "Primary consumer",
-      "role": ["filter_feeder"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "role": [
+        "filter_feeder"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 1, "co2": -1, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 11",
+      "card_label": "Card 99",
       "common_name": "Mesosaurus",
       "scientific_name": "Mesosaurus tenuidens",
       "main_photo": null,
@@ -245,18 +369,31 @@
       "family": "Mesosauridae",
       "genus": "Mesosaurus",
       "species": "tenuidens",
-      "biomes": ["Marine", "Freshwater"],
-      "eras": ["Paleozoic"],
-      "periods": ["Permian"],
-      "trophic_level": "Secondary consumer",
-      "role": ["predator"],
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "role": [
+        "predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 12",
+      "card_label": "Card 100",
       "common_name": "Coiled Nautiloid",
       "scientific_name": "Metacoceras sp.",
       "main_photo": null,
@@ -268,18 +405,31 @@
       "family": "Metacoceratidae",
       "genus": "Metacoceras",
       "species": "sp.",
-      "biomes": ["Marine"],
-      "eras": ["Paleozoic"],
-      "periods": ["Permian"],
-      "trophic_level": "Secondary consumer",
-      "role": ["predator", "scavenger"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "role": [
+        "predator",
+        "scavenger"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 13",
+      "card_label": "Card 101",
       "common_name": "Nothosaurus",
       "scientific_name": "Nothosaurus mirabilis",
       "main_photo": null,
@@ -291,18 +441,30 @@
       "family": "Nothosauridae",
       "genus": "Nothosaurus",
       "species": "mirabilis",
-      "biomes": ["Marine"],
-      "eras": ["Mesozoic"],
-      "periods": ["Triassic"],
-      "trophic_level": "Secondary consumer",
-      "role": ["predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "role": [
+        "predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 14",
+      "card_label": "Card 102",
       "common_name": "Placodus",
       "scientific_name": "Placodus gigas",
       "main_photo": null,
@@ -314,18 +476,30 @@
       "family": "Placodontidae",
       "genus": "Placodus",
       "species": "gigas",
-      "biomes": ["Marine"],
-      "eras": ["Mesozoic"],
-      "periods": ["Triassic"],
-      "trophic_level": "Primary consumer",
-      "role": ["durophagous_grazer"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "role": [
+        "durophagous_grazer"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 15",
+      "card_label": "Card 103",
       "common_name": "Leedsichthys",
       "scientific_name": "Leedsichthys problematicus",
       "main_photo": null,
@@ -337,18 +511,30 @@
       "family": "Leedsichthyidae",
       "genus": "Leedsichthys",
       "species": "problematicus",
-      "biomes": ["Marine"],
-      "eras": ["Mesozoic"],
-      "periods": ["Jurassic"],
-      "trophic_level": "Primary consumer",
-      "role": ["filter_feeder"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "role": [
+        "filter_feeder"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 1, "co2": -1, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 16",
+      "card_label": "Card 104",
       "common_name": "Plesiosaurus",
       "scientific_name": "Plesiosaurus dolichodeirus",
       "main_photo": null,
@@ -360,18 +546,30 @@
       "family": "Plesiosauridae",
       "genus": "Plesiosaurus",
       "species": "dolichodeirus",
-      "biomes": ["Marine"],
-      "eras": ["Mesozoic"],
-      "periods": ["Jurassic"],
-      "trophic_level": "Secondary consumer",
-      "role": ["predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "role": [
+        "predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 17",
+      "card_label": "Card 35",
       "common_name": "Mosasaurus",
       "scientific_name": "Mosasaurus hoffmannii",
       "main_photo": null,
@@ -383,18 +581,30 @@
       "family": "Mosasauridae",
       "genus": "Mosasaurus",
       "species": "hoffmannii",
-      "biomes": ["Marine"],
-      "eras": ["Mesozoic"],
-      "periods": ["Cretaceous"],
-      "trophic_level": "Apex predator",
-      "role": ["apex_predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "role": [
+        "apex_predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 2 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 18",
+      "card_label": "Card 105",
       "common_name": "Giant Sea Turtle",
       "scientific_name": "Archelon ischyros",
       "main_photo": null,
@@ -406,18 +616,31 @@
       "family": "Protostegidae",
       "genus": "Archelon",
       "species": "ischyros",
-      "biomes": ["Marine"],
-      "eras": ["Mesozoic"],
-      "periods": ["Cretaceous"],
-      "trophic_level": "Secondary consumer",
-      "role": ["durophagous_feeder", "scavenger"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "role": [
+        "durophagous_feeder",
+        "scavenger"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 19",
+      "card_label": "Card 106",
       "common_name": "Basilosaurus",
       "scientific_name": "Basilosaurus cetoides",
       "main_photo": null,
@@ -429,18 +652,30 @@
       "family": "Basilosauridae",
       "genus": "Basilosaurus",
       "species": "cetoides",
-      "biomes": ["Marine"],
-      "eras": ["Cenozoic"],
-      "periods": ["Paleogene"],
-      "trophic_level": "Apex predator",
-      "role": ["apex_predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "role": [
+        "apex_predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 2 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 20",
+      "card_label": "Card 107",
       "common_name": "Megalodon",
       "scientific_name": "Carcharocles megalodon",
       "main_photo": null,
@@ -452,18 +687,31 @@
       "family": "Otodontidae",
       "genus": "Carcharocles",
       "species": "megalodon",
-      "biomes": ["Marine"],
-      "eras": ["Cenozoic"],
-      "periods": ["Paleogene"],
-      "trophic_level": "Apex predator",
-      "role": ["apex_predator", "scavenger"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "role": [
+        "apex_predator",
+        "scavenger"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 2 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 21",
+      "card_label": "Card 36",
       "common_name": "Killer Whale",
       "scientific_name": "Orcinus orca",
       "main_photo": null,
@@ -475,18 +723,31 @@
       "family": "Delphinidae",
       "genus": "Orcinus",
       "species": "orca",
-      "biomes": ["Marine"],
-      "eras": ["Cenozoic"],
-      "periods": ["Neogene"],
-      "trophic_level": "Apex predator",
-      "role": ["apex_predator", "ecosystem_engineer"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "role": [
+        "apex_predator",
+        "ecosystem_engineer"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 2 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 22",
+      "card_label": "Card 29",
       "common_name": "Great White Shark",
       "scientific_name": "Carcharodon carcharias",
       "main_photo": null,
@@ -498,18 +759,30 @@
       "family": "Lamnidae",
       "genus": "Carcharodon",
       "species": "carcharias",
-      "biomes": ["Marine"],
-      "eras": ["Cenozoic"],
-      "periods": ["Neogene"],
-      "trophic_level": "Apex predator",
-      "role": ["apex_predator"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "role": [
+        "apex_predator"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 0, "co2": 0, "biodiversity": 2 },
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 23",
+      "card_label": "Card 72",
       "common_name": "Blue Whale",
       "scientific_name": "Balaenoptera musculus",
       "main_photo": null,
@@ -521,18 +794,31 @@
       "family": "Balaenopteridae",
       "genus": "Balaenoptera",
       "species": "musculus",
-      "biomes": ["Marine"],
-      "eras": ["Cenozoic"],
-      "periods": ["Quaternary"],
-      "trophic_level": "Primary consumer",
-      "role": ["filter_feeder", "ecosystem_engineer"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "role": [
+        "filter_feeder",
+        "ecosystem_engineer"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 1, "co2": -1, "biodiversity": 2 },
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
       "bits": null
     },
     {
       "type": "organism",
-      "card_label": "Card 24",
+      "card_label": "Card 44",
       "common_name": "Antarctic Krill",
       "scientific_name": "Euphausia superba",
       "main_photo": null,
@@ -544,13 +830,26 @@
       "family": "Euphausiidae",
       "genus": "Euphausia",
       "species": "superba",
-      "biomes": ["Marine"],
-      "eras": ["Cenozoic"],
-      "periods": ["Quaternary"],
-      "trophic_level": "Primary consumer",
-      "role": ["filter_feeder", "plague_swarm"],
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "role": [
+        "filter_feeder",
+        "plague_swarm"
+      ],
       "dna_sequence": null,
-      "effects": { "oxygen": 1, "co2": -1, "biodiversity": 1 },
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
       "bits": null
     }
   ]

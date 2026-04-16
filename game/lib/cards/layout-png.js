@@ -40,7 +40,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
   const { badgeRadius, badgeTextGap, leftPadding, badgeStartX } = getBadgeGeometry(scale);
   const condensedRowH = Math.round((badgeRadius * 2) + (6 * scale)) * 0.60;
   const bottomPadding = Math.round(6 * scale);
-  const blockFieldCount = [card.organism_type ? 1 : 0, card.biomes && card.biomes.length ? 1 : 0, card.trophic_level ? 1 : 0, card.eras && card.eras.length ? 1 : 0, card.periods && card.periods.length ? 1 : 0].reduce((a, b) => a + b, 0);
+  const blockFieldCount = [card.organism_type ? 1 : 0, card.biomes && card.biomes.length ? 1 : 0, card.trophic_level ? 1 : 0, card.role && (Array.isArray(card.role) ? card.role.length : 1) ? 1 : 0, card.periods && card.periods.length ? 1 : 0].reduce((a, b) => a + b, 0);
   const blockHeight = blockFieldCount * condensedRowH;
   const corner = 10 * scale;
   const x = xPt * scale;
@@ -345,8 +345,9 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     let trophicLabel = card.trophic_level.replace(/\s*\(.*?\)/, '');
     badgeList.push({ type: 'trophic', label: trophicLabel });
   }
-  if (card.eras && card.eras.length) {
-    card.eras.forEach(e => badgeList.push({ type: 'era', label: e }));
+  if (card.role && (Array.isArray(card.role) ? card.role.length : card.role)) {
+    const roleVal = Array.isArray(card.role) ? card.role[0] : card.role;
+    badgeList.push({ type: 'role', label: roleVal });
   }
   if (card.periods && card.periods.length) {
     // Only add unique period badges, preserving order
@@ -362,7 +363,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
   let badgeY = contentY + (contentH - dynamicBadgeColumnHeight) / 2 + badgeRadius + 60;
   const drawBiomesBadge = require('./badges/biomes-badge');
   const drawTrophicLevelBadge = require('./badges/trophic-level-badge');
-  const drawErasBadge = require('./badges/eras-badge');
+  const drawRoleBadge = require('./badges/role-badge');
   const drawPeriodsBadge = require('./badges/periods-badge');
   // Ensure neonColor is always defined for badge rendering
   const { CATEGORY_COLORS } = require('./layers/title-color-block');
@@ -382,8 +383,8 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
     let fieldY = badgeY + i * (badgeRadius * 2 + badgeGap);
     const badge = badgeList[i];
     // Move trophic badge rendering after connector for highest z-index
-    if (badge.type === 'era') {
-      await drawErasBadge(ctx, badgeStartX, fieldY, badgeRadius, card, scale, neonColor);
+    if (badge.type === 'role') {
+      await drawRoleBadge(ctx, badgeStartX, fieldY, badgeRadius, card, scale, neonColor);
     }
     if (badge.type === 'period') {
       await drawPeriodsBadge(ctx, badgeStartX, fieldY, badgeRadius, { ...card, periods: [badge.label] }, scale, neonColor);
@@ -471,16 +472,17 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       // Draw badge after connector for highest z-index
       await drawTrophicLevelBadge(ctx, badgeStartX, fieldY, badgeRadius, card, scale, neonColor);
     }
-    if (badge.type === 'era') {
+    if (badge.type === 'role') {
       let fieldIdx = 3;
       const fieldBlockY = contentY + contentH - blockHeight - bottomPadding + Math.round(8 * scale) + fieldIdx * condensedRowH;
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
-      const label = 'Eras';
+      const label = 'Role';
       ctx.save();
       ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
       const labelW = ctx.measureText(label).width;
       ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const value = card.eras ? card.eras.join(', ') : '';
+      const roleVal = Array.isArray(card.role) ? card.role[0] : (card.role || '');
+      const value = roleVal.replace(/_/g, ' ').replace(/\b([a-z])/g, c => c.toUpperCase());
       const valueW = ctx.measureText(value).width;
       const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
       const valueX = labelX;
@@ -489,9 +491,8 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       const boxPadX = 4 * scale;
       const backgroundRightX = (maxX + boxPadX) + 23 * scale;
       ctx.restore();
-      const drawErasConnector = require('./connectors/eras-connector');
-      // Restore previous connector placement for eras
-      drawErasConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
+      const drawRoleConnector = require('./connectors/role-connector');
+      drawRoleConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
     }
     if (badge.type === 'period') {
       let fieldIdx = 4;

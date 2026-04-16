@@ -25,7 +25,8 @@
     "dna:fill:4000:batch": "python3 game/fill-organism-dna-4000-batch.py",
     "generate:cards:blank:sheet": "node game/generate-cards.js --config game/config/cards.blank.sheet.json --out output/cards.png",
     "generate:board:blank": "node game/generate-board.js --config game/config/board.blank-24x20.json --out output/Board/board.png",
-    "generate:organisms:working": "node game/generate-organism-working-cards.js"
+    "generate:organisms:working": "node game/generate-organism-working-cards.js",
+    "generate:organisms:base-set": "node game/generate-organism-working-cards.js --config game/config/organisms.base-set.json --outDir \"output/Working Organism Cards/Organisms Base Set\" --safeDir \"saved_files/Working Organism Cards/Organisms Base Set\" --legacyDir \"Output/Organisms Base Set\""
   },
   "keywords": [],
   "author": "",

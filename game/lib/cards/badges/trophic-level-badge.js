@@ -1,4 +1,11 @@
 const badgeMap = {
+  // New standard 5-level values (full normalized forms first for priority)
+  primaryproducersautotrophs:                          require('./trophic level/producer-badge'),
+  primaryconsumersherbivores:                          require('./trophic level/primary-consumer-badge'),
+  secondaryconsumerscarnivoresthateatherbivores:        require('./trophic level/secondary-consumer-badge'),
+  tertiaryconsumerscarnivoresthateatothercarnivores:    require('./trophic level/apex-predator-badge'),
+  decomposersdetritivoresorganismsthatbreakdowndeadmaterial: require('./trophic level/decomposer-badge'),
+  // Legacy short-form values (kept for backward compatibility)
   builder: require('./trophic level/builder-badge'),
   producer: require('./trophic level/producer-badge'),
   secondaryconsumer: require('./trophic level/secondary-consumer-badge'),
@@ -23,7 +30,7 @@ module.exports = async function drawTrophicLevelBadge(ctx, x, y, radius, card, s
   const label = normalize(card && card.trophic_level);
 
   // Secondary consumer: exact label only (never via fallback matching)
-  if (label === 'secondaryconsumer') {
+  if (label === 'secondaryconsumer' || label === 'secondaryconsumerscarnivoresthateatherbivores') {
     const drawBadge = badgeMap.secondaryconsumer;
     const result = drawBadge(ctx, x, y, radius, card, scale, neonColor);
     if (result && typeof result.then === 'function') return await result;
@@ -34,7 +41,7 @@ module.exports = async function drawTrophicLevelBadge(ctx, x, y, radius, card, s
   let badgeKey = Object.prototype.hasOwnProperty.call(badgeMap, label) ? label : undefined;
   if (!badgeKey) {
     badgeKey = Object.keys(badgeMap)
-      .filter(k => k !== 'secondaryconsumer') // prevent accidental fallback to secondary badge
+      .filter(k => k !== 'secondaryconsumer' && k !== 'secondaryconsumerscarnivoresthateatherbivores') // prevent accidental fallback to secondary badge
       .sort((a, b) => b.length - a.length)
       .find(k => label.includes(k));
   }
