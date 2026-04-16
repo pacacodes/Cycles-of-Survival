@@ -4,17 +4,28 @@
 
 // Example color mapping for functional categories
 const CATEGORY_COLORS = {
-                  'Aquatic Vertebrates': '#02BDF2', // Bright blue
-                'Plants & Algae': '#9ECD8F', // Soft green
-              'Producers': '#A4F9CC', // Mint green
-            'Microbes & Early Life': '#4D985E', // Deep green
-          'Aquatic & Reef Invertebrates': '#3AD7F6', // Cyan
-        'Terrestrial Invertebrates (including lichens/fungi guild cards)': '#FFD93D', // Bright yellow
-      'Terrestrial Invertebrates': '#FFD93D', // Bright yellow
-    'Mammals': '#FF7F6E', // Coral
-  'Dinosaurs & Birds': '#E6501B', // Red-orange
-  'Terrestrial Vertebrates (Amphibians & Reptiles)': '#F28C28', // Tangerine
-  // Add more categories/colors as needed
+  // New taxonomy (sub-category labels)
+  'Microbes':                    '#4D985E', // Deep green
+  'Algae and phytoplankton':     '#2DB89A', // Teal
+  'Aquatic plants':              '#6DC072', // Medium green
+  'Aquatic invertebrates':       '#3AD7F6', // Cyan
+  'Aquatic vertebrates':         '#02BDF2', // Bright blue
+  'Fungi':                       '#D4813A', // Earthy amber
+  'Plants':                      '#9ECD8F', // Soft green
+  'Terrestrial invertebrates':   '#FFD93D', // Bright yellow
+  'Terrestrial vertebrates':     '#FF7F6E', // Coral (same as Mammals)
+  'Decomposers & detritivores':  '#8B6914', // Earthy brown
+  // Legacy keys (backward compat)
+  'Aquatic Vertebrates': '#02BDF2',
+  'Plants & Algae': '#9ECD8F',
+  'Producers': '#A4F9CC',
+  'Microbes & Early Life': '#4D985E',
+  'Aquatic & Reef Invertebrates': '#3AD7F6',
+  'Terrestrial Invertebrates (including lichens/fungi guild cards)': '#FFD93D',
+  'Terrestrial Invertebrates': '#FFD93D',
+  'Mammals': '#FF7F6E',
+  'Dinosaurs & Birds': '#E6501B',
+  'Terrestrial Vertebrates (Amphibians & Reptiles)': '#F28C28',
 };
 
 /**

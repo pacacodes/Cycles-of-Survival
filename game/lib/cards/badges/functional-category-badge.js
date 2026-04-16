@@ -2,22 +2,33 @@ const { loadImage } = require('canvas');
 const path = require('path');
 
 const categoryBadgeImageMap = {
-  plantsalgae: path.join(__dirname, '../layers/detailed-type/category/Plants_Algae.png'),
-  microbesearlylife: path.join(__dirname, '../layers/detailed-type/category/Microbes_Early_Life.png'),
-  aquaticvertebrates: path.join(__dirname, '../layers/detailed-type/category/Aquatic_Vertebrates.png'),
-  aquaticreefinvertebrates: path.join(__dirname, '../layers/detailed-type/category/Aquatic_Reef_Invertebrate.png'),
-  mammals: path.join(__dirname, '../layers/detailed-type/category/Mammals.png'),
-  dinosaursbirds: path.join(__dirname, '../layers/detailed-type/category/Dinosaur_Bird.png'),
-  terrestrialinvertebrates: path.join(__dirname, '../layers/detailed-type/category/Terrestrial_Invertebrates.png'),
+  // New taxonomy keys (normalized: lowercase, alphanum only)
+  microbes:                  path.join(__dirname, '../layers/detailed-type/category/Microbes_Early_Life.png'),
+  algaeandphytoplankton:     path.join(__dirname, '../layers/detailed-type/category/Plants_Algae.png'),
+  aquaticplants:             path.join(__dirname, '../layers/detailed-type/category/Plants_Algae.png'),
+  aquaticinvertebrates:      path.join(__dirname, '../layers/detailed-type/category/Aquatic_Reef_Invertebrate.png'),
+  aquaticvertebrates:        path.join(__dirname, '../layers/detailed-type/category/Aquatic_Vertebrates.png'),
+  fungi:                     path.join(__dirname, '../layers/detailed-type/category/Microbes_Early_Life.png'),
+  plants:                    path.join(__dirname, '../layers/detailed-type/category/Plants_Algae.png'),
+  terrestrialinvertebrates:  path.join(__dirname, '../layers/detailed-type/category/Terrestrial_Invertebrates.png'),
+  terrestrialvertebrates:    path.join(__dirname, '../layers/detailed-type/category/Terrestrial_Vertebrates.png'),
+  decomposersdetritivores:   path.join(__dirname, '../layers/detailed-type/category/Microbes_Early_Life.png'),
+  // Legacy keys
+  plantsalgae:               path.join(__dirname, '../layers/detailed-type/category/Plants_Algae.png'),
+  microbesearlylife:         path.join(__dirname, '../layers/detailed-type/category/Microbes_Early_Life.png'),
+  aquaticreefinvertebrates:  path.join(__dirname, '../layers/detailed-type/category/Aquatic_Reef_Invertebrate.png'),
+  mammals:                   path.join(__dirname, '../layers/detailed-type/category/Mammals.png'),
+  dinosaursbirds:            path.join(__dirname, '../layers/detailed-type/category/Dinosaur_Bird.png'),
   terrestrialinvertebratesincludinglichensfungiguildcards: path.join(__dirname, '../layers/detailed-type/category/Terrestrial_Invertebrates.png'),
-  terrestrialvertebrates: path.join(__dirname, '../layers/detailed-type/category/Terrestrial_Vertebrates.png'),
   terrestrialvertebratesamphibiansreptiles: path.join(__dirname, '../layers/detailed-type/category/Terrestrial_Vertebrates.png'),
 };
 
 const categoryBadgeScaleMap = {
+  terrestrialvertebrates: 1.05,
+  terrestrialinvertebrates: 1.05,
+  // Legacy
   mammals: 1.05,
   dinosaursbirds: 1.05,
-  terrestrialvertebrates: 1.05,
   terrestrialvertebratesamphibiansreptiles: 1.05,
 };
 
