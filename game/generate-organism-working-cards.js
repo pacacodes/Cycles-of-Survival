@@ -244,6 +244,7 @@ function syncDirectoryFiles(sourceDir, targetDir, fileNames) {
         eras: card.eras,
         periods: card.periods,
         trophic_level: card.trophic_level,
+        role: card.role,
         dna_sequence: card.dna_sequence,
         effects: card.effects,
         dna_source: card.dna_source,

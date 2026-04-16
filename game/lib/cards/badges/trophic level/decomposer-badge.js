@@ -12,7 +12,18 @@ module.exports = async function (ctx, x, y, radius, card, scale) {
   }
   ctx.save();
   const imgPath = path.join(__dirname, './Decomposer_Detritivore.png');
-  const img = await loadImage(imgPath);
+  let img;
+  try {
+    img = await loadImage(imgPath);
+  } catch (_) {
+    // PNG not yet available — draw placeholder circle
+    ctx.beginPath();
+    ctx.arc(_x, _y, _radius * 0.9, 0, 2 * Math.PI);
+    ctx.fillStyle = '#8B4513';
+    ctx.fill();
+    ctx.restore();
+    return;
+  }
   const scaleDown = 0.95;
   const size = _radius * 2 * scaleDown;
   ctx.drawImage(img, _x - size / 2, _y - size / 2, size, size);

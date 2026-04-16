@@ -851,6 +851,41 @@
         "biodiversity": 1
       },
       "bits": null
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 108",
+      "common_name": "Leatherback Sea Turtle",
+      "scientific_name": "Dermochelys coriacea",
+      "main_photo": null,
+      "organism_type": "Aquatic Vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Dermochelyidae",
+      "genus": "Dermochelys",
+      "species": "coriacea",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ]
     }
   ]
 }
