@@ -12,11 +12,22 @@
  *   label        - bold header string (e.g. "Organism Type")
  *   main         - main value string (e.g. "Terrestrial Vertebrates")
  *   sub          - optional description shown smaller on next line
+ *   maxWidth     - optional max pixel width for text before ellipsis truncation
  *   hexToRgba    - helper fn from field-helpers
  *   drawTop      - background-top draw fn
  *   drawBottom   - background-bottom draw fn
  */
-module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleColor, label, main, sub, hexToRgba, drawTop, drawBottom }) {
+function truncateToWidth(ctx, text, font, maxPx) {
+  ctx.font = font;
+  if (!maxPx || ctx.measureText(text).width <= maxPx) return text;
+  let truncated = text;
+  while (truncated.length > 1 && ctx.measureText(truncated + '…').width > maxPx) {
+    truncated = truncated.slice(0, -1);
+  }
+  return truncated + '…';
+}
+
+module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleColor, label, main, sub, maxWidth, hexToRgba, drawTop, drawBottom }) {
   ctx.save();
   ctx.textAlign = 'left';
   ctx.textBaseline = 'top';
@@ -32,7 +43,8 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
 
   // Normalize label (ALL CAPS) and sub (lowercase, preserve Ma/Ga)
   const displayLabel = label.toUpperCase();
-  const displaySub = sub ? sub.toLowerCase().replace(/\bma\b/g, 'Ma').replace(/\bga\b/g, 'Ga') : null;
+  const rawSub = sub ? sub.toLowerCase().replace(/\bma\b/g, 'Ma').replace(/\bga\b/g, 'Ga') : null;
+  const displaySub = rawSub ? truncateToWidth(ctx, rawSub, `${subSize}px "DejaVu Sans", sans-serif`, maxWidth || null) : null;
 
   // Measure widths for background box
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
@@ -46,13 +58,14 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
     subW = ctx.measureText(displaySub).width;
   }
   const line1W = labelPartW + mainW;
-  const contentW = Math.max(line1W, subW);
+  const contentW = maxWidth ? Math.min(Math.max(line1W, subW), maxWidth) : Math.max(line1W, subW);
   const boxH = fieldSize + (displaySub ? lineGap + subSize : 0) + 2 * boxPadY;
+  const boxW = contentW + 2 * boxPadX;
 
   // Background (isolated save/restore)
   ctx.save();
-  drawTop(ctx, textX - boxPadX, rowY - boxPadY, contentW + 2 * boxPadX, boxH, boxRadius, color, hexToRgba, 0.45);
-  drawBottom(ctx, textX - boxPadX, rowY - boxPadY, contentW + 2 * boxPadX, boxH, boxRadius, color, hexToRgba, 0.8);
+  drawTop(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.45);
+  drawBottom(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.8);
   ctx.restore();
 
   // Line 1: "Bold Label: " then bold "Main Value"

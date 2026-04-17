@@ -17,6 +17,8 @@ module.exports = function drawFunctionalCategory(ctx, contentX, contentY, conten
 
   const color = getCardColor(card);
   const textX = contentX + leftPadding + badgeRadius + badgeTextGap;
+  // Max text width: from textX to the card's right content edge, minus a small right margin
+  const maxTextWidth = contentW - leftPadding - badgeRadius - badgeTextGap - Math.round(8 * scale);
 
   fields.forEach((field, i) => {
     drawFieldRow(ctx, {
@@ -25,6 +27,7 @@ module.exports = function drawFunctionalCategory(ctx, contentX, contentY, conten
       scale,
       color,
       titleColor: card.titleColor,
+      maxWidth:   maxTextWidth > 0 ? maxTextWidth : undefined,
       hexToRgba,
       ...field,
     });

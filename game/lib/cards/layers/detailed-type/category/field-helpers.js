@@ -27,7 +27,7 @@ function parseField(raw) {
 }
 
 // Compute the right edge X of the background box drawn by draw-field-row.js
-function computeBackgroundRightX(ctx, { label, main, sub, textX, scale }) {
+function computeBackgroundRightX(ctx, { label, main, sub, textX, scale, maxWidth }) {
   const fieldSize = Math.round(4.5 * scale);
   const subSize   = Math.round(4.5 * scale);
   const boxPadX   = 4 * scale;
@@ -45,7 +45,9 @@ function computeBackgroundRightX(ctx, { label, main, sub, textX, scale }) {
     subW = ctx.measureText(displaySub).width;
   }
   ctx.restore();
-  const contentW = Math.max(labelPartW + mainW, subW);
+  const contentW = maxWidth
+    ? Math.min(Math.max(labelPartW + mainW, subW), maxWidth)
+    : Math.max(labelPartW + mainW, subW);
   return textX + contentW + boxPadX;
 }
 
