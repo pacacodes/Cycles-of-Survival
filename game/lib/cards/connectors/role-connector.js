@@ -44,7 +44,7 @@ module.exports = function drawRoleConnector(ctx, badgeX, badgeY, fieldX, fieldY,
   const horizEndX = vertX + horizLen;
   let endX = horizEndX;
   if (backgroundRightX !== undefined && backgroundRightX !== null) {
-    endX = backgroundRightX + 7;
+    endX = backgroundRightX;
   }
   // Diffused neon glow
   ctx.save();

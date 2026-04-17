@@ -56,7 +56,7 @@ module.exports = function drawPeriodsConnector(ctx, badgeX, badgeY, fieldX, fiel
   ctx.arcTo(vertX, fieldY, horizEndX, fieldY, radius);
   let endX = horizEndX;
   if (backgroundRightX !== undefined && backgroundRightX !== null) {
-    endX = backgroundRightX + 6;
+    endX = backgroundRightX;
   }
   ctx.lineTo(endX, fieldY);
   ctx.stroke();

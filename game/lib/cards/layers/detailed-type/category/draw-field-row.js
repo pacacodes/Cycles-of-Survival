@@ -17,16 +17,6 @@
  *   drawTop      - background-top draw fn
  *   drawBottom   - background-bottom draw fn
  */
-function truncateToWidth(ctx, text, font, maxPx) {
-  ctx.font = font;
-  if (!maxPx || ctx.measureText(text).width <= maxPx) return text;
-  let truncated = text;
-  while (truncated.length > 1 && ctx.measureText(truncated + '…').width > maxPx) {
-    truncated = truncated.slice(0, -1);
-  }
-  return truncated + '…';
-}
-
 module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleColor, label, main, sub, maxWidth, hexToRgba, drawTop, drawBottom }) {
   ctx.save();
   ctx.textAlign = 'left';
@@ -43,8 +33,7 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
 
   // Normalize label (ALL CAPS) and sub (lowercase, preserve Ma/Ga)
   const displayLabel = label.toUpperCase();
-  const rawSub = sub ? sub.toLowerCase().replace(/\bma\b/g, 'Ma').replace(/\bga\b/g, 'Ga') : null;
-  const displaySub = rawSub ? truncateToWidth(ctx, rawSub, `${subSize}px "DejaVu Sans", sans-serif`, maxWidth || null) : null;
+  const displaySub = sub ? sub.toLowerCase().replace(/\bma\b/g, 'Ma').replace(/\bga\b/g, 'Ga') : null;
 
   // Measure widths for background box
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;

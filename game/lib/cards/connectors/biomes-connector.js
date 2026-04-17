@@ -57,7 +57,7 @@ module.exports = function drawBiomesConnector(ctx, badgeX, badgeY, fieldX, field
   ctx.arcTo(vertX, fieldY, horizEndX, fieldY, radius);
   let endX = horizEndX;
   if (backgroundRightX !== undefined && backgroundRightX !== null) {
-    endX = backgroundRightX + 7;
+    endX = backgroundRightX;
   }
   ctx.lineTo(endX, fieldY);
   ctx.stroke();
@@ -77,7 +77,7 @@ module.exports = function drawBiomesConnector(ctx, badgeX, badgeY, fieldX, field
   ctx.lineTo(endX, fieldY);
   ctx.stroke();
   ctx.restore();
-  // Connector line: center white highlight (diffused, less dominant)
+  // Connector line: white highlight (diffused, less dominant)
   ctx.save();
   ctx.strokeStyle = '#fff';
   ctx.globalAlpha = 0.7;

@@ -98,7 +98,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
   const funcTextX = (contentX + 20) + Math.round(21 * scale) + badgeRadius + badgeTextGap;
   await drawBadgesAndConnectors(ctx, badgeList, {
     badgeY, badgeRadius, badgeGap, badgeStartX,
-    contentX, contentY, contentH,
+    contentX, contentY, contentH, contentW,
     blockHeight, bottomPadding, condensedRowH,
     leftPadding, badgeTextGap, funcTextX,
     scale, neonColor, card, fieldDefs,

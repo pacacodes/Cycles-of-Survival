@@ -57,7 +57,7 @@ module.exports = function drawTrophicLevelConnector(ctx, badgeX, badgeY, fieldX,
   ctx.arcTo(vertX, fieldY, horizEndX, fieldY, radius);
   let endX = horizEndX;
   if (backgroundRightX !== undefined && backgroundRightX !== null) {
-    endX = backgroundRightX + 7;
+    endX = backgroundRightX;
   }
   ctx.lineTo(endX, fieldY);
   ctx.stroke();

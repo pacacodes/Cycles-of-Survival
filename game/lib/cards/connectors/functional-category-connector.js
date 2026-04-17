@@ -59,7 +59,7 @@ module.exports = function drawFunctionalCategoryConnector(ctx, badgeX, badgeY, f
   ctx.arcTo(vertX, fieldY, horizStartX, fieldY, radius);
   let endX = horizStartX;
   if (backgroundRightX !== undefined && backgroundRightX !== null) {
-    endX = backgroundRightX + 1.5 * scale;
+    endX = backgroundRightX;
   }
   ctx.lineTo(endX, fieldY);
   ctx.stroke();
