@@ -1,6 +1,6 @@
 {
   "_codeChecksum": "8e7f632b33e4978b1f46980101c928bc",
-  "_generatedAt": "2026-04-17T18:40:03.687Z",
+  "_generatedAt": "2026-04-17T19:05:56.657Z",
   "_paths": {
     "current": "/workspaces/Cycles-of-Survival/output/Working Organism Cards/current",
     "safe": "/workspaces/Cycles-of-Survival/saved_files/Working Organism Cards/current"
@@ -445,6 +445,50 @@
     "organism-110": {
       "signature": "{\"id\":\"organism-110\",\"common_name\":\"Lingula brachiopod\",\"scientific_name\":\"Lingula sp.\",\"card_label\":\"Card 110\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Lingula\",\"species\":\"sp.\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Silurian\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"filter_feeder\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Lingula sp..png\",\"missing\":true}}",
       "fileName": "card-110.png"
+    },
+    "organism-111": {
+      "signature": "{\"id\":\"organism-111\",\"common_name\":\"Cyanobacteria\",\"scientific_name\":\"Cyanobacteria\",\"card_label\":\"Card 111\",\"main_photo\":null,\"organism_type\":\"Microbes\",\"kingdom\":\"Bacteria\",\"phylum\":\"Cyanobacteria\",\"class\":null,\"order\":null,\"family\":null,\"genus\":null,\"species\":null,\"biomes\":[\"Freshwater\",\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Early Archean\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Cyanobacteria.png\",\"missing\":true}}",
+      "fileName": "card-111.png"
+    },
+    "organism-112": {
+      "signature": "{\"id\":\"organism-112\",\"common_name\":\"Grypania\",\"scientific_name\":\"Grypania spiralis\",\"card_label\":\"Card 112\",\"main_photo\":null,\"organism_type\":\"Algae and phytoplankton\",\"kingdom\":\"Protista\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Grypania\",\"species\":\"spiralis\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Early Proterozoic\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Grypania spiralis.png\",\"missing\":true}}",
+      "fileName": "card-112.png"
+    },
+    "organism-113": {
+      "signature": "{\"id\":\"organism-113\",\"common_name\":\"Gunflintia\",\"scientific_name\":\"Gunflintia\",\"card_label\":\"Card 113\",\"main_photo\":null,\"organism_type\":\"Microbes\",\"kingdom\":\"Bacteria\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Gunflintia\",\"species\":null,\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Early Proterozoic\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Gunflintia.png\",\"missing\":true}}",
+      "fileName": "card-113.png"
+    },
+    "organism-114": {
+      "signature": "{\"id\":\"organism-114\",\"common_name\":\"Huroniospora\",\"scientific_name\":\"Huroniospora\",\"card_label\":\"Card 114\",\"main_photo\":null,\"organism_type\":\"Microbes\",\"kingdom\":\"Bacteria\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Huroniospora\",\"species\":null,\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Early Proterozoic\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Huroniospora.png\",\"missing\":true}}",
+      "fileName": "card-114.png"
+    },
+    "organism-115": {
+      "signature": "{\"id\":\"organism-115\",\"common_name\":\"Dickinsonia\",\"scientific_name\":\"Dickinsonia costata\",\"card_label\":\"Card 115\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Dickinsonia\",\"species\":\"costata\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Decomposers/detritivores (organisms that break down dead material)\",\"role\":[\"detritivore\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Dickinsonia costata.png\",\"missing\":true}}",
+      "fileName": "card-115.png"
+    },
+    "organism-116": {
+      "signature": "{\"id\":\"organism-116\",\"common_name\":\"Spriggina\",\"scientific_name\":\"Spriggina floundersi\",\"card_label\":\"Card 116\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Spriggina\",\"species\":\"floundersi\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"herbivore\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Spriggina floundersi.png\",\"missing\":true}}",
+      "fileName": "card-116.png"
+    },
+    "organism-117": {
+      "signature": "{\"id\":\"organism-117\",\"common_name\":\"Kimberella\",\"scientific_name\":\"Kimberella quadrata\",\"card_label\":\"Card 117\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Kimberella\",\"species\":\"quadrata\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"herbivore\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Kimberella quadrata.png\",\"missing\":true}}",
+      "fileName": "card-117.png"
+    },
+    "organism-118": {
+      "signature": "{\"id\":\"organism-118\",\"common_name\":\"Tribrachidium\",\"scientific_name\":\"Tribrachidium heraldicum\",\"card_label\":\"Card 118\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Tribrachidium\",\"species\":\"heraldicum\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"filter_feeder\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Tribrachidium heraldicum.png\",\"missing\":true}}",
+      "fileName": "card-118.png"
+    },
+    "organism-119": {
+      "signature": "{\"id\":\"organism-119\",\"common_name\":\"Cloudina\",\"scientific_name\":\"Cloudina hartmannae\",\"card_label\":\"Card 119\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Cloudina\",\"species\":\"hartmannae\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"filter_feeder\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Cloudina hartmannae.png\",\"missing\":true}}",
+      "fileName": "card-119.png"
+    },
+    "organism-120": {
+      "signature": "{\"id\":\"organism-120\",\"common_name\":\"Namacalathus\",\"scientific_name\":\"Namacalathus hermanastes\",\"card_label\":\"Card 120\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Namacalathus\",\"species\":\"hermanastes\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"filter_feeder\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Namacalathus hermanastes.png\",\"missing\":true}}",
+      "fileName": "card-120.png"
+    },
+    "organism-121": {
+      "signature": "{\"id\":\"organism-121\",\"common_name\":\"Charnia\",\"scientific_name\":\"Charnia masoni\",\"card_label\":\"Card 121\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Charnia\",\"species\":\"masoni\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"filter_feeder\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Charnia masoni.png\",\"missing\":true}}",
+      "fileName": "card-121.png"
     }
   }
 }

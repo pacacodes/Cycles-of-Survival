@@ -165,7 +165,7 @@
     },
     {
       "card_label": "Card 5",
-      "common_name": "nitrogen\u2011fixing bacterium",
+      "common_name": "nitrogen‑fixing bacterium",
       "scientific_name": "Bacillus polymyxa",
       "main_photo": "Paenibacillus polymyxa.png",
       "organism_type": "Microbes",
@@ -788,7 +788,7 @@
     },
     {
       "card_label": "Card 20",
-      "common_name": "Pi\u00f1on pine",
+      "common_name": "Piñon pine",
       "scientific_name": "Pinus edulis",
       "organism_type": "Plants",
       "kingdom": "Plantae",
@@ -4466,6 +4466,392 @@
       ],
       "periods": [
         "Silurian"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 111",
+      "common_name": "Cyanobacteria",
+      "scientific_name": "Cyanobacteria",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Cyanobacteria",
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": null,
+      "species": null,
+      "biomes": [
+        "Freshwater",
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Early Archean"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 112",
+      "common_name": "Grypania",
+      "scientific_name": "Grypania spiralis",
+      "main_photo": null,
+      "organism_type": "Algae and phytoplankton",
+      "kingdom": "Protista",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Grypania",
+      "species": "spiralis",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Early Proterozoic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 113",
+      "common_name": "Gunflintia",
+      "scientific_name": "Gunflintia",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Gunflintia",
+      "species": null,
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Early Proterozoic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 114",
+      "common_name": "Huroniospora",
+      "scientific_name": "Huroniospora",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Huroniospora",
+      "species": null,
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Early Proterozoic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 115",
+      "common_name": "Dickinsonia",
+      "scientific_name": "Dickinsonia costata",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Dickinsonia",
+      "species": "costata",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Ediacaran"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "detritivore"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 116",
+      "common_name": "Spriggina",
+      "scientific_name": "Spriggina floundersi",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Spriggina",
+      "species": "floundersi",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Ediacaran"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 117",
+      "common_name": "Kimberella",
+      "scientific_name": "Kimberella quadrata",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Kimberella",
+      "species": "quadrata",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Ediacaran"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 118",
+      "common_name": "Tribrachidium",
+      "scientific_name": "Tribrachidium heraldicum",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Tribrachidium",
+      "species": "heraldicum",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Ediacaran"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 119",
+      "common_name": "Cloudina",
+      "scientific_name": "Cloudina hartmannae",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Cloudina",
+      "species": "hartmannae",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Ediacaran"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 120",
+      "common_name": "Namacalathus",
+      "scientific_name": "Namacalathus hermanastes",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Namacalathus",
+      "species": "hermanastes",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Ediacaran"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 121",
+      "common_name": "Charnia",
+      "scientific_name": "Charnia masoni",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": null,
+      "class": null,
+      "order": null,
+      "family": null,
+      "genus": "Charnia",
+      "species": "masoni",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Ediacaran"
       ],
       "trophic_level": "Primary consumers (herbivores)",
       "dna_sequence": null,
