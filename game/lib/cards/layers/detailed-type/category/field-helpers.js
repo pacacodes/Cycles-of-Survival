@@ -26,4 +26,24 @@ function parseField(raw) {
   return { main: formatValue(str), sub: null };
 }
 
-module.exports = { hexToRgba, getCardColor, formatValue, parseField };
+// Compute the right edge X of the background box drawn by draw-field-row.js
+function computeBackgroundRightX(ctx, { label, main, sub, textX, scale }) {
+  const fieldSize = Math.round(4.5 * scale);
+  const subSize   = Math.round(4.5 * scale);
+  const boxPadX   = 4 * scale;
+  ctx.save();
+  ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
+  const labelPart = `${label} : `;
+  const labelPartW = ctx.measureText(labelPart).width;
+  const mainW = ctx.measureText(main).width;
+  let subW = 0;
+  if (sub) {
+    ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
+    subW = ctx.measureText(sub).width;
+  }
+  ctx.restore();
+  const contentW = Math.max(labelPartW + mainW, subW);
+  return textX + contentW + boxPadX;
+}
+
+module.exports = { hexToRgba, getCardColor, formatValue, parseField, computeBackgroundRightX };

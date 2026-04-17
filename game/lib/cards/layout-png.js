@@ -19,6 +19,8 @@ const drawBody = require('./layers/body');
 const drawCorners = require('./layers/corners');
 const drawCardNumber = require('./layers/card-number');
 const drawFunctionalCategoryBadge = require('./badges/functional-category-badge');
+const getFieldDefinitions = require('./layers/detailed-type/category/field-definitions');
+const { computeBackgroundRightX } = require('./layers/detailed-type/category/field-helpers');
 
 function getBadgeGeometry(scale = 1) {
   const badgeRadius = 0.18 * 72 * scale;
@@ -396,6 +398,9 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
   drawBody(ctx, contentX + 20, contentY + 40, contentW, card, scale, { wrapText });
   // ...existing code...
   // Draw connector lines at the very end so nothing covers them
+  // funcTextX matches the textX used inside draw-field-row.js (drawFunctionalCategory is called with contentX+20, leftPadding=21)
+  const fieldDefs = getFieldDefinitions(card);
+  const funcTextX = (contentX + 20) + Math.round(21 * scale) + badgeRadius + badgeTextGap;
   for (let i = 0; i < badgeList.length; i++) {
     let fieldY = badgeY + i * (badgeRadius * 2 + badgeGap);
     const badge = badgeList[i];
@@ -403,22 +408,8 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       let fieldIdx = 0;
       const fieldBlockY = contentY + contentH - blockHeight - bottomPadding + Math.round(8 * scale) + fieldIdx * condensedRowH;
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
-      const label = 'Organism Type';
-      ctx.save();
-      ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const labelW = ctx.measureText(label).width;
-      ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const value = (card.organism_type && (card.organism_type.match(/^(.*?)(\s*\(.*?\))?$/) || [null, card.organism_type])[1].trim()) || '';
-      const valueW = ctx.measureText(value).width;
       const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
-      const valueX = labelX;
-      const minX = Math.min(labelX, valueX);
-      const maxX = Math.max(labelX + labelW, valueX + valueW);
-      const boxPadX = 4 * scale;
-      // The background box for the field is drawn from (minX - boxPadX) to (maxX + boxPadX)
-      // Extend connector 23px past the right edge of the background box
-      const backgroundRightX = (maxX + boxPadX) + 23 * scale;
-      ctx.restore();
+      const backgroundRightX = computeBackgroundRightX(ctx, { ...(fieldDefs.find(f => f.label === 'Type') || { label: 'Type', main: card.organism_type || '', sub: null }), textX: funcTextX, scale });
       // Get neon color from title block color
       const { CATEGORY_COLORS } = require('./layers/title-color-block');
       const category = card.organism_type;
@@ -430,42 +421,16 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       let fieldIdx = 1;
       const fieldBlockY = contentY + contentH - blockHeight - bottomPadding + Math.round(8 * scale) + fieldIdx * condensedRowH;
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
-      const label = 'Biomes';
-      ctx.save();
-      ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const labelW = ctx.measureText(label).width;
-      ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const value = card.biomes ? card.biomes.join(', ') : '';
-      const valueW = ctx.measureText(value).width;
       const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
-      const valueX = labelX;
-      const minX = Math.min(labelX, valueX);
-      const maxX = Math.max(labelX + labelW, valueX + valueW);
-      const boxPadX = 4 * scale;
-      const backgroundRightX = (maxX + boxPadX) + 23 * scale;
-      ctx.restore();
+      const backgroundRightX = computeBackgroundRightX(ctx, { ...(fieldDefs.find(f => f.label === 'Biomes') || { label: 'Biomes', main: (card.biomes || []).join(', '), sub: null }), textX: funcTextX, scale });
       drawBiomesConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
     }
     if (badge.type === 'trophic') {
       let fieldIdx = 2;
       const fieldBlockY = contentY + contentH - blockHeight - bottomPadding + Math.round(8 * scale) + fieldIdx * condensedRowH;
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
-      const label = 'Trophic Level';
-      ctx.save();
-      ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const labelW = ctx.measureText(label).width;
-      ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const matchTrophic = card.trophic_level ? card.trophic_level.match(/^(.*?)(\s*\((.*?)\))?$/) : null;
-      const rawValue = matchTrophic ? matchTrophic[1] : (card.trophic_level || '');
-      const value = rawValue.replace(/\b([a-z])/g, c => c.toUpperCase());
-      const valueW = ctx.measureText(value).width;
       const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
-      const valueX = labelX;
-      const minX = Math.min(labelX, valueX);
-      const maxX = Math.max(labelX + labelW, valueX + valueW);
-      const boxPadX = 4 * scale;
-      const backgroundRightX = (maxX + boxPadX) + 23 * scale;
-      ctx.restore();
+      const backgroundRightX = computeBackgroundRightX(ctx, { ...(fieldDefs.find(f => f.label === 'Trophic Level') || { label: 'Trophic Level', main: card.trophic_level || '', sub: null }), textX: funcTextX, scale });
       const drawTrophicLevelConnector = require('./connectors/trophic-level-connector');
       // Draw connector first
       drawTrophicLevelConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
@@ -476,21 +441,8 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       let fieldIdx = 3;
       const fieldBlockY = contentY + contentH - blockHeight - bottomPadding + Math.round(8 * scale) + fieldIdx * condensedRowH;
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
-      const label = 'Role';
-      ctx.save();
-      ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const labelW = ctx.measureText(label).width;
-      ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const roleVal = Array.isArray(card.role) ? card.role[0] : (card.role || '');
-      const value = roleVal.replace(/_/g, ' ').replace(/\b([a-z])/g, c => c.toUpperCase());
-      const valueW = ctx.measureText(value).width;
       const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
-      const valueX = labelX;
-      const minX = Math.min(labelX, valueX);
-      const maxX = Math.max(labelX + labelW, valueX + valueW);
-      const boxPadX = 4 * scale;
-      const backgroundRightX = (maxX + boxPadX) + 23 * scale;
-      ctx.restore();
+      const backgroundRightX = computeBackgroundRightX(ctx, { ...(fieldDefs.find(f => f.label === 'Role') || { label: 'Role', main: (Array.isArray(card.role) ? card.role[0] : card.role) || '', sub: null }), textX: funcTextX, scale });
       const drawRoleConnector = require('./connectors/role-connector');
       drawRoleConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
     }
@@ -498,20 +450,9 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       let fieldIdx = 4;
       const fieldBlockY = contentY + contentH - blockHeight - bottomPadding + Math.round(8 * scale) + fieldIdx * condensedRowH;
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
-      const label = 'Periods';
-      ctx.save();
-      ctx.font = `bold ${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const labelW = ctx.measureText(label).width;
-      ctx.font = `${Math.round(6 * scale)}px "DejaVu Sans", sans-serif`;
-      const value = card.periods ? card.periods.join(', ') : '';
-      const valueW = ctx.measureText(value).width;
       const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
-      const valueX = labelX;
-      const minX = Math.min(labelX, valueX);
-      const maxX = Math.max(labelX + labelW, valueX + valueW);
-      const boxPadX = 4 * scale;
-      const backgroundRightX = (maxX + boxPadX) + 23 * scale;
-      ctx.restore();
+      const _periodsFieldDef = fieldDefs.find(f => f.label === 'Periods');
+      const backgroundRightX = computeBackgroundRightX(ctx, { ...(_periodsFieldDef || { label: 'Periods', main: (card.periods || []).join(', '), sub: null }), textX: funcTextX, scale });
       const drawPeriodsConnector = require('./connectors/periods-connector');
       drawPeriodsConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
     }
