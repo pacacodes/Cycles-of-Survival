@@ -30,20 +30,24 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   const lineGap   = Math.round(2 * scale);
   const subY      = rowY + fieldSize + lineGap;
 
+  // Normalize label (ALL CAPS) and sub (lowercase, preserve Ma/Ga)
+  const displayLabel = label.toUpperCase();
+  const displaySub = sub ? sub.toLowerCase().replace(/\bma\b/g, 'Ma').replace(/\bga\b/g, 'Ga') : null;
+
   // Measure widths for background box
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
-  const labelPart = `${label} : `;
+  const labelPart = `${displayLabel} : `;
   const labelPartW = ctx.measureText(labelPart).width;
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
   const mainW = ctx.measureText(main).width;
   let subW = 0;
-  if (sub) {
+  if (displaySub) {
     ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
-    subW = ctx.measureText(sub).width;
+    subW = ctx.measureText(displaySub).width;
   }
   const line1W = labelPartW + mainW;
   const contentW = Math.max(line1W, subW);
-  const boxH = fieldSize + (sub ? lineGap + subSize : 0) + 2 * boxPadY;
+  const boxH = fieldSize + (displaySub ? lineGap + subSize : 0) + 2 * boxPadY;
 
   // Background (isolated save/restore)
   ctx.save();
@@ -59,9 +63,9 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   ctx.fillText(main, textX + labelPartW, rowY);
 
   // Line 2: sub description, smaller
-  if (sub) {
+  if (displaySub) {
     ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
-    ctx.fillText(sub, textX, subY);
+    ctx.fillText(displaySub, textX, subY);
   }
 
   ctx.shadowColor = 'transparent';

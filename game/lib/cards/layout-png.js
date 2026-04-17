@@ -414,7 +414,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       const { CATEGORY_COLORS } = require('./layers/title-color-block');
       const category = card.organism_type;
       const neonColor = CATEGORY_COLORS[category] || '#02BDF2';
-      drawFunctionalCategoryConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
+      drawFunctionalCategoryConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, neonColor);
       await drawFunctionalCategoryBadge(ctx, badgeStartX, fieldY, badgeRadius, card, scale, neonColor);
     }
     if (badge.type === 'biome') {
@@ -423,7 +423,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
       const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
       const backgroundRightX = computeBackgroundRightX(ctx, { ...(fieldDefs.find(f => f.label === 'Biomes') || { label: 'Biomes', main: (card.biomes || []).join(', '), sub: null }), textX: funcTextX, scale });
-      drawBiomesConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
+      drawBiomesConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, neonColor);
     }
     if (badge.type === 'trophic') {
       let fieldIdx = 2;
@@ -433,7 +433,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       const backgroundRightX = computeBackgroundRightX(ctx, { ...(fieldDefs.find(f => f.label === 'Trophic Level') || { label: 'Trophic Level', main: card.trophic_level || '', sub: null }), textX: funcTextX, scale });
       const drawTrophicLevelConnector = require('./connectors/trophic-level-connector');
       // Draw connector first
-      drawTrophicLevelConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
+      drawTrophicLevelConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, neonColor);
       // Draw badge after connector for highest z-index
       await drawTrophicLevelBadge(ctx, badgeStartX, fieldY, badgeRadius, card, scale, neonColor);
     }
@@ -444,7 +444,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       const labelX = contentX + leftPadding + badgeRadius + badgeTextGap;
       const backgroundRightX = computeBackgroundRightX(ctx, { ...(fieldDefs.find(f => f.label === 'Role') || { label: 'Role', main: (Array.isArray(card.role) ? card.role[0] : card.role) || '', sub: null }), textX: funcTextX, scale });
       const drawRoleConnector = require('./connectors/role-connector');
-      drawRoleConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
+      drawRoleConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, neonColor);
     }
     if (badge.type === 'period') {
       let fieldIdx = 4;
@@ -454,7 +454,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
       const _periodsFieldDef = fieldDefs.find(f => f.label === 'Periods');
       const backgroundRightX = computeBackgroundRightX(ctx, { ...(_periodsFieldDef || { label: 'Periods', main: (card.periods || []).join(', '), sub: null }), textX: funcTextX, scale });
       const drawPeriodsConnector = require('./connectors/periods-connector');
-      drawPeriodsConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
+      drawPeriodsConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, neonColor);
     }
   }
   // Title must always be positioned above the color block, at this fixed offset.

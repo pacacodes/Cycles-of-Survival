@@ -31,15 +31,18 @@ function computeBackgroundRightX(ctx, { label, main, sub, textX, scale }) {
   const fieldSize = Math.round(4.5 * scale);
   const subSize   = Math.round(4.5 * scale);
   const boxPadX   = 4 * scale;
+  // Mirror normalizations from draw-field-row.js
+  const displayLabel = label.toUpperCase();
+  const displaySub = sub ? sub.toLowerCase().replace(/\bma\b/g, 'Ma').replace(/\bga\b/g, 'Ga') : null;
   ctx.save();
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
-  const labelPart = `${label} : `;
+  const labelPart = `${displayLabel} : `;
   const labelPartW = ctx.measureText(labelPart).width;
   const mainW = ctx.measureText(main).width;
   let subW = 0;
-  if (sub) {
+  if (displaySub) {
     ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
-    subW = ctx.measureText(sub).width;
+    subW = ctx.measureText(displaySub).width;
   }
   ctx.restore();
   const contentW = Math.max(labelPartW + mainW, subW);
