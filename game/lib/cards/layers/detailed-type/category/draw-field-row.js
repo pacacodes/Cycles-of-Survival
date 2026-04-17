@@ -57,6 +57,11 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   drawBottom(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.8);
   ctx.restore();
 
+  // Clip text to within the background box so it never overflows
+  ctx.beginPath();
+  ctx.rect(textX - boxPadX, rowY - boxPadY, boxW, boxH);
+  ctx.clip();
+
   // Line 1: "Bold Label: " then bold "Main Value"
   ctx.shadowColor = '#FFFFFF';
   ctx.shadowBlur = 10 * scale;
