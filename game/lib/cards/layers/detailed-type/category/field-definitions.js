@@ -46,17 +46,17 @@ const ORGANISM_TYPE_DESC = {
   'Microbes':                   'single-celled life',
   'Algae and phytoplankton':    'aquatic photosynthesizer',
   'Aquatic plants':             'submerged flora',
-  'Aquatic invertebrates':      'boneless water creature',
+  'Aquatic invertebrates':      'boneless water organism',
   'Aquatic vertebrates':        'spined water animal',
   'Plants':                     'rooted photosynthesizer',
-  'Terrestrial invertebrates':  'boneless land creature',
+  'Terrestrial invertebrates':  'boneless land organism',
   'Terrestrial vertebrates':    'spined land animal',
   'Fungi':                      'spore-based organism',
 };
 
 const ROLE_DESC = {
   'producer':           'photosynthesizer',
-  'herbivore':          'plant eater',
+  'herbivore':          'plant & algae eater',
   'predator':           'active hunter',
   'apex_predator':      'apex hunter',
   'scavenger':          'carrion eater',
@@ -133,7 +133,7 @@ const TYPE_EXTRA = {
   'amphibian':            '· land & water animal',
   'synapsid':             '· mammal-line reptile',
   'bird':                 '· feathered theropod',
-  'aquatic reptile':      '· marine reptile',
+
   'reptile':              '· scaly amniote',
   'marine mammal':        '· ocean-going mammal',
   'mammal':               '· warm-blooded amniote',
