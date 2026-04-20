@@ -65,7 +65,7 @@ async function drawBadgesAndConnectors(ctx, badgeList, params) {
       const fieldDef = fieldDefs.find(f => f.label === 'Type') || { label: 'Type', main: card.organism_type || '', sub: null };
       const backgroundRightX = computeBackgroundRightX(ctx, { ...fieldDef, textX: funcTextX, scale, maxWidth: maxTextWidth > 0 ? maxTextWidth : undefined });
       const color = CATEGORY_COLORS[card.organism_type] || '#02BDF2';
-      drawFunctionalCategoryConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, color);
+      drawFunctionalCategoryConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, color);
       await drawFunctionalCategoryBadge(ctx, badgeStartX, fieldY, badgeRadius, card, scale, color);
     }
 
@@ -74,7 +74,7 @@ async function drawBadgesAndConnectors(ctx, badgeList, params) {
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
       const fieldDef = fieldDefs.find(f => f.label === 'Biomes') || { label: 'Biomes', main: (card.biomes || []).join(', '), sub: null };
       const backgroundRightX = computeBackgroundRightX(ctx, { ...fieldDef, textX: funcTextX, scale, maxWidth: maxTextWidth > 0 ? maxTextWidth : undefined });
-      drawBiomesConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, neonColor);
+      drawBiomesConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
     }
 
     if (badge.type === 'trophic') {
@@ -82,7 +82,7 @@ async function drawBadgesAndConnectors(ctx, badgeList, params) {
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
       const fieldDef = fieldDefs.find(f => f.label === 'Trophic Level') || { label: 'Trophic Level', main: card.trophic_level || '', sub: null };
       const backgroundRightX = computeBackgroundRightX(ctx, { ...fieldDef, textX: funcTextX, scale, maxWidth: maxTextWidth > 0 ? maxTextWidth : undefined });
-      drawTrophicLevelConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, neonColor);
+      drawTrophicLevelConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
       await drawTrophicLevelBadge(ctx, badgeStartX, fieldY, badgeRadius, card, scale, neonColor);
     }
 
@@ -91,7 +91,7 @@ async function drawBadgesAndConnectors(ctx, badgeList, params) {
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
       const fieldDef = fieldDefs.find(f => f.label === 'Role') || { label: 'Role', main: (Array.isArray(card.role) ? card.role[0] : card.role) || '', sub: null };
       const backgroundRightX = computeBackgroundRightX(ctx, { ...fieldDef, textX: funcTextX, scale, maxWidth: maxTextWidth > 0 ? maxTextWidth : undefined });
-      drawRoleConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, neonColor);
+      drawRoleConnector(ctx, badgeStartX, fieldY, labelX - 18 * scale, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
     }
 
     if (badge.type === 'period') {
@@ -99,7 +99,7 @@ async function drawBadgesAndConnectors(ctx, badgeList, params) {
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
       const fieldDef = fieldDefs.find(f => f.label === 'Periods') || { label: 'Periods', main: (card.periods || []).join(', '), sub: null };
       const backgroundRightX = computeBackgroundRightX(ctx, { ...fieldDef, textX: funcTextX, scale, maxWidth: maxTextWidth > 0 ? maxTextWidth : undefined });
-      drawPeriodsConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX - 2 * scale, neonColor);
+      drawPeriodsConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
     }
   }
 }
