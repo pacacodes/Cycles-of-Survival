@@ -1,6 +1,6 @@
 {
-  "_codeChecksum": "78807149560a7178af2c00bdb047f38d",
-  "_generatedAt": "2026-04-20T18:46:59.129Z",
+  "_codeChecksum": "c4da3484e37f40d2e61eec1c278a7498",
+  "_generatedAt": "2026-04-20T20:38:49.615Z",
   "_paths": {
     "current": "/workspaces/Cycles-of-Survival/output/Working Organism Cards/current",
     "safe": "/workspaces/Cycles-of-Survival/saved_files/Working Organism Cards/current"
@@ -471,7 +471,7 @@
       "fileName": "card-116.png"
     },
     "organism-117": {
-      "signature": "{\"id\":\"organism-117\",\"common_name\":\"Kimberella\",\"scientific_name\":\"Kimberella quadrata\",\"card_label\":\"Card 117\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Kimberella\",\"species\":\"quadrata\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"herbivore\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Kimberella quadrata.png\",\"missing\":true}}",
+      "signature": "{\"id\":\"organism-117\",\"common_name\":\"Kimberella\",\"scientific_name\":\"Kimberella quadrata\",\"card_label\":\"Card 117\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Kimberella\",\"species\":\"quadrata\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"herbivore\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Kimberella quadrata.png\",\"size\":6078679,\"mtimeMs\":1776717186492}}",
       "fileName": "card-117.png"
     },
     "organism-118": {

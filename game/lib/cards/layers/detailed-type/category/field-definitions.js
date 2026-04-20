@@ -38,7 +38,7 @@ function periodTimeSpan(periods) {
 
 // Short clarifier appended after the one-word parenthetical from the raw trophic_level field
 const TROPHIC_SUB_EXTRA = {
-  'autotrophs':  '· sunlight to energy',
+  'autotrophs':  '· forms food from light & CO₂',
   'herbivores':  '· plant & algae eater',
 };
 
@@ -88,18 +88,18 @@ const BIOME_DESC = {
 // Short clarifier appended after the specific type label
 const TYPE_EXTRA = {
   // Microbes
-  'bacterium':            '· prokaryotic microbe',
+  'bacterium':            '· prokaryotic microorganism',
   'archaeon':             '· ancient microbe',
   'protist':              '· single-celled eukaryote',
   // Algae
-  'diatom':               '· silica-shelled alga',
-  'dinoflagellate':       '· flagellate alga',
-  'red alga':             '· marine alga',
-  'haptophyte':           '· calcite-plated alga',
-  'brown alga':           '· kelp-type alga',
-  'green alga':           '· freshwater alga',
+  'diatom':               '· silica-shelled algae',
+  'dinoflagellate':       '· flagellate algae',
+  'red algae':            '· marine algae',
+  'haptophyte':           '· calcite-plated algae',
+  'brown algae':          '· kelp-type algae',
+  'green algae':          '· freshwater algae',
   // Fungi
-  'lichen':               '· alga-fungus symbiont',
+  'lichen':               '· algae-fungus symbiont',
   'fungus':               '· spore-producing organism',
   // Plants
   'moss':                 '· non-vascular plant',
@@ -158,10 +158,10 @@ function getSpecificTypeDesc(card) {
   // Algae classes
   if (cls === 'Bacillariophyceae') return 'diatom';
   if (cls === 'Dinophyceae')       return 'dinoflagellate';
-  if (cls === 'Florideophyceae')   return 'red alga';
+  if (cls === 'Florideophyceae')   return 'red algae';
   if (cls === 'Prymnesiophyceae')  return 'haptophyte';
-  if (cls === 'Phaeophyceae')      return 'brown alga';
-  if (cls === 'Zygnematophyceae')  return 'green alga';
+  if (cls === 'Phaeophyceae')      return 'brown algae';
+  if (cls === 'Zygnematophyceae')  return 'green algae';
 
   // Fungi / lichen
   if (kingdom === 'Fungi' && cls === 'Lecanoromycetes') return 'lichen';
