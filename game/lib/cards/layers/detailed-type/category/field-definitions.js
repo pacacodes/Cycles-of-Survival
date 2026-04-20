@@ -36,16 +36,22 @@ function periodTimeSpan(periods) {
   return `${startLabel} – ${endLabel}`;
 }
 
+// Short clarifier appended after the one-word parenthetical from the raw trophic_level field
+const TROPHIC_SUB_EXTRA = {
+  'autotrophs':  '· sunlight to energy',
+  'herbivores':  '· plant & algae eater',
+};
+
 const ORGANISM_TYPE_DESC = {
-  'Microbes':                   'microorganism',
-  'Algae and phytoplankton':    'photosynthetic algae',
-  'Aquatic plants':             'aquatic plant',
-  'Aquatic invertebrates':      'water invertebrate',
-  'Aquatic vertebrates':        'water vertebrate',
-  'Plants':                     'land plant',
-  'Terrestrial invertebrates':  'land invertebrate',
-  'Terrestrial vertebrates':    'land vertebrate',
-  'Fungi':                      'fungus',
+  'Microbes':                   'single-celled life',
+  'Algae and phytoplankton':    'aquatic photosynthesizer',
+  'Aquatic plants':             'submerged flora',
+  'Aquatic invertebrates':      'boneless water creature',
+  'Aquatic vertebrates':        'spined water animal',
+  'Plants':                     'rooted photosynthesizer',
+  'Terrestrial invertebrates':  'boneless land creature',
+  'Terrestrial vertebrates':    'spined land animal',
+  'Fungi':                      'spore-based organism',
 };
 
 const ROLE_DESC = {
@@ -54,14 +60,14 @@ const ROLE_DESC = {
   'predator':           'active hunter',
   'apex_predator':      'apex hunter',
   'scavenger':          'carrion eater',
-  'filter_feeder':      'filter feeder',
+  'filter_feeder':      'suspension feeder',
   'decomposer':         'matter recycler',
-  'detritivore':        'detritus eater',
+  'detritivore':        'decay consumer',
   'ecosystem_engineer': 'habitat shaper',
-  'builder':            'structure builder',
+  'builder':            'habitat constructor',
   'mutualist':          'symbiont',
   'parasite':           'host feeder',
-  'plague_swarm':       'pest swarm',
+  'plague_swarm':       'mass outbreak',
 };
 
 const BIOME_DESC = {
@@ -72,7 +78,7 @@ const BIOME_DESC = {
   'Freshwater': 'lakes & rivers',
   'Grassland':  'open savanna',
   'Marine':     'open ocean',
-  'Reef':       'coral reef',
+  'Reef':       'hard coral zone',
   'Taiga':      'boreal forest',
   'Tundra':     'arctic plain',
   'Urban':      'built-up area',
@@ -198,10 +204,11 @@ module.exports = function getFieldDefinitions(card) {
       });
     } else {
       const parsed = parseField(card.trophic_level);
+      const extra = parsed.sub ? (TROPHIC_SUB_EXTRA[parsed.sub.toLowerCase()] || '') : '';
       fields.push({
         label: 'Trophic Level',
         main:  parsed.main,
-        sub:   parsed.sub || null,
+        sub:   parsed.sub ? (extra ? `${parsed.sub} ${extra}` : parsed.sub) : null,
         drawTop:    require('./trophic-level-background-top'),
         drawBottom: require('./trophic-level-background-bottom'),
       });
