@@ -67,7 +67,7 @@ const ROLE_DESC = {
   'builder':            'habitat constructor',
   'mutualist':          'symbiont',
   'parasite':           'host feeder',
-  'plague_swarm':       'mass outbreak',
+  'plague_swarm':       'forms massive swarms',
 };
 
 const BIOME_DESC = {
@@ -135,7 +135,6 @@ const TYPE_EXTRA = {
   'bird':                 '· feathered theropod',
 
   'reptile':              '· scaly amniote',
-  'marine mammal':        '· ocean-going mammal',
   'mammal':               '· warm-blooded amniote',
   // Arthropods
   'insect':               '· six-legged arthropod',
