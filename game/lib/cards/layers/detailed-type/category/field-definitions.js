@@ -85,6 +85,64 @@ const BIOME_DESC = {
   'Wetland':    'marsh & bog',
 };
 
+// Short clarifier appended after the specific type label
+const TYPE_EXTRA = {
+  // Microbes
+  'bacterium':            '· prokaryotic microbe',
+  'archaeon':             '· ancient microbe',
+  'protist':              '· single-celled eukaryote',
+  // Algae
+  'diatom':               '· silica-shelled alga',
+  'dinoflagellate':       '· flagellate alga',
+  'red alga':             '· marine alga',
+  'haptophyte':           '· calcite-plated alga',
+  'brown alga':           '· kelp-type alga',
+  'green alga':           '· freshwater alga',
+  // Fungi
+  'lichen':               '· alga-fungus symbiont',
+  'fungus':               '· spore-producing organism',
+  // Plants
+  'moss':                 '· non-vascular plant',
+  'lycopsid':             '· scale-tree relative',
+  'conifer':              '· cone-bearing tree',
+  'fern':                 '· spore-bearing plant',
+  'early vascular plant': '· first land plant',
+  'vascular plant':       '· fluid-conducting plant',
+  'monocot':              '· single-seed-leaf plant',
+  'flowering plant':      '· angiosperm',
+  // Invertebrates
+  'trilobite':            '· segmented arthropod',
+  'coral':                '· reef-building polyp',
+  'sponge':               '· filter-feeding animal',
+  'crustacean':           '· shell-bearing arthropod',
+  'gastropod':            '· coiled-shell mollusc',
+  'bivalve':              '· two-shelled mollusc',
+  'cephalopod':           '· tentacled mollusc',
+  'crinoid':              '· stalked echinoderm',
+  'anomalocarid':         '· early apex predator',
+  'sea scorpion':         '· aquatic chelicerate',
+  'brachiopod':           '· lamp-shelled animal',
+  'annelid worm':         '· segmented worm',
+  'echinoderm':           '· spiny-skinned animal',
+  // Vertebrates
+  'jawless fish':         '· boneless fish',
+  'placoderm':            '· armoured jawed fish',
+  'cartilaginous fish':   '· shark or ray',
+  'ray-finned fish':      '· bony fish',
+  'lobe-finned fish':     '· tetrapod ancestor',
+  'amphibian':            '· land & water animal',
+  'synapsid':             '· mammal-line reptile',
+  'bird':                 '· feathered theropod',
+  'aquatic reptile':      '· marine reptile',
+  'reptile':              '· scaly amniote',
+  'marine mammal':        '· ocean-going mammal',
+  'mammal':               '· warm-blooded amniote',
+  // Arthropods
+  'insect':               '· six-legged arthropod',
+  'arachnid':             '· eight-legged arthropod',
+  'segmented worm':       '· ringed invertebrate',
+};
+
 // Derive a specific organism description from its taxonomy fields.
 // Falls back through kingdom → class → phylum for maximum specificity.
 function getSpecificTypeDesc(card) {
@@ -168,10 +226,12 @@ module.exports = function getFieldDefinitions(card) {
 
   if (card.organism_type) {
     const parsed = parseField(card.organism_type);
+    const specificType = parsed.sub || getSpecificTypeDesc(card);
+    const typeExtra = specificType ? (TYPE_EXTRA[specificType] || '') : '';
     fields.push({
       label: 'Type',
       main:  parsed.main,
-      sub:   parsed.sub || getSpecificTypeDesc(card),
+      sub:   specificType ? (typeExtra ? `${specificType} ${typeExtra}` : specificType) : null,
       drawTop:    require('./functional-category-background-top'),
       drawBottom: require('./functional-category-background-bottom'),
     });
