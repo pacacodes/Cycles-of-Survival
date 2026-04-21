@@ -26,7 +26,8 @@
     "generate:cards:blank:sheet": "node game/generate-cards.js --config game/config/cards.blank.sheet.json --out output/cards.png",
     "generate:board:blank": "node game/generate-board.js --config game/config/board.blank-24x20.json --out output/Board/board.png",
     "generate:organisms:working": "node game/generate-organism-working-cards.js",
-    "generate:organisms:base-set": "node game/copy-base-set-cards.js"
+    "generate:organisms:base-set": "node game/copy-base-set-cards.js",
+    "generate:organisms:jurassic": "node game/copy-jurassic-organisms.js"
   },
   "keywords": [],
   "author": "",
