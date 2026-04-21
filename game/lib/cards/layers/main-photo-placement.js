@@ -57,6 +57,7 @@ function getMainPhotoPlacement(card, x, y, scale) {
   const isCard87 = label === 'Card 87' || sci === 'panthera onca';
   const isCard88 = label === 'Card 88' || sci === 'castor canadensis';
   const isCard89 = label === 'Card 89' || sci === 'acropora cervicornis';
+  const isCard121 = label === 'Card 121';
 
   // --- Initial X position ---
   let mainPhotoX = isCard4
@@ -97,6 +98,7 @@ function getMainPhotoPlacement(card, x, y, scale) {
   if (isCard68) { mainPhotoX += 20; }
   if (isCard89) { mainPhotoY -= 80; }
   if (isCard39) { mainPhotoX -= 60; mainPhotoY += 60; }
+  if (isCard121) { mainPhotoX += 50; }
 
   // --- Build options object ---
   const mainPhotoOptions = {
