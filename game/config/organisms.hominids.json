@@ -705,7 +705,7 @@
       "type": "organism",
       "card_label": "Card 326",
       "common_name": "Denisovan",
-      "scientific_name": "Homo denisova",
+      "scientific_name": "Homo sapiens denisova",
       "main_photo": null,
       "organism_type": "Terrestrial vertebrates",
       "kingdom": "Animalia",
@@ -714,7 +714,7 @@
       "order": "Primates",
       "family": "Hominidae",
       "genus": "Homo",
-      "species": "denisova",
+      "species": "sapiens denisova",
       "biomes": [
         "Mountain",
         "Taiga",
@@ -788,7 +788,7 @@
       "order": "Primates",
       "family": "Hominidae",
       "genus": "Homo",
-      "species": "sapiens",
+      "species": "sapiens idaltu",
       "biomes": [
         "Savanna",
         "Grassland"
@@ -825,7 +825,7 @@
       "order": "Primates",
       "family": "Hominidae",
       "genus": "Homo",
-      "species": "sapiens",
+      "species": "sapiens sapiens",
       "biomes": [
         "Forest",
         "Grassland",
