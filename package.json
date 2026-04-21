@@ -27,7 +27,9 @@
     "generate:board:blank": "node game/generate-board.js --config game/config/board.blank-24x20.json --out output/Board/board.png",
     "generate:organisms:working": "node game/generate-organism-working-cards.js",
     "generate:organisms:base-set": "node game/copy-base-set-cards.js",
-    "generate:organisms:jurassic": "node game/copy-jurassic-organisms.js"
+    "generate:organisms:jurassic": "node game/copy-jurassic-organisms.js",
+    "generate:organisms:lichen-moss-fungi": "node game/copy-lichen-moss-fungi-organisms.js",
+    "generate:organisms:symbiotic-powerhouse": "node game/copy-symbiotic-powerhouse-organisms.js"
   },
   "keywords": [],
   "author": "",
