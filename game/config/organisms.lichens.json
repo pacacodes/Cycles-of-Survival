@@ -1,0 +1,1601 @@
+{
+  "organisms": [
+    {
+      "card_label": "Card 172",
+      "common_name": "Reindeer Lichen",
+      "scientific_name": "Cladonia rangiferina",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Cladoniaceae",
+      "genus": "Cladonia",
+      "species": "rangiferina",
+      "biomes": [
+        "Tundra",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 173",
+      "common_name": "Iceland Moss",
+      "scientific_name": "Cetraria islandica",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Cetraria",
+      "species": "islandica",
+      "biomes": [
+        "Tundra",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 174",
+      "common_name": "Star-tipped Reindeer Lichen",
+      "scientific_name": "Cladonia stellaris",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Cladoniaceae",
+      "genus": "Cladonia",
+      "species": "stellaris",
+      "biomes": [
+        "Tundra",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 175",
+      "common_name": "Coral Lichen",
+      "scientific_name": "Cladonia portentosa",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Cladoniaceae",
+      "genus": "Cladonia",
+      "species": "portentosa",
+      "biomes": [
+        "Tundra",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 176",
+      "common_name": "Crottle Lichen",
+      "scientific_name": "Ochrolechia tartarea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Pertusariales",
+      "family": "Ochrolechiaceae",
+      "genus": "Ochrolechia",
+      "species": "tartarea",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 177",
+      "common_name": "Map Lichen",
+      "scientific_name": "Rhizocarpon geographicum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Rhizocarpales",
+      "family": "Rhizocarpaceae",
+      "genus": "Rhizocarpon",
+      "species": "geographicum",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 178",
+      "common_name": "Orange Chocolate Chip Lichen",
+      "scientific_name": "Solorina crocea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Peltigeraceae",
+      "genus": "Solorina",
+      "species": "crocea",
+      "biomes": [
+        "Tundra",
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 179",
+      "common_name": "Rock Tripe",
+      "scientific_name": "Umbilicaria mammulata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Umbilicariales",
+      "family": "Umbilicariaceae",
+      "genus": "Umbilicaria",
+      "species": "mammulata",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 180",
+      "common_name": "Old Man's Beard",
+      "scientific_name": "Usnea barbata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Usnea",
+      "species": "barbata",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 181",
+      "common_name": "Witch's Hair Lichen",
+      "scientific_name": "Alectoria sarmentosa",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Alectoria",
+      "species": "sarmentosa",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 182",
+      "common_name": "Monk's Hood Lichen",
+      "scientific_name": "Hypogymnia physodes",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Hypogymnia",
+      "species": "physodes",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 183",
+      "common_name": "Wolf Lichen",
+      "scientific_name": "Letharia vulpina",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Letharia",
+      "species": "vulpina",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 184",
+      "common_name": "Oakmoss",
+      "scientific_name": "Evernia prunastri",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Evernia",
+      "species": "prunastri",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 185",
+      "common_name": "Treemoss Lichen",
+      "scientific_name": "Pseudevernia furfuracea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Pseudevernia",
+      "species": "furfuracea",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 186",
+      "common_name": "Lava Lichen",
+      "scientific_name": "Stereocaulon vesuvianum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Stereocaulaceae",
+      "genus": "Stereocaulon",
+      "species": "vesuvianum",
+      "biomes": [
+        "Tundra",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 187",
+      "common_name": "Lungwort Lichen",
+      "scientific_name": "Lobaria pulmonaria",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Lobaria",
+      "species": "pulmonaria",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 188",
+      "common_name": "Hammered Shield Lichen",
+      "scientific_name": "Parmelia sulcata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Parmelia",
+      "species": "sulcata",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 189",
+      "common_name": "Dog Lichen",
+      "scientific_name": "Peltigera canina",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Peltigeraceae",
+      "genus": "Peltigera",
+      "species": "canina",
+      "biomes": [
+        "Forest",
+        "Grassland",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 190",
+      "common_name": "Horizontal Felt Lichen",
+      "scientific_name": "Peltigera horizontalis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Peltigeraceae",
+      "genus": "Peltigera",
+      "species": "horizontalis",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 191",
+      "common_name": "Oregon Lungwort",
+      "scientific_name": "Lobaria oregana",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Lobaria",
+      "species": "oregana",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 192",
+      "common_name": "Forest Sticta",
+      "scientific_name": "Sticta sylvatica",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Sticta",
+      "species": "sylvatica",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 193",
+      "common_name": "Bitter Wart Lichen",
+      "scientific_name": "Pertusaria amara",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Pertusariales",
+      "family": "Pertusariaceae",
+      "genus": "Pertusaria",
+      "species": "amara",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 194",
+      "common_name": "Golden Eye Lichen",
+      "scientific_name": "Teloschistes chrysophthalmus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Teloschistales",
+      "family": "Teloschistaceae",
+      "genus": "Teloschistes",
+      "species": "chrysophthalmus",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 195",
+      "common_name": "Powdery Camouflage Lichen",
+      "scientific_name": "Xanthoparmelia conspersa",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Xanthoparmelia",
+      "species": "conspersa",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 196",
+      "common_name": "Desert Crust Lichen",
+      "scientific_name": "Aspicilia desertorum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Megasporaceae",
+      "genus": "Aspicilia",
+      "species": "desertorum",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 197",
+      "common_name": "Brown Crust Lichen",
+      "scientific_name": "Acarospora fuscata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Acarosporales",
+      "family": "Acarosporaceae",
+      "genus": "Acarospora",
+      "species": "fuscata",
+      "biomes": [
+        "Desert",
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 198",
+      "common_name": "Wall Crust Lichen",
+      "scientific_name": "Diplotomma chlorophaeum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Caliciales",
+      "family": "Caliciaceae",
+      "genus": "Diplotomma",
+      "species": "chlorophaeum",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 199",
+      "common_name": "Wall Rim Lichen",
+      "scientific_name": "Lecanora muralis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Lecanoraceae",
+      "genus": "Lecanora",
+      "species": "muralis",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 200",
+      "common_name": "Sea Orange Lichen",
+      "scientific_name": "Caloplaca marina",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Teloschistales",
+      "family": "Teloschistaceae",
+      "genus": "Caloplaca",
+      "species": "marina",
+      "biomes": [
+        "Marine",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 201",
+      "common_name": "Sea-shore Verrucaria",
+      "scientific_name": "Verrucaria maura",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Verrucariales",
+      "family": "Verrucariaceae",
+      "genus": "Verrucaria",
+      "species": "maura",
+      "biomes": [
+        "Marine",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 202",
+      "common_name": "River Rim Lichen",
+      "scientific_name": "Dermatocarpon miniatum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Verrucariales",
+      "family": "Verrucariaceae",
+      "genus": "Dermatocarpon",
+      "species": "miniatum",
+      "biomes": [
+        "Freshwater",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 203",
+      "common_name": "Aquatic Verrucaria",
+      "scientific_name": "Verrucaria aquatilis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Verrucariales",
+      "family": "Verrucariaceae",
+      "genus": "Verrucaria",
+      "species": "aquatilis",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 204",
+      "common_name": "Mountain Stream Lichen",
+      "scientific_name": "Hydrothyria venosa",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Hydrothyria",
+      "species": "venosa",
+      "biomes": [
+        "Freshwater",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 205",
+      "common_name": "Yellow Wall Lichen",
+      "scientific_name": "Xanthoria parietina",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Teloschistales",
+      "family": "Teloschistaceae",
+      "genus": "Xanthoria",
+      "species": "parietina",
+      "biomes": [
+        "Grassland",
+        "Floodplain"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 206",
+      "common_name": "Helmet Lichen",
+      "scientific_name": "Physcia adscendens",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Caliciales",
+      "family": "Physciaceae",
+      "genus": "Physcia",
+      "species": "adscendens",
+      "biomes": [
+        "Grassland",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 207",
+      "common_name": "Farinose Cartilage Lichen",
+      "scientific_name": "Ramalina farinacea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Ramalinaceae",
+      "genus": "Ramalina",
+      "species": "farinacea",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 208",
+      "common_name": "Jelly Lichen",
+      "scientific_name": "Collema crispum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Collemataceae",
+      "genus": "Collema",
+      "species": "crispum",
+      "biomes": [
+        "Wetland",
+        "Floodplain"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 209",
+      "common_name": "Alternate Dog Lichen",
+      "scientific_name": "Peltigera didactyla",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Peltigeraceae",
+      "genus": "Peltigera",
+      "species": "didactyla",
+      "biomes": [
+        "Floodplain",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 210",
+      "common_name": "Slender Cladonia",
+      "scientific_name": "Cladonia gracilis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Cladoniaceae",
+      "genus": "Cladonia",
+      "species": "gracilis",
+      "biomes": [
+        "Wetland",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 211",
+      "common_name": "Crottle Powder Lichen",
+      "scientific_name": "Pseudocyphellaria crocata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Pseudocyphellaria",
+      "species": "crocata",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 212",
+      "common_name": "Silurian Fossil Lichen",
+      "scientific_name": "Winfrenatia reticulata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Winfrenatia",
+      "species": "reticulata",
+      "biomes": [
+        "Desert",
+        "Tundra"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 213",
+      "common_name": "Devonian Lichen Thallus",
+      "scientific_name": "Spongiophyton australe",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Spongiophyton",
+      "species": "australe",
+      "biomes": [
+        "Desert",
+        "Floodplain"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 214",
+      "common_name": "Devonian Rock Crust",
+      "scientific_name": "Nematothallus taeniata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Nematothallus",
+      "species": "taeniata",
+      "biomes": [
+        "Floodplain",
+        "Desert"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 215",
+      "common_name": "Cretaceous Amber Lichen",
+      "scientific_name": "Honeggeria congregata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Incertae sedis",
+      "genus": "Honeggeria",
+      "species": "congregata",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 216",
+      "common_name": "Red-capped Pixie Cup",
+      "scientific_name": "Cladonia cristatella",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Cladoniaceae",
+      "genus": "Cladonia",
+      "species": "cristatella",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    }
+  ]
+}
