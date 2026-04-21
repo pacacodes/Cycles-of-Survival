@@ -3722,7 +3722,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Neogene"
+        "Paleogene"
       ],
       "trophic_level": "Decomposers (saprotrophs)",
       "dna_sequence": null,
@@ -3755,10 +3755,10 @@
         "Tundra"
       ],
       "eras": [
-        "Cenozoic"
+        "Mesozoic"
       ],
       "periods": [
-        "Neogene"
+        "Cretaceous"
       ],
       "trophic_level": "Mutualists (mycorrhizal)",
       "dna_sequence": null,
@@ -3828,7 +3828,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Neogene"
+        "Paleogene"
       ],
       "trophic_level": "Decomposers (saprotrophs)",
       "dna_sequence": null,
@@ -3931,10 +3931,10 @@
         "Forest"
       ],
       "eras": [
-        "Cenozoic"
+        "Mesozoic"
       ],
       "periods": [
-        "Neogene"
+        "Cretaceous"
       ],
       "trophic_level": "Mutualists (mycorrhizal)",
       "dna_sequence": null,
@@ -4036,10 +4036,10 @@
         "Taiga"
       ],
       "eras": [
-        "Cenozoic"
+        "Mesozoic"
       ],
       "periods": [
-        "Quaternary"
+        "Cretaceous"
       ],
       "trophic_level": "Mutualists (mycorrhizal)",
       "dna_sequence": null,
@@ -4074,7 +4074,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Quaternary"
+        "Paleogene"
       ],
       "trophic_level": "Decomposers (saprotrophs)",
       "dna_sequence": null,
@@ -4109,7 +4109,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Quaternary"
+        "Neogene"
       ],
       "trophic_level": "Decomposers (saprotrophs)",
       "dna_sequence": null,
@@ -4144,7 +4144,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Quaternary"
+        "Neogene"
       ],
       "trophic_level": "Decomposers (saprotrophs)",
       "dna_sequence": null,
@@ -4179,7 +4179,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Quaternary"
+        "Neogene"
       ],
       "trophic_level": "Decomposers (saprotrophs)",
       "dna_sequence": null,
@@ -4215,7 +4215,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Quaternary"
+        "Neogene"
       ],
       "trophic_level": "Decomposers (saprotrophs)",
       "dna_sequence": null,
@@ -4250,7 +4250,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Quaternary"
+        "Neogene"
       ],
       "trophic_level": "Decomposers (saprotrophs)",
       "dna_sequence": null,
@@ -4464,7 +4464,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Quaternary"
+        "Paleogene"
       ],
       "trophic_level": "Mutualists (mycorrhizal)",
       "dna_sequence": null,
@@ -4499,7 +4499,7 @@
         "Cenozoic"
       ],
       "periods": [
-        "Quaternary"
+        "Paleogene"
       ],
       "trophic_level": "Mutualists (mycorrhizal)",
       "dna_sequence": null,
@@ -4507,6 +4507,290 @@
         "oxygen": 1,
         "co2": -1,
         "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 299",
+      "common_name": "Ourasphaira (Oldest Fungal Fossil)",
+      "scientific_name": "Ourasphaira giraldae",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Chytridiomycota",
+      "class": "Chytridiomycetes",
+      "order": "Chytridiales",
+      "family": "Incertae sedis",
+      "genus": "Ourasphaira",
+      "species": "giraldae",
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Neoproterozoic"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 300",
+      "common_name": "Neoproterozoic Hyphal Network",
+      "scientific_name": "Tappania plana",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Incertae sedis",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Tappania",
+      "species": "plana",
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Neoproterozoic"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 301",
+      "common_name": "Cambrian Marine Chytrid",
+      "scientific_name": "Palaeomyces gordonii",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Chytridiomycota",
+      "class": "Chytridiomycetes",
+      "order": "Chytridiales",
+      "family": "Chytriomycetaceae",
+      "genus": "Palaeomyces",
+      "species": "gordonii",
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Cambrian"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 302",
+      "common_name": "Cambrian Parasitic Chytrid",
+      "scientific_name": "Fungal spore cf. Burgess",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Chytridiomycota",
+      "class": "Chytridiomycetes",
+      "order": "Chytridiales",
+      "family": "Incertae sedis",
+      "genus": "Incertae sedis",
+      "species": "sp.",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Cambrian"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "parasite"
+      ]
+    },
+    {
+      "card_label": "Card 303",
+      "common_name": "Palaeoglomus (Ordovician AMF)",
+      "scientific_name": "Palaeoglomus grayi",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Mucoromycota",
+      "class": "Glomeromycetes",
+      "order": "Glomerales",
+      "family": "Glomeraceae",
+      "genus": "Palaeoglomus",
+      "species": "grayi",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Ordovician"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 304",
+      "common_name": "Early Land Arbuscular Mycorrhiza",
+      "scientific_name": "Glomites ordovicianus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Mucoromycota",
+      "class": "Glomeromycetes",
+      "order": "Glomerales",
+      "family": "Glomeraceae",
+      "genus": "Glomites",
+      "species": "ordovicianus",
+      "biomes": [
+        "Grassland",
+        "Freshwater"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Ordovician"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 305",
+      "common_name": "Silurian Lichen Precursor Fungus",
+      "scientific_name": "Spongiophyton minutissimum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Spongiophyton",
+      "species": "minutissimum",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 306",
+      "common_name": "Jurassic Bolete (ancestor)",
+      "scientific_name": "Paxillus jurassicus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Boletales",
+      "family": "Paxillaceae",
+      "genus": "Paxillus",
+      "species": "jurassicus",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
       },
       "bits": null,
       "role": [
