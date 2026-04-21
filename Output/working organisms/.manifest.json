@@ -1,6 +1,6 @@
 {
   "_codeChecksum": "b6f341dcd2a785ebb7220fabf5abddc9",
-  "_generatedAt": "2026-04-21T18:54:54.753Z",
+  "_generatedAt": "2026-04-21T19:35:11.171Z",
   "_paths": {
     "current": "/workspaces/Cycles-of-Survival/output/Working Organism Cards/current",
     "safe": "/workspaces/Cycles-of-Survival/saved_files/Working Organism Cards/current"
@@ -479,7 +479,7 @@
       "fileName": "card-118.png"
     },
     "organism-119": {
-      "signature": "{\"id\":\"organism-119\",\"common_name\":\"Cloudina\",\"scientific_name\":\"Cloudina hartmannae\",\"card_label\":\"Card 119\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Cloudina\",\"species\":\"hartmannae\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"filter_feeder\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Cloudina hartmannae.png\",\"missing\":true}}",
+      "signature": "{\"id\":\"organism-119\",\"common_name\":\"Cloudina\",\"scientific_name\":\"Cloudina hartmannae\",\"card_label\":\"Card 119\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":null,\"class\":null,\"order\":null,\"family\":null,\"genus\":\"Cloudina\",\"species\":\"hartmannae\",\"biomes\":[\"Marine\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Ediacaran\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"filter_feeder\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Cloudina hartmannae.png\",\"size\":6181611,\"mtimeMs\":1776798223901}}",
       "fileName": "card-119.png"
     },
     "organism-120": {
@@ -689,6 +689,538 @@
     "organism-171": {
       "signature": "{\"id\":\"organism-171\",\"common_name\":\"Dryosaurus\",\"scientific_name\":\"Dryosaurus altus\",\"card_label\":\"Card 171\",\"main_photo\":null,\"organism_type\":\"Terrestrial vertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Chordata\",\"class\":\"Reptilia\",\"order\":\"Ornithischia\",\"family\":\"Dryosauridae\",\"genus\":\"Dryosaurus\",\"species\":\"altus\",\"biomes\":[\"Grassland\",\"Floodplain\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Primary consumers (herbivores)\",\"role\":[\"herbivore\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Dryosaurus altus.png\",\"missing\":true}}",
       "fileName": "card-171.png"
+    },
+    "organism-172": {
+      "signature": "{\"id\":\"organism-172\",\"common_name\":\"Iceland Moss\",\"scientific_name\":\"Cetraria islandica\",\"card_label\":\"Card 173\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Parmeliaceae\",\"genus\":\"Cetraria\",\"species\":\"islandica\",\"biomes\":[\"Tundra\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Cetraria islandica.png\",\"missing\":true}}",
+      "fileName": "card-173.png"
+    },
+    "organism-173": {
+      "signature": "{\"id\":\"organism-173\",\"common_name\":\"Star-tipped Reindeer Lichen\",\"scientific_name\":\"Cladonia stellaris\",\"card_label\":\"Card 174\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Cladoniaceae\",\"genus\":\"Cladonia\",\"species\":\"stellaris\",\"biomes\":[\"Tundra\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Cladonia stellaris.png\",\"missing\":true}}",
+      "fileName": "card-174.png"
+    },
+    "organism-174": {
+      "signature": "{\"id\":\"organism-174\",\"common_name\":\"Coral Lichen\",\"scientific_name\":\"Cladonia portentosa\",\"card_label\":\"Card 175\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Cladoniaceae\",\"genus\":\"Cladonia\",\"species\":\"portentosa\",\"biomes\":[\"Tundra\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Cladonia portentosa.png\",\"missing\":true}}",
+      "fileName": "card-175.png"
+    },
+    "organism-175": {
+      "signature": "{\"id\":\"organism-175\",\"common_name\":\"Crottle Lichen\",\"scientific_name\":\"Ochrolechia tartarea\",\"card_label\":\"Card 176\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Pertusariales\",\"family\":\"Ochrolechiaceae\",\"genus\":\"Ochrolechia\",\"species\":\"tartarea\",\"biomes\":[\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Ochrolechia tartarea.png\",\"missing\":true}}",
+      "fileName": "card-176.png"
+    },
+    "organism-176": {
+      "signature": "{\"id\":\"organism-176\",\"common_name\":\"Map Lichen\",\"scientific_name\":\"Rhizocarpon geographicum\",\"card_label\":\"Card 177\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Rhizocarpales\",\"family\":\"Rhizocarpaceae\",\"genus\":\"Rhizocarpon\",\"species\":\"geographicum\",\"biomes\":[\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Rhizocarpon geographicum.png\",\"missing\":true}}",
+      "fileName": "card-177.png"
+    },
+    "organism-177": {
+      "signature": "{\"id\":\"organism-177\",\"common_name\":\"Orange Chocolate Chip Lichen\",\"scientific_name\":\"Solorina crocea\",\"card_label\":\"Card 178\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Peltigeraceae\",\"genus\":\"Solorina\",\"species\":\"crocea\",\"biomes\":[\"Tundra\",\"Freshwater\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Solorina crocea.png\",\"missing\":true}}",
+      "fileName": "card-178.png"
+    },
+    "organism-178": {
+      "signature": "{\"id\":\"organism-178\",\"common_name\":\"Rock Tripe\",\"scientific_name\":\"Umbilicaria mammulata\",\"card_label\":\"Card 179\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Umbilicariales\",\"family\":\"Umbilicariaceae\",\"genus\":\"Umbilicaria\",\"species\":\"mammulata\",\"biomes\":[\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Umbilicaria mammulata.png\",\"missing\":true}}",
+      "fileName": "card-179.png"
+    },
+    "organism-179": {
+      "signature": "{\"id\":\"organism-179\",\"common_name\":\"Old Man's Beard\",\"scientific_name\":\"Usnea barbata\",\"card_label\":\"Card 180\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Parmeliaceae\",\"genus\":\"Usnea\",\"species\":\"barbata\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Usnea barbata.png\",\"missing\":true}}",
+      "fileName": "card-180.png"
+    },
+    "organism-180": {
+      "signature": "{\"id\":\"organism-180\",\"common_name\":\"Witch's Hair Lichen\",\"scientific_name\":\"Alectoria sarmentosa\",\"card_label\":\"Card 181\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Parmeliaceae\",\"genus\":\"Alectoria\",\"species\":\"sarmentosa\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Alectoria sarmentosa.png\",\"missing\":true}}",
+      "fileName": "card-181.png"
+    },
+    "organism-181": {
+      "signature": "{\"id\":\"organism-181\",\"common_name\":\"Monk's Hood Lichen\",\"scientific_name\":\"Hypogymnia physodes\",\"card_label\":\"Card 182\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Parmeliaceae\",\"genus\":\"Hypogymnia\",\"species\":\"physodes\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Hypogymnia physodes.png\",\"missing\":true}}",
+      "fileName": "card-182.png"
+    },
+    "organism-182": {
+      "signature": "{\"id\":\"organism-182\",\"common_name\":\"Wolf Lichen\",\"scientific_name\":\"Letharia vulpina\",\"card_label\":\"Card 183\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Parmeliaceae\",\"genus\":\"Letharia\",\"species\":\"vulpina\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Letharia vulpina.png\",\"missing\":true}}",
+      "fileName": "card-183.png"
+    },
+    "organism-183": {
+      "signature": "{\"id\":\"organism-183\",\"common_name\":\"Oakmoss\",\"scientific_name\":\"Evernia prunastri\",\"card_label\":\"Card 184\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Parmeliaceae\",\"genus\":\"Evernia\",\"species\":\"prunastri\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Evernia prunastri.png\",\"missing\":true}}",
+      "fileName": "card-184.png"
+    },
+    "organism-184": {
+      "signature": "{\"id\":\"organism-184\",\"common_name\":\"Treemoss Lichen\",\"scientific_name\":\"Pseudevernia furfuracea\",\"card_label\":\"Card 185\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Parmeliaceae\",\"genus\":\"Pseudevernia\",\"species\":\"furfuracea\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Pseudevernia furfuracea.png\",\"missing\":true}}",
+      "fileName": "card-185.png"
+    },
+    "organism-185": {
+      "signature": "{\"id\":\"organism-185\",\"common_name\":\"Lava Lichen\",\"scientific_name\":\"Stereocaulon vesuvianum\",\"card_label\":\"Card 186\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Stereocaulaceae\",\"genus\":\"Stereocaulon\",\"species\":\"vesuvianum\",\"biomes\":[\"Tundra\",\"Desert\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Stereocaulon vesuvianum.png\",\"missing\":true}}",
+      "fileName": "card-186.png"
+    },
+    "organism-186": {
+      "signature": "{\"id\":\"organism-186\",\"common_name\":\"Lungwort Lichen\",\"scientific_name\":\"Lobaria pulmonaria\",\"card_label\":\"Card 187\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Lobariaceae\",\"genus\":\"Lobaria\",\"species\":\"pulmonaria\",\"biomes\":[\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-2,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Lobaria pulmonaria.png\",\"missing\":true}}",
+      "fileName": "card-187.png"
+    },
+    "organism-187": {
+      "signature": "{\"id\":\"organism-187\",\"common_name\":\"Hammered Shield Lichen\",\"scientific_name\":\"Parmelia sulcata\",\"card_label\":\"Card 188\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Parmeliaceae\",\"genus\":\"Parmelia\",\"species\":\"sulcata\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Parmelia sulcata.png\",\"missing\":true}}",
+      "fileName": "card-188.png"
+    },
+    "organism-188": {
+      "signature": "{\"id\":\"organism-188\",\"common_name\":\"Dog Lichen\",\"scientific_name\":\"Peltigera canina\",\"card_label\":\"Card 189\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Peltigeraceae\",\"genus\":\"Peltigera\",\"species\":\"canina\",\"biomes\":[\"Forest\",\"Grassland\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Peltigera canina.png\",\"missing\":true}}",
+      "fileName": "card-189.png"
+    },
+    "organism-189": {
+      "signature": "{\"id\":\"organism-189\",\"common_name\":\"Horizontal Felt Lichen\",\"scientific_name\":\"Peltigera horizontalis\",\"card_label\":\"Card 190\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Peltigeraceae\",\"genus\":\"Peltigera\",\"species\":\"horizontalis\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Peltigera horizontalis.png\",\"missing\":true}}",
+      "fileName": "card-190.png"
+    },
+    "organism-190": {
+      "signature": "{\"id\":\"organism-190\",\"common_name\":\"Oregon Lungwort\",\"scientific_name\":\"Lobaria oregana\",\"card_label\":\"Card 191\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Lobariaceae\",\"genus\":\"Lobaria\",\"species\":\"oregana\",\"biomes\":[\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-2,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Lobaria oregana.png\",\"missing\":true}}",
+      "fileName": "card-191.png"
+    },
+    "organism-191": {
+      "signature": "{\"id\":\"organism-191\",\"common_name\":\"Forest Sticta\",\"scientific_name\":\"Sticta sylvatica\",\"card_label\":\"Card 192\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Lobariaceae\",\"genus\":\"Sticta\",\"species\":\"sylvatica\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Sticta sylvatica.png\",\"missing\":true}}",
+      "fileName": "card-192.png"
+    },
+    "organism-192": {
+      "signature": "{\"id\":\"organism-192\",\"common_name\":\"Bitter Wart Lichen\",\"scientific_name\":\"Pertusaria amara\",\"card_label\":\"Card 193\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Pertusariales\",\"family\":\"Pertusariaceae\",\"genus\":\"Pertusaria\",\"species\":\"amara\",\"biomes\":[\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Pertusaria amara.png\",\"missing\":true}}",
+      "fileName": "card-193.png"
+    },
+    "organism-193": {
+      "signature": "{\"id\":\"organism-193\",\"common_name\":\"Golden Eye Lichen\",\"scientific_name\":\"Teloschistes chrysophthalmus\",\"card_label\":\"Card 194\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Teloschistales\",\"family\":\"Teloschistaceae\",\"genus\":\"Teloschistes\",\"species\":\"chrysophthalmus\",\"biomes\":[\"Desert\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Teloschistes chrysophthalmus.png\",\"missing\":true}}",
+      "fileName": "card-194.png"
+    },
+    "organism-194": {
+      "signature": "{\"id\":\"organism-194\",\"common_name\":\"Powdery Camouflage Lichen\",\"scientific_name\":\"Xanthoparmelia conspersa\",\"card_label\":\"Card 195\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Parmeliaceae\",\"genus\":\"Xanthoparmelia\",\"species\":\"conspersa\",\"biomes\":[\"Grassland\",\"Desert\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Xanthoparmelia conspersa.png\",\"missing\":true}}",
+      "fileName": "card-195.png"
+    },
+    "organism-195": {
+      "signature": "{\"id\":\"organism-195\",\"common_name\":\"Desert Crust Lichen\",\"scientific_name\":\"Aspicilia desertorum\",\"card_label\":\"Card 196\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Megasporaceae\",\"genus\":\"Aspicilia\",\"species\":\"desertorum\",\"biomes\":[\"Desert\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Aspicilia desertorum.png\",\"missing\":true}}",
+      "fileName": "card-196.png"
+    },
+    "organism-196": {
+      "signature": "{\"id\":\"organism-196\",\"common_name\":\"Brown Crust Lichen\",\"scientific_name\":\"Acarospora fuscata\",\"card_label\":\"Card 197\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Acarosporales\",\"family\":\"Acarosporaceae\",\"genus\":\"Acarospora\",\"species\":\"fuscata\",\"biomes\":[\"Desert\",\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Acarospora fuscata.png\",\"missing\":true}}",
+      "fileName": "card-197.png"
+    },
+    "organism-197": {
+      "signature": "{\"id\":\"organism-197\",\"common_name\":\"Wall Crust Lichen\",\"scientific_name\":\"Diplotomma chlorophaeum\",\"card_label\":\"Card 198\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Caliciales\",\"family\":\"Caliciaceae\",\"genus\":\"Diplotomma\",\"species\":\"chlorophaeum\",\"biomes\":[\"Grassland\",\"Desert\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Diplotomma chlorophaeum.png\",\"missing\":true}}",
+      "fileName": "card-198.png"
+    },
+    "organism-198": {
+      "signature": "{\"id\":\"organism-198\",\"common_name\":\"Wall Rim Lichen\",\"scientific_name\":\"Lecanora muralis\",\"card_label\":\"Card 199\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Lecanoraceae\",\"genus\":\"Lecanora\",\"species\":\"muralis\",\"biomes\":[\"Desert\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Lecanora muralis.png\",\"missing\":true}}",
+      "fileName": "card-199.png"
+    },
+    "organism-199": {
+      "signature": "{\"id\":\"organism-199\",\"common_name\":\"Sea Orange Lichen\",\"scientific_name\":\"Caloplaca marina\",\"card_label\":\"Card 200\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Teloschistales\",\"family\":\"Teloschistaceae\",\"genus\":\"Caloplaca\",\"species\":\"marina\",\"biomes\":[\"Marine\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Caloplaca marina.png\",\"missing\":true}}",
+      "fileName": "card-200.png"
+    },
+    "organism-200": {
+      "signature": "{\"id\":\"organism-200\",\"common_name\":\"Sea-shore Verrucaria\",\"scientific_name\":\"Verrucaria maura\",\"card_label\":\"Card 201\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Eurotiomycetes\",\"order\":\"Verrucariales\",\"family\":\"Verrucariaceae\",\"genus\":\"Verrucaria\",\"species\":\"maura\",\"biomes\":[\"Marine\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Verrucaria maura.png\",\"missing\":true}}",
+      "fileName": "card-201.png"
+    },
+    "organism-201": {
+      "signature": "{\"id\":\"organism-201\",\"common_name\":\"River Rim Lichen\",\"scientific_name\":\"Dermatocarpon miniatum\",\"card_label\":\"Card 202\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Eurotiomycetes\",\"order\":\"Verrucariales\",\"family\":\"Verrucariaceae\",\"genus\":\"Dermatocarpon\",\"species\":\"miniatum\",\"biomes\":[\"Freshwater\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Dermatocarpon miniatum.png\",\"missing\":true}}",
+      "fileName": "card-202.png"
+    },
+    "organism-202": {
+      "signature": "{\"id\":\"organism-202\",\"common_name\":\"Aquatic Verrucaria\",\"scientific_name\":\"Verrucaria aquatilis\",\"card_label\":\"Card 203\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Eurotiomycetes\",\"order\":\"Verrucariales\",\"family\":\"Verrucariaceae\",\"genus\":\"Verrucaria\",\"species\":\"aquatilis\",\"biomes\":[\"Freshwater\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Verrucaria aquatilis.png\",\"missing\":true}}",
+      "fileName": "card-203.png"
+    },
+    "organism-203": {
+      "signature": "{\"id\":\"organism-203\",\"common_name\":\"Mountain Stream Lichen\",\"scientific_name\":\"Hydrothyria venosa\",\"card_label\":\"Card 204\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Lobariaceae\",\"genus\":\"Hydrothyria\",\"species\":\"venosa\",\"biomes\":[\"Freshwater\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Hydrothyria venosa.png\",\"missing\":true}}",
+      "fileName": "card-204.png"
+    },
+    "organism-204": {
+      "signature": "{\"id\":\"organism-204\",\"common_name\":\"Yellow Wall Lichen\",\"scientific_name\":\"Xanthoria parietina\",\"card_label\":\"Card 205\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Teloschistales\",\"family\":\"Teloschistaceae\",\"genus\":\"Xanthoria\",\"species\":\"parietina\",\"biomes\":[\"Grassland\",\"Floodplain\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Xanthoria parietina.png\",\"missing\":true}}",
+      "fileName": "card-205.png"
+    },
+    "organism-205": {
+      "signature": "{\"id\":\"organism-205\",\"common_name\":\"Helmet Lichen\",\"scientific_name\":\"Physcia adscendens\",\"card_label\":\"Card 206\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Caliciales\",\"family\":\"Physciaceae\",\"genus\":\"Physcia\",\"species\":\"adscendens\",\"biomes\":[\"Grassland\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Physcia adscendens.png\",\"missing\":true}}",
+      "fileName": "card-206.png"
+    },
+    "organism-206": {
+      "signature": "{\"id\":\"organism-206\",\"common_name\":\"Farinose Cartilage Lichen\",\"scientific_name\":\"Ramalina farinacea\",\"card_label\":\"Card 207\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Ramalinaceae\",\"genus\":\"Ramalina\",\"species\":\"farinacea\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Ramalina farinacea.png\",\"missing\":true}}",
+      "fileName": "card-207.png"
+    },
+    "organism-207": {
+      "signature": "{\"id\":\"organism-207\",\"common_name\":\"Jelly Lichen\",\"scientific_name\":\"Collema crispum\",\"card_label\":\"Card 208\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Collemataceae\",\"genus\":\"Collema\",\"species\":\"crispum\",\"biomes\":[\"Wetland\",\"Floodplain\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Collema crispum.png\",\"missing\":true}}",
+      "fileName": "card-208.png"
+    },
+    "organism-208": {
+      "signature": "{\"id\":\"organism-208\",\"common_name\":\"Alternate Dog Lichen\",\"scientific_name\":\"Peltigera didactyla\",\"card_label\":\"Card 209\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Peltigeraceae\",\"genus\":\"Peltigera\",\"species\":\"didactyla\",\"biomes\":[\"Floodplain\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Peltigera didactyla.png\",\"missing\":true}}",
+      "fileName": "card-209.png"
+    },
+    "organism-209": {
+      "signature": "{\"id\":\"organism-209\",\"common_name\":\"Slender Cladonia\",\"scientific_name\":\"Cladonia gracilis\",\"card_label\":\"Card 210\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Cladoniaceae\",\"genus\":\"Cladonia\",\"species\":\"gracilis\",\"biomes\":[\"Wetland\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Cladonia gracilis.png\",\"missing\":true}}",
+      "fileName": "card-210.png"
+    },
+    "organism-210": {
+      "signature": "{\"id\":\"organism-210\",\"common_name\":\"Crottle Powder Lichen\",\"scientific_name\":\"Pseudocyphellaria crocata\",\"card_label\":\"Card 211\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Peltigerales\",\"family\":\"Lobariaceae\",\"genus\":\"Pseudocyphellaria\",\"species\":\"crocata\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Pseudocyphellaria crocata.png\",\"missing\":true}}",
+      "fileName": "card-211.png"
+    },
+    "organism-211": {
+      "signature": "{\"id\":\"organism-211\",\"common_name\":\"Silurian Fossil Lichen\",\"scientific_name\":\"Winfrenatia reticulata\",\"card_label\":\"Card 212\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Incertae sedis\",\"family\":\"Incertae sedis\",\"genus\":\"Winfrenatia\",\"species\":\"reticulata\",\"biomes\":[\"Desert\",\"Tundra\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Silurian\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Winfrenatia reticulata.png\",\"missing\":true}}",
+      "fileName": "card-212.png"
+    },
+    "organism-212": {
+      "signature": "{\"id\":\"organism-212\",\"common_name\":\"Devonian Lichen Thallus\",\"scientific_name\":\"Spongiophyton australe\",\"card_label\":\"Card 213\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Incertae sedis\",\"family\":\"Incertae sedis\",\"genus\":\"Spongiophyton\",\"species\":\"australe\",\"biomes\":[\"Desert\",\"Floodplain\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Devonian\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Spongiophyton australe.png\",\"missing\":true}}",
+      "fileName": "card-213.png"
+    },
+    "organism-213": {
+      "signature": "{\"id\":\"organism-213\",\"common_name\":\"Devonian Rock Crust\",\"scientific_name\":\"Nematothallus taeniata\",\"card_label\":\"Card 214\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Incertae sedis\",\"family\":\"Incertae sedis\",\"genus\":\"Nematothallus\",\"species\":\"taeniata\",\"biomes\":[\"Floodplain\",\"Desert\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Devonian\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Nematothallus taeniata.png\",\"missing\":true}}",
+      "fileName": "card-214.png"
+    },
+    "organism-214": {
+      "signature": "{\"id\":\"organism-214\",\"common_name\":\"Cretaceous Amber Lichen\",\"scientific_name\":\"Honeggeria congregata\",\"card_label\":\"Card 215\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Incertae sedis\",\"genus\":\"Honeggeria\",\"species\":\"congregata\",\"biomes\":[\"Forest\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Honeggeria congregata.png\",\"missing\":true}}",
+      "fileName": "card-215.png"
+    },
+    "organism-215": {
+      "signature": "{\"id\":\"organism-215\",\"common_name\":\"Red-capped Pixie Cup\",\"scientific_name\":\"Cladonia cristatella\",\"card_label\":\"Card 216\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Lecanoromycetes\",\"order\":\"Lecanorales\",\"family\":\"Cladoniaceae\",\"genus\":\"Cladonia\",\"species\":\"cristatella\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Cladonia cristatella.png\",\"missing\":true}}",
+      "fileName": "card-216.png"
+    },
+    "organism-216": {
+      "signature": "{\"id\":\"organism-216\",\"common_name\":\"Ancient Moss (fossil)\",\"scientific_name\":\"Muscites polytrichaceus\",\"card_label\":\"Card 217\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Tetraphidales\",\"family\":\"Tetraphidaceae\",\"genus\":\"Muscites\",\"species\":\"polytrichaceus\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Devonian\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-2,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Muscites polytrichaceus.png\",\"missing\":true}}",
+      "fileName": "card-217.png"
+    },
+    "organism-217": {
+      "signature": "{\"id\":\"organism-217\",\"common_name\":\"Devonian Liverwort-like Moss\",\"scientific_name\":\"Pallaviciniites devonicus\",\"card_label\":\"Card 218\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Pallaviciniales\",\"family\":\"Pallaviciniaceae\",\"genus\":\"Pallaviciniites\",\"species\":\"devonicus\",\"biomes\":[\"Freshwater\",\"Floodplain\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Devonian\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Pallaviciniites devonicus.png\",\"missing\":true}}",
+      "fileName": "card-218.png"
+    },
+    "organism-218": {
+      "signature": "{\"id\":\"organism-218\",\"common_name\":\"Coal-swamp Moss\",\"scientific_name\":\"Muscites bertrandi\",\"card_label\":\"Card 219\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Dicranales\",\"family\":\"Dicranaceae\",\"genus\":\"Muscites\",\"species\":\"bertrandi\",\"biomes\":[\"Wetland\",\"Forest\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Carboniferous\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-2,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Muscites bertrandi.png\",\"missing\":true}}",
+      "fileName": "card-219.png"
+    },
+    "organism-219": {
+      "signature": "{\"id\":\"organism-219\",\"common_name\":\"Carboniferous Peat Moss\",\"scientific_name\":\"Sphagnophyllites carbonicus\",\"card_label\":\"Card 220\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Sphagnopsida\",\"order\":\"Sphagnales\",\"family\":\"Sphagnaceae\",\"genus\":\"Sphagnophyllites\",\"species\":\"carbonicus\",\"biomes\":[\"Wetland\",\"Floodplain\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Carboniferous\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-3,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Sphagnophyllites carbonicus.png\",\"missing\":true}}",
+      "fileName": "card-220.png"
+    },
+    "organism-220": {
+      "signature": "{\"id\":\"organism-220\",\"common_name\":\"Permian Rock Moss\",\"scientific_name\":\"Intia verchojanensis\",\"card_label\":\"Card 221\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Grimmiales\",\"family\":\"Grimmiaceae\",\"genus\":\"Intia\",\"species\":\"verchojanensis\",\"biomes\":[\"Desert\",\"Grassland\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Permian\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Intia verchojanensis.png\",\"missing\":true}}",
+      "fileName": "card-221.png"
+    },
+    "organism-221": {
+      "signature": "{\"id\":\"organism-221\",\"common_name\":\"Permian Forest Moss\",\"scientific_name\":\"Merceria augustica\",\"card_label\":\"Card 222\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Brachytheciaceae\",\"genus\":\"Merceria\",\"species\":\"augustica\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Permian\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Merceria augustica.png\",\"missing\":true}}",
+      "fileName": "card-222.png"
+    },
+    "organism-222": {
+      "signature": "{\"id\":\"organism-222\",\"common_name\":\"Triassic Wetland Moss\",\"scientific_name\":\"Voronovia bocschii\",\"card_label\":\"Card 223\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Bryales\",\"family\":\"Bryaceae\",\"genus\":\"Voronovia\",\"species\":\"bocschii\",\"biomes\":[\"Wetland\",\"Freshwater\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Triassic\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Voronovia bocschii.png\",\"missing\":true}}",
+      "fileName": "card-223.png"
+    },
+    "organism-223": {
+      "signature": "{\"id\":\"organism-223\",\"common_name\":\"Triassic Ground Moss\",\"scientific_name\":\"Lunularia triassica\",\"card_label\":\"Card 224\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Lunulariales\",\"family\":\"Lunulariaceae\",\"genus\":\"Lunularia\",\"species\":\"triassica\",\"biomes\":[\"Forest\",\"Floodplain\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Triassic\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Lunularia triassica.png\",\"missing\":true}}",
+      "fileName": "card-224.png"
+    },
+    "organism-224": {
+      "signature": "{\"id\":\"organism-224\",\"common_name\":\"Jurassic Feather Moss\",\"scientific_name\":\"Palaeohypnum jurassicum\",\"card_label\":\"Card 225\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Hypnaceae\",\"genus\":\"Palaeohypnum\",\"species\":\"jurassicum\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Palaeohypnum jurassicum.png\",\"missing\":true}}",
+      "fileName": "card-225.png"
+    },
+    "organism-225": {
+      "signature": "{\"id\":\"organism-225\",\"common_name\":\"Jurassic Peat Moss\",\"scientific_name\":\"Sphagnum antiquum\",\"card_label\":\"Card 226\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Sphagnopsida\",\"order\":\"Sphagnales\",\"family\":\"Sphagnaceae\",\"genus\":\"Sphagnum\",\"species\":\"antiquum\",\"biomes\":[\"Wetland\",\"Tundra\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-3,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Sphagnum antiquum.png\",\"missing\":true}}",
+      "fileName": "card-226.png"
+    },
+    "organism-226": {
+      "signature": "{\"id\":\"organism-226\",\"common_name\":\"Jurassic Water Moss\",\"scientific_name\":\"Fontinalis mesozoica\",\"card_label\":\"Card 227\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Fontinalaceae\",\"genus\":\"Fontinalis\",\"species\":\"mesozoica\",\"biomes\":[\"Freshwater\",\"Floodplain\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Fontinalis mesozoica.png\",\"missing\":true}}",
+      "fileName": "card-227.png"
+    },
+    "organism-227": {
+      "signature": "{\"id\":\"organism-227\",\"common_name\":\"Cretaceous Forest Moss\",\"scientific_name\":\"Bryites cretaceus\",\"card_label\":\"Card 228\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Bryales\",\"family\":\"Bryaceae\",\"genus\":\"Bryites\",\"species\":\"cretaceus\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-2,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Bryites cretaceus.png\",\"missing\":true}}",
+      "fileName": "card-228.png"
+    },
+    "organism-228": {
+      "signature": "{\"id\":\"organism-228\",\"common_name\":\"Amber-preserved Moss\",\"scientific_name\":\"Eopolytrichum antiquum\",\"card_label\":\"Card 229\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Polytrichopsida\",\"order\":\"Polytrichales\",\"family\":\"Polytrichaceae\",\"genus\":\"Eopolytrichum\",\"species\":\"antiquum\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Eopolytrichum antiquum.png\",\"missing\":true}}",
+      "fileName": "card-229.png"
+    },
+    "organism-229": {
+      "signature": "{\"id\":\"organism-229\",\"common_name\":\"Cretaceous Sphagnum\",\"scientific_name\":\"Sphagnum cretaceum\",\"card_label\":\"Card 230\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Sphagnopsida\",\"order\":\"Sphagnales\",\"family\":\"Sphagnaceae\",\"genus\":\"Sphagnum\",\"species\":\"cretaceum\",\"biomes\":[\"Wetland\",\"Freshwater\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-3,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Sphagnum cretaceum.png\",\"missing\":true}}",
+      "fileName": "card-230.png"
+    },
+    "organism-230": {
+      "signature": "{\"id\":\"organism-230\",\"common_name\":\"Swan-neck Thyme Moss\",\"scientific_name\":\"Mnium hornum\",\"card_label\":\"Card 232\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Bryales\",\"family\":\"Mniaceae\",\"genus\":\"Mnium\",\"species\":\"hornum\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Mnium hornum.png\",\"missing\":true}}",
+      "fileName": "card-232.png"
+    },
+    "organism-231": {
+      "signature": "{\"id\":\"organism-231\",\"common_name\":\"Tamarisk Moss\",\"scientific_name\":\"Thuidium tamariscinum\",\"card_label\":\"Card 233\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Thuidiaceae\",\"genus\":\"Thuidium\",\"species\":\"tamariscinum\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Thuidium tamariscinum.png\",\"missing\":true}}",
+      "fileName": "card-233.png"
+    },
+    "organism-232": {
+      "signature": "{\"id\":\"organism-232\",\"common_name\":\"Feather Moss\",\"scientific_name\":\"Pleurozium schreberi\",\"card_label\":\"Card 234\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Hylocomiaceae\",\"genus\":\"Pleurozium\",\"species\":\"schreberi\",\"biomes\":[\"Taiga\",\"Forest\",\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-2,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Pleurozium schreberi.png\",\"missing\":true}}",
+      "fileName": "card-234.png"
+    },
+    "organism-233": {
+      "signature": "{\"id\":\"organism-233\",\"common_name\":\"Stair-step Moss\",\"scientific_name\":\"Hylocomium splendens\",\"card_label\":\"Card 235\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Hylocomiaceae\",\"genus\":\"Hylocomium\",\"species\":\"splendens\",\"biomes\":[\"Taiga\",\"Tundra\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-2,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Hylocomium splendens.png\",\"missing\":true}}",
+      "fileName": "card-235.png"
+    },
+    "organism-234": {
+      "signature": "{\"id\":\"organism-234\",\"common_name\":\"Broom Fork-moss\",\"scientific_name\":\"Dicranum scoparium\",\"card_label\":\"Card 236\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Dicranales\",\"family\":\"Dicranaceae\",\"genus\":\"Dicranum\",\"species\":\"scoparium\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Dicranum scoparium.png\",\"missing\":true}}",
+      "fileName": "card-236.png"
+    },
+    "organism-235": {
+      "signature": "{\"id\":\"organism-235\",\"common_name\":\"Woolly Fringe-moss\",\"scientific_name\":\"Racomitrium lanuginosum\",\"card_label\":\"Card 237\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Grimmiales\",\"family\":\"Grimmiaceae\",\"genus\":\"Racomitrium\",\"species\":\"lanuginosum\",\"biomes\":[\"Tundra\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Racomitrium lanuginosum.png\",\"missing\":true}}",
+      "fileName": "card-237.png"
+    },
+    "organism-236": {
+      "signature": "{\"id\":\"organism-236\",\"common_name\":\"Water Moss\",\"scientific_name\":\"Fontinalis antipyretica\",\"card_label\":\"Card 238\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Fontinalaceae\",\"genus\":\"Fontinalis\",\"species\":\"antipyretica\",\"biomes\":[\"Freshwater\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Fontinalis antipyretica.png\",\"missing\":true}}",
+      "fileName": "card-238.png"
+    },
+    "organism-237": {
+      "signature": "{\"id\":\"organism-237\",\"common_name\":\"White Cushion-moss\",\"scientific_name\":\"Leucobryum glaucum\",\"card_label\":\"Card 239\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Dicranales\",\"family\":\"Leucobryaceae\",\"genus\":\"Leucobryum\",\"species\":\"glaucum\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Leucobryum glaucum.png\",\"missing\":true}}",
+      "fileName": "card-239.png"
+    },
+    "organism-238": {
+      "signature": "{\"id\":\"organism-238\",\"common_name\":\"Wall Screw-moss\",\"scientific_name\":\"Tortula muralis\",\"card_label\":\"Card 240\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Pottiales\",\"family\":\"Pottiaceae\",\"genus\":\"Tortula\",\"species\":\"muralis\",\"biomes\":[\"Desert\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Tortula muralis.png\",\"missing\":true}}",
+      "fileName": "card-240.png"
+    },
+    "organism-239": {
+      "signature": "{\"id\":\"organism-239\",\"common_name\":\"Marsh Moss\",\"scientific_name\":\"Aulacomnium palustre\",\"card_label\":\"Card 241\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Bryales\",\"family\":\"Aulacomniaceae\",\"genus\":\"Aulacomnium\",\"species\":\"palustre\",\"biomes\":[\"Wetland\",\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-2,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Aulacomnium palustre.png\",\"missing\":true}}",
+      "fileName": "card-241.png"
+    },
+    "organism-240": {
+      "signature": "{\"id\":\"organism-240\",\"common_name\":\"Feather-plume Moss\",\"scientific_name\":\"Ptilium crista-castrensis\",\"card_label\":\"Card 242\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Ptiliaceae\",\"genus\":\"Ptilium\",\"species\":\"crista-castrensis\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Ptilium crista-castrensis.png\",\"missing\":true}}",
+      "fileName": "card-242.png"
+    },
+    "organism-241": {
+      "signature": "{\"id\":\"organism-241\",\"common_name\":\"Floating Hook-moss\",\"scientific_name\":\"Warnstorfia fluitans\",\"card_label\":\"Card 243\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Amblystegiaceae\",\"genus\":\"Warnstorfia\",\"species\":\"fluitans\",\"biomes\":[\"Freshwater\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Warnstorfia fluitans.png\",\"missing\":true}}",
+      "fileName": "card-243.png"
+    },
+    "organism-242": {
+      "signature": "{\"id\":\"organism-242\",\"common_name\":\"Peat Moss\",\"scientific_name\":\"Sphagnum magellanicum\",\"card_label\":\"Card 244\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Sphagnopsida\",\"order\":\"Sphagnales\",\"family\":\"Sphagnaceae\",\"genus\":\"Sphagnum\",\"species\":\"magellanicum\",\"biomes\":[\"Wetland\",\"Tundra\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-4,\"biodiversity\":4},\"main_photo_asset\":{\"file\":\"Sphagnum magellanicum.png\",\"missing\":true}}",
+      "fileName": "card-244.png"
+    },
+    "organism-243": {
+      "signature": "{\"id\":\"organism-243\",\"common_name\":\"Black Rock-moss\",\"scientific_name\":\"Andreaea rupestris\",\"card_label\":\"Card 245\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Andreaeopsida\",\"order\":\"Andreaeales\",\"family\":\"Andreaeaceae\",\"genus\":\"Andreaea\",\"species\":\"rupestris\",\"biomes\":[\"Tundra\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Andreaea rupestris.png\",\"missing\":true}}",
+      "fileName": "card-245.png"
+    },
+    "organism-244": {
+      "signature": "{\"id\":\"organism-244\",\"common_name\":\"Star Moss\",\"scientific_name\":\"Tortula ruralis\",\"card_label\":\"Card 246\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Pottiales\",\"family\":\"Pottiaceae\",\"genus\":\"Tortula\",\"species\":\"ruralis\",\"biomes\":[\"Grassland\",\"Desert\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Tortula ruralis.png\",\"missing\":true}}",
+      "fileName": "card-246.png"
+    },
+    "organism-245": {
+      "signature": "{\"id\":\"organism-245\",\"common_name\":\"Cypress-leaved Plait-moss\",\"scientific_name\":\"Hypnum cupressiforme\",\"card_label\":\"Card 247\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Hypnaceae\",\"genus\":\"Hypnum\",\"species\":\"cupressiforme\",\"biomes\":[\"Forest\",\"Grassland\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Hypnum cupressiforme.png\",\"missing\":true}}",
+      "fileName": "card-247.png"
+    },
+    "organism-246": {
+      "signature": "{\"id\":\"organism-246\",\"common_name\":\"Silky Fork-moss\",\"scientific_name\":\"Dicranella heteromalla\",\"card_label\":\"Card 248\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Dicranales\",\"family\":\"Dicranellaceae\",\"genus\":\"Dicranella\",\"species\":\"heteromalla\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Dicranella heteromalla.png\",\"missing\":true}}",
+      "fileName": "card-248.png"
+    },
+    "organism-247": {
+      "signature": "{\"id\":\"organism-247\",\"common_name\":\"Greater Calcareous Moss\",\"scientific_name\":\"Calliergon giganteum\",\"card_label\":\"Card 249\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Calliergonaceae\",\"genus\":\"Calliergon\",\"species\":\"giganteum\",\"biomes\":[\"Wetland\",\"Freshwater\",\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-2,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Calliergon giganteum.png\",\"missing\":true}}",
+      "fileName": "card-249.png"
+    },
+    "organism-248": {
+      "signature": "{\"id\":\"organism-248\",\"common_name\":\"Silvery Thread Moss\",\"scientific_name\":\"Bryum argenteum\",\"card_label\":\"Card 250\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Bryales\",\"family\":\"Bryaceae\",\"genus\":\"Bryum\",\"species\":\"argenteum\",\"biomes\":[\"Desert\",\"Grassland\",\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Bryum argenteum.png\",\"missing\":true}}",
+      "fileName": "card-250.png"
+    },
+    "organism-249": {
+      "signature": "{\"id\":\"organism-249\",\"common_name\":\"Cord-moss\",\"scientific_name\":\"Funaria hygrometrica\",\"card_label\":\"Card 251\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Funariales\",\"family\":\"Funariaceae\",\"genus\":\"Funaria\",\"species\":\"hygrometrica\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Funaria hygrometrica.png\",\"missing\":true}}",
+      "fileName": "card-251.png"
+    },
+    "organism-250": {
+      "signature": "{\"id\":\"organism-250\",\"common_name\":\"Woolly Fringe-moss (tundra)\",\"scientific_name\":\"Tomentypnum nitens\",\"card_label\":\"Card 252\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Amblystegiaceae\",\"genus\":\"Tomentypnum\",\"species\":\"nitens\",\"biomes\":[\"Tundra\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-2,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Tomentypnum nitens.png\",\"missing\":true}}",
+      "fileName": "card-252.png"
+    },
+    "organism-251": {
+      "signature": "{\"id\":\"organism-251\",\"common_name\":\"Rough-stalked Feather-moss\",\"scientific_name\":\"Brachythecium rutabulum\",\"card_label\":\"Card 253\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Brachytheciaceae\",\"genus\":\"Brachythecium\",\"species\":\"rutabulum\",\"biomes\":[\"Forest\",\"Grassland\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Brachythecium rutabulum.png\",\"missing\":true}}",
+      "fileName": "card-253.png"
+    },
+    "organism-252": {
+      "signature": "{\"id\":\"organism-252\",\"common_name\":\"Dwarf Haircap Moss\",\"scientific_name\":\"Pogonatum urnigerum\",\"card_label\":\"Card 254\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Polytrichopsida\",\"order\":\"Polytrichales\",\"family\":\"Polytrichaceae\",\"genus\":\"Pogonatum\",\"species\":\"urnigerum\",\"biomes\":[\"Tundra\",\"Taiga\",\"Desert\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Pogonatum urnigerum.png\",\"missing\":true}}",
+      "fileName": "card-254.png"
+    },
+    "organism-253": {
+      "signature": "{\"id\":\"organism-253\",\"common_name\":\"Great Screw-moss\",\"scientific_name\":\"Syntrichia ruralis\",\"card_label\":\"Card 255\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Pottiales\",\"family\":\"Pottiaceae\",\"genus\":\"Syntrichia\",\"species\":\"ruralis\",\"biomes\":[\"Desert\",\"Grassland\",\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Syntrichia ruralis.png\",\"missing\":true}}",
+      "fileName": "card-255.png"
+    },
+    "organism-254": {
+      "signature": "{\"id\":\"organism-254\",\"common_name\":\"Taiga Nitrogen Moss\",\"scientific_name\":\"Pleurozium schreberi var. nfix\",\"card_label\":\"Card 256\",\"main_photo\":null,\"organism_type\":\"Plants\",\"kingdom\":\"Plantae\",\"phylum\":\"Bryophyta\",\"class\":\"Bryopsida\",\"order\":\"Hypnales\",\"family\":\"Hylocomiaceae\",\"genus\":\"Pleurozium\",\"species\":\"schreberi\",\"biomes\":[\"Taiga\",\"Forest\",\"Tundra\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Primary producers (autotrophs)\",\"role\":[\"producer\",\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":2,\"co2\":-2,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Pleurozium schreberi var. nfix.png\",\"missing\":true}}",
+      "fileName": "card-256.png"
+    },
+    "organism-255": {
+      "signature": "{\"id\":\"organism-255\",\"common_name\":\"Oldest Land Fungus\",\"scientific_name\":\"Tortotubus protuberans\",\"card_label\":\"Card 257\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Pezizomycotina\",\"order\":\"Incertae sedis\",\"family\":\"Incertae sedis\",\"genus\":\"Tortotubus\",\"species\":\"protuberans\",\"biomes\":[\"Desert\",\"Grassland\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Silurian\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Tortotubus protuberans.png\",\"missing\":true}}",
+      "fileName": "card-257.png"
+    },
+    "organism-256": {
+      "signature": "{\"id\":\"organism-256\",\"common_name\":\"Prototaxites\",\"scientific_name\":\"Prototaxites loganii\",\"card_label\":\"Card 258\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Incertae sedis\",\"family\":\"Prototaxitaceae\",\"genus\":\"Prototaxites\",\"species\":\"loganii\",\"biomes\":[\"Forest\",\"Floodplain\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Devonian\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Prototaxites loganii.png\",\"missing\":true}}",
+      "fileName": "card-258.png"
+    },
+    "organism-257": {
+      "signature": "{\"id\":\"organism-257\",\"common_name\":\"Devonian Mycorrhizal Fungus\",\"scientific_name\":\"Glomites rhyniensis\",\"card_label\":\"Card 259\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Mucoromycota\",\"class\":\"Glomeromycetes\",\"order\":\"Glomerales\",\"family\":\"Glomeraceae\",\"genus\":\"Glomites\",\"species\":\"rhyniensis\",\"biomes\":[\"Grassland\",\"Desert\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Devonian\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Glomites rhyniensis.png\",\"missing\":true}}",
+      "fileName": "card-259.png"
+    },
+    "organism-258": {
+      "signature": "{\"id\":\"organism-258\",\"common_name\":\"Carboniferous Bracket Fungus\",\"scientific_name\":\"Phellinites digiustoi\",\"card_label\":\"Card 260\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Polyporales\",\"family\":\"Polyporaceae\",\"genus\":\"Phellinites\",\"species\":\"digiustoi\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Carboniferous\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Phellinites digiustoi.png\",\"missing\":true}}",
+      "fileName": "card-260.png"
+    },
+    "organism-259": {
+      "signature": "{\"id\":\"organism-259\",\"common_name\":\"Carboniferous Wood-rot Fungus\",\"scientific_name\":\"Palaeosclerotium pusillum\",\"card_label\":\"Card 261\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Dothideomycetes\",\"order\":\"Incertae sedis\",\"family\":\"Incertae sedis\",\"genus\":\"Palaeosclerotium\",\"species\":\"pusillum\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Carboniferous\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Palaeosclerotium pusillum.png\",\"missing\":true}}",
+      "fileName": "card-261.png"
+    },
+    "organism-260": {
+      "signature": "{\"id\":\"organism-260\",\"common_name\":\"Permian Mycorrhizal Root Fungus\",\"scientific_name\":\"Endogonites permicus\",\"card_label\":\"Card 262\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Mucoromycota\",\"class\":\"Endogonomycetes\",\"order\":\"Endogonales\",\"family\":\"Endogonaceae\",\"genus\":\"Endogonites\",\"species\":\"permicus\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Permian\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Endogonites permicus.png\",\"missing\":true}}",
+      "fileName": "card-262.png"
+    },
+    "organism-261": {
+      "signature": "{\"id\":\"organism-261\",\"common_name\":\"Permian Soil Fungus\",\"scientific_name\":\"Reduviasporonites chalastus\",\"card_label\":\"Card 263\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Pezizomycetes\",\"order\":\"Pezizales\",\"family\":\"Incertae sedis\",\"genus\":\"Reduviasporonites\",\"species\":\"chalastus\",\"biomes\":[\"Desert\",\"Grassland\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Permian\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Reduviasporonites chalastus.png\",\"missing\":true}}",
+      "fileName": "card-263.png"
+    },
+    "organism-262": {
+      "signature": "{\"id\":\"organism-262\",\"common_name\":\"Triassic Bracket Fungus\",\"scientific_name\":\"Suillites velenovsky\",\"card_label\":\"Card 264\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Boletales\",\"family\":\"Suillaceae\",\"genus\":\"Suillites\",\"species\":\"velenovsky\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Triassic\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Suillites velenovsky.png\",\"missing\":true}}",
+      "fileName": "card-264.png"
+    },
+    "organism-263": {
+      "signature": "{\"id\":\"organism-263\",\"common_name\":\"Triassic Soil Saprotroph\",\"scientific_name\":\"Chytriomyces triassicus\",\"card_label\":\"Card 265\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Chytridiomycota\",\"class\":\"Chytridiomycetes\",\"order\":\"Chytridiales\",\"family\":\"Chytriomycetaceae\",\"genus\":\"Chytriomyces\",\"species\":\"triassicus\",\"biomes\":[\"Freshwater\",\"Wetland\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Triassic\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Chytriomyces triassicus.png\",\"missing\":true}}",
+      "fileName": "card-265.png"
+    },
+    "organism-264": {
+      "signature": "{\"id\":\"organism-264\",\"common_name\":\"Jurassic Wood-decay Fungus\",\"scientific_name\":\"Phellinites jurassicus\",\"card_label\":\"Card 266\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Polyporales\",\"family\":\"Phellinaceae\",\"genus\":\"Phellinites\",\"species\":\"jurassicus\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Phellinites jurassicus.png\",\"missing\":true}}",
+      "fileName": "card-266.png"
+    },
+    "organism-265": {
+      "signature": "{\"id\":\"organism-265\",\"common_name\":\"Jurassic Root Symbiont\",\"scientific_name\":\"Glomus mesozoicum\",\"card_label\":\"Card 267\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Mucoromycota\",\"class\":\"Glomeromycetes\",\"order\":\"Glomerales\",\"family\":\"Glomeraceae\",\"genus\":\"Glomus\",\"species\":\"mesozoicum\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Glomus mesozoicum.png\",\"missing\":true}}",
+      "fileName": "card-267.png"
+    },
+    "organism-266": {
+      "signature": "{\"id\":\"organism-266\",\"common_name\":\"Jurassic Truffle-like Fungus\",\"scientific_name\":\"Paleogaster plumosa\",\"card_label\":\"Card 268\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Boletales\",\"family\":\"Sclerodermataceae\",\"genus\":\"Paleogaster\",\"species\":\"plumosa\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Paleogaster plumosa.png\",\"missing\":true}}",
+      "fileName": "card-268.png"
+    },
+    "organism-267": {
+      "signature": "{\"id\":\"organism-267\",\"common_name\":\"Cretaceous Amber Mushroom\",\"scientific_name\":\"Archaeomarasmius leggetti\",\"card_label\":\"Card 269\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Marasmiaceae\",\"genus\":\"Archaeomarasmius\",\"species\":\"leggetti\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Archaeomarasmius leggetti.png\",\"missing\":true}}",
+      "fileName": "card-269.png"
+    },
+    "organism-268": {
+      "signature": "{\"id\":\"organism-268\",\"common_name\":\"Gondwana Fossil Mushroom\",\"scientific_name\":\"Gondwanagaricites magnificus\",\"card_label\":\"Card 270\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Incertae sedis\",\"genus\":\"Gondwanagaricites\",\"species\":\"magnificus\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Gondwanagaricites magnificus.png\",\"missing\":true}}",
+      "fileName": "card-270.png"
+    },
+    "organism-269": {
+      "signature": "{\"id\":\"organism-269\",\"common_name\":\"Cretaceous Ectomycorrhizal Fungus\",\"scientific_name\":\"Mycorrhizaphytes cretacea\",\"card_label\":\"Card 271\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Incertae sedis\",\"genus\":\"Mycorrhizaphytes\",\"species\":\"cretacea\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Mycorrhizaphytes cretacea.png\",\"missing\":true}}",
+      "fileName": "card-271.png"
+    },
+    "organism-270": {
+      "signature": "{\"id\":\"organism-270\",\"common_name\":\"Chaga Mushroom\",\"scientific_name\":\"Inonotus obliquus\",\"card_label\":\"Card 272\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Hymenochaetales\",\"family\":\"Hymenochaetaceae\",\"genus\":\"Inonotus\",\"species\":\"obliquus\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Inonotus obliquus.png\",\"missing\":true}}",
+      "fileName": "card-272.png"
+    },
+    "organism-271": {
+      "signature": "{\"id\":\"organism-271\",\"common_name\":\"Reishi Mushroom\",\"scientific_name\":\"Ganoderma lucidum\",\"card_label\":\"Card 273\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Polyporales\",\"family\":\"Ganodermataceae\",\"genus\":\"Ganoderma\",\"species\":\"lucidum\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Ganoderma lucidum.png\",\"missing\":true}}",
+      "fileName": "card-273.png"
+    },
+    "organism-272": {
+      "signature": "{\"id\":\"organism-272\",\"common_name\":\"Black Truffle\",\"scientific_name\":\"Tuber melanosporum\",\"card_label\":\"Card 274\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Pezizomycetes\",\"order\":\"Pezizales\",\"family\":\"Tuberaceae\",\"genus\":\"Tuber\",\"species\":\"melanosporum\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Tuber melanosporum.png\",\"missing\":true}}",
+      "fileName": "card-274.png"
+    },
+    "organism-273": {
+      "signature": "{\"id\":\"organism-273\",\"common_name\":\"Arbuscular Mycorrhizal Fungus\",\"scientific_name\":\"Rhizophagus irregularis\",\"card_label\":\"Card 275\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Mucoromycota\",\"class\":\"Glomeromycetes\",\"order\":\"Glomerales\",\"family\":\"Glomeraceae\",\"genus\":\"Rhizophagus\",\"species\":\"irregularis\",\"biomes\":[\"Grassland\",\"Forest\",\"Desert\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":4},\"main_photo_asset\":{\"file\":\"Rhizophagus irregularis.png\",\"missing\":true}}",
+      "fileName": "card-275.png"
+    },
+    "organism-274": {
+      "signature": "{\"id\":\"organism-274\",\"common_name\":\"Turkey Tail\",\"scientific_name\":\"Trametes versicolor\",\"card_label\":\"Card 276\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Polyporales\",\"family\":\"Polyporaceae\",\"genus\":\"Trametes\",\"species\":\"versicolor\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Trametes versicolor.png\",\"missing\":true}}",
+      "fileName": "card-276.png"
+    },
+    "organism-275": {
+      "signature": "{\"id\":\"organism-275\",\"common_name\":\"Fly Agaric\",\"scientific_name\":\"Amanita muscaria\",\"card_label\":\"Card 277\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Amanitaceae\",\"genus\":\"Amanita\",\"species\":\"muscaria\",\"biomes\":[\"Taiga\",\"Forest\",\"Tundra\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Amanita muscaria.png\",\"missing\":true}}",
+      "fileName": "card-277.png"
+    },
+    "organism-276": {
+      "signature": "{\"id\":\"organism-276\",\"common_name\":\"Porcini Mushroom\",\"scientific_name\":\"Boletus edulis\",\"card_label\":\"Card 278\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Boletales\",\"family\":\"Boletaceae\",\"genus\":\"Boletus\",\"species\":\"edulis\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Boletus edulis.png\",\"missing\":true}}",
+      "fileName": "card-278.png"
+    },
+    "organism-277": {
+      "signature": "{\"id\":\"organism-277\",\"common_name\":\"Honey Fungus\",\"scientific_name\":\"Armillaria mellea\",\"card_label\":\"Card 279\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Physalacriaceae\",\"genus\":\"Armillaria\",\"species\":\"mellea\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Armillaria mellea.png\",\"missing\":true}}",
+      "fileName": "card-279.png"
+    },
+    "organism-278": {
+      "signature": "{\"id\":\"organism-278\",\"common_name\":\"Lion's Mane Mushroom\",\"scientific_name\":\"Hericium erinaceus\",\"card_label\":\"Card 280\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Russulales\",\"family\":\"Hericiaceae\",\"genus\":\"Hericium\",\"species\":\"erinaceus\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Hericium erinaceus.png\",\"missing\":true}}",
+      "fileName": "card-280.png"
+    },
+    "organism-279": {
+      "signature": "{\"id\":\"organism-279\",\"common_name\":\"Death Cap\",\"scientific_name\":\"Amanita phalloides\",\"card_label\":\"Card 281\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Amanitaceae\",\"genus\":\"Amanita\",\"species\":\"phalloides\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Amanita phalloides.png\",\"missing\":true}}",
+      "fileName": "card-281.png"
+    },
+    "organism-280": {
+      "signature": "{\"id\":\"organism-280\",\"common_name\":\"Matsutake Mushroom\",\"scientific_name\":\"Tricholoma matsutake\",\"card_label\":\"Card 282\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Tricholomataceae\",\"genus\":\"Tricholoma\",\"species\":\"matsutake\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Tricholoma matsutake.png\",\"missing\":true}}",
+      "fileName": "card-282.png"
+    },
+    "organism-281": {
+      "signature": "{\"id\":\"organism-281\",\"common_name\":\"Morel Mushroom\",\"scientific_name\":\"Morchella esculenta\",\"card_label\":\"Card 283\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Pezizomycetes\",\"order\":\"Pezizales\",\"family\":\"Morchellaceae\",\"genus\":\"Morchella\",\"species\":\"esculenta\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Morchella esculenta.png\",\"missing\":true}}",
+      "fileName": "card-283.png"
+    },
+    "organism-282": {
+      "signature": "{\"id\":\"organism-282\",\"common_name\":\"Suillus Slippery Jack\",\"scientific_name\":\"Suillus luteus\",\"card_label\":\"Card 284\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Boletales\",\"family\":\"Suillaceae\",\"genus\":\"Suillus\",\"species\":\"luteus\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Suillus luteus.png\",\"missing\":true}}",
+      "fileName": "card-284.png"
+    },
+    "organism-283": {
+      "signature": "{\"id\":\"organism-283\",\"common_name\":\"Chanterelle\",\"scientific_name\":\"Cantharellus cibarius\",\"card_label\":\"Card 285\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Cantharellales\",\"family\":\"Cantharellaceae\",\"genus\":\"Cantharellus\",\"species\":\"cibarius\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Cretaceous\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Cantharellus cibarius.png\",\"missing\":true}}",
+      "fileName": "card-285.png"
+    },
+    "organism-284": {
+      "signature": "{\"id\":\"organism-284\",\"common_name\":\"Oyster Mushroom\",\"scientific_name\":\"Pleurotus ostreatus\",\"card_label\":\"Card 286\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Pleurotaceae\",\"genus\":\"Pleurotus\",\"species\":\"ostreatus\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Pleurotus ostreatus.png\",\"missing\":true}}",
+      "fileName": "card-286.png"
+    },
+    "organism-285": {
+      "signature": "{\"id\":\"organism-285\",\"common_name\":\"Giant Puffball\",\"scientific_name\":\"Calvatia gigantea\",\"card_label\":\"Card 287\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Agaricaceae\",\"genus\":\"Calvatia\",\"species\":\"gigantea\",\"biomes\":[\"Grassland\",\"Floodplain\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Calvatia gigantea.png\",\"missing\":true}}",
+      "fileName": "card-287.png"
+    },
+    "organism-286": {
+      "signature": "{\"id\":\"organism-286\",\"common_name\":\"Shaggy Mane\",\"scientific_name\":\"Coprinus comatus\",\"card_label\":\"Card 288\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Agaricaceae\",\"genus\":\"Coprinus\",\"species\":\"comatus\",\"biomes\":[\"Grassland\",\"Desert\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Coprinus comatus.png\",\"missing\":true}}",
+      "fileName": "card-288.png"
+    },
+    "organism-287": {
+      "signature": "{\"id\":\"organism-287\",\"common_name\":\"Fairy Ring Mushroom\",\"scientific_name\":\"Marasmius oreades\",\"card_label\":\"Card 289\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Marasmiaceae\",\"genus\":\"Marasmius\",\"species\":\"oreades\",\"biomes\":[\"Grassland\",\"Desert\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Marasmius oreades.png\",\"missing\":true}}",
+      "fileName": "card-289.png"
+    },
+    "organism-288": {
+      "signature": "{\"id\":\"organism-288\",\"common_name\":\"Velvet Shank\",\"scientific_name\":\"Flammulina velutipes\",\"card_label\":\"Card 290\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Agaricales\",\"family\":\"Physalacriaceae\",\"genus\":\"Flammulina\",\"species\":\"velutipes\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Flammulina velutipes.png\",\"missing\":true}}",
+      "fileName": "card-290.png"
+    },
+    "organism-289": {
+      "signature": "{\"id\":\"organism-289\",\"common_name\":\"Wood Ear Fungus\",\"scientific_name\":\"Auricularia auricula-judae\",\"card_label\":\"Card 291\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Auriculariales\",\"family\":\"Auriculariaceae\",\"genus\":\"Auricularia\",\"species\":\"auricula-judae\",\"biomes\":[\"Forest\",\"Wetland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Neogene\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Auricularia auricula-judae.png\",\"missing\":true}}",
+      "fileName": "card-291.png"
+    },
+    "organism-290": {
+      "signature": "{\"id\":\"organism-290\",\"common_name\":\"Green Mould (Penicillin)\",\"scientific_name\":\"Penicillium chrysogenum\",\"card_label\":\"Card 292\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Eurotiomycetes\",\"order\":\"Eurotiales\",\"family\":\"Aspergillaceae\",\"genus\":\"Penicillium\",\"species\":\"chrysogenum\",\"biomes\":[\"Desert\",\"Grassland\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Penicillium chrysogenum.png\",\"missing\":true}}",
+      "fileName": "card-292.png"
+    },
+    "organism-291": {
+      "signature": "{\"id\":\"organism-291\",\"common_name\":\"Black Mould\",\"scientific_name\":\"Aspergillus niger\",\"card_label\":\"Card 293\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Eurotiomycetes\",\"order\":\"Eurotiales\",\"family\":\"Aspergillaceae\",\"genus\":\"Aspergillus\",\"species\":\"niger\",\"biomes\":[\"Desert\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Aspergillus niger.png\",\"missing\":true}}",
+      "fileName": "card-293.png"
+    },
+    "organism-292": {
+      "signature": "{\"id\":\"organism-292\",\"common_name\":\"Pisoni Earth-ball\",\"scientific_name\":\"Pisolithus tinctorius\",\"card_label\":\"Card 294\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Boletales\",\"family\":\"Sclerodermataceae\",\"genus\":\"Pisolithus\",\"species\":\"tinctorius\",\"biomes\":[\"Desert\",\"Grassland\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Pisolithus tinctorius.png\",\"missing\":true}}",
+      "fileName": "card-294.png"
+    },
+    "organism-293": {
+      "signature": "{\"id\":\"organism-293\",\"common_name\":\"Common Earthball\",\"scientific_name\":\"Scleroderma citrinum\",\"card_label\":\"Card 295\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Boletales\",\"family\":\"Sclerodermataceae\",\"genus\":\"Scleroderma\",\"species\":\"citrinum\",\"biomes\":[\"Forest\",\"Grassland\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Scleroderma citrinum.png\",\"missing\":true}}",
+      "fileName": "card-295.png"
+    },
+    "organism-294": {
+      "signature": "{\"id\":\"organism-294\",\"common_name\":\"Trichoderma Green Mould\",\"scientific_name\":\"Trichoderma viride\",\"card_label\":\"Card 296\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Sordariomycetes\",\"order\":\"Hypocreales\",\"family\":\"Hypocreaceae\",\"genus\":\"Trichoderma\",\"species\":\"viride\",\"biomes\":[\"Forest\",\"Wetland\",\"Freshwater\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Quaternary\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Trichoderma viride.png\",\"missing\":true}}",
+      "fileName": "card-296.png"
+    },
+    "organism-295": {
+      "signature": "{\"id\":\"organism-295\",\"common_name\":\"Lactarius Saffron Milkcap\",\"scientific_name\":\"Lactarius deliciosus\",\"card_label\":\"Card 297\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Russulales\",\"family\":\"Russulaceae\",\"genus\":\"Lactarius\",\"species\":\"deliciosus\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Lactarius deliciosus.png\",\"missing\":true}}",
+      "fileName": "card-297.png"
+    },
+    "organism-296": {
+      "signature": "{\"id\":\"organism-296\",\"common_name\":\"Emetic Russula\",\"scientific_name\":\"Russula emetica\",\"card_label\":\"Card 298\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Russulales\",\"family\":\"Russulaceae\",\"genus\":\"Russula\",\"species\":\"emetica\",\"biomes\":[\"Taiga\",\"Forest\"],\"eras\":[\"Cenozoic\"],\"periods\":[\"Paleogene\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Russula emetica.png\",\"missing\":true}}",
+      "fileName": "card-298.png"
+    },
+    "organism-297": {
+      "signature": "{\"id\":\"organism-297\",\"common_name\":\"Ourasphaira (Oldest Fungal Fossil)\",\"scientific_name\":\"Ourasphaira giraldae\",\"card_label\":\"Card 299\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Chytridiomycota\",\"class\":\"Chytridiomycetes\",\"order\":\"Chytridiales\",\"family\":\"Incertae sedis\",\"genus\":\"Ourasphaira\",\"species\":\"giraldae\",\"biomes\":[\"Marine\",\"Freshwater\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Neoproterozoic\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Ourasphaira giraldae.png\",\"missing\":true}}",
+      "fileName": "card-299.png"
+    },
+    "organism-298": {
+      "signature": "{\"id\":\"organism-298\",\"common_name\":\"Neoproterozoic Hyphal Network\",\"scientific_name\":\"Tappania plana\",\"card_label\":\"Card 300\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Incertae sedis\",\"order\":\"Incertae sedis\",\"family\":\"Incertae sedis\",\"genus\":\"Tappania\",\"species\":\"plana\",\"biomes\":[\"Marine\",\"Freshwater\"],\"eras\":[\"Precambrian\"],\"periods\":[\"Neoproterozoic\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Tappania plana.png\",\"missing\":true}}",
+      "fileName": "card-300.png"
+    },
+    "organism-299": {
+      "signature": "{\"id\":\"organism-299\",\"common_name\":\"Cambrian Marine Chytrid\",\"scientific_name\":\"Palaeomyces gordonii\",\"card_label\":\"Card 301\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Chytridiomycota\",\"class\":\"Chytridiomycetes\",\"order\":\"Chytridiales\",\"family\":\"Chytriomycetaceae\",\"genus\":\"Palaeomyces\",\"species\":\"gordonii\",\"biomes\":[\"Marine\",\"Freshwater\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Cambrian\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Palaeomyces gordonii.png\",\"missing\":true}}",
+      "fileName": "card-301.png"
+    },
+    "organism-300": {
+      "signature": "{\"id\":\"organism-300\",\"common_name\":\"Cambrian Parasitic Chytrid\",\"scientific_name\":\"Fungal spore cf. Burgess\",\"card_label\":\"Card 302\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Chytridiomycota\",\"class\":\"Chytridiomycetes\",\"order\":\"Chytridiales\",\"family\":\"Incertae sedis\",\"genus\":\"Incertae sedis\",\"species\":\"sp.\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Cambrian\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\",\"parasite\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Fungal spore cf. Burgess.png\",\"missing\":true}}",
+      "fileName": "card-302.png"
+    },
+    "organism-301": {
+      "signature": "{\"id\":\"organism-301\",\"common_name\":\"Palaeoglomus (Ordovician AMF)\",\"scientific_name\":\"Palaeoglomus grayi\",\"card_label\":\"Card 303\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Mucoromycota\",\"class\":\"Glomeromycetes\",\"order\":\"Glomerales\",\"family\":\"Glomeraceae\",\"genus\":\"Palaeoglomus\",\"species\":\"grayi\",\"biomes\":[\"Grassland\",\"Desert\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Ordovician\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Palaeoglomus grayi.png\",\"missing\":true}}",
+      "fileName": "card-303.png"
+    },
+    "organism-302": {
+      "signature": "{\"id\":\"organism-302\",\"common_name\":\"Early Land Arbuscular Mycorrhiza\",\"scientific_name\":\"Glomites ordovicianus\",\"card_label\":\"Card 304\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Mucoromycota\",\"class\":\"Glomeromycetes\",\"order\":\"Glomerales\",\"family\":\"Glomeraceae\",\"genus\":\"Glomites\",\"species\":\"ordovicianus\",\"biomes\":[\"Grassland\",\"Freshwater\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Ordovician\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Glomites ordovicianus.png\",\"missing\":true}}",
+      "fileName": "card-304.png"
+    },
+    "organism-303": {
+      "signature": "{\"id\":\"organism-303\",\"common_name\":\"Silurian Lichen Precursor Fungus\",\"scientific_name\":\"Spongiophyton minutissimum\",\"card_label\":\"Card 305\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Ascomycota\",\"class\":\"Eurotiomycetes\",\"order\":\"Incertae sedis\",\"family\":\"Incertae sedis\",\"genus\":\"Spongiophyton\",\"species\":\"minutissimum\",\"biomes\":[\"Desert\",\"Grassland\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Silurian\"],\"trophic_level\":\"Decomposers (saprotrophs)\",\"role\":[\"decomposer\",\"ecosystem_engineer\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":1,\"biodiversity\":2},\"main_photo_asset\":{\"file\":\"Spongiophyton minutissimum.png\",\"missing\":true}}",
+      "fileName": "card-305.png"
+    },
+    "organism-304": {
+      "signature": "{\"id\":\"organism-304\",\"common_name\":\"Jurassic Bolete (ancestor)\",\"scientific_name\":\"Paxillus jurassicus\",\"card_label\":\"Card 306\",\"main_photo\":null,\"organism_type\":\"Fungi\",\"kingdom\":\"Fungi\",\"phylum\":\"Basidiomycota\",\"class\":\"Agaricomycetes\",\"order\":\"Boletales\",\"family\":\"Paxillaceae\",\"genus\":\"Paxillus\",\"species\":\"jurassicus\",\"biomes\":[\"Forest\",\"Taiga\"],\"eras\":[\"Mesozoic\"],\"periods\":[\"Jurassic\"],\"trophic_level\":\"Mutualists (mycorrhizal)\",\"role\":[\"mutualist\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":1,\"co2\":-1,\"biodiversity\":3},\"main_photo_asset\":{\"file\":\"Paxillus jurassicus.png\",\"missing\":true}}",
+      "fileName": "card-306.png"
     }
   }
 }

@@ -6666,6 +6666,4730 @@
       "role": [
         "herbivore"
       ]
+    },
+    {
+      "card_label": "Card 173",
+      "common_name": "Iceland Moss",
+      "scientific_name": "Cetraria islandica",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Cetraria",
+      "species": "islandica",
+      "biomes": [
+        "Tundra",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 174",
+      "common_name": "Star-tipped Reindeer Lichen",
+      "scientific_name": "Cladonia stellaris",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Cladoniaceae",
+      "genus": "Cladonia",
+      "species": "stellaris",
+      "biomes": [
+        "Tundra",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 175",
+      "common_name": "Coral Lichen",
+      "scientific_name": "Cladonia portentosa",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Cladoniaceae",
+      "genus": "Cladonia",
+      "species": "portentosa",
+      "biomes": [
+        "Tundra",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 176",
+      "common_name": "Crottle Lichen",
+      "scientific_name": "Ochrolechia tartarea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Pertusariales",
+      "family": "Ochrolechiaceae",
+      "genus": "Ochrolechia",
+      "species": "tartarea",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 177",
+      "common_name": "Map Lichen",
+      "scientific_name": "Rhizocarpon geographicum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Rhizocarpales",
+      "family": "Rhizocarpaceae",
+      "genus": "Rhizocarpon",
+      "species": "geographicum",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 178",
+      "common_name": "Orange Chocolate Chip Lichen",
+      "scientific_name": "Solorina crocea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Peltigeraceae",
+      "genus": "Solorina",
+      "species": "crocea",
+      "biomes": [
+        "Tundra",
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 179",
+      "common_name": "Rock Tripe",
+      "scientific_name": "Umbilicaria mammulata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Umbilicariales",
+      "family": "Umbilicariaceae",
+      "genus": "Umbilicaria",
+      "species": "mammulata",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 180",
+      "common_name": "Old Man's Beard",
+      "scientific_name": "Usnea barbata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Usnea",
+      "species": "barbata",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 181",
+      "common_name": "Witch's Hair Lichen",
+      "scientific_name": "Alectoria sarmentosa",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Alectoria",
+      "species": "sarmentosa",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 182",
+      "common_name": "Monk's Hood Lichen",
+      "scientific_name": "Hypogymnia physodes",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Hypogymnia",
+      "species": "physodes",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 183",
+      "common_name": "Wolf Lichen",
+      "scientific_name": "Letharia vulpina",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Letharia",
+      "species": "vulpina",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 184",
+      "common_name": "Oakmoss",
+      "scientific_name": "Evernia prunastri",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Evernia",
+      "species": "prunastri",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 185",
+      "common_name": "Treemoss Lichen",
+      "scientific_name": "Pseudevernia furfuracea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Pseudevernia",
+      "species": "furfuracea",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 186",
+      "common_name": "Lava Lichen",
+      "scientific_name": "Stereocaulon vesuvianum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Stereocaulaceae",
+      "genus": "Stereocaulon",
+      "species": "vesuvianum",
+      "biomes": [
+        "Tundra",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 187",
+      "common_name": "Lungwort Lichen",
+      "scientific_name": "Lobaria pulmonaria",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Lobaria",
+      "species": "pulmonaria",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 188",
+      "common_name": "Hammered Shield Lichen",
+      "scientific_name": "Parmelia sulcata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Parmelia",
+      "species": "sulcata",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 189",
+      "common_name": "Dog Lichen",
+      "scientific_name": "Peltigera canina",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Peltigeraceae",
+      "genus": "Peltigera",
+      "species": "canina",
+      "biomes": [
+        "Forest",
+        "Grassland",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 190",
+      "common_name": "Horizontal Felt Lichen",
+      "scientific_name": "Peltigera horizontalis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Peltigeraceae",
+      "genus": "Peltigera",
+      "species": "horizontalis",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 191",
+      "common_name": "Oregon Lungwort",
+      "scientific_name": "Lobaria oregana",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Lobaria",
+      "species": "oregana",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 192",
+      "common_name": "Forest Sticta",
+      "scientific_name": "Sticta sylvatica",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Sticta",
+      "species": "sylvatica",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 193",
+      "common_name": "Bitter Wart Lichen",
+      "scientific_name": "Pertusaria amara",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Pertusariales",
+      "family": "Pertusariaceae",
+      "genus": "Pertusaria",
+      "species": "amara",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 194",
+      "common_name": "Golden Eye Lichen",
+      "scientific_name": "Teloschistes chrysophthalmus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Teloschistales",
+      "family": "Teloschistaceae",
+      "genus": "Teloschistes",
+      "species": "chrysophthalmus",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 195",
+      "common_name": "Powdery Camouflage Lichen",
+      "scientific_name": "Xanthoparmelia conspersa",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Parmeliaceae",
+      "genus": "Xanthoparmelia",
+      "species": "conspersa",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 196",
+      "common_name": "Desert Crust Lichen",
+      "scientific_name": "Aspicilia desertorum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Megasporaceae",
+      "genus": "Aspicilia",
+      "species": "desertorum",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 197",
+      "common_name": "Brown Crust Lichen",
+      "scientific_name": "Acarospora fuscata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Acarosporales",
+      "family": "Acarosporaceae",
+      "genus": "Acarospora",
+      "species": "fuscata",
+      "biomes": [
+        "Desert",
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 198",
+      "common_name": "Wall Crust Lichen",
+      "scientific_name": "Diplotomma chlorophaeum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Caliciales",
+      "family": "Caliciaceae",
+      "genus": "Diplotomma",
+      "species": "chlorophaeum",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 199",
+      "common_name": "Wall Rim Lichen",
+      "scientific_name": "Lecanora muralis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Lecanoraceae",
+      "genus": "Lecanora",
+      "species": "muralis",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 200",
+      "common_name": "Sea Orange Lichen",
+      "scientific_name": "Caloplaca marina",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Teloschistales",
+      "family": "Teloschistaceae",
+      "genus": "Caloplaca",
+      "species": "marina",
+      "biomes": [
+        "Marine",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 201",
+      "common_name": "Sea-shore Verrucaria",
+      "scientific_name": "Verrucaria maura",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Verrucariales",
+      "family": "Verrucariaceae",
+      "genus": "Verrucaria",
+      "species": "maura",
+      "biomes": [
+        "Marine",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 202",
+      "common_name": "River Rim Lichen",
+      "scientific_name": "Dermatocarpon miniatum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Verrucariales",
+      "family": "Verrucariaceae",
+      "genus": "Dermatocarpon",
+      "species": "miniatum",
+      "biomes": [
+        "Freshwater",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 203",
+      "common_name": "Aquatic Verrucaria",
+      "scientific_name": "Verrucaria aquatilis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Verrucariales",
+      "family": "Verrucariaceae",
+      "genus": "Verrucaria",
+      "species": "aquatilis",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 204",
+      "common_name": "Mountain Stream Lichen",
+      "scientific_name": "Hydrothyria venosa",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Hydrothyria",
+      "species": "venosa",
+      "biomes": [
+        "Freshwater",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 205",
+      "common_name": "Yellow Wall Lichen",
+      "scientific_name": "Xanthoria parietina",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Teloschistales",
+      "family": "Teloschistaceae",
+      "genus": "Xanthoria",
+      "species": "parietina",
+      "biomes": [
+        "Grassland",
+        "Floodplain"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 206",
+      "common_name": "Helmet Lichen",
+      "scientific_name": "Physcia adscendens",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Caliciales",
+      "family": "Physciaceae",
+      "genus": "Physcia",
+      "species": "adscendens",
+      "biomes": [
+        "Grassland",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 207",
+      "common_name": "Farinose Cartilage Lichen",
+      "scientific_name": "Ramalina farinacea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Ramalinaceae",
+      "genus": "Ramalina",
+      "species": "farinacea",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 208",
+      "common_name": "Jelly Lichen",
+      "scientific_name": "Collema crispum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Collemataceae",
+      "genus": "Collema",
+      "species": "crispum",
+      "biomes": [
+        "Wetland",
+        "Floodplain"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 209",
+      "common_name": "Alternate Dog Lichen",
+      "scientific_name": "Peltigera didactyla",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Peltigeraceae",
+      "genus": "Peltigera",
+      "species": "didactyla",
+      "biomes": [
+        "Floodplain",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 210",
+      "common_name": "Slender Cladonia",
+      "scientific_name": "Cladonia gracilis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Cladoniaceae",
+      "genus": "Cladonia",
+      "species": "gracilis",
+      "biomes": [
+        "Wetland",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 211",
+      "common_name": "Crottle Powder Lichen",
+      "scientific_name": "Pseudocyphellaria crocata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Pseudocyphellaria",
+      "species": "crocata",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 212",
+      "common_name": "Silurian Fossil Lichen",
+      "scientific_name": "Winfrenatia reticulata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Winfrenatia",
+      "species": "reticulata",
+      "biomes": [
+        "Desert",
+        "Tundra"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 213",
+      "common_name": "Devonian Lichen Thallus",
+      "scientific_name": "Spongiophyton australe",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Spongiophyton",
+      "species": "australe",
+      "biomes": [
+        "Desert",
+        "Floodplain"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 214",
+      "common_name": "Devonian Rock Crust",
+      "scientific_name": "Nematothallus taeniata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Nematothallus",
+      "species": "taeniata",
+      "biomes": [
+        "Floodplain",
+        "Desert"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 215",
+      "common_name": "Cretaceous Amber Lichen",
+      "scientific_name": "Honeggeria congregata",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Incertae sedis",
+      "genus": "Honeggeria",
+      "species": "congregata",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 216",
+      "common_name": "Red-capped Pixie Cup",
+      "scientific_name": "Cladonia cristatella",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Lecanorales",
+      "family": "Cladoniaceae",
+      "genus": "Cladonia",
+      "species": "cristatella",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 217",
+      "common_name": "Ancient Moss (fossil)",
+      "scientific_name": "Muscites polytrichaceus",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Tetraphidales",
+      "family": "Tetraphidaceae",
+      "genus": "Muscites",
+      "species": "polytrichaceus",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 218",
+      "common_name": "Devonian Liverwort-like Moss",
+      "scientific_name": "Pallaviciniites devonicus",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Pallaviciniales",
+      "family": "Pallaviciniaceae",
+      "genus": "Pallaviciniites",
+      "species": "devonicus",
+      "biomes": [
+        "Freshwater",
+        "Floodplain"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 219",
+      "common_name": "Coal-swamp Moss",
+      "scientific_name": "Muscites bertrandi",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Dicranales",
+      "family": "Dicranaceae",
+      "genus": "Muscites",
+      "species": "bertrandi",
+      "biomes": [
+        "Wetland",
+        "Forest"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 220",
+      "common_name": "Carboniferous Peat Moss",
+      "scientific_name": "Sphagnophyllites carbonicus",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Sphagnopsida",
+      "order": "Sphagnales",
+      "family": "Sphagnaceae",
+      "genus": "Sphagnophyllites",
+      "species": "carbonicus",
+      "biomes": [
+        "Wetland",
+        "Floodplain"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -3,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 221",
+      "common_name": "Permian Rock Moss",
+      "scientific_name": "Intia verchojanensis",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Grimmiales",
+      "family": "Grimmiaceae",
+      "genus": "Intia",
+      "species": "verchojanensis",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 222",
+      "common_name": "Permian Forest Moss",
+      "scientific_name": "Merceria augustica",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Brachytheciaceae",
+      "genus": "Merceria",
+      "species": "augustica",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 223",
+      "common_name": "Triassic Wetland Moss",
+      "scientific_name": "Voronovia bocschii",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Bryales",
+      "family": "Bryaceae",
+      "genus": "Voronovia",
+      "species": "bocschii",
+      "biomes": [
+        "Wetland",
+        "Freshwater"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 224",
+      "common_name": "Triassic Ground Moss",
+      "scientific_name": "Lunularia triassica",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Lunulariales",
+      "family": "Lunulariaceae",
+      "genus": "Lunularia",
+      "species": "triassica",
+      "biomes": [
+        "Forest",
+        "Floodplain"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 225",
+      "common_name": "Jurassic Feather Moss",
+      "scientific_name": "Palaeohypnum jurassicum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Hypnaceae",
+      "genus": "Palaeohypnum",
+      "species": "jurassicum",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 226",
+      "common_name": "Jurassic Peat Moss",
+      "scientific_name": "Sphagnum antiquum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Sphagnopsida",
+      "order": "Sphagnales",
+      "family": "Sphagnaceae",
+      "genus": "Sphagnum",
+      "species": "antiquum",
+      "biomes": [
+        "Wetland",
+        "Tundra"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -3,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 227",
+      "common_name": "Jurassic Water Moss",
+      "scientific_name": "Fontinalis mesozoica",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Fontinalaceae",
+      "genus": "Fontinalis",
+      "species": "mesozoica",
+      "biomes": [
+        "Freshwater",
+        "Floodplain"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 228",
+      "common_name": "Cretaceous Forest Moss",
+      "scientific_name": "Bryites cretaceus",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Bryales",
+      "family": "Bryaceae",
+      "genus": "Bryites",
+      "species": "cretaceus",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 229",
+      "common_name": "Amber-preserved Moss",
+      "scientific_name": "Eopolytrichum antiquum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Polytrichopsida",
+      "order": "Polytrichales",
+      "family": "Polytrichaceae",
+      "genus": "Eopolytrichum",
+      "species": "antiquum",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 230",
+      "common_name": "Cretaceous Sphagnum",
+      "scientific_name": "Sphagnum cretaceum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Sphagnopsida",
+      "order": "Sphagnales",
+      "family": "Sphagnaceae",
+      "genus": "Sphagnum",
+      "species": "cretaceum",
+      "biomes": [
+        "Wetland",
+        "Freshwater"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -3,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 232",
+      "common_name": "Swan-neck Thyme Moss",
+      "scientific_name": "Mnium hornum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Bryales",
+      "family": "Mniaceae",
+      "genus": "Mnium",
+      "species": "hornum",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 233",
+      "common_name": "Tamarisk Moss",
+      "scientific_name": "Thuidium tamariscinum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Thuidiaceae",
+      "genus": "Thuidium",
+      "species": "tamariscinum",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 234",
+      "common_name": "Feather Moss",
+      "scientific_name": "Pleurozium schreberi",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Hylocomiaceae",
+      "genus": "Pleurozium",
+      "species": "schreberi",
+      "biomes": [
+        "Taiga",
+        "Forest",
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 235",
+      "common_name": "Stair-step Moss",
+      "scientific_name": "Hylocomium splendens",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Hylocomiaceae",
+      "genus": "Hylocomium",
+      "species": "splendens",
+      "biomes": [
+        "Taiga",
+        "Tundra",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 236",
+      "common_name": "Broom Fork-moss",
+      "scientific_name": "Dicranum scoparium",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Dicranales",
+      "family": "Dicranaceae",
+      "genus": "Dicranum",
+      "species": "scoparium",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 237",
+      "common_name": "Woolly Fringe-moss",
+      "scientific_name": "Racomitrium lanuginosum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Grimmiales",
+      "family": "Grimmiaceae",
+      "genus": "Racomitrium",
+      "species": "lanuginosum",
+      "biomes": [
+        "Tundra",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 238",
+      "common_name": "Water Moss",
+      "scientific_name": "Fontinalis antipyretica",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Fontinalaceae",
+      "genus": "Fontinalis",
+      "species": "antipyretica",
+      "biomes": [
+        "Freshwater",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 239",
+      "common_name": "White Cushion-moss",
+      "scientific_name": "Leucobryum glaucum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Dicranales",
+      "family": "Leucobryaceae",
+      "genus": "Leucobryum",
+      "species": "glaucum",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 240",
+      "common_name": "Wall Screw-moss",
+      "scientific_name": "Tortula muralis",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Pottiales",
+      "family": "Pottiaceae",
+      "genus": "Tortula",
+      "species": "muralis",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 241",
+      "common_name": "Marsh Moss",
+      "scientific_name": "Aulacomnium palustre",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Bryales",
+      "family": "Aulacomniaceae",
+      "genus": "Aulacomnium",
+      "species": "palustre",
+      "biomes": [
+        "Wetland",
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 242",
+      "common_name": "Feather-plume Moss",
+      "scientific_name": "Ptilium crista-castrensis",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Ptiliaceae",
+      "genus": "Ptilium",
+      "species": "crista-castrensis",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 243",
+      "common_name": "Floating Hook-moss",
+      "scientific_name": "Warnstorfia fluitans",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Amblystegiaceae",
+      "genus": "Warnstorfia",
+      "species": "fluitans",
+      "biomes": [
+        "Freshwater",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 244",
+      "common_name": "Peat Moss",
+      "scientific_name": "Sphagnum magellanicum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Sphagnopsida",
+      "order": "Sphagnales",
+      "family": "Sphagnaceae",
+      "genus": "Sphagnum",
+      "species": "magellanicum",
+      "biomes": [
+        "Wetland",
+        "Tundra",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -4,
+        "biodiversity": 4
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 245",
+      "common_name": "Black Rock-moss",
+      "scientific_name": "Andreaea rupestris",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Andreaeopsida",
+      "order": "Andreaeales",
+      "family": "Andreaeaceae",
+      "genus": "Andreaea",
+      "species": "rupestris",
+      "biomes": [
+        "Tundra",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 246",
+      "common_name": "Star Moss",
+      "scientific_name": "Tortula ruralis",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Pottiales",
+      "family": "Pottiaceae",
+      "genus": "Tortula",
+      "species": "ruralis",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 247",
+      "common_name": "Cypress-leaved Plait-moss",
+      "scientific_name": "Hypnum cupressiforme",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Hypnaceae",
+      "genus": "Hypnum",
+      "species": "cupressiforme",
+      "biomes": [
+        "Forest",
+        "Grassland",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 248",
+      "common_name": "Silky Fork-moss",
+      "scientific_name": "Dicranella heteromalla",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Dicranales",
+      "family": "Dicranellaceae",
+      "genus": "Dicranella",
+      "species": "heteromalla",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 249",
+      "common_name": "Greater Calcareous Moss",
+      "scientific_name": "Calliergon giganteum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Calliergonaceae",
+      "genus": "Calliergon",
+      "species": "giganteum",
+      "biomes": [
+        "Wetland",
+        "Freshwater",
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 250",
+      "common_name": "Silvery Thread Moss",
+      "scientific_name": "Bryum argenteum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Bryales",
+      "family": "Bryaceae",
+      "genus": "Bryum",
+      "species": "argenteum",
+      "biomes": [
+        "Desert",
+        "Grassland",
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 251",
+      "common_name": "Cord-moss",
+      "scientific_name": "Funaria hygrometrica",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Funariales",
+      "family": "Funariaceae",
+      "genus": "Funaria",
+      "species": "hygrometrica",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 252",
+      "common_name": "Woolly Fringe-moss (tundra)",
+      "scientific_name": "Tomentypnum nitens",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Amblystegiaceae",
+      "genus": "Tomentypnum",
+      "species": "nitens",
+      "biomes": [
+        "Tundra",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 253",
+      "common_name": "Rough-stalked Feather-moss",
+      "scientific_name": "Brachythecium rutabulum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Brachytheciaceae",
+      "genus": "Brachythecium",
+      "species": "rutabulum",
+      "biomes": [
+        "Forest",
+        "Grassland",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 254",
+      "common_name": "Dwarf Haircap Moss",
+      "scientific_name": "Pogonatum urnigerum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Polytrichopsida",
+      "order": "Polytrichales",
+      "family": "Polytrichaceae",
+      "genus": "Pogonatum",
+      "species": "urnigerum",
+      "biomes": [
+        "Tundra",
+        "Taiga",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 255",
+      "common_name": "Great Screw-moss",
+      "scientific_name": "Syntrichia ruralis",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Pottiales",
+      "family": "Pottiaceae",
+      "genus": "Syntrichia",
+      "species": "ruralis",
+      "biomes": [
+        "Desert",
+        "Grassland",
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 256",
+      "common_name": "Taiga Nitrogen Moss",
+      "scientific_name": "Pleurozium schreberi var. nfix",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Hylocomiaceae",
+      "genus": "Pleurozium",
+      "species": "schreberi",
+      "biomes": [
+        "Taiga",
+        "Forest",
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 257",
+      "common_name": "Oldest Land Fungus",
+      "scientific_name": "Tortotubus protuberans",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Pezizomycotina",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Tortotubus",
+      "species": "protuberans",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 258",
+      "common_name": "Prototaxites",
+      "scientific_name": "Prototaxites loganii",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Incertae sedis",
+      "family": "Prototaxitaceae",
+      "genus": "Prototaxites",
+      "species": "loganii",
+      "biomes": [
+        "Forest",
+        "Floodplain"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 259",
+      "common_name": "Devonian Mycorrhizal Fungus",
+      "scientific_name": "Glomites rhyniensis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Mucoromycota",
+      "class": "Glomeromycetes",
+      "order": "Glomerales",
+      "family": "Glomeraceae",
+      "genus": "Glomites",
+      "species": "rhyniensis",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 260",
+      "common_name": "Carboniferous Bracket Fungus",
+      "scientific_name": "Phellinites digiustoi",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Polyporales",
+      "family": "Polyporaceae",
+      "genus": "Phellinites",
+      "species": "digiustoi",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 261",
+      "common_name": "Carboniferous Wood-rot Fungus",
+      "scientific_name": "Palaeosclerotium pusillum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Dothideomycetes",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Palaeosclerotium",
+      "species": "pusillum",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 262",
+      "common_name": "Permian Mycorrhizal Root Fungus",
+      "scientific_name": "Endogonites permicus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Mucoromycota",
+      "class": "Endogonomycetes",
+      "order": "Endogonales",
+      "family": "Endogonaceae",
+      "genus": "Endogonites",
+      "species": "permicus",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 263",
+      "common_name": "Permian Soil Fungus",
+      "scientific_name": "Reduviasporonites chalastus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Pezizomycetes",
+      "order": "Pezizales",
+      "family": "Incertae sedis",
+      "genus": "Reduviasporonites",
+      "species": "chalastus",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 264",
+      "common_name": "Triassic Bracket Fungus",
+      "scientific_name": "Suillites velenovsky",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Boletales",
+      "family": "Suillaceae",
+      "genus": "Suillites",
+      "species": "velenovsky",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 265",
+      "common_name": "Triassic Soil Saprotroph",
+      "scientific_name": "Chytriomyces triassicus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Chytridiomycota",
+      "class": "Chytridiomycetes",
+      "order": "Chytridiales",
+      "family": "Chytriomycetaceae",
+      "genus": "Chytriomyces",
+      "species": "triassicus",
+      "biomes": [
+        "Freshwater",
+        "Wetland"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 266",
+      "common_name": "Jurassic Wood-decay Fungus",
+      "scientific_name": "Phellinites jurassicus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Polyporales",
+      "family": "Phellinaceae",
+      "genus": "Phellinites",
+      "species": "jurassicus",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 267",
+      "common_name": "Jurassic Root Symbiont",
+      "scientific_name": "Glomus mesozoicum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Mucoromycota",
+      "class": "Glomeromycetes",
+      "order": "Glomerales",
+      "family": "Glomeraceae",
+      "genus": "Glomus",
+      "species": "mesozoicum",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 268",
+      "common_name": "Jurassic Truffle-like Fungus",
+      "scientific_name": "Paleogaster plumosa",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Boletales",
+      "family": "Sclerodermataceae",
+      "genus": "Paleogaster",
+      "species": "plumosa",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 269",
+      "common_name": "Cretaceous Amber Mushroom",
+      "scientific_name": "Archaeomarasmius leggetti",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Marasmiaceae",
+      "genus": "Archaeomarasmius",
+      "species": "leggetti",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 270",
+      "common_name": "Gondwana Fossil Mushroom",
+      "scientific_name": "Gondwanagaricites magnificus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Incertae sedis",
+      "genus": "Gondwanagaricites",
+      "species": "magnificus",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 271",
+      "common_name": "Cretaceous Ectomycorrhizal Fungus",
+      "scientific_name": "Mycorrhizaphytes cretacea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Incertae sedis",
+      "genus": "Mycorrhizaphytes",
+      "species": "cretacea",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 272",
+      "common_name": "Chaga Mushroom",
+      "scientific_name": "Inonotus obliquus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Hymenochaetales",
+      "family": "Hymenochaetaceae",
+      "genus": "Inonotus",
+      "species": "obliquus",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 273",
+      "common_name": "Reishi Mushroom",
+      "scientific_name": "Ganoderma lucidum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Polyporales",
+      "family": "Ganodermataceae",
+      "genus": "Ganoderma",
+      "species": "lucidum",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 274",
+      "common_name": "Black Truffle",
+      "scientific_name": "Tuber melanosporum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Pezizomycetes",
+      "order": "Pezizales",
+      "family": "Tuberaceae",
+      "genus": "Tuber",
+      "species": "melanosporum",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 275",
+      "common_name": "Arbuscular Mycorrhizal Fungus",
+      "scientific_name": "Rhizophagus irregularis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Mucoromycota",
+      "class": "Glomeromycetes",
+      "order": "Glomerales",
+      "family": "Glomeraceae",
+      "genus": "Rhizophagus",
+      "species": "irregularis",
+      "biomes": [
+        "Grassland",
+        "Forest",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 4
+      },
+      "bits": null,
+      "role": [
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 276",
+      "common_name": "Turkey Tail",
+      "scientific_name": "Trametes versicolor",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Polyporales",
+      "family": "Polyporaceae",
+      "genus": "Trametes",
+      "species": "versicolor",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 277",
+      "common_name": "Fly Agaric",
+      "scientific_name": "Amanita muscaria",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Amanitaceae",
+      "genus": "Amanita",
+      "species": "muscaria",
+      "biomes": [
+        "Taiga",
+        "Forest",
+        "Tundra"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 278",
+      "common_name": "Porcini Mushroom",
+      "scientific_name": "Boletus edulis",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Boletales",
+      "family": "Boletaceae",
+      "genus": "Boletus",
+      "species": "edulis",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 279",
+      "common_name": "Honey Fungus",
+      "scientific_name": "Armillaria mellea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Physalacriaceae",
+      "genus": "Armillaria",
+      "species": "mellea",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 280",
+      "common_name": "Lion's Mane Mushroom",
+      "scientific_name": "Hericium erinaceus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Russulales",
+      "family": "Hericiaceae",
+      "genus": "Hericium",
+      "species": "erinaceus",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 281",
+      "common_name": "Death Cap",
+      "scientific_name": "Amanita phalloides",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Amanitaceae",
+      "genus": "Amanita",
+      "species": "phalloides",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 282",
+      "common_name": "Matsutake Mushroom",
+      "scientific_name": "Tricholoma matsutake",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Tricholomataceae",
+      "genus": "Tricholoma",
+      "species": "matsutake",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 283",
+      "common_name": "Morel Mushroom",
+      "scientific_name": "Morchella esculenta",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Pezizomycetes",
+      "order": "Pezizales",
+      "family": "Morchellaceae",
+      "genus": "Morchella",
+      "species": "esculenta",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 284",
+      "common_name": "Suillus Slippery Jack",
+      "scientific_name": "Suillus luteus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Boletales",
+      "family": "Suillaceae",
+      "genus": "Suillus",
+      "species": "luteus",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 285",
+      "common_name": "Chanterelle",
+      "scientific_name": "Cantharellus cibarius",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Cantharellales",
+      "family": "Cantharellaceae",
+      "genus": "Cantharellus",
+      "species": "cibarius",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 286",
+      "common_name": "Oyster Mushroom",
+      "scientific_name": "Pleurotus ostreatus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Pleurotaceae",
+      "genus": "Pleurotus",
+      "species": "ostreatus",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 287",
+      "common_name": "Giant Puffball",
+      "scientific_name": "Calvatia gigantea",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Agaricaceae",
+      "genus": "Calvatia",
+      "species": "gigantea",
+      "biomes": [
+        "Grassland",
+        "Floodplain"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 288",
+      "common_name": "Shaggy Mane",
+      "scientific_name": "Coprinus comatus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Agaricaceae",
+      "genus": "Coprinus",
+      "species": "comatus",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 289",
+      "common_name": "Fairy Ring Mushroom",
+      "scientific_name": "Marasmius oreades",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Marasmiaceae",
+      "genus": "Marasmius",
+      "species": "oreades",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 290",
+      "common_name": "Velvet Shank",
+      "scientific_name": "Flammulina velutipes",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Physalacriaceae",
+      "genus": "Flammulina",
+      "species": "velutipes",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 291",
+      "common_name": "Wood Ear Fungus",
+      "scientific_name": "Auricularia auricula-judae",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Auriculariales",
+      "family": "Auriculariaceae",
+      "genus": "Auricularia",
+      "species": "auricula-judae",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 292",
+      "common_name": "Green Mould (Penicillin)",
+      "scientific_name": "Penicillium chrysogenum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Eurotiales",
+      "family": "Aspergillaceae",
+      "genus": "Penicillium",
+      "species": "chrysogenum",
+      "biomes": [
+        "Desert",
+        "Grassland",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 293",
+      "common_name": "Black Mould",
+      "scientific_name": "Aspergillus niger",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Eurotiales",
+      "family": "Aspergillaceae",
+      "genus": "Aspergillus",
+      "species": "niger",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 294",
+      "common_name": "Pisoni Earth-ball",
+      "scientific_name": "Pisolithus tinctorius",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Boletales",
+      "family": "Sclerodermataceae",
+      "genus": "Pisolithus",
+      "species": "tinctorius",
+      "biomes": [
+        "Desert",
+        "Grassland",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 295",
+      "common_name": "Common Earthball",
+      "scientific_name": "Scleroderma citrinum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Boletales",
+      "family": "Sclerodermataceae",
+      "genus": "Scleroderma",
+      "species": "citrinum",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 296",
+      "common_name": "Trichoderma Green Mould",
+      "scientific_name": "Trichoderma viride",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Sordariomycetes",
+      "order": "Hypocreales",
+      "family": "Hypocreaceae",
+      "genus": "Trichoderma",
+      "species": "viride",
+      "biomes": [
+        "Forest",
+        "Wetland",
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 297",
+      "common_name": "Lactarius Saffron Milkcap",
+      "scientific_name": "Lactarius deliciosus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Russulales",
+      "family": "Russulaceae",
+      "genus": "Lactarius",
+      "species": "deliciosus",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 298",
+      "common_name": "Emetic Russula",
+      "scientific_name": "Russula emetica",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Russulales",
+      "family": "Russulaceae",
+      "genus": "Russula",
+      "species": "emetica",
+      "biomes": [
+        "Taiga",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 299",
+      "common_name": "Ourasphaira (Oldest Fungal Fossil)",
+      "scientific_name": "Ourasphaira giraldae",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Chytridiomycota",
+      "class": "Chytridiomycetes",
+      "order": "Chytridiales",
+      "family": "Incertae sedis",
+      "genus": "Ourasphaira",
+      "species": "giraldae",
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Neoproterozoic"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 300",
+      "common_name": "Neoproterozoic Hyphal Network",
+      "scientific_name": "Tappania plana",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Incertae sedis",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Tappania",
+      "species": "plana",
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Neoproterozoic"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 301",
+      "common_name": "Cambrian Marine Chytrid",
+      "scientific_name": "Palaeomyces gordonii",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Chytridiomycota",
+      "class": "Chytridiomycetes",
+      "order": "Chytridiales",
+      "family": "Chytriomycetaceae",
+      "genus": "Palaeomyces",
+      "species": "gordonii",
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Cambrian"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 302",
+      "common_name": "Cambrian Parasitic Chytrid",
+      "scientific_name": "Fungal spore cf. Burgess",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Chytridiomycota",
+      "class": "Chytridiomycetes",
+      "order": "Chytridiales",
+      "family": "Incertae sedis",
+      "genus": "Incertae sedis",
+      "species": "sp.",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Cambrian"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "parasite"
+      ]
+    },
+    {
+      "card_label": "Card 303",
+      "common_name": "Palaeoglomus (Ordovician AMF)",
+      "scientific_name": "Palaeoglomus grayi",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Mucoromycota",
+      "class": "Glomeromycetes",
+      "order": "Glomerales",
+      "family": "Glomeraceae",
+      "genus": "Palaeoglomus",
+      "species": "grayi",
+      "biomes": [
+        "Grassland",
+        "Desert"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Ordovician"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 304",
+      "common_name": "Early Land Arbuscular Mycorrhiza",
+      "scientific_name": "Glomites ordovicianus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Mucoromycota",
+      "class": "Glomeromycetes",
+      "order": "Glomerales",
+      "family": "Glomeraceae",
+      "genus": "Glomites",
+      "species": "ordovicianus",
+      "biomes": [
+        "Grassland",
+        "Freshwater"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Ordovician"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 305",
+      "common_name": "Silurian Lichen Precursor Fungus",
+      "scientific_name": "Spongiophyton minutissimum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Eurotiomycetes",
+      "order": "Incertae sedis",
+      "family": "Incertae sedis",
+      "genus": "Spongiophyton",
+      "species": "minutissimum",
+      "biomes": [
+        "Desert",
+        "Grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Decomposers (saprotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 306",
+      "common_name": "Jurassic Bolete (ancestor)",
+      "scientific_name": "Paxillus jurassicus",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Boletales",
+      "family": "Paxillaceae",
+      "genus": "Paxillus",
+      "species": "jurassicus",
+      "biomes": [
+        "Forest",
+        "Taiga"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Mutualists (mycorrhizal)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
     }
   ]
 }
