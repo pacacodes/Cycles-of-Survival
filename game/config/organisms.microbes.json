@@ -1,0 +1,697 @@
+{
+  "organisms": [
+    {
+      "card_label": "Card 307",
+      "common_name": "Green sulfur bacterium",
+      "scientific_name": "Chlorobium tepidum",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Chlorobi",
+      "class": "Chlorobia",
+      "order": "Chlorobiales",
+      "family": "Chlorobiaceae",
+      "genus": "Chlorobium",
+      "species": "tepidum",
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Late Archean"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 308",
+      "common_name": "Acid hot spring archaea",
+      "scientific_name": "Sulfolobus acidocaldarius",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Archaea",
+      "phylum": "Crenarchaeota",
+      "class": "Thermoprotei",
+      "order": "Sulfolobales",
+      "family": "Sulfolobaceae",
+      "genus": "Sulfolobus",
+      "species": "acidocaldarius",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Late Archean"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 309",
+      "common_name": "Magnetotactic bacterium",
+      "scientific_name": "Magnetospirillum magneticum",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Proteobacteria",
+      "class": "Alphaproteobacteria",
+      "order": "Rhodospirillales",
+      "family": "Magnetospirillaceae",
+      "genus": "Magnetospirillum",
+      "species": "magneticum",
+      "biomes": [
+        "Freshwater",
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Early Proterozoic"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 310",
+      "common_name": "Purple non-sulfur bacterium",
+      "scientific_name": "Rhodobacter sphaeroides",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Proteobacteria",
+      "class": "Alphaproteobacteria",
+      "order": "Rhodobacterales",
+      "family": "Rhodobacteraceae",
+      "genus": "Rhodobacter",
+      "species": "sphaeroides",
+      "biomes": [
+        "Freshwater",
+        "Marine"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Late Proterozoic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 311",
+      "common_name": "Ediacaran mat cyanobacterium",
+      "scientific_name": "Oscillatoria sp.",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Cyanobacteria",
+      "class": "Cyanophyceae",
+      "order": "Oscillatoriales",
+      "family": "Oscillatoriaceae",
+      "genus": "Oscillatoria",
+      "species": "sp.",
+      "biomes": [
+        "Marine",
+        "Freshwater"
+      ],
+      "eras": [
+        "Precambrian"
+      ],
+      "periods": [
+        "Ediacaran"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 312",
+      "common_name": "Ancient ocean cyanobacterium",
+      "scientific_name": "Synechococcus elongatus",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Cyanobacteria",
+      "class": "Cyanophyceae",
+      "order": "Synechococcales",
+      "family": "Synechococcaceae",
+      "genus": "Synechococcus",
+      "species": "elongatus",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Cambrian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 313",
+      "common_name": "Free-living nitrogen fixer",
+      "scientific_name": "Azotobacter vinelandii",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Proteobacteria",
+      "class": "Gammaproteobacteria",
+      "order": "Pseudomonadales",
+      "family": "Pseudomonadaceae",
+      "genus": "Azotobacter",
+      "species": "vinelandii",
+      "biomes": [
+        "Freshwater",
+        "Grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Ordovician"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 314",
+      "common_name": "Soil actinomycete",
+      "scientific_name": "Streptomyces coelicolor",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Actinobacteria",
+      "class": "Actinomycetia",
+      "order": "Streptomycetales",
+      "family": "Streptomycetaceae",
+      "genus": "Streptomyces",
+      "species": "coelicolor",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 315",
+      "common_name": "Root-nodule bacterium",
+      "scientific_name": "Rhizobium leguminosarum",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Proteobacteria",
+      "class": "Alphaproteobacteria",
+      "order": "Rhizobiales",
+      "family": "Rhizobiaceae",
+      "genus": "Rhizobium",
+      "species": "leguminosarum",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 316",
+      "common_name": "Swamp methane archaeon",
+      "scientific_name": "Methanobacterium thermoautotrophicum",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Archaea",
+      "phylum": "Euryarchaeota",
+      "class": "Methanobacteria",
+      "order": "Methanobacteriales",
+      "family": "Methanobacteriaceae",
+      "genus": "Methanobacterium",
+      "species": "thermoautotrophicum",
+      "biomes": [
+        "Wetland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 317",
+      "common_name": "Salt-flat archaea",
+      "scientific_name": "Halobacterium salinarum",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Archaea",
+      "phylum": "Euryarchaeota",
+      "class": "Halobacteria",
+      "order": "Halobacteriales",
+      "family": "Halobacteriaceae",
+      "genus": "Halobacterium",
+      "species": "salinarum",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 318",
+      "common_name": "Deep-sea vent microbe",
+      "scientific_name": "Aquifex aeolicus",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Aquificae",
+      "class": "Aquificae",
+      "order": "Aquificales",
+      "family": "Aquificaceae",
+      "genus": "Aquifex",
+      "species": "aeolicus",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "card_label": "Card 319",
+      "common_name": "Giant sulfur bacterium",
+      "scientific_name": "Thioploca ingrica",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Proteobacteria",
+      "class": "Gammaproteobacteria",
+      "order": "Thiotrichales",
+      "family": "Thiotrichaceae",
+      "genus": "Thioploca",
+      "species": "ingrica",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 320",
+      "common_name": "Chalk-forming coccolithophore",
+      "scientific_name": "Emiliania huxleyi",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Chromista",
+      "phylum": "Haptophyta",
+      "class": "Prymnesiophyceae",
+      "order": "Isochrysidales",
+      "family": "Noëlaerhabdaceae",
+      "genus": "Emiliania",
+      "species": "huxleyi",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 321",
+      "common_name": "Soil arthrobacter",
+      "scientific_name": "Arthrobacter globiformis",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Actinobacteria",
+      "class": "Actinomycetia",
+      "order": "Micrococcales",
+      "family": "Micrococcaceae",
+      "genus": "Arthrobacter",
+      "species": "globiformis",
+      "biomes": [
+        "Grassland",
+        "Farmland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 322",
+      "common_name": "Coral symbiont dinoflagellate",
+      "scientific_name": "Symbiodinium microadriaticum",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Protista",
+      "phylum": "Dinoflagellata",
+      "class": "Dinophyceae",
+      "order": "Suessiales",
+      "family": "Symbiodiniaceae",
+      "genus": "Symbiodinium",
+      "species": "microadriaticum",
+      "biomes": [
+        "Reef"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "mutualist"
+      ]
+    },
+    {
+      "card_label": "Card 323",
+      "common_name": "Predatory soil bacterium",
+      "scientific_name": "Myxococcus xanthus",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Myxococcota",
+      "class": "Myxococcia",
+      "order": "Myxococcales",
+      "family": "Myxococcaceae",
+      "genus": "Myxococcus",
+      "species": "xanthus",
+      "biomes": [
+        "Forest",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": -1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ]
+    },
+    {
+      "card_label": "Card 324",
+      "common_name": "Permafrost bacterium",
+      "scientific_name": "Psychrobacter arcticus",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Proteobacteria",
+      "class": "Gammaproteobacteria",
+      "order": "Pseudomonadales",
+      "family": "Moraxellaceae",
+      "genus": "Psychrobacter",
+      "species": "arcticus",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer"
+      ]
+    },
+    {
+      "card_label": "Card 325",
+      "common_name": "Nitrifying bacterium",
+      "scientific_name": "Nitrosomonas europaea",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Proteobacteria",
+      "class": "Betaproteobacteria",
+      "order": "Nitrosomonadales",
+      "family": "Nitrosomonadaceae",
+      "genus": "Nitrosomonas",
+      "species": "europaea",
+      "biomes": [
+        "Farmland",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "card_label": "Card 326",
+      "common_name": "Lyme disease spirochete",
+      "scientific_name": "Borrelia burgdorferi",
+      "main_photo": null,
+      "organism_type": "Microbes",
+      "kingdom": "Bacteria",
+      "phylum": "Spirochaetota",
+      "class": "Spirochaetia",
+      "order": "Spirochaetales",
+      "family": "Borreliaceae",
+      "genus": "Borrelia",
+      "species": "burgdorferi",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers/detritivores (organisms that break down dead material)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": -1
+      },
+      "bits": null,
+      "role": [
+        "parasite"
+      ]
+    }
+  ]
+}
