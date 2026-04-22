@@ -337,7 +337,7 @@
       "phylum": "Haptophyta",
       "class": "Coccolithophyceae",
       "order": "Isochrysidales",
-      "family": "Noëlaerhabdaceae",
+      "family": "No\u00eblaerhabdaceae",
       "genus": "Emiliania",
       "species": "huxleyi",
       "biomes": [
@@ -661,43 +661,6 @@
     {
       "type": "organism",
       "card_label": "Card 325",
-      "common_name": "Carboniferous Scale Tree",
-      "scientific_name": "Lepidodendron aculeatum",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Lycopodiophyta",
-      "class": "Isoetopsida",
-      "order": "Lepidodendrales",
-      "family": "Lepidodendraceae",
-      "genus": "Lepidodendron",
-      "species": "aculeatum",
-      "biomes": [
-        "Forest",
-        "Wetland"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 3,
-        "co2": -3,
-        "biodiversity": 3
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 326",
       "common_name": "Giant Sequoia",
       "scientific_name": "Sequoiadendron giganteum",
       "main_photo": null,
@@ -734,7 +697,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 327",
+      "card_label": "Card 326",
       "common_name": "Wollemi Pine",
       "scientific_name": "Wollemia nobilis",
       "main_photo": null,
@@ -770,7 +733,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 328",
+      "card_label": "Card 327",
       "common_name": "Arbuscular Mycorrhizal Fungus",
       "scientific_name": "Rhizophagus intraradices",
       "main_photo": null,
@@ -808,7 +771,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 329",
+      "card_label": "Card 328",
       "common_name": "Silurian Giant Fungus",
       "scientific_name": "Prototaxites loganii",
       "main_photo": null,
@@ -845,8 +808,8 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 330",
-      "common_name": "Périgord Black Truffle",
+      "card_label": "Card 329",
+      "common_name": "P\u00e9rigord Black Truffle",
       "scientific_name": "Tuber melanosporum",
       "main_photo": null,
       "organism_type": "Fungi",
@@ -881,7 +844,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 331",
+      "card_label": "Card 330",
       "common_name": "Giant Tube Worm",
       "scientific_name": "Riftia pachyptila",
       "main_photo": null,
@@ -917,7 +880,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 332",
+      "card_label": "Card 331",
       "common_name": "Rugose Coral",
       "scientific_name": "Calceola sandalina",
       "main_photo": null,
@@ -954,7 +917,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 333",
+      "card_label": "Card 332",
       "common_name": "Elkhorn Coral",
       "scientific_name": "Acropora palmata",
       "main_photo": null,
@@ -991,7 +954,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 334",
+      "card_label": "Card 333",
       "common_name": "Giant Clam",
       "scientific_name": "Tridacna gigas",
       "main_photo": null,
@@ -1028,7 +991,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 335",
+      "card_label": "Card 334",
       "common_name": "Magnificent Sea Anemone",
       "scientific_name": "Heteractis magnifica",
       "main_photo": null,
@@ -1065,7 +1028,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 336",
+      "card_label": "Card 335",
       "common_name": "Hawaiian Bobtail Squid",
       "scientific_name": "Euprymna scolopes",
       "main_photo": null,
@@ -1100,7 +1063,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 337",
+      "card_label": "Card 336",
       "common_name": "Sea Cucumber",
       "scientific_name": "Holothuria scabra",
       "main_photo": null,
@@ -1137,7 +1100,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 338",
+      "card_label": "Card 337",
       "common_name": "Clownfish",
       "scientific_name": "Amphiprion ocellaris",
       "main_photo": null,
@@ -1173,7 +1136,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 339",
+      "card_label": "Card 338",
       "common_name": "Bluestreak Cleaner Wrasse",
       "scientific_name": "Labroides dimidiatus",
       "main_photo": null,
@@ -1209,7 +1172,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 340",
+      "card_label": "Card 339",
       "common_name": "Blue Whale",
       "scientific_name": "Balaenoptera musculus",
       "main_photo": null,
@@ -1244,7 +1207,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 341",
+      "card_label": "Card 340",
       "common_name": "Sea Otter",
       "scientific_name": "Enhydra lutris",
       "main_photo": null,
@@ -1280,7 +1243,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 342",
+      "card_label": "Card 341",
       "common_name": "Honeybee",
       "scientific_name": "Apis mellifera",
       "main_photo": null,
@@ -1317,7 +1280,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 343",
+      "card_label": "Card 342",
       "common_name": "Common Fig Wasp",
       "scientific_name": "Blastophaga psenes",
       "main_photo": null,
@@ -1353,7 +1316,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 344",
+      "card_label": "Card 343",
       "common_name": "Leafcutter Ant",
       "scientific_name": "Atta colombica",
       "main_photo": null,
@@ -1389,7 +1352,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 345",
+      "card_label": "Card 344",
       "common_name": "African Termite",
       "scientific_name": "Macrotermes bellicosus",
       "main_photo": null,
@@ -1426,7 +1389,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 346",
+      "card_label": "Card 345",
       "common_name": "Common Earthworm",
       "scientific_name": "Lumbricus terrestris",
       "main_photo": null,
@@ -1465,7 +1428,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 347",
+      "card_label": "Card 346",
       "common_name": "American Beaver",
       "scientific_name": "Castor canadensis",
       "main_photo": null,
@@ -1502,7 +1465,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 348",
+      "card_label": "Card 347",
       "common_name": "African Elephant",
       "scientific_name": "Loxodonta africana",
       "main_photo": null,

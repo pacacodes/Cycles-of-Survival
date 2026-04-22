@@ -4,78 +4,6 @@
     {
       "type": "organism",
       "card_label": "Card 307",
-      "common_name": "Cooksonia",
-      "scientific_name": "Cooksonia hemisphaerica",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Tracheophyta",
-      "class": "Rhyniopsida",
-      "order": "Rhyniales",
-      "family": "Rhyniaceae",
-      "genus": "Cooksonia",
-      "species": "hemisphaerica",
-      "biomes": [
-        "Coastal",
-        "Wetland"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Silurian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 308",
-      "common_name": "Baragwanathia",
-      "scientific_name": "Baragwanathia longifolia",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Lycopodiophyta",
-      "class": "Lycopodiopsida",
-      "order": "Lycopodiales",
-      "family": "Baragwanathiaceae",
-      "genus": "Baragwanathia",
-      "species": "longifolia",
-      "biomes": [
-        "Wetland",
-        "Coastal"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Silurian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 309",
       "common_name": "Archaeopteris (first true tree)",
       "scientific_name": "Archaeopteris hibernica",
       "main_photo": null,
@@ -113,7 +41,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 310",
+      "card_label": "Card 308",
       "common_name": "Wattieza (Earliest Forest Tree)",
       "scientific_name": "Eospermatopteris textileusi",
       "main_photo": null,
@@ -150,43 +78,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 311",
-      "common_name": "Drepanophycus",
-      "scientific_name": "Drepanophycus spinaeformis",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Lycopodiophyta",
-      "class": "Lycopodiopsida",
-      "order": "Lycopodiales",
-      "family": "Drepanophycaceae",
-      "genus": "Drepanophycus",
-      "species": "spinaeformis",
-      "biomes": [
-        "Wetland",
-        "Floodplain"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Devonian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 312",
+      "card_label": "Card 309",
       "common_name": "Devonian Seed Fern",
       "scientific_name": "Elkinsia polymorpha",
       "main_photo": null,
@@ -222,7 +114,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 313",
+      "card_label": "Card 310",
       "common_name": "Sigillaria (Scale Tree)",
       "scientific_name": "Sigillaria brardii",
       "main_photo": null,
@@ -260,7 +152,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 314",
+      "card_label": "Card 311",
       "common_name": "Cordaites",
       "scientific_name": "Cordaites principalis",
       "main_photo": null,
@@ -298,7 +190,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 315",
+      "card_label": "Card 312",
       "common_name": "Calamites (Tree Horsetail)",
       "scientific_name": "Calamites suckowi",
       "main_photo": null,
@@ -335,7 +227,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 316",
+      "card_label": "Card 313",
       "common_name": "Medullosa (Seed Fern Tree)",
       "scientific_name": "Medullosa noei",
       "main_photo": null,
@@ -372,7 +264,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 317",
+      "card_label": "Card 314",
       "common_name": "Glossopteris (Gondwana Tree)",
       "scientific_name": "Glossopteris browniana",
       "main_photo": null,
@@ -410,7 +302,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 318",
+      "card_label": "Card 315",
       "common_name": "Gangamopteris",
       "scientific_name": "Gangamopteris cyclopteroides",
       "main_photo": null,
@@ -446,7 +338,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 319",
+      "card_label": "Card 316",
       "common_name": "Voltzia (Permian Conifer)",
       "scientific_name": "Voltzia heterophylla",
       "main_photo": null,
@@ -482,7 +374,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 320",
+      "card_label": "Card 317",
       "common_name": "Walchia (Permian Conifer)",
       "scientific_name": "Walchia piniformis",
       "main_photo": null,
@@ -518,7 +410,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 321",
+      "card_label": "Card 318",
       "common_name": "Dicroidium (Triassic Seed Fern)",
       "scientific_name": "Dicroidium odontopteroides",
       "main_photo": null,
@@ -555,7 +447,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 322",
+      "card_label": "Card 319",
       "common_name": "Pleuromeia (Triassic Lycopsid)",
       "scientific_name": "Pleuromeia sternbergii",
       "main_photo": null,
@@ -564,7 +456,7 @@
       "phylum": "Lycopodiophyta",
       "class": "Isoetopsida",
       "order": "Isoetales",
-      "family": "Pleuroméiaceae",
+      "family": "Pleurom\u00e9iaceae",
       "genus": "Pleuromeia",
       "species": "sternbergii",
       "biomes": [
@@ -591,7 +483,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 323",
+      "card_label": "Card 320",
       "common_name": "Bjuvia (Triassic Cycad)",
       "scientific_name": "Bjuvia simplex",
       "main_photo": null,
@@ -627,7 +519,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 324",
+      "card_label": "Card 321",
       "common_name": "Heidiphyllum (Triassic Conifer)",
       "scientific_name": "Heidiphyllum elongatum",
       "main_photo": null,
@@ -663,7 +555,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 325",
+      "card_label": "Card 322",
       "common_name": "Brachyphyllum (Jurassic Conifer)",
       "scientific_name": "Brachyphyllum mammillare",
       "main_photo": null,
@@ -699,7 +591,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 326",
+      "card_label": "Card 323",
       "common_name": "Podozamites (Jurassic Gymnosperm)",
       "scientific_name": "Podozamites lanceolatus",
       "main_photo": null,
@@ -735,7 +627,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 327",
+      "card_label": "Card 324",
       "common_name": "Ptilophyllum (Bennettitalean)",
       "scientific_name": "Ptilophyllum pecten",
       "main_photo": null,
@@ -771,7 +663,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 328",
+      "card_label": "Card 325",
       "common_name": "Jurassic Redwood",
       "scientific_name": "Sequoia jeholensis",
       "main_photo": null,
@@ -808,7 +700,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 329",
+      "card_label": "Card 326",
       "common_name": "Dawn Redwood (Cretaceous)",
       "scientific_name": "Metasequoia foxii",
       "main_photo": null,
@@ -846,7 +738,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 330",
+      "card_label": "Card 327",
       "common_name": "Trochodendroides (Early Angiosperm Tree)",
       "scientific_name": "Trochodendroides arctica",
       "main_photo": null,
@@ -883,7 +775,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 331",
+      "card_label": "Card 328",
       "common_name": "Cretaceous Sycamore",
       "scientific_name": "Platanus raynoldsi",
       "main_photo": null,
@@ -921,7 +813,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 332",
+      "card_label": "Card 329",
       "common_name": "Cretaceous Magnolia",
       "scientific_name": "Magnolia acuminata",
       "main_photo": null,
@@ -958,7 +850,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 333",
+      "card_label": "Card 330",
       "common_name": "Cretaceous Birch",
       "scientific_name": "Betula prisca",
       "main_photo": null,
@@ -995,7 +887,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 334",
+      "card_label": "Card 331",
       "common_name": "Cretaceous Fig Tree",
       "scientific_name": "Ficus tiliaefolia",
       "main_photo": null,
@@ -1032,7 +924,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 335",
+      "card_label": "Card 332",
       "common_name": "Giant Sequoia Ancestor",
       "scientific_name": "Sequoiadendron chaneyi",
       "main_photo": null,
@@ -1069,7 +961,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 336",
+      "card_label": "Card 333",
       "common_name": "Paleogene Hickory",
       "scientific_name": "Carya antiquorum",
       "main_photo": null,
@@ -1106,7 +998,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 337",
+      "card_label": "Card 334",
       "common_name": "Paleogene Cottonwood",
       "scientific_name": "Populus wilmattae",
       "main_photo": null,
@@ -1144,7 +1036,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 338",
+      "card_label": "Card 335",
       "common_name": "Paleogene Breadfruit",
       "scientific_name": "Artocarpus lessoni",
       "main_photo": null,
@@ -1180,7 +1072,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 339",
+      "card_label": "Card 336",
       "common_name": "Paleogene Alder",
       "scientific_name": "Alnus cecropifolia",
       "main_photo": null,
@@ -1218,7 +1110,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 340",
+      "card_label": "Card 337",
       "common_name": "European Beech (Neogene)",
       "scientific_name": "Fagus antipofii",
       "main_photo": null,
@@ -1255,7 +1147,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 341",
+      "card_label": "Card 338",
       "common_name": "Chestnut-leaved Oak (Neogene)",
       "scientific_name": "Quercus castaneifolia",
       "main_photo": null,
@@ -1292,7 +1184,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 342",
+      "card_label": "Card 339",
       "common_name": "Linden Tree (Neogene)",
       "scientific_name": "Tilia haynaldiana",
       "main_photo": null,
@@ -1328,7 +1220,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 343",
+      "card_label": "Card 340",
       "common_name": "Siberian Spruce (Neogene)",
       "scientific_name": "Picea premorskiensis",
       "main_photo": null,
@@ -1365,7 +1257,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 344",
+      "card_label": "Card 341",
       "common_name": "Neogene Eucalyptus",
       "scientific_name": "Eucalyptus maideni",
       "main_photo": null,
@@ -1403,7 +1295,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 345",
+      "card_label": "Card 342",
       "common_name": "Giant Sequoia",
       "scientific_name": "Sequoiadendron giganteum",
       "main_photo": null,
@@ -1440,7 +1332,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 346",
+      "card_label": "Card 343",
       "common_name": "Kapok Tree",
       "scientific_name": "Ceiba pentandra",
       "main_photo": null,
@@ -1476,7 +1368,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 347",
+      "card_label": "Card 344",
       "common_name": "Sal Tree",
       "scientific_name": "Shorea robusta",
       "main_photo": null,
@@ -1513,7 +1405,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 348",
+      "card_label": "Card 345",
       "common_name": "Silver Fir",
       "scientific_name": "Abies alba",
       "main_photo": null,
@@ -1550,7 +1442,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 349",
+      "card_label": "Card 346",
       "common_name": "Paper Birch",
       "scientific_name": "Betula papyrifera",
       "main_photo": null,
@@ -1588,7 +1480,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 350",
+      "card_label": "Card 347",
       "common_name": "European Larch",
       "scientific_name": "Larix decidua",
       "main_photo": null,
@@ -1626,7 +1518,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 351",
+      "card_label": "Card 348",
       "common_name": "Dipterocarp Forest Tree",
       "scientific_name": "Dipterocarpus turbinatus",
       "main_photo": null,

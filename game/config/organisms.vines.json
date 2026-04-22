@@ -3,338 +3,6 @@
     {
       "type": "organism",
       "card_label": "Card 307",
-      "common_name": "Rhacophyton",
-      "scientific_name": "Rhacophyton ceratangium",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Rhacophytopsida",
-      "class": "Rhacophytopsida",
-      "order": "Rhacophytales",
-      "family": "Rhacophytaceae",
-      "genus": "Rhacophyton",
-      "species": "ceratangium",
-      "biomes": [
-        "Wetland",
-        "Floodplain"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Devonian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 2,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 308",
-      "common_name": "Sphenophyllum",
-      "scientific_name": "Sphenophyllum emarginatum",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Sphenophyta",
-      "class": "Sphenopsida",
-      "order": "Sphenophyllales",
-      "family": "Sphenophyllaceae",
-      "genus": "Sphenophyllum",
-      "species": "emarginatum",
-      "biomes": [
-        "Wetland",
-        "Forest"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 2,
-        "co2": -2,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 309",
-      "common_name": "Lyginopteris",
-      "scientific_name": "Lyginopteris oldhamia",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridospermatophyta",
-      "class": "Lyginopteridopsida",
-      "order": "Lyginopteridales",
-      "family": "Lyginopteridaceae",
-      "genus": "Lyginopteris",
-      "species": "oldhamia",
-      "biomes": [
-        "Forest",
-        "Wetland"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 2,
-        "co2": -2,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 310",
-      "common_name": "Medullosa",
-      "scientific_name": "Medullosa noei",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridospermatophyta",
-      "class": "Medullosopsida",
-      "order": "Medullosales",
-      "family": "Medullosaceae",
-      "genus": "Medullosa",
-      "species": "noei",
-      "biomes": [
-        "Wetland",
-        "Forest",
-        "Floodplain"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 2,
-        "co2": -2,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 311",
-      "common_name": "Glossopteris",
-      "scientific_name": "Glossopteris indica",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Glossopteridophyta",
-      "class": "Glossopteridopsida",
-      "order": "Glossopteridales",
-      "family": "Glossopteridaceae",
-      "genus": "Glossopteris",
-      "species": "indica",
-      "biomes": [
-        "Forest",
-        "Wetland",
-        "Tundra"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Permian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 312",
-      "common_name": "Sagenopteris",
-      "scientific_name": "Sagenopteris phillipsii",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridospermatophyta",
-      "class": "Caytoniales",
-      "order": "Caytoniales",
-      "family": "Caytoniaceae",
-      "genus": "Sagenopteris",
-      "species": "phillipsii",
-      "biomes": [
-        "Forest",
-        "Wetland"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Triassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 313",
-      "common_name": "Climbing Fern",
-      "scientific_name": "Lygodium kaulfussii",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridophyta",
-      "class": "Polypodiopsida",
-      "order": "Schizaeales",
-      "family": "Lygodiaceae",
-      "genus": "Lygodium",
-      "species": "kaulfussii",
-      "biomes": [
-        "Forest",
-        "Wetland"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Jurassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 314",
-      "common_name": "Weichselia Fern",
-      "scientific_name": "Weichselia reticulata",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridophyta",
-      "class": "Polypodiopsida",
-      "order": "Polypodiales",
-      "family": "Matoniaceae",
-      "genus": "Weichselia",
-      "species": "reticulata",
-      "biomes": [
-        "Forest",
-        "Wetland",
-        "Grassland"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Cretaceous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 315",
-      "common_name": "Archaefructus",
-      "scientific_name": "Archaefructus sinensis",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Magnoliophyta",
-      "class": "Magnoliopsida",
-      "order": "Archaefructales",
-      "family": "Archaefructaceae",
-      "genus": "Archaefructus",
-      "species": "sinensis",
-      "biomes": [
-        "Wetland",
-        "Freshwater"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Cretaceous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 316",
       "common_name": "Common Greenbrier",
       "scientific_name": "Smilax rotundifolia",
       "main_photo": null,
@@ -372,7 +40,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 317",
+      "card_label": "Card 308",
       "common_name": "Rattan Palm",
       "scientific_name": "Calamus rotang",
       "main_photo": null,
@@ -408,7 +76,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 318",
+      "card_label": "Card 309",
       "common_name": "Common Grape",
       "scientific_name": "Vitis vinifera",
       "main_photo": null,
@@ -445,7 +113,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 319",
+      "card_label": "Card 310",
       "common_name": "English Ivy",
       "scientific_name": "Hedera helix",
       "main_photo": null,
@@ -482,7 +150,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 320",
+      "card_label": "Card 311",
       "common_name": "Virginia Creeper",
       "scientific_name": "Parthenocissus quinquefolia",
       "main_photo": null,
@@ -519,7 +187,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 321",
+      "card_label": "Card 312",
       "common_name": "Chinese Wisteria",
       "scientific_name": "Wisteria sinensis",
       "main_photo": null,
@@ -556,7 +224,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 322",
+      "card_label": "Card 313",
       "common_name": "Japanese Honeysuckle",
       "scientific_name": "Lonicera japonica",
       "main_photo": null,
@@ -593,7 +261,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 323",
+      "card_label": "Card 314",
       "common_name": "Traveler's Joy",
       "scientific_name": "Clematis vitalba",
       "main_photo": null,
@@ -630,7 +298,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 324",
+      "card_label": "Card 315",
       "common_name": "Common Hops",
       "scientific_name": "Humulus lupulus",
       "main_photo": null,
@@ -668,7 +336,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 325",
+      "card_label": "Card 316",
       "common_name": "Maypop Passionflower",
       "scientific_name": "Passiflora incarnata",
       "main_photo": null,
@@ -705,7 +373,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 326",
+      "card_label": "Card 317",
       "common_name": "Trumpet Vine",
       "scientific_name": "Campsis radicans",
       "main_photo": null,
@@ -743,7 +411,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 327",
+      "card_label": "Card 318",
       "common_name": "Dutchman's Pipe",
       "scientific_name": "Aristolochia macrophylla",
       "main_photo": null,
@@ -779,7 +447,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 328",
+      "card_label": "Card 319",
       "common_name": "American Bittersweet",
       "scientific_name": "Celastrus scandens",
       "main_photo": null,
@@ -816,7 +484,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 329",
+      "card_label": "Card 320",
       "common_name": "Poison Ivy",
       "scientific_name": "Toxicodendron radicans",
       "main_photo": null,
@@ -854,7 +522,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 330",
+      "card_label": "Card 321",
       "common_name": "Wild Yam",
       "scientific_name": "Dioscorea villosa",
       "main_photo": null,
@@ -890,7 +558,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 331",
+      "card_label": "Card 322",
       "common_name": "Swiss Cheese Plant",
       "scientific_name": "Monstera deliciosa",
       "main_photo": null,
@@ -926,7 +594,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 332",
+      "card_label": "Card 323",
       "common_name": "Sea Bean Liana",
       "scientific_name": "Entada gigas",
       "main_photo": null,
@@ -963,7 +631,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 333",
+      "card_label": "Card 324",
       "common_name": "Curare Vine",
       "scientific_name": "Strychnos toxifera",
       "main_photo": null,
@@ -999,7 +667,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 334",
+      "card_label": "Card 325",
       "common_name": "Velvet Bean",
       "scientific_name": "Mucuna pruriens",
       "main_photo": null,
@@ -1037,7 +705,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 335",
+      "card_label": "Card 326",
       "common_name": "Kudzu",
       "scientific_name": "Pueraria montana",
       "main_photo": null,
@@ -1076,7 +744,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 336",
+      "card_label": "Card 327",
       "common_name": "European Dodder",
       "scientific_name": "Cuscuta europaea",
       "main_photo": null,
@@ -1112,7 +780,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 337",
+      "card_label": "Card 328",
       "common_name": "Laurel Dodder",
       "scientific_name": "Cassytha filiformis",
       "main_photo": null,
@@ -1148,7 +816,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 338",
+      "card_label": "Card 329",
       "common_name": "Black-eyed Susan Vine",
       "scientific_name": "Thunbergia alata",
       "main_photo": null,
@@ -1185,7 +853,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 339",
+      "card_label": "Card 330",
       "common_name": "Cairo Morning Glory",
       "scientific_name": "Ipomoea cairica",
       "main_photo": null,
@@ -1222,7 +890,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 340",
+      "card_label": "Card 331",
       "common_name": "Hedge Bindweed",
       "scientific_name": "Calystegia sepium",
       "main_photo": null,
@@ -1259,7 +927,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 341",
+      "card_label": "Card 332",
       "common_name": "Water Spinach Vine",
       "scientific_name": "Ipomoea aquatica",
       "main_photo": null,
@@ -1295,7 +963,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 342",
+      "card_label": "Card 333",
       "common_name": "Bougainvillea",
       "scientific_name": "Bougainvillea spectabilis",
       "main_photo": null,
@@ -1332,7 +1000,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 343",
+      "card_label": "Card 334",
       "common_name": "Desert Clematis",
       "scientific_name": "Clematis drummondii",
       "main_photo": null,
@@ -1369,7 +1037,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 344",
+      "card_label": "Card 335",
       "common_name": "Russian Vine",
       "scientific_name": "Fallopia baldschuanica",
       "main_photo": null,
@@ -1407,7 +1075,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 345",
+      "card_label": "Card 336",
       "common_name": "Sponge Gourd Vine",
       "scientific_name": "Luffa cylindrica",
       "main_photo": null,
@@ -1443,7 +1111,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 346",
+      "card_label": "Card 337",
       "common_name": "Catclaw Vine",
       "scientific_name": "Macfadyena unguis-cati",
       "main_photo": null,
@@ -1480,7 +1148,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 347",
+      "card_label": "Card 338",
       "common_name": "Supplejack",
       "scientific_name": "Berchemia scandens",
       "main_photo": null,
@@ -1517,7 +1185,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 348",
+      "card_label": "Card 339",
       "common_name": "Philodendron Liana",
       "scientific_name": "Philodendron bipinnatifidum",
       "main_photo": null,

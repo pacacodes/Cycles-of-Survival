@@ -4,840 +4,6 @@
     {
       "type": "organism",
       "card_label": "Card 307",
-      "common_name": "Cooksonia",
-      "scientific_name": "Cooksonia pertoni",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Rhyniophyta",
-      "class": "Rhyniopsida",
-      "order": "Rhyniales",
-      "family": "Rhyniaceae",
-      "genus": "Cooksonia",
-      "species": "pertoni",
-      "biomes": [
-        "Wetland",
-        "Freshwater"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Silurian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 3
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 308",
-      "common_name": "Baragwanathia",
-      "scientific_name": "Baragwanathia longifolia",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Lycopodiophyta",
-      "class": "Lycopodiopsida",
-      "order": "Lycopodiales",
-      "family": "Baragwanathiaceae",
-      "genus": "Baragwanathia",
-      "species": "longifolia",
-      "biomes": [
-        "Wetland"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Silurian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 309",
-      "common_name": "Rhynia",
-      "scientific_name": "Rhynia gwynne-vaughanii",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Rhyniophyta",
-      "class": "Rhyniopsida",
-      "order": "Rhyniales",
-      "family": "Rhyniaceae",
-      "genus": "Rhynia",
-      "species": "gwynne-vaughanii",
-      "biomes": [
-        "Wetland",
-        "Freshwater"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Devonian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 310",
-      "common_name": "Aglaophyton",
-      "scientific_name": "Aglaophyton major",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Rhyniophyta",
-      "class": "Rhyniopsida",
-      "order": "Rhyniales",
-      "family": "Rhyniaceae",
-      "genus": "Aglaophyton",
-      "species": "major",
-      "biomes": [
-        "Wetland",
-        "Floodplain"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Devonian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 311",
-      "common_name": "Psilophyton",
-      "scientific_name": "Psilophyton dawsonii",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Tracheophyta",
-      "class": "Trimerophytopsida",
-      "order": "Trimerophytales",
-      "family": "Psilophytaceae",
-      "genus": "Psilophyton",
-      "species": "dawsonii",
-      "biomes": [
-        "Wetland",
-        "Floodplain"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Devonian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 312",
-      "common_name": "Zosterophyll",
-      "scientific_name": "Zosterophyllum myretonianum",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Lycopodiophyta",
-      "class": "Zosterophyllopsida",
-      "order": "Zosterophyllales",
-      "family": "Zosterophyllaceae",
-      "genus": "Zosterophyllum",
-      "species": "myretonianum",
-      "biomes": [
-        "Wetland",
-        "Freshwater"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Devonian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 313",
-      "common_name": "Pecopteris Fern",
-      "scientific_name": "Pecopteris arborescens",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Polypodiophyta",
-      "class": "Marattiopsida",
-      "order": "Marattiales",
-      "family": "Marattiaceae",
-      "genus": "Pecopteris",
-      "species": "arborescens",
-      "biomes": [
-        "Wetland",
-        "Forest"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 314",
-      "common_name": "Annularia Horsetail",
-      "scientific_name": "Annularia stellata",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Equisetophyta",
-      "class": "Equisetopsida",
-      "order": "Equisetales",
-      "family": "Calamitaceae",
-      "genus": "Annularia",
-      "species": "stellata",
-      "biomes": [
-        "Wetland",
-        "Floodplain"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 315",
-      "common_name": "Sphenophyllum",
-      "scientific_name": "Sphenophyllum emarginatum",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Equisetophyta",
-      "class": "Sphenophyllopsida",
-      "order": "Sphenophyllales",
-      "family": "Sphenophyllaceae",
-      "genus": "Sphenophyllum",
-      "species": "emarginatum",
-      "biomes": [
-        "Wetland",
-        "Freshwater"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 316",
-      "common_name": "Neuropteris Seed Fern",
-      "scientific_name": "Neuropteris heterophylla",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridospermophyta",
-      "class": "Medullosopsida",
-      "order": "Medullosales",
-      "family": "Medullosaceae",
-      "genus": "Neuropteris",
-      "species": "heterophylla",
-      "biomes": [
-        "Wetland",
-        "Forest"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 317",
-      "common_name": "Glossopteris",
-      "scientific_name": "Glossopteris indica",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridospermophyta",
-      "class": "Pteridospermopsida",
-      "order": "Glossopteridales",
-      "family": "Glossopteridaceae",
-      "genus": "Glossopteris",
-      "species": "indica",
-      "biomes": [
-        "Wetland",
-        "Forest"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Permian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 3
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 318",
-      "common_name": "Gangamopteris",
-      "scientific_name": "Gangamopteris angustifolia",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridospermophyta",
-      "class": "Pteridospermopsida",
-      "order": "Gangamopteridales",
-      "family": "Gangamopteridaceae",
-      "genus": "Gangamopteris",
-      "species": "angustifolia",
-      "biomes": [
-        "Wetland",
-        "Floodplain"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Permian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 319",
-      "common_name": "Taeniopteris Fern",
-      "scientific_name": "Taeniopteris tenuinervis",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridospermophyta",
-      "class": "Pteridospermopsida",
-      "order": "Taeniopteridales",
-      "family": "Taeniopteridaceae",
-      "genus": "Taeniopteris",
-      "species": "tenuinervis",
-      "biomes": [
-        "Forest",
-        "Wetland"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Permian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 320",
-      "common_name": "Pleuromeia",
-      "scientific_name": "Pleuromeia sternbergii",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Lycopodiophyta",
-      "class": "Isoetopsida",
-      "order": "Isoetales",
-      "family": "Pleuromeiaceae",
-      "genus": "Pleuromeia",
-      "species": "sternbergii",
-      "biomes": [
-        "Desert",
-        "Wetland"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Triassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 321",
-      "common_name": "Gondwana Horsetail",
-      "scientific_name": "Schizoneura gondwanensis",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Equisetophyta",
-      "class": "Equisetopsida",
-      "order": "Equisetales",
-      "family": "Schizoneaceae",
-      "genus": "Schizoneura",
-      "species": "gondwanensis",
-      "biomes": [
-        "Wetland",
-        "Floodplain"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Triassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 322",
-      "common_name": "Clathropteris Fern",
-      "scientific_name": "Clathropteris meniscioides",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Polypodiophyta",
-      "class": "Polypodiopsida",
-      "order": "Gleicheniales",
-      "family": "Dipteridaceae",
-      "genus": "Clathropteris",
-      "species": "meniscioides",
-      "biomes": [
-        "Wetland",
-        "Forest"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Triassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 323",
-      "common_name": "Royal Fern",
-      "scientific_name": "Osmundacaulis skidegatensis",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Polypodiophyta",
-      "class": "Polypodiopsida",
-      "order": "Osmundales",
-      "family": "Osmundaceae",
-      "genus": "Osmundacaulis",
-      "species": "skidegatensis",
-      "biomes": [
-        "Wetland",
-        "Forest"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Jurassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 324",
-      "common_name": "Coniopteris Fern",
-      "scientific_name": "Coniopteris hymenophylloides",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Polypodiophyta",
-      "class": "Polypodiopsida",
-      "order": "Cyatheales",
-      "family": "Cyatheaceae",
-      "genus": "Coniopteris",
-      "species": "hymenophylloides",
-      "biomes": [
-        "Forest",
-        "Wetland"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Jurassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 325",
-      "common_name": "Jurassic Horsetail",
-      "scientific_name": "Equisetum laterale",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Equisetophyta",
-      "class": "Equisetopsida",
-      "order": "Equisetales",
-      "family": "Equisetaceae",
-      "genus": "Equisetum",
-      "species": "laterale",
-      "biomes": [
-        "Freshwater",
-        "Wetland"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Jurassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 326",
-      "common_name": "Archaefructus",
-      "scientific_name": "Archaefructus liaoningensis",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Magnoliophyta",
-      "class": "Archaefructopsida",
-      "order": "Archaefructales",
-      "family": "Archaefructaceae",
-      "genus": "Archaefructus",
-      "species": "liaoningensis",
-      "biomes": [
-        "Wetland",
-        "Freshwater"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Cretaceous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 3
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 327",
-      "common_name": "Fossil Water Lily",
-      "scientific_name": "Nymphaeites choffatii",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Magnoliophyta",
-      "class": "Nymphaeopsida",
-      "order": "Nymphaeales",
-      "family": "Nymphaeaceae",
-      "genus": "Nymphaeites",
-      "species": "choffatii",
-      "biomes": [
-        "Freshwater",
-        "Wetland"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Cretaceous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 2
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 328",
-      "common_name": "Sensitive Fern",
-      "scientific_name": "Onoclea sensibilis",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Polypodiophyta",
-      "class": "Polypodiopsida",
-      "order": "Polypodiales",
-      "family": "Onocleaceae",
-      "genus": "Onoclea",
-      "species": "sensibilis",
-      "biomes": [
-        "Wetland",
-        "Forest"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Cretaceous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 329",
-      "common_name": "Weichselia Fern",
-      "scientific_name": "Weichselia reticulata",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Polypodiophyta",
-      "class": "Polypodiopsida",
-      "order": "Gleicheniales",
-      "family": "Matoniaceae",
-      "genus": "Weichselia",
-      "species": "reticulata",
-      "biomes": [
-        "Desert",
-        "Grassland"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Cretaceous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 1,
-        "co2": -1,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 330",
       "common_name": "Ancient Cattail",
       "scientific_name": "Typha latissima",
       "main_photo": null,
@@ -874,7 +40,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 331",
+      "card_label": "Card 308",
       "common_name": "Mangrove Fern",
       "scientific_name": "Acrostichum aureum",
       "main_photo": null,
@@ -911,7 +77,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 332",
+      "card_label": "Card 309",
       "common_name": "Eocene Grass",
       "scientific_name": "Poaceae sp.",
       "main_photo": null,
@@ -948,7 +114,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 333",
+      "card_label": "Card 310",
       "common_name": "Floating Fern",
       "scientific_name": "Salvinia formosa",
       "main_photo": null,
@@ -984,7 +150,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 334",
+      "card_label": "Card 311",
       "common_name": "Common Sunflower",
       "scientific_name": "Helianthus annuus",
       "main_photo": null,
@@ -1021,7 +187,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 335",
+      "card_label": "Card 312",
       "common_name": "Common Dandelion",
       "scientific_name": "Taraxacum officinale",
       "main_photo": null,
@@ -1058,7 +224,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 336",
+      "card_label": "Card 313",
       "common_name": "Red Clover",
       "scientific_name": "Trifolium pratense",
       "main_photo": null,
@@ -1096,7 +262,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 337",
+      "card_label": "Card 314",
       "common_name": "Kentucky Bluegrass",
       "scientific_name": "Poa pratensis",
       "main_photo": null,
@@ -1132,7 +298,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 338",
+      "card_label": "Card 315",
       "common_name": "Lake Sedge",
       "scientific_name": "Carex lacustris",
       "main_photo": null,
@@ -1169,7 +335,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 339",
+      "card_label": "Card 316",
       "common_name": "Siberian Iris",
       "scientific_name": "Iris sibirica",
       "main_photo": null,
@@ -1205,7 +371,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 340",
+      "card_label": "Card 317",
       "common_name": "Wormwood",
       "scientific_name": "Artemisia absinthium",
       "main_photo": null,
@@ -1241,7 +407,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 341",
+      "card_label": "Card 318",
       "common_name": "Sheep's Fescue",
       "scientific_name": "Festuca ovina",
       "main_photo": null,
@@ -1277,7 +443,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 342",
+      "card_label": "Card 319",
       "common_name": "Wild Pansy",
       "scientific_name": "Viola tricolor",
       "main_photo": null,
@@ -1313,7 +479,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 343",
+      "card_label": "Card 320",
       "common_name": "Common Yarrow",
       "scientific_name": "Achillea millefolium",
       "main_photo": null,
@@ -1350,7 +516,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 344",
+      "card_label": "Card 321",
       "common_name": "Broadleaf Plantain",
       "scientific_name": "Plantago major",
       "main_photo": null,
@@ -1386,7 +552,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 345",
+      "card_label": "Card 322",
       "common_name": "Stinging Nettle",
       "scientific_name": "Urtica dioica",
       "main_photo": null,
@@ -1423,7 +589,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 346",
+      "card_label": "Card 323",
       "common_name": "Meadow Buttercup",
       "scientific_name": "Ranunculus acris",
       "main_photo": null,
@@ -1459,7 +625,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 347",
+      "card_label": "Card 324",
       "common_name": "Meadow Cranesbill",
       "scientific_name": "Geranium pratense",
       "main_photo": null,
@@ -1495,7 +661,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 348",
+      "card_label": "Card 325",
       "common_name": "Garden Lupine",
       "scientific_name": "Lupinus polyphyllus",
       "main_photo": null,
@@ -1533,7 +699,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 349",
+      "card_label": "Card 326",
       "common_name": "Field Horsetail",
       "scientific_name": "Equisetum arvense",
       "main_photo": null,
@@ -1570,7 +736,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 350",
+      "card_label": "Card 327",
       "common_name": "Wild Garlic",
       "scientific_name": "Allium ursinum",
       "main_photo": null,
