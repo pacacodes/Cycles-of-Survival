@@ -29,7 +29,14 @@
     "generate:organisms:base-set": "node game/copy-base-set-cards.js",
     "generate:organisms:jurassic": "node game/copy-jurassic-organisms.js",
     "generate:organisms:lichen-moss-fungi": "node game/copy-lichen-moss-fungi-organisms.js",
-    "generate:organisms:symbiotic-powerhouse": "node game/copy-symbiotic-powerhouse-organisms.js"
+    "generate:organisms:symbiotic-powerhouse": "node game/copy-symbiotic-powerhouse-organisms.js",
+    "generate:organisms:bushes": "node game/copy-bushes-organisms.js",
+    "generate:organisms:vines": "node game/copy-vines-organisms.js",
+    "generate:organisms:herbaceous": "node game/copy-herbaceous-organisms.js",
+    "generate:organisms:ground-cover": "node game/copy-ground-cover-organisms.js",
+    "generate:organisms:overstory": "node game/copy-overstory-organisms.js",
+    "generate:organisms:understory": "node game/copy-understory-organisms.js",
+    "generate:organisms:all": "npm run generate:organisms:working && npm run generate:organisms:base-set && npm run generate:organisms:jurassic && npm run generate:organisms:lichen-moss-fungi && npm run generate:organisms:symbiotic-powerhouse && npm run generate:organisms:bushes && npm run generate:organisms:vines && npm run generate:organisms:herbaceous && npm run generate:organisms:ground-cover && npm run generate:organisms:overstory && npm run generate:organisms:understory"
   },
   "keywords": [],
   "author": "",
