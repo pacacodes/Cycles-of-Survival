@@ -1267,5 +1267,324 @@
         "filter_feeder"
       ]
     }
+  ],
+  "forestOrganismsByPeriod": [
+    {
+      "period": "Devonian",
+      "organisms": [
+        {
+          "name": "Archaeopteris sp.",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer", "builder"]
+        },
+        {
+          "name": "Hynerpeton bassetti",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator", "prey"]
+        }
+      ]
+    },
+    {
+      "period": "Carboniferous",
+      "organisms": [
+        {
+          "name": "Lepidodendron aculeatum",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer", "builder"]
+        },
+        {
+          "name": "Arthropleura armata",
+          "broadType": "terrestrial_invertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "detritivore", "ecosystem_engineer"]
+        }
+      ]
+    },
+    {
+      "period": "Permian",
+      "organisms": [
+        {
+          "name": "Psaronius sp.",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer", "builder"]
+        },
+        {
+          "name": "Dimetrodon grandis",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"]
+        }
+      ]
+    },
+    {
+      "period": "Triassic",
+      "organisms": [
+        {
+          "name": "Dicroidium sp.",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer"]
+        },
+        {
+          "name": "Coelophysis bauri",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator", "prey"]
+        }
+      ]
+    },
+    {
+      "period": "Jurassic",
+      "organisms": [
+        {
+          "name": "Araucaria sp.",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer", "builder"]
+        },
+        {
+          "name": "Stegosaurus stenops",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "prey", "ecosystem_engineer"]
+        }
+      ]
+    },
+    {
+      "period": "Cretaceous",
+      "organisms": [
+        {
+          "name": "Quercus sp.",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer", "mutualist"]
+        },
+        {
+          "name": "Triceratops horridus",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "ecosystem_engineer", "prey"]
+        }
+      ]
+    },
+    {
+      "period": "Paleogene",
+      "organisms": [
+        {
+          "name": "Nothofagus sp.",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer", "builder"]
+        },
+        {
+          "name": "Smilodon fatalis",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["apex_predator"]
+        }
+      ]
+    },
+    {
+      "period": "Neogene",
+      "organisms": [
+        {
+          "name": "Pinus sylvestris",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer", "builder"]
+        },
+        {
+          "name": "Cynomys ludovicianus",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "ecosystem_engineer", "prey"]
+        }
+      ]
+    },
+    {
+      "period": "Quaternary",
+      "organisms": [
+        {
+          "name": "Quercus robur",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer", "mutualist"]
+        },
+        {
+          "name": "Ursus arctos",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["omnivore", "predator", "scavenger", "ecosystem_engineer", "prey"]
+        }
+      ]
+    }
+  ],
+  "desertOrganismsByPeriod": [
+    {
+      "period": "Devonian",
+      "organisms": [
+        {
+          "name": "Archaeopteris sp.",
+          "broadType": "plant_small_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer"]
+        },
+        {
+          "name": "Hyneria lindae",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"],
+          "notes": "Represents predators in seasonally dry upland rivers"
+        }
+      ]
+    },
+    {
+      "period": "Carboniferous",
+      "organisms": [
+        {
+          "name": "Calamites sp.",
+          "broadType": "plant_shrub_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer"],
+          "notes": "Tree-sized horsetail in drier margins/uplands"
+        },
+        {
+          "name": "Hylonomus lyelli",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["insectivore", "prey"],
+          "notes": "Small reptile using drier forest/desert-margin habitats"
+        }
+      ]
+    },
+    {
+      "period": "Permian",
+      "organisms": [
+        {
+          "name": "Lystrosaurus sp.",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "survivor"],
+          "notes": "Drought-tolerant dicynodont in semi-arid settings"
+        },
+        {
+          "name": "Dimetrodon grandis",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"]
+        }
+      ]
+    },
+    {
+      "period": "Triassic",
+      "organisms": [
+        {
+          "name": "Coelophysis bauri",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator", "prey"]
+        },
+        {
+          "name": "Lystrosaurus sp.",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "ecosystem_engineer"],
+          "notes": "Carried over into early Triassic arid plains"
+        }
+      ]
+    },
+    {
+      "period": "Jurassic",
+      "organisms": [
+        {
+          "name": "Allosaurus fragilis",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["apex_predator"]
+        },
+        {
+          "name": "Diplodocus carnegii",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "ecosystem_engineer"],
+          "notes": "Large browser in semi-arid floodplains"
+        }
+      ]
+    },
+    {
+      "period": "Cretaceous",
+      "organisms": [
+        {
+          "name": "Velociraptor mongoliensis",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator", "scavenger"]
+        },
+        {
+          "name": "Protoceratops andrewsi",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "prey"],
+          "notes": "Classic Gobi Desert herbivore"
+        }
+      ]
+    },
+    {
+      "period": "Paleogene",
+      "organisms": [
+        {
+          "name": "Protylopus sp.",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["browser", "prey"],
+          "notes": "Early camelid in semi-arid habitats"
+        },
+        {
+          "name": "Early vulture-like bird",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["scavenger"]
+        }
+      ]
+    },
+    {
+      "period": "Neogene",
+      "organisms": [
+        {
+          "name": "Struthio camelus",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "omnivore", "prey"]
+        },
+        {
+          "name": "Vulpes zerda",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator", "omnivore"]
+        }
+      ]
+    },
+    {
+      "period": "Quaternary",
+      "organisms": [
+        {
+          "name": "Carnegiea gigantea",
+          "broadType": "plant_succulent",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer", "builder"]
+        },
+        {
+          "name": "Gopherus agassizii",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "ecosystem_engineer", "prey"],
+          "notes": "Desert tortoise; burrows create habitat"
+        }
+      ]
+    }
   ]
 }

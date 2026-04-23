@@ -2567,7 +2567,7 @@
     },
     {
       "card_label": "Card 5",
-      "common_name": "nitrogen‑fixing bacterium",
+      "common_name": "nitrogen\u2011fixing bacterium",
       "scientific_name": "Bacillus polymyxa",
       "main_photo": "Paenibacillus polymyxa.png",
       "organism_type": "Microbes",
@@ -14907,7 +14907,7 @@
     },
     {
       "card_label": "Card 20",
-      "common_name": "Piñon pine",
+      "common_name": "Pi\u00f1on pine",
       "scientific_name": "Pinus edulis",
       "organism_type": "Plants",
       "kingdom": "Plantae",
@@ -15274,7 +15274,7 @@
       "phylum": "Lycopodiophyta",
       "class": "Isoetopsida",
       "order": "Isoetales",
-      "family": "Pleuroméiaceae",
+      "family": "Pleurom\u00e9iaceae",
       "genus": "Pleuromeia",
       "species": "sternbergii",
       "biomes": [
@@ -22054,6 +22054,673 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 351",
+      "common_name": "Hynerpeton bassetti",
+      "scientific_name": "Hynerpeton bassetti",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Temnospondyli",
+      "family": "Anthracosauria",
+      "genus": "Hynerpeton",
+      "species": "bassetti",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 352",
+      "common_name": "Lepidodendron aculeatum",
+      "scientific_name": "Lepidodendron aculeatum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Lycopodiophyta",
+      "class": "Lycopsida",
+      "order": "Lepidodendrales",
+      "family": "Lepidodendraceae",
+      "genus": "Lepidodendron",
+      "species": "aculeatum",
+      "biomes": [
+        "Forest",
+        "Swamp"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 353",
+      "common_name": "Arthropleura armata",
+      "scientific_name": "Arthropleura armata",
+      "main_photo": null,
+      "organism_type": "Terrestrial invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Myriapoda",
+      "order": "Archipolypoda",
+      "family": "Arthropleturidae",
+      "genus": "Arthropleura",
+      "species": "armata",
+      "biomes": [
+        "Forest",
+        "Swamp"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "detritivore",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 354",
+      "common_name": "Psaronius sp.",
+      "scientific_name": "Psaronius sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pteridophyta",
+      "class": "Filicinae",
+      "order": "Marattiales",
+      "family": "Psaroniaceae",
+      "genus": "Psaronius",
+      "species": "sp.",
+      "biomes": [
+        "Forest",
+        "Swamp"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 355",
+      "common_name": "Dicroidium sp.",
+      "scientific_name": "Dicroidium sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pteridospermophyta",
+      "class": "Dicroidophyta",
+      "order": "Dicroidiales",
+      "family": "Dicroidaceae",
+      "genus": "Dicroidium",
+      "species": "sp.",
+      "biomes": [
+        "Forest",
+        "Floodplain"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 356",
+      "common_name": "Coelophysis bauri",
+      "scientific_name": "Coelophysis bauri",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Saurischia",
+      "family": "Coelophysidae",
+      "genus": "Coelophysis",
+      "species": "bauri",
+      "biomes": [
+        "Forest",
+        "Floodplain"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 357",
+      "common_name": "Araucaria sp.",
+      "scientific_name": "Araucaria sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Araucariales",
+      "family": "Araucariaceae",
+      "genus": "Araucaria",
+      "species": "sp.",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 358",
+      "common_name": "Nothofagus sp.",
+      "scientific_name": "Nothofagus sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Fagales",
+      "family": "Nothofagaceae",
+      "genus": "Nothofagus",
+      "species": "sp.",
+      "biomes": [
+        "Forest",
+        "Temperate"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 359",
+      "common_name": "Cynomys ludovicianus",
+      "scientific_name": "Cynomys ludovicianus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Cynomys",
+      "species": "ludovicianus",
+      "biomes": [
+        "Grassland",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "ecosystem_engineer",
+        "prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 360",
+      "common_name": "Quercus sp.",
+      "scientific_name": "Quercus sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Fagales",
+      "family": "Fagaceae",
+      "genus": "Quercus",
+      "species": "sp.",
+      "biomes": [
+        "Forest",
+        "Temperate"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "mutualist"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 361",
+      "common_name": "Hyneria lindae",
+      "scientific_name": "Hyneria lindae",
+      "main_photo": null,
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Sarcopterygii",
+      "order": "Coelacanths",
+      "family": "Hyneriidae",
+      "genus": "Hyneria",
+      "species": "lindae",
+      "biomes": [
+        "Desert",
+        "River"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 362",
+      "common_name": "Calamites sp.",
+      "scientific_name": "Calamites sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Sphenophyta",
+      "class": "Equisetopsida",
+      "order": "Calamitales",
+      "family": "Calamitaceae",
+      "genus": "Calamites",
+      "species": "sp.",
+      "biomes": [
+        "Desert",
+        "Floodplain",
+        "Swamp"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 363",
+      "common_name": "Lystrosaurus sp.",
+      "scientific_name": "Lystrosaurus sp.",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Synapsida",
+      "order": "Therapsida",
+      "family": "Dicynodontia",
+      "genus": "Lystrosaurus",
+      "species": "sp.",
+      "biomes": [
+        "Desert",
+        "Arid grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian",
+        "Triassic"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "survivor"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 364",
+      "common_name": "Protoceratops andrewsi",
+      "scientific_name": "Protoceratops andrewsi",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Ornithischia",
+      "family": "Protoceratopsidae",
+      "genus": "Protoceratops",
+      "species": "andrewsi",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 365",
+      "common_name": "Protylopus sp.",
+      "scientific_name": "Protylopus sp.",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Camelidae",
+      "genus": "Protylopus",
+      "species": "sp.",
+      "biomes": [
+        "Desert",
+        "Arid grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "browser",
+        "prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 366",
+      "common_name": "Early vulture-like bird",
+      "scientific_name": "Cathartornis gracilis",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Cathartiformes",
+      "family": "Cathartidae",
+      "genus": "Cathartornis",
+      "species": "gracilis",
+      "biomes": [
+        "Desert",
+        "Arid grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "scavenger"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 367",
+      "common_name": "Fennec fox",
+      "scientific_name": "Vulpes zerda",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Vulpes",
+      "species": "zerda",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "omnivore"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 368",
+      "common_name": "Desert tortoise",
+      "scientific_name": "Gopherus agassizii",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Gopherus",
+      "species": "agassizii",
+      "biomes": [
+        "Desert",
+        "Arid scrubland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "ecosystem_engineer",
+        "prey"
       ]
     }
   ]
