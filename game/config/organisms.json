@@ -82,6 +82,46 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 620",
+      "common_name": "Acacia shrub",
+      "scientific_name": "Acacia sp. (mulga-type)",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Acacia",
+      "species": "sp.",
+      "biomes": [
+        "Tropical Savannah/Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "nitrogen_fixer",
+        "thorny_refuge"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 3",
       "common_name": "Ammonite",
       "scientific_name": "Acanthoceras sp.",
@@ -407,6 +447,46 @@
       ],
       "categories": [
         "bushes"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 636",
+      "common_name": "Chamise",
+      "scientific_name": "Adenostoma fasciculatum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Adenostoma",
+      "species": "fasciculatum",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "fire_adapted",
+        "erosion_control"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -763,6 +843,43 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 590",
+      "common_name": "Arctic fox (Neogene ancestor)",
+      "scientific_name": "Alopex lagopus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Alopex",
+      "species": "lagopus",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "scavenger"
+      ]
+    },
+    {
       "card_label": "Card 20",
       "common_name": "Fly Agaric",
       "scientific_name": "Amanita muscaria",
@@ -950,6 +1067,79 @@
       ],
       "categories": [
         "lichens-moss-fungi"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 588",
+      "common_name": "Andropogon gerardii",
+      "scientific_name": "Andropogon gerardii",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Monocotyledonae",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Andropogon",
+      "species": "gerardii",
+      "biomes": [
+        "Grassland",
+        "Prairie"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 586",
+      "common_name": "Andropogon sp.",
+      "scientific_name": "Andropogon sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Monocotyledonae",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Andropogon",
+      "species": "sp.",
+      "biomes": [
+        "Grassland",
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
       ]
     },
     {
@@ -1341,6 +1531,42 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 569",
+      "common_name": "Araucaria sp.",
+      "scientific_name": "Araucaria sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Araucariales",
+      "family": "Araucariaceae",
+      "genus": "Araucaria",
+      "species": "sp.",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 35",
       "common_name": "Early Angiosperm",
       "scientific_name": "Archaeanthus linnenbergeri",
@@ -1646,6 +1872,46 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 635",
+      "common_name": "Bearberry",
+      "scientific_name": "Arctostaphylos uva-ursi",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Arctostaphylos",
+      "species": "uva-ursi",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "ground_cover",
+        "fruit_source"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 43",
       "common_name": "Ardipithecus",
       "scientific_name": "Ardipithecus ramidus",
@@ -1886,6 +2152,46 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 617",
+      "common_name": "Sagebrush",
+      "scientific_name": "Artemisia sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Artemisia",
+      "species": "sp.",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "drought_resistant",
+        "herbivore_food"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 49",
       "common_name": "Soil arthrobacter",
       "scientific_name": "Arthrobacter globiformis",
@@ -1921,6 +2227,44 @@
       ],
       "categories": [
         "microbes"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 565",
+      "common_name": "Arthropleura armata",
+      "scientific_name": "Arthropleura armata",
+      "main_photo": null,
+      "organism_type": "Terrestrial invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Myriapoda",
+      "order": "Archipolypoda",
+      "family": "Arthropleturidae",
+      "genus": "Arthropleura",
+      "species": "armata",
+      "biomes": [
+        "Forest",
+        "Swamp"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "detritivore",
+        "ecosystem_engineer"
       ]
     },
     {
@@ -2567,7 +2911,7 @@
     },
     {
       "card_label": "Card 66",
-      "common_name": "nitrogen‑fixing bacterium",
+      "common_name": "nitrogen\u2011fixing bacterium",
       "scientific_name": "Bacillus polymyxa",
       "main_photo": "Paenibacillus polymyxa.png",
       "organism_type": "Microbes",
@@ -2651,6 +2995,46 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 628",
+      "common_name": "Banksia shrub",
+      "scientific_name": "Banksia sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Banksia",
+      "species": "sp.",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "bird_pollinated",
+        "fire_resprouter"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 68",
       "common_name": "Silurian Lycopsid",
       "scientific_name": "Baragwanathia longifolia",
@@ -2724,6 +3108,46 @@
       ],
       "categories": [
         "base-set"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 614",
+      "common_name": "Barberry",
+      "scientific_name": "Berberis sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Berberis",
+      "species": "sp.",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "defensive_shrub",
+        "bird_food"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -2925,6 +3349,44 @@
       ],
       "categories": [
         "overstory"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 587",
+      "common_name": "Bison priscus",
+      "scientific_name": "Bison priscus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bison",
+      "species": "priscus",
+      "biomes": [
+        "Grassland",
+        "Steppe"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "grazer",
+        "ecosystem_engineer",
+        "prey"
       ]
     },
     {
@@ -3425,6 +3887,44 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 574",
+      "common_name": "Calamites sp.",
+      "scientific_name": "Calamites sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Sphenophyta",
+      "class": "Equisetopsida",
+      "order": "Calamitales",
+      "family": "Calamitaceae",
+      "genus": "Calamites",
+      "species": "sp.",
+      "biomes": [
+        "Desert",
+        "Floodplain",
+        "Swamp"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 88",
       "common_name": "Calamites (Tree Horsetail)",
       "scientific_name": "Calamites suckowi",
@@ -3501,6 +4001,45 @@
       ],
       "categories": [
         "plants-general"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 596",
+      "common_name": "Calamites shrub form",
+      "scientific_name": "Calamites understorey form",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Calamites",
+      "species": "understorey",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "bank_stabiliser"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -3890,6 +4429,43 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 585",
+      "common_name": "Canis lepophagus",
+      "scientific_name": "Canis lepophagus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "species": "lepophagus",
+      "biomes": [
+        "Grassland",
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "scavenger"
+      ]
+    },
+    {
       "card_label": "Card 100",
       "common_name": "Chanterelle",
       "scientific_name": "Cantharellus cibarius",
@@ -3925,6 +4501,46 @@
       ],
       "categories": [
         "lichens-moss-fungi"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 625",
+      "common_name": "Siberian pea shrub",
+      "scientific_name": "Caragana arborescens",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Caragana",
+      "species": "arborescens",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "nitrogen_fixer",
+        "windbreak"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -4300,6 +4916,42 @@
       "bits": null,
       "role": [
         "predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 578",
+      "common_name": "Early vulture-like bird",
+      "scientific_name": "Cathartornis gracilis",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Cathartiformes",
+      "family": "Cathartidae",
+      "genus": "Cathartornis",
+      "species": "gracilis",
+      "biomes": [
+        "Desert",
+        "Arid grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "scavenger"
       ]
     },
     {
@@ -4682,6 +5334,46 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 618",
+      "common_name": "Rockrose",
+      "scientific_name": "Cistus sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Cistus",
+      "species": "sp.",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "fire_adapted",
+        "soil_stabiliser"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 120",
       "common_name": "Red-capped Pixie Cup",
       "scientific_name": "Cladonia cristatella",
@@ -5000,6 +5692,43 @@
       ],
       "categories": [
         "base-set"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 568",
+      "common_name": "Coelophysis bauri",
+      "scientific_name": "Coelophysis bauri",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Saurischia",
+      "family": "Coelophysidae",
+      "genus": "Coelophysis",
+      "species": "bauri",
+      "biomes": [
+        "Forest",
+        "Floodplain"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "prey"
       ]
     },
     {
@@ -5366,6 +6095,86 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 630",
+      "common_name": "Gray dogwood",
+      "scientific_name": "Cornus racemosa",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Cornus",
+      "species": "racemosa",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "bird_food",
+        "thicket_former"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 631",
+      "common_name": "American hazelnut",
+      "scientific_name": "Corylus americana",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Corylus",
+      "species": "americana",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "nut_source",
+        "wildlife_refuge"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 137",
       "common_name": "Sea Lily",
       "scientific_name": "Crinoidea sp.",
@@ -5516,6 +6325,45 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 601",
+      "common_name": "Cycad shrub",
+      "scientific_name": "Cycadaceae (shrub form)",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Cycadaceae",
+      "species": "(shrub",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "herbivore_food"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 141",
       "common_name": "Jurassic Belemnite",
       "scientific_name": "Cylindroteuthis sp.",
@@ -5597,6 +6445,44 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 571",
+      "common_name": "Cynomys ludovicianus",
+      "scientific_name": "Cynomys ludovicianus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Cynomys",
+      "species": "ludovicianus",
+      "biomes": [
+        "Grassland",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "ecosystem_engineer",
+        "prey"
+      ]
+    },
+    {
       "card_label": "Card 143",
       "common_name": "Common Broom",
       "scientific_name": "Cytisus scoparius",
@@ -5634,6 +6520,46 @@
       ],
       "categories": [
         "bushes"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 619",
+      "common_name": "Broom",
+      "scientific_name": "Cytisus sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Cytisus",
+      "species": "sp.",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "nitrogen_fixer",
+        "pioneer_species"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -6027,6 +6953,43 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 567",
+      "common_name": "Dicroidium sp.",
+      "scientific_name": "Dicroidium sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pteridospermophyta",
+      "class": "Dicroidophyta",
+      "order": "Dicroidiales",
+      "family": "Dicroidaceae",
+      "genus": "Dicroidium",
+      "species": "sp.",
+      "biomes": [
+        "Forest",
+        "Floodplain"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 154",
       "common_name": "Dilophosaurus",
       "scientific_name": "Dilophosaurus wetherilli",
@@ -6400,6 +7363,84 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 591",
+      "common_name": "Mountain avens",
+      "scientific_name": "Dryas octopetala",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Rosales",
+      "family": "Rosaceae",
+      "genus": "Dryas",
+      "species": "octopetala",
+      "biomes": [
+        "Tundra",
+        "Alpine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 634",
+      "common_name": "Mountain avens",
+      "scientific_name": "Dryas octopetala",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Dryas",
+      "species": "octopetala",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "ground_cover",
+        "climate_indicator"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 164",
       "common_name": "Dryopithecus",
       "scientific_name": "Dryopithecus fontani",
@@ -6504,6 +7545,162 @@
       "bits": null,
       "role": [
         "apex_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 611",
+      "common_name": "Heather ancestor",
+      "scientific_name": "Early Erica-type shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Early",
+      "species": "Erica-type",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "mycorrhizal_partner"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 610",
+      "common_name": "Laurel-type shrub",
+      "scientific_name": "Early laurel shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Early",
+      "species": "laurel",
+      "biomes": [
+        "Rainforest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "fruit_source"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 609",
+      "common_name": "Magnolia-type shrub",
+      "scientific_name": "Early magnoliid shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Early",
+      "species": "magnoliid",
+      "biomes": [
+        "Rainforest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "pollinator_resource"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 612",
+      "common_name": "Protea ancestor",
+      "scientific_name": "Early protea-type shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Early",
+      "species": "protea-type",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "nutrient_cycler"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -6913,6 +8110,44 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 584",
+      "common_name": "Equus simplicidens",
+      "scientific_name": "Equus simplicidens",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Equus",
+      "species": "simplicidens",
+      "biomes": [
+        "Grassland",
+        "Steppe"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "grazer",
+        "prey",
+        "ecosystem_engineer"
+      ]
+    },
+    {
       "card_label": "Card 177",
       "common_name": "Oligocene Heather",
       "scientific_name": "Erica oligocaenica",
@@ -6949,6 +8184,46 @@
       ],
       "categories": [
         "bushes"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 621",
+      "common_name": "Heather",
+      "scientific_name": "Erica sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Erica",
+      "species": "sp.",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "mycorrhizal_partner",
+        "pollinator_resource"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -8411,6 +9686,45 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 597",
+      "common_name": "Glossopteris seed fern",
+      "scientific_name": "Glossopteris sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Glossopteris",
+      "species": "sp.",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "soil_former"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 215",
       "common_name": "Gondwana Fossil Mushroom",
       "scientific_name": "Gondwanagaricites magnificus",
@@ -8446,6 +9760,44 @@
       ],
       "categories": [
         "lichens-moss-fungi"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 580",
+      "common_name": "Desert tortoise",
+      "scientific_name": "Gopherus agassizii",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Gopherus",
+      "species": "agassizii",
+      "biomes": [
+        "Desert",
+        "Arid scrubland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "ecosystem_engineer",
+        "prey"
       ]
     },
     {
@@ -8917,6 +10269,46 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 623",
+      "common_name": "Sea buckthorn",
+      "scientific_name": "Hippophae rhamnoides",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Hippophae",
+      "species": "rhamnoides",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "nitrogen_fixer",
+        "bird_food"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -9569,6 +10961,43 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 582",
+      "common_name": "Hyaenodon gigas",
+      "scientific_name": "Hyaenodon gigas",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Hyaenodontidae",
+      "genus": "Hyaenodon",
+      "species": "gigas",
+      "biomes": [
+        "Grassland",
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "apex_predator",
+        "scavenger"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 244",
       "common_name": "Hybodus Shark",
       "scientific_name": "Hybodus sp.",
@@ -9754,6 +11183,79 @@
       "bits": null,
       "role": [
         "predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 573",
+      "common_name": "Hyneria lindae",
+      "scientific_name": "Hyneria lindae",
+      "main_photo": null,
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Sarcopterygii",
+      "order": "Coelacanths",
+      "family": "Hyneriidae",
+      "genus": "Hyneria",
+      "species": "lindae",
+      "biomes": [
+        "Desert",
+        "River"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 563",
+      "common_name": "Hynerpeton bassetti",
+      "scientific_name": "Hynerpeton bassetti",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Temnospondyli",
+      "family": "Anthracosauria",
+      "genus": "Hynerpeton",
+      "species": "bassetti",
+      "biomes": [
+        "Forest",
+        "Wetland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "prey"
       ]
     },
     {
@@ -10321,7 +11823,7 @@
         "ecosystem_engineer"
       ],
       "categories": [
-        "bushes"
+        "shrubs"
       ]
     },
     {
@@ -10359,6 +11861,84 @@
       "bits": null,
       "role": [
         "decomposer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 607",
+      "common_name": "Podocarp shrub",
+      "scientific_name": "Jurassic podocarp shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Jurassic",
+      "species": "podocarp",
+      "biomes": [
+        "Taiga"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "shade_tolerant"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 608",
+      "common_name": "Ginkgo stream shrub",
+      "scientific_name": "Jurassic riparian ginkgo",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Jurassic",
+      "species": "riparian",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "soil_stabiliser"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -10798,6 +12378,85 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 629",
+      "common_name": "Lavender",
+      "scientific_name": "Lavandula angustifolia",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Lavandula",
+      "species": "angustifolia",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "pollinator_magnet",
+        "drought_resistant"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 599",
+      "common_name": "Lebachia conifer",
+      "scientific_name": "Lebachia sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Lebachia",
+      "species": "sp.",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "pioneer_species"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 276",
       "common_name": "Wall Rim Lichen",
       "scientific_name": "Lecanora muralis",
@@ -10946,6 +12605,82 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 564",
+      "common_name": "Lepidodendron aculeatum",
+      "scientific_name": "Lepidodendron aculeatum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Lycopodiophyta",
+      "class": "Lycopsida",
+      "order": "Lepidodendrales",
+      "family": "Lepidodendraceae",
+      "genus": "Lepidodendron",
+      "species": "aculeatum",
+      "biomes": [
+        "Forest",
+        "Swamp"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 595",
+      "common_name": "Lepidodendron shrub form",
+      "scientific_name": "Lepidodendron understorey form",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Lepidodendron",
+      "species": "understorey",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "soil_former"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 280",
       "common_name": "Wolf Lichen",
       "scientific_name": "Letharia vulpina",
@@ -10981,6 +12716,46 @@
       ],
       "categories": [
         "lichens-moss-fungi"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 627",
+      "common_name": "Cone bush (fynbos)",
+      "scientific_name": "Leucadendron sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Leucadendron",
+      "species": "sp.",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "fire_adapted",
+        "nutrient_cycler"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -11531,6 +13306,44 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 575",
+      "common_name": "Lystrosaurus sp.",
+      "scientific_name": "Lystrosaurus sp.",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Synapsida",
+      "order": "Therapsida",
+      "family": "Dicynodontia",
+      "genus": "Lystrosaurus",
+      "species": "sp.",
+      "biomes": [
+        "Desert",
+        "Arid grassland"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian",
+        "Triassic"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "survivor"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 295",
       "common_name": "Catclaw Vine",
       "scientific_name": "Macfadyena unguis-cati",
@@ -11979,6 +13792,45 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 594",
+      "common_name": "Medullosa seed fern",
+      "scientific_name": "Medullosa sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Medullosa",
+      "species": "sp.",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "habitat_provider"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 306",
       "common_name": "Megalosaurus",
       "scientific_name": "Megalosaurus bucklandii",
@@ -12122,6 +13974,44 @@
       ],
       "categories": [
         "lichens-moss-fungi"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 581",
+      "common_name": "Mesohippus bairdi",
+      "scientific_name": "Mesohippus bairdi",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Mesohippus",
+      "species": "bairdi",
+      "biomes": [
+        "Grassland",
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "grazer",
+        "prey"
       ]
     },
     {
@@ -12278,6 +14168,42 @@
       "categories": [
         "plants-general",
         "understory"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 583",
+      "common_name": "Metasequoia sp.",
+      "scientific_name": "Metasequoia sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Cupressaceae",
+      "genus": "Metasequoia",
+      "species": "sp.",
+      "biomes": [
+        "Grassland",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "ecosystem_engineer"
       ]
     },
     {
@@ -12737,6 +14663,46 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 616",
+      "common_name": "Bayberry / wax myrtle",
+      "scientific_name": "Myrica sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Myrica",
+      "species": "sp.",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "nitrogen_fixer",
+        "dune_stabiliser"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 326",
       "common_name": "Blue mussel",
       "scientific_name": "Mytilus edulis",
@@ -13135,6 +15101,45 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 605",
+      "common_name": "Nilssonia cycad",
+      "scientific_name": "Nilssonia sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Nilssonia",
+      "species": "sp.",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "understorey_cover"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 336",
       "common_name": "Fossil Palm",
       "scientific_name": "Nipa burtinii",
@@ -13288,6 +15293,43 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 570",
+      "common_name": "Nothofagus sp.",
+      "scientific_name": "Nothofagus sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Fagales",
+      "family": "Nothofagaceae",
+      "genus": "Nothofagus",
+      "species": "sp.",
+      "biomes": [
+        "Forest",
+        "Temperate"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
       ]
     },
     {
@@ -13722,6 +15764,45 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 606",
+      "common_name": "Otozamites shrub",
+      "scientific_name": "Otozamites sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Otozamites",
+      "species": "sp.",
+      "biomes": [
+        "Rainforest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "herbivore_food"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 351",
       "common_name": "Ourasphaira (Oldest Fungal Fossil)",
       "scientific_name": "Ourasphaira giraldae",
@@ -13758,6 +15839,43 @@
       ],
       "categories": [
         "lichens-moss-fungi"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 592",
+      "common_name": "Muskox",
+      "scientific_name": "Ovibos moschatus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Ovibos",
+      "species": "moschatus",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "grazer",
+        "prey"
       ]
     },
     {
@@ -14543,6 +16661,45 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 600",
+      "common_name": "Permian dwarf conifer",
+      "scientific_name": "Permian dwarf conifer",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Permian",
+      "species": "dwarf",
+      "biomes": [
+        "Taiga"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "cold_tolerant"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 372",
       "common_name": "Bitter Wart Lichen",
       "scientific_name": "Pertusaria amara",
@@ -14907,7 +17064,7 @@
     },
     {
       "card_label": "Card 381",
-      "common_name": "Piñon pine",
+      "common_name": "Pi\u00f1on pine",
       "scientific_name": "Pinus edulis",
       "organism_type": "Plants",
       "kingdom": "Plantae",
@@ -15274,7 +17431,7 @@
       "phylum": "Lycopodiophyta",
       "class": "Isoetopsida",
       "order": "Isoetales",
-      "family": "Pleuroméiaceae",
+      "family": "Pleurom\u00e9iaceae",
       "genus": "Pleuromeia",
       "species": "sternbergii",
       "biomes": [
@@ -16045,6 +18202,42 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 576",
+      "common_name": "Protoceratops andrewsi",
+      "scientific_name": "Protoceratops andrewsi",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Ornithischia",
+      "family": "Protoceratopsidae",
+      "genus": "Protoceratops",
+      "species": "andrewsi",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "prey"
+      ]
+    },
+    {
       "card_label": "Card 410",
       "common_name": "Prototaxites",
       "scientific_name": "Prototaxites loganii",
@@ -16085,6 +18278,43 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 577",
+      "common_name": "Protylopus sp.",
+      "scientific_name": "Protylopus sp.",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Camelidae",
+      "genus": "Protylopus",
+      "species": "sp.",
+      "biomes": [
+        "Desert",
+        "Arid grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "browser",
+        "prey"
+      ]
+    },
+    {
       "card_label": "Card 411",
       "common_name": "Tree fern",
       "scientific_name": "Psaronius sp.",
@@ -16115,6 +18345,43 @@
       "bits": null,
       "role": [
         "producer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 566",
+      "common_name": "Psaronius sp.",
+      "scientific_name": "Psaronius sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pteridophyta",
+      "class": "Filicinae",
+      "order": "Marattiales",
+      "family": "Psaroniaceae",
+      "genus": "Psaronius",
+      "species": "sp.",
+      "biomes": [
+        "Forest",
+        "Swamp"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
       ]
     },
     {
@@ -16436,6 +18703,125 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 633",
+      "common_name": "Coastal dune shrub",
+      "scientific_name": "Quaternary coastal shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Quaternary",
+      "species": "coastal",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "dune_stabiliser"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 632",
+      "common_name": "Tundra willow",
+      "scientific_name": "Quaternary willow shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Quaternary",
+      "species": "willow",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "bank_stabiliser",
+        "herbivore_food"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 626",
+      "common_name": "Scrub oak",
+      "scientific_name": "Quercus berberidifolia",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Quercus",
+      "species": "berberidifolia",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "mast_producer",
+        "wildlife_refuge"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 420",
       "common_name": "Chestnut-leaved Oak (Neogene)",
       "scientific_name": "Quercus castaneifolia",
@@ -16563,6 +18949,44 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 572",
+      "common_name": "Quercus sp.",
+      "scientific_name": "Quercus sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Fagales",
+      "family": "Fagaceae",
+      "genus": "Quercus",
+      "species": "sp.",
+      "biomes": [
+        "Forest",
+        "Temperate"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "mutualist"
+      ]
+    },
+    {
       "card_label": "Card 423",
       "common_name": "Woolly Fringe-moss",
       "scientific_name": "Racomitrium lanuginosum",
@@ -16684,6 +19108,45 @@
       "bits": null,
       "role": [
         "predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 589",
+      "common_name": "Reindeer / Caribou",
+      "scientific_name": "Rangifer tarandus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Rangifer",
+      "species": "tarandus",
+      "biomes": [
+        "Tundra",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "grazer",
+        "prey"
       ]
     },
     {
@@ -17071,6 +19534,45 @@
       ],
       "categories": [
         "bushes"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 613",
+      "common_name": "Rhododendron",
+      "scientific_name": "Rhododendron sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Rhododendron",
+      "species": "sp.",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "pollinator_resource"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -18754,6 +21256,84 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 593",
+      "common_name": "Sphenophyllum",
+      "scientific_name": "Sphenophyllum sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Sphenophyllum",
+      "species": "sp.",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "understorey_cover"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 615",
+      "common_name": "Meadowsweet shrub",
+      "scientific_name": "Spiraea sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Spiraea",
+      "species": "sp.",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "pollinator_resource"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 479",
       "common_name": "Pond scum",
       "scientific_name": "Spirogyra sp.",
@@ -19363,6 +21943,46 @@
       ],
       "categories": [
         "lichens-moss-fungi"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 622",
+      "common_name": "Tamarisk",
+      "scientific_name": "Tamarix sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Tamarix",
+      "species": "sp.",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "salt_tolerant",
+        "bank_stabiliser"
+      ],
+      "categories": [
+        "shrubs"
       ]
     },
     {
@@ -20280,6 +22900,123 @@
     },
     {
       "type": "organism",
+      "card_label": "Card 602",
+      "common_name": "Early ginkgo shrub",
+      "scientific_name": "Triassic ginkgo shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Triassic",
+      "species": "ginkgo",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "habitat_provider"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 604",
+      "common_name": "Triassic stream shrub",
+      "scientific_name": "Triassic riparian shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Triassic",
+      "species": "riparian",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "bank_stabiliser"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 603",
+      "common_name": "Triassic seed fern",
+      "scientific_name": "Triassic seed fern shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Triassic",
+      "species": "seed",
+      "biomes": [
+        "Rainforest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "understorey_cover"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
+      "type": "organism",
       "card_label": "Card 518",
       "common_name": "Tribrachidium",
       "scientific_name": "Tribrachidium heraldicum",
@@ -21105,6 +23842,46 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 624",
+      "common_name": "Blueberry/Cranberry shrub",
+      "scientific_name": "Vaccinium sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Vaccinium",
+      "species": "sp.",
+      "biomes": [
+        "Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "fruit_source",
+        "pollinator_resource"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 539",
       "common_name": "Komodo dragon",
       "scientific_name": "Varanus komodoensis",
@@ -21504,6 +24281,45 @@
       ]
     },
     {
+      "type": "organism",
+      "card_label": "Card 598",
+      "common_name": "Voltzia conifer",
+      "scientific_name": "Voltzia sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Voltzia",
+      "species": "sp.",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "primary_producer",
+        "erosion_control"
+      ],
+      "categories": [
+        "shrubs"
+      ]
+    },
+    {
       "card_label": "Card 549",
       "common_name": "Triassic Wetland Moss",
       "scientific_name": "Voronovia bocschii",
@@ -21539,6 +24355,42 @@
       ],
       "categories": [
         "lichens-moss-fungi"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 579",
+      "common_name": "Fennec fox",
+      "scientific_name": "Vulpes zerda",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Vulpes",
+      "species": "zerda",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "omnivore"
       ]
     },
     {
@@ -22054,1121 +24906,6 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 563",
-      "common_name": "Hynerpeton bassetti",
-      "scientific_name": "Hynerpeton bassetti",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Amphibia",
-      "order": "Temnospondyli",
-      "family": "Anthracosauria",
-      "genus": "Hynerpeton",
-      "species": "bassetti",
-      "biomes": [
-        "Forest",
-        "Wetland"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Devonian"
-      ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "predator",
-        "prey"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 564",
-      "common_name": "Lepidodendron aculeatum",
-      "scientific_name": "Lepidodendron aculeatum",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Lycopodiophyta",
-      "class": "Lycopsida",
-      "order": "Lepidodendrales",
-      "family": "Lepidodendraceae",
-      "genus": "Lepidodendron",
-      "species": "aculeatum",
-      "biomes": [
-        "Forest",
-        "Swamp"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 565",
-      "common_name": "Arthropleura armata",
-      "scientific_name": "Arthropleura armata",
-      "main_photo": null,
-      "organism_type": "Terrestrial invertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Arthropoda",
-      "class": "Myriapoda",
-      "order": "Archipolypoda",
-      "family": "Arthropleturidae",
-      "genus": "Arthropleura",
-      "species": "armata",
-      "biomes": [
-        "Forest",
-        "Swamp"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "herbivore",
-        "detritivore",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 566",
-      "common_name": "Psaronius sp.",
-      "scientific_name": "Psaronius sp.",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridophyta",
-      "class": "Filicinae",
-      "order": "Marattiales",
-      "family": "Psaroniaceae",
-      "genus": "Psaronius",
-      "species": "sp.",
-      "biomes": [
-        "Forest",
-        "Swamp"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Permian"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 567",
-      "common_name": "Dicroidium sp.",
-      "scientific_name": "Dicroidium sp.",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pteridospermophyta",
-      "class": "Dicroidophyta",
-      "order": "Dicroidiales",
-      "family": "Dicroidaceae",
-      "genus": "Dicroidium",
-      "species": "sp.",
-      "biomes": [
-        "Forest",
-        "Floodplain"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Triassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 568",
-      "common_name": "Coelophysis bauri",
-      "scientific_name": "Coelophysis bauri",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Reptilia",
-      "order": "Saurischia",
-      "family": "Coelophysidae",
-      "genus": "Coelophysis",
-      "species": "bauri",
-      "biomes": [
-        "Forest",
-        "Floodplain"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Triassic"
-      ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "predator",
-        "prey"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 569",
-      "common_name": "Araucaria sp.",
-      "scientific_name": "Araucaria sp.",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pinophyta",
-      "class": "Pinopsida",
-      "order": "Araucariales",
-      "family": "Araucariaceae",
-      "genus": "Araucaria",
-      "species": "sp.",
-      "biomes": [
-        "Forest"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Jurassic"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 570",
-      "common_name": "Nothofagus sp.",
-      "scientific_name": "Nothofagus sp.",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Magnoliophyta",
-      "class": "Magnoliopsida",
-      "order": "Fagales",
-      "family": "Nothofagaceae",
-      "genus": "Nothofagus",
-      "species": "sp.",
-      "biomes": [
-        "Forest",
-        "Temperate"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Paleogene"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 571",
-      "common_name": "Cynomys ludovicianus",
-      "scientific_name": "Cynomys ludovicianus",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Rodentia",
-      "family": "Sciuridae",
-      "genus": "Cynomys",
-      "species": "ludovicianus",
-      "biomes": [
-        "Grassland",
-        "Forest"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "herbivore",
-        "ecosystem_engineer",
-        "prey"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 572",
-      "common_name": "Quercus sp.",
-      "scientific_name": "Quercus sp.",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Magnoliophyta",
-      "class": "Magnoliopsida",
-      "order": "Fagales",
-      "family": "Fagaceae",
-      "genus": "Quercus",
-      "species": "sp.",
-      "biomes": [
-        "Forest",
-        "Temperate"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Cretaceous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer",
-        "mutualist"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 573",
-      "common_name": "Hyneria lindae",
-      "scientific_name": "Hyneria lindae",
-      "main_photo": null,
-      "organism_type": "Aquatic vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Sarcopterygii",
-      "order": "Coelacanths",
-      "family": "Hyneriidae",
-      "genus": "Hyneria",
-      "species": "lindae",
-      "biomes": [
-        "Desert",
-        "River"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Devonian"
-      ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "predator"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 574",
-      "common_name": "Calamites sp.",
-      "scientific_name": "Calamites sp.",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Sphenophyta",
-      "class": "Equisetopsida",
-      "order": "Calamitales",
-      "family": "Calamitaceae",
-      "genus": "Calamites",
-      "species": "sp.",
-      "biomes": [
-        "Desert",
-        "Floodplain",
-        "Swamp"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Carboniferous"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 575",
-      "common_name": "Lystrosaurus sp.",
-      "scientific_name": "Lystrosaurus sp.",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Synapsida",
-      "order": "Therapsida",
-      "family": "Dicynodontia",
-      "genus": "Lystrosaurus",
-      "species": "sp.",
-      "biomes": [
-        "Desert",
-        "Arid grassland"
-      ],
-      "eras": [
-        "Paleozoic"
-      ],
-      "periods": [
-        "Permian",
-        "Triassic"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "herbivore",
-        "survivor"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 576",
-      "common_name": "Protoceratops andrewsi",
-      "scientific_name": "Protoceratops andrewsi",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Reptilia",
-      "order": "Ornithischia",
-      "family": "Protoceratopsidae",
-      "genus": "Protoceratops",
-      "species": "andrewsi",
-      "biomes": [
-        "Desert"
-      ],
-      "eras": [
-        "Mesozoic"
-      ],
-      "periods": [
-        "Cretaceous"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "herbivore",
-        "prey"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 577",
-      "common_name": "Protylopus sp.",
-      "scientific_name": "Protylopus sp.",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Artiodactyla",
-      "family": "Camelidae",
-      "genus": "Protylopus",
-      "species": "sp.",
-      "biomes": [
-        "Desert",
-        "Arid grassland"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Paleogene"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "browser",
-        "prey"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 578",
-      "common_name": "Early vulture-like bird",
-      "scientific_name": "Cathartornis gracilis",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Aves",
-      "order": "Cathartiformes",
-      "family": "Cathartidae",
-      "genus": "Cathartornis",
-      "species": "gracilis",
-      "biomes": [
-        "Desert",
-        "Arid grassland"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Paleogene"
-      ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "scavenger"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 579",
-      "common_name": "Fennec fox",
-      "scientific_name": "Vulpes zerda",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Carnivora",
-      "family": "Canidae",
-      "genus": "Vulpes",
-      "species": "zerda",
-      "biomes": [
-        "Desert"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene"
-      ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "predator",
-        "omnivore"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 580",
-      "common_name": "Desert tortoise",
-      "scientific_name": "Gopherus agassizii",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Reptilia",
-      "order": "Testudines",
-      "family": "Testudinidae",
-      "genus": "Gopherus",
-      "species": "agassizii",
-      "biomes": [
-        "Desert",
-        "Arid scrubland"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Quaternary"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "herbivore",
-        "ecosystem_engineer",
-        "prey"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 581",
-      "common_name": "Mesohippus bairdi",
-      "scientific_name": "Mesohippus bairdi",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Perissodactyla",
-      "family": "Equidae",
-      "genus": "Mesohippus",
-      "species": "bairdi",
-      "biomes": [
-        "Grassland",
-        "Savanna"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Paleogene"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "herbivore",
-        "grazer",
-        "prey"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 582",
-      "common_name": "Hyaenodon gigas",
-      "scientific_name": "Hyaenodon gigas",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Carnivora",
-      "family": "Hyaenodontidae",
-      "genus": "Hyaenodon",
-      "species": "gigas",
-      "biomes": [
-        "Grassland",
-        "Savanna"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Paleogene"
-      ],
-      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "apex_predator",
-        "scavenger"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 583",
-      "common_name": "Metasequoia sp.",
-      "scientific_name": "Metasequoia sp.",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Pinophyta",
-      "class": "Pinopsida",
-      "order": "Pinales",
-      "family": "Cupressaceae",
-      "genus": "Metasequoia",
-      "species": "sp.",
-      "biomes": [
-        "Grassland",
-        "Forest"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Paleogene"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 584",
-      "common_name": "Equus simplicidens",
-      "scientific_name": "Equus simplicidens",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Perissodactyla",
-      "family": "Equidae",
-      "genus": "Equus",
-      "species": "simplicidens",
-      "biomes": [
-        "Grassland",
-        "Steppe"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "grazer",
-        "prey",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 585",
-      "common_name": "Canis lepophagus",
-      "scientific_name": "Canis lepophagus",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Carnivora",
-      "family": "Canidae",
-      "genus": "Canis",
-      "species": "lepophagus",
-      "biomes": [
-        "Grassland",
-        "Savanna"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene"
-      ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "predator",
-        "scavenger"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 586",
-      "common_name": "Andropogon sp.",
-      "scientific_name": "Andropogon sp.",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Magnoliophyta",
-      "class": "Monocotyledonae",
-      "order": "Poales",
-      "family": "Poaceae",
-      "genus": "Andropogon",
-      "species": "sp.",
-      "biomes": [
-        "Grassland",
-        "Savanna"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 587",
-      "common_name": "Bison priscus",
-      "scientific_name": "Bison priscus",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Artiodactyla",
-      "family": "Bovidae",
-      "genus": "Bison",
-      "species": "priscus",
-      "biomes": [
-        "Grassland",
-        "Steppe"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Quaternary"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "grazer",
-        "ecosystem_engineer",
-        "prey"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 588",
-      "common_name": "Andropogon gerardii",
-      "scientific_name": "Andropogon gerardii",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Magnoliophyta",
-      "class": "Monocotyledonae",
-      "order": "Poales",
-      "family": "Poaceae",
-      "genus": "Andropogon",
-      "species": "gerardii",
-      "biomes": [
-        "Grassland",
-        "Prairie"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Quaternary"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 589",
-      "common_name": "Reindeer / Caribou",
-      "scientific_name": "Rangifer tarandus",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Artiodactyla",
-      "family": "Cervidae",
-      "genus": "Rangifer",
-      "species": "tarandus",
-      "biomes": [
-        "Tundra",
-        "Grassland"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "herbivore",
-        "grazer",
-        "prey"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 590",
-      "common_name": "Arctic fox (Neogene ancestor)",
-      "scientific_name": "Alopex lagopus",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Carnivora",
-      "family": "Canidae",
-      "genus": "Alopex",
-      "species": "lagopus",
-      "biomes": [
-        "Tundra"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "predator",
-        "scavenger"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 591",
-      "common_name": "Mountain avens",
-      "scientific_name": "Dryas octopetala",
-      "main_photo": null,
-      "organism_type": "Plants",
-      "kingdom": "Plantae",
-      "phylum": "Magnoliophyta",
-      "class": "Magnoliopsida",
-      "order": "Rosales",
-      "family": "Rosaceae",
-      "genus": "Dryas",
-      "species": "octopetala",
-      "biomes": [
-        "Tundra",
-        "Alpine"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Neogene",
-        "Quaternary"
-      ],
-      "trophic_level": "Primary producers (autotrophs)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "producer",
-        "ecosystem_engineer"
-      ]
-    },
-    {
-      "type": "organism",
-      "card_label": "Card 592",
-      "common_name": "Muskox",
-      "scientific_name": "Ovibos moschatus",
-      "main_photo": null,
-      "organism_type": "Terrestrial vertebrates",
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Artiodactyla",
-      "family": "Bovidae",
-      "genus": "Ovibos",
-      "species": "moschatus",
-      "biomes": [
-        "Tundra"
-      ],
-      "eras": [
-        "Cenozoic"
-      ],
-      "periods": [
-        "Quaternary"
-      ],
-      "trophic_level": "Primary consumers (herbivores)",
-      "dna_sequence": null,
-      "effects": {
-        "oxygen": 0,
-        "co2": 0,
-        "biodiversity": 1
-      },
-      "bits": null,
-      "role": [
-        "herbivore",
-        "grazer",
-        "prey"
       ]
     }
   ]

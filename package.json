@@ -36,7 +36,8 @@
     "generate:organisms:ground-cover": "node game/copy-ground-cover-organisms.js",
     "generate:organisms:overstory": "node game/copy-overstory-organisms.js",
     "generate:organisms:understory": "node game/copy-understory-organisms.js",
-    "generate:organisms:all": "npm run generate:organisms:working && npm run generate:organisms:base-set && npm run generate:organisms:jurassic && npm run generate:organisms:lichen-moss-fungi && npm run generate:organisms:symbiotic-powerhouse && npm run generate:organisms:bushes && npm run generate:organisms:vines && npm run generate:organisms:herbaceous && npm run generate:organisms:ground-cover && npm run generate:organisms:overstory && npm run generate:organisms:understory"
+    "generate:organisms:shrubs": "node game/copy-shrubs-organisms.js",
+    "generate:organisms:all": "npm run generate:organisms:working && npm run generate:organisms:base-set && npm run generate:organisms:jurassic && npm run generate:organisms:lichen-moss-fungi && npm run generate:organisms:symbiotic-powerhouse && npm run generate:organisms:bushes && npm run generate:organisms:shrubs && npm run generate:organisms:vines && npm run generate:organisms:herbaceous && npm run generate:organisms:ground-cover && npm run generate:organisms:overstory && npm run generate:organisms:understory"
   },
   "keywords": [],
   "author": "",
