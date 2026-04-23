@@ -6,7 +6,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { getEachCardBaseName } = require('./lib/cards/layout-png');
+
 const { ensureDir } = require('./lib/file');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -41,6 +41,44 @@ function loadOrganisms(configPath) {
   return data.organisms;
 }
 
+function loadBaseSetAllOrganisms(configPath) {
+  const abs = path.resolve(REPO_ROOT, configPath);
+  const raw = fs.readFileSync(abs, 'utf8');
+  const data = JSON.parse(raw);
+  
+  // Start with main organisms array
+  const allOrgs = Array.isArray(data.organisms) ? [...data.organisms] : [];
+  
+  // Add organisms from habitat arrays
+  const habitatArrays = [
+    'forestOrganismsByPeriod',
+    'desertOrganismsByPeriod',
+    'grasslandOrganismsByPeriod',
+    'marineOrganismsByPeriod',
+    'tundraOrganismsByPeriod'
+  ];
+  
+  for (const arrayName of habitatArrays) {
+    if (Array.isArray(data[arrayName])) {
+      for (const periodData of data[arrayName]) {
+        if (periodData.organisms && Array.isArray(periodData.organisms)) {
+          for (const org of periodData.organisms) {
+            // Convert habitat array organisms to main format
+            allOrgs.push({
+              name: org.name,
+              common_name: org.name,
+              card_label: org.name, // Use name as card_label for lookup
+              scientific_name: org.name
+            });
+          }
+        }
+      }
+    }
+  }
+  
+  return allOrgs;
+}
+
 function getCardNumberFromLabel(cardLabel) {
   const match = String(cardLabel || '').match(/card\s*(\d+)/i);
   return match ? Number(match[1]) : null;
@@ -69,7 +107,7 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
     const opts = parseArgs();
 
     const workingOrganisms = loadOrganisms(opts.workingConfig);
-    const baseSetOrganisms = loadOrganisms(opts.baseSetConfig);
+    const baseSetOrganisms = loadBaseSetAllOrganisms(opts.baseSetConfig);
 
     const workingDir = path.resolve(REPO_ROOT, opts.workingDir);
     const outDir = path.resolve(REPO_ROOT, opts.outDir);
@@ -79,10 +117,13 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
     // Build card_label → filename map from working organisms (uses working total for padding)
     const workingTotal = workingOrganisms.length;
     const labelToWorkingFile = new Map();
+    const sciNameToWorkingFile = new Map();
     workingOrganisms.forEach((org, index) => {
       const label = (org.card_label || `Card ${index + 1}`).trim().toLowerCase();
+      const sciName = (org.scientific_name || '').trim().toLowerCase();
       const fileName = `${getOrderedCardBaseName(org.card_label || `Card ${index + 1}`, index, workingTotal)}.png`;
       labelToWorkingFile.set(label, fileName);
+      if (sciName) sciNameToWorkingFile.set(sciName, fileName);
     });
 
     ensureDir(outDir);
@@ -94,15 +135,22 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
 
     for (const org of baseSetOrganisms) {
       const label = (org.card_label || '').trim().toLowerCase();
-      const workingFile = labelToWorkingFile.get(label);
+      const sciName = (org.scientific_name || org.name || '').trim().toLowerCase();
+      let workingFile = labelToWorkingFile.get(label);
+      
+      // Fallback to scientific name lookup if card_label not found
+      if (!workingFile && sciName) {
+        workingFile = sciNameToWorkingFile.get(sciName);
+      }
+      
       if (!workingFile) {
-        missing.push(org.card_label || org.common_name || '(unknown)');
+        missing.push(org.card_label || org.common_name || org.name || '(unknown)');
         continue;
       }
 
       const sourcePath = path.join(workingDir, workingFile);
       if (!fs.existsSync(sourcePath)) {
-        missing.push(`${org.card_label} (file not found: ${workingFile})`);
+        missing.push(`${org.card_label || org.name} (file not found: ${workingFile})`);
         continue;
       }
 

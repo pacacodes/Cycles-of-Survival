@@ -6,7 +6,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { getEachCardBaseName } = require('./lib/cards/layout-png');
+
 const { ensureDir } = require('./lib/file');
 
 const REPO_ROOT = path.resolve(__dirname, '..');

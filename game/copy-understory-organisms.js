@@ -6,7 +6,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { getEachCardBaseName } = require('./lib/cards/layout-png');
+
 const { ensureDir } = require('./lib/file');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
@@ -90,8 +90,9 @@ function main() {
     }
 
     const { org: workingOrg, idx: workingIdx } = workingLookup[sciName];
-    const baseName = getEachCardBaseName(workingOrg, workingIdx, workingOrgs.length);
-    const pngName = `${baseName}.png`;
+    // Get the working card filename using the same logic as generate-organism-working-cards.js
+    const workingCardBaseName = getOrderedCardBaseName(workingOrg.card_label, workingIdx, workingOrgs.length);
+    const pngName = `card-${workingCardBaseName}.png`;
     const srcPath = path.resolve(REPO_ROOT, opts.workingDir, pngName);
     
     // Determine output filenames

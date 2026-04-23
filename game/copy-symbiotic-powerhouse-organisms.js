@@ -6,19 +6,15 @@
 
 const fs = require('fs');
 const path = require('path');
-const { getEachCardBaseName } = require('./lib/cards/layout-png');
+
 const { ensureDir } = require('./lib/file');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
 
-// Card numbers for Symbiotic Powerhouse organisms (307-348)
-const SYMBIOTIC_POWERHOUSE_CARDS = new Set([
-  307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348
-]);
-
 function parseArgs() {
   const opts = {
     workingConfig: 'game/config/organisms.json',
+    symbioticConfig: 'game/config/organisms.symbiotic-powerhouses.json',
     workingDir: 'output/Working Organism Cards/current',
     outDir: 'output/Working Organism Cards/Symbiotic Powerhouse Organisms',
     safeDir: 'saved_files/Working Organism Cards/Symbiotic Powerhouse Organisms',
@@ -28,6 +24,7 @@ function parseArgs() {
   for (let i = 0; i < args.length; i++) {
     const a = args[i];
     if (a === '--workingConfig' && args[i + 1]) opts.workingConfig = args[++i];
+    else if (a === '--symbioticConfig' && args[i + 1]) opts.symbioticConfig = args[++i];
     else if (a === '--workingDir' && args[i + 1]) opts.workingDir = args[++i];
     else if (a === '--outDir' && args[i + 1]) opts.outDir = args[++i];
     else if (a === '--safeDir' && args[i + 1]) opts.safeDir = args[++i];
@@ -72,6 +69,7 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
     const opts = parseArgs();
 
     const workingOrganisms = loadOrganisms(opts.workingConfig);
+    const symbioticPowerhouses = loadOrganisms(opts.symbioticConfig);
 
     const workingDir = path.resolve(REPO_ROOT, opts.workingDir);
     const outDir = path.resolve(REPO_ROOT, opts.outDir);
@@ -81,10 +79,13 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
     // Build card_label → filename map from working organisms (uses working total for padding)
     const workingTotal = workingOrganisms.length;
     const labelToWorkingFile = new Map();
+    const sciNameToWorkingFile = new Map();
     workingOrganisms.forEach((org, index) => {
       const label = (org.card_label || `Card ${index + 1}`).trim().toLowerCase();
+      const sciName = (org.scientific_name || '').trim().toLowerCase();
       const fileName = `${getOrderedCardBaseName(org.card_label || `Card ${index + 1}`, index, workingTotal)}.png`;
       labelToWorkingFile.set(label, fileName);
+      if (sciName) sciNameToWorkingFile.set(sciName, fileName);
     });
 
     ensureDir(outDir);
@@ -94,15 +95,16 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
     const expectedFiles = new Set();
     const missing = [];
 
-    // Filter for Symbiotic Powerhouse organisms
-    const symbioticOrganisms = workingOrganisms.filter(org => {
-      const cardNum = getCardNumberFromLabel(org.card_label);
-      return SYMBIOTIC_POWERHOUSE_CARDS.has(cardNum);
-    });
-
-    for (const org of symbioticOrganisms) {
+    for (const org of symbioticPowerhouses) {
       const label = (org.card_label || '').trim().toLowerCase();
-      const workingFile = labelToWorkingFile.get(label);
+      const sciName = (org.scientific_name || '').trim().toLowerCase();
+      let workingFile = labelToWorkingFile.get(label);
+      
+      // Fallback to scientific name lookup if card_label not found
+      if (!workingFile && sciName) {
+        workingFile = sciNameToWorkingFile.get(sciName);
+      }
+      
       if (!workingFile) {
         missing.push(org.card_label || org.common_name || '(unknown)');
         continue;
@@ -131,7 +133,7 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
       for (const m of missing) console.warn(`  - ${m}`);
     }
 
-    console.log(`✓ Copied ${expectedFiles.size} Symbiotic Powerhouse cards to ${outDir}`);
+    console.log(`✅ Copied ${expectedFiles.size}/${symbioticPowerhouses.length} Symbiotic Powerhouse organism cards`);
     console.log(`✓ Mirrored to ${safeDir}`);
     if (legacyDir) console.log(`✓ Mirrored to ${legacyDir}`);
   } catch (err) {
