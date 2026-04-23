@@ -1,6 +1,6 @@
 {
-  "_codeChecksum": "b6f341dcd2a785ebb7220fabf5abddc9",
-  "_generatedAt": "2026-04-22T19:00:50.045Z",
+  "_codeChecksum": "5c96744f205c7fe74b524de3e3010216",
+  "_generatedAt": "2026-04-23T18:10:28.463Z",
   "_paths": {
     "current": "/workspaces/Cycles-of-Survival/output/Working Organism Cards/current",
     "safe": "/workspaces/Cycles-of-Survival/saved_files/Working Organism Cards/current"
@@ -103,7 +103,7 @@
       "fileName": "card-245.png"
     },
     "organism-25": {
-      "signature": "{\"id\":\"organism-25\",\"common_name\":\"Anomalocaris\",\"scientific_name\":\"Anomalocaris canadensis\",\"card_label\":\"Card 91\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Arthropoda\",\"class\":\"Dinocarida\",\"order\":\"Radiodonta\",\"family\":\"Anomalocarididae\",\"genus\":\"Anomalocaris\",\"species\":\"canadensis\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Cambrian\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"role\":[\"predator\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Anomalocaris canadensis.png\",\"missing\":true}}",
+      "signature": "{\"id\":\"organism-25\",\"common_name\":\"Anomalocaris\",\"scientific_name\":\"Anomalocaris canadensis\",\"card_label\":\"Card 91\",\"main_photo\":null,\"organism_type\":\"Aquatic invertebrates\",\"kingdom\":\"Animalia\",\"phylum\":\"Arthropoda\",\"class\":\"Dinocarida\",\"order\":\"Radiodonta\",\"family\":\"Anomalocarididae\",\"genus\":\"Anomalocaris\",\"species\":\"canadensis\",\"biomes\":[\"Marine\"],\"eras\":[\"Paleozoic\"],\"periods\":[\"Cambrian\"],\"trophic_level\":\"Secondary consumers (carnivores that eat herbivores)\",\"role\":[\"predator\"],\"dna_sequence\":null,\"effects\":{\"oxygen\":0,\"co2\":0,\"biodiversity\":1},\"main_photo_asset\":{\"file\":\"Anomalocaris canadensis.png\",\"size\":6586863,\"mtimeMs\":1776888578044}}",
       "fileName": "card-091.png"
     },
     "organism-26": {
