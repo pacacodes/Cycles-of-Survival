@@ -1586,5 +1586,336 @@
         }
       ]
     }
+  ],
+  "grasslandOrganismsByPeriod": [
+    {
+      "period": "Paleogene",
+      "organisms": [
+        {
+          "name": "Mesohippus bairdi",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "grazer", "prey"]
+        },
+        {
+          "name": "Hyaenodon gigas",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["apex_predator", "scavenger"]
+        },
+        {
+          "name": "Metasequoia sp.",
+          "broadType": "plant_tree",
+          "trophicLevel": "producer",
+          "roles": ["ecosystem_engineer"],
+          "notes": "Tree framing early grassy meadows in Paleogene scenes"
+        }
+      ]
+    },
+    {
+      "period": "Neogene",
+      "organisms": [
+        {
+          "name": "Equus simplicidens",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["grazer", "prey", "ecosystem_engineer"]
+        },
+        {
+          "name": "Canis lepophagus",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator", "scavenger"]
+        },
+        {
+          "name": "Andropogon sp.",
+          "broadType": "plant_grass",
+          "trophicLevel": "producer",
+          "roles": ["primary_producer"],
+          "notes": "Represents C4 bunchgrasses in expanding Neogene grasslands"
+        }
+      ]
+    },
+    {
+      "period": "Quaternary",
+      "organisms": [
+        {
+          "name": "Bison priscus",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["grazer", "ecosystem_engineer", "prey"]
+        },
+        {
+          "name": "Panthera leo",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["apex_predator", "scavenger"]
+        },
+        {
+          "name": "Andropogon gerardii",
+          "broadType": "plant_grass",
+          "trophicLevel": "producer",
+          "roles": ["primary_producer", "ecosystem_engineer"],
+          "notes": "Big bluestem, classic tallgrass prairie grass"
+        }
+      ]
+    }
+  ],
+  "marineOrganismsByPeriod": [
+    {
+      "period": "Cambrian",
+      "organisms": [
+        {
+          "name": "Cambrian algae",
+          "broadType": "algae_phytoplankton",
+          "trophicLevel": "producer",
+          "roles": ["producer"],
+          "notes": "Early photosynthetic organisms in ancient oceans"
+        },
+        {
+          "name": "Anomalocaris",
+          "broadType": "aquatic_invertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"]
+        }
+      ]
+    },
+    {
+      "period": "Ordovician",
+      "organisms": [
+        {
+          "name": "Orthoceras",
+          "broadType": "aquatic_invertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"]
+        }
+      ]
+    },
+    {
+      "period": "Silurian",
+      "organisms": [
+        {
+          "name": "Sea Lily",
+          "broadType": "aquatic_invertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["filter_feeder", "ecosystem_engineer", "builder"]
+        },
+        {
+          "name": "Sea Scorpion",
+          "broadType": "aquatic_invertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"]
+        },
+        {
+          "name": "Lingula brachiopod",
+          "broadType": "aquatic_invertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["filter_feeder"]
+        }
+      ]
+    },
+    {
+      "period": "Devonian",
+      "organisms": [
+        {
+          "name": "Bothriolepis",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["filter_feeder"]
+        },
+        {
+          "name": "Armored fish",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["apex_predator"]
+        }
+      ]
+    },
+    {
+      "period": "Carboniferous",
+      "organisms": [
+        {
+          "name": "Productid Brachiopod",
+          "broadType": "aquatic_invertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["filter_feeder"]
+        },
+        {
+          "name": "Scissor-tooth Shark",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"]
+        }
+      ]
+    },
+    {
+      "period": "Permian",
+      "organisms": [
+        {
+          "name": "Mesosaurus",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"]
+        },
+        {
+          "name": "Coiled Nautiloid",
+          "broadType": "aquatic_invertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator", "scavenger"]
+        }
+      ]
+    },
+    {
+      "period": "Triassic",
+      "organisms": [
+        {
+          "name": "Nothosaurus",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"]
+        },
+        {
+          "name": "Placodus",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore"]
+        }
+      ]
+    },
+    {
+      "period": "Jurassic",
+      "organisms": [
+        {
+          "name": "Leedsichthys",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["filter_feeder"]
+        },
+        {
+          "name": "Plesiosaurus",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator"]
+        }
+      ]
+    },
+    {
+      "period": "Cretaceous",
+      "organisms": [
+        {
+          "name": "Mosasaur",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["apex_predator"]
+        },
+        {
+          "name": "Giant Sea Turtle",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["predator", "scavenger"]
+        }
+      ]
+    },
+    {
+      "period": "Paleogene",
+      "organisms": [
+        {
+          "name": "Basilosaurus",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["apex_predator"]
+        },
+        {
+          "name": "Megalodon",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["apex_predator", "scavenger"]
+        }
+      ]
+    },
+    {
+      "period": "Quaternary",
+      "organisms": [
+        {
+          "name": "Calcifying Phytoplanktone",
+          "broadType": "algae_phytoplankton",
+          "trophicLevel": "producer",
+          "roles": ["producer", "ecosystem_engineer"]
+        },
+        {
+          "name": "Antarctic krill",
+          "broadType": "aquatic_invertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["filter_feeder"]
+        },
+        {
+          "name": "Blue whale",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["filter_feeder", "ecosystem_engineer"],
+          "notes": "Largest animal on Earth; filter feeds on krill"
+        },
+        {
+          "name": "Leatherback Sea Turtle",
+          "broadType": "aquatic_vertebrate",
+          "trophicLevel": "tertiary_consumer",
+          "roles": ["predator"]
+        }
+      ]
+    }
+  ],
+  "tundraOrganismsByPeriod": [
+    {
+      "period": "Neogene",
+      "organisms": [
+        {
+          "name": "Rangifer tarandus",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "grazer", "prey"],
+          "notes": "Early cold-adapted grazer in tundra and tundra-like steppe"
+        },
+        {
+          "name": "Alopex lagopus",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "secondary_consumer",
+          "roles": ["predator", "scavenger"],
+          "notes": "Small tundra carnivore hunting rodents and scavenging carrion"
+        },
+        {
+          "name": "Dryas octopetala",
+          "broadType": "plant_shrub",
+          "trophicLevel": "producer",
+          "roles": ["primary_producer", "ecosystem_engineer"],
+          "notes": "Low shrub typical of early tundra and heath communities"
+        }
+      ]
+    },
+    {
+      "period": "Quaternary",
+      "organisms": [
+        {
+          "name": "Mammuthus primigenius",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "ecosystem_engineer", "prey"],
+          "notes": "Iconic tundra megaherbivore reshaping vegetation and soils"
+        },
+        {
+          "name": "Ovibos moschatus",
+          "broadType": "terrestrial_vertebrate",
+          "trophicLevel": "primary_consumer",
+          "roles": ["herbivore", "grazer", "prey"],
+          "notes": "Shaggy tundra bovid forming defensive herds, great for 'tank' mechanics"
+        },
+        {
+          "name": "Cladonia rangiferina",
+          "broadType": "lichen",
+          "trophicLevel": "producer",
+          "roles": ["primary_producer", "ecosystem_engineer", "mutualist"],
+          "notes": "Dominant ground cover and key winter forage for large herbivores"
+        }
+      ]
+    }
   ]
 }

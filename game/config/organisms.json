@@ -22722,6 +22722,454 @@
         "ecosystem_engineer",
         "prey"
       ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 369",
+      "common_name": "Mesohippus bairdi",
+      "scientific_name": "Mesohippus bairdi",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Mesohippus",
+      "species": "bairdi",
+      "biomes": [
+        "Grassland",
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "grazer",
+        "prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 370",
+      "common_name": "Hyaenodon gigas",
+      "scientific_name": "Hyaenodon gigas",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Hyaenodontidae",
+      "genus": "Hyaenodon",
+      "species": "gigas",
+      "biomes": [
+        "Grassland",
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "apex_predator",
+        "scavenger"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 371",
+      "common_name": "Metasequoia sp.",
+      "scientific_name": "Metasequoia sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Cupressaceae",
+      "genus": "Metasequoia",
+      "species": "sp.",
+      "biomes": [
+        "Grassland",
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 372",
+      "common_name": "Equus simplicidens",
+      "scientific_name": "Equus simplicidens",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Equus",
+      "species": "simplicidens",
+      "biomes": [
+        "Grassland",
+        "Steppe"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "grazer",
+        "prey",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 373",
+      "common_name": "Canis lepophagus",
+      "scientific_name": "Canis lepophagus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "species": "lepophagus",
+      "biomes": [
+        "Grassland",
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "scavenger"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 374",
+      "common_name": "Andropogon sp.",
+      "scientific_name": "Andropogon sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Monocotyledonae",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Andropogon",
+      "species": "sp.",
+      "biomes": [
+        "Grassland",
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 375",
+      "common_name": "Bison priscus",
+      "scientific_name": "Bison priscus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bison",
+      "species": "priscus",
+      "biomes": [
+        "Grassland",
+        "Steppe"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "grazer",
+        "ecosystem_engineer",
+        "prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 376",
+      "common_name": "Andropogon gerardii",
+      "scientific_name": "Andropogon gerardii",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Monocotyledonae",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Andropogon",
+      "species": "gerardii",
+      "biomes": [
+        "Grassland",
+        "Prairie"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 377",
+      "common_name": "Reindeer / Caribou",
+      "scientific_name": "Rangifer tarandus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Rangifer",
+      "species": "tarandus",
+      "biomes": [
+        "Tundra",
+        "Grassland"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "grazer",
+        "prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 378",
+      "common_name": "Arctic fox (Neogene ancestor)",
+      "scientific_name": "Alopex lagopus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Alopex",
+      "species": "lagopus",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores that eat herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "scavenger"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 379",
+      "common_name": "Mountain avens",
+      "scientific_name": "Dryas octopetala",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Rosales",
+      "family": "Rosaceae",
+      "genus": "Dryas",
+      "species": "octopetala",
+      "biomes": [
+        "Tundra",
+        "Alpine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene",
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 380",
+      "common_name": "Muskox",
+      "scientific_name": "Ovibos moschatus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Ovibos",
+      "species": "moschatus",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "grazer",
+        "prey"
+      ]
     }
   ]
 }
