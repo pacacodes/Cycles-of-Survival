@@ -24907,6 +24907,1746 @@
       "categories": [
         "symbiotic-powerhouses"
       ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 637",
+      "common_name": "Australian box jellyfish",
+      "scientific_name": "Chironex fleckeri",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Chironex",
+      "species": "fleckeri",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "apex_invertebrate",
+        "ambush_predator",
+        "area_denial"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 638",
+      "common_name": "Irukandji jellyfish",
+      "scientific_name": "Carukia barnesi",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Carukia",
+      "species": "barnesi",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "small_predator",
+        "area_denial"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 639",
+      "common_name": "Reef stonefish",
+      "scientific_name": "Synanceia verrucosa",
+      "main_photo": null,
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Synanceia",
+      "species": "verrucosa",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "ambush_predator",
+        "camouflage_specialist"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 640",
+      "common_name": "Common stingray",
+      "scientific_name": "Dasyatis pastinaca",
+      "main_photo": null,
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Dasyatis",
+      "species": "pastinaca",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_prey",
+        "bottom_dweller"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 641",
+      "common_name": "Fat-tailed scorpion",
+      "scientific_name": "Androctonus australis",
+      "main_photo": null,
+      "organism_type": "Arachnids",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Androctonus",
+      "species": "australis",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "small_predator",
+        "burrower"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 642",
+      "common_name": "Deathstalker scorpion",
+      "scientific_name": "Leiurus quinquestriatus",
+      "main_photo": null,
+      "organism_type": "Arachnids",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Leiurus",
+      "species": "quinquestriatus",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "small_predator",
+        "nocturnal_hunter"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 643",
+      "common_name": "Crown-of-thorns starfish",
+      "scientific_name": "Acanthaster planci",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Acanthaster",
+      "species": "planci",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "reef_predator",
+        "ecosystem_engineer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 644",
+      "common_name": "Long-spined sea urchin",
+      "scientific_name": "Diadema setosum",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Diadema",
+      "species": "setosum",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_grazer",
+        "reef_grazer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 645",
+      "common_name": "Red lionfish",
+      "scientific_name": "Pterois volitans",
+      "main_photo": null,
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Pterois",
+      "species": "volitans",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "reef_predator",
+        "invasive_species"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 646",
+      "common_name": "Lonomia caterpillar",
+      "scientific_name": "Lonomia obliqua",
+      "main_photo": null,
+      "organism_type": "Insects",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Lonomia",
+      "species": "obliqua",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_herbivore"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 647",
+      "common_name": "Golden poison frog",
+      "scientific_name": "Phyllobates terribilis",
+      "main_photo": null,
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Phyllobates",
+      "species": "terribilis",
+      "biomes": [
+        "Rainforest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_prey",
+        "insect_controller"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 648",
+      "common_name": "Greater blue-ringed octopus",
+      "scientific_name": "Hapalochlaena lunulata",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Hapalochlaena",
+      "species": "lunulata",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "small_predator",
+        "camouflage_specialist"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 649",
+      "common_name": "Geography cone snail",
+      "scientific_name": "Conus geographus",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Conus",
+      "species": "geographus",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "ambush_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 650",
+      "common_name": "Pufferfish (toxic species)",
+      "scientific_name": "Tetraodontidae spp.",
+      "main_photo": null,
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Tetraodontidae",
+      "species": "spp.",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 651",
+      "common_name": "Rough-skinned newt",
+      "scientific_name": "Taricha granulosa",
+      "main_photo": null,
+      "organism_type": "Aquatic vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Taricha",
+      "species": "granulosa",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_prey"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 652",
+      "common_name": "Inland taipan",
+      "scientific_name": "Oxyuranus microlepidotus",
+      "main_photo": null,
+      "organism_type": "Reptiles",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Oxyuranus",
+      "species": "microlepidotus",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "apex_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 653",
+      "common_name": "King cobra",
+      "scientific_name": "Ophiophagus hannah",
+      "main_photo": null,
+      "organism_type": "Reptiles",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Ophiophagus",
+      "species": "hannah",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "apex_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 654",
+      "common_name": "Black mamba",
+      "scientific_name": "Dendroaspis polylepis",
+      "main_photo": null,
+      "organism_type": "Reptiles",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Dendroaspis",
+      "species": "polylepis",
+      "biomes": [
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "apex_predator",
+        "pursuit_hunter"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 655",
+      "common_name": "Sydney funnel-web spider",
+      "scientific_name": "Atrax robustus",
+      "main_photo": null,
+      "organism_type": "Arachnids",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Atrax",
+      "species": "robustus",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "ambush_predator",
+        "burrower"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 656",
+      "common_name": "Brazilian wandering spider",
+      "scientific_name": "Phoneutria nigriventer",
+      "main_photo": null,
+      "organism_type": "Arachnids",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Phoneutria",
+      "species": "nigriventer",
+      "biomes": [
+        "Rainforest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "roaming_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 657",
+      "common_name": "Crested porcupine",
+      "scientific_name": "Hystrix cristata",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Hystrix",
+      "species": "cristata",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_herbivore"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 658",
+      "common_name": "North American porcupine",
+      "scientific_name": "Erethizon dorsatum",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Erethizon",
+      "species": "dorsatum",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_herbivore"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 659",
+      "common_name": "Jumping cholla",
+      "scientific_name": "Cylindropuntia fulgida",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Cylindropuntia",
+      "species": "fulgida",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 660",
+      "common_name": "Coconut crab",
+      "scientific_name": "Birgus latro",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Birgus",
+      "species": "latro",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "omnivore_scavenger"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 661",
+      "common_name": "Peacock mantis shrimp",
+      "scientific_name": "Odontodactylus scyllarus",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Odontodactylus",
+      "species": "scyllarus",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "ambush_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 662",
+      "common_name": "Nile crocodile",
+      "scientific_name": "Crocodylus niloticus",
+      "main_photo": null,
+      "organism_type": "Reptiles",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Crocodylus",
+      "species": "niloticus",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "apex_predator",
+        "ambush_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 663",
+      "common_name": "Bearded fireworm",
+      "scientific_name": "Hermodice carunculata",
+      "main_photo": null,
+      "organism_type": "Aquatic invertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Hermodice",
+      "species": "carunculata",
+      "biomes": [
+        "Marine"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "benthic_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 664",
+      "common_name": "Deadly nightshade",
+      "scientific_name": "Atropa belladonna",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Atropa",
+      "species": "belladonna",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "toxic_plant"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 665",
+      "common_name": "Poison hemlock",
+      "scientific_name": "Conium maculatum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Conium",
+      "species": "maculatum",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "toxic_plant"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 666",
+      "common_name": "Water hemlock",
+      "scientific_name": "Cicuta maculata",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Cicuta",
+      "species": "maculata",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "toxic_plant"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 667",
+      "common_name": "Oleander",
+      "scientific_name": "Nerium oleander",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Nerium",
+      "species": "oleander",
+      "biomes": [
+        "Shrubland/Chaparral"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "ornamental_toxic"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 668",
+      "common_name": "Rosary pea",
+      "scientific_name": "Abrus precatorius",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Abrus",
+      "species": "precatorius",
+      "biomes": [
+        "Rainforest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "toxic_seed"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 669",
+      "common_name": "Castor bean",
+      "scientific_name": "Ricinus communis",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Ricinus",
+      "species": "communis",
+      "biomes": [
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "toxic_seed"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 670",
+      "common_name": "Jimsonweed",
+      "scientific_name": "Datura stramonium",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Datura",
+      "species": "stramonium",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "hallucinogenic_toxic"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 671",
+      "common_name": "Foxglove",
+      "scientific_name": "Digitalis purpurea",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Digitalis",
+      "species": "purpurea",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "cardiotoxic_plant"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 672",
+      "common_name": "Gum arabic tree",
+      "scientific_name": "Acacia nilotica",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Acacia",
+      "species": "nilotica",
+      "biomes": [
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "thorny_shelter"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 673",
+      "common_name": "Plague bacterium",
+      "scientific_name": "Yersinia pestis",
+      "main_photo": null,
+      "organism_type": "Microorganisms",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Yersinia",
+      "species": "pestis",
+      "biomes": [
+        "Savanna"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Pathogen",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "lethal_pathogen"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 674",
+      "common_name": "Anthrax bacterium",
+      "scientific_name": "Bacillus anthracis",
+      "main_photo": null,
+      "organism_type": "Microorganisms",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Bacillus",
+      "species": "anthracis",
+      "biomes": [
+        "Grasslands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Pathogen",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "lethal_pathogen",
+        "soil_reservoir"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 675",
+      "common_name": "Botulism bacterium",
+      "scientific_name": "Clostridium botulinum",
+      "main_photo": null,
+      "organism_type": "Microorganisms",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Clostridium",
+      "species": "botulinum",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposer",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "toxin_producer"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 676",
+      "common_name": "TB bacterium",
+      "scientific_name": "Mycobacterium tuberculosis",
+      "main_photo": null,
+      "organism_type": "Microorganisms",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Mycobacterium",
+      "species": "tuberculosis",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Pathogen",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "lethal_pathogen"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 677",
+      "common_name": "Drug-resistant Pseudomonas",
+      "scientific_name": "Pseudomonas aeruginosa (MDR)",
+      "main_photo": null,
+      "organism_type": "Microorganisms",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Pseudomonas",
+      "species": "aeruginosa",
+      "biomes": [
+        "Anthropogenic"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Pathogen",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "hospital_pathogen"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 678",
+      "common_name": "Cryptococcal yeast",
+      "scientific_name": "Cryptococcus neoformans",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Cryptococcus",
+      "species": "neoformans",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposer",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "lethal_pathogen"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 679",
+      "common_name": "Candida auris yeast",
+      "scientific_name": "Candida auris",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Candida",
+      "species": "auris",
+      "biomes": [
+        "Anthropogenic"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Pathogen",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "hospital_pathogen"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 680",
+      "common_name": "Histoplasma fungus",
+      "scientific_name": "Histoplasma capsulatum",
+      "main_photo": null,
+      "organism_type": "Fungi",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Histoplasma",
+      "species": "capsulatum",
+      "biomes": [
+        "Cave"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposer",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "respiratory_pathogen"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 681",
+      "common_name": "Gorgonopsid",
+      "scientific_name": "Gorgonops torvus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Gorgonops",
+      "species": "torvus",
+      "biomes": [
+        "Savanna"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "apex_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 682",
+      "common_name": "Spinosaurus",
+      "scientific_name": "Spinosaurus aegyptiacus",
+      "main_photo": null,
+      "organism_type": "Dinosaurs",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Spinosaurus",
+      "species": "aegyptiacus",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "apex_predator"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 683",
+      "common_name": "Ankylosaurus",
+      "scientific_name": "Ankylosaurus magniventris",
+      "main_photo": null,
+      "organism_type": "Dinosaurs",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Ankylosaurus",
+      "species": "magniventris",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_herbivore"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 684",
+      "common_name": "Spicomellus",
+      "scientific_name": "Spicomellus afer",
+      "main_photo": null,
+      "organism_type": "Dinosaurs",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Spicomellus",
+      "species": "afer",
+      "biomes": [
+        "Desert"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "defensive_herbivore"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 685",
+      "common_name": "Deinonychus",
+      "scientific_name": "Deinonychus antirrhopus",
+      "main_photo": null,
+      "organism_type": "Dinosaurs",
+      "kingdom": "Animalia",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Deinonychus",
+      "species": "antirrhopus",
+      "biomes": [
+        "Forest"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Tertiary consumers (carnivores that eat other carnivores)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "pack_predator"
+      ]
     }
   ]
 }
