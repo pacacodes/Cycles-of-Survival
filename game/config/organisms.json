@@ -26647,6 +26647,1489 @@
       "role": [
         "pack_predator"
       ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 686",
+      "common_name": "Standley's palm",
+      "scientific_name": "Astrocaryum standleyanum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Astrocaryum",
+      "species": "standleyanum",
+      "biomes": [
+        "Rainforest",
+        "Tropical Forest"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "defensive_producer",
+        "thorny_shelter"
+      ],
+      "categories": [
+        "plants-general"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 687",
+      "common_name": "Primitive liverwort",
+      "scientific_name": "Early liverwort mat",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Marchantiophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Large River Headwaters"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Ordovician"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "pioneer_root_layer",
+        "soil_crust_builder"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 688",
+      "common_name": "Primitive hornwort",
+      "scientific_name": "Early hornwort mat",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Anthocerophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Small Rivers"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "pioneer_root_layer",
+        "soil_former"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 689",
+      "common_name": "Cooksonia",
+      "scientific_name": "Cooksonia sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Cooksonia",
+      "species": "sp.",
+      "biomes": [
+        "Flooded Grasslands and Savannas"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Silurian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "pioneer_root_layer",
+        "erosion_control"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 690",
+      "common_name": "Rhynia",
+      "scientific_name": "Rhynia gwynne-vaughanii",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Rhynia",
+      "species": "gwynne-vaughanii",
+      "biomes": [
+        "Large River Headwaters"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "shallow_root_layer",
+        "soil_former"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 691",
+      "common_name": "Early lycophyte",
+      "scientific_name": "Asteroxylon mackiei",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Lycopodiophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Asteroxylon",
+      "species": "mackiei",
+      "biomes": [
+        "Flooded Grasslands and Savannas"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "deepening_root_layer",
+        "pioneer_treelet"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 692",
+      "common_name": "Archaeopteris tree",
+      "scientific_name": "Archaeopteris sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pteridophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Archaeopteris",
+      "species": "sp.",
+      "biomes": [
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Devonian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "deep_root_layer",
+        "soil_engineer"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 693",
+      "common_name": "Scale tree",
+      "scientific_name": "Lepidodendron sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Lycopodiophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Lepidodendron",
+      "species": "sp.",
+      "biomes": [
+        "Flooded Grasslands and Savannas"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "swamp_root_layer",
+        "peat_former"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 694",
+      "common_name": "Sigillaria",
+      "scientific_name": "Sigillaria sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Lycopodiophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Sigillaria",
+      "species": "sp.",
+      "biomes": [
+        "Flooded Grasslands and Savannas"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -3,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "swamp_root_layer",
+        "carbon_storage"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 695",
+      "common_name": "Giant horsetail tree",
+      "scientific_name": "Calamites sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Equisetophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Calamites",
+      "species": "sp.",
+      "biomes": [
+        "Large Rivers"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "bank_stabiliser_root_layer",
+        "flood_resistant"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 696",
+      "common_name": "Cordaites tree",
+      "scientific_name": "Cordaites sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Coniferophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Cordaites",
+      "species": "sp.",
+      "biomes": [
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Carboniferous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "deep_root_layer",
+        "drought_buffer"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 697",
+      "common_name": "Glossopteris",
+      "scientific_name": "Glossopteris sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Pteridophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Glossopteris",
+      "species": "sp.",
+      "biomes": [
+        "Boreal Forests and Taiga"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "cool_climate_root_layer",
+        "soil_former"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 698",
+      "common_name": "Early conifer",
+      "scientific_name": "Walchia sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Coniferophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Walchia",
+      "species": "sp.",
+      "biomes": [
+        "Temperate Coniferous Forests"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "deep_root_layer",
+        "drought_resistant"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 699",
+      "common_name": "Early cycad",
+      "scientific_name": "Permian cycad form",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Cycadophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Tropical and Subtropical Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Paleozoic"
+      ],
+      "periods": [
+        "Permian"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "nitrogen_associated_root",
+        "herbivore_food"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 700",
+      "common_name": "Triassic conifer tree",
+      "scientific_name": "Triassic conifer",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Coniferophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Temperate Coniferous Forests"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "forest_root_layer",
+        "slope_stabiliser"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 701",
+      "common_name": "Triassic cycad",
+      "scientific_name": "Cycadales (Triassic)",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Cycadophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Tropical and Subtropical Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Triassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "nitrogen_associated_root",
+        "fire_resilient"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 702",
+      "common_name": "Early ginkgo",
+      "scientific_name": "Ginkgoales (Jurassic)",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Ginkgophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Large Rivers"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "bank_stabiliser_root_layer",
+        "flood_tolerant"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 703",
+      "common_name": "Jurassic araucarian",
+      "scientific_name": "Araucaria-type conifer",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Coniferophyta",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Araucariaceae",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Temperate Coniferous Forests"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "deep_root_layer",
+        "long_lived_tree"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 704",
+      "common_name": "Bennettitalean plant",
+      "scientific_name": "Bennettitalean root shrub",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Unknown",
+      "class": "Unknown",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Jurassic"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "understorey_root_layer",
+        "soil_binder"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 705",
+      "common_name": "Early magnolia-type tree",
+      "scientific_name": "Magnoliid ancestor",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Magnoliales",
+      "family": "Magnoliaceae",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Tropical and Subtropical Moist Broadleaf Forests"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "deep_root_layer",
+        "nutrient_pump"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 706",
+      "common_name": "Cretaceous palm",
+      "scientific_name": "Early palm-type",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Liliopsida",
+      "order": "Arecales",
+      "family": "Arecaceae",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Tropical and Subtropical Moist Broadleaf Forests"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "shore_root_layer",
+        "storm_buffer"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 707",
+      "common_name": "Stem grass",
+      "scientific_name": "Early grass lineage",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Tropical and Subtropical Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Mesozoic"
+      ],
+      "periods": [
+        "Cretaceous"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "grassland_root_layer",
+        "grazer_food"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 708",
+      "common_name": "Primitive oak",
+      "scientific_name": "Early oak-type angiosperm",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Fagales",
+      "family": "Fagaceae",
+      "genus": "Quercus",
+      "species": "Unknown",
+      "biomes": [
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "deep_root_layer",
+        "soil_engineer"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 709",
+      "common_name": "Nitrogen-fixing tree",
+      "scientific_name": "Casuarina-type tree",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Casuarinales",
+      "family": "Casuarinaceae",
+      "genus": "Casuarina",
+      "species": "Unknown",
+      "biomes": [
+        "Mediterranean Forests, Woodlands, and Scrub"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Paleogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "nitrogen_fixer_root_layer",
+        "windbreak"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 710",
+      "common_name": "Early acacia",
+      "scientific_name": "Neogene acacia ancestor",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Acacia",
+      "species": "Unknown",
+      "biomes": [
+        "Tropical and Subtropical Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "deep_root_layer",
+        "nitrogen_fixer_root"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 711",
+      "common_name": "C4 bunchgrass",
+      "scientific_name": "Andropogon-type C4 grass",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Andropogon",
+      "species": "Unknown",
+      "biomes": [
+        "Temperate Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "deep_grass_root_layer",
+        "erosion_control"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 712",
+      "common_name": "Mountain avens",
+      "scientific_name": "Dryas octopetala",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Rosales",
+      "family": "Rosaceae",
+      "genus": "Dryas",
+      "species": "octopetala",
+      "biomes": [
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "tundra_root_layer",
+        "frost_heave_resistant"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 713",
+      "common_name": "Early mangrove",
+      "scientific_name": "Neogene mangrove ancestor",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Unknown",
+      "species": "Unknown",
+      "biomes": [
+        "Mangroves"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Neogene"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "tidal_root_layer",
+        "coast_protector"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 714",
+      "common_name": "Rhododendron",
+      "scientific_name": "Rhododendron sp.",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Ericales",
+      "family": "Ericaceae",
+      "genus": "Rhododendron",
+      "species": "sp.",
+      "biomes": [
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "acid_forest_root_layer",
+        "soil_binder"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 715",
+      "common_name": "Oak tree",
+      "scientific_name": "Quercus robur",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Fagales",
+      "family": "Fagaceae",
+      "genus": "Quercus",
+      "species": "robur",
+      "biomes": [
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "deep_root_layer",
+        "water_uplift"
+      ],
+      "categories": [
+        "plants-general"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 716",
+      "common_name": "Scots pine",
+      "scientific_name": "Pinus sylvestris",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Coniferophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "sylvestris",
+      "biomes": [
+        "Boreal Forests and Taiga"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "boreal_root_layer",
+        "carbon_storage"
+      ],
+      "categories": [
+        "plants-general"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 717",
+      "common_name": "Black mangrove",
+      "scientific_name": "Avicennia marina",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Acanthaceae",
+      "genus": "Avicennia",
+      "species": "marina",
+      "biomes": [
+        "Mangroves"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "tidal_root_layer",
+        "sediment_trapper"
+      ],
+      "categories": [
+        "plants-general"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 718",
+      "common_name": "Teosinte/early maize",
+      "scientific_name": "Zea mays (wild ancestor)",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Liliopsida",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Zea",
+      "species": "mays",
+      "biomes": [
+        "Temperate Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "root_crop_layer",
+        "soil_cover"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 719",
+      "common_name": "Alfalfa",
+      "scientific_name": "Medicago sativa",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Medicago",
+      "species": "sativa",
+      "biomes": [
+        "Temperate Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "nitrogen_fixer_root_layer",
+        "subsoil_miner"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 720",
+      "common_name": "Wild carrot/early carrot",
+      "scientific_name": "Daucus carota",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Apiales",
+      "family": "Apiaceae",
+      "genus": "Daucus",
+      "species": "carota",
+      "biomes": [
+        "Temperate Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "edible_root_layer",
+        "soil_breaker"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 721",
+      "common_name": "Groundnut",
+      "scientific_name": "Apios americana",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Apios",
+      "species": "americana",
+      "biomes": [
+        "Small Rivers"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "edible_root_layer",
+        "nitrogen_fixer_root"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 722",
+      "common_name": "Jerusalem artichoke",
+      "scientific_name": "Helianthus tuberosus",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Helianthus",
+      "species": "tuberosus",
+      "biomes": [
+        "Temperate Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "edible_root_layer",
+        "soil_loosened"
+      ],
+      "categories": [
+        "roots"
+      ]
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 723",
+      "common_name": "Garlic",
+      "scientific_name": "Allium sativum",
+      "main_photo": null,
+      "organism_type": "Plants",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Liliopsida",
+      "order": "Asparagales",
+      "family": "Amaryllidaceae",
+      "genus": "Allium",
+      "species": "sativum",
+      "biomes": [
+        "Mediterranean Forests, Woodlands, and Scrub"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "edible_root_layer",
+        "pest_repellent_root"
+      ],
+      "categories": [
+        "roots"
+      ]
     }
   ]
 }

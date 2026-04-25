@@ -647,5 +647,16 @@
     "trophicLevel": "tertiary_consumer",
     "roles": ["pack_predator"],
     "notes": "Sickle-shaped toe claws designed for slashing; dangerous pack hunter."
+  },
+  {
+    "name": "Astrocaryum standleyanum",
+    "commonName": "Standley's palm",
+    "period": "Quaternary",
+    "biome": "Rainforest",
+    "broadType": "plant",
+    "weaponType": ["spines", "thorns"],
+    "trophicLevel": "producer",
+    "roles": ["defensive_producer", "thorny_shelter"],
+    "notes": "Palm tree with sharp spines on trunk and fronds; causes deep puncture wounds and infections."
   }
 ]
