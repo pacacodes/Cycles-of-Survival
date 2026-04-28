@@ -1,662 +1,1033 @@
-[
-  {
-    "name": "Chironex fleckeri",
-    "commonName": "Australian box jellyfish",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "cnidarian",
-    "weaponType": ["stinger", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["apex_invertebrate", "ambush_predator", "area_denial"],
-    "notes": "Tentacles carry extremely potent venom that can cause cardiac arrest in minutes."
-  },
-  {
-    "name": "Carukia barnesi",
-    "commonName": "Irukandji jellyfish",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "cnidarian",
-    "weaponType": ["stinger", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["small_predator", "area_denial"],
-    "notes": "Tiny jellyfish whose venom causes Irukandji syndrome; stings can be life-threatening."
-  },
-  {
-    "name": "Synanceia verrucosa",
-    "commonName": "Reef stonefish",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "bony_fish",
-    "weaponType": ["spine", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["ambush_predator", "camouflage_specialist"],
-    "notes": "Dorsal spines inject venom causing extreme pain, tissue necrosis, and sometimes death."
-  },
-  {
-    "name": "Dasyatis pastinaca",
-    "commonName": "Common stingray",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "cartilaginous_fish",
-    "weaponType": ["spine", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["defensive_prey", "bottom_dweller"],
-    "notes": "Tail spine can puncture deep into tissue, occasionally severing major blood vessels."
-  },
-  {
-    "name": "Androctonus australis",
-    "commonName": "Fat-tailed scorpion",
-    "period": "Quaternary",
-    "biome": "Desert",
-    "broadType": "arachnid",
-    "weaponType": ["stinger", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["small_predator", "burrower"],
-    "notes": "Among the most dangerous scorpions; venom can cause respiratory failure."
-  },
-  {
-    "name": "Leiurus quinquestriatus",
-    "commonName": "Deathstalker scorpion",
-    "period": "Quaternary",
-    "biome": "Desert",
-    "broadType": "arachnid",
-    "weaponType": ["stinger", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["small_predator", "nocturnal_hunter"],
-    "notes": "Highly toxic venom that can be fatal, especially to small animals and children."
-  },
-  {
-    "name": "Acanthaster planci",
-    "commonName": "Crown-of-thorns starfish",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "echinoderm",
-    "weaponType": ["spine", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["reef_predator", "ecosystem_engineer"],
-    "notes": "Long venomous spines cause deep wounds and can lead to serious systemic reactions."
-  },
-  {
-    "name": "Diadema setosum",
-    "commonName": "Long-spined sea urchin",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "echinoderm",
-    "weaponType": ["spine", "venom"],
-    "trophicLevel": "primary_consumer",
-    "roles": ["defensive_grazer", "reef_grazer"],
-    "notes": "Needle-like spines break easily and can cause severe injury and infection."
-  },
-  {
-    "name": "Pterois volitans",
-    "commonName": "Red lionfish",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "bony_fish",
-    "weaponType": ["spine", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["reef_predator", "invasive_species"],
-    "notes": "Fin spines deliver venom causing intense pain and systemic symptoms; invasive in some regions."
-  },
-  {
-    "name": "Lonomia obliqua",
-    "commonName": "Lonomia caterpillar",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "insect_larva",
-    "weaponType": ["spine", "venom"],
-    "trophicLevel": "primary_consumer",
-    "roles": ["defensive_herbivore"],
-    "notes": "Venomous spines induce severe clotting disorders and hemorrhage; many deaths recorded."
-  },
-  {
-    "name": "Phyllobates terribilis",
-    "commonName": "Golden poison frog",
-    "period": "Quaternary",
-    "biome": "Rainforest",
-    "broadType": "amphibian",
-    "weaponType": ["poison_skin"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["defensive_prey", "insect_controller"],
-    "notes": "Skin secretes batrachotoxin; tiny amounts can stop the heart of large animals."
-  },
-  {
-    "name": "Hapalochlaena lunulata",
-    "commonName": "Greater blue-ringed octopus",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "cephalopod",
-    "weaponType": ["bite", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["small_predator", "camouflage_specialist"],
-    "notes": "Delivers tetrodotoxin via bite, causing rapid paralysis and respiratory arrest."
-  },
-  {
-    "name": "Conus geographus",
-    "commonName": "Geography cone snail",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "gastropod",
-    "weaponType": ["harpoon_tooth", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["ambush_predator"],
-    "notes": "Shoots a harpoon-like tooth with conotoxin; several human fatalities documented."
-  },
-  {
-    "name": "Tetraodontidae spp.",
-    "commonName": "Pufferfish (toxic species)",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "bony_fish",
-    "weaponType": ["poison_flesh"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["defensive_prey"],
-    "notes": "Organs contain tetrodotoxin; ingestion can cause rapid paralysis and death."
-  },
-  {
-    "name": "Taricha granulosa",
-    "commonName": "Rough-skinned newt",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "amphibian",
-    "weaponType": ["poison_skin"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["defensive_prey"],
-    "notes": "Skin contains enough tetrodotoxin to kill large predators if ingested."
-  },
-  {
-    "name": "Oxyuranus microlepidotus",
-    "commonName": "Inland taipan",
-    "period": "Quaternary",
-    "biome": "Grasslands",
-    "broadType": "snake",
-    "weaponType": ["fangs", "venom"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator"],
-    "notes": "One of the most venomous snakes; untreated bites are frequently fatal."
-  },
-  {
-    "name": "Ophiophagus hannah",
-    "commonName": "King cobra",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "snake",
-    "weaponType": ["fangs", "venom"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator"],
-    "notes": "Preys on other snakes; large venom yield makes bites highly dangerous."
-  },
-  {
-    "name": "Dendroaspis polylepis",
-    "commonName": "Black mamba",
-    "period": "Quaternary",
-    "biome": "Savanna",
-    "broadType": "snake",
-    "weaponType": ["fangs", "venom"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator", "pursuit_hunter"],
-    "notes": "Fast-moving snake with potent neurotoxic venom and high untreated fatality rate."
-  },
-  {
-    "name": "Atrax robustus",
-    "commonName": "Sydney funnel-web spider",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "arachnid",
-    "weaponType": ["fangs", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["ambush_predator", "burrower"],
-    "notes": "Aggressive spider with neurotoxic venom; historically many serious envenomations."
-  },
-  {
-    "name": "Phoneutria nigriventer",
-    "commonName": "Brazilian wandering spider",
-    "period": "Quaternary",
-    "biome": "Rainforest",
-    "broadType": "arachnid",
-    "weaponType": ["fangs", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["roaming_predator"],
-    "notes": "Highly mobile, potent venom; medically important and potentially lethal."
-  },
-  {
-    "name": "Hystrix cristata",
-    "commonName": "Crested porcupine",
-    "period": "Quaternary",
-    "biome": "Grasslands",
-    "broadType": "mammal",
-    "weaponType": ["quills", "spikes"],
-    "trophicLevel": "primary_consumer",
-    "roles": ["defensive_herbivore"],
-    "notes": "Long quills can deeply impale predators; infection and organ damage may be fatal."
-  },
-  {
-    "name": "Erethizon dorsatum",
-    "commonName": "North American porcupine",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "mammal",
-    "weaponType": ["quills", "spikes"],
-    "trophicLevel": "primary_consumer",
-    "roles": ["defensive_herbivore"],
-    "notes": "Barbed quills are difficult to remove and can kill attacking animals via infection."
-  },
-  {
-    "name": "Carnegiea gigantea",
-    "commonName": "Saguaro cactus",
-    "period": "Quaternary",
-    "biome": "Desert",
-    "broadType": "plant",
-    "weaponType": ["spines"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "habitat_provider"],
-    "notes": "Large spines and heavy arms can impale or crush animals under certain conditions."
-  },
-  {
-    "name": "Cylindropuntia fulgida",
-    "commonName": "Jumping cholla",
-    "period": "Quaternary",
-    "biome": "Desert",
-    "broadType": "plant",
-    "weaponType": ["spines"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer"],
-    "notes": "Barbed segments detach and embed deeply, causing painful wounds and infections."
-  },
-  {
-    "name": "Birgus latro",
-    "commonName": "Coconut crab",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "crustacean",
-    "weaponType": ["claws", "pinchers"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["omnivore_scavenger"],
-    "notes": "Huge claws can crush bone and cause life-threatening injuries in smaller animals."
-  },
-  {
-    "name": "Odontodactylus scyllarus",
-    "commonName": "Peacock mantis shrimp",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "crustacean",
-    "weaponType": ["smashing_claws"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["ambush_predator"],
-    "notes": "Raptorial appendages strike with bullet-like force, shattering shells and injuring prey."
-  },
-  {
-    "name": "Carcharodon carcharias",
-    "commonName": "Great white shark",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "cartilaginous_fish",
-    "weaponType": ["jaws", "teeth"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator"],
-    "notes": "Serrated teeth and powerful bite cause massive blood loss and rapid death in prey."
-  },
-  {
-    "name": "Crocodylus niloticus",
-    "commonName": "Nile crocodile",
-    "period": "Quaternary",
-    "biome": "Freshwater",
-    "broadType": "reptile",
-    "weaponType": ["jaws", "teeth"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator", "ambush_predator"],
-    "notes": "Ambushes at water edges; bite and death-roll behavior frequently lethal to large prey."
-  },
-  {
-    "name": "Hermodice carunculata",
-    "commonName": "Bearded fireworm",
-    "period": "Quaternary",
-    "biome": "Marine",
-    "broadType": "polychaete_worm",
-    "weaponType": ["bristles", "venom"],
-    "trophicLevel": "secondary_consumer",
-    "roles": ["benthic_predator"],
-    "notes": "Stinging bristles cause burning pain and tissue damage; large exposures may be serious."
-  },
-  {
-    "name": "Atropa belladonna",
-    "commonName": "Deadly nightshade",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "plant",
-    "weaponType": ["poison_fruit", "poison_leaf"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "toxic_plant"],
-    "notes": "Contains atropine and scopolamine; ingestion can cause respiratory failure and death."
-  },
-  {
-    "name": "Conium maculatum",
-    "commonName": "Poison hemlock",
-    "period": "Quaternary",
-    "biome": "Grasslands",
-    "broadType": "plant",
-    "weaponType": ["poison_foliage"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "toxic_plant"],
-    "notes": "All parts are highly poisonous; small doses can kill humans and livestock via respiratory paralysis."
-  },
-  {
-    "name": "Cicuta maculata",
-    "commonName": "Water hemlock",
-    "period": "Quaternary",
-    "biome": "Freshwater",
-    "broadType": "plant",
-    "weaponType": ["poison_root", "poison_stem"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "toxic_plant"],
-    "notes": "Often called the most deadly plant in North America; cicutoxin causes convulsions and rapid death if ingested."
-  },
-  {
-    "name": "Nerium oleander",
-    "commonName": "Oleander",
-    "period": "Quaternary",
-    "biome": "Shrubland/Chaparral",
-    "broadType": "plant",
-    "weaponType": ["poison_leaf", "poison_flower"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "ornamental_toxic"],
-    "notes": "Cardiac glycosides in leaves and flowers can cause fatal heart arrhythmias."
-  },
-  {
-    "name": "Abrus precatorius",
-    "commonName": "Rosary pea",
-    "period": "Quaternary",
-    "biome": "Rainforest",
-    "broadType": "plant",
-    "weaponType": ["poison_seed"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "toxic_seed"],
-    "notes": "Seeds contain abrin, one of the most potent plant toxins; a single chewed seed can be lethal."
-  },
-  {
-    "name": "Ricinus communis",
-    "commonName": "Castor bean",
-    "period": "Quaternary",
-    "biome": "Savanna",
-    "broadType": "plant",
-    "weaponType": ["poison_seed"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "toxic_seed"],
-    "notes": "Seeds contain ricin, a powerful cytotoxin that can cause multi-organ failure and death."
-  },
-  {
-    "name": "Datura stramonium",
-    "commonName": "Jimsonweed",
-    "period": "Quaternary",
-    "biome": "Grasslands",
-    "broadType": "plant",
-    "weaponType": ["poison_seed", "poison_leaf"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "hallucinogenic_toxic"],
-    "notes": "Rich in tropane alkaloids; overdose leads to delirium, hyperthermia, and potentially fatal heart problems."
-  },
-  {
-    "name": "Digitalis purpurea",
-    "commonName": "Foxglove",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "plant",
-    "weaponType": ["poison_leaf", "poison_flower"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "cardiotoxic_plant"],
-    "notes": "Cardiac glycosides can cause dangerous arrhythmias and cardiac arrest if ingested."
-  },
-  {
-    "name": "Urtica dioica",
-    "commonName": "Stinging nettle",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "plant",
-    "weaponType": ["stinging_hairs"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "irritant"],
-    "notes": "Hollow hairs inject irritants, causing painful welts; not usually lethal but very defensive."
-  },
-  {
-    "name": "Acacia nilotica",
-    "commonName": "Gum arabic tree",
-    "period": "Quaternary",
-    "biome": "Savanna",
-    "broadType": "plant",
-    "weaponType": ["thorns"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "thorny_shelter"],
-    "notes": "Long sharp thorns can seriously injure large herbivores and deter most browsers."
-  },
-  {
-    "name": "Yersinia pestis",
-    "commonName": "Plague bacterium",
-    "period": "Quaternary",
-    "biome": "Savanna",
-    "broadType": "bacteria",
-    "weaponType": ["pathogen"],
-    "trophicLevel": "pathogen",
-    "roles": ["lethal_pathogen"],
-    "notes": "Agent of bubonic plague; untreated infection can kill over half of infected hosts."
-  },
-  {
-    "name": "Bacillus anthracis",
-    "commonName": "Anthrax bacterium",
-    "period": "Quaternary",
-    "biome": "Grasslands",
-    "broadType": "bacteria",
-    "weaponType": ["spores", "toxins"],
-    "trophicLevel": "pathogen",
-    "roles": ["lethal_pathogen", "soil_reservoir"],
-    "notes": "Forms durable spores; inhalational anthrax is highly lethal without rapid treatment."
-  },
-  {
-    "name": "Clostridium botulinum",
-    "commonName": "Botulism bacterium",
-    "period": "Quaternary",
-    "biome": "Freshwater",
-    "broadType": "bacteria",
-    "weaponType": ["neurotoxin"],
-    "trophicLevel": "decomposer",
-    "roles": ["toxin_producer"],
-    "notes": "Produces botulinum toxin, one of the most potent known; causes flaccid paralysis and respiratory failure."
-  },
-  {
-    "name": "Mycobacterium tuberculosis",
-    "commonName": "TB bacterium",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "bacteria",
-    "weaponType": ["pathogen"],
-    "trophicLevel": "pathogen",
-    "roles": ["lethal_pathogen"],
-    "notes": "Leading infectious killer globally; untreated pulmonary TB has a high mortality rate."
-  },
-  {
-    "name": "Pseudomonas aeruginosa (MDR)",
-    "commonName": "Drug-resistant Pseudomonas",
-    "period": "Quaternary",
-    "biome": "Anthropogenic",
-    "broadType": "bacteria",
-    "weaponType": ["pathogen"],
-    "trophicLevel": "pathogen",
-    "roles": ["hospital_pathogen"],
-    "notes": "Multidrug-resistant strain causing severe, often deadly infections in hospitals."
-  },
-  {
-    "name": "Cryptococcus neoformans",
-    "commonName": "Cryptococcal yeast",
-    "period": "Quaternary",
-    "biome": "Forest",
-    "broadType": "fungus",
-    "weaponType": ["pathogen"],
-    "trophicLevel": "decomposer",
-    "roles": ["lethal_pathogen"],
-    "notes": "Soil and wood-inhabiting yeast causing cryptococcosis; high mortality in immunocompromised hosts."
-  },
-  {
-    "name": "Candida auris",
-    "commonName": "Candida auris yeast",
-    "period": "Quaternary",
-    "biome": "Anthropogenic",
-    "broadType": "fungus",
-    "weaponType": ["pathogen"],
-    "trophicLevel": "pathogen",
-    "roles": ["hospital_pathogen"],
-    "notes": "Multidrug-resistant yeast causing invasive infections with high mortality rates."
-  },
-  {
-    "name": "Aspergillus fumigatus",
-    "commonName": "Aspergillus mold",
-    "period": "Quaternary",
-    "biome": "Grasslands",
-    "broadType": "fungus",
-    "weaponType": ["spores", "pathogen"],
-    "trophicLevel": "decomposer",
-    "roles": ["opportunistic_pathogen"],
-    "notes": "Airborne spores can cause invasive aspergillosis; often lethal in immunocompromised patients."
-  },
-  {
-    "name": "Histoplasma capsulatum",
-    "commonName": "Histoplasma fungus",
-    "period": "Quaternary",
-    "biome": "Cave",
-    "broadType": "fungus",
-    "weaponType": ["spores", "pathogen"],
-    "trophicLevel": "decomposer",
-    "roles": ["respiratory_pathogen"],
-    "notes": "Soil fungus associated with bat and bird droppings; inhalation leads to histoplasmosis, sometimes fatal."
-  },
-  {
-    "name": "Dunkleosteus terrelli",
-    "commonName": "Dunkleosteus",
-    "period": "Devonian",
-    "biome": "Marine",
-    "broadType": "placoderm_fish",
-    "weaponType": ["armored_jaws"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator"],
-    "notes": "Armored fish with massive biting plates; capable of crushing armored prey."
-  },
-  {
-    "name": "Hyneria lindae",
-    "commonName": "Hyneria",
-    "period": "Devonian",
-    "biome": "Freshwater",
-    "broadType": "lobe_finned_fish",
-    "weaponType": ["jaws", "teeth"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator"],
-    "notes": "Large predatory fish with powerful jaws; dangerous to most contemporaneous vertebrates."
-  },
-  {
-    "name": "Dimetrodon grandis",
-    "commonName": "Dimetrodon",
-    "period": "Permian",
-    "biome": "Desert",
-    "broadType": "synapsid",
-    "weaponType": ["jaws", "teeth"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator"],
-    "notes": "Sail-backed predator with sharp teeth; top land carnivore of many Permian ecosystems."
-  },
-  {
-    "name": "Gorgonops torvus",
-    "commonName": "Gorgonopsid",
-    "period": "Permian",
-    "biome": "Savanna",
-    "broadType": "synapsid",
-    "weaponType": ["saber_teeth"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator"],
-    "notes": "Saber-toothed predator with large canines; capable of killing large herbivores."
-  },
-  {
-    "name": "Spinosaurus aegyptiacus",
-    "commonName": "Spinosaurus",
-    "period": "Cretaceous",
-    "biome": "Freshwater",
-    "broadType": "theropod_dinosaur",
-    "weaponType": ["jaws", "claws"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator"],
-    "notes": "Semi-aquatic theropod with powerful jaws and claws, preying on large fish and other animals."
-  },
-  {
-    "name": "Tyrannosaurus rex",
-    "commonName": "T. rex",
-    "period": "Cretaceous",
-    "biome": "Forest",
-    "broadType": "theropod_dinosaur",
-    "weaponType": ["jaws", "teeth"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["apex_predator"],
-    "notes": "Massive carnivore with bone-crushing bite; apex predator of Late Cretaceous North America."
-  },
-  {
-    "name": "Ankylosaurus magniventris",
-    "commonName": "Ankylosaurus",
-    "period": "Cretaceous",
-    "biome": "Forest",
-    "broadType": "ornithischian_dinosaur",
-    "weaponType": ["armor", "tail_club", "spikes"],
-    "trophicLevel": "primary_consumer",
-    "roles": ["defensive_herbivore"],
-    "notes": "Heavily armored herbivore with tail club; blows could cripple or kill large predators."
-  },
-  {
-    "name": "Stegosaurus stenops",
-    "commonName": "Stegosaurus",
-    "period": "Jurassic",
-    "biome": "Grasslands",
-    "broadType": "ornithischian_dinosaur",
-    "weaponType": ["tail_spikes"],
-    "trophicLevel": "primary_consumer",
-    "roles": ["defensive_herbivore"],
-    "notes": "Tail spikes capable of inflicting deep, lethal puncture wounds in predators."
-  },
-  {
-    "name": "Triceratops horridus",
-    "commonName": "Triceratops",
-    "period": "Cretaceous",
-    "biome": "Grasslands",
-    "broadType": "ornithischian_dinosaur",
-    "weaponType": ["horns"],
-    "trophicLevel": "primary_consumer",
-    "roles": ["defensive_herbivore"],
-    "notes": "Three facial horns and bony frill; charge could impale large predators."
-  },
-  {
-    "name": "Spicomellus afer",
-    "commonName": "Spicomellus",
-    "period": "Jurassic",
-    "biome": "Desert",
-    "broadType": "ankylosaur_dinosaur",
-    "weaponType": ["spikes", "armor"],
-    "trophicLevel": "primary_consumer",
-    "roles": ["defensive_herbivore"],
-    "notes": "Early armored dinosaur with unique spiked armor; heavily defended against predators."
-  },
-  {
-    "name": "Deinonychus antirrhopus",
-    "commonName": "Deinonychus",
-    "period": "Cretaceous",
-    "biome": "Forest",
-    "broadType": "theropod_dinosaur",
-    "weaponType": ["claws", "teeth"],
-    "trophicLevel": "tertiary_consumer",
-    "roles": ["pack_predator"],
-    "notes": "Sickle-shaped toe claws designed for slashing; dangerous pack hunter."
-  },
-  {
-    "name": "Astrocaryum standleyanum",
-    "commonName": "Standley's palm",
-    "period": "Quaternary",
-    "biome": "Rainforest",
-    "broadType": "plant",
-    "weaponType": ["spines", "thorns"],
-    "trophicLevel": "producer",
-    "roles": ["defensive_producer", "thorny_shelter"],
-    "notes": "Palm tree with sharp spines on trunk and fronds; causes deep puncture wounds and infections."
-  }
-]
+{
+  "name": "Dangerous Organisms",
+  "organisms": [
+    {
+      "name": "Chironex fleckeri",
+      "commonName": "Australian box jellyfish",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "cnidarian",
+      "weaponType": [
+        "stinger",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "apex_invertebrate",
+        "ambush_predator",
+        "area_denial"
+      ],
+      "notes": "Tentacles carry extremely potent venom that can cause cardiac arrest in minutes.",
+      "card_label": "Card 142"
+    },
+    {
+      "name": "Carukia barnesi",
+      "commonName": "Irukandji jellyfish",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "cnidarian",
+      "weaponType": [
+        "stinger",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "small_predator",
+        "area_denial"
+      ],
+      "notes": "Tiny jellyfish whose venom causes Irukandji syndrome; stings can be life-threatening.",
+      "card_label": "Card 143"
+    },
+    {
+      "name": "Synanceia verrucosa",
+      "commonName": "Reef stonefish",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "bony_fish",
+      "weaponType": [
+        "spine",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "ambush_predator",
+        "camouflage_specialist"
+      ],
+      "notes": "Dorsal spines inject venom causing extreme pain, tissue necrosis, and sometimes death.",
+      "card_label": "Card 144"
+    },
+    {
+      "name": "Dasyatis pastinaca",
+      "commonName": "Common stingray",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "cartilaginous_fish",
+      "weaponType": [
+        "spine",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "defensive_prey",
+        "bottom_dweller"
+      ],
+      "notes": "Tail spine can puncture deep into tissue, occasionally severing major blood vessels.",
+      "card_label": "Card 145"
+    },
+    {
+      "name": "Androctonus australis",
+      "commonName": "Fat-tailed scorpion",
+      "period": "Quaternary",
+      "biome": "Desert",
+      "broadType": "arachnid",
+      "weaponType": [
+        "stinger",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "small_predator",
+        "burrower"
+      ],
+      "notes": "Among the most dangerous scorpions; venom can cause respiratory failure.",
+      "card_label": "Card 146"
+    },
+    {
+      "name": "Leiurus quinquestriatus",
+      "commonName": "Deathstalker scorpion",
+      "period": "Quaternary",
+      "biome": "Desert",
+      "broadType": "arachnid",
+      "weaponType": [
+        "stinger",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "small_predator",
+        "nocturnal_hunter"
+      ],
+      "notes": "Highly toxic venom that can be fatal, especially to small animals and children.",
+      "card_label": "Card 147"
+    },
+    {
+      "name": "Acanthaster planci",
+      "commonName": "Crown-of-thorns starfish",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "echinoderm",
+      "weaponType": [
+        "spine",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "reef_predator",
+        "ecosystem_engineer"
+      ],
+      "notes": "Long venomous spines cause deep wounds and can lead to serious systemic reactions.",
+      "card_label": "Card 148"
+    },
+    {
+      "name": "Diadema setosum",
+      "commonName": "Long-spined sea urchin",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "echinoderm",
+      "weaponType": [
+        "spine",
+        "venom"
+      ],
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "defensive_grazer",
+        "reef_grazer"
+      ],
+      "notes": "Needle-like spines break easily and can cause severe injury and infection.",
+      "card_label": "Card 149"
+    },
+    {
+      "name": "Pterois volitans",
+      "commonName": "Red lionfish",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "bony_fish",
+      "weaponType": [
+        "spine",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "reef_predator",
+        "invasive_species"
+      ],
+      "notes": "Fin spines deliver venom causing intense pain and systemic symptoms; invasive in some regions.",
+      "card_label": "Card 150"
+    },
+    {
+      "name": "Lonomia obliqua",
+      "commonName": "Lonomia caterpillar",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "insect_larva",
+      "weaponType": [
+        "spine",
+        "venom"
+      ],
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "defensive_herbivore"
+      ],
+      "notes": "Venomous spines induce severe clotting disorders and hemorrhage; many deaths recorded.",
+      "card_label": "Card 151"
+    },
+    {
+      "name": "Phyllobates terribilis",
+      "commonName": "Golden poison frog",
+      "period": "Quaternary",
+      "biome": "Rainforest",
+      "broadType": "amphibian",
+      "weaponType": [
+        "poison_skin"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "defensive_prey",
+        "insect_controller"
+      ],
+      "notes": "Skin secretes batrachotoxin; tiny amounts can stop the heart of large animals.",
+      "card_label": "Card 152"
+    },
+    {
+      "name": "Hapalochlaena lunulata",
+      "commonName": "Greater blue-ringed octopus",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "cephalopod",
+      "weaponType": [
+        "bite",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "small_predator",
+        "camouflage_specialist"
+      ],
+      "notes": "Delivers tetrodotoxin via bite, causing rapid paralysis and respiratory arrest.",
+      "card_label": "Card 153"
+    },
+    {
+      "name": "Conus geographus",
+      "commonName": "Geography cone snail",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "gastropod",
+      "weaponType": [
+        "harpoon_tooth",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "ambush_predator"
+      ],
+      "notes": "Shoots a harpoon-like tooth with conotoxin; several human fatalities documented.",
+      "card_label": "Card 154"
+    },
+    {
+      "name": "Tetraodontidae spp.",
+      "commonName": "Pufferfish (toxic species)",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "bony_fish",
+      "weaponType": [
+        "poison_flesh"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "defensive_prey"
+      ],
+      "notes": "Organs contain tetrodotoxin; ingestion can cause rapid paralysis and death.",
+      "card_label": "Card 155"
+    },
+    {
+      "name": "Taricha granulosa",
+      "commonName": "Rough-skinned newt",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "amphibian",
+      "weaponType": [
+        "poison_skin"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "defensive_prey"
+      ],
+      "notes": "Skin contains enough tetrodotoxin to kill large predators if ingested.",
+      "card_label": "Card 156"
+    },
+    {
+      "name": "Oxyuranus microlepidotus",
+      "commonName": "Inland taipan",
+      "period": "Quaternary",
+      "biome": "Grasslands",
+      "broadType": "snake",
+      "weaponType": [
+        "fangs",
+        "venom"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "notes": "One of the most venomous snakes; untreated bites are frequently fatal.",
+      "card_label": "Card 157"
+    },
+    {
+      "name": "Ophiophagus hannah",
+      "commonName": "King cobra",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "snake",
+      "weaponType": [
+        "fangs",
+        "venom"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "notes": "Preys on other snakes; large venom yield makes bites highly dangerous.",
+      "card_label": "Card 158"
+    },
+    {
+      "name": "Dendroaspis polylepis",
+      "commonName": "Black mamba",
+      "period": "Quaternary",
+      "biome": "Savanna",
+      "broadType": "snake",
+      "weaponType": [
+        "fangs",
+        "venom"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator",
+        "pursuit_hunter"
+      ],
+      "notes": "Fast-moving snake with potent neurotoxic venom and high untreated fatality rate.",
+      "card_label": "Card 159"
+    },
+    {
+      "name": "Atrax robustus",
+      "commonName": "Sydney funnel-web spider",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "arachnid",
+      "weaponType": [
+        "fangs",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "ambush_predator",
+        "burrower"
+      ],
+      "notes": "Aggressive spider with neurotoxic venom; historically many serious envenomations.",
+      "card_label": "Card 160"
+    },
+    {
+      "name": "Phoneutria nigriventer",
+      "commonName": "Brazilian wandering spider",
+      "period": "Quaternary",
+      "biome": "Rainforest",
+      "broadType": "arachnid",
+      "weaponType": [
+        "fangs",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "roaming_predator"
+      ],
+      "notes": "Highly mobile, potent venom; medically important and potentially lethal.",
+      "card_label": "Card 161"
+    },
+    {
+      "name": "Hystrix cristata",
+      "commonName": "Crested porcupine",
+      "period": "Quaternary",
+      "biome": "Grasslands",
+      "broadType": "mammal",
+      "weaponType": [
+        "quills",
+        "spikes"
+      ],
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "defensive_herbivore"
+      ],
+      "notes": "Long quills can deeply impale predators; infection and organ damage may be fatal.",
+      "card_label": "Card 162"
+    },
+    {
+      "name": "Erethizon dorsatum",
+      "commonName": "North American porcupine",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "mammal",
+      "weaponType": [
+        "quills",
+        "spikes"
+      ],
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "defensive_herbivore"
+      ],
+      "notes": "Barbed quills are difficult to remove and can kill attacking animals via infection.",
+      "card_label": "Card 163"
+    },
+    {
+      "name": "Carnegiea gigantea",
+      "commonName": "Saguaro cactus",
+      "period": "Quaternary",
+      "biome": "Desert",
+      "broadType": "plant",
+      "weaponType": [
+        "spines"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "habitat_provider"
+      ],
+      "notes": "Large spines and heavy arms can impale or crush animals under certain conditions.",
+      "card_label": "Card 164"
+    },
+    {
+      "name": "Cylindropuntia fulgida",
+      "commonName": "Jumping cholla",
+      "period": "Quaternary",
+      "biome": "Desert",
+      "broadType": "plant",
+      "weaponType": [
+        "spines"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer"
+      ],
+      "notes": "Barbed segments detach and embed deeply, causing painful wounds and infections.",
+      "card_label": "Card 165"
+    },
+    {
+      "name": "Birgus latro",
+      "commonName": "Coconut crab",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "crustacean",
+      "weaponType": [
+        "claws",
+        "pinchers"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "omnivore_scavenger"
+      ],
+      "notes": "Huge claws can crush bone and cause life-threatening injuries in smaller animals.",
+      "card_label": "Card 166"
+    },
+    {
+      "name": "Odontodactylus scyllarus",
+      "commonName": "Peacock mantis shrimp",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "crustacean",
+      "weaponType": [
+        "smashing_claws"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "ambush_predator"
+      ],
+      "notes": "Raptorial appendages strike with bullet-like force, shattering shells and injuring prey.",
+      "card_label": "Card 167"
+    },
+    {
+      "name": "Carcharodon carcharias",
+      "commonName": "Great white shark",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "cartilaginous_fish",
+      "weaponType": [
+        "jaws",
+        "teeth"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "notes": "Serrated teeth and powerful bite cause massive blood loss and rapid death in prey.",
+      "card_label": "Card 168"
+    },
+    {
+      "name": "Crocodylus niloticus",
+      "commonName": "Nile crocodile",
+      "period": "Quaternary",
+      "biome": "Freshwater",
+      "broadType": "reptile",
+      "weaponType": [
+        "jaws",
+        "teeth"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator",
+        "ambush_predator"
+      ],
+      "notes": "Ambushes at water edges; bite and death-roll behavior frequently lethal to large prey.",
+      "card_label": "Card 169"
+    },
+    {
+      "name": "Hermodice carunculata",
+      "commonName": "Bearded fireworm",
+      "period": "Quaternary",
+      "biome": "Marine",
+      "broadType": "polychaete_worm",
+      "weaponType": [
+        "bristles",
+        "venom"
+      ],
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "benthic_predator"
+      ],
+      "notes": "Stinging bristles cause burning pain and tissue damage; large exposures may be serious.",
+      "card_label": "Card 170"
+    },
+    {
+      "name": "Atropa belladonna",
+      "commonName": "Deadly nightshade",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "plant",
+      "weaponType": [
+        "poison_fruit",
+        "poison_leaf"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "toxic_plant"
+      ],
+      "notes": "Contains atropine and scopolamine; ingestion can cause respiratory failure and death.",
+      "card_label": "Card 171"
+    },
+    {
+      "name": "Conium maculatum",
+      "commonName": "Poison hemlock",
+      "period": "Quaternary",
+      "biome": "Grasslands",
+      "broadType": "plant",
+      "weaponType": [
+        "poison_foliage"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "toxic_plant"
+      ],
+      "notes": "All parts are highly poisonous; small doses can kill humans and livestock via respiratory paralysis.",
+      "card_label": "Card 172"
+    },
+    {
+      "name": "Cicuta maculata",
+      "commonName": "Water hemlock",
+      "period": "Quaternary",
+      "biome": "Freshwater",
+      "broadType": "plant",
+      "weaponType": [
+        "poison_root",
+        "poison_stem"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "toxic_plant"
+      ],
+      "notes": "Often called the most deadly plant in North America; cicutoxin causes convulsions and rapid death if ingested.",
+      "card_label": "Card 173"
+    },
+    {
+      "name": "Nerium oleander",
+      "commonName": "Oleander",
+      "period": "Quaternary",
+      "biome": "Shrubland/Chaparral",
+      "broadType": "plant",
+      "weaponType": [
+        "poison_leaf",
+        "poison_flower"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "ornamental_toxic"
+      ],
+      "notes": "Cardiac glycosides in leaves and flowers can cause fatal heart arrhythmias.",
+      "card_label": "Card 174"
+    },
+    {
+      "name": "Abrus precatorius",
+      "commonName": "Rosary pea",
+      "period": "Quaternary",
+      "biome": "Rainforest",
+      "broadType": "plant",
+      "weaponType": [
+        "poison_seed"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "toxic_seed"
+      ],
+      "notes": "Seeds contain abrin, one of the most potent plant toxins; a single chewed seed can be lethal.",
+      "card_label": "Card 175"
+    },
+    {
+      "name": "Ricinus communis",
+      "commonName": "Castor bean",
+      "period": "Quaternary",
+      "biome": "Savanna",
+      "broadType": "plant",
+      "weaponType": [
+        "poison_seed"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "toxic_seed"
+      ],
+      "notes": "Seeds contain ricin, a powerful cytotoxin that can cause multi-organ failure and death.",
+      "card_label": "Card 176"
+    },
+    {
+      "name": "Datura stramonium",
+      "commonName": "Jimsonweed",
+      "period": "Quaternary",
+      "biome": "Grasslands",
+      "broadType": "plant",
+      "weaponType": [
+        "poison_seed",
+        "poison_leaf"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "hallucinogenic_toxic"
+      ],
+      "notes": "Rich in tropane alkaloids; overdose leads to delirium, hyperthermia, and potentially fatal heart problems.",
+      "card_label": "Card 177"
+    },
+    {
+      "name": "Digitalis purpurea",
+      "commonName": "Foxglove",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "plant",
+      "weaponType": [
+        "poison_leaf",
+        "poison_flower"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "cardiotoxic_plant"
+      ],
+      "notes": "Cardiac glycosides can cause dangerous arrhythmias and cardiac arrest if ingested.",
+      "card_label": "Card 178"
+    },
+    {
+      "name": "Urtica dioica",
+      "commonName": "Stinging nettle",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "plant",
+      "weaponType": [
+        "stinging_hairs"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "irritant"
+      ],
+      "notes": "Hollow hairs inject irritants, causing painful welts; not usually lethal but very defensive.",
+      "card_label": "Card 179"
+    },
+    {
+      "name": "Acacia nilotica",
+      "commonName": "Gum arabic tree",
+      "period": "Quaternary",
+      "biome": "Savanna",
+      "broadType": "plant",
+      "weaponType": [
+        "thorns"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "thorny_shelter"
+      ],
+      "notes": "Long sharp thorns can seriously injure large herbivores and deter most browsers.",
+      "card_label": "Card 180"
+    },
+    {
+      "name": "Yersinia pestis",
+      "commonName": "Plague bacterium",
+      "period": "Quaternary",
+      "biome": "Savanna",
+      "broadType": "bacteria",
+      "weaponType": [
+        "pathogen"
+      ],
+      "trophicLevel": "pathogen",
+      "roles": [
+        "lethal_pathogen"
+      ],
+      "notes": "Agent of bubonic plague; untreated infection can kill over half of infected hosts.",
+      "card_label": "Card 181"
+    },
+    {
+      "name": "Bacillus anthracis",
+      "commonName": "Anthrax bacterium",
+      "period": "Quaternary",
+      "biome": "Grasslands",
+      "broadType": "bacteria",
+      "weaponType": [
+        "spores",
+        "toxins"
+      ],
+      "trophicLevel": "pathogen",
+      "roles": [
+        "lethal_pathogen",
+        "soil_reservoir"
+      ],
+      "notes": "Forms durable spores; inhalational anthrax is highly lethal without rapid treatment.",
+      "card_label": "Card 182"
+    },
+    {
+      "name": "Clostridium botulinum",
+      "commonName": "Botulism bacterium",
+      "period": "Quaternary",
+      "biome": "Freshwater",
+      "broadType": "bacteria",
+      "weaponType": [
+        "neurotoxin"
+      ],
+      "trophicLevel": "decomposer",
+      "roles": [
+        "toxin_producer"
+      ],
+      "notes": "Produces botulinum toxin, one of the most potent known; causes flaccid paralysis and respiratory failure.",
+      "card_label": "Card 183"
+    },
+    {
+      "name": "Mycobacterium tuberculosis",
+      "commonName": "TB bacterium",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "bacteria",
+      "weaponType": [
+        "pathogen"
+      ],
+      "trophicLevel": "pathogen",
+      "roles": [
+        "lethal_pathogen"
+      ],
+      "notes": "Leading infectious killer globally; untreated pulmonary TB has a high mortality rate.",
+      "card_label": "Card 184"
+    },
+    {
+      "name": "Pseudomonas aeruginosa (MDR)",
+      "commonName": "Drug-resistant Pseudomonas",
+      "period": "Quaternary",
+      "biome": "Anthropogenic",
+      "broadType": "bacteria",
+      "weaponType": [
+        "pathogen"
+      ],
+      "trophicLevel": "pathogen",
+      "roles": [
+        "hospital_pathogen"
+      ],
+      "notes": "Multidrug-resistant strain causing severe, often deadly infections in hospitals.",
+      "card_label": "Card 185"
+    },
+    {
+      "name": "Cryptococcus neoformans",
+      "commonName": "Cryptococcal yeast",
+      "period": "Quaternary",
+      "biome": "Forest",
+      "broadType": "fungus",
+      "weaponType": [
+        "pathogen"
+      ],
+      "trophicLevel": "decomposer",
+      "roles": [
+        "lethal_pathogen"
+      ],
+      "notes": "Soil and wood-inhabiting yeast causing cryptococcosis; high mortality in immunocompromised hosts.",
+      "card_label": "Card 186"
+    },
+    {
+      "name": "Candida auris",
+      "commonName": "Candida auris yeast",
+      "period": "Quaternary",
+      "biome": "Anthropogenic",
+      "broadType": "fungus",
+      "weaponType": [
+        "pathogen"
+      ],
+      "trophicLevel": "pathogen",
+      "roles": [
+        "hospital_pathogen"
+      ],
+      "notes": "Multidrug-resistant yeast causing invasive infections with high mortality rates.",
+      "card_label": "Card 187"
+    },
+    {
+      "name": "Aspergillus fumigatus",
+      "commonName": "Aspergillus mold",
+      "period": "Quaternary",
+      "biome": "Grasslands",
+      "broadType": "fungus",
+      "weaponType": [
+        "spores",
+        "pathogen"
+      ],
+      "trophicLevel": "decomposer",
+      "roles": [
+        "opportunistic_pathogen"
+      ],
+      "notes": "Airborne spores can cause invasive aspergillosis; often lethal in immunocompromised patients.",
+      "card_label": "Card 188"
+    },
+    {
+      "name": "Histoplasma capsulatum",
+      "commonName": "Histoplasma fungus",
+      "period": "Quaternary",
+      "biome": "Cave",
+      "broadType": "fungus",
+      "weaponType": [
+        "spores",
+        "pathogen"
+      ],
+      "trophicLevel": "decomposer",
+      "roles": [
+        "respiratory_pathogen"
+      ],
+      "notes": "Soil fungus associated with bat and bird droppings; inhalation leads to histoplasmosis, sometimes fatal.",
+      "card_label": "Card 189"
+    },
+    {
+      "name": "Dunkleosteus terrelli",
+      "commonName": "Dunkleosteus",
+      "period": "Devonian",
+      "biome": "Marine",
+      "broadType": "placoderm_fish",
+      "weaponType": [
+        "armored_jaws"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "notes": "Armored fish with massive biting plates; capable of crushing armored prey.",
+      "card_label": "Card 190"
+    },
+    {
+      "name": "Hyneria lindae",
+      "commonName": "Hyneria",
+      "period": "Devonian",
+      "biome": "Freshwater",
+      "broadType": "lobe_finned_fish",
+      "weaponType": [
+        "jaws",
+        "teeth"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "notes": "Large predatory fish with powerful jaws; dangerous to most contemporaneous vertebrates.",
+      "card_label": "Card 191"
+    },
+    {
+      "name": "Dimetrodon grandis",
+      "commonName": "Dimetrodon",
+      "period": "Permian",
+      "biome": "Desert",
+      "broadType": "synapsid",
+      "weaponType": [
+        "jaws",
+        "teeth"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "notes": "Sail-backed predator with sharp teeth; top land carnivore of many Permian ecosystems.",
+      "card_label": "Card 192"
+    },
+    {
+      "name": "Gorgonops torvus",
+      "commonName": "Gorgonopsid",
+      "period": "Permian",
+      "biome": "Savanna",
+      "broadType": "synapsid",
+      "weaponType": [
+        "saber_teeth"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "notes": "Saber-toothed predator with large canines; capable of killing large herbivores.",
+      "card_label": "Card 193"
+    },
+    {
+      "name": "Spinosaurus aegyptiacus",
+      "commonName": "Spinosaurus",
+      "period": "Cretaceous",
+      "biome": "Freshwater",
+      "broadType": "theropod_dinosaur",
+      "weaponType": [
+        "jaws",
+        "claws"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "notes": "Semi-aquatic theropod with powerful jaws and claws, preying on large fish and other animals.",
+      "card_label": "Card 194"
+    },
+    {
+      "name": "Tyrannosaurus rex",
+      "commonName": "T. rex",
+      "period": "Cretaceous",
+      "biome": "Forest",
+      "broadType": "theropod_dinosaur",
+      "weaponType": [
+        "jaws",
+        "teeth"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "notes": "Massive carnivore with bone-crushing bite; apex predator of Late Cretaceous North America.",
+      "card_label": "Card 195"
+    },
+    {
+      "name": "Ankylosaurus magniventris",
+      "commonName": "Ankylosaurus",
+      "period": "Cretaceous",
+      "biome": "Forest",
+      "broadType": "ornithischian_dinosaur",
+      "weaponType": [
+        "armor",
+        "tail_club",
+        "spikes"
+      ],
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "defensive_herbivore"
+      ],
+      "notes": "Heavily armored herbivore with tail club; blows could cripple or kill large predators.",
+      "card_label": "Card 196"
+    },
+    {
+      "name": "Stegosaurus stenops",
+      "commonName": "Stegosaurus",
+      "period": "Jurassic",
+      "biome": "Grasslands",
+      "broadType": "ornithischian_dinosaur",
+      "weaponType": [
+        "tail_spikes"
+      ],
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "defensive_herbivore"
+      ],
+      "notes": "Tail spikes capable of inflicting deep, lethal puncture wounds in predators.",
+      "card_label": "Card 197"
+    },
+    {
+      "name": "Triceratops horridus",
+      "commonName": "Triceratops",
+      "period": "Cretaceous",
+      "biome": "Grasslands",
+      "broadType": "ornithischian_dinosaur",
+      "weaponType": [
+        "horns"
+      ],
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "defensive_herbivore"
+      ],
+      "notes": "Three facial horns and bony frill; charge could impale large predators.",
+      "card_label": "Card 198"
+    },
+    {
+      "name": "Spicomellus afer",
+      "commonName": "Spicomellus",
+      "period": "Jurassic",
+      "biome": "Desert",
+      "broadType": "ankylosaur_dinosaur",
+      "weaponType": [
+        "spikes",
+        "armor"
+      ],
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "defensive_herbivore"
+      ],
+      "notes": "Early armored dinosaur with unique spiked armor; heavily defended against predators.",
+      "card_label": "Card 199"
+    },
+    {
+      "name": "Deinonychus antirrhopus",
+      "commonName": "Deinonychus",
+      "period": "Cretaceous",
+      "biome": "Forest",
+      "broadType": "theropod_dinosaur",
+      "weaponType": [
+        "claws",
+        "teeth"
+      ],
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "pack_predator"
+      ],
+      "notes": "Sickle-shaped toe claws designed for slashing; dangerous pack hunter.",
+      "card_label": "Card 200"
+    },
+    {
+      "name": "Astrocaryum standleyanum",
+      "commonName": "Standley's palm",
+      "period": "Quaternary",
+      "biome": "Rainforest",
+      "broadType": "plant",
+      "weaponType": [
+        "spines",
+        "thorns"
+      ],
+      "trophicLevel": "producer",
+      "roles": [
+        "defensive_producer",
+        "thorny_shelter"
+      ],
+      "notes": "Palm tree with sharp spines on trunk and fronds; causes deep puncture wounds and infections.",
+      "card_label": "Card 201"
+    }
+  ]
+}

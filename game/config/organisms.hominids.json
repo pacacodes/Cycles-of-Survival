@@ -3,7 +3,7 @@
   "organisms": [
     {
       "type": "organism",
-      "card_label": "Card 406",
+      "card_label": "Card 238",
       "common_name": "Proconsul",
       "scientific_name": "Proconsul africanus",
       "main_photo": null,
@@ -38,7 +38,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 268",
+      "card_label": "Card 239",
       "common_name": "Kenyapithecus",
       "scientific_name": "Kenyapithecus wickeri",
       "main_photo": null,
@@ -74,7 +74,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 164",
+      "card_label": "Card 240",
       "common_name": "Dryopithecus",
       "scientific_name": "Dryopithecus fontani",
       "main_photo": null,
@@ -110,7 +110,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 442",
+      "card_label": "Card 241",
       "common_name": "Sahelanthropus",
       "scientific_name": "Sahelanthropus tchadensis",
       "main_photo": null,
@@ -147,7 +147,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 347",
+      "card_label": "Card 242",
       "common_name": "Orrorin",
       "scientific_name": "Orrorin tugenensis",
       "main_photo": null,
@@ -183,7 +183,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 43",
+      "card_label": "Card 243",
       "common_name": "Ardipithecus",
       "scientific_name": "Ardipithecus ramidus",
       "main_photo": null,
@@ -219,7 +219,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 62",
+      "card_label": "Card 244",
       "common_name": "Australopithecus anamensis",
       "scientific_name": "Australopithecus anamensis",
       "main_photo": null,
@@ -256,7 +256,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 60",
+      "card_label": "Card 245",
       "common_name": "Lucy (Australopithecus afarensis)",
       "scientific_name": "Australopithecus afarensis",
       "main_photo": null,
@@ -294,7 +294,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 267",
+      "card_label": "Card 246",
       "common_name": "Flat-faced man (Kenyanthropus)",
       "scientific_name": "Kenyanthropus platyops",
       "main_photo": null,
@@ -331,7 +331,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 61",
+      "card_label": "Card 247",
       "common_name": "Australopithecus africanus",
       "scientific_name": "Australopithecus africanus",
       "main_photo": null,
@@ -368,7 +368,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 361",
+      "card_label": "Card 248",
       "common_name": "Paranthropus boisei",
       "scientific_name": "Paranthropus boisei",
       "main_photo": null,
@@ -404,7 +404,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 233",
+      "card_label": "Card 249",
       "common_name": "Homo habilis",
       "scientific_name": "Homo habilis",
       "main_photo": null,
@@ -442,7 +442,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 231",
+      "card_label": "Card 250",
       "common_name": "Homo ergaster",
       "scientific_name": "Homo ergaster",
       "main_photo": null,
@@ -479,7 +479,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 230",
+      "card_label": "Card 251",
       "common_name": "Homo erectus",
       "scientific_name": "Homo erectus",
       "main_photo": null,
@@ -517,7 +517,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 229",
+      "card_label": "Card 252",
       "common_name": "Homo antecessor",
       "scientific_name": "Homo antecessor",
       "main_photo": null,
@@ -554,7 +554,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 234",
+      "card_label": "Card 253",
       "common_name": "Homo heidelbergensis",
       "scientific_name": "Homo heidelbergensis",
       "main_photo": null,
@@ -592,7 +592,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 236",
+      "card_label": "Card 254",
       "common_name": "Homo naledi",
       "scientific_name": "Homo naledi",
       "main_photo": null,
@@ -629,7 +629,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 232",
+      "card_label": "Card 255",
       "common_name": "Homo floresiensis",
       "scientific_name": "Homo floresiensis",
       "main_photo": null,
@@ -665,7 +665,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 237",
+      "card_label": "Card 256",
       "common_name": "Neanderthal",
       "scientific_name": "Homo neanderthalensis",
       "main_photo": null,
@@ -703,7 +703,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 238",
+      "card_label": "Card 257",
       "common_name": "Denisovan",
       "scientific_name": "Homo sapiens denisova",
       "main_photo": null,
@@ -741,7 +741,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 235",
+      "card_label": "Card 258",
       "common_name": "Homo luzonensis",
       "scientific_name": "Homo luzonensis",
       "main_photo": null,
@@ -777,7 +777,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 239",
+      "card_label": "Card 259",
       "common_name": "Archaic human (Homo sapiens idaltu)",
       "scientific_name": "Homo sapiens idaltu",
       "main_photo": null,
@@ -814,7 +814,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 240",
+      "card_label": "Card 260",
       "common_name": "Modern human",
       "scientific_name": "Homo sapiens sapiens",
       "main_photo": null,

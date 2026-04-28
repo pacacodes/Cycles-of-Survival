@@ -1,123 +1,170 @@
-[
-  {
-    "name": "Early liverwort mat",
-    "commonName": "Primitive liverwort",
-    "period": "Ordovician",
-    "biome": "Large River Headwaters",
-    "broadType": "nonvascular_root_crop",
-    "rootType": "rhizoids",
-    "trophicLevel": "producer",
-    "roles": ["pioneer_root_layer", "soil_crust_builder"],
-    "notes": "Simple rhizoid 'root' systems binding thin soils on wet rock and banks."
-  },
-  {
-    "name": "Early hornwort mat",
-    "commonName": "Primitive hornwort",
-    "period": "Silurian",
-    "biome": "Small Rivers",
-    "broadType": "nonvascular_root_crop",
-    "rootType": "rhizoids",
-    "trophicLevel": "producer",
-    "roles": ["pioneer_root_layer", "soil_former"],
-    "notes": "Rhizoid-based anchoring that begins trapping silt and organic matter at water edges."
-  },
-  {
-    "name": "Cooksonia sp.",
-    "commonName": "Cooksonia",
-    "period": "Silurian",
-    "biome": "Flooded Grasslands and Savannas",
-    "broadType": "early_tracheophyte_root_crop",
-    "rootType": "simple_rooting_axis",
-    "trophicLevel": "producer",
-    "roles": ["pioneer_root_layer", "erosion_control"],
-    "notes": "One of the first vascular land plants with basal rooting axes stabilizing bare floodplains."
-  },
-  {
-    "name": "Rhynia gwynne-vaughanii",
-    "commonName": "Rhynia",
-    "period": "Devonian",
-    "biome": "Large River Headwaters",
-    "broadType": "early_tracheophyte_root_crop",
-    "rootType": "rhizome_with_rhizoids",
-    "trophicLevel": "producer",
-    "roles": ["shallow_root_layer", "soil_former"],
-    "notes": "Rhizomatous rooting system acts like a living net in hot-spring wetlands."
-  },
-  {
-    "name": "Asteroxylon mackiei",
-    "commonName": "Early lycophyte",
-    "period": "Devonian",
-    "biome": "Flooded Grasslands and Savannas",
-    "broadType": "lycophyte_root_crop",
-    "rootType": "proto_roots",
-    "trophicLevel": "producer",
-    "roles": ["deepening_root_layer", "pioneer_treelet"],
-    "notes": "Has differentiated rooting axes that penetrate deeper than simple rhizoids."
-  },
-  {
-    "name": "Archaeopteris sp.",
-    "commonName": "Archaeopteris tree",
-    "period": "Late_Devonian",
-    "biome": "Temperate Broadleaf and Mixed Forests",
-    "broadType": "rooted_tree_crop",
-    "rootType": "deep_woody_roots",
-    "trophicLevel": "producer",
-    "roles": ["deep_root_layer", "soil_engineer"],
-    "notes": "One of the first deep-rooted trees, transforming early forest soils."
-  },
-  {
-    "name": "Lepidodendron sp.",
-    "commonName": "Scale tree",
-    "period": "Carboniferous",
-    "biome": "Flooded Grasslands and Savannas",
-    "broadType": "lycophyte_root_crop",
-    "rootType": "stigmarian_roots",
-    "trophicLevel": "producer",
-    "roles": ["swamp_root_layer", "peat_former"],
-    "notes": "Massive stigmarian roots form dense belowground meshes in swamp substrates."
-  },
-  {
-    "name": "Sigillaria sp.",
-    "commonName": "Sigillaria",
-    "period": "Carboniferous",
-    "biome": "Flooded Grasslands and Savannas",
-    "broadType": "lycophyte_root_crop",
-    "rootType": "stigmarian_roots",
-    "trophicLevel": "producer",
-    "roles": ["swamp_root_layer", "carbon_storage"],
-    "notes": "Spoked root systems that lock peat in place and sequester vast carbon stores."
-  },
-  {
-    "name": "Calamites sp.",
-    "commonName": "Giant horsetail tree",
-    "period": "Carboniferous",
-    "biome": "Large Rivers",
-    "broadType": "sphenopsid_root_crop",
-    "rootType": "rhizome_and_roots",
-    "trophicLevel": "producer",
-    "roles": ["bank_stabiliser_root_layer", "flood_resistant"],
-    "notes": "Rhizomes and roots bind channel margins against flood erosion."
-  },
-  {
-    "name": "Cordaites sp.",
-    "commonName": "Cordaites tree",
-    "period": "Carboniferous",
-    "biome": "Temperate Broadleaf and Mixed Forests",
-    "broadType": "rooted_tree_crop",
-    "rootType": "deep_taproot",
-    "trophicLevel": "producer",
-    "roles": ["deep_root_layer", "drought_buffer"],
-    "notes": "Taprooted tree tapping deep water tables in drier upland forests."
-  },
-  {
-    "name": "Glossopteris sp.",
-    "commonName": "Glossopteris",
-    "period": "Permian",
-    "biome": "Boreal Forests and Taiga",
-    "broadType": "rooted_tree_crop",
-    "rootType": "woody_root_system",
-    "trophicLevel": "producer",
-    "roles": ["cool_climate_root_layer", "soil_former"],
-    "notes": "Woody roots in cold Gondwanan forests stabilize soils in polar climates."
-  }
-]
+{
+  "name": "Root Systems",
+  "organisms": [
+    {
+      "name": "Early liverwort mat",
+      "commonName": "Primitive liverwort",
+      "period": "Ordovician",
+      "biome": "Large River Headwaters",
+      "broadType": "nonvascular_root_crop",
+      "rootType": "rhizoids",
+      "trophicLevel": "producer",
+      "roles": [
+        "pioneer_root_layer",
+        "soil_crust_builder"
+      ],
+      "notes": "Simple rhizoid 'root' systems binding thin soils on wet rock and banks.",
+      "card_label": "Card 508"
+    },
+    {
+      "name": "Early hornwort mat",
+      "commonName": "Primitive hornwort",
+      "period": "Silurian",
+      "biome": "Small Rivers",
+      "broadType": "nonvascular_root_crop",
+      "rootType": "rhizoids",
+      "trophicLevel": "producer",
+      "roles": [
+        "pioneer_root_layer",
+        "soil_former"
+      ],
+      "notes": "Rhizoid-based anchoring that begins trapping silt and organic matter at water edges.",
+      "card_label": "Card 509"
+    },
+    {
+      "name": "Cooksonia sp.",
+      "commonName": "Cooksonia",
+      "period": "Silurian",
+      "biome": "Flooded Grasslands and Savannas",
+      "broadType": "early_tracheophyte_root_crop",
+      "rootType": "simple_rooting_axis",
+      "trophicLevel": "producer",
+      "roles": [
+        "pioneer_root_layer",
+        "erosion_control"
+      ],
+      "notes": "One of the first vascular land plants with basal rooting axes stabilizing bare floodplains.",
+      "card_label": "Card 510"
+    },
+    {
+      "name": "Rhynia gwynne-vaughanii",
+      "commonName": "Rhynia",
+      "period": "Devonian",
+      "biome": "Large River Headwaters",
+      "broadType": "early_tracheophyte_root_crop",
+      "rootType": "rhizome_with_rhizoids",
+      "trophicLevel": "producer",
+      "roles": [
+        "shallow_root_layer",
+        "soil_former"
+      ],
+      "notes": "Rhizomatous rooting system acts like a living net in hot-spring wetlands.",
+      "card_label": "Card 511"
+    },
+    {
+      "name": "Asteroxylon mackiei",
+      "commonName": "Early lycophyte",
+      "period": "Devonian",
+      "biome": "Flooded Grasslands and Savannas",
+      "broadType": "lycophyte_root_crop",
+      "rootType": "proto_roots",
+      "trophicLevel": "producer",
+      "roles": [
+        "deepening_root_layer",
+        "pioneer_treelet"
+      ],
+      "notes": "Has differentiated rooting axes that penetrate deeper than simple rhizoids.",
+      "card_label": "Card 512"
+    },
+    {
+      "name": "Archaeopteris sp.",
+      "commonName": "Archaeopteris tree",
+      "period": "Late_Devonian",
+      "biome": "Temperate Broadleaf and Mixed Forests",
+      "broadType": "rooted_tree_crop",
+      "rootType": "deep_woody_roots",
+      "trophicLevel": "producer",
+      "roles": [
+        "deep_root_layer",
+        "soil_engineer"
+      ],
+      "notes": "One of the first deep-rooted trees, transforming early forest soils.",
+      "card_label": "Card 513"
+    },
+    {
+      "name": "Lepidodendron sp.",
+      "commonName": "Scale tree",
+      "period": "Carboniferous",
+      "biome": "Flooded Grasslands and Savannas",
+      "broadType": "lycophyte_root_crop",
+      "rootType": "stigmarian_roots",
+      "trophicLevel": "producer",
+      "roles": [
+        "swamp_root_layer",
+        "peat_former"
+      ],
+      "notes": "Massive stigmarian roots form dense belowground meshes in swamp substrates.",
+      "card_label": "Card 514"
+    },
+    {
+      "name": "Sigillaria sp.",
+      "commonName": "Sigillaria",
+      "period": "Carboniferous",
+      "biome": "Flooded Grasslands and Savannas",
+      "broadType": "lycophyte_root_crop",
+      "rootType": "stigmarian_roots",
+      "trophicLevel": "producer",
+      "roles": [
+        "swamp_root_layer",
+        "carbon_storage"
+      ],
+      "notes": "Spoked root systems that lock peat in place and sequester vast carbon stores.",
+      "card_label": "Card 515"
+    },
+    {
+      "name": "Calamites sp.",
+      "commonName": "Giant horsetail tree",
+      "period": "Carboniferous",
+      "biome": "Large Rivers",
+      "broadType": "sphenopsid_root_crop",
+      "rootType": "rhizome_and_roots",
+      "trophicLevel": "producer",
+      "roles": [
+        "bank_stabiliser_root_layer",
+        "flood_resistant"
+      ],
+      "notes": "Rhizomes and roots bind channel margins against flood erosion.",
+      "card_label": "Card 516"
+    },
+    {
+      "name": "Cordaites sp.",
+      "commonName": "Cordaites tree",
+      "period": "Carboniferous",
+      "biome": "Temperate Broadleaf and Mixed Forests",
+      "broadType": "rooted_tree_crop",
+      "rootType": "deep_taproot",
+      "trophicLevel": "producer",
+      "roles": [
+        "deep_root_layer",
+        "drought_buffer"
+      ],
+      "notes": "Taprooted tree tapping deep water tables in drier upland forests.",
+      "card_label": "Card 517"
+    },
+    {
+      "name": "Glossopteris sp.",
+      "commonName": "Glossopteris",
+      "period": "Permian",
+      "biome": "Boreal Forests and Taiga",
+      "broadType": "rooted_tree_crop",
+      "rootType": "woody_root_system",
+      "trophicLevel": "producer",
+      "roles": [
+        "cool_climate_root_layer",
+        "soil_former"
+      ],
+      "notes": "Woody roots in cold Gondwanan forests stabilize soils in polar climates.",
+      "card_label": "Card 518"
+    }
+  ]
+}

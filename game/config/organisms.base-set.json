@@ -3,7 +3,7 @@
   "organisms": [
     {
       "type": "organism",
-      "card_label": "Card 201",
+      "card_label": "Card 1",
       "common_name": "Cambrian algae",
       "scientific_name": "Fuxianospira gyrata",
       "main_photo": null,
@@ -38,7 +38,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 25",
+      "card_label": "Card 2",
       "common_name": "Anomalocaris",
       "scientific_name": "Anomalocaris canadensis",
       "main_photo": null,
@@ -73,7 +73,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 348",
+      "card_label": "Card 3",
       "common_name": "Orthoceras",
       "scientific_name": "Orthoceras regulare",
       "main_photo": null,
@@ -108,7 +108,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 137",
+      "card_label": "Card 4",
       "common_name": "Sea Lily",
       "scientific_name": "Crinoidea sp.",
       "main_photo": null,
@@ -145,7 +145,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 186",
+      "card_label": "Card 5",
       "common_name": "Sea Scorpion",
       "scientific_name": "Eurypterus remipes",
       "main_photo": null,
@@ -180,7 +180,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 282",
+      "card_label": "Card 6",
       "common_name": "Lingula brachiopod",
       "scientific_name": "Lingula sp.",
       "main_photo": null,
@@ -215,7 +215,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 79",
+      "card_label": "Card 7",
       "common_name": "Bothriolepis",
       "scientific_name": "Bothriolepis canadensis",
       "main_photo": null,
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "card_label": "Card 166",
+      "card_label": "Card 8",
       "common_name": "Armored fish",
       "scientific_name": "Dunkleosteus terrelli",
       "organism_type": "Aquatic vertebrates",
@@ -284,7 +284,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 408",
+      "card_label": "Card 9",
       "common_name": "Productid Brachiopod",
       "scientific_name": "Productida sp.",
       "main_photo": null,
@@ -319,7 +319,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 167",
+      "card_label": "Card 10",
       "common_name": "Scissor-tooth Shark",
       "scientific_name": "Edestus heinrichi",
       "main_photo": null,
@@ -354,7 +354,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 310",
+      "card_label": "Card 11",
       "common_name": "Mesosaurus",
       "scientific_name": "Mesosaurus tenuidens",
       "main_photo": null,
@@ -390,7 +390,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 311",
+      "card_label": "Card 12",
       "common_name": "Coiled Nautiloid",
       "scientific_name": "Metacoceras sp.",
       "main_photo": null,
@@ -426,7 +426,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 340",
+      "card_label": "Card 13",
       "common_name": "Nothosaurus",
       "scientific_name": "Nothosaurus mirabilis",
       "main_photo": null,
@@ -461,7 +461,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 385",
+      "card_label": "Card 14",
       "common_name": "Placodus",
       "scientific_name": "Placodus gigas",
       "main_photo": null,
@@ -496,7 +496,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 277",
+      "card_label": "Card 15",
       "common_name": "Leedsichthys",
       "scientific_name": "Leedsichthys problematicus",
       "main_photo": null,
@@ -531,7 +531,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 389",
+      "card_label": "Card 16",
       "common_name": "Plesiosaurus",
       "scientific_name": "Plesiosaurus dolichodeirus",
       "main_photo": null,
@@ -565,7 +565,7 @@
       ]
     },
     {
-      "card_label": "Card 321",
+      "card_label": "Card 17",
       "common_name": "Mosasaur",
       "scientific_name": "Mosasaurus hoffmannii",
       "organism_type": "Aquatic vertebrates",
@@ -599,7 +599,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 41",
+      "card_label": "Card 18",
       "common_name": "Giant Sea Turtle",
       "scientific_name": "Archelon ischyros",
       "main_photo": null,
@@ -634,7 +634,7 @@
       ]
     },
     {
-      "card_label": "Card 169",
+      "card_label": "Card 19",
       "common_name": "Calcifying Phytoplanktone",
       "scientific_name": "Emiliania huxleyi",
       "organism_type": "Algae and phytoplankton",
@@ -682,7 +682,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 69",
+      "card_label": "Card 20",
       "common_name": "Basilosaurus",
       "scientific_name": "Basilosaurus cetoides",
       "main_photo": null,
@@ -717,7 +717,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 101",
+      "card_label": "Card 21",
       "common_name": "Megalodon",
       "scientific_name": "Carcharocles megalodon",
       "main_photo": null,
@@ -752,7 +752,7 @@
       ]
     },
     {
-      "card_label": "Card 184",
+      "card_label": "Card 22",
       "common_name": "Antarctic krill",
       "scientific_name": "Euphausia superba",
       "organism_type": "Aquatic invertebrates",
@@ -799,7 +799,7 @@
       ]
     },
     {
-      "card_label": "Card 67",
+      "card_label": "Card 23",
       "common_name": "Blue whale",
       "scientific_name": "Balaenoptera musculus",
       "organism_type": "Aquatic vertebrates",
@@ -848,7 +848,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 147",
+      "card_label": "Card 24",
       "common_name": "Leatherback Sea Turtle",
       "scientific_name": "Dermochelys coriacea",
       "main_photo": null,
@@ -883,7 +883,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 140",
+      "card_label": "Card 25",
       "common_name": "Cyanobacteria",
       "scientific_name": "Cyanobacteria",
       "main_photo": null,
@@ -919,7 +919,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 216",
+      "card_label": "Card 26",
       "common_name": "Grypania",
       "scientific_name": "Grypania spiralis",
       "main_photo": null,
@@ -954,7 +954,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 218",
+      "card_label": "Card 27",
       "common_name": "Gunflintia",
       "scientific_name": "Gunflintia",
       "main_photo": null,
@@ -989,7 +989,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 243",
+      "card_label": "Card 28",
       "common_name": "Huroniospora",
       "scientific_name": "Huroniospora",
       "main_photo": null,
@@ -1024,7 +1024,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 149",
+      "card_label": "Card 29",
       "common_name": "Dickinsonia",
       "scientific_name": "Dickinsonia costata",
       "main_photo": null,
@@ -1059,7 +1059,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 482",
+      "card_label": "Card 30",
       "common_name": "Spriggina",
       "scientific_name": "Spriggina floundersi",
       "main_photo": null,
@@ -1094,7 +1094,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 269",
+      "card_label": "Card 31",
       "common_name": "Kimberella",
       "scientific_name": "Kimberella quadrata",
       "main_photo": null,
@@ -1129,7 +1129,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 518",
+      "card_label": "Card 32",
       "common_name": "Tribrachidium",
       "scientific_name": "Tribrachidium heraldicum",
       "main_photo": null,
@@ -1164,7 +1164,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 127",
+      "card_label": "Card 33",
       "common_name": "Cloudina",
       "scientific_name": "Cloudina hartmannae",
       "main_photo": null,
@@ -1199,7 +1199,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 328",
+      "card_label": "Card 34",
       "common_name": "Namacalathus",
       "scientific_name": "Namacalathus hermanastes",
       "main_photo": null,
@@ -1234,7 +1234,7 @@
     },
     {
       "type": "organism",
-      "card_label": "Card 115",
+      "card_label": "Card 35",
       "common_name": "Charnia",
       "scientific_name": "Charnia masoni",
       "main_photo": null,
@@ -1266,880 +1266,776 @@
       "role": [
         "filter_feeder"
       ]
-    }
-  ],
-  "forestOrganismsByPeriod": [
-    {
-      "period": "Devonian",
-      "organisms": [
-        {
-          "name": "Archaeopteris halliana",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer",
-            "builder"
-          ]
-        },
-        {
-          "name": "Hynerpeton bassetti",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator",
-            "prey"
-          ]
-        }
-      ]
     },
     {
-      "period": "Carboniferous",
-      "organisms": [
-        {
-          "name": "Lepidodendron aculeatum",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer",
-            "builder"
-          ]
-        },
-        {
-          "name": "Arthropleura armata",
-          "broadType": "terrestrial_invertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "detritivore",
-            "ecosystem_engineer"
-          ]
-        }
-      ]
+      "name": "Archaeopteris halliana",
+      "broadType": "plant_small_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer"
+      ],
+      "card_label": "Card 36"
     },
     {
-      "period": "Permian",
-      "organisms": [
-        {
-          "name": "Psaronius sp.",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer",
-            "builder"
-          ]
-        },
-        {
-          "name": "Dimetrodon grandis",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ]
-        }
-      ]
+      "name": "Hyneria lindae",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "notes": "Represents predators in seasonally dry upland rivers",
+      "card_label": "Card 37"
     },
     {
-      "period": "Triassic",
-      "organisms": [
-        {
-          "name": "Dicroidium sp.",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer"
-          ]
-        },
-        {
-          "name": "Coelophysis bauri",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator",
-            "prey"
-          ]
-        }
-      ]
+      "name": "Calamites sp.",
+      "broadType": "plant_shrub_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer"
+      ],
+      "notes": "Tree-sized horsetail in drier margins/uplands",
+      "card_label": "Card 38"
     },
     {
-      "period": "Jurassic",
-      "organisms": [
-        {
-          "name": "Araucaria sp.",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer",
-            "builder"
-          ]
-        },
-        {
-          "name": "Stegosaurus stenops",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "prey",
-            "ecosystem_engineer"
-          ]
-        }
-      ]
+      "name": "Hylonomus lyelli",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "insectivore",
+        "prey"
+      ],
+      "notes": "Small reptile using drier forest/desert-margin habitats",
+      "card_label": "Card 39"
     },
     {
-      "period": "Cretaceous",
-      "organisms": [
-        {
-          "name": "Quercus sp.",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer",
-            "mutualist"
-          ]
-        },
-        {
-          "name": "Triceratops horridus",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "ecosystem_engineer",
-            "prey"
-          ]
-        }
-      ]
+      "name": "Lystrosaurus sp.",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "survivor"
+      ],
+      "notes": "Drought-tolerant dicynodont in semi-arid settings",
+      "card_label": "Card 40"
     },
     {
-      "period": "Paleogene",
-      "organisms": [
-        {
-          "name": "Nothofagus sp.",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer",
-            "builder"
-          ]
-        },
-        {
-          "name": "Smilodon fatalis",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "apex_predator"
-          ]
-        }
-      ]
+      "name": "Dimetrodon grandis",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 41"
     },
     {
-      "period": "Neogene",
-      "organisms": [
-        {
-          "name": "Pinus sylvestris",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer",
-            "builder"
-          ]
-        },
-        {
-          "name": "Cynomys ludovicianus",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "ecosystem_engineer",
-            "prey"
-          ]
-        }
-      ]
+      "name": "Coelophysis bauri",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator",
+        "prey"
+      ],
+      "card_label": "Card 42"
     },
     {
-      "period": "Quaternary",
-      "organisms": [
-        {
-          "name": "Quercus robur",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer",
-            "mutualist"
-          ]
-        },
-        {
-          "name": "Ursus arctos",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "omnivore",
-            "predator",
-            "scavenger",
-            "ecosystem_engineer",
-            "prey"
-          ]
-        }
-      ]
-    }
-  ],
-  "desertOrganismsByPeriod": [
-    {
-      "period": "Devonian",
-      "organisms": [
-        {
-          "name": "Archaeopteris halliana",
-          "broadType": "plant_small_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer"
-          ]
-        },
-        {
-          "name": "Hyneria lindae",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ],
-          "notes": "Represents predators in seasonally dry upland rivers"
-        }
-      ]
+      "name": "Lystrosaurus sp.",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "ecosystem_engineer"
+      ],
+      "notes": "Carried over into early Triassic arid plains",
+      "card_label": "Card 43"
     },
     {
-      "period": "Carboniferous",
-      "organisms": [
-        {
-          "name": "Calamites sp.",
-          "broadType": "plant_shrub_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer"
-          ],
-          "notes": "Tree-sized horsetail in drier margins/uplands"
-        },
-        {
-          "name": "Hylonomus lyelli",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "insectivore",
-            "prey"
-          ],
-          "notes": "Small reptile using drier forest/desert-margin habitats"
-        }
-      ]
+      "name": "Allosaurus fragilis",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "card_label": "Card 44"
     },
     {
-      "period": "Permian",
-      "organisms": [
-        {
-          "name": "Lystrosaurus sp.",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "survivor"
-          ],
-          "notes": "Drought-tolerant dicynodont in semi-arid settings"
-        },
-        {
-          "name": "Dimetrodon grandis",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ]
-        }
-      ]
+      "name": "Diplodocus carnegii",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "ecosystem_engineer"
+      ],
+      "notes": "Large browser in semi-arid floodplains",
+      "card_label": "Card 45"
     },
     {
-      "period": "Triassic",
-      "organisms": [
-        {
-          "name": "Coelophysis bauri",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator",
-            "prey"
-          ]
-        },
-        {
-          "name": "Lystrosaurus sp.",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "ecosystem_engineer"
-          ],
-          "notes": "Carried over into early Triassic arid plains"
-        }
-      ]
+      "name": "Velociraptor mongoliensis",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator",
+        "scavenger"
+      ],
+      "card_label": "Card 46"
     },
     {
-      "period": "Jurassic",
-      "organisms": [
-        {
-          "name": "Allosaurus fragilis",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "apex_predator"
-          ]
-        },
-        {
-          "name": "Diplodocus carnegii",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "ecosystem_engineer"
-          ],
-          "notes": "Large browser in semi-arid floodplains"
-        }
-      ]
+      "name": "Protoceratops andrewsi",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "prey"
+      ],
+      "notes": "Classic Gobi Desert herbivore",
+      "card_label": "Card 47"
     },
     {
-      "period": "Cretaceous",
-      "organisms": [
-        {
-          "name": "Velociraptor mongoliensis",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator",
-            "scavenger"
-          ]
-        },
-        {
-          "name": "Protoceratops andrewsi",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "prey"
-          ],
-          "notes": "Classic Gobi Desert herbivore"
-        }
-      ]
+      "name": "Protylopus sp.",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "browser",
+        "prey"
+      ],
+      "notes": "Early camelid in semi-arid habitats",
+      "card_label": "Card 48"
     },
     {
-      "period": "Paleogene",
-      "organisms": [
-        {
-          "name": "Protylopus sp.",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "browser",
-            "prey"
-          ],
-          "notes": "Early camelid in semi-arid habitats"
-        },
-        {
-          "name": "Cathartornis gracilis",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "scavenger"
-          ]
-        }
-      ]
+      "name": "Cathartornis gracilis",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "scavenger"
+      ],
+      "card_label": "Card 49"
     },
     {
-      "period": "Neogene",
-      "organisms": [
-        {
-          "name": "Struthio camelus",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "omnivore",
-            "prey"
-          ]
-        },
-        {
-          "name": "Vulpes zerda",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator",
-            "omnivore"
-          ]
-        }
-      ]
+      "name": "Struthio camelus",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "omnivore",
+        "prey"
+      ],
+      "card_label": "Card 50"
     },
     {
-      "period": "Quaternary",
-      "organisms": [
-        {
-          "name": "Carnegiea gigantea",
-          "broadType": "plant_succulent",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer",
-            "builder"
-          ]
-        },
-        {
-          "name": "Gopherus agassizii",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "ecosystem_engineer",
-            "prey"
-          ],
-          "notes": "Desert tortoise; burrows create habitat"
-        }
-      ]
-    }
-  ],
-  "grasslandOrganismsByPeriod": [
-    {
-      "period": "Paleogene",
-      "organisms": [
-        {
-          "name": "Mesohippus bairdi",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "grazer",
-            "prey"
-          ]
-        },
-        {
-          "name": "Hyaenodon gigas",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "apex_predator",
-            "scavenger"
-          ]
-        },
-        {
-          "name": "Metasequoia sp.",
-          "broadType": "plant_tree",
-          "trophicLevel": "producer",
-          "roles": [
-            "ecosystem_engineer"
-          ],
-          "notes": "Tree framing early grassy meadows in Paleogene scenes"
-        }
-      ]
+      "name": "Vulpes zerda",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator",
+        "omnivore"
+      ],
+      "card_label": "Card 51"
     },
     {
-      "period": "Neogene",
-      "organisms": [
-        {
-          "name": "Equus simplicidens",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "grazer",
-            "prey",
-            "ecosystem_engineer"
-          ]
-        },
-        {
-          "name": "Canis lepophagus",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator",
-            "scavenger"
-          ]
-        },
-        {
-          "name": "Andropogon sp.",
-          "broadType": "plant_grass",
-          "trophicLevel": "producer",
-          "roles": [
-            "primary_producer"
-          ],
-          "notes": "Represents C4 bunchgrasses in expanding Neogene grasslands"
-        }
-      ]
+      "name": "Carnegiea gigantea",
+      "broadType": "plant_succulent",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer",
+        "builder"
+      ],
+      "card_label": "Card 52"
     },
     {
-      "period": "Quaternary",
-      "organisms": [
-        {
-          "name": "Bison priscus",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "grazer",
-            "ecosystem_engineer",
-            "prey"
-          ]
-        },
-        {
-          "name": "Panthera leo",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "apex_predator",
-            "scavenger"
-          ]
-        },
-        {
-          "name": "Andropogon gerardii",
-          "broadType": "plant_grass",
-          "trophicLevel": "producer",
-          "roles": [
-            "primary_producer",
-            "ecosystem_engineer"
-          ],
-          "notes": "Big bluestem, classic tallgrass prairie grass"
-        }
-      ]
-    }
-  ],
-  "marineOrganismsByPeriod": [
-    {
-      "period": "Cambrian",
-      "organisms": [
-        {
-          "name": "Fuxianospira gyrata",
-          "broadType": "algae_phytoplankton",
-          "trophicLevel": "producer",
-          "roles": [
-            "producer"
-          ],
-          "notes": "Early photosynthetic organisms in ancient oceans"
-        },
-        {
-          "name": "Anomalocaris canadensis",
-          "broadType": "aquatic_invertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ]
-        }
-      ]
+      "name": "Gopherus agassizii",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "ecosystem_engineer",
+        "prey"
+      ],
+      "notes": "Desert tortoise; burrows create habitat",
+      "card_label": "Card 53"
     },
     {
-      "period": "Ordovician",
-      "organisms": [
-        {
-          "name": "Orthoceras regulare",
-          "broadType": "aquatic_invertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ]
-        }
-      ]
+      "name": "Archaeopteris halliana",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer",
+        "builder"
+      ],
+      "card_label": "Card 54"
     },
     {
-      "period": "Silurian",
-      "organisms": [
-        {
-          "name": "Tiktaalik roseae",
-          "broadType": "aquatic_invertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "filter_feeder",
-            "ecosystem_engineer",
-            "builder"
-          ]
-        },
-        {
-          "name": "Tiktaalik roseae",
-          "broadType": "aquatic_invertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ]
-        },
-        {
-          "name": "Lingula sp.",
-          "broadType": "aquatic_invertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "filter_feeder"
-          ]
-        }
-      ]
+      "name": "Hynerpeton bassetti",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator",
+        "prey"
+      ],
+      "card_label": "Card 55"
     },
     {
-      "period": "Devonian",
-      "organisms": [
-        {
-          "name": "Bothriolepis canadensis",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "filter_feeder"
-          ]
-        },
-        {
-          "name": "Dunkleosteus terrelli",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "apex_predator"
-          ]
-        }
-      ]
+      "name": "Lepidodendron aculeatum",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer",
+        "builder"
+      ],
+      "card_label": "Card 56"
     },
     {
-      "period": "Carboniferous",
-      "organisms": [
-        {
-          "name": "Productida sp.",
-          "broadType": "aquatic_invertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "filter_feeder"
-          ]
-        },
-        {
-          "name": "Edestus heinrichi",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ]
-        }
-      ]
+      "name": "Arthropleura armata",
+      "broadType": "terrestrial_invertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "detritivore",
+        "ecosystem_engineer"
+      ],
+      "card_label": "Card 57"
     },
     {
-      "period": "Permian",
-      "organisms": [
-        {
-          "name": "Mesosaurus tenuidens",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ]
-        },
-        {
-          "name": "Metacoceras sp.",
-          "broadType": "aquatic_invertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator",
-            "scavenger"
-          ]
-        }
-      ]
+      "name": "Psaronius sp.",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer",
+        "builder"
+      ],
+      "card_label": "Card 58"
     },
     {
-      "period": "Triassic",
-      "organisms": [
-        {
-          "name": "Nothosaurus mirabilis",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ]
-        },
-        {
-          "name": "Placodus gigas",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore"
-          ]
-        }
-      ]
+      "name": "Dimetrodon grandis",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 59"
     },
     {
-      "period": "Jurassic",
-      "organisms": [
-        {
-          "name": "Leedsichthys problematicus",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "filter_feeder"
-          ]
-        },
-        {
-          "name": "Plesiosaurus dolichodeirus",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator"
-          ]
-        }
-      ]
+      "name": "Dicroidium sp.",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer"
+      ],
+      "card_label": "Card 60"
     },
     {
-      "period": "Cretaceous",
-      "organisms": [
-        {
-          "name": "Mosasaurus hoffmannii",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "apex_predator"
-          ]
-        },
-        {
-          "name": "Archelon ischyros",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "predator",
-            "scavenger"
-          ]
-        }
-      ]
+      "name": "Coelophysis bauri",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator",
+        "prey"
+      ],
+      "card_label": "Card 61"
     },
     {
-      "period": "Paleogene",
-      "organisms": [
-        {
-          "name": "Basilosaurus cetoides",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "apex_predator"
-          ]
-        },
-        {
-          "name": "Carcharocles megalodon",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "apex_predator",
-            "scavenger"
-          ]
-        }
-      ]
+      "name": "Araucaria sp.",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer",
+        "builder"
+      ],
+      "card_label": "Card 62"
     },
     {
-      "period": "Quaternary",
-      "organisms": [
-        {
-          "name": "Emiliania huxleyi",
-          "broadType": "algae_phytoplankton",
-          "trophicLevel": "producer",
-          "roles": [
-            "producer",
-            "ecosystem_engineer"
-          ]
-        },
-        {
-          "name": "Dicksonia antarctica",
-          "broadType": "aquatic_invertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "filter_feeder"
-          ]
-        },
-        {
-          "name": "Balaenoptera musculus",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "filter_feeder",
-            "ecosystem_engineer"
-          ],
-          "notes": "Largest animal on Earth; filter feeds on krill"
-        },
-        {
-          "name": "Dermochelys coriacea",
-          "broadType": "aquatic_vertebrate",
-          "trophicLevel": "tertiary_consumer",
-          "roles": [
-            "predator"
-          ]
-        },
-        {
-          "name": "Astrocaryum standleyanum",
-          "broadType": "plant",
-          "trophicLevel": "producer",
-          "roles": [
-            "primary_producer",
-            "defensive_producer",
-            "thorny_shelter"
-          ],
-          "notes": "Rainforest palm with sharp spines on trunk and fronds; defensive adaptation"
-        }
-      ]
-    }
-  ],
-  "tundraOrganismsByPeriod": [
-    {
-      "period": "Neogene",
-      "organisms": [
-        {
-          "name": "Rangifer tarandus",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "grazer",
-            "prey"
-          ],
-          "notes": "Early cold-adapted grazer in tundra and tundra-like steppe"
-        },
-        {
-          "name": "Alopex lagopus",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "secondary_consumer",
-          "roles": [
-            "predator",
-            "scavenger"
-          ],
-          "notes": "Small tundra carnivore hunting rodents and scavenging carrion"
-        },
-        {
-          "name": "Dryas octopetala",
-          "broadType": "plant_shrub",
-          "trophicLevel": "producer",
-          "roles": [
-            "primary_producer",
-            "ecosystem_engineer"
-          ],
-          "notes": "Low shrub typical of early tundra and heath communities"
-        }
-      ]
+      "name": "Stegosaurus stenops",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "prey",
+        "ecosystem_engineer"
+      ],
+      "card_label": "Card 63"
     },
     {
-      "period": "Quaternary",
-      "organisms": [
-        {
-          "name": "Mammuthus primigenius",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "ecosystem_engineer",
-            "prey"
-          ],
-          "notes": "Iconic tundra megaherbivore reshaping vegetation and soils"
-        },
-        {
-          "name": "Ovibos moschatus",
-          "broadType": "terrestrial_vertebrate",
-          "trophicLevel": "primary_consumer",
-          "roles": [
-            "herbivore",
-            "grazer",
-            "prey"
-          ],
-          "notes": "Shaggy tundra bovid forming defensive herds, great for 'tank' mechanics"
-        },
-        {
-          "name": "Cladonia rangiferina",
-          "broadType": "lichen",
-          "trophicLevel": "producer",
-          "roles": [
-            "primary_producer",
-            "ecosystem_engineer",
-            "mutualist"
-          ],
-          "notes": "Dominant ground cover and key winter forage for large herbivores"
-        }
-      ]
+      "name": "Quercus sp.",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer",
+        "mutualist"
+      ],
+      "card_label": "Card 64"
+    },
+    {
+      "name": "Triceratops horridus",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "ecosystem_engineer",
+        "prey"
+      ],
+      "card_label": "Card 65"
+    },
+    {
+      "name": "Nothofagus sp.",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer",
+        "builder"
+      ],
+      "card_label": "Card 66"
+    },
+    {
+      "name": "Smilodon fatalis",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "card_label": "Card 67"
+    },
+    {
+      "name": "Pinus sylvestris",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer",
+        "builder"
+      ],
+      "card_label": "Card 68"
+    },
+    {
+      "name": "Cynomys ludovicianus",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "ecosystem_engineer",
+        "prey"
+      ],
+      "card_label": "Card 69"
+    },
+    {
+      "name": "Quercus robur",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer",
+        "mutualist"
+      ],
+      "card_label": "Card 70"
+    },
+    {
+      "name": "Ursus arctos",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "omnivore",
+        "predator",
+        "scavenger",
+        "ecosystem_engineer",
+        "prey"
+      ],
+      "card_label": "Card 71"
+    },
+    {
+      "name": "Mesohippus bairdi",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "grazer",
+        "prey"
+      ],
+      "card_label": "Card 72"
+    },
+    {
+      "name": "Hyaenodon gigas",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator",
+        "scavenger"
+      ],
+      "card_label": "Card 73"
+    },
+    {
+      "name": "Metasequoia sp.",
+      "broadType": "plant_tree",
+      "trophicLevel": "producer",
+      "roles": [
+        "ecosystem_engineer"
+      ],
+      "notes": "Tree framing early grassy meadows in Paleogene scenes",
+      "card_label": "Card 74"
+    },
+    {
+      "name": "Equus simplicidens",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "grazer",
+        "prey",
+        "ecosystem_engineer"
+      ],
+      "card_label": "Card 75"
+    },
+    {
+      "name": "Canis lepophagus",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator",
+        "scavenger"
+      ],
+      "card_label": "Card 76"
+    },
+    {
+      "name": "Andropogon sp.",
+      "broadType": "plant_grass",
+      "trophicLevel": "producer",
+      "roles": [
+        "primary_producer"
+      ],
+      "notes": "Represents C4 bunchgrasses in expanding Neogene grasslands",
+      "card_label": "Card 77"
+    },
+    {
+      "name": "Bison priscus",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "grazer",
+        "ecosystem_engineer",
+        "prey"
+      ],
+      "card_label": "Card 78"
+    },
+    {
+      "name": "Panthera leo",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator",
+        "scavenger"
+      ],
+      "card_label": "Card 79"
+    },
+    {
+      "name": "Andropogon gerardii",
+      "broadType": "plant_grass",
+      "trophicLevel": "producer",
+      "roles": [
+        "primary_producer",
+        "ecosystem_engineer"
+      ],
+      "notes": "Big bluestem, classic tallgrass prairie grass",
+      "card_label": "Card 80"
+    },
+    {
+      "name": "Fuxianospira gyrata",
+      "broadType": "algae_phytoplankton",
+      "trophicLevel": "producer",
+      "roles": [
+        "producer"
+      ],
+      "notes": "Early photosynthetic organisms in ancient oceans",
+      "card_label": "Card 81"
+    },
+    {
+      "name": "Anomalocaris canadensis",
+      "broadType": "aquatic_invertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 82"
+    },
+    {
+      "name": "Orthoceras regulare",
+      "broadType": "aquatic_invertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 83"
+    },
+    {
+      "name": "Tiktaalik roseae",
+      "broadType": "aquatic_invertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "filter_feeder",
+        "ecosystem_engineer",
+        "builder"
+      ],
+      "card_label": "Card 84"
+    },
+    {
+      "name": "Tiktaalik roseae",
+      "broadType": "aquatic_invertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 85"
+    },
+    {
+      "name": "Lingula sp.",
+      "broadType": "aquatic_invertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "filter_feeder"
+      ],
+      "card_label": "Card 86"
+    },
+    {
+      "name": "Bothriolepis canadensis",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "filter_feeder"
+      ],
+      "card_label": "Card 87"
+    },
+    {
+      "name": "Dunkleosteus terrelli",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "card_label": "Card 88"
+    },
+    {
+      "name": "Productida sp.",
+      "broadType": "aquatic_invertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "filter_feeder"
+      ],
+      "card_label": "Card 89"
+    },
+    {
+      "name": "Edestus heinrichi",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 90"
+    },
+    {
+      "name": "Mesosaurus tenuidens",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 91"
+    },
+    {
+      "name": "Metacoceras sp.",
+      "broadType": "aquatic_invertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator",
+        "scavenger"
+      ],
+      "card_label": "Card 92"
+    },
+    {
+      "name": "Nothosaurus mirabilis",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 93"
+    },
+    {
+      "name": "Placodus gigas",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore"
+      ],
+      "card_label": "Card 94"
+    },
+    {
+      "name": "Leedsichthys problematicus",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "filter_feeder"
+      ],
+      "card_label": "Card 95"
+    },
+    {
+      "name": "Plesiosaurus dolichodeirus",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 96"
+    },
+    {
+      "name": "Mosasaurus hoffmannii",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "card_label": "Card 97"
+    },
+    {
+      "name": "Archelon ischyros",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "predator",
+        "scavenger"
+      ],
+      "card_label": "Card 98"
+    },
+    {
+      "name": "Basilosaurus cetoides",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator"
+      ],
+      "card_label": "Card 99"
+    },
+    {
+      "name": "Carcharocles megalodon",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "apex_predator",
+        "scavenger"
+      ],
+      "card_label": "Card 100"
+    },
+    {
+      "name": "Emiliania huxleyi",
+      "broadType": "algae_phytoplankton",
+      "trophicLevel": "producer",
+      "roles": [
+        "producer",
+        "ecosystem_engineer"
+      ],
+      "card_label": "Card 101"
+    },
+    {
+      "name": "Dicksonia antarctica",
+      "broadType": "aquatic_invertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "filter_feeder"
+      ],
+      "card_label": "Card 102"
+    },
+    {
+      "name": "Balaenoptera musculus",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "filter_feeder",
+        "ecosystem_engineer"
+      ],
+      "notes": "Largest animal on Earth; filter feeds on krill",
+      "card_label": "Card 103"
+    },
+    {
+      "name": "Dermochelys coriacea",
+      "broadType": "aquatic_vertebrate",
+      "trophicLevel": "tertiary_consumer",
+      "roles": [
+        "predator"
+      ],
+      "card_label": "Card 104"
+    },
+    {
+      "name": "Astrocaryum standleyanum",
+      "broadType": "plant",
+      "trophicLevel": "producer",
+      "roles": [
+        "primary_producer",
+        "defensive_producer",
+        "thorny_shelter"
+      ],
+      "notes": "Rainforest palm with sharp spines on trunk and fronds; defensive adaptation",
+      "card_label": "Card 105"
+    },
+    {
+      "name": "Rangifer tarandus",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "grazer",
+        "prey"
+      ],
+      "notes": "Early cold-adapted grazer in tundra and tundra-like steppe",
+      "card_label": "Card 106"
+    },
+    {
+      "name": "Alopex lagopus",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "secondary_consumer",
+      "roles": [
+        "predator",
+        "scavenger"
+      ],
+      "notes": "Small tundra carnivore hunting rodents and scavenging carrion",
+      "card_label": "Card 107"
+    },
+    {
+      "name": "Dryas octopetala",
+      "broadType": "plant_shrub",
+      "trophicLevel": "producer",
+      "roles": [
+        "primary_producer",
+        "ecosystem_engineer"
+      ],
+      "notes": "Low shrub typical of early tundra and heath communities",
+      "card_label": "Card 108"
+    },
+    {
+      "name": "Mammuthus primigenius",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "ecosystem_engineer",
+        "prey"
+      ],
+      "notes": "Iconic tundra megaherbivore reshaping vegetation and soils",
+      "card_label": "Card 109"
+    },
+    {
+      "name": "Ovibos moschatus",
+      "broadType": "terrestrial_vertebrate",
+      "trophicLevel": "primary_consumer",
+      "roles": [
+        "herbivore",
+        "grazer",
+        "prey"
+      ],
+      "notes": "Shaggy tundra bovid forming defensive herds, great for 'tank' mechanics",
+      "card_label": "Card 110"
+    },
+    {
+      "name": "Cladonia rangiferina",
+      "broadType": "lichen",
+      "trophicLevel": "producer",
+      "roles": [
+        "primary_producer",
+        "ecosystem_engineer",
+        "mutualist"
+      ],
+      "notes": "Dominant ground cover and key winter forage for large herbivores",
+      "card_label": "Card 111"
     }
   ]
 }
