@@ -2051,6 +2051,17 @@
           "roles": [
             "predator"
           ]
+        },
+        {
+          "name": "Astrocaryum standleyanum",
+          "broadType": "plant",
+          "trophicLevel": "producer",
+          "roles": [
+            "primary_producer",
+            "defensive_producer",
+            "thorny_shelter"
+          ],
+          "notes": "Rainforest palm with sharp spines on trunk and fronds; defensive adaptation"
         }
       ]
     }
