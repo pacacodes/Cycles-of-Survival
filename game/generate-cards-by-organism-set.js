@@ -95,6 +95,7 @@ function normalizeOrganism(organism, index, totalCount) {
   
   return {
     id: organism.id || organism.scientific_name || `organism-${index + 1}`,
+    fileName: `card-${organism.card_label ? organism.card_label.replace('Card ', '') : cardNum}.png`,
     card_label: organism.card_label || `Card ${cardNum}`,
     common_name: organism.common_name || organism.name || 'Unknown',
     scientific_name: organism.scientific_name || '',
