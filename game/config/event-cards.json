@@ -1,0 +1,732 @@
+{
+  "crisis": [
+    {
+      "name": "Prolonged Drought",
+      "type": "crisis",
+      "trend": "drier_warmer",
+      "trackEffect": "Move the Climate tracker 1 step toward Hot. In each region, turn 1 River or Wetland space into Dry Ground.",
+      "co2Change": 1,
+      "o2Change": -1,
+      "biodiversityChange": -2,
+      "biomesBad": [
+        "Wetlands",
+        "Rivers and lakes",
+        "Tropical forests",
+        "Rain-dependent grasslands"
+      ],
+      "biomesGood": [
+        "Deserts",
+        "Dry scrublands",
+        "Drought-adapted savannas"
+      ],
+      "organismsBad": [
+        { "group": "Amphibians", "example": "Tiger salamander" },
+        { "group": "Shallow-water fish", "example": "Bluegill sunfish" },
+        { "group": "Moisture-dependent plants", "example": "Skunk cabbage" },
+        { "group": "Large water-dependent herbivores", "example": "African elephant" }
+      ],
+      "organismsGood": [
+        { "group": "Cacti and succulents", "example": "Saguaro cactus" },
+        { "group": "Deep-rooted shrubs", "example": "Creosote bush" },
+        { "group": "Drought-tolerant grasses", "example": "Buffalo grass" },
+        { "group": "Burrowing desert animals", "example": "Kangaroo rat" }
+      ]
+    },
+    {
+      "name": "Megaflood",
+      "type": "crisis",
+      "trend": "wetter_extremes",
+      "trackEffect": "In one main river system, flood 1 River or Floodplain space: move any organisms there to neighboring spaces if possible, then place a Silt token.",
+      "co2Change": 0,
+      "o2Change": -1,
+      "biodiversityChange": -1,
+      "biomesBad": [
+        "River valleys",
+        "Floodplains",
+        "Lowland forests",
+        "Coastal wetlands"
+      ],
+      "biomesGood": [
+        "Downstream deltas",
+        "Fresh gravel bars",
+        "Nutrient-enriched wetlands"
+      ],
+      "organismsBad": [
+        { "group": "Burrowing mammals", "example": "Prairie dog" },
+        { "group": "Ground-nesting birds", "example": "Killdeer" },
+        { "group": "Soil organisms in scoured zones", "example": "Earthworms" },
+        { "group": "Shallow-rooted plants", "example": "Annual wildflowers" }
+      ],
+      "organismsGood": [
+        { "group": "Opportunistic colonizer plants", "example": "Fireweed" },
+        { "group": "Fast-reproducing invertebrates", "example": "Midges" },
+        { "group": "Floodplain fish", "example": "Common carp" }
+      ]
+    },
+    {
+      "name": "Multi-year Heat Wave",
+      "type": "crisis",
+      "trend": "hotter",
+      "trackEffect": "Move the Climate tracker 1 step toward Hot. For each region, choose 1 shallow water or cool biome space and give it a Heat Stress token.",
+      "co2Change": 1,
+      "o2Change": -1,
+      "biodiversityChange": -2,
+      "biomesBad": [
+        "Temperate forests",
+        "Coral reefs",
+        "Polar and alpine biomes",
+        "Shallow freshwater"
+      ],
+      "biomesGood": [
+        "Warm grasslands and savannas",
+        "Some subtropical seas",
+        "Hot-adapted deserts"
+      ],
+      "organismsBad": [
+        { "group": "Corals", "example": "Staghorn coral" },
+        { "group": "Cold-water fish", "example": "Brook trout" },
+        { "group": "Large water-needy mammals", "example": "Moose" },
+        { "group": "Heat-sensitive amphibians", "example": "Spotted salamander" }
+      ],
+      "organismsGood": [
+        { "group": "Heat-tolerant reptiles", "example": "Desert iguana" },
+        { "group": "Warm-water fish", "example": "Tilapia" },
+        { "group": "C4 grasses", "example": "Switchgrass" },
+        { "group": "Heat-loving insects", "example": "Locusts" }
+      ]
+    },
+    {
+      "name": "Sudden Cold Snap",
+      "type": "crisis",
+      "trend": "colder_spike",
+      "trackEffect": "Move the Climate tracker 1 step toward Cold. In one warm region, flip 1 Tropical or Savanna space to a Colder version (e.g., Grassland or Boreal).",
+      "co2Change": 0,
+      "o2Change": 1,
+      "biodiversityChange": -1,
+      "biomesBad": [
+        "Tropical forests",
+        "Savannas",
+        "Warm-temperate coasts",
+        "Warm, shallow lakes"
+      ],
+      "biomesGood": [
+        "Tundra edges",
+        "Boreal forest margins",
+        "Cold-water streams"
+      ],
+      "organismsBad": [
+        { "group": "Tropical plants", "example": "Banana plant" },
+        { "group": "Reptiles", "example": "Green anole" },
+        { "group": "Many insects", "example": "Monarch butterfly (larvae)" },
+        { "group": "Warm-water fish", "example": "Guppy" }
+      ],
+      "organismsGood": [
+        { "group": "Cold-adapted conifers", "example": "Spruce" },
+        { "group": "Cold-water fish", "example": "Arctic char" },
+        { "group": "Cold-tolerant invertebrates", "example": "Stonefly nymphs" },
+        { "group": "Insulated mammals", "example": "Snowshoe hare" }
+      ]
+    },
+    {
+      "name": "Ocean Acidification Pulse",
+      "type": "crisis",
+      "trend": "acidic_oceans",
+      "trackEffect": "Place an Acidification token on 1 Reef or Shell-Ocean space in each ocean region. Shell-building organisms there cost +1 energy to play this turn.",
+      "co2Change": 1,
+      "o2Change": -1,
+      "biodiversityChange": -2,
+      "biomesBad": [
+        "Coral reefs",
+        "Shell-plankton-rich surface oceans",
+        "Coastal upwelling zones"
+      ],
+      "biomesGood": [
+        "Seaweed beds",
+        "Seagrass meadows",
+        "Soft-plankton communities"
+      ],
+      "organismsBad": [
+        { "group": "Corals", "example": "Brain coral" },
+        { "group": "Mollusks", "example": "Blue mussel" },
+        { "group": "Shell-forming plankton", "example": "Coccolithophores" },
+        { "group": "Echinoderms", "example": "Sea urchin" }
+      ],
+      "organismsGood": [
+        { "group": "Macroalgae", "example": "Kelp" },
+        { "group": "Seagrasses", "example": "Eelgrass" },
+        { "group": "Jellyfish", "example": "Moon jelly" },
+        { "group": "Non-shell plankton", "example": "Dinoflagellates" }
+      ]
+    },
+    {
+      "name": "Harmful Algal Bloom",
+      "type": "crisis",
+      "trend": "eutrophication",
+      "trackEffect": "In 1 coastal or lake region, place a Bloom token on up to 2 Water spaces. Those spaces cannot support fish this turn.",
+      "co2Change": 0,
+      "o2Change": -2,
+      "biodiversityChange": -2,
+      "biomesBad": [
+        "Coastal oceans",
+        "Estuaries",
+        "Nutrient-rich lakes",
+        "Semi-enclosed seas"
+      ],
+      "biomesGood": [
+        "Deeper offshore waters (detritus input)",
+        "Detritus-based communities after bloom crash"
+      ],
+      "organismsBad": [
+        { "group": "Fish in low oxygen", "example": "Sardine" },
+        { "group": "Filter feeders", "example": "Oysters" },
+        { "group": "Seagrasses", "example": "Turtle grass" },
+        { "group": "Sensitive invertebrates", "example": "Crabs" }
+      ],
+      "organismsGood": [
+        { "group": "Tolerant algae", "example": "Cyanobacteria mats" },
+        { "group": "Decomposer bacteria", "example": "Sulfate-reducing bacteria" },
+        { "group": "Scavengers", "example": "Gulls" }
+      ]
+    },
+    {
+      "name": "Disease Outbreak",
+      "type": "crisis",
+      "trend": "unstable_populations",
+      "trackEffect": "Choose 1 biome type (like Forest or Reef) in a region. Remove up to 2 matching host organism tokens there.",
+      "co2Change": 0,
+      "o2Change": 0,
+      "biodiversityChange": -2,
+      "biomesBad": [
+        "Host-dominated forests",
+        "Host-dominated reefs",
+        "Any biome with dense host populations"
+      ],
+      "biomesGood": [
+        "Neighboring biomes with competitors",
+        "Early-successional patches after die-off"
+      ],
+      "organismsBad": [
+        { "group": "Target host species", "example": "American chestnut" },
+        { "group": "Close relatives", "example": "Related oak species" },
+        { "group": "Host-dependent mutualists", "example": "Host-specific mycorrhizae" }
+      ],
+      "organismsGood": [
+        { "group": "Competitor tree species", "example": "Maples" },
+        { "group": "Generalist predators", "example": "Coyote" },
+        { "group": "Scavengers", "example": "Vultures" },
+        { "group": "Decomposers", "example": "Saprobic fungi" }
+      ]
+    },
+    {
+      "name": "Invasive Species Arrival",
+      "type": "crisis",
+      "trend": "biotic_invasion",
+      "trackEffect": "In one region, add 1 Invasive token to a suitable biome. Then remove 1 native organism token of the same niche there.",
+      "co2Change": 0,
+      "o2Change": 0,
+      "biodiversityChange": -2,
+      "biomesBad": [
+        "Islands",
+        "Lakes and closed basins",
+        "Isolated forests",
+        "Isolated reefs"
+      ],
+      "biomesGood": [
+        "Disturbed edges",
+        "Fragmented landscapes",
+        "Human-disturbed / urban-edge areas"
+      ],
+      "organismsBad": [
+        { "group": "Endemic specialists", "example": "Island rails" },
+        { "group": "Naive prey", "example": "Ground-nesting island birds" },
+        { "group": "Native niche-overlap species", "example": "Native crayfish" }
+      ],
+      "organismsGood": [
+        { "group": "Invasive species", "example": "Zebra mussel" },
+        { "group": "Generalist predators", "example": "Raccoon" },
+        { "group": "Disturbance-tolerant natives", "example": "House sparrow" }
+      ]
+    },
+    {
+      "name": "Predator Boom",
+      "type": "crisis",
+      "trend": "top_down_control",
+      "trackEffect": "In one region, add 1 Predator Boom token. Remove up to 2 large herbivore or prey tokens from that region.",
+      "co2Change": 0,
+      "o2Change": 0,
+      "biodiversityChange": -1,
+      "biomesBad": [
+        "Overgrazed grasslands",
+        "Fragmented forests",
+        "Overfished reefs"
+      ],
+      "biomesGood": [
+        "Overbrowsed forests",
+        "Algal-dominated reefs"
+      ],
+      "organismsBad": [
+        { "group": "Large herbivores", "example": "Deer" },
+        { "group": "Mid-level predators", "example": "Foxes" },
+        { "group": "Overabundant prey", "example": "Snowshoe hare" }
+      ],
+      "organismsGood": [
+        { "group": "Plants released from grazing", "example": "Oak saplings" },
+        { "group": "Prey of mesopredators", "example": "Small rodents" },
+        { "group": "Scavengers", "example": "Ravens" }
+      ]
+    },
+    {
+      "name": "Wildfire Season",
+      "type": "crisis",
+      "trend": "hotter_drier_fire",
+      "trackEffect": "In each affected region, choose 1 Forest or Shrubland space and burn it: flip it to Burned/Grassland and remove 1 organism token there.",
+      "co2Change": 2,
+      "o2Change": -1,
+      "biodiversityChange": -1,
+      "biomesBad": [
+        "Moist tropical forests",
+        "Peatlands",
+        "Wetlands",
+        "Non-fire-adapted biomes"
+      ],
+      "biomesGood": [
+        "Fire-adapted grasslands",
+        "Savannas",
+        "Mediterranean shrublands",
+        "Some pine forests"
+      ],
+      "organismsBad": [
+        { "group": "Large slow-moving animals", "example": "Koala" },
+        { "group": "Fire-sensitive trees", "example": "Tropical hardwoods" },
+        { "group": "Soil organisms in hot burns", "example": "Soil nematodes" }
+      ],
+      "organismsGood": [
+        { "group": "Fire-adapted trees", "example": "Lodgepole pine" },
+        { "group": "Seed-eating birds", "example": "Finches" },
+        { "group": "Burn-wood insects", "example": "Wood-boring beetles" }
+      ]
+    },
+    {
+      "name": "Volcanic Eruption (Regional)",
+      "type": "crisis",
+      "trend": "ash_and_new_lands",
+      "trackEffect": "In one region, cover 1 Forest or Grassland space with Ash (make it Empty/Ash). In a later era, you may turn 1 Ash space into Rich Soil.",
+      "co2Change": 1,
+      "o2Change": -1,
+      "biodiversityChange": -1,
+      "biomesBad": [
+        "Downwind forests",
+        "Ash-covered grasslands",
+        "River systems with ash",
+        "Nearby coasts"
+      ],
+      "biomesGood": [
+        "Volcanic slopes over time",
+        "Fresh lava fields after weathering",
+        "Dust-enriched downwind regions"
+      ],
+      "organismsBad": [
+        { "group": "Local forest communities", "example": "Beech forest" },
+        { "group": "River fish", "example": "Salmon" },
+        { "group": "Nearby terrestrial animals", "example": "Deer" }
+      ],
+      "organismsGood": [
+        { "group": "Pioneer plants", "example": "Mosses" },
+        { "group": "Lichens", "example": "Crustose lichens" },
+        { "group": "Nitrogen-fixing organisms", "example": "Alder trees" }
+      ]
+    },
+    {
+      "name": "Ash-Darkened Skies",
+      "type": "crisis",
+      "trend": "dimmer_skies",
+      "trackEffect": "For this round, photosynthesis is weaker: in each region, 1 Producer token of your choice cannot generate energy points.",
+      "co2Change": 0,
+      "o2Change": -1,
+      "biodiversityChange": -1,
+      "biomesBad": [
+        "Coral reefs",
+        "High-productivity surface oceans",
+        "Sun-dependent grasslands"
+      ],
+      "biomesGood": [
+        "Shade-tolerant forest understories",
+        "Deep ocean communities"
+      ],
+      "organismsBad": [
+        { "group": "Phytoplankton", "example": "Diatoms" },
+        { "group": "Coral symbionts", "example": "Symbiodinium algae" },
+        { "group": "Sun-loving plants", "example": "Prairie grasses" },
+        { "group": "Visual hunters", "example": "Eagles" }
+      ],
+      "organismsGood": [
+        { "group": "Shade plants", "example": "Ferns" },
+        { "group": "Detritivores", "example": "Millipedes" },
+        { "group": "Non-visual predators", "example": "Wolves" }
+      ]
+    },
+    {
+      "name": "River Pollution Event",
+      "type": "crisis",
+      "trend": "dirty_waters",
+      "trackEffect": "In one river system, place a Pollution token on 2 connected River/Lake spaces. Fish and amphibians there are removed at the end of the round if they stay.",
+      "co2Change": 1,
+      "o2Change": -2,
+      "biodiversityChange": -2,
+      "biomesBad": [
+        "Rivers and streams",
+        "Connected lakes",
+        "Floodplain wetlands",
+        "Estuaries"
+      ],
+      "biomesGood": [
+        "Filtering wetlands downstream",
+        "Microbial mats using pollutants"
+      ],
+      "organismsBad": [
+        { "group": "Fish", "example": "Trout" },
+        { "group": "Amphibians", "example": "Frogs" },
+        { "group": "Aquatic invertebrates", "example": "Mayfly nymphs" },
+        { "group": "Sensitive riparian plants", "example": "Willows" }
+      ],
+      "organismsGood": [
+        { "group": "Pollution-tolerant invertebrates", "example": "Midge larvae" },
+        { "group": "Algae using extra nutrients", "example": "Filamentous green algae" },
+        { "group": "Pollutant-eating bacteria", "example": "Hydrocarbon-degrading bacteria" }
+      ]
+    },
+    {
+      "name": "Habitat Fragmentation",
+      "type": "crisis",
+      "trend": "broken_habitats",
+      "trackEffect": "In one region, draw 1 new road or barrier line that splits a large habitat into two smaller patches. Move 1 wide-ranging animal token to the discard.",
+      "co2Change": 1,
+      "o2Change": -1,
+      "biodiversityChange": -2,
+      "biomesBad": [
+        "Continuous forests",
+        "Large grasslands",
+        "Big wetland complexes"
+      ],
+      "biomesGood": [
+        "Edge habitats",
+        "Hedgerows",
+        "Roadside strips",
+        "Small ponds and patches"
+      ],
+      "organismsBad": [
+        { "group": "Wide-ranging mammals", "example": "Wolves" },
+        { "group": "Interior forest birds", "example": "Wood thrush" },
+        { "group": "Corridor-using migrants", "example": "Caribou" },
+        { "group": "Specialists", "example": "Spotted owl" }
+      ],
+      "organismsGood": [
+        { "group": "Edge-dwelling birds", "example": "Robins" },
+        { "group": "Small generalist mammals", "example": "Raccoons" },
+        { "group": "Weedy plants", "example": "Dandelions" },
+        { "group": "Some insects", "example": "Cabbage white butterfly" }
+      ]
+    },
+    {
+      "name": "Oxygen Crash (Local)",
+      "type": "crisis",
+      "trend": "low_oxygen_waters",
+      "trackEffect": "In one Lake, River, or Coastal space, place an Oxygen Crash token. Remove up to 2 fish or invertebrate tokens from that space.",
+      "co2Change": 0,
+      "o2Change": -2,
+      "biodiversityChange": -2,
+      "biomesBad": [
+        "Stratified lakes",
+        "Estuaries",
+        "Coastal dead zones",
+        "Enclosed seas"
+      ],
+      "biomesGood": [
+        "Anoxic zones for special microbes"
+      ],
+      "organismsBad": [
+        { "group": "Most fish", "example": "Catfish" },
+        { "group": "Aerobic invertebrates", "example": "Crayfish" },
+        { "group": "Benthic animals", "example": "Mussels" }
+      ],
+      "organismsGood": [
+        { "group": "Anaerobic bacteria", "example": "Methanogens" },
+        { "group": "Sulfur-bacteria mats", "example": "Beggiatoa" },
+        { "group": "Low-oxygen extremophiles", "example": "Some tubeworms" }
+      ]
+    }
+  ],
+  "recovery": [
+    {
+      "name": "New Colonization Wave",
+      "type": "recovery",
+      "trend": "new_life_spreads",
+      "trackEffect": "In one region, turn 1 Empty or damaged space into a fresh habitat (Forest, Grassland, or Reef) and place 1 new Producer token there.",
+      "co2Change": -1,
+      "o2Change": 1,
+      "biodiversityChange": 2,
+      "biomesBad": [
+        "Stable climax forests",
+        "Old coral reefs with little open space"
+      ],
+      "biomesGood": [
+        "Disturbed forest clearings",
+        "Fresh sandbars and gravel bars",
+        "Recently cooled lava fields"
+      ],
+      "organismsBad": [
+        { "group": "Old-growth specialists", "example": "Spotted owl" },
+        { "group": "Slow-growing corals", "example": "Brain coral" }
+      ],
+      "organismsGood": [
+        { "group": "Pioneer plants", "example": "Fireweed" },
+        { "group": "Colonizing grasses", "example": "Ryegrass" },
+        { "group": "Opportunistic reef organisms", "example": "Branching corals" }
+      ]
+    },
+    {
+      "name": "Nutrient Surge",
+      "type": "recovery",
+      "trend": "nutrient_boost",
+      "trackEffect": "Choose 1 Ocean, Lake, or Floodplain region. Add 1 extra Producer token there and draw 1 extra Organism card for that region this turn.",
+      "co2Change": 0,
+      "o2Change": 0,
+      "biodiversityChange": 1,
+      "biomesBad": [
+        "Clear-water coral reefs (if overloaded)",
+        "Oligotrophic lakes (if over-fertilized)"
+      ],
+      "biomesGood": [
+        "Upwelling coastal zones",
+        "Productive estuaries",
+        "Flooded floodplains"
+      ],
+      "organismsBad": [
+        { "group": "Corals smothered by sediment", "example": "Staghorn coral" },
+        { "group": "Sensitive freshwater fish", "example": "Trout" }
+      ],
+      "organismsGood": [
+        { "group": "Phytoplankton", "example": "Diatoms" },
+        { "group": "Fast-growing algae", "example": "Kelp" },
+        { "group": "Grazing zooplankton", "example": "Copepods" },
+        { "group": "Filter feeders", "example": "Mussels" }
+      ]
+    },
+    {
+      "name": "Refugia Discovered",
+      "type": "recovery",
+      "trend": "safe_hideouts",
+      "trackEffect": "Pick 1 threatened region. Place a Refugia marker on 1 space there; organisms on that space are safe from the next crisis in that region.",
+      "co2Change": 0,
+      "o2Change": 0,
+      "biodiversityChange": 2,
+      "biomesBad": [
+        "Exposed degraded areas outside refuges",
+        "Overcrowded neighboring habitats"
+      ],
+      "biomesGood": [
+        "Cool moist ravines",
+        "Deep lakes and spring pools",
+        "Sheltered mountain valleys"
+      ],
+      "organismsBad": [
+        { "group": "Species stuck outside refuges", "example": "Isolated lizards" },
+        { "group": "Poor dispersers", "example": "Small understory plants" }
+      ],
+      "organismsGood": [
+        { "group": "Relict amphibians", "example": "Salamanders" },
+        { "group": "Shade-loving plants", "example": "Ferns" },
+        { "group": "Cold-tolerant fish", "example": "Spring trout" }
+      ]
+    },
+    {
+      "name": "Keystone Species Returns",
+      "type": "recovery",
+      "trend": "food_web_balance",
+      "trackEffect": "Add 1 Keystone organism token to a suitable biome. In that region, you may remove up to 2 overabundant herbivore or pest tokens.",
+      "co2Change": 0,
+      "o2Change": 0,
+      "biodiversityChange": 2,
+      "biomesBad": [
+        "Systems where prey drop quickly (short term)",
+        "Habitats where competitors of the keystone decline"
+      ],
+      "biomesGood": [
+        "Overgrazed grasslands",
+        "Algal-overgrown reefs",
+        "Forests missing key predators or herbivores"
+      ],
+      "organismsBad": [
+        { "group": "Overabundant prey", "example": "Deer" },
+        { "group": "Mesopredators", "example": "Coyotes" }
+      ],
+      "organismsGood": [
+        { "group": "Keystone predators", "example": "Gray wolf" },
+        { "group": "Keystone herbivores", "example": "Bison" },
+        { "group": "Dependent plants", "example": "Aspen" }
+      ]
+    },
+    {
+      "name": "Stabilized Food Web",
+      "type": "recovery",
+      "trend": "webs_in_balance",
+      "trackEffect": "In one region, remove 1 invasive or super-dominant species token. Then, you may add 1 new organism of a different trophic level.",
+      "co2Change": 0,
+      "o2Change": 0,
+      "biodiversityChange": 2,
+      "biomesBad": [
+        "Very simplified monocultures",
+        "Highly disturbed edges losing chaotic dominance"
+      ],
+      "biomesGood": [
+        "Mixed-age forests",
+        "Balanced reefs",
+        "Grasslands with varied grazers"
+      ],
+      "organismsBad": [
+        { "group": "Single dominant species", "example": "One invasive grass" },
+        { "group": "Out-of-balance herbivore herds", "example": "Overabundant rabbits" }
+      ],
+      "organismsGood": [
+        { "group": "Diverse predator guilds", "example": "Hawks, foxes, owls" },
+        { "group": "Mixed herbivore communities", "example": "Bison and pronghorn" },
+        { "group": "Plants across layers", "example": "Canopy, understory, groundcover" }
+      ]
+    },
+    {
+      "name": "Climate Settles",
+      "type": "recovery",
+      "trend": "more_moderate",
+      "trackEffect": "Move the Climate tracker 1 step toward the middle. While this card is in play, ignore the next Hot or Cold shift from another card.",
+      "co2Change": -1,
+      "o2Change": 1,
+      "biodiversityChange": 1,
+      "biomesBad": [
+        "Extreme cold-only niches",
+        "Extreme heat-only niches"
+      ],
+      "biomesGood": [
+        "Temperate forests",
+        "Seasonal grasslands",
+        "Moderate coastal seas"
+      ],
+      "organismsBad": [
+        { "group": "Extreme cold specialists", "example": "Alpine cushion plants" },
+        { "group": "Extreme heat specialists", "example": "Desert beetles" }
+      ],
+      "organismsGood": [
+        { "group": "Temperate trees", "example": "Oak" },
+        { "group": "Seasonal grasses", "example": "Fescue" },
+        { "group": "Migratory birds needing regular seasons", "example": "Warblers" }
+      ]
+    },
+    {
+      "name": "Oxygen Surge",
+      "type": "recovery",
+      "trend": "more_oxygen",
+      "trackEffect": "Move the O₂ tracker up 2 steps. In 1 Ocean or Lake region, return 1 lost fish or invertebrate token to the board.",
+      "co2Change": -1,
+      "o2Change": 2,
+      "biodiversityChange": 1,
+      "biomesBad": [
+        "Naturally low-oxygen niches for anaerobic microbes"
+      ],
+      "biomesGood": [
+        "Coastal upwelling zones",
+        "Lakes recovering from eutrophication",
+        "Shallow marine shelves"
+      ],
+      "organismsBad": [
+        { "group": "Strict anaerobic bacteria", "example": "Methanogens" }
+      ],
+      "organismsGood": [
+        { "group": "Active fish", "example": "Salmon" },
+        { "group": "Aerobic invertebrates", "example": "Crayfish" },
+        { "group": "Benthic animals", "example": "Mussels" },
+        { "group": "Aerobic microbes", "example": "Nitrifying bacteria" }
+      ]
+    },
+    {
+      "name": "Mutualisms Form",
+      "type": "recovery",
+      "trend": "teamwork_grows",
+      "trackEffect": "Choose 1 biome. For 2 turns, organisms there cost 1 less energy to play and cannot be removed by the next crisis in that biome.",
+      "co2Change": -1,
+      "o2Change": 1,
+      "biodiversityChange": 2,
+      "biomesBad": [
+        "Old simple systems where non-mutualists lose ground"
+      ],
+      "biomesGood": [
+        "Forests with root-fungal networks",
+        "Reefs with strong coral-algae partnerships",
+        "Grasslands with nitrogen-fixing plants"
+      ],
+      "organismsBad": [
+        { "group": "Non-mutualist competitors", "example": "Some solitary plants" }
+      ],
+      "organismsGood": [
+        { "group": "Mycorrhizal fungi", "example": "Tree-root partners" },
+        { "group": "Nitrogen-fixers", "example": "Legumes with rhizobia" },
+        { "group": "Pollinators", "example": "Bees" },
+        { "group": "Coral-algae pairs", "example": "Corals with Symbiodinium" }
+      ]
+    },
+    {
+      "name": "Migration Wave",
+      "type": "recovery",
+      "trend": "life_on_the_move",
+      "trackEffect": "Move up to 2 organism tokens from a stressed biome into safer neighboring biomes. They keep all their traits.",
+      "co2Change": 0,
+      "o2Change": 0,
+      "biodiversityChange": 1,
+      "biomesBad": [
+        "Overcrowded stopover sites",
+        "Habitats on routes briefly overgrazed"
+      ],
+      "biomesGood": [
+        "Seasonal wetlands",
+        "Coastal flyways",
+        "Mountain passes and corridors"
+      ],
+      "organismsBad": [
+        { "group": "Non-migratory residents", "example": "Local small birds" },
+        { "group": "Plants heavily grazed at stopovers", "example": "Marsh sedges" }
+      ],
+      "organismsGood": [
+        { "group": "Migratory birds", "example": "Geese" },
+        { "group": "Migratory mammals", "example": "Caribou" },
+        { "group": "Predators tracking migrations", "example": "Wolves" }
+      ]
+    },
+    {
+      "name": "Rapid Regrowth",
+      "type": "recovery",
+      "trend": "green_bounce_back",
+      "trackEffect": "In one region, change 1 Burned or Empty space into Young Forest or Grassland and add 1 extra Producer token there. Move the Climate tracker 1 step toward Cool.",
+      "co2Change": -2,
+      "o2Change": 2,
+      "biodiversityChange": 2,
+      "biomesBad": [
+        "Late-successional shade-dependent patches",
+        "Open-ground specialist patches"
+      ],
+      "biomesGood": [
+        "Recently burned forests",
+        "Logged or storm-damaged woods",
+        "Overgrazed grasslands after grazing eases"
+      ],
+      "organismsBad": [
+        { "group": "Open-ground weeds", "example": "Pioneer forbs" },
+        { "group": "Bare-rock lichens and mosses", "example": "Crustose lichens" }
+      ],
+      "organismsGood": [
+        { "group": "Fast-growing trees", "example": "Aspen" },
+        { "group": "Shrubs", "example": "Willow" },
+        { "group": "Grasses", "example": "Bluestem" },
+        { "group": "Browsing herbivores", "example": "Deer" }
+      ]
+    }
+  ],
+  "extinction": []
+}
