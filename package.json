@@ -39,7 +39,15 @@
     "generate:organisms:shrubs": "node game/copy-shrubs-organisms.js",
     "generate:organisms:all": "npm run generate:organisms:working && npm run generate:organisms:base-set && npm run generate:organisms:jurassic && npm run generate:organisms:lichen-moss-fungi && npm run generate:organisms:symbiotic-powerhouse && npm run generate:organisms:bushes && npm run generate:organisms:shrubs && npm run generate:organisms:vines && npm run generate:organisms:herbaceous && npm run generate:organisms:ground-cover && npm run generate:organisms:overstory && npm run generate:organisms:understory",
     "generate:cards:by-set": "node game/generate-cards-by-organism-set.js",
-    "generate:cards:by-set:force": "node game/generate-cards-by-organism-set.js --forceAll"
+    "generate:cards:by-set:force": "node game/generate-cards-by-organism-set.js --forceAll",
+    "generate:event-cards": "node game/generate-event-cards.js",
+    "generate:event-cards:each": "node game/generate-event-cards.js --format each",
+    "generate:event-cards:sheet": "node game/generate-event-cards.js --format sheet",
+    "generate:event-cards:both": "node game/generate-event-cards.js --format both",
+    "generate:event-cards:crisis": "node game/generate-event-cards.js --type crisis --format each",
+    "generate:event-cards:recovery": "node game/generate-event-cards.js --type recovery --format each",
+    "generate:event-cards:extinction": "node game/generate-event-cards.js --type mass_extinction --format each",
+    "watch:event-cards": "npm run generate:event-cards && chokidar \"game/config/event-cards.json\" -c \"npm run generate:event-cards\""
   },
   "keywords": [],
   "author": "",
