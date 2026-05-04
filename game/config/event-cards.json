@@ -4,10 +4,10 @@
       "name": "Prolonged Drought",
       "type": "crisis",
       "trend": "drier_warmer",
-      "trackEffect": "Move the Climate tracker 1 step toward Hot. In each region, turn 1 River or Wetland space into Dry Ground.",
       "co2Change": 1,
       "o2Change": -1,
       "biodiversityChange": -2,
+      "effectText": "Wet places dry up and water-loving life struggles. Remove or flip organisms in wet biomes toward drier types.",
       "biomesBad": [
         "Wetlands",
         "Rivers and lakes",
@@ -36,10 +36,10 @@
       "name": "Megaflood",
       "type": "crisis",
       "trend": "wetter_extremes",
-      "trackEffect": "In one main river system, flood 1 River or Floodplain space: move any organisms there to neighboring spaces if possible, then place a Silt token.",
       "co2Change": 0,
       "o2Change": -1,
       "biodiversityChange": -1,
+      "effectText": "Huge floods wash away soil and animals in low areas. Remove or move organisms from flooded river and floodplain spaces.",
       "biomesBad": [
         "River valleys",
         "Floodplains",
@@ -67,10 +67,10 @@
       "name": "Multi-year Heat Wave",
       "type": "crisis",
       "trend": "hotter",
-      "trackEffect": "Move the Climate tracker 1 step toward Hot. For each region, choose 1 shallow water or cool biome space and give it a Heat Stress token.",
       "co2Change": 1,
       "o2Change": -1,
       "biodiversityChange": -2,
+      "effectText": "The world bakes for many years and heat-sensitive life dies off. Replace or remove cold-loving organisms in hot-stressed biomes.",
       "biomesBad": [
         "Temperate forests",
         "Coral reefs",
@@ -99,10 +99,10 @@
       "name": "Sudden Cold Snap",
       "type": "crisis",
       "trend": "colder_spike",
-      "trackEffect": "Move the Climate tracker 1 step toward Cold. In one warm region, flip 1 Tropical or Savanna space to a Colder version (e.g., Grassland or Boreal).",
       "co2Change": 0,
       "o2Change": 1,
       "biodiversityChange": -1,
+      "effectText": "A sudden freeze hits warm regions and tropical life cannot cope. Remove or swap out warm-loving organisms in affected spaces.",
       "biomesBad": [
         "Tropical forests",
         "Savannas",
@@ -131,10 +131,10 @@
       "name": "Ocean Acidification Pulse",
       "type": "crisis",
       "trend": "acidic_oceans",
-      "trackEffect": "Place an Acidification token on 1 Reef or Shell-Ocean space in each ocean region. Shell-building organisms there cost +1 energy to play this turn.",
       "co2Change": 1,
       "o2Change": -1,
       "biodiversityChange": -2,
+      "effectText": "Seawater turns more acidic and shell-building sea life dissolves. Remove or weaken shell-building organisms in affected sea spaces.",
       "biomesBad": [
         "Coral reefs",
         "Shell-plankton-rich surface oceans",
@@ -162,10 +162,10 @@
       "name": "Harmful Algal Bloom",
       "type": "crisis",
       "trend": "eutrophication",
-      "trackEffect": "In 1 coastal or lake region, place a Bloom token on up to 2 Water spaces. Those spaces cannot support fish this turn.",
       "co2Change": 0,
       "o2Change": -2,
       "biodiversityChange": -2,
+      "effectText": "Thick green scum covers the water and uses up oxygen. Remove fish and sensitive invertebrates from bloom-marked water spaces.",
       "biomesBad": [
         "Coastal oceans",
         "Estuaries",
@@ -192,10 +192,10 @@
       "name": "Disease Outbreak",
       "type": "crisis",
       "trend": "unstable_populations",
-      "trackEffect": "Choose 1 biome type (like Forest or Reef) in a region. Remove up to 2 matching host organism tokens there.",
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": -2,
+      "effectText": "A new disease sweeps through crowded populations. Remove host species tokens from one biome type in a chosen region.",
       "biomesBad": [
         "Host-dominated forests",
         "Host-dominated reefs",
@@ -221,10 +221,10 @@
       "name": "Invasive Species Arrival",
       "type": "crisis",
       "trend": "biotic_invasion",
-      "trackEffect": "In one region, add 1 Invasive token to a suitable biome. Then remove 1 native organism token of the same niche there.",
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": -2,
+      "effectText": "A tough new species arrives and pushes out locals. Add an invasive token and replace one matching native organism.",
       "biomesBad": [
         "Islands",
         "Lakes and closed basins",
@@ -251,10 +251,10 @@
       "name": "Predator Boom",
       "type": "crisis",
       "trend": "top_down_control",
-      "trackEffect": "In one region, add 1 Predator Boom token. Remove up to 2 large herbivore or prey tokens from that region.",
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": -1,
+      "effectText": "Predators surge and prey are hit hard. Remove or flip large herbivores or common prey in one chosen region.",
       "biomesBad": [
         "Overgrazed grasslands",
         "Fragmented forests",
@@ -279,10 +279,10 @@
       "name": "Wildfire Season",
       "type": "crisis",
       "trend": "hotter_drier_fire",
-      "trackEffect": "In each affected region, choose 1 Forest or Shrubland space and burn it: flip it to Burned/Grassland and remove 1 organism token there.",
       "co2Change": 2,
       "o2Change": -1,
       "biodiversityChange": -1,
+      "effectText": "Fires sweep through and burn non–fire-adapted areas. Remove organisms from 1–2 forest or peatland spaces and mark them as burned.",
       "biomesBad": [
         "Moist tropical forests",
         "Peatlands",
@@ -310,10 +310,10 @@
       "name": "Volcanic Eruption (Regional)",
       "type": "crisis",
       "trend": "ash_and_new_lands",
-      "trackEffect": "In one region, cover 1 Forest or Grassland space with Ash (make it Empty/Ash). In a later era, you may turn 1 Ash space into Rich Soil.",
       "co2Change": 1,
       "o2Change": -1,
       "biodiversityChange": -1,
+      "effectText": "Ash blankets nearby land and rivers. Remove organisms from one ash-covered land space and one river/coastal space.",
       "biomesBad": [
         "Downwind forests",
         "Ash-covered grasslands",
@@ -340,10 +340,10 @@
       "name": "Ash-Darkened Skies",
       "type": "crisis",
       "trend": "dimmer_skies",
-      "trackEffect": "For this round, photosynthesis is weaker: in each region, 1 Producer token of your choice cannot generate energy points.",
       "co2Change": 0,
       "o2Change": -1,
       "biodiversityChange": -1,
+      "effectText": "Dust and ash block sunlight. For this round, producers in 1–2 chosen regions do not give energy and may be replaced by shade-tolerant types.",
       "biomesBad": [
         "Coral reefs",
         "High-productivity surface oceans",
@@ -369,10 +369,10 @@
       "name": "River Pollution Event",
       "type": "crisis",
       "trend": "dirty_waters",
-      "trackEffect": "In one river system, place a Pollution token on 2 connected River/Lake spaces. Fish and amphibians there are removed at the end of the round if they stay.",
       "co2Change": 1,
       "o2Change": -2,
       "biodiversityChange": -2,
+      "effectText": "Chemicals spill into rivers and lakes. Remove or move fish, amphibians, and sensitive invertebrates from two connected freshwater spaces.",
       "biomesBad": [
         "Rivers and streams",
         "Connected lakes",
@@ -399,10 +399,10 @@
       "name": "Habitat Fragmentation",
       "type": "crisis",
       "trend": "broken_habitats",
-      "trackEffect": "In one region, draw 1 new road or barrier line that splits a large habitat into two smaller patches. Move 1 wide-ranging animal token to the discard.",
       "co2Change": 1,
       "o2Change": -1,
       "biodiversityChange": -2,
+      "effectText": "Big habitats get chopped into small pieces. Remove wide-ranging or specialist organisms and replace them with edge-loving generalists.",
       "biomesBad": [
         "Continuous forests",
         "Large grasslands",
@@ -431,10 +431,10 @@
       "name": "Oxygen Crash (Local)",
       "type": "crisis",
       "trend": "low_oxygen_waters",
-      "trackEffect": "In one Lake, River, or Coastal space, place an Oxygen Crash token. Remove up to 2 fish or invertebrate tokens from that space.",
       "co2Change": 0,
       "o2Change": -2,
       "biodiversityChange": -2,
+      "effectText": "Oxygen disappears from a patch of water. Remove 2 fish or invertebrate tokens from a chosen low-oxygen water space.",
       "biomesBad": [
         "Stratified lakes",
         "Estuaries",
@@ -461,10 +461,10 @@
       "name": "New Colonization Wave",
       "type": "recovery",
       "trend": "new_life_spreads",
-      "trackEffect": "In one region, turn 1 Empty or damaged space into a fresh habitat (Forest, Grassland, or Reef) and place 1 new Producer token there.",
       "co2Change": -1,
       "o2Change": 1,
       "biodiversityChange": 2,
+      "effectText": "New hardy species spread into empty spaces. Add new producer or simple organism tokens into recently disturbed biomes.",
       "biomesBad": [
         "Stable climax forests",
         "Old coral reefs with little open space"
@@ -488,10 +488,10 @@
       "name": "Nutrient Surge",
       "type": "recovery",
       "trend": "nutrient_boost",
-      "trackEffect": "Choose 1 Ocean, Lake, or Floodplain region. Add 1 extra Producer token there and draw 1 extra Organism card for that region this turn.",
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": 1,
+      "effectText": "Extra nutrients reach certain waters or floodplains. Add or upgrade producer tokens in one chosen ocean, lake, or floodplain region.",
       "biomesBad": [
         "Clear-water coral reefs (if overloaded)",
         "Oligotrophic lakes (if over-fertilized)"
@@ -516,10 +516,10 @@
       "name": "Refugia Discovered",
       "type": "recovery",
       "trend": "safe_hideouts",
-      "trackEffect": "Pick 1 threatened region. Place a Refugia marker on 1 space there; organisms on that space are safe from the next crisis in that region.",
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": 2,
+      "effectText": "Hidden safe spots are found where life can hide. Mark 1–2 spaces as refuges; organisms there ignore the next crisis.",
       "biomesBad": [
         "Exposed degraded areas outside refuges",
         "Overcrowded neighboring habitats"
@@ -543,10 +543,10 @@
       "name": "Keystone Species Returns",
       "type": "recovery",
       "trend": "food_web_balance",
-      "trackEffect": "Add 1 Keystone organism token to a suitable biome. In that region, you may remove up to 2 overabundant herbivore or pest tokens.",
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": 2,
+      "effectText": "A missing keystone species comes back and stabilizes the web. Add a keystone organism and remove up to two overabundant prey.",
       "biomesBad": [
         "Systems where prey drop quickly (short term)",
         "Habitats where competitors of the keystone decline"
@@ -570,10 +570,10 @@
       "name": "Stabilized Food Web",
       "type": "recovery",
       "trend": "webs_in_balance",
-      "trackEffect": "In one region, remove 1 invasive or super-dominant species token. Then, you may add 1 new organism of a different trophic level.",
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": 2,
+      "effectText": "Food webs become more balanced again. Remove one super-dominant species and add a new organism at a different trophic level.",
       "biomesBad": [
         "Very simplified monocultures",
         "Highly disturbed edges losing chaotic dominance"
@@ -597,10 +597,10 @@
       "name": "Climate Settles",
       "type": "recovery",
       "trend": "more_moderate",
-      "trackEffect": "Move the Climate tracker 1 step toward the middle. While this card is in play, ignore the next Hot or Cold shift from another card.",
       "co2Change": -1,
       "o2Change": 1,
       "biodiversityChange": 1,
+      "effectText": "Extreme heat or cold eases back toward the middle. Let climate-sensitive organisms return to 1–2 spaces that recently lost them.",
       "biomesBad": [
         "Extreme cold-only niches",
         "Extreme heat-only niches"
@@ -624,10 +624,10 @@
       "name": "Oxygen Surge",
       "type": "recovery",
       "trend": "more_oxygen",
-      "trackEffect": "Move the O₂ tracker up 2 steps. In 1 Ocean or Lake region, return 1 lost fish or invertebrate token to the board.",
       "co2Change": -1,
       "o2Change": 2,
       "biodiversityChange": 1,
+      "effectText": "Waters mix and oxygen levels rise again. In one water region, return or add fish and invertebrate tokens that were lost.",
       "biomesBad": [
         "Naturally low-oxygen niches for anaerobic microbes"
       ],
@@ -650,10 +650,10 @@
       "name": "Mutualisms Form",
       "type": "recovery",
       "trend": "teamwork_grows",
-      "trackEffect": "Choose 1 biome. For 2 turns, organisms there cost 1 less energy to play and cannot be removed by the next crisis in that biome.",
       "co2Change": -1,
       "o2Change": 1,
       "biodiversityChange": 2,
+      "effectText": "New partnerships form between species. Mark one biome as highly cooperative; organisms there are protected from the next crisis.",
       "biomesBad": [
         "Old simple systems where non-mutualists lose ground"
       ],
@@ -676,10 +676,10 @@
       "name": "Migration Wave",
       "type": "recovery",
       "trend": "life_on_the_move",
-      "trackEffect": "Move up to 2 organism tokens from a stressed biome into safer neighboring biomes. They keep all their traits.",
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": 1,
+      "effectText": "Whole herds and flocks move to safer places. Move up to two organism tokens from a stressed biome into safer neighboring biomes.",
       "biomesBad": [
         "Overcrowded stopover sites",
         "Habitats on routes briefly overgrazed"
@@ -703,10 +703,10 @@
       "name": "Rapid Regrowth",
       "type": "recovery",
       "trend": "green_bounce_back",
-      "trackEffect": "In one region, change 1 Burned or Empty space into Young Forest or Grassland and add 1 extra Producer token there. Move the Climate tracker 1 step toward Cool.",
       "co2Change": -2,
       "o2Change": 2,
       "biodiversityChange": 2,
+      "effectText": "Plants spring back quickly after damage. Turn 1–2 burned or empty spaces into growing forest or grassland and add producer tokens.",
       "biomesBad": [
         "Late-successional shade-dependent patches",
         "Open-ground specialist patches"
@@ -728,5 +728,146 @@
       ]
     }
   ],
-  "extinction": []
+  "extinction": [
+    {
+      "name": "End-Ordovician Mass Extinction",
+      "type": "mass_extinction",
+      "period": "End Ordovician",
+      "approxMa": 444,
+      "scope": "mostly_marine",
+      "trend": "ice_then_thaw",
+      "co2Change": -1,
+      "o2Change": 1,
+      "biodiversityChange": -3,
+      "effectText": "Shallow sea life crashes as oceans shrink and conditions change fast. Remove 2 marine organism tokens from shallow sea biomes.",
+      "biomesBad": [
+        "Shallow continental seas",
+        "Polar shelf seas"
+      ],
+      "biomesGood": [
+        "Deep ocean basins",
+        "New post-glacial coastal shelves"
+      ],
+      "organismsBad": [
+        { "group": "Marine benthic animals", "example": "Brachiopods and trilobites" },
+        { "group": "Plankton groups", "example": "Graptolites" }
+      ],
+      "organismsGood": [
+        { "group": "Surviving small brachiopods", "example": "Linguliforms" },
+        { "group": "Early fish and new plankton", "example": "Jawless fishes and post-crisis plankton" }
+      ]
+    },
+    {
+      "name": "Late Devonian Mass Extinction",
+      "type": "mass_extinction",
+      "period": "Late Devonian",
+      "approxMa": 372,
+      "scope": "mostly_marine",
+      "trend": "reef_collapse_and_anoxia",
+      "co2Change": 0,
+      "o2Change": -2,
+      "biodiversityChange": -3,
+      "effectText": "Reef systems collapse and many shallow sea animals die off. Remove 2 reef-building or shallow marine organism tokens.",
+      "biomesBad": [
+        "Warm shallow reefs",
+        "Continental shelf seas"
+      ],
+      "biomesGood": [
+        "Deeper offshore waters",
+        "Siliceous-sponge and microbial reefs"
+      ],
+      "organismsBad": [
+        { "group": "Reef builders", "example": "Stromatoporoid sponges and rugose/tabulate corals" },
+        { "group": "Armored fishes", "example": "Placoderms and many early sharks" }
+      ],
+      "organismsGood": [
+        { "group": "Siliceous sponges and microbes", "example": "Stromatolites and sponge reefs" },
+        { "group": "Surviving bony fishes", "example": "Early actinopterygians" }
+      ]
+    },
+    {
+      "name": "End-Permian Mass Extinction",
+      "type": "mass_extinction",
+      "period": "End Permian",
+      "approxMa": 252,
+      "scope": "global",
+      "trend": "super_greenhouse_and_dead_zones",
+      "co2Change": 3,
+      "o2Change": -3,
+      "biodiversityChange": -4,
+      "effectText": "This is the biggest die-off of all. In every major region, remove 2 organism tokens; marine spaces may also lose 1 extra organism if crowded.",
+      "biomesBad": [
+        "Shallow marine shelves worldwide",
+        "Moist lowland forests"
+      ],
+      "biomesGood": [
+        "High-latitude refuges",
+        "Small hardy inland basins"
+      ],
+      "organismsBad": [
+        { "group": "Most marine invertebrates", "example": "Trilobites and many corals and brachiopods" },
+        { "group": "Large land vertebrates", "example": "Many synapsids and amphibians" }
+      ],
+      "organismsGood": [
+        { "group": "Disaster taxa", "example": "Opportunistic bivalves and microbial mats" },
+        { "group": "Small generalist vertebrates", "example": "Early archosaurs and small synapsids" }
+      ]
+    },
+    {
+      "name": "End-Triassic Mass Extinction",
+      "type": "mass_extinction",
+      "period": "End Triassic",
+      "approxMa": 201,
+      "scope": "global",
+      "trend": "volcanic_warming_and_ocean_change",
+      "co2Change": 2,
+      "o2Change": -1,
+      "biodiversityChange": -3,
+      "effectText": "Many large reptiles and sensitive sea animals disappear. Remove 1 large land organism and 1 marine organism from each affected region.",
+      "biomesBad": [
+        "Coastal marine ecosystems",
+        "Lowland river and swamp systems"
+      ],
+      "biomesGood": [
+        "Open floodplains for survivors",
+        "Early Jurassic forests and coasts"
+      ],
+      "organismsBad": [
+        { "group": "Many marine invertebrates", "example": "Corals, bivalves, brachiopods, radiolarians" },
+        { "group": "Non-dinosaur large reptiles", "example": "Many archosauromorphs" }
+      ],
+      "organismsGood": [
+        { "group": "Dinosaurs and croc-line reptiles", "example": "Early theropods and crocodylomorphs" },
+        { "group": "Mammal ancestors", "example": "Early mammals" }
+      ]
+    },
+    {
+      "name": "End-Cretaceous (K–Pg) Mass Extinction",
+      "type": "mass_extinction",
+      "period": "End Cretaceous",
+      "approxMa": 66,
+      "scope": "global",
+      "trend": "impact_winter_then_rebound",
+      "co2Change": 1,
+      "o2Change": -1,
+      "biodiversityChange": -3,
+      "effectText": "A giant impact darkens the world and food webs crash. Remove 2 large land organisms and 1 surface-ocean organism from play.",
+      "biomesBad": [
+        "Sunlit surface oceans and coasts",
+        "Forests and open plains on land"
+      ],
+      "biomesGood": [
+        "Deep sea floor communities",
+        "Small sheltered land patches"
+      ],
+      "organismsBad": [
+        { "group": "Non-avian dinosaurs and large reptiles", "example": "Tyrannosaurs, ceratopsians, mosasaurs" },
+        { "group": "Many marine plankton and invertebrates", "example": "Ammonites and some foraminifera" }
+      ],
+      "organismsGood": [
+        { "group": "Birds (avian dinosaurs)", "example": "Early modern birds" },
+        { "group": "Small mammals and other survivors", "example": "Early primates, rodents, and generalists" }
+      ]
+    }
+  ]
 }
