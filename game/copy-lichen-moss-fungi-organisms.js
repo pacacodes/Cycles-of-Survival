@@ -15,8 +15,8 @@ function parseArgs() {
   const opts = {
     workingConfig: 'game/config/organisms.json',
     categoryConfig: 'game/config/organisms.lichens.moss.fungi.json',
-    workingDir: 'output/Working Organism Cards/current',
-    outDir: 'output/Working Organism Cards/Lichen Moss Fungi Organisms',
+    workingDir: 'Output/working organisms',
+    outDir: 'Output/Lichen Moss Fungi Organisms',
     safeDir: 'saved_files/Working Organism Cards/Lichen Moss Fungi Organisms',
     legacyDir: 'Output/Lichen Moss Fungi Organisms',
   };

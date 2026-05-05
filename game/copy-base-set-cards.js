@@ -15,8 +15,8 @@ function parseArgs() {
   const opts = {
     workingConfig: 'game/config/organisms.json',
     baseSetConfig: 'game/config/organisms.base-set.json',
-    workingDir: 'output/Working Organism Cards/current',
-    outDir: 'output/Working Organism Cards/Organisms Base Set',
+    workingDir: 'Output/working organisms',
+    outDir: 'Output/Organisms Base Set',
     safeDir: 'saved_files/Working Organism Cards/Organisms Base Set',
     legacyDir: 'Output/Organisms Base Set',
   };

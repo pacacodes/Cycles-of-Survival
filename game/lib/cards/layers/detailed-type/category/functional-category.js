@@ -3,7 +3,8 @@ const drawFieldRow        = require('./draw-field-row');
 const { hexToRgba, getCardColor } = require('./field-helpers');
 
 module.exports = function drawFunctionalCategory(ctx, contentX, contentY, contentW, contentH, card, scale) {
-  const fields = getFieldDefinitions(card);
+  // Check if this is an event card with custom fields
+  const fields = card._eventFields || getFieldDefinitions(card);
   if (!fields.length) return;
 
   const badgeRadius   = 0.18 * 72 * scale;

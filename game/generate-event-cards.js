@@ -18,7 +18,7 @@ function parseArgs() {
   const args = process.argv.slice(2);
   const opts = {
     config: 'game/config/event-cards.json',
-    outDir: 'output/Event Cards',
+    outDir: 'Output/Event Cards',
     safeDir: 'saved_files/Event Cards',
     type: null, // null = all, 'crisis', 'recovery', 'mass_extinction'
     format: 'each', // 'each' = individual cards, 'sheet' = sheets, 'both'

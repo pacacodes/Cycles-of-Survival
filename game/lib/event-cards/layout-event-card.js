@@ -1,9 +1,184 @@
 const { createCanvasInches, writeCanvasPNG, configureCanvasContext } = require('../png');
 const { INCH, CARD_TRIM_W, CARD_TRIM_H, CARD_BLEED_W, CARD_BLEED_H, BLEED } = require('../size');
+const roundedRectPath = require('../cards/utils/path');
+const wrapText = require('../cards/utils/text');
+const drawBackground = require('../cards/layers/backgrounds/background');
+const drawTrim = require('../cards/layers/trim');
+const drawCorners = require('../cards/layers/corners');
+const drawCardNumber = require('../cards/layers/card-number');
+const drawTitle = require('../cards/layers/title');
+const drawBody = require('../cards/layers/body');
+const drawFunctionalCategory = require('../cards/layers/detailed-type/category/functional-category');
+const { drawTitleColorBlock, CATEGORY_COLORS } = require('../cards/layers/title-color-block');
+const { buildBadgeList } = require('../cards/helpers/badge-list');
+const { drawBadgesAndConnectors } = require('../cards/helpers/draw-badge-connectors');
 const { getEventColorScheme } = require('./color-scheme');
 
 /**
- * Draw an event card PNG
+ * Get background drawing functions (matching organism card style)
+ */
+function getEventBackgroundFunctions() {
+  return {
+    drawTop: require('../cards/layers/detailed-type/category/functional-category-background-top'),
+    drawBottom: require('../cards/layers/detailed-type/category/functional-category-background-bottom'),
+  };
+}
+
+/**
+ * Transform event data into field definitions matching organism card structure
+ */
+function getEventFieldDefinitions(event) {
+  const fields = [];
+  const { drawTop, drawBottom } = getEventBackgroundFunctions();
+
+  // Field 1: Effect
+  fields.push({
+    label: 'Effect',
+    main: event.name,
+    sub: null,
+    drawTop,
+    drawBottom,
+  });
+
+  // Field 2: Biomes - (negative)
+  if (event.biomesBad && event.biomesBad.length) {
+    fields.push({
+      label: 'Biomes -',
+      main: event.biomesBad.slice(0, 2).join(', '),
+      sub: event.biomesBad.length > 2 ? `+${event.biomesBad.length - 2} more` : null,
+      drawTop,
+      drawBottom,
+    });
+  }
+
+  // Field 3: Biomes + (positive)
+  if (event.biomesGood && event.biomesGood.length) {
+    fields.push({
+      label: 'Biomes +',
+      main: event.biomesGood.slice(0, 2).join(', '),
+      sub: event.biomesGood.length > 2 ? `+${event.biomesGood.length - 2} more` : null,
+      drawTop,
+      drawBottom,
+    });
+  }
+
+  // Field 4: Organisms - (negative)
+  if (event.organismsBad && event.organismsBad.length) {
+    const orgNames = event.organismsBad.map(o => o.group).slice(0, 2).join(', ');
+    fields.push({
+      label: 'Organisms -',
+      main: orgNames,
+      sub: event.organismsBad.length > 2 ? `+${event.organismsBad.length - 2} more` : null,
+      drawTop,
+      drawBottom,
+    });
+  }
+
+  // Field 5: Organisms + (positive)
+  if (event.organismsGood && event.organismsGood.length) {
+    const orgNames = event.organismsGood.map(o => o.group).slice(0, 2).join(', ');
+    fields.push({
+      label: 'Organisms +',
+      main: orgNames,
+      sub: event.organismsGood.length > 2 ? `+${event.organismsGood.length - 2} more` : null,
+      drawTop,
+      drawBottom,
+    });
+  }
+
+  return fields;
+}
+
+/**
+ * Create a badge list for event cards (CO2, O2, Biodiversity)
+ */
+function buildEventBadgeList(event) {
+  // Create pseudo-badges matching organism badge structure
+  return [
+    { type: 'co2', label: 'CO₂' },
+    { type: 'o2', label: 'O₂' },
+    { type: 'bio', label: 'Bio' },
+  ];
+}
+
+/**
+ * Draw event badges and connectors (custom implementation for stat badges)
+ */
+async function drawEventBadgesAndConnectors(ctx, badgeList, params, event) {
+  const {
+    badgeY, badgeRadius, badgeGap, badgeStartX,
+    contentX, contentY, contentH, contentW,
+    blockHeight, bottomPadding, condensedRowH,
+    leftPadding, badgeTextGap, funcTextX,
+    scale, neonColor, card, fieldDefs,
+  } = params;
+
+  // Draw the three stat badges with connector lines
+  const badges = [
+    { value: event.co2Change, label: 'CO₂', index: 0 },
+    { value: event.o2Change, label: 'O₂', index: 1 },
+    { value: event.biodiversityChange, label: 'Bio', index: 2 },
+  ];
+
+  for (const badge of badges) {
+    const fieldY = badgeY + badge.index * (badgeRadius * 2 + badgeGap);
+    const fieldBlockY = contentY + contentH - blockHeight - bottomPadding + Math.round(8 * scale) + badge.index * condensedRowH;
+    const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
+
+    // Draw badge circle
+    ctx.save();
+    ctx.fillStyle = neonColor;
+    ctx.beginPath();
+    ctx.arc(badgeStartX, fieldY, badgeRadius, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Badge text (value inside circle)
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = `bold ${Math.round(7 * scale)}px "DejaVu Sans", sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    const valueText = badge.value > 0 ? `+${badge.value}` : `${badge.value}`;
+    ctx.fillText(valueText, badgeStartX, fieldY - badgeRadius * 0.2);
+
+    // Label below badge
+    ctx.fillStyle = '#000000';
+    ctx.font = `${Math.round(5 * scale)}px "DejaVu Sans", sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.fillText(badge.label, badgeStartX, fieldY + badgeRadius * 0.6);
+    ctx.restore();
+
+    // Draw connector line
+    ctx.save();
+    ctx.strokeStyle = neonColor;
+    ctx.lineWidth = 1.5;
+    ctx.globalAlpha = 0.6;
+    ctx.beginPath();
+    ctx.moveTo(badgeStartX + badgeRadius + 2, fieldY);
+    ctx.lineTo(funcTextX - Math.round(4 * scale), fieldBlockY + condensedRowH / 2);
+    ctx.stroke();
+    ctx.restore();
+  }
+}
+
+/**
+ * Transform event into organism-like card object
+ */
+function eventToCardObject(event, colors) {
+  return {
+    id: event.name.replace(/\s+/g, '-').toLowerCase(),
+    common_name: event.name,
+    scientific_name: event.type.replace(/_/g, ' ').toUpperCase(),
+    organism_type: event.type,
+    titleColor: '#000000',
+    background: colors.background,
+    neonColor: colors.neon,
+    // Dummy values for organism card fields (will be replaced with event-specific fields)
+    text: event.effectText,
+  };
+}
+
+/**
+ * Draw an event card PNG using exact organism card rendering path
  * @param {Object} ctx - Canvas context
  * @param {number} xPt - X position in points
  * @param {number} yPt - Y position in points
@@ -14,145 +189,105 @@ const { getEventColorScheme } = require('./color-scheme');
 async function drawEventCardPNG(ctx, xPt, yPt, event, scale, options = {}) {
   const includeGuides = options.includeGuides !== false;
   const colors = getEventColorScheme(event.type);
-
+  
+  // Create organism-like card object
+  const card = eventToCardObject(event, colors);
+  
+  const { badgeRadius, badgeTextGap, leftPadding, badgeStartX } = getBadgeGeometry(scale);
+  const condensedRowH = Math.round((badgeRadius * 2) + (6 * scale)) * 0.60;
+  const bottomPadding = Math.round(6 * scale);
+  
+  // Count event fields
+  const blockFieldCount = getEventFieldDefinitions(event).length;
+  const blockHeight = blockFieldCount * condensedRowH;
+  
   const x = xPt * scale;
   const y = yPt * scale;
-  const w = CARD_BLEED_W * scale;
-  const h = CARD_BLEED_H * scale;
 
   ctx.save();
+  ctx.beginPath();
+  ctx.rect(x, y, CARD_BLEED_W * scale, CARD_BLEED_H * scale);
+  ctx.clip();
 
-  // Draw bleed area (background)
-  ctx.fillStyle = colors.background;
-  ctx.fillRect(x, y, w, h);
+  // Background (matching organism card)
+  await drawBackground(ctx, x, y, card, scale, { roundedRectPath });
 
-  // Draw trim guides
+  // Title colour block (matching organism card)
+  const safeX = x + BLEED * scale;
+  const safeY = y + BLEED * scale;
+  ctx.save();
+  ctx.translate(x, y);
+  drawTitleColorBlock(ctx, card, {
+    width: CARD_BLEED_W * scale,
+    height: CARD_BLEED_H * scale,
+    dpi: 72 * scale,
+  });
+  ctx.restore();
+
+  // Content area geometry (matching organism card)
+  const margin = 0.15 * INCH * scale;
+  const contentX = safeX + margin;
+  const contentY = safeY + margin;
+  const contentW = CARD_TRIM_W * scale - 2 * margin;
+  const contentH = CARD_TRIM_H * scale - 2 * margin;
+
+  // Badge list + placement (matching organism card)
+  const badgeGap = 0.04 * 72 * scale;
+  const badgeList = buildEventBadgeList(event);
+  const dynamicBadgeColumnHeight = badgeList.length * badgeRadius * 2 + (badgeList.length - 1) * badgeGap;
+  const badgeY = contentY + (contentH - dynamicBadgeColumnHeight) / 2 + badgeRadius + 60;
+
+  const neonColor = card.neonColor || '#02BDF2';
+  
+  // Get field definitions with exact organism card structure
+  const fieldDefs = getEventFieldDefinitions(event);
+  
+  // Store on card for use in field drawing
+  card._eventFields = fieldDefs;
+  
+  configureCanvasContext(ctx);
+
+  // First pass: field backgrounds (matching organism card)
+  drawFunctionalCategory(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
+  drawBody(ctx, contentX + 20, contentY + 40, contentW, card, scale, { wrapText });
+
+  // Connector lines + badge icons (custom event version)
+  const funcTextX = (contentX + 20) + Math.round(21 * scale) + badgeRadius + badgeTextGap;
+  await drawEventBadgesAndConnectors(ctx, badgeList, {
+    badgeY, badgeRadius, badgeGap, badgeStartX,
+    contentX, contentY, contentH, contentW,
+    blockHeight, bottomPadding, condensedRowH,
+    leftPadding, badgeTextGap, funcTextX,
+    scale, neonColor, card, fieldDefs,
+  }, event);
+
+  // Final text layer (drawn over connectors) - matching organism card
+  drawTitle(ctx, contentX, contentY - 30, contentW, card, scale);
+  drawFunctionalCategory(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
+  drawBody(ctx, contentX + 20, contentY + 40, contentW, card, scale, { wrapText });
+  drawCardNumber(ctx, safeX, safeY, card, scale);
+  drawCorners(ctx, safeX, safeY, card, scale);
+
   if (includeGuides) {
-    ctx.strokeStyle = '#CCCCCC';
-    ctx.lineWidth = 0.5;
-    ctx.setLineDash([2, 2]);
-    const trimX = x + BLEED * scale;
-    const trimY = y + BLEED * scale;
-    const trimW = CARD_TRIM_W * scale;
-    const trimH = CARD_TRIM_H * scale;
-    ctx.strokeRect(trimX, trimY, trimW, trimH);
-    ctx.setLineDash([]);
+    drawTrim(ctx, safeX, safeY, scale, { roundedRectPath });
   }
-
-  // Draw content area with padding
-  const padding = 12 * scale;
-  const contentX = x + BLEED * scale + padding;
-  const contentY = y + BLEED * scale + padding;
-  const contentW = CARD_TRIM_W * scale - (padding * 2);
-  const contentH = CARD_TRIM_H * scale - (padding * 2);
-
-  // Configure text rendering
-  configureCanvasContext(ctx, scale);
-
-  // Draw title with event name and period
-  ctx.fillStyle = colors.titleText;
-  ctx.font = `bold ${18 * scale}px Arial`;
-  ctx.textBaseline = 'top';
-  
-  let titleText = event.name;
-  if (event.period) {
-    titleText += ` (${event.period})`;
-  }
-  ctx.fillText(titleText, contentX, contentY);
-
-  // Draw type indicator
-  ctx.fillStyle = colors.neon;
-  ctx.font = `${12 * scale}px Arial`;
-  ctx.fillText(event.type.toUpperCase(), contentX, contentY + 28 * scale);
-
-  // Draw effect text
-  ctx.fillStyle = '#000000';
-  ctx.font = `${11 * scale}px Arial`;
-  const effectY = contentY + 50 * scale;
-  wrapAndDrawText(ctx, event.effectText, contentX, effectY, contentW - padding, 14 * scale);
-
-  // Draw biomes section
-  const biomesY = effectY + 60 * scale;
-  ctx.font = `bold ${12 * scale}px Arial`;
-  ctx.fillStyle = colors.neon;
-  ctx.fillText('Biomes Affected:', contentX, biomesY);
-
-  ctx.font = `${10 * scale}px Arial`;
-  ctx.fillStyle = '#000000';
-  let currentY = biomesY + 18 * scale;
-  
-  if (event.biomes && event.biomes.length > 0) {
-    event.biomes.forEach((biome, idx) => {
-      if (idx >= 4) return; // Limit to 4 biomes display
-      ctx.fillText(`${biome.indicator} ${biome.name}`, contentX + 10 * scale, currentY);
-      currentY += 12 * scale;
-    });
-  }
-
-  // Draw organisms section
-  const organismsY = currentY + 10 * scale;
-  ctx.font = `bold ${12 * scale}px Arial`;
-  ctx.fillStyle = colors.neon;
-  ctx.fillText('Organisms Affected:', contentX, organismsY);
-
-  ctx.font = `${9 * scale}px Arial`;
-  ctx.fillStyle = '#000000';
-  currentY = organismsY + 18 * scale;
-  
-  if (event.organisms && event.organisms.length > 0) {
-    event.organisms.forEach((org, idx) => {
-      if (idx >= 4) return; // Limit to 4 organisms display
-      const label = org.example ? `${org.indicator} ${org.group} (${org.example})` : `${org.indicator} ${org.group}`;
-      ctx.fillText(label, contentX + 10 * scale, currentY);
-      currentY += 10 * scale;
-    });
-  }
-
-  // Draw impact stats at bottom
-  const statsY = contentY + contentH - 25 * scale;
-  ctx.font = `${10 * scale}px Arial`;
-  ctx.fillStyle = '#666666';
-  const co2Str = `CO₂: ${event.co2Change > 0 ? '+' : ''}${event.co2Change}`;
-  const o2Str = `O₂: ${event.o2Change > 0 ? '+' : ''}${event.o2Change}`;
-  const bioStr = `Bio: ${event.biodiversityChange > 0 ? '+' : ''}${event.biodiversityChange}`;
-  
-  ctx.fillText(`${co2Str}  ${o2Str}  ${bioStr}`, contentX, statsY);
 
   ctx.restore();
 }
 
 /**
- * Wrap and draw multi-line text
- * @param {Object} ctx - Canvas context
- * @param {string} text - Text to draw
- * @param {number} x - X position
- * @param {number} y - Y position
- * @param {number} maxWidth - Maximum width for wrapping
- * @param {number} lineHeight - Height of each line
+ * Get badge geometry (from organism cards)
  */
-function wrapAndDrawText(ctx, text, x, y, maxWidth, lineHeight) {
-  if (!text) return;
-  
-  const words = text.split(' ');
-  let line = '';
-  let lineY = y;
-
-  words.forEach(word => {
-    const testLine = line + (line ? ' ' : '') + word;
-    const metrics = ctx.measureText(testLine);
-    
-    if (metrics.width > maxWidth && line) {
-      ctx.fillText(line, x, lineY);
-      line = word;
-      lineY += lineHeight;
-    } else {
-      line = testLine;
-    }
-  });
-  
-  if (line) {
-    ctx.fillText(line, x, lineY);
-  }
+function getBadgeGeometry(scale = 1) {
+  const badgeRadius = 0.18 * 72 * scale;
+  const badgeTextGap = 10 * scale;
+  const leftPadding = Math.round(16 * scale);
+  const margin = 0.15 * 72 * scale;
+  const BLEED_PT = 0.125 * 72 * scale;
+  const safeX = BLEED_PT;
+  const contentX = safeX + margin;
+  const badgeStartX = contentX + leftPadding - 10 * scale;
+  return { badgeRadius, badgeTextGap, leftPadding, badgeStartX };
 }
 
 /**
@@ -165,15 +300,13 @@ async function writeSingleEventCardPNG(outputPath, event, options = {}) {
   const dpi = options.dpi || 300;
   const scale = dpi / 72;
 
-  const canvas = createCanvasInches(CARD_BLEED_W, CARD_BLEED_H, dpi);
-  const ctx = canvas.getContext('2d');
+  const { canvas, ctx } = createCanvasInches(CARD_BLEED_W / INCH, CARD_BLEED_H / INCH, dpi);
 
   await drawEventCardPNG(ctx, 0, 0, event, scale);
-  await writeCanvasPNG(canvas, outputPath);
+  await writeCanvasPNG(canvas, outputPath, dpi);
 }
 
 module.exports = {
   drawEventCardPNG,
   writeSingleEventCardPNG,
-  wrapAndDrawText,
 };

@@ -15,8 +15,8 @@ function parseArgs() {
   const opts = {
     workingConfig: 'game/config/organisms.json',
     categoryConfig: 'game/config/organisms.vines.json',
-    workingDir: 'output/Working Organism Cards/current',
-    outDir: 'output/Working Organism Cards/Vines',
+    workingDir: 'Output/working organisms',
+    outDir: 'Output/Vines',
     safeDir: 'saved_files/Working Organism Cards/Vines',
     legacyDir: 'Output/Vines',
   };

@@ -15,8 +15,8 @@ function parseArgs() {
   const opts = {
     workingConfig: 'game/config/organisms.json',
     categoryConfig: 'game/config/organisms.ground-cover.plants.json',
-    workingDir: 'output/Working Organism Cards/current',
-    outDir: 'output/Working Organism Cards/Ground-Cover Plants',
+    workingDir: 'Output/working organisms',
+    outDir: 'Output/Ground-Cover Plants',
     safeDir: 'saved_files/Working Organism Cards/Ground-Cover Plants',
     legacyDir: 'Output/Ground-Cover Plants',
   };

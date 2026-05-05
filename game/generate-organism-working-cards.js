@@ -12,7 +12,7 @@ function parseArgs() {
   const args = process.argv.slice(2);
   const opts = {
     config: 'game/config/organisms.json',
-    outDir: 'output/Working Organism Cards/current',
+    outDir: 'Output/working organisms',
     safeDir: 'saved_files/Working Organism Cards/current',
     legacyDir: 'Output/working organisms',
     noOpen: true,

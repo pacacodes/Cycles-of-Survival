@@ -15,8 +15,8 @@ function parseArgs() {
   const opts = {
     workingConfig: 'game/config/organisms.json',
     categoryConfig: 'game/config/organisms.understory.plants.json',
-    workingDir: 'output/Working Organism Cards/current',
-    outDir: 'output/Working Organism Cards/Understory Plants',
+    workingDir: 'Output/working organisms',
+    outDir: 'Output/Understory Plants',
     safeDir: 'saved_files/Working Organism Cards/Understory Plants',
     legacyDir: 'Output/Understory Plants',
   };

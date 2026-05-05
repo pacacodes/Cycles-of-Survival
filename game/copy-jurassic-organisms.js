@@ -14,8 +14,8 @@ const REPO_ROOT = path.resolve(__dirname, '..');
 function parseArgs() {
   const opts = {
     workingConfig: 'game/config/organisms.json',
-    workingDir: 'output/Working Organism Cards/current',
-    outDir: 'output/Working Organism Cards/Jurassic Organisms',
+    workingDir: 'Output/working organisms',
+    outDir: 'Output/Jurassic Organisms',
     safeDir: 'saved_files/Working Organism Cards/Jurassic Organisms',
     legacyDir: 'Output/Jurassic Organisms',
   };

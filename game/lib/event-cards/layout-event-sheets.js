@@ -1,6 +1,6 @@
 const { createCanvasInches, writeCanvasPNG } = require('../png');
 const { drawEventCardPNG } = require('./layout-event-card');
-const { CARD_BLEED_W, CARD_BLEED_H } = require('../size');
+const { CARD_BLEED_W, CARD_BLEED_H, INCH } = require('../size');
 
 /**
  * Layout event cards on a single sheet or multiple sheets
@@ -40,9 +40,11 @@ function getCardPosition(cardIndex) {
  * @returns {Object} Width and height in inches
  */
 function getSheetDimensions() {
+  const cardWidthInches = CARD_BLEED_W / INCH;
+  const cardHeightInches = CARD_BLEED_H / INCH;
   return {
-    width: 8.5 + (CARD_BLEED_W * SHEET_COLS),
-    height: 11 + (CARD_BLEED_H * SHEET_ROWS),
+    width: cardWidthInches * SHEET_COLS,
+    height: cardHeightInches * SHEET_ROWS,
   };
 }
 
@@ -62,10 +64,12 @@ async function drawEventSheetPNG(ctx, events, sheetIndex, scale) {
     const event = events[i];
     const position = getCardPosition(i);
     
-    const xInches = position.col * CARD_BLEED_W;
-    const yInches = position.row * CARD_BLEED_H;
+    const cardWidthPoints = CARD_BLEED_W;
+    const cardHeightPoints = CARD_BLEED_H;
+    const xPt = position.col * cardWidthPoints;
+    const yPt = position.row * cardHeightPoints;
     
-    await drawEventCardPNG(ctx, xInches, yInches, event, scale);
+    await drawEventCardPNG(ctx, xPt, yPt, event, scale);
   }
 }
 
@@ -82,8 +86,7 @@ async function writeEventSheetsPNG(outputPath, events, options = {}) {
   const { width, height } = getSheetDimensions();
 
   for (let sheetIdx = 0; sheetIdx < sheetCount; sheetIdx++) {
-    const canvas = createCanvasInches(width, height, dpi);
-    const ctx = canvas.getContext('2d');
+    const { canvas, ctx } = createCanvasInches(width, height, dpi);
 
     // Fill background
     ctx.fillStyle = '#FFFFFF';

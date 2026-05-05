@@ -15,8 +15,8 @@ function parseArgs() {
   const opts = {
     workingConfig: 'game/config/organisms.json',
     categoryConfig: 'game/config/organisms.herbaceous.plants.json',
-    workingDir: 'output/Working Organism Cards/current',
-    outDir: 'output/Working Organism Cards/Herbaceous Plants',
+    workingDir: 'Output/working organisms',
+    outDir: 'Output/Herbaceous Plants',
     safeDir: 'saved_files/Working Organism Cards/Herbaceous Plants',
     legacyDir: 'Output/Herbaceous Plants',
   };

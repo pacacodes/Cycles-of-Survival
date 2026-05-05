@@ -15,8 +15,8 @@ function parseArgs() {
   const opts = {
     workingConfig: 'game/config/organisms.json',
     symbioticConfig: 'game/config/organisms.symbiotic-powerhouses.json',
-    workingDir: 'output/Working Organism Cards/current',
-    outDir: 'output/Working Organism Cards/Symbiotic Powerhouse Organisms',
+    workingDir: 'Output/working organisms',
+    outDir: 'Output/Symbiotic Powerhouse Organisms',
     safeDir: 'saved_files/Working Organism Cards/Symbiotic Powerhouse Organisms',
     legacyDir: 'Output/Symbiotic Powerhouse Organisms',
   };
