@@ -5,7 +5,7 @@ const path = require('path');
 const { loadEvents, loadEventsByType } = require('./lib/event-cards/load-events');
 const { prepareEventForDisplay } = require('./lib/event-cards/field-definitions');
 const { loadManifest, saveManifest, getManifestRecord, createEventSignature } = require('./lib/event-cards/manifest');
-const { writeSingleEventCardPNG } = require('./lib/event-cards/layout-event-card');
+const { writeFrontBackEventCardPNG } = require('./lib/event-cards/layout-event-card');
 const { writeEventSheetsPNG } = require('./lib/event-cards/layout-event-sheets');
 const { ensureDir } = require('./lib/file');
 
@@ -149,7 +149,7 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
 
           if (opts.format === 'each' || opts.format === 'both') {
             const cardPath = path.join(outDir, `${event.fileName}.png`);
-            await writeSingleEventCardPNG(cardPath, event, { dpi: opts.dpi });
+            await writeFrontBackEventCardPNG(cardPath, event, { dpi: opts.dpi });
             generatedPNGs.add(`${event.fileName}.png`);
           }
         } else {

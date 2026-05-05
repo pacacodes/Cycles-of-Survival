@@ -40,7 +40,7 @@ function drawTitleColorBlock(ctx, card, layout) {
   blockHeight += 20; // Make the color block even taller by another 20px
   // Support both camelCase and snake_case for functional category
   const category = card.organism_type || card.organism_type;
-  const color = CATEGORY_COLORS[category] || '#CCCCCC'; // Default gray
+  const color = card.neonColor || CATEGORY_COLORS[category] || '#CCCCCC'; // Use neonColor if available (for event cards), otherwise lookup category
 
   const offsetX = 0;
   const offsetY = 0;

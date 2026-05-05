@@ -105,59 +105,8 @@ function buildEventBadgeList(event) {
  * Draw event badges and connectors (custom implementation for stat badges)
  */
 async function drawEventBadgesAndConnectors(ctx, badgeList, params, event) {
-  const {
-    badgeY, badgeRadius, badgeGap, badgeStartX,
-    contentX, contentY, contentH, contentW,
-    blockHeight, bottomPadding, condensedRowH,
-    leftPadding, badgeTextGap, funcTextX,
-    scale, neonColor, card, fieldDefs,
-  } = params;
-
-  // Draw the three stat badges with connector lines
-  const badges = [
-    { value: event.co2Change, label: 'CO₂', index: 0 },
-    { value: event.o2Change, label: 'O₂', index: 1 },
-    { value: event.biodiversityChange, label: 'Bio', index: 2 },
-  ];
-
-  for (const badge of badges) {
-    const fieldY = badgeY + badge.index * (badgeRadius * 2 + badgeGap);
-    const fieldBlockY = contentY + contentH - blockHeight - bottomPadding + Math.round(8 * scale) + badge.index * condensedRowH;
-    const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
-
-    // Draw badge circle
-    ctx.save();
-    ctx.fillStyle = neonColor;
-    ctx.beginPath();
-    ctx.arc(badgeStartX, fieldY, badgeRadius, 0, Math.PI * 2);
-    ctx.fill();
-
-    // Badge text (value inside circle)
-    ctx.fillStyle = '#FFFFFF';
-    ctx.font = `bold ${Math.round(7 * scale)}px "DejaVu Sans", sans-serif`;
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    const valueText = badge.value > 0 ? `+${badge.value}` : `${badge.value}`;
-    ctx.fillText(valueText, badgeStartX, fieldY - badgeRadius * 0.2);
-
-    // Label below badge
-    ctx.fillStyle = '#000000';
-    ctx.font = `${Math.round(5 * scale)}px "DejaVu Sans", sans-serif`;
-    ctx.textAlign = 'center';
-    ctx.fillText(badge.label, badgeStartX, fieldY + badgeRadius * 0.6);
-    ctx.restore();
-
-    // Draw connector line
-    ctx.save();
-    ctx.strokeStyle = neonColor;
-    ctx.lineWidth = 1.5;
-    ctx.globalAlpha = 0.6;
-    ctx.beginPath();
-    ctx.moveTo(badgeStartX + badgeRadius + 2, fieldY);
-    ctx.lineTo(funcTextX - Math.round(4 * scale), fieldBlockY + condensedRowH / 2);
-    ctx.stroke();
-    ctx.restore();
-  }
+  // This function is now empty - badges and connectors are removed
+  // Title symbols are now drawn in the title area instead
 }
 
 /**
@@ -172,6 +121,12 @@ function eventToCardObject(event, colors) {
     titleColor: '#000000',
     background: colors.background,
     neonColor: colors.neon,
+    // Store stat values as effects (matching organism card structure for title symbols)
+    effects: {
+      oxygen: event.o2Change,
+      co2: event.co2Change,
+      biodiversity: event.biodiversityChange,
+    },
     // Dummy values for organism card fields (will be replaced with event-specific fields)
     text: event.effectText,
   };
@@ -251,16 +206,6 @@ async function drawEventCardPNG(ctx, xPt, yPt, event, scale, options = {}) {
   drawFunctionalCategory(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
   drawBody(ctx, contentX + 20, contentY + 40, contentW, card, scale, { wrapText });
 
-  // Connector lines + badge icons (custom event version)
-  const funcTextX = (contentX + 20) + Math.round(21 * scale) + badgeRadius + badgeTextGap;
-  await drawEventBadgesAndConnectors(ctx, badgeList, {
-    badgeY, badgeRadius, badgeGap, badgeStartX,
-    contentX, contentY, contentH, contentW,
-    blockHeight, bottomPadding, condensedRowH,
-    leftPadding, badgeTextGap, funcTextX,
-    scale, neonColor, card, fieldDefs,
-  }, event);
-
   // Final text layer (drawn over connectors) - matching organism card
   drawTitle(ctx, contentX, contentY - 30, contentW, card, scale);
   drawFunctionalCategory(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
@@ -306,7 +251,36 @@ async function writeSingleEventCardPNG(outputPath, event, options = {}) {
   await writeCanvasPNG(canvas, outputPath, dpi);
 }
 
+/**
+ * Create an event card PNG with front and back side (front/back pair)
+ * @param {string} outputPath - Path to save PNG
+ * @param {Object} event - Prepared event object
+ * @param {Object} options - Options (dpi, etc)
+ */
+async function writeFrontBackEventCardPNG(outputPath, event, options = {}) {
+  const { drawEventCardBack } = require('./layout-event-back');
+  const dpi = options.dpi || 300;
+  const scale = dpi / 72;
+  const gapPt = 0.5 * INCH;
+
+  const totalWidthIn = ((CARD_BLEED_W * 2) + gapPt) / INCH;
+  const totalHeightIn = CARD_BLEED_H / INCH;
+  
+  const { canvas, ctx } = createCanvasInches(totalWidthIn, totalHeightIn, dpi);
+
+  const frontXPt = 0;
+  const backXPt = CARD_BLEED_W + gapPt;
+  const yPt = 0;
+
+  // Draw back first so front-side clipping/state cannot hide the back panel
+  await drawEventCardBack(ctx, backXPt, yPt, scale, event);
+  await drawEventCardPNG(ctx, frontXPt, yPt, event, scale, { includeGuides: false });
+
+  await writeCanvasPNG(canvas, outputPath, dpi);
+}
+
 module.exports = {
   drawEventCardPNG,
   writeSingleEventCardPNG,
+  writeFrontBackEventCardPNG,
 };
