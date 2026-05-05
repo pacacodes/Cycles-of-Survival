@@ -55,8 +55,8 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   const displayLabel = label.toUpperCase();
   const displaySub = sub ? sub.toLowerCase().replace(/\bma\b/g, 'Ma').replace(/\bga\b/g, 'Ga') : null;
 
-  // Fixed top background height - same as organism cards
-  const topBoxH = fieldSize + (boxPadY * 2);
+  // Fixed top background height - tall enough for label and main subtitle with padding
+  const topBoxH = (fieldSize * 2) + (boxPadY * 3) + Math.round(2 * scale);
   
   // Calculate description wrapping for bottom background
   let wrappedLines = [];
@@ -69,12 +69,11 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
     bottomBoxH = (wrappedLines.length * (subSize + lineGap)) + (boxPadY * 2);
   }
 
-  // Measure label + main for top background width
+  // Measure label + main for top background width (both on same line)
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
   const labelPart = `${displayLabel} : `;
-  const labelPartW = ctx.measureText(labelPart).width;
-  const mainW = ctx.measureText(main).width;
-  const line1W = labelPartW + mainW;
+  const line1 = labelPart + main;
+  const line1W = ctx.measureText(line1).width;
   
   // Calculate box width (fixed for both top and bottom)
   const boxW = Math.max(line1W, (maxWidth || 200)) + 2 * boxPadX + extraWidth;
@@ -89,16 +88,18 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   drawBottom(ctx, textX - boxPadX, rowY - boxPadY + topBoxH - 1 * scale, boxW, bottomBoxH, boxRadius, color, hexToRgba, 0.8);
   ctx.restore();
 
-  // Draw text in TOP background (label + main, centered vertically)
+  // Draw text in TOP background (label and main on same line, centered vertically)
   const topBgTop = rowY - boxPadY;
   const topBgCenter = topBgTop + (topBoxH / 2);
-  const textYInTop = topBgCenter - (fieldSize / 2);
+  const topTextStartY = topBgCenter - (fieldSize / 2);
+  
   ctx.shadowColor = '#FFFFFF';
   ctx.shadowBlur = 10 * scale;
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
   ctx.fillStyle = titleColor || '#000000';
-  ctx.fillText(labelPart, textX, textYInTop);
-  ctx.fillText(main, textX + labelPartW, textYInTop);
+  
+  // Single line: Label and main value together (e.g., "EFFECT : Event Impact")
+  ctx.fillText(line1, textX, topTextStartY);
 
   // Draw description text in BOTTOM background (wrapped and centered)
   if (wrappedLines.length > 0) {

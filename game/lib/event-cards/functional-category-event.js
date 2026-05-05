@@ -54,8 +54,8 @@ module.exports = function drawEventFields(ctx, contentX, contentY, contentW, con
     const boxPadY   = 2 * scale;
     const lineGap   = Math.round(2 * scale);
     
-    // Fixed top background height
-    const topBoxH = fieldSize + (boxPadY * 2);
+    // Fixed top background height (tall enough for label + main subtitle)
+    const topBoxH = (fieldSize * 2) + (boxPadY * 3) + Math.round(2 * scale);
     
     // Calculate bottom background height based on description wrapping
     let bottomBoxH = boxPadY * 2;
