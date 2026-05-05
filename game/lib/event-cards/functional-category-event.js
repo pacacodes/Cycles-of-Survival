@@ -34,6 +34,9 @@ module.exports = function drawEventFields(ctx, contentX, contentY, contentW, con
   let currentY = contentY + Math.round(50 * scale);
 
   fields.forEach((field, index) => {
+    // Add extra offset for EFFECT field (first field) - move UP by making it more negative
+    const extraBottomOffset = index === 0 ? -40 : 0;
+    
     drawFieldRow(ctx, {
       textX,
       rowY: currentY,
@@ -45,6 +48,7 @@ module.exports = function drawEventFields(ctx, contentX, contentY, contentW, con
       drawTop,
       drawBottom,
       extraWidth: field.label === 'Effect' ? 20 : 0,
+      extraBottomOffset,
       ...field,
     });
 

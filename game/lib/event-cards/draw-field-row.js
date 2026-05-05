@@ -6,7 +6,7 @@
 const drawTopFieldBackground = require('./draw-top-field-background');
 const drawBottomFieldBackground = require('./draw-bottom-field-background');
 
-module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleColor, label, main, sub, maxWidth, hexToRgba, drawTop, drawBottom, extraWidth = 0 }) {
+module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleColor, label, main, sub, maxWidth, hexToRgba, drawTop, drawBottom, extraWidth = 0, extraBottomOffset = 0 }) {
   ctx.save();
   ctx.textAlign = 'left';
   ctx.textBaseline = 'top';
@@ -44,6 +44,7 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
     scale,
     color,
     titleColor,
+    label,
     sub,
     topBoxH: topResult.topBoxH,
     topBgTop: topResult.topBgTop,
@@ -54,7 +55,8 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
     subSize,
     maxWidth,
     hexToRgba,
-    drawBottom
+    drawBottom,
+    extraBottomOffset
   });
 
   ctx.restore();

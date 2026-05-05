@@ -12,6 +12,7 @@ module.exports = function drawBottomFieldBackground(ctx, {
   scale,
   color,
   titleColor,
+  label,
   sub,
   topBoxH,
   topBgTop,
@@ -22,7 +23,8 @@ module.exports = function drawBottomFieldBackground(ctx, {
   subSize,
   maxWidth = 200,
   hexToRgba,
-  drawBottom
+  drawBottom,
+  extraBottomOffset = 0
 }) {
   const lineGap = Math.round(2 * scale);
   
@@ -30,7 +32,10 @@ module.exports = function drawBottomFieldBackground(ctx, {
   const displaySub = sub ? sub.toLowerCase().replace(/\bma\b/g, 'Ma').replace(/\bga\b/g, 'Ga') : null;
   
   // Gap between top and bottom backgrounds - move bottom background up to completely overlap
-  const gapBetweenBackgrounds = -15; // Negative value moves bottom up to eliminate white strip
+  const gapBetweenBackgrounds = -55; // Negative value moves bottom up to overlap (40px more)
+  
+  // Apply extra field-specific offset (e.g., EFFECT field gets moved up 30px more)
+  const totalBottomOffset = gapBetweenBackgrounds + extraBottomOffset;
   
   // Wrap text and calculate bottom background height (taller to hold all text)
   let wrappedLines = [];
@@ -43,8 +48,8 @@ module.exports = function drawBottomFieldBackground(ctx, {
     bottomBoxH = (wrappedLines.length * (subSize + lineGap)) + (boxPadY * 2) + 20; // 20px extra height
   }
 
-  // Draw BOTTOM background (variable height, dark/opaque, with consistent gap)
-  const bottomBgTop = topBgTop + topBoxH + gapBetweenBackgrounds;
+  // Draw BOTTOM background (variable height, dark/opaque, with consistent gap and field-specific offset)
+  const bottomBgTop = topBgTop + topBoxH + totalBottomOffset;
   
   ctx.save();
   drawBottom(ctx, textX - boxPadX, bottomBgTop, boxW, bottomBoxH, boxRadius, color, hexToRgba, 0.8);
@@ -59,6 +64,7 @@ module.exports = function drawBottomFieldBackground(ctx, {
     subSize,
     lineGap,
     titleColor,
+    label,
     textOffsetY: 10  // Move text down 10px
   });
 
