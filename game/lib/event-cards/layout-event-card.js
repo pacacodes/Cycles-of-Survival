@@ -8,7 +8,7 @@ const drawCorners = require('../cards/layers/corners');
 const drawCardNumber = require('../cards/layers/card-number');
 const drawTitle = require('../cards/layers/title');
 const drawBody = require('../cards/layers/body');
-const drawFunctionalCategory = require('../cards/layers/detailed-type/category/functional-category');
+const drawEventFields = require('./functional-category-event');  // Event-card specific
 const { drawTitleColorBlock, CATEGORY_COLORS } = require('../cards/layers/title-color-block');
 const { buildBadgeList } = require('../cards/helpers/badge-list');
 const { drawBadgesAndConnectors } = require('../cards/helpers/draw-badge-connectors');
@@ -34,53 +34,31 @@ function getEventFieldDefinitions(event) {
   // Field 1: Effect
   fields.push({
     label: 'Effect',
-    main: event.name,
-    sub: null,
+    main: 'Event Impact',
+    sub: event.effectText || null,
     drawTop,
     drawBottom,
   });
 
-  // Field 2: Biomes - (negative)
+  // Field 2: Biomes (negative)
   if (event.biomesBad && event.biomesBad.length) {
+    const biomesList = event.biomesBad.join('\n');
     fields.push({
-      label: 'Biomes -',
-      main: event.biomesBad.slice(0, 2).join(', '),
-      sub: event.biomesBad.length > 2 ? `+${event.biomesBad.length - 2} more` : null,
+      label: 'Biomes',
+      main: 'Negatively Affected',
+      sub: biomesList,
       drawTop,
       drawBottom,
     });
   }
 
-  // Field 3: Biomes + (positive)
-  if (event.biomesGood && event.biomesGood.length) {
-    fields.push({
-      label: 'Biomes +',
-      main: event.biomesGood.slice(0, 2).join(', '),
-      sub: event.biomesGood.length > 2 ? `+${event.biomesGood.length - 2} more` : null,
-      drawTop,
-      drawBottom,
-    });
-  }
-
-  // Field 4: Organisms - (negative)
+  // Field 3: Organisms (negative)
   if (event.organismsBad && event.organismsBad.length) {
-    const orgNames = event.organismsBad.map(o => o.group).slice(0, 2).join(', ');
+    const orgList = event.organismsBad.map(o => o.group).join('\n');
     fields.push({
-      label: 'Organisms -',
-      main: orgNames,
-      sub: event.organismsBad.length > 2 ? `+${event.organismsBad.length - 2} more` : null,
-      drawTop,
-      drawBottom,
-    });
-  }
-
-  // Field 5: Organisms + (positive)
-  if (event.organismsGood && event.organismsGood.length) {
-    const orgNames = event.organismsGood.map(o => o.group).slice(0, 2).join(', ');
-    fields.push({
-      label: 'Organisms +',
-      main: orgNames,
-      sub: event.organismsGood.length > 2 ? `+${event.organismsGood.length - 2} more` : null,
+      label: 'Organisms',
+      main: 'Negatively Affected',
+      sub: orgList,
       drawTop,
       drawBottom,
     });
@@ -203,13 +181,11 @@ async function drawEventCardPNG(ctx, xPt, yPt, event, scale, options = {}) {
   configureCanvasContext(ctx);
 
   // First pass: field backgrounds (matching organism card)
-  drawFunctionalCategory(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
-  drawBody(ctx, contentX + 20, contentY + 40, contentW, card, scale, { wrapText });
+  drawEventFields(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
 
   // Final text layer (drawn over connectors) - matching organism card
   drawTitle(ctx, contentX, contentY - 30, contentW, card, scale);
-  drawFunctionalCategory(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
-  drawBody(ctx, contentX + 20, contentY + 40, contentW, card, scale, { wrapText });
+  drawEventFields(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
   drawCardNumber(ctx, safeX, safeY, card, scale);
   drawCorners(ctx, safeX, safeY, card, scale);
 
