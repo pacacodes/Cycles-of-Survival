@@ -6,18 +6,18 @@
 const EVENT_TYPE_COLORS = {
   crisis: {
     neon: '#9933FF',        // Purple
-    background: '#F8F0FF',  // Light purple
-    titleText: '#000000',
+    background: '#4A90E2',  // Water blue
+    titleText: '#FFFFFF',
   },
   recovery: {
     neon: '#22FF88',        // Cyan-green (distinct from organism greens)
-    background: '#F0FFF8',  // Light cyan-green
-    titleText: '#000000',
+    background: '#4A90E2',  // Water blue
+    titleText: '#FFFFFF',
   },
   mass_extinction: {
     neon: '#FF4444',        // Red
-    background: '#FFF0F0',  // Light red
-    titleText: '#000000',
+    background: '#4A90E2',  // Water blue
+    titleText: '#FFFFFF',
   },
 };
 
