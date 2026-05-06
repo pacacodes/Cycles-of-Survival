@@ -23,14 +23,8 @@ module.exports = function drawDescriptionText(ctx, {
   ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
   ctx.fillStyle = titleColor || '#000000';
   
-  // Apply extra offset for EFFECT field description text only
-  const fieldSpecificOffset = label === 'Effect' ? 30 : 0;
-  const totalTextOffset = textOffsetY + fieldSpecificOffset;
-  
-  // Center description vertically in bottom background with optional offset
-  const totalDescHeight = wrappedLines.length * (subSize + lineGap) - lineGap;
-  const bottomBgCenter = bottomBgTop + (bottomBoxH / 2);
-  const descStartY = bottomBgCenter - (totalDescHeight / 2) + totalTextOffset;
+  // Position text at fixed offset from bottom background top (not centered)
+  const descStartY = bottomBgTop + textOffsetY;
   
   wrappedLines.forEach((line, i) => {
     ctx.fillText(line, textX, descStartY + (i * (subSize + lineGap)));

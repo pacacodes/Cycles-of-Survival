@@ -250,7 +250,7 @@ async function writeFrontBackEventCardPNG(outputPath, event, options = {}) {
 
   // Draw back first so front-side clipping/state cannot hide the back panel
   await drawEventCardBack(ctx, backXPt, yPt, scale, event);
-  await drawEventCardPNG(ctx, frontXPt, yPt, event, scale, { includeGuides: false });
+  await drawEventCardPNG(ctx, frontXPt, yPt, event, scale, { includeGuides: true });
 
   await writeCanvasPNG(canvas, outputPath, dpi);
 }
