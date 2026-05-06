@@ -56,8 +56,12 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   // For Effect field, add 10px to the right
   const effectBoxW = label === 'Effect' ? boxW + (10 * scale) : boxW;
   
+  // For Ash-Darkened Skies biomes, reduce width by 10px
+  const reductionAmount = label === 'Biomes' && eventName === 'Ash-Darkened Skies' ? 10 * scale : 0;
+  const finalBoxW = boxW - reductionAmount;
+  
   // Calculate actual available width for text within the bottom background
-  const boxWForWidth = label === 'Effect' ? effectBoxW : boxW;
+  const boxWForWidth = label === 'Effect' ? effectBoxW : (label === 'Biomes' ? finalBoxW : boxW);
   const actualTextWidth = boxWForWidth - 2 * boxPadX;
   
   // Re-wrap text using actual available width within the background box
@@ -94,7 +98,7 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
 
   // Background (isolated save/restore)
   ctx.save();
-  const topBoxW = label === 'Effect' ? effectBoxW : boxW;
+  const topBoxW = label === 'Effect' ? effectBoxW : (label === 'Biomes' ? finalBoxW : boxW);
   drawTop(ctx, textX - boxPadX, adjustedRowY - boxPadY, topBoxW, topBoxH, boxRadius, color, hexToRgba, 0.45);
   ctx.restore();
 
@@ -124,7 +128,7 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
     } else {
       bottomY = rowY - boxPadY + topBoxH;
     }
-    const bottomBoxW = label === 'Effect' ? effectBoxW : boxW;
+    const bottomBoxW = label === 'Effect' ? effectBoxW : (label === 'Biomes' ? finalBoxW : boxW);
     drawBottom(ctx, textX - boxPadX, bottomY, bottomBoxW, bottomBoxH, boxRadius, color, hexToRgba, 0.8);
     ctx.restore();
   }
@@ -144,7 +148,7 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   }
 
   // Clip text to within both background boxes so it never overflows
-  const clipBoxW = label === 'Effect' ? effectBoxW : boxW;
+  const clipBoxW = label === 'Effect' ? effectBoxW : (label === 'Biomes' ? finalBoxW : boxW);
   ctx.beginPath();
   ctx.rect(textX - boxPadX, rowY - boxPadY, clipBoxW, totalClipHeight);
   ctx.clip();

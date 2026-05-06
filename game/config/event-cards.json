@@ -345,9 +345,10 @@
       "biodiversityChange": -1,
       "effectText": "Dust and ash block sunlight. For this round, producers in 1–2 chosen regions do not give energy and may be replaced by shade-tolerant types.",
       "biomesBad": [
+        "Marine",
         "Coral reefs",
-        "High-productivity surface oceans",
-        "Sun-dependent grasslands"
+        "Subpolar",
+        "Polar\nSun-dependent grasslands"
       ],
       "biomesGood": [
         "Shade-tolerant forest understories",
