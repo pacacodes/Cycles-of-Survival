@@ -5,7 +5,7 @@
 
 const wrapText = require('./wrap-text');
 
-module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleColor, label, main, sub, maxWidth, hexToRgba, drawTop, drawBottom }) {
+module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleColor, label, main, sub, maxWidth, hexToRgba, drawTop, drawBottom, eventName }) {
   ctx.save();
   ctx.textAlign = 'left';
   ctx.textBaseline = 'top';
@@ -96,8 +96,15 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
     // For Effect field, move bottom background up 30px, down 1px, then up 7px
     // For Biomes and Organisms fields, move bottom background up 30px, down 1px, then down 15px
     let bottomY;
+    
+    // List of events that need 10px additional downward adjustment for Effect field
+    const needsAdjustment = eventName && ['Prolonged Drought', 'Megaflood', 'Disease Outbreak', 'Invasive Species Arrival', 'Predator Boom', 'Volcanic Eruption (Regional)', 'Oxygen Crash (Local)', 'Late Devonian Mass Extinction', 'Refugia Discovered', 'Oxygen Surge'].includes(eventName);
+    
     if (label === 'Effect') {
       bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale) - (7 * scale);
+      if (needsAdjustment) {
+        bottomY += (6 * scale);
+      }
     } else if (label === 'Biomes' || label === 'Organisms') {
       bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale) + (15 * scale);
     } else {

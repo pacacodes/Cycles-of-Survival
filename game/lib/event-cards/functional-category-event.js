@@ -39,6 +39,7 @@ module.exports = function drawEventFields(ctx, contentX, contentY, contentW, con
       hexToRgba,
       drawTop,
       drawBottom,
+      eventName: card.common_name,
       ...field,
     });
 
