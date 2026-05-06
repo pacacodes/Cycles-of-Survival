@@ -18,8 +18,8 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   const boxRadius = 6 * scale;
   const lineGap   = Math.round(2 * scale);
   
-  // For Effect field, calculate adjusted row position (moved up 0.5px)
-  const adjustedRowY = label === 'Effect' ? rowY - (0.5 * scale) : rowY;
+  // Use consistent row position for all fields
+  const adjustedRowY = rowY;
   const subY      = adjustedRowY + fieldSize + lineGap;
 
   // Normalize label (ALL CAPS) and sub (lowercase, preserve Ma/Ga)
@@ -48,8 +48,10 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   const line1W = labelPartW + mainW;
   const contentW = maxWidth ? Math.min(Math.max(line1W, subW), maxWidth) : Math.max(line1W, subW);
   
-  // Calculate box width and reduce by 20px to make fields narrower
-  const boxW = contentW + 2 * boxPadX - (20 * scale);
+  // Calculate box width - for Biomes field, don't reduce width to keep biome names on one line
+  // For other fields, reduce by 20px to make fields narrower
+  const widthReduction = label === 'Biomes' ? 0 : (20 * scale);
+  const boxW = contentW + 2 * boxPadX - widthReduction;
   
   // For Effect field, add 10px to the right
   const effectBoxW = label === 'Effect' ? boxW + (10 * scale) : boxW;
@@ -110,6 +112,10 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
       bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale) - (7 * scale);
       if (needsAdjustment) {
         bottomY += (6 * scale);
+      }
+      // Additional adjustment for Prolonged Drought: move down 1px
+      if (eventName === 'Prolonged Drought') {
+        bottomY += (1 * scale);
       }
     } else if (label === 'Biomes') {
       bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale) + (15 * scale) - (15.5 * scale);

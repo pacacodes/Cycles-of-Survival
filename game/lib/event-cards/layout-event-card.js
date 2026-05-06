@@ -42,7 +42,7 @@ function getEventFieldDefinitions(event) {
 
   // Field 2: Biomes (negative)
   if (event.biomesBad && event.biomesBad.length) {
-    const biomesList = event.biomesBad.join('\n');
+    const biomesList = event.biomesBad.join(' · ').replace(/ and /g, ' · ');
     fields.push({
       label: 'Biomes',
       main: 'Negatively Affected',
@@ -54,7 +54,7 @@ function getEventFieldDefinitions(event) {
 
   // Field 3: Organisms (negative)
   if (event.organismsBad && event.organismsBad.length) {
-    const orgList = event.organismsBad.map(o => o.group).join('\n');
+    const orgList = event.organismsBad.map(o => o.group).join(' · ').replace(/ and /g, ' · ');
     fields.push({
       label: 'Organisms',
       main: 'Negatively Affected',

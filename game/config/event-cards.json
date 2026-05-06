@@ -7,7 +7,7 @@
       "co2Change": 1,
       "o2Change": -1,
       "biodiversityChange": -2,
-      "effectText": "Wet places dry up and water-loving life struggles. Remove or flip organisms in wet biomes toward drier types.",
+      "effectText": "wet places dry up and water-loving life struggles. remove organisms from the board that are in wet biomes.",
       "biomesBad": [
         "Wetlands",
         "Rivers and lakes",
