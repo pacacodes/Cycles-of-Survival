@@ -78,6 +78,9 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
     if (label === 'Effect') {
       // Effect field: double the required height to cover all description text
       bottomBoxH = Math.max(requiredHeight * 2, ((2 * scale) + (wrappedSubLines.length * (subSize + lineGap)) - lineGap + (2 * scale)) * 2);
+    } else if (label === 'Biomes') {
+      // Biomes field: use required height or calculated height, whichever is larger, plus 17.5px extra (5px bottom + 12.5px top)
+      bottomBoxH = Math.max(requiredHeight, ((wrappedSubLines.length * (subSize + lineGap)) - lineGap + (4 * scale) + 2 * boxPadY)) + (17.5 * scale);
     } else {
       // Other fields: use required height or calculated height, whichever is larger
       bottomBoxH = Math.max(requiredHeight, ((wrappedSubLines.length * (subSize + lineGap)) - lineGap + (4 * scale) + 2 * boxPadY));
@@ -105,7 +108,9 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
       if (needsAdjustment) {
         bottomY += (6 * scale);
       }
-    } else if (label === 'Biomes' || label === 'Organisms') {
+    } else if (label === 'Biomes') {
+      bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale) + (15 * scale) - (15.5 * scale);
+    } else if (label === 'Organisms') {
       bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale) + (15 * scale);
     } else {
       bottomY = rowY - boxPadY + topBoxH;
