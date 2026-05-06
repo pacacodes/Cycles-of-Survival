@@ -17,7 +17,10 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   const boxPadY   = 2 * scale;
   const boxRadius = 6 * scale;
   const lineGap   = Math.round(2 * scale);
-  const subY      = rowY + fieldSize + lineGap;
+  
+  // For Effect field, calculate adjusted row position (moved up 0.5px)
+  const adjustedRowY = label === 'Effect' ? rowY - (0.5 * scale) : rowY;
+  const subY      = adjustedRowY + fieldSize + lineGap;
 
   // Normalize label (ALL CAPS) and sub (lowercase, preserve Ma/Ga)
   const displayLabel = label.toUpperCase();
@@ -45,56 +48,92 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   const line1W = labelPartW + mainW;
   const contentW = maxWidth ? Math.min(Math.max(line1W, subW), maxWidth) : Math.max(line1W, subW);
   
+  // Calculate box width and reduce by 20px to make fields narrower
+  const boxW = contentW + 2 * boxPadX - (20 * scale);
+  
+  // For Effect field, add 10px to the right
+  const effectBoxW = label === 'Effect' ? boxW + (10 * scale) : boxW;
+  
+  // Calculate actual available width for text within the bottom background
+  const boxWForWidth = label === 'Effect' ? effectBoxW : boxW;
+  const actualTextWidth = boxWForWidth - 2 * boxPadX;
+  
+  // Re-wrap text using actual available width within the background box
+  if (displaySub && actualTextWidth > 0) {
+    ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
+    wrappedSubLines = wrapText(ctx, displaySub, actualTextWidth, subSize);
+  }
+  
   // Top background: label line plus ~2px below
   const topBoxH = fieldSize + (7 * scale) + 2 * boxPadY;
   
   // Bottom background: covers all wrapped lines with proper padding
   let bottomBoxH = 0;
-  if (displaySub) {
+  if (displaySub && wrappedSubLines.length > 0) {
+    // Calculate minimum height needed to contain all wrapped text
+    const textLineHeight = wrappedSubLines.length * subSize;
+    const textGapHeight = Math.max(0, wrappedSubLines.length - 1) * lineGap;
+    const requiredHeight = textLineHeight + textGapHeight + (4 * scale); // padding top and bottom
+    
     if (label === 'Effect') {
-      // Effect field: double height to cover all description text
-      bottomBoxH = ((2 * scale) + (wrappedSubLines.length * (subSize + lineGap)) - lineGap + (2 * scale)) * 2;
+      // Effect field: double the required height to cover all description text
+      bottomBoxH = Math.max(requiredHeight * 2, ((2 * scale) + (wrappedSubLines.length * (subSize + lineGap)) - lineGap + (2 * scale)) * 2);
     } else {
-      // Other fields: standard height
-      bottomBoxH = ((wrappedSubLines.length * (subSize + lineGap)) - lineGap + (4 * scale) + 2 * boxPadY);
+      // Other fields: use required height or calculated height, whichever is larger
+      bottomBoxH = Math.max(requiredHeight, ((wrappedSubLines.length * (subSize + lineGap)) - lineGap + (4 * scale) + 2 * boxPadY));
     }
   }
-  
-  const boxW = contentW + 2 * boxPadX;
 
   // Background (isolated save/restore)
   ctx.save();
-  drawTop(ctx, textX - boxPadX, rowY - boxPadY, boxW, topBoxH, boxRadius, color, hexToRgba, 0.45);
+  const topBoxW = label === 'Effect' ? effectBoxW : boxW;
+  drawTop(ctx, textX - boxPadX, adjustedRowY - boxPadY, topBoxW, topBoxH, boxRadius, color, hexToRgba, 0.45);
   ctx.restore();
 
   // Draw bottom background if there's sub text
   if (bottomBoxH > 0) {
     ctx.save();
-    // For Effect field, move bottom background up 30px and then down 1px
+    // For Effect field, move bottom background up 30px, down 1px, then up 7px
     // For Biomes and Organisms fields, move bottom background up 30px, down 1px, then down 15px
     let bottomY;
     if (label === 'Effect') {
-      bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale);
+      bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale) - (7 * scale);
     } else if (label === 'Biomes' || label === 'Organisms') {
       bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale) + (15 * scale);
     } else {
       bottomY = rowY - boxPadY + topBoxH;
     }
-    drawBottom(ctx, textX - boxPadX, bottomY, boxW, bottomBoxH, boxRadius, color, hexToRgba, 0.8);
+    const bottomBoxW = label === 'Effect' ? effectBoxW : boxW;
+    drawBottom(ctx, textX - boxPadX, bottomY, bottomBoxW, bottomBoxH, boxRadius, color, hexToRgba, 0.8);
     ctx.restore();
   }
 
+  // Calculate total clipping height to account for overlapping/offset bottom boxes
+  let totalClipHeight = topBoxH + bottomBoxH;
+  if (bottomBoxH > 0) {
+    if (label === 'Effect') {
+      // Effect box overlaps - calculate actual extent
+      const effectBottomEnd = topBoxH - (30 * scale) + (1 * scale) + bottomBoxH;
+      totalClipHeight = Math.max(topBoxH + bottomBoxH, effectBottomEnd);
+    } else if (label === 'Biomes' || label === 'Organisms') {
+      // Biomes/Organisms box overlaps - calculate actual extent
+      const otherBottomEnd = topBoxH - (30 * scale) + (1 * scale) + (15 * scale) + bottomBoxH;
+      totalClipHeight = Math.max(topBoxH + bottomBoxH, otherBottomEnd);
+    }
+  }
+
   // Clip text to within both background boxes so it never overflows
+  const clipBoxW = label === 'Effect' ? effectBoxW : boxW;
   ctx.beginPath();
-  ctx.rect(textX - boxPadX, rowY - boxPadY, boxW, topBoxH + bottomBoxH);
+  ctx.rect(textX - boxPadX, rowY - boxPadY, clipBoxW, totalClipHeight);
   ctx.clip();
 
   // Line 1: "Bold Label: " then bold "Main Value"
   ctx.shadowColor = '#FFFFFF';
   ctx.shadowBlur = 10 * scale;
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
-  ctx.fillText(labelPart, textX, rowY);
-  ctx.fillText(main, textX + labelPartW, rowY);
+  ctx.fillText(labelPart, textX, adjustedRowY);
+  ctx.fillText(main, textX + labelPartW, adjustedRowY);
 
   // Lines 2+: wrapped sub description, smaller
   if (wrappedSubLines.length > 0) {

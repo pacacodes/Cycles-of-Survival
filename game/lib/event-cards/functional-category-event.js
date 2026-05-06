@@ -18,10 +18,10 @@ module.exports = function drawEventFields(ctx, contentX, contentY, contentW, con
   const fields = card._eventFields || [];
   if (!fields.length) return;
 
-  const textX = contentX + Math.round(21 * scale);
+  const textX = contentX + Math.round(21 * scale) + Math.round(20 * scale);
   const fieldGap = Math.round(5 * scale); // 5px gap between fields
   const color = card.neonColor;  // Event-type color
-  const maxTextWidth = contentW - Math.round(21 * scale) - Math.round(8 * scale);
+  const maxTextWidth = contentW - Math.round(21 * scale) - Math.round(20 * scale) - Math.round(8 * scale);
 
   const { drawTop, drawBottom } = getEventBackgroundFunctions();
 
