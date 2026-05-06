@@ -39,7 +39,7 @@
       "co2Change": 0,
       "o2Change": -1,
       "biodiversityChange": -1,
-      "effectText": "Huge floods wash away soil and animals in low areas. Remove or move organisms from flooded river and floodplain spaces.",
+      "effectText": "huge floods wash away soil and life in low areas. remove soil and organism tokens from affected biomes.",
       "biomesBad": [
         "River valleys",
         "Floodplains",
