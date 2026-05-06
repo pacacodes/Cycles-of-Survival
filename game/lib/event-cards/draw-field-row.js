@@ -48,8 +48,17 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   // Top background: label line plus ~2px below
   const topBoxH = fieldSize + (7 * scale) + 2 * boxPadY;
   
-  // Bottom background: starts 2px above first wrapped line, ends 2px below last line
-  const bottomBoxH = displaySub ? ((wrappedSubLines.length - 1) * (subSize + lineGap) + subSize + (4 * scale)) : 0;
+  // Bottom background: covers all wrapped lines with proper padding
+  let bottomBoxH = 0;
+  if (displaySub) {
+    if (label === 'Effect') {
+      // Effect field: double height to cover all description text
+      bottomBoxH = ((2 * scale) + (wrappedSubLines.length * (subSize + lineGap)) - lineGap + (2 * scale)) * 2;
+    } else {
+      // Other fields: standard height
+      bottomBoxH = ((wrappedSubLines.length * (subSize + lineGap)) - lineGap + (4 * scale) + 2 * boxPadY);
+    }
+  }
   
   const boxW = contentW + 2 * boxPadX;
 
@@ -61,14 +70,23 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   // Draw bottom background if there's sub text
   if (bottomBoxH > 0) {
     ctx.save();
-    const bottomY = subY - (2 * scale);
+    // For Effect field, move bottom background up 30px and then down 1px
+    // For Biomes and Organisms fields, move bottom background up 30px, down 1px, then down 15px
+    let bottomY;
+    if (label === 'Effect') {
+      bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale);
+    } else if (label === 'Biomes' || label === 'Organisms') {
+      bottomY = rowY - boxPadY + topBoxH - (30 * scale) + (1 * scale) + (15 * scale);
+    } else {
+      bottomY = rowY - boxPadY + topBoxH;
+    }
     drawBottom(ctx, textX - boxPadX, bottomY, boxW, bottomBoxH, boxRadius, color, hexToRgba, 0.8);
     ctx.restore();
   }
 
   // Clip text to within both background boxes so it never overflows
   ctx.beginPath();
-  ctx.rect(textX - boxPadX, rowY - boxPadY, boxW, topBoxH + bottomBoxH + (2 * scale));
+  ctx.rect(textX - boxPadX, rowY - boxPadY, boxW, topBoxH + bottomBoxH);
   ctx.clip();
 
   // Line 1: "Bold Label: " then bold "Main Value"
@@ -81,8 +99,10 @@ module.exports = function drawFieldRow(ctx, { textX, rowY, scale, color, titleCo
   // Lines 2+: wrapped sub description, smaller
   if (wrappedSubLines.length > 0) {
     ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
+    // For Effect, Biomes, and Organisms fields, move text down 1px
+    const textYOffset = (label === 'Effect' || label === 'Biomes' || label === 'Organisms') ? (1 * scale) : 0;
     wrappedSubLines.forEach((line, i) => {
-      ctx.fillText(line, textX, subY + (i * (subSize + lineGap)));
+      ctx.fillText(line, textX, subY + (i * (subSize + lineGap)) + textYOffset);
     });
   }
 
