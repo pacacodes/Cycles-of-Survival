@@ -252,7 +252,7 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   const inputFontSize = Math.round(5 * scale);
   const inputFont = `${inputFontSize}px "DejaVu Sans", sans-serif`;
   const symbolY = y + Math.round(2 * scale);
-  const symbolXBase = x + (100 * scale) - (10 * scale);
+  const symbolXBase = x + (100 * scale) - (10 * scale) - 20;
   const symbolColor = '#000000';
   const symbolBgColor = '#F7B733';
   const topOpacity = 0.62;
@@ -280,10 +280,10 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   const pawSize = Math.round(symbolFontSize * 1.35 * 0.95);
 
   const badges = [
-    { kind: 'text', symbol: 'H₂O', value: inputValues[0] },
+    { kind: 'paw', symbol: '', value: inputValues[3] },
     { kind: 'text', symbol: 'O₂', value: inputValues[1] },
     { kind: 'text', symbol: 'CO₂', value: inputValues[2] },
-    { kind: 'paw', symbol: '', value: inputValues[3] }
+    { kind: 'text', symbol: 'H₂O', value: inputValues[0] }
   ];
 
   let sharedInnerWidth = 10 * scale;
