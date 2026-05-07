@@ -64,9 +64,8 @@ async function drawBadgesAndConnectors(ctx, badgeList, params) {
       const fieldTextY = fieldBlockY + Math.round(7 * scale) + 40;
       const fieldDef = fieldDefs.find(f => f.label === 'Type') || { label: 'Type', main: card.organism_type || '', sub: null };
       const backgroundRightX = computeBackgroundRightX(ctx, { ...fieldDef, textX: funcTextX, scale, maxWidth: maxTextWidth > 0 ? maxTextWidth : undefined });
-      const color = CATEGORY_COLORS[card.organism_type] || '#02BDF2';
-      drawFunctionalCategoryConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, color);
-      await drawFunctionalCategoryBadge(ctx, badgeStartX, fieldY, badgeRadius, card, scale, color);
+      drawFunctionalCategoryConnector(ctx, badgeStartX, fieldY, labelX, fieldTextY, badgeRadius, scale, backgroundRightX, neonColor);
+      await drawFunctionalCategoryBadge(ctx, badgeStartX, fieldY, badgeRadius, card, scale, neonColor);
     }
 
     if (badge.type === 'biome') {

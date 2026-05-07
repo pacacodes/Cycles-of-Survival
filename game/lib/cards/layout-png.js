@@ -88,6 +88,10 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
   const badgeY = contentY + (contentH - dynamicBadgeColumnHeight) / 2 + badgeRadius + 60;
 
   const neonColor = card.neonColor || CATEGORY_COLORS[card.organism_type] || '#02BDF2';
+  // Ensure neonColor is set on card so all rendering layers use it consistently
+  if (!card.neonColor) {
+    card.neonColor = neonColor;
+  }
 
   // First pass: field backgrounds + body text
   drawFunctionalCategory(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);

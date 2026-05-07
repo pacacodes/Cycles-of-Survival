@@ -6,6 +6,10 @@ function hexToRgba(hex, alpha) {
 }
 
 function getCardColor(card) {
+  // For organism cards: use neonColor if set (matches title color block), else lookup from organism_type
+  if (card.neonColor) {
+    return card.neonColor;
+  }
   return CATEGORY_COLORS[card.organism_type] || '#CCCCCC';
 }
 

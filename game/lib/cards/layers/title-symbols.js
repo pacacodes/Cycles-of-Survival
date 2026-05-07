@@ -255,7 +255,7 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   const symbolXBase = x + (100 * scale) - (10 * scale) - 80;
   const symbolColor = '#000000';
   const symbolBgColor = '#F7B733';
-  const waterBgColor = '#3B6B9D';
+  const waterBgColor = '#3AD7F6';
   const topOpacity = 0.62;
   const bottomOpacity = 0.92;
   const effects = card.effects || {};

@@ -8,13 +8,12 @@ const CATEGORY_COLORS = {
   'Microbes':                    '#4D985E', // Deep green
   'Algae and phytoplankton':     '#2DB89A', // Teal
   'Aquatic plants':              '#6DC072', // Medium green
-  'Aquatic invertebrates':       '#3AD7F6', // Cyan
+  'Aquatic invertebrates':       '#03fcf8', // Cyan (was bright cyan, swapped with H2O)
   'Aquatic vertebrates':         '#02BDF2', // Bright blue
   'Fungi':                       '#D4813A', // Earthy amber
   'Plants':                      '#9ECD8F', // Soft green
   'Terrestrial invertebrates':   '#FFD93D', // Bright yellow
   'Terrestrial vertebrates':     '#FF7F6E', // Coral (same as Mammals)
-  'Decomposers & detritivores':  '#8B6914', // Earthy brown
   // Legacy keys (backward compat)
   'Aquatic Vertebrates': '#02BDF2',
   'Plants & Algae': '#9ECD8F',
