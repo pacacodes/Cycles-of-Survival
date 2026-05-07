@@ -141,6 +141,111 @@ function drawPawSymbol(ctx, centerX, centerY, size) {
   ctx.fill();
 }
 
+function drawWaterDropSymbol(ctx, centerX, centerY, size) {
+  const dropH = size * 0.95;
+  const dropW = size * 0.65;
+  
+  ctx.beginPath();
+  ctx.moveTo(centerX, centerY - dropH * 0.5);
+  ctx.bezierCurveTo(
+    centerX - dropW * 0.5, centerY - dropH * 0.3,
+    centerX - dropW * 0.5, centerY + dropH * 0.2,
+    centerX, centerY + dropH * 0.5
+  );
+  ctx.bezierCurveTo(
+    centerX + dropW * 0.5, centerY + dropH * 0.2,
+    centerX + dropW * 0.5, centerY - dropH * 0.3,
+    centerX, centerY - dropH * 0.5
+  );
+  ctx.closePath();
+  ctx.fill();
+}
+
+function drawTopSymbols(ctx, x, y, scale, card = {}) {
+  const symbolFontSize = Math.round(4 * scale);
+  const inputFontSize = Math.round(4 * scale);
+  const inputFont = `${inputFontSize}px "DejaVu Sans", sans-serif`;
+  const symbolColor = '#000000';
+  const symbolBgColor = '#F7B733';
+  const topOpacity = 0.62;
+  const bottomOpacity = 0.92;
+  const splitRatio = 0.52;
+  const effects = card.effects || {};
+  const waterReq = card.waterRequirement !== undefined ? card.waterRequirement : 0;
+
+  ctx.save();
+  ctx.font = `bold ${symbolFontSize}px "DejaVu Sans", sans-serif`;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+
+  const boxPadX = 3 * scale;
+  const boxRadius = 3 * scale;
+  const badgeGap = Math.round(2 * scale);
+  const badgeHeight = Math.round(14 * scale);
+  const topSectionHeight = Math.round(badgeHeight * splitRatio);
+  const symbolSize = Math.round(symbolFontSize * 1.2 * 0.95);
+
+  const inputValues = [
+    formatInputValue(effects.oxygen),
+    formatInputValue(effects.co2),
+    formatInputValue(waterReq)
+  ];
+
+  const badges = [
+    { kind: 'text', symbol: 'O₂', value: inputValues[0] },
+    { kind: 'text', symbol: 'CO₂', value: inputValues[1] },
+    { kind: 'water', symbol: '', value: inputValues[2] }
+  ];
+
+  let sharedInnerWidth = 8 * scale;
+  for (const badge of badges) {
+    if (badge.kind === 'text') {
+      ctx.font = `bold ${symbolFontSize}px "DejaVu Sans", sans-serif`;
+      sharedInnerWidth = Math.max(sharedInnerWidth, ctx.measureText(badge.symbol).width);
+    }
+    ctx.font = inputFont;
+    sharedInnerWidth = Math.max(sharedInnerWidth, ctx.measureText(badge.value).width);
+  }
+
+  const badgeRects = [];
+  let nextX = x;
+
+  for (const badge of badges) {
+    const badgeWidth = sharedInnerWidth + boxPadX * 2;
+    badgeRects.push({
+      ...badge,
+      rx: nextX,
+      ry: y,
+      rw: badgeWidth,
+      rh: badgeHeight
+    });
+    nextX += badgeWidth + badgeGap;
+  }
+
+  for (const rect of badgeRects) {
+    drawSplitBackground(ctx, rect.rx, rect.ry, rect.rw, rect.rh, boxRadius, symbolBgColor, topOpacity, bottomOpacity, scale, splitRatio);
+  }
+
+  ctx.fillStyle = symbolColor;
+  for (const rect of badgeRects) {
+    const centerX = rect.rx + rect.rw / 2;
+    const topCenterY = rect.ry + topSectionHeight / 2;
+    
+    if (rect.kind === 'water') {
+      drawWaterDropSymbol(ctx, centerX, topCenterY, symbolSize);
+    } else {
+      ctx.font = `bold ${symbolFontSize}px "DejaVu Sans", sans-serif`;
+      ctx.fillText(rect.symbol, centerX, topCenterY);
+    }
+
+    const bottomCenterY = rect.ry + topSectionHeight + (rect.rh - topSectionHeight) / 2;
+    ctx.font = inputFont;
+    ctx.fillText(rect.value, centerX, bottomCenterY);
+  }
+
+  ctx.restore();
+}
+
 module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   const splitRatio = 0.52;
   const symbolFontSize = Math.round(5 * scale);
@@ -164,7 +269,9 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   const badgeGap = Math.round(3 * scale);
   const badgeHeight = Math.round(18 * scale);
   const topSectionHeight = Math.round(badgeHeight * splitRatio);
+  const waterReq = card.waterRequirement !== undefined ? card.waterRequirement : 0;
   const inputValues = [
+    formatInputValue(waterReq),
     formatInputValue(effects.oxygen),
     formatInputValue(effects.co2),
     formatInputValue(effects.biodiversity)
@@ -173,9 +280,10 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   const pawSize = Math.round(symbolFontSize * 1.35 * 0.95);
 
   const badges = [
-    { kind: 'text', symbol: 'O₂', value: inputValues[0] },
-    { kind: 'text', symbol: 'CO₂', value: inputValues[1] },
-    { kind: 'paw', symbol: '', value: inputValues[2] }
+    { kind: 'text', symbol: 'H₂O', value: inputValues[0] },
+    { kind: 'text', symbol: 'O₂', value: inputValues[1] },
+    { kind: 'text', symbol: 'CO₂', value: inputValues[2] },
+    { kind: 'paw', symbol: '', value: inputValues[3] }
   ];
 
   let sharedInnerWidth = 10 * scale;
@@ -227,3 +335,5 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
 
   ctx.restore();
 };
+
+module.exports.drawTopSymbols = drawTopSymbols;
