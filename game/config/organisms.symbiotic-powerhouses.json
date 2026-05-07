@@ -35,7 +35,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -71,7 +72,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -106,7 +108,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -144,7 +147,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -180,7 +184,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -216,7 +221,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -251,7 +257,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -288,7 +295,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -324,7 +332,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -337,7 +346,7 @@
       "phylum": "Haptophyta",
       "class": "Coccolithophyceae",
       "order": "Isochrysidales",
-      "family": "Noëlaerhabdaceae",
+      "family": "No\u00eblaerhabdaceae",
       "genus": "Emiliania",
       "species": "huxleyi",
       "biomes": [
@@ -359,7 +368,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -396,7 +406,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -432,7 +443,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -469,7 +481,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -507,7 +520,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -544,7 +558,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -581,7 +596,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -619,7 +635,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -656,7 +673,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -693,7 +711,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -729,7 +748,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -767,7 +787,8 @@
       "role": [
         "mutualist",
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -804,12 +825,13 @@
       "role": [
         "decomposer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
       "card_label": "Card 586",
-      "common_name": "Périgord Black Truffle",
+      "common_name": "P\u00e9rigord Black Truffle",
       "scientific_name": "Tuber melanosporum",
       "main_photo": null,
       "organism_type": "Fungi",
@@ -840,7 +862,8 @@
       "role": [
         "mutualist",
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -876,7 +899,8 @@
       "role": [
         "mutualist",
         "builder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -913,7 +937,8 @@
       "role": [
         "builder",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -950,7 +975,8 @@
       "role": [
         "builder",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -987,7 +1013,8 @@
       "role": [
         "filter_feeder",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1024,7 +1051,8 @@
       "role": [
         "mutualist",
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1059,7 +1087,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1096,7 +1125,8 @@
       "role": [
         "detritivore",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1132,7 +1162,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1168,7 +1199,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1203,7 +1235,8 @@
       "bits": null,
       "role": [
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1239,7 +1272,8 @@
       "role": [
         "predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1276,7 +1310,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1312,7 +1347,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1348,7 +1384,8 @@
       "role": [
         "mutualist",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1385,7 +1422,8 @@
       "role": [
         "decomposer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1424,7 +1462,8 @@
       "role": [
         "decomposer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1461,7 +1500,8 @@
       "bits": null,
       "role": [
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1497,7 +1537,8 @@
       "bits": null,
       "role": [
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 3
     }
   ]
 }

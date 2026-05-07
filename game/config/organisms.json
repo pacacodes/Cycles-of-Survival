@@ -38,7 +38,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -79,7 +80,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -119,7 +121,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 3",
@@ -153,7 +156,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 4",
@@ -192,7 +196,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -231,7 +236,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -271,7 +277,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 7",
@@ -320,7 +327,8 @@
       "role": [
         "builder",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 8",
@@ -368,7 +376,8 @@
       "role": [
         "builder",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -408,7 +417,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 10",
@@ -447,7 +457,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -487,7 +498,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 11",
@@ -522,7 +534,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 12",
@@ -560,7 +573,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 13",
@@ -598,7 +612,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -636,7 +651,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 15",
@@ -683,7 +699,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -722,7 +739,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -758,7 +776,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -799,7 +818,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -840,7 +860,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -877,7 +898,8 @@
       "role": [
         "predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 20",
@@ -916,7 +938,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 21",
@@ -954,7 +977,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -993,7 +1017,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1028,7 +1053,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 24",
@@ -1067,7 +1093,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -1104,7 +1131,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -1140,7 +1168,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -1175,7 +1204,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 26",
@@ -1213,7 +1243,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 27",
@@ -1252,7 +1283,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -1288,7 +1320,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 29",
@@ -1336,7 +1369,8 @@
       "role": [
         "mutualist",
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 30",
@@ -1371,7 +1405,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 31",
@@ -1409,7 +1444,8 @@
       "categories": [
         "microbes",
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 32",
@@ -1448,7 +1484,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 33",
@@ -1487,7 +1524,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -1527,7 +1565,8 @@
       ],
       "categories": [
         "jurassic"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -1563,7 +1602,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -1601,7 +1641,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -1637,7 +1678,8 @@
       "bits": null,
       "role": [
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 37",
@@ -1675,7 +1717,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -1715,7 +1758,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -1756,7 +1800,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 40",
@@ -1789,7 +1834,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1828,7 +1874,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 42",
@@ -1868,7 +1915,8 @@
       "categories": [
         "bushes",
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1908,7 +1956,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1947,7 +1996,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 44",
@@ -1993,7 +2043,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 45",
@@ -2032,7 +2083,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -2071,7 +2123,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 47",
@@ -2110,7 +2163,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -2149,7 +2203,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -2189,7 +2244,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 49",
@@ -2227,7 +2283,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -2265,7 +2322,8 @@
         "herbivore",
         "detritivore",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -2304,7 +2362,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 51",
@@ -2343,7 +2402,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 52",
@@ -2391,7 +2451,8 @@
       "bits": null,
       "role": [
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 53",
@@ -2429,7 +2490,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 54",
@@ -2467,7 +2529,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 55",
@@ -2505,7 +2568,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 56",
@@ -2553,7 +2617,8 @@
       "role": [
         "herbivore",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -2592,7 +2657,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 58",
@@ -2630,7 +2696,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 59",
@@ -2668,7 +2735,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -2709,7 +2777,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -2749,7 +2818,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -2789,7 +2859,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -2829,7 +2900,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -2869,7 +2941,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 65",
@@ -2907,7 +2980,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 66",
@@ -2943,7 +3017,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 67",
@@ -2991,7 +3066,8 @@
       "role": [
         "filter_feeder",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -3031,7 +3107,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -3070,7 +3147,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -3108,7 +3186,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -3148,7 +3227,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 70",
@@ -3187,7 +3267,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -3227,7 +3308,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -3268,7 +3350,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -3309,7 +3392,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -3349,7 +3433,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -3387,7 +3472,8 @@
         "grazer",
         "ecosystem_engineer",
         "prey"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 75",
@@ -3427,7 +3513,8 @@
         "bushes",
         "overstory",
         "understory"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -3466,7 +3553,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 77",
@@ -3504,7 +3592,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 78",
@@ -3541,7 +3630,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -3577,7 +3667,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -3617,7 +3708,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 81",
@@ -3655,7 +3747,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 82",
@@ -3694,7 +3787,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 83",
@@ -3727,7 +3821,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -3766,7 +3861,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 85",
@@ -3805,7 +3901,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 86",
@@ -3843,7 +3940,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 87",
@@ -3883,7 +3981,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -3921,7 +4020,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -3961,7 +4061,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -4001,7 +4102,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -4040,7 +4142,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -4079,7 +4182,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -4119,7 +4223,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 92",
@@ -4159,7 +4264,8 @@
       "categories": [
         "lichens-moss-fungi",
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 93",
@@ -4198,7 +4304,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 94",
@@ -4237,7 +4344,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 95",
@@ -4275,7 +4383,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -4315,7 +4424,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -4356,7 +4466,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -4392,7 +4503,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 99",
@@ -4426,7 +4538,8 @@
       "role": [
         "predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -4463,7 +4576,8 @@
       "role": [
         "predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 100",
@@ -4501,7 +4615,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -4541,7 +4656,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -4580,7 +4696,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 102",
@@ -4627,7 +4744,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 103",
@@ -4666,7 +4784,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -4706,7 +4825,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 105",
@@ -4753,7 +4873,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -4793,7 +4914,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -4832,7 +4954,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 108",
@@ -4880,7 +5003,8 @@
         "herbivore",
         "ecosystem_engineer",
         "builder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -4916,7 +5040,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -4952,7 +5077,8 @@
       "bits": null,
       "role": [
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -4991,7 +5117,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -5031,7 +5158,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -5067,7 +5195,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 113",
@@ -5105,7 +5234,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 114",
@@ -5143,7 +5273,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -5181,7 +5312,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 116",
@@ -5219,7 +5351,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 117",
@@ -5257,7 +5390,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -5293,7 +5427,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 119",
@@ -5331,7 +5466,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -5371,7 +5507,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 120",
@@ -5409,7 +5546,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 121",
@@ -5447,7 +5585,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 122",
@@ -5485,7 +5624,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 123",
@@ -5535,7 +5675,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 124",
@@ -5574,7 +5715,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -5614,7 +5756,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -5654,7 +5797,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -5692,7 +5836,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -5729,7 +5874,8 @@
       "role": [
         "predator",
         "prey"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 128",
@@ -5776,7 +5922,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 129",
@@ -5815,7 +5962,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -5851,7 +5999,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 131",
@@ -5885,7 +6034,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -5924,7 +6074,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 133",
@@ -5962,7 +6113,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 134",
@@ -6010,7 +6162,8 @@
       "role": [
         "producer",
         "builder"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -6052,7 +6205,8 @@
       "categories": [
         "overstory",
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 136",
@@ -6091,7 +6245,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -6131,7 +6286,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -6171,7 +6327,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -6208,7 +6365,8 @@
         "filter_feeder",
         "ecosystem_engineer",
         "builder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -6243,7 +6401,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -6282,7 +6441,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -6321,7 +6481,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -6360,7 +6521,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -6395,7 +6557,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 142",
@@ -6442,7 +6605,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -6480,7 +6644,8 @@
         "herbivore",
         "ecosystem_engineer",
         "prey"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 143",
@@ -6520,7 +6685,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -6560,7 +6726,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -6596,7 +6763,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -6631,7 +6799,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 146",
@@ -6670,7 +6839,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -6708,7 +6878,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 148",
@@ -6754,7 +6925,8 @@
       "bits": null,
       "role": [
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -6792,7 +6964,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -6831,7 +7004,8 @@
       ],
       "categories": [
         "jurassic"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 151",
@@ -6869,7 +7043,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 152",
@@ -6907,7 +7082,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -6949,7 +7125,8 @@
         "overstory",
         "plants-general",
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -6986,7 +7163,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -7022,7 +7200,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 155",
@@ -7055,7 +7234,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -7095,7 +7275,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -7134,7 +7315,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 158",
@@ -7167,7 +7349,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -7203,7 +7386,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 160",
@@ -7241,7 +7425,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -7280,7 +7465,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -7319,7 +7505,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -7359,7 +7546,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -7397,7 +7585,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -7437,7 +7626,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -7476,7 +7666,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -7512,7 +7703,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 166",
@@ -7545,7 +7737,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -7584,7 +7777,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -7623,7 +7817,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -7662,7 +7857,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -7701,7 +7897,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -7736,7 +7933,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -7776,7 +7974,8 @@
       "categories": [
         "overstory",
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 169",
@@ -7823,7 +8022,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 170",
@@ -7861,7 +8061,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -7900,7 +8101,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -7940,7 +8142,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 173",
@@ -7979,7 +8182,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -8019,7 +8223,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -8060,7 +8265,8 @@
       "categories": [
         "ground-cover",
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 176",
@@ -8107,7 +8313,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -8145,7 +8352,8 @@
         "grazer",
         "prey",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 177",
@@ -8184,7 +8392,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -8224,7 +8433,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 178",
@@ -8263,7 +8473,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 179",
@@ -8311,7 +8522,8 @@
       "bits": null,
       "role": [
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 180",
@@ -8357,7 +8569,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -8396,7 +8609,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -8437,7 +8651,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -8473,7 +8688,8 @@
       "bits": null,
       "role": [
         "detritivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 184",
@@ -8520,7 +8736,8 @@
       "role": [
         "filter_feeder",
         "plague_swarm"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -8558,7 +8775,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -8593,7 +8811,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 187",
@@ -8631,7 +8850,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -8671,7 +8891,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -8712,7 +8933,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -8751,7 +8973,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -8791,7 +9014,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -8831,7 +9055,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 193",
@@ -8877,7 +9102,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 194",
@@ -8915,7 +9141,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 195",
@@ -8953,7 +9180,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 196",
@@ -8991,7 +9219,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 197",
@@ -9029,7 +9258,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -9068,7 +9298,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 199",
@@ -9106,7 +9337,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 200",
@@ -9144,7 +9376,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -9182,7 +9415,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 202",
@@ -9216,7 +9450,8 @@
       "role": [
         "detritivore",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -9256,7 +9491,8 @@
       "categories": [
         "overstory",
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 204",
@@ -9295,7 +9531,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -9334,7 +9571,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -9375,7 +9613,8 @@
       ],
       "categories": [
         "jurassic"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 207",
@@ -9414,7 +9653,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -9449,7 +9689,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -9485,7 +9726,8 @@
       "bits": null,
       "role": [
         "detritivore"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 210",
@@ -9524,7 +9766,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 211",
@@ -9563,7 +9806,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 212",
@@ -9602,7 +9846,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -9643,7 +9888,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -9683,7 +9929,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -9722,7 +9969,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 215",
@@ -9760,7 +10008,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -9798,7 +10047,8 @@
         "herbivore",
         "ecosystem_engineer",
         "prey"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -9836,7 +10086,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -9872,7 +10123,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -9910,7 +10162,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 219",
@@ -9950,7 +10203,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 220",
@@ -9987,7 +10241,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -10027,7 +10282,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -10066,7 +10322,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -10106,7 +10363,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 224",
@@ -10152,7 +10410,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 225",
@@ -10191,7 +10450,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 226",
@@ -10229,7 +10489,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -10269,7 +10530,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -10309,7 +10571,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -10349,7 +10612,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -10389,7 +10653,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10430,7 +10695,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10470,7 +10736,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10509,7 +10776,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10550,7 +10818,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10591,7 +10860,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10630,7 +10900,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10670,7 +10941,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10711,7 +10983,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -10752,7 +11025,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10792,7 +11066,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -10841,7 +11116,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 241",
@@ -10878,7 +11154,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -10919,7 +11196,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -10957,7 +11235,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -10994,7 +11273,8 @@
       "role": [
         "apex_predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -11030,7 +11310,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 245",
@@ -11069,7 +11350,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -11109,7 +11391,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 247",
@@ -11149,7 +11432,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 248",
@@ -11183,7 +11467,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -11219,7 +11504,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -11256,7 +11542,8 @@
       "role": [
         "predator",
         "prey"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 249",
@@ -11295,7 +11582,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 250",
@@ -11333,7 +11621,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -11368,7 +11657,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 252",
@@ -11401,7 +11691,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 253",
@@ -11439,7 +11730,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 254",
@@ -11478,7 +11770,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 255",
@@ -11516,7 +11809,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 256",
@@ -11554,7 +11848,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 257",
@@ -11592,7 +11887,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -11631,7 +11927,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -11671,7 +11968,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -11710,7 +12008,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 261",
@@ -11748,7 +12047,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -11784,7 +12084,8 @@
       "role": [
         "herbivore",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 263",
@@ -11824,7 +12125,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -11861,7 +12163,8 @@
       "bits": null,
       "role": [
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -11900,7 +12203,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -11939,7 +12243,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 265",
@@ -11973,7 +12278,8 @@
       "role": [
         "producer",
         "plague_swarm"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -12009,7 +12315,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -12049,7 +12356,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -12088,7 +12396,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -12126,7 +12435,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -12165,7 +12475,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 271",
@@ -12203,7 +12514,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 272",
@@ -12250,7 +12562,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -12291,7 +12604,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 274",
@@ -12329,7 +12643,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 275",
@@ -12375,7 +12690,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -12415,7 +12731,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -12454,7 +12771,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 276",
@@ -12493,7 +12811,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -12531,7 +12850,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 278",
@@ -12569,7 +12889,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 279",
@@ -12602,7 +12923,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -12639,7 +12961,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -12678,7 +13001,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 280",
@@ -12716,7 +13040,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -12756,7 +13081,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 281",
@@ -12794,7 +13120,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -12832,7 +13159,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -12867,7 +13195,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 284",
@@ -12906,7 +13235,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 285",
@@ -12945,7 +13275,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -12985,7 +13316,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -13024,7 +13356,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -13063,7 +13396,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 289",
@@ -13111,7 +13445,8 @@
       "role": [
         "detritivore",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 290",
@@ -13150,7 +13485,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 291",
@@ -13184,7 +13520,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -13225,7 +13562,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 293",
@@ -13263,7 +13601,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -13302,7 +13641,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -13340,7 +13680,8 @@
       "role": [
         "herbivore",
         "survivor"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -13380,7 +13721,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -13419,7 +13761,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 297",
@@ -13467,7 +13810,8 @@
       "role": [
         "detritivore",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 298",
@@ -13505,7 +13849,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -13545,7 +13890,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 300",
@@ -13583,7 +13929,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 301",
@@ -13630,7 +13977,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 302",
@@ -13669,7 +14017,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 303",
@@ -13708,7 +14057,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 304",
@@ -13747,7 +14097,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -13788,7 +14139,8 @@
       "categories": [
         "overstory",
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -13827,7 +14179,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -13863,7 +14216,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -13899,7 +14253,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -13936,7 +14291,8 @@
       "role": [
         "decomposer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 309",
@@ -13974,7 +14330,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -14012,7 +14369,8 @@
         "herbivore",
         "grazer",
         "prey"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -14048,7 +14406,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -14087,7 +14446,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -14128,7 +14488,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 313",
@@ -14168,7 +14529,8 @@
       "categories": [
         "plants-general",
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -14204,7 +14566,8 @@
       "bits": null,
       "role": [
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 314",
@@ -14241,7 +14604,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 315",
@@ -14287,7 +14651,8 @@
       "bits": null,
       "role": [
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 316",
@@ -14321,7 +14686,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 317",
@@ -14359,7 +14725,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -14398,7 +14765,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 319",
@@ -14436,7 +14804,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 320",
@@ -14470,7 +14839,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 321",
@@ -14503,7 +14873,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -14544,7 +14915,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 323",
@@ -14583,7 +14955,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 324",
@@ -14622,7 +14995,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 325",
@@ -14660,7 +15034,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -14700,7 +15075,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "card_label": "Card 326",
@@ -14746,7 +15122,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 327",
@@ -14784,7 +15161,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -14822,7 +15200,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 329",
@@ -14869,7 +15248,8 @@
       "role": [
         "predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -14908,7 +15288,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "card_label": "Card 331",
@@ -14947,7 +15328,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -14987,7 +15369,8 @@
       ],
       "categories": [
         "jurassic"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 333",
@@ -15021,7 +15404,8 @@
       "bits": null,
       "role": [
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 334",
@@ -15060,7 +15444,8 @@
       "categories": [
         "jurassic",
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 335",
@@ -15097,7 +15482,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -15136,7 +15522,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -15176,7 +15563,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 337",
@@ -15214,7 +15602,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 338",
@@ -15252,7 +15641,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -15293,7 +15683,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -15330,7 +15721,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -15368,7 +15760,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -15404,7 +15797,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "card_label": "Card 342",
@@ -15450,7 +15844,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 343",
@@ -15487,7 +15882,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -15522,7 +15918,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -15561,7 +15958,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 346",
@@ -15609,7 +16007,8 @@
       "role": [
         "apex_predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -15648,7 +16047,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -15683,7 +16083,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -15722,7 +16123,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 350",
@@ -15761,7 +16163,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -15800,7 +16203,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 351",
@@ -15839,7 +16243,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -15876,7 +16281,8 @@
         "herbivore",
         "grazer",
         "prey"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 352",
@@ -15915,7 +16321,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 353",
@@ -15953,7 +16360,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 354",
@@ -15991,7 +16399,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "card_label": "Card 355",
@@ -16029,7 +16438,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 356",
@@ -16067,7 +16477,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 357",
@@ -16105,7 +16516,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 358",
@@ -16152,7 +16564,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 359",
@@ -16198,7 +16611,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 360",
@@ -16231,7 +16645,8 @@
       "bits": null,
       "role": [
         "detritivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -16270,7 +16685,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 362",
@@ -16309,7 +16725,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 363",
@@ -16347,7 +16764,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -16387,7 +16805,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -16427,7 +16846,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 366",
@@ -16465,7 +16885,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -16501,7 +16922,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 368",
@@ -16541,7 +16963,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 369",
@@ -16580,7 +17003,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 370",
@@ -16619,7 +17043,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 371",
@@ -16658,7 +17083,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -16697,7 +17123,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 372",
@@ -16734,7 +17161,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 373",
@@ -16780,7 +17208,8 @@
       "bits": null,
       "role": [
         "parasite"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 374",
@@ -16818,7 +17247,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 375",
@@ -16856,7 +17286,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -16895,7 +17326,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 377",
@@ -16942,7 +17374,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 378",
@@ -16980,7 +17413,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -17020,7 +17454,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -17060,7 +17495,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 381",
@@ -17095,7 +17531,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 382",
@@ -17142,7 +17579,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 383",
@@ -17182,7 +17620,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -17222,7 +17661,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -17260,7 +17700,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -17299,7 +17740,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -17340,7 +17782,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -17380,7 +17823,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -17418,7 +17862,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -17458,7 +17903,8 @@
       "categories": [
         "overstory",
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 391",
@@ -17496,7 +17942,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "card_label": "Card 392",
@@ -17536,7 +17983,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 393",
@@ -17576,7 +18024,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -17615,7 +18064,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -17654,7 +18104,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -17694,7 +18145,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 397",
@@ -17733,7 +18185,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -17772,7 +18225,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 399",
@@ -17812,7 +18266,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 400",
@@ -17850,7 +18305,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -17886,7 +18342,8 @@
       "bits": null,
       "role": [
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 402",
@@ -17932,7 +18389,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -17973,7 +18431,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -18012,7 +18471,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -18051,7 +18511,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -18089,7 +18550,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 407",
@@ -18124,7 +18586,8 @@
       "role": [
         "predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -18159,7 +18622,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 409",
@@ -18199,7 +18663,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -18235,7 +18700,8 @@
       "role": [
         "herbivore",
         "prey"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 410",
@@ -18275,7 +18741,8 @@
       "categories": [
         "lichens-moss-fungi",
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -18312,7 +18779,8 @@
       "role": [
         "browser",
         "prey"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 411",
@@ -18345,7 +18813,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -18382,7 +18851,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 412",
@@ -18420,7 +18890,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 413",
@@ -18459,7 +18930,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 414",
@@ -18496,7 +18968,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -18532,7 +19005,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 416",
@@ -18580,7 +19054,8 @@
       "role": [
         "herbivore",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 417",
@@ -18618,7 +19093,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -18657,7 +19133,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -18699,7 +19176,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -18738,7 +19216,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -18778,7 +19257,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -18818,7 +19298,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -18858,7 +19339,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -18898,7 +19380,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 422",
@@ -18946,7 +19429,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -18984,7 +19468,8 @@
         "producer",
         "ecosystem_engineer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 423",
@@ -19023,7 +19508,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 424",
@@ -19062,7 +19548,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 425",
@@ -19108,7 +19595,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -19147,7 +19635,8 @@
         "herbivore",
         "grazer",
         "prey"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -19186,7 +19675,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 427",
@@ -19225,7 +19715,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -19260,7 +19751,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 429",
@@ -19298,7 +19790,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 430",
@@ -19336,7 +19829,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -19377,7 +19871,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 432",
@@ -19417,7 +19912,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -19457,7 +19953,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 434",
@@ -19495,7 +19992,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 435",
@@ -19534,7 +20032,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -19573,7 +20072,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -19612,7 +20112,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -19651,7 +20152,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 438",
@@ -19690,7 +20192,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 439",
@@ -19729,7 +20232,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 440",
@@ -19767,7 +20271,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -19804,7 +20309,8 @@
       "role": [
         "filter_feeder",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -19844,7 +20350,8 @@
       ],
       "categories": [
         "hominids"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 443",
@@ -19877,7 +20384,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -19917,7 +20425,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 445",
@@ -19955,7 +20464,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -19994,7 +20504,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 447",
@@ -20033,7 +20544,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 448",
@@ -20072,7 +20584,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 449",
@@ -20111,7 +20624,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 450",
@@ -20149,7 +20663,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 451",
@@ -20197,7 +20712,8 @@
       "role": [
         "herbivore",
         "plague_swarm"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 452",
@@ -20235,7 +20751,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -20271,7 +20788,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 454",
@@ -20309,7 +20827,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 455",
@@ -20347,7 +20866,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -20384,7 +20904,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -20420,7 +20941,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -20460,7 +20982,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -20500,7 +21023,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -20540,7 +21064,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -20582,7 +21107,8 @@
         "overstory",
         "plants-general",
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -20619,7 +21145,8 @@
       "role": [
         "decomposer",
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 463",
@@ -20665,7 +21192,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -20705,7 +21233,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -20746,7 +21275,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -20786,7 +21316,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -20825,7 +21356,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -20866,7 +21398,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 469",
@@ -20899,7 +21432,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -20936,7 +21470,8 @@
       "bits": null,
       "role": [
         "detritivore"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -20976,7 +21511,8 @@
       ],
       "categories": [
         "jurassic"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 472",
@@ -21015,7 +21551,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -21055,7 +21592,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 474",
@@ -21094,7 +21632,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 475",
@@ -21133,7 +21672,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 476",
@@ -21172,7 +21712,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 477",
@@ -21212,7 +21753,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -21253,7 +21795,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -21292,7 +21835,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -21331,7 +21875,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 479",
@@ -21364,7 +21909,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 480",
@@ -21403,7 +21949,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 481",
@@ -21442,7 +21989,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -21480,7 +22028,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 483",
@@ -21513,7 +22062,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 484",
@@ -21552,7 +22102,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 485",
@@ -21591,7 +22142,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 486",
@@ -21629,7 +22181,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 487",
@@ -21676,7 +22229,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -21715,7 +22269,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 489",
@@ -21753,7 +22308,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 490",
@@ -21791,7 +22347,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 491",
@@ -21828,7 +22385,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 492",
@@ -21866,7 +22424,8 @@
       "categories": [
         "microbes",
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 493",
@@ -21903,7 +22462,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 494",
@@ -21943,7 +22503,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -21983,7 +22544,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -22018,7 +22580,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 496",
@@ -22056,7 +22619,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -22096,7 +22660,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 498",
@@ -22135,7 +22700,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 499",
@@ -22183,7 +22749,8 @@
       "bits": null,
       "role": [
         "detritivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 500",
@@ -22230,7 +22797,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 501",
@@ -22276,7 +22844,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -22313,7 +22882,8 @@
         "filter_feeder",
         "builder",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "card_label": "Card 503",
@@ -22351,7 +22921,8 @@
       ],
       "categories": [
         "microbes"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 504",
@@ -22389,7 +22960,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -22429,7 +23001,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 506",
@@ -22475,7 +23048,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 507",
@@ -22514,7 +23088,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 508",
@@ -22547,7 +23122,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -22586,7 +23162,8 @@
       ],
       "categories": [
         "overstory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 510",
@@ -22625,7 +23202,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -22664,7 +23242,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 512",
@@ -22703,7 +23282,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 513",
@@ -22742,7 +23322,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 514",
@@ -22781,7 +23362,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -22817,7 +23399,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -22858,7 +23441,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 517",
@@ -22896,7 +23480,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -22935,7 +23520,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -22974,7 +23560,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -23013,7 +23600,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -23051,7 +23639,8 @@
       ],
       "categories": [
         "base-set"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 519",
@@ -23085,7 +23674,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 520",
@@ -23124,7 +23714,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 521",
@@ -23162,7 +23753,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -23202,7 +23794,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 523",
@@ -23249,7 +23842,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 524",
@@ -23288,7 +23882,8 @@
       ],
       "categories": [
         "ground-cover"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 525",
@@ -23327,7 +23922,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -23366,7 +23962,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -23407,7 +24004,8 @@
       "categories": [
         "overstory",
         "understory"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 528",
@@ -23446,7 +24044,8 @@
       "categories": [
         "lichens-moss-fungi",
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -23487,7 +24086,8 @@
       "categories": [
         "herbaceous",
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 530",
@@ -23521,7 +24121,8 @@
       "bits": "0101010001111001011100100110000101101110011011100110111101110011011000010111010101110010011101010111001100100000011100100110010101111000001000000111011101100001011100110010000001100001011010000110000100100000011011000110000101110010011001110110010100100000011101000110100001100101011100100110111101110000011011110110010000100000011001000110100101101110011011110111001101100001011100100010000001110100011010000110000101100001011101000010000001101100011010010111011001100101011001000010000001100001011011100110010000100000001101100011010000100000001101100011011000100000001101100011011001101101011010010110110001101100011010010110111101101110001000000111100101100101011000010111001001110011001000000110000101100111011011110010000001101001011011100010000001110111011010000110000101110100001000000110100101110011001000000110111001101111011101110010000001110111011001010111001101110100011001010111001001101110001000000100111001101111011101110010000001010111011011110111001001101110011000000110110100100000010000010110110101100101011100100110100101100011011000010010000001100100011101010111001001101001011011100110011100100000011101000110100001100101001000000100110001100001011101000110010100100000010000110111001001100101011101000110000101100011011001010110111101110101011100110010111000100000010010010111010000100000011101110110000101101100011010110110010101100100001000000110111101101110001000000111010001110111011011110010000001110000011011110111011101100101011100100110011001110101011011000010000001101000011010010110111001100100001000000110110001101001011011010110001001110011001011000010000001101000011000010110010000100000011000010010000001101101011000010111001101110011011010010111011001100101001000000111001101101011011101010110110001101100001000000110001001100001011011000110000101101110011000110110010101100100001000000110001001111001001000000110000100100000011011000110111101101110011001110010000001110100011000010110100101101100001011000010000001100001011011100110010000100000011100000110111101110011011100110110010101110011011100110110010101100100001000000111001101110100011100100110111101101110011001110010000001101010011000010111011101110011001000000111011101101000011010010111010001101000001000000110110001100001011100100110011101100101001011000010000001110011011001010111001001110010011000010111010001100101011001000010000001110100011001010110010101110100011010000010000001100001011001000110000101110000011101000110010101100100001000000110011001101111011100100010000001110100011001010110000101110010011010010110111001100111001000000110011001101100011001010111001101101000010111000010111000001010010001100110111101110011011100110110100101101100011001010111011001101001011001000110010101101110011000110110010100100000011100110111010101100111011001110110010101110011011101000111001100100000011101000110100001100001011101000010000001010100010011100010111000100000011100100110010101111000010000000110001101101111011101010110110001100100011000000110010101111000011000110110010101100101011001000010000000110001001000000011011000100000011011010110010101110100011001010111001001110011001000000110100101101110001000000110110001100101011011100110011101110100011010000010000001100001011011100110010000100000011101110110010101101001011001110110100000100000011011010110111101110010011001010010000001110100011010000110000101101110001000000011011100100110110000100000011011100011000001110011001000000011011100100000001101110011011110110111001110011001011000010000001101101101100001011010110110100101101110011001110010000001101001011101000010000001101111011011100110010100100000011011110110011000100000011101000110100001100101001000000110110001100001011100100110011101100101011100110111010000100000011010110110111001101111011101110110111000100000011011000110000101101110011001000010000001110000011100100110010101100100011000010111010001101111011100100111001100101110",
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 531",
@@ -23561,7 +24162,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 532",
@@ -23599,7 +24201,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -23634,7 +24237,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 534",
@@ -23682,7 +24286,8 @@
       "role": [
         "predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -23722,7 +24327,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 536",
@@ -23761,7 +24367,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 537",
@@ -23800,7 +24407,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 538",
@@ -23839,7 +24447,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -23879,7 +24488,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 539",
@@ -23926,7 +24536,8 @@
       "role": [
         "apex_predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 540",
@@ -23960,7 +24571,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 541",
@@ -23997,7 +24609,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 542",
@@ -24035,7 +24648,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 543",
@@ -24081,7 +24695,8 @@
       "bits": null,
       "role": [
         "parasite"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 544",
@@ -24120,7 +24735,8 @@
       ],
       "categories": [
         "understory"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -24159,7 +24775,8 @@
       ],
       "categories": [
         "herbaceous"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -24199,7 +24816,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 547",
@@ -24237,7 +24855,8 @@
       ],
       "categories": [
         "bushes"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -24278,7 +24897,8 @@
         "overstory",
         "plants-general",
         "understory"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -24317,7 +24937,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 549",
@@ -24355,7 +24976,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -24391,7 +25013,8 @@
       "role": [
         "predator",
         "omnivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 550",
@@ -24431,7 +25054,8 @@
         "bushes",
         "overstory",
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 551",
@@ -24469,7 +25093,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -24507,7 +25132,8 @@
       ],
       "categories": [
         "jurassic"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -24546,7 +25172,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -24585,7 +25212,8 @@
       ],
       "categories": [
         "jurassic"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 555",
@@ -24624,7 +25252,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -24664,7 +25293,8 @@
       ],
       "categories": [
         "vines"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -24703,7 +25333,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "card_label": "Card 558",
@@ -24741,7 +25372,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 559",
@@ -24780,7 +25412,8 @@
       ],
       "categories": [
         "lichens-moss-fungi"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -24819,7 +25452,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 561",
@@ -24866,7 +25500,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -24906,7 +25541,8 @@
       ],
       "categories": [
         "symbiotic-powerhouses"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -24943,7 +25579,8 @@
         "apex_invertebrate",
         "ambush_predator",
         "area_denial"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -24979,7 +25616,8 @@
       "role": [
         "small_predator",
         "area_denial"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25015,7 +25653,8 @@
       "role": [
         "ambush_predator",
         "camouflage_specialist"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25051,7 +25690,8 @@
       "role": [
         "defensive_prey",
         "bottom_dweller"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25087,7 +25727,8 @@
       "role": [
         "small_predator",
         "burrower"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25123,7 +25764,8 @@
       "role": [
         "small_predator",
         "nocturnal_hunter"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25159,7 +25801,8 @@
       "role": [
         "reef_predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25195,7 +25838,8 @@
       "role": [
         "defensive_grazer",
         "reef_grazer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25231,7 +25875,8 @@
       "role": [
         "reef_predator",
         "invasive_species"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25266,7 +25911,8 @@
       "bits": null,
       "role": [
         "defensive_herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25302,7 +25948,8 @@
       "role": [
         "defensive_prey",
         "insect_controller"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -25338,7 +25985,8 @@
       "role": [
         "small_predator",
         "camouflage_specialist"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25373,7 +26021,8 @@
       "bits": null,
       "role": [
         "ambush_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25408,7 +26057,8 @@
       "bits": null,
       "role": [
         "defensive_prey"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25443,7 +26093,8 @@
       "bits": null,
       "role": [
         "defensive_prey"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -25478,7 +26129,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25513,7 +26165,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25549,7 +26202,8 @@
       "role": [
         "apex_predator",
         "pursuit_hunter"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25585,7 +26239,8 @@
       "role": [
         "ambush_predator",
         "burrower"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25620,7 +26275,8 @@
       "bits": null,
       "role": [
         "roaming_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25655,7 +26311,8 @@
       "bits": null,
       "role": [
         "defensive_herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25690,7 +26347,8 @@
       "bits": null,
       "role": [
         "defensive_herbivore"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -25725,7 +26383,8 @@
       "bits": null,
       "role": [
         "defensive_producer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25760,7 +26419,8 @@
       "bits": null,
       "role": [
         "omnivore_scavenger"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25795,7 +26455,8 @@
       "bits": null,
       "role": [
         "ambush_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25831,7 +26492,8 @@
       "role": [
         "apex_predator",
         "ambush_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -25866,7 +26528,8 @@
       "bits": null,
       "role": [
         "benthic_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -25902,7 +26565,8 @@
       "role": [
         "defensive_producer",
         "toxic_plant"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -25938,7 +26602,8 @@
       "role": [
         "defensive_producer",
         "toxic_plant"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -25974,7 +26639,8 @@
       "role": [
         "defensive_producer",
         "toxic_plant"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26010,7 +26676,8 @@
       "role": [
         "defensive_producer",
         "ornamental_toxic"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26046,7 +26713,8 @@
       "role": [
         "defensive_producer",
         "toxic_seed"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -26082,7 +26750,8 @@
       "role": [
         "defensive_producer",
         "toxic_seed"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -26118,7 +26787,8 @@
       "role": [
         "defensive_producer",
         "hallucinogenic_toxic"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26154,7 +26824,8 @@
       "role": [
         "defensive_producer",
         "cardiotoxic_plant"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -26190,7 +26861,8 @@
       "role": [
         "defensive_producer",
         "thorny_shelter"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -26225,7 +26897,8 @@
       "bits": null,
       "role": [
         "lethal_pathogen"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -26261,7 +26934,8 @@
       "role": [
         "lethal_pathogen",
         "soil_reservoir"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26296,7 +26970,8 @@
       "bits": null,
       "role": [
         "toxin_producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26331,7 +27006,8 @@
       "bits": null,
       "role": [
         "lethal_pathogen"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -26366,7 +27042,8 @@
       "bits": null,
       "role": [
         "hospital_pathogen"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26401,7 +27078,8 @@
       "bits": null,
       "role": [
         "lethal_pathogen"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -26436,7 +27114,8 @@
       "bits": null,
       "role": [
         "hospital_pathogen"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26471,7 +27150,8 @@
       "bits": null,
       "role": [
         "respiratory_pathogen"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26506,7 +27186,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -26541,7 +27222,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -26576,7 +27258,8 @@
       "bits": null,
       "role": [
         "defensive_herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -26611,7 +27294,8 @@
       "bits": null,
       "role": [
         "defensive_herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -26646,7 +27330,8 @@
       "bits": null,
       "role": [
         "pack_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -26686,7 +27371,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -26725,7 +27411,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26764,7 +27451,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26803,7 +27491,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26842,7 +27531,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26881,7 +27571,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26920,7 +27611,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26959,7 +27651,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -26998,7 +27691,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27037,7 +27731,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -27076,7 +27771,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27115,7 +27811,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27154,7 +27851,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27193,7 +27891,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27232,7 +27931,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27271,7 +27971,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27310,7 +28011,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27349,7 +28051,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27388,7 +28091,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27427,7 +28131,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27466,7 +28171,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27505,7 +28211,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27544,7 +28251,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27583,7 +28291,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27622,7 +28331,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27661,7 +28371,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27700,7 +28411,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27739,7 +28451,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27778,7 +28491,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27817,7 +28531,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27856,7 +28571,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27895,7 +28611,8 @@
       ],
       "categories": [
         "plants-general"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27934,7 +28651,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -27973,7 +28691,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -28012,7 +28731,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -28051,7 +28771,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -28090,7 +28811,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -28129,7 +28851,8 @@
       ],
       "categories": [
         "roots"
-      ]
+      ],
+      "waterRequirement": 0
     }
   ]
 }

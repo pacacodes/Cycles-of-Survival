@@ -14,7 +14,8 @@
         "soil_crust_builder"
       ],
       "notes": "Simple rhizoid 'root' systems binding thin soils on wet rock and banks.",
-      "card_label": "Card 508"
+      "card_label": "Card 508",
+      "waterRequirement": 0
     },
     {
       "name": "Early hornwort mat",
@@ -29,7 +30,8 @@
         "soil_former"
       ],
       "notes": "Rhizoid-based anchoring that begins trapping silt and organic matter at water edges.",
-      "card_label": "Card 509"
+      "card_label": "Card 509",
+      "waterRequirement": 0
     },
     {
       "name": "Cooksonia sp.",
@@ -44,7 +46,8 @@
         "erosion_control"
       ],
       "notes": "One of the first vascular land plants with basal rooting axes stabilizing bare floodplains.",
-      "card_label": "Card 510"
+      "card_label": "Card 510",
+      "waterRequirement": 0
     },
     {
       "name": "Rhynia gwynne-vaughanii",
@@ -59,7 +62,8 @@
         "soil_former"
       ],
       "notes": "Rhizomatous rooting system acts like a living net in hot-spring wetlands.",
-      "card_label": "Card 511"
+      "card_label": "Card 511",
+      "waterRequirement": 0
     },
     {
       "name": "Asteroxylon mackiei",
@@ -74,7 +78,8 @@
         "pioneer_treelet"
       ],
       "notes": "Has differentiated rooting axes that penetrate deeper than simple rhizoids.",
-      "card_label": "Card 512"
+      "card_label": "Card 512",
+      "waterRequirement": 0
     },
     {
       "name": "Archaeopteris sp.",
@@ -89,7 +94,8 @@
         "soil_engineer"
       ],
       "notes": "One of the first deep-rooted trees, transforming early forest soils.",
-      "card_label": "Card 513"
+      "card_label": "Card 513",
+      "waterRequirement": 0
     },
     {
       "name": "Lepidodendron sp.",
@@ -104,7 +110,8 @@
         "peat_former"
       ],
       "notes": "Massive stigmarian roots form dense belowground meshes in swamp substrates.",
-      "card_label": "Card 514"
+      "card_label": "Card 514",
+      "waterRequirement": 0
     },
     {
       "name": "Sigillaria sp.",
@@ -119,7 +126,8 @@
         "carbon_storage"
       ],
       "notes": "Spoked root systems that lock peat in place and sequester vast carbon stores.",
-      "card_label": "Card 515"
+      "card_label": "Card 515",
+      "waterRequirement": 0
     },
     {
       "name": "Calamites sp.",
@@ -134,7 +142,8 @@
         "flood_resistant"
       ],
       "notes": "Rhizomes and roots bind channel margins against flood erosion.",
-      "card_label": "Card 516"
+      "card_label": "Card 516",
+      "waterRequirement": 0
     },
     {
       "name": "Cordaites sp.",
@@ -149,7 +158,8 @@
         "drought_buffer"
       ],
       "notes": "Taprooted tree tapping deep water tables in drier upland forests.",
-      "card_label": "Card 517"
+      "card_label": "Card 517",
+      "waterRequirement": 0
     },
     {
       "name": "Glossopteris sp.",
@@ -164,7 +174,8 @@
         "soil_former"
       ],
       "notes": "Woody roots in cold Gondwanan forests stabilize soils in polar climates.",
-      "card_label": "Card 518"
+      "card_label": "Card 518",
+      "waterRequirement": 0
     }
   ]
 }

@@ -36,7 +36,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -73,7 +74,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -110,7 +112,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -146,7 +149,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -183,7 +187,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -220,7 +225,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -258,7 +264,8 @@
         "producer",
         "mutualist",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -294,7 +301,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -331,7 +339,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -367,7 +376,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -403,7 +413,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -439,7 +450,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -475,7 +487,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -512,7 +525,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -548,7 +562,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -585,7 +600,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -621,7 +637,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -657,7 +674,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -695,7 +713,8 @@
         "producer",
         "mutualist",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -732,7 +751,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -768,7 +788,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     }
   ]
 }

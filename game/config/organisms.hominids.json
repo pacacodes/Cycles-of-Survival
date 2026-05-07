@@ -34,7 +34,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -70,7 +71,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -106,7 +108,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -143,7 +146,8 @@
       "role": [
         "herbivore",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -179,7 +183,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -215,7 +220,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -252,7 +258,8 @@
       "role": [
         "herbivore",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -290,7 +297,8 @@
       "role": [
         "herbivore",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -327,7 +335,8 @@
       "role": [
         "herbivore",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -364,7 +373,8 @@
       "role": [
         "herbivore",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -400,7 +410,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -438,7 +449,8 @@
         "predator",
         "scavenger",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -475,7 +487,8 @@
       "role": [
         "predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -513,7 +526,8 @@
       "role": [
         "predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -550,7 +564,8 @@
       "role": [
         "predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -588,7 +603,8 @@
       "role": [
         "apex_predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -625,7 +641,8 @@
       "role": [
         "predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -661,7 +678,8 @@
       "role": [
         "predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -699,7 +717,8 @@
       "role": [
         "apex_predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -737,7 +756,8 @@
       "role": [
         "apex_predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -773,7 +793,8 @@
       "role": [
         "predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -810,7 +831,8 @@
       "role": [
         "apex_predator",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -856,7 +878,8 @@
         "apex_predator",
         "ecosystem_engineer",
         "builder"
-      ]
+      ],
+      "waterRequirement": 0
     }
   ]
 }

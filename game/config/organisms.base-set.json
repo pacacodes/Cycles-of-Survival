@@ -34,7 +34,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -69,7 +70,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -104,7 +106,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -141,7 +144,8 @@
         "filter_feeder",
         "ecosystem_engineer",
         "builder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -176,7 +180,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -211,7 +216,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -247,7 +253,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 8",
@@ -280,7 +287,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -315,7 +323,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -350,7 +359,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -386,7 +396,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -422,7 +433,8 @@
       "role": [
         "predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -457,7 +469,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -492,7 +505,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -527,7 +541,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -562,7 +577,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 17",
@@ -595,7 +611,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -631,7 +648,8 @@
       "role": [
         "predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 19",
@@ -678,7 +696,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -713,7 +732,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -749,7 +769,8 @@
       "role": [
         "apex_predator",
         "scavenger"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 22",
@@ -796,7 +817,8 @@
       "role": [
         "filter_feeder",
         "plague_swarm"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "card_label": "Card 23",
@@ -844,7 +866,8 @@
       "role": [
         "filter_feeder",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -879,7 +902,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -915,7 +939,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -950,7 +975,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -985,7 +1011,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1020,7 +1047,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1055,7 +1083,8 @@
       "bits": null,
       "role": [
         "detritivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1090,7 +1119,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1125,7 +1155,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1160,7 +1191,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1195,7 +1227,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1230,7 +1263,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1265,7 +1299,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "name": "Archaeopteris halliana",
@@ -1274,7 +1309,8 @@
       "roles": [
         "ecosystem_engineer"
       ],
-      "card_label": "Card 36"
+      "card_label": "Card 36",
+      "waterRequirement": 0
     },
     {
       "name": "Hyneria lindae",
@@ -1284,7 +1320,8 @@
         "predator"
       ],
       "notes": "Represents predators in seasonally dry upland rivers",
-      "card_label": "Card 37"
+      "card_label": "Card 37",
+      "waterRequirement": 0
     },
     {
       "name": "Calamites sp.",
@@ -1294,7 +1331,8 @@
         "ecosystem_engineer"
       ],
       "notes": "Tree-sized horsetail in drier margins/uplands",
-      "card_label": "Card 38"
+      "card_label": "Card 38",
+      "waterRequirement": 0
     },
     {
       "name": "Hylonomus lyelli",
@@ -1305,7 +1343,8 @@
         "prey"
       ],
       "notes": "Small reptile using drier forest/desert-margin habitats",
-      "card_label": "Card 39"
+      "card_label": "Card 39",
+      "waterRequirement": 0
     },
     {
       "name": "Lystrosaurus sp.",
@@ -1316,7 +1355,8 @@
         "survivor"
       ],
       "notes": "Drought-tolerant dicynodont in semi-arid settings",
-      "card_label": "Card 40"
+      "card_label": "Card 40",
+      "waterRequirement": 0
     },
     {
       "name": "Dimetrodon grandis",
@@ -1325,7 +1365,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 41"
+      "card_label": "Card 41",
+      "waterRequirement": 0
     },
     {
       "name": "Coelophysis bauri",
@@ -1335,7 +1376,8 @@
         "predator",
         "prey"
       ],
-      "card_label": "Card 42"
+      "card_label": "Card 42",
+      "waterRequirement": 0
     },
     {
       "name": "Lystrosaurus sp.",
@@ -1346,7 +1388,8 @@
         "ecosystem_engineer"
       ],
       "notes": "Carried over into early Triassic arid plains",
-      "card_label": "Card 43"
+      "card_label": "Card 43",
+      "waterRequirement": 0
     },
     {
       "name": "Allosaurus fragilis",
@@ -1355,7 +1398,8 @@
       "roles": [
         "apex_predator"
       ],
-      "card_label": "Card 44"
+      "card_label": "Card 44",
+      "waterRequirement": 0
     },
     {
       "name": "Diplodocus carnegii",
@@ -1366,7 +1410,8 @@
         "ecosystem_engineer"
       ],
       "notes": "Large browser in semi-arid floodplains",
-      "card_label": "Card 45"
+      "card_label": "Card 45",
+      "waterRequirement": 0
     },
     {
       "name": "Velociraptor mongoliensis",
@@ -1376,7 +1421,8 @@
         "predator",
         "scavenger"
       ],
-      "card_label": "Card 46"
+      "card_label": "Card 46",
+      "waterRequirement": 0
     },
     {
       "name": "Protoceratops andrewsi",
@@ -1387,7 +1433,8 @@
         "prey"
       ],
       "notes": "Classic Gobi Desert herbivore",
-      "card_label": "Card 47"
+      "card_label": "Card 47",
+      "waterRequirement": 0
     },
     {
       "name": "Protylopus sp.",
@@ -1398,7 +1445,8 @@
         "prey"
       ],
       "notes": "Early camelid in semi-arid habitats",
-      "card_label": "Card 48"
+      "card_label": "Card 48",
+      "waterRequirement": 0
     },
     {
       "name": "Cathartornis gracilis",
@@ -1407,7 +1455,8 @@
       "roles": [
         "scavenger"
       ],
-      "card_label": "Card 49"
+      "card_label": "Card 49",
+      "waterRequirement": 0
     },
     {
       "name": "Struthio camelus",
@@ -1418,7 +1467,8 @@
         "omnivore",
         "prey"
       ],
-      "card_label": "Card 50"
+      "card_label": "Card 50",
+      "waterRequirement": 0
     },
     {
       "name": "Vulpes zerda",
@@ -1428,7 +1478,8 @@
         "predator",
         "omnivore"
       ],
-      "card_label": "Card 51"
+      "card_label": "Card 51",
+      "waterRequirement": 0
     },
     {
       "name": "Carnegiea gigantea",
@@ -1438,7 +1489,8 @@
         "ecosystem_engineer",
         "builder"
       ],
-      "card_label": "Card 52"
+      "card_label": "Card 52",
+      "waterRequirement": 0
     },
     {
       "name": "Gopherus agassizii",
@@ -1450,7 +1502,8 @@
         "prey"
       ],
       "notes": "Desert tortoise; burrows create habitat",
-      "card_label": "Card 53"
+      "card_label": "Card 53",
+      "waterRequirement": 0
     },
     {
       "name": "Archaeopteris halliana",
@@ -1460,7 +1513,8 @@
         "ecosystem_engineer",
         "builder"
       ],
-      "card_label": "Card 54"
+      "card_label": "Card 54",
+      "waterRequirement": 0
     },
     {
       "name": "Hynerpeton bassetti",
@@ -1470,7 +1524,8 @@
         "predator",
         "prey"
       ],
-      "card_label": "Card 55"
+      "card_label": "Card 55",
+      "waterRequirement": 0
     },
     {
       "name": "Lepidodendron aculeatum",
@@ -1480,7 +1535,8 @@
         "ecosystem_engineer",
         "builder"
       ],
-      "card_label": "Card 56"
+      "card_label": "Card 56",
+      "waterRequirement": 0
     },
     {
       "name": "Arthropleura armata",
@@ -1491,7 +1547,8 @@
         "detritivore",
         "ecosystem_engineer"
       ],
-      "card_label": "Card 57"
+      "card_label": "Card 57",
+      "waterRequirement": 0
     },
     {
       "name": "Psaronius sp.",
@@ -1501,7 +1558,8 @@
         "ecosystem_engineer",
         "builder"
       ],
-      "card_label": "Card 58"
+      "card_label": "Card 58",
+      "waterRequirement": 0
     },
     {
       "name": "Dimetrodon grandis",
@@ -1510,7 +1568,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 59"
+      "card_label": "Card 59",
+      "waterRequirement": 0
     },
     {
       "name": "Dicroidium sp.",
@@ -1519,7 +1578,8 @@
       "roles": [
         "ecosystem_engineer"
       ],
-      "card_label": "Card 60"
+      "card_label": "Card 60",
+      "waterRequirement": 0
     },
     {
       "name": "Coelophysis bauri",
@@ -1529,7 +1589,8 @@
         "predator",
         "prey"
       ],
-      "card_label": "Card 61"
+      "card_label": "Card 61",
+      "waterRequirement": 0
     },
     {
       "name": "Araucaria sp.",
@@ -1539,7 +1600,8 @@
         "ecosystem_engineer",
         "builder"
       ],
-      "card_label": "Card 62"
+      "card_label": "Card 62",
+      "waterRequirement": 0
     },
     {
       "name": "Stegosaurus stenops",
@@ -1550,7 +1612,8 @@
         "prey",
         "ecosystem_engineer"
       ],
-      "card_label": "Card 63"
+      "card_label": "Card 63",
+      "waterRequirement": 0
     },
     {
       "name": "Quercus sp.",
@@ -1560,7 +1623,8 @@
         "ecosystem_engineer",
         "mutualist"
       ],
-      "card_label": "Card 64"
+      "card_label": "Card 64",
+      "waterRequirement": 0
     },
     {
       "name": "Triceratops horridus",
@@ -1571,7 +1635,8 @@
         "ecosystem_engineer",
         "prey"
       ],
-      "card_label": "Card 65"
+      "card_label": "Card 65",
+      "waterRequirement": 0
     },
     {
       "name": "Nothofagus sp.",
@@ -1581,7 +1646,8 @@
         "ecosystem_engineer",
         "builder"
       ],
-      "card_label": "Card 66"
+      "card_label": "Card 66",
+      "waterRequirement": 0
     },
     {
       "name": "Smilodon fatalis",
@@ -1590,7 +1656,8 @@
       "roles": [
         "apex_predator"
       ],
-      "card_label": "Card 67"
+      "card_label": "Card 67",
+      "waterRequirement": 0
     },
     {
       "name": "Pinus sylvestris",
@@ -1600,7 +1667,8 @@
         "ecosystem_engineer",
         "builder"
       ],
-      "card_label": "Card 68"
+      "card_label": "Card 68",
+      "waterRequirement": 0
     },
     {
       "name": "Cynomys ludovicianus",
@@ -1611,7 +1679,8 @@
         "ecosystem_engineer",
         "prey"
       ],
-      "card_label": "Card 69"
+      "card_label": "Card 69",
+      "waterRequirement": 0
     },
     {
       "name": "Quercus robur",
@@ -1621,7 +1690,8 @@
         "ecosystem_engineer",
         "mutualist"
       ],
-      "card_label": "Card 70"
+      "card_label": "Card 70",
+      "waterRequirement": 0
     },
     {
       "name": "Ursus arctos",
@@ -1634,7 +1704,8 @@
         "ecosystem_engineer",
         "prey"
       ],
-      "card_label": "Card 71"
+      "card_label": "Card 71",
+      "waterRequirement": 0
     },
     {
       "name": "Mesohippus bairdi",
@@ -1645,7 +1716,8 @@
         "grazer",
         "prey"
       ],
-      "card_label": "Card 72"
+      "card_label": "Card 72",
+      "waterRequirement": 0
     },
     {
       "name": "Hyaenodon gigas",
@@ -1655,7 +1727,8 @@
         "apex_predator",
         "scavenger"
       ],
-      "card_label": "Card 73"
+      "card_label": "Card 73",
+      "waterRequirement": 0
     },
     {
       "name": "Metasequoia sp.",
@@ -1665,7 +1738,8 @@
         "ecosystem_engineer"
       ],
       "notes": "Tree framing early grassy meadows in Paleogene scenes",
-      "card_label": "Card 74"
+      "card_label": "Card 74",
+      "waterRequirement": 0
     },
     {
       "name": "Equus simplicidens",
@@ -1676,7 +1750,8 @@
         "prey",
         "ecosystem_engineer"
       ],
-      "card_label": "Card 75"
+      "card_label": "Card 75",
+      "waterRequirement": 0
     },
     {
       "name": "Canis lepophagus",
@@ -1686,7 +1761,8 @@
         "predator",
         "scavenger"
       ],
-      "card_label": "Card 76"
+      "card_label": "Card 76",
+      "waterRequirement": 0
     },
     {
       "name": "Andropogon sp.",
@@ -1696,7 +1772,8 @@
         "primary_producer"
       ],
       "notes": "Represents C4 bunchgrasses in expanding Neogene grasslands",
-      "card_label": "Card 77"
+      "card_label": "Card 77",
+      "waterRequirement": 0
     },
     {
       "name": "Bison priscus",
@@ -1707,7 +1784,8 @@
         "ecosystem_engineer",
         "prey"
       ],
-      "card_label": "Card 78"
+      "card_label": "Card 78",
+      "waterRequirement": 0
     },
     {
       "name": "Panthera leo",
@@ -1717,7 +1795,8 @@
         "apex_predator",
         "scavenger"
       ],
-      "card_label": "Card 79"
+      "card_label": "Card 79",
+      "waterRequirement": 0
     },
     {
       "name": "Andropogon gerardii",
@@ -1728,7 +1807,8 @@
         "ecosystem_engineer"
       ],
       "notes": "Big bluestem, classic tallgrass prairie grass",
-      "card_label": "Card 80"
+      "card_label": "Card 80",
+      "waterRequirement": 0
     },
     {
       "name": "Fuxianospira gyrata",
@@ -1738,7 +1818,8 @@
         "producer"
       ],
       "notes": "Early photosynthetic organisms in ancient oceans",
-      "card_label": "Card 81"
+      "card_label": "Card 81",
+      "waterRequirement": 0
     },
     {
       "name": "Anomalocaris canadensis",
@@ -1747,7 +1828,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 82"
+      "card_label": "Card 82",
+      "waterRequirement": 0
     },
     {
       "name": "Orthoceras regulare",
@@ -1756,7 +1838,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 83"
+      "card_label": "Card 83",
+      "waterRequirement": 0
     },
     {
       "name": "Tiktaalik roseae",
@@ -1767,7 +1850,8 @@
         "ecosystem_engineer",
         "builder"
       ],
-      "card_label": "Card 84"
+      "card_label": "Card 84",
+      "waterRequirement": 0
     },
     {
       "name": "Tiktaalik roseae",
@@ -1776,7 +1860,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 85"
+      "card_label": "Card 85",
+      "waterRequirement": 0
     },
     {
       "name": "Lingula sp.",
@@ -1785,7 +1870,8 @@
       "roles": [
         "filter_feeder"
       ],
-      "card_label": "Card 86"
+      "card_label": "Card 86",
+      "waterRequirement": 0
     },
     {
       "name": "Bothriolepis canadensis",
@@ -1794,7 +1880,8 @@
       "roles": [
         "filter_feeder"
       ],
-      "card_label": "Card 87"
+      "card_label": "Card 87",
+      "waterRequirement": 0
     },
     {
       "name": "Dunkleosteus terrelli",
@@ -1803,7 +1890,8 @@
       "roles": [
         "apex_predator"
       ],
-      "card_label": "Card 88"
+      "card_label": "Card 88",
+      "waterRequirement": 0
     },
     {
       "name": "Productida sp.",
@@ -1812,7 +1900,8 @@
       "roles": [
         "filter_feeder"
       ],
-      "card_label": "Card 89"
+      "card_label": "Card 89",
+      "waterRequirement": 0
     },
     {
       "name": "Edestus heinrichi",
@@ -1821,7 +1910,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 90"
+      "card_label": "Card 90",
+      "waterRequirement": 0
     },
     {
       "name": "Mesosaurus tenuidens",
@@ -1830,7 +1920,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 91"
+      "card_label": "Card 91",
+      "waterRequirement": 0
     },
     {
       "name": "Metacoceras sp.",
@@ -1840,7 +1931,8 @@
         "predator",
         "scavenger"
       ],
-      "card_label": "Card 92"
+      "card_label": "Card 92",
+      "waterRequirement": 0
     },
     {
       "name": "Nothosaurus mirabilis",
@@ -1849,7 +1941,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 93"
+      "card_label": "Card 93",
+      "waterRequirement": 0
     },
     {
       "name": "Placodus gigas",
@@ -1858,7 +1951,8 @@
       "roles": [
         "herbivore"
       ],
-      "card_label": "Card 94"
+      "card_label": "Card 94",
+      "waterRequirement": 0
     },
     {
       "name": "Leedsichthys problematicus",
@@ -1867,7 +1961,8 @@
       "roles": [
         "filter_feeder"
       ],
-      "card_label": "Card 95"
+      "card_label": "Card 95",
+      "waterRequirement": 0
     },
     {
       "name": "Plesiosaurus dolichodeirus",
@@ -1876,7 +1971,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 96"
+      "card_label": "Card 96",
+      "waterRequirement": 0
     },
     {
       "name": "Mosasaurus hoffmannii",
@@ -1885,7 +1981,8 @@
       "roles": [
         "apex_predator"
       ],
-      "card_label": "Card 97"
+      "card_label": "Card 97",
+      "waterRequirement": 0
     },
     {
       "name": "Archelon ischyros",
@@ -1895,7 +1992,8 @@
         "predator",
         "scavenger"
       ],
-      "card_label": "Card 98"
+      "card_label": "Card 98",
+      "waterRequirement": 0
     },
     {
       "name": "Basilosaurus cetoides",
@@ -1904,7 +2002,8 @@
       "roles": [
         "apex_predator"
       ],
-      "card_label": "Card 99"
+      "card_label": "Card 99",
+      "waterRequirement": 0
     },
     {
       "name": "Carcharocles megalodon",
@@ -1914,7 +2013,8 @@
         "apex_predator",
         "scavenger"
       ],
-      "card_label": "Card 100"
+      "card_label": "Card 100",
+      "waterRequirement": 0
     },
     {
       "name": "Emiliania huxleyi",
@@ -1924,7 +2024,8 @@
         "producer",
         "ecosystem_engineer"
       ],
-      "card_label": "Card 101"
+      "card_label": "Card 101",
+      "waterRequirement": 0
     },
     {
       "name": "Dicksonia antarctica",
@@ -1933,7 +2034,8 @@
       "roles": [
         "filter_feeder"
       ],
-      "card_label": "Card 102"
+      "card_label": "Card 102",
+      "waterRequirement": 0
     },
     {
       "name": "Balaenoptera musculus",
@@ -1944,7 +2046,8 @@
         "ecosystem_engineer"
       ],
       "notes": "Largest animal on Earth; filter feeds on krill",
-      "card_label": "Card 103"
+      "card_label": "Card 103",
+      "waterRequirement": 0
     },
     {
       "name": "Dermochelys coriacea",
@@ -1953,7 +2056,8 @@
       "roles": [
         "predator"
       ],
-      "card_label": "Card 104"
+      "card_label": "Card 104",
+      "waterRequirement": 0
     },
     {
       "name": "Astrocaryum standleyanum",
@@ -1965,7 +2069,8 @@
         "thorny_shelter"
       ],
       "notes": "Rainforest palm with sharp spines on trunk and fronds; defensive adaptation",
-      "card_label": "Card 105"
+      "card_label": "Card 105",
+      "waterRequirement": 0
     },
     {
       "name": "Rangifer tarandus",
@@ -1977,7 +2082,8 @@
         "prey"
       ],
       "notes": "Early cold-adapted grazer in tundra and tundra-like steppe",
-      "card_label": "Card 106"
+      "card_label": "Card 106",
+      "waterRequirement": 0
     },
     {
       "name": "Alopex lagopus",
@@ -1988,7 +2094,8 @@
         "scavenger"
       ],
       "notes": "Small tundra carnivore hunting rodents and scavenging carrion",
-      "card_label": "Card 107"
+      "card_label": "Card 107",
+      "waterRequirement": 0
     },
     {
       "name": "Dryas octopetala",
@@ -1999,7 +2106,8 @@
         "ecosystem_engineer"
       ],
       "notes": "Low shrub typical of early tundra and heath communities",
-      "card_label": "Card 108"
+      "card_label": "Card 108",
+      "waterRequirement": 0
     },
     {
       "name": "Mammuthus primigenius",
@@ -2011,7 +2119,8 @@
         "prey"
       ],
       "notes": "Iconic tundra megaherbivore reshaping vegetation and soils",
-      "card_label": "Card 109"
+      "card_label": "Card 109",
+      "waterRequirement": 0
     },
     {
       "name": "Ovibos moschatus",
@@ -2023,7 +2132,8 @@
         "prey"
       ],
       "notes": "Shaggy tundra bovid forming defensive herds, great for 'tank' mechanics",
-      "card_label": "Card 110"
+      "card_label": "Card 110",
+      "waterRequirement": 0
     },
     {
       "name": "Cladonia rangiferina",
@@ -2035,7 +2145,8 @@
         "mutualist"
       ],
       "notes": "Dominant ground cover and key winter forage for large herbivores",
-      "card_label": "Card 111"
+      "card_label": "Card 111",
+      "waterRequirement": 0
     }
   ]
 }

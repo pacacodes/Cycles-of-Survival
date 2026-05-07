@@ -18,7 +18,8 @@
         "area_denial"
       ],
       "notes": "Tentacles carry extremely potent venom that can cause cardiac arrest in minutes.",
-      "card_label": "Card 142"
+      "card_label": "Card 142",
+      "waterRequirement": 0
     },
     {
       "name": "Carukia barnesi",
@@ -36,7 +37,8 @@
         "area_denial"
       ],
       "notes": "Tiny jellyfish whose venom causes Irukandji syndrome; stings can be life-threatening.",
-      "card_label": "Card 143"
+      "card_label": "Card 143",
+      "waterRequirement": 0
     },
     {
       "name": "Synanceia verrucosa",
@@ -54,7 +56,8 @@
         "camouflage_specialist"
       ],
       "notes": "Dorsal spines inject venom causing extreme pain, tissue necrosis, and sometimes death.",
-      "card_label": "Card 144"
+      "card_label": "Card 144",
+      "waterRequirement": 0
     },
     {
       "name": "Dasyatis pastinaca",
@@ -72,7 +75,8 @@
         "bottom_dweller"
       ],
       "notes": "Tail spine can puncture deep into tissue, occasionally severing major blood vessels.",
-      "card_label": "Card 145"
+      "card_label": "Card 145",
+      "waterRequirement": 0
     },
     {
       "name": "Androctonus australis",
@@ -90,7 +94,8 @@
         "burrower"
       ],
       "notes": "Among the most dangerous scorpions; venom can cause respiratory failure.",
-      "card_label": "Card 146"
+      "card_label": "Card 146",
+      "waterRequirement": 0
     },
     {
       "name": "Leiurus quinquestriatus",
@@ -108,7 +113,8 @@
         "nocturnal_hunter"
       ],
       "notes": "Highly toxic venom that can be fatal, especially to small animals and children.",
-      "card_label": "Card 147"
+      "card_label": "Card 147",
+      "waterRequirement": 0
     },
     {
       "name": "Acanthaster planci",
@@ -126,7 +132,8 @@
         "ecosystem_engineer"
       ],
       "notes": "Long venomous spines cause deep wounds and can lead to serious systemic reactions.",
-      "card_label": "Card 148"
+      "card_label": "Card 148",
+      "waterRequirement": 0
     },
     {
       "name": "Diadema setosum",
@@ -144,7 +151,8 @@
         "reef_grazer"
       ],
       "notes": "Needle-like spines break easily and can cause severe injury and infection.",
-      "card_label": "Card 149"
+      "card_label": "Card 149",
+      "waterRequirement": 0
     },
     {
       "name": "Pterois volitans",
@@ -162,7 +170,8 @@
         "invasive_species"
       ],
       "notes": "Fin spines deliver venom causing intense pain and systemic symptoms; invasive in some regions.",
-      "card_label": "Card 150"
+      "card_label": "Card 150",
+      "waterRequirement": 0
     },
     {
       "name": "Lonomia obliqua",
@@ -179,7 +188,8 @@
         "defensive_herbivore"
       ],
       "notes": "Venomous spines induce severe clotting disorders and hemorrhage; many deaths recorded.",
-      "card_label": "Card 151"
+      "card_label": "Card 151",
+      "waterRequirement": 0
     },
     {
       "name": "Phyllobates terribilis",
@@ -196,7 +206,8 @@
         "insect_controller"
       ],
       "notes": "Skin secretes batrachotoxin; tiny amounts can stop the heart of large animals.",
-      "card_label": "Card 152"
+      "card_label": "Card 152",
+      "waterRequirement": 0
     },
     {
       "name": "Hapalochlaena lunulata",
@@ -214,7 +225,8 @@
         "camouflage_specialist"
       ],
       "notes": "Delivers tetrodotoxin via bite, causing rapid paralysis and respiratory arrest.",
-      "card_label": "Card 153"
+      "card_label": "Card 153",
+      "waterRequirement": 0
     },
     {
       "name": "Conus geographus",
@@ -231,7 +243,8 @@
         "ambush_predator"
       ],
       "notes": "Shoots a harpoon-like tooth with conotoxin; several human fatalities documented.",
-      "card_label": "Card 154"
+      "card_label": "Card 154",
+      "waterRequirement": 0
     },
     {
       "name": "Tetraodontidae spp.",
@@ -247,7 +260,8 @@
         "defensive_prey"
       ],
       "notes": "Organs contain tetrodotoxin; ingestion can cause rapid paralysis and death.",
-      "card_label": "Card 155"
+      "card_label": "Card 155",
+      "waterRequirement": 0
     },
     {
       "name": "Taricha granulosa",
@@ -263,7 +277,8 @@
         "defensive_prey"
       ],
       "notes": "Skin contains enough tetrodotoxin to kill large predators if ingested.",
-      "card_label": "Card 156"
+      "card_label": "Card 156",
+      "waterRequirement": 0
     },
     {
       "name": "Oxyuranus microlepidotus",
@@ -280,7 +295,8 @@
         "apex_predator"
       ],
       "notes": "One of the most venomous snakes; untreated bites are frequently fatal.",
-      "card_label": "Card 157"
+      "card_label": "Card 157",
+      "waterRequirement": 0
     },
     {
       "name": "Ophiophagus hannah",
@@ -297,7 +313,8 @@
         "apex_predator"
       ],
       "notes": "Preys on other snakes; large venom yield makes bites highly dangerous.",
-      "card_label": "Card 158"
+      "card_label": "Card 158",
+      "waterRequirement": 0
     },
     {
       "name": "Dendroaspis polylepis",
@@ -315,7 +332,8 @@
         "pursuit_hunter"
       ],
       "notes": "Fast-moving snake with potent neurotoxic venom and high untreated fatality rate.",
-      "card_label": "Card 159"
+      "card_label": "Card 159",
+      "waterRequirement": 0
     },
     {
       "name": "Atrax robustus",
@@ -333,7 +351,8 @@
         "burrower"
       ],
       "notes": "Aggressive spider with neurotoxic venom; historically many serious envenomations.",
-      "card_label": "Card 160"
+      "card_label": "Card 160",
+      "waterRequirement": 0
     },
     {
       "name": "Phoneutria nigriventer",
@@ -350,7 +369,8 @@
         "roaming_predator"
       ],
       "notes": "Highly mobile, potent venom; medically important and potentially lethal.",
-      "card_label": "Card 161"
+      "card_label": "Card 161",
+      "waterRequirement": 0
     },
     {
       "name": "Hystrix cristata",
@@ -367,7 +387,8 @@
         "defensive_herbivore"
       ],
       "notes": "Long quills can deeply impale predators; infection and organ damage may be fatal.",
-      "card_label": "Card 162"
+      "card_label": "Card 162",
+      "waterRequirement": 0
     },
     {
       "name": "Erethizon dorsatum",
@@ -384,7 +405,8 @@
         "defensive_herbivore"
       ],
       "notes": "Barbed quills are difficult to remove and can kill attacking animals via infection.",
-      "card_label": "Card 163"
+      "card_label": "Card 163",
+      "waterRequirement": 0
     },
     {
       "name": "Carnegiea gigantea",
@@ -401,7 +423,8 @@
         "habitat_provider"
       ],
       "notes": "Large spines and heavy arms can impale or crush animals under certain conditions.",
-      "card_label": "Card 164"
+      "card_label": "Card 164",
+      "waterRequirement": 0
     },
     {
       "name": "Cylindropuntia fulgida",
@@ -417,7 +440,8 @@
         "defensive_producer"
       ],
       "notes": "Barbed segments detach and embed deeply, causing painful wounds and infections.",
-      "card_label": "Card 165"
+      "card_label": "Card 165",
+      "waterRequirement": 0
     },
     {
       "name": "Birgus latro",
@@ -434,7 +458,8 @@
         "omnivore_scavenger"
       ],
       "notes": "Huge claws can crush bone and cause life-threatening injuries in smaller animals.",
-      "card_label": "Card 166"
+      "card_label": "Card 166",
+      "waterRequirement": 0
     },
     {
       "name": "Odontodactylus scyllarus",
@@ -450,7 +475,8 @@
         "ambush_predator"
       ],
       "notes": "Raptorial appendages strike with bullet-like force, shattering shells and injuring prey.",
-      "card_label": "Card 167"
+      "card_label": "Card 167",
+      "waterRequirement": 0
     },
     {
       "name": "Carcharodon carcharias",
@@ -467,7 +493,8 @@
         "apex_predator"
       ],
       "notes": "Serrated teeth and powerful bite cause massive blood loss and rapid death in prey.",
-      "card_label": "Card 168"
+      "card_label": "Card 168",
+      "waterRequirement": 0
     },
     {
       "name": "Crocodylus niloticus",
@@ -485,7 +512,8 @@
         "ambush_predator"
       ],
       "notes": "Ambushes at water edges; bite and death-roll behavior frequently lethal to large prey.",
-      "card_label": "Card 169"
+      "card_label": "Card 169",
+      "waterRequirement": 0
     },
     {
       "name": "Hermodice carunculata",
@@ -502,7 +530,8 @@
         "benthic_predator"
       ],
       "notes": "Stinging bristles cause burning pain and tissue damage; large exposures may be serious.",
-      "card_label": "Card 170"
+      "card_label": "Card 170",
+      "waterRequirement": 0
     },
     {
       "name": "Atropa belladonna",
@@ -520,7 +549,8 @@
         "toxic_plant"
       ],
       "notes": "Contains atropine and scopolamine; ingestion can cause respiratory failure and death.",
-      "card_label": "Card 171"
+      "card_label": "Card 171",
+      "waterRequirement": 0
     },
     {
       "name": "Conium maculatum",
@@ -537,7 +567,8 @@
         "toxic_plant"
       ],
       "notes": "All parts are highly poisonous; small doses can kill humans and livestock via respiratory paralysis.",
-      "card_label": "Card 172"
+      "card_label": "Card 172",
+      "waterRequirement": 0
     },
     {
       "name": "Cicuta maculata",
@@ -555,7 +586,8 @@
         "toxic_plant"
       ],
       "notes": "Often called the most deadly plant in North America; cicutoxin causes convulsions and rapid death if ingested.",
-      "card_label": "Card 173"
+      "card_label": "Card 173",
+      "waterRequirement": 0
     },
     {
       "name": "Nerium oleander",
@@ -573,7 +605,8 @@
         "ornamental_toxic"
       ],
       "notes": "Cardiac glycosides in leaves and flowers can cause fatal heart arrhythmias.",
-      "card_label": "Card 174"
+      "card_label": "Card 174",
+      "waterRequirement": 0
     },
     {
       "name": "Abrus precatorius",
@@ -590,7 +623,8 @@
         "toxic_seed"
       ],
       "notes": "Seeds contain abrin, one of the most potent plant toxins; a single chewed seed can be lethal.",
-      "card_label": "Card 175"
+      "card_label": "Card 175",
+      "waterRequirement": 0
     },
     {
       "name": "Ricinus communis",
@@ -607,7 +641,8 @@
         "toxic_seed"
       ],
       "notes": "Seeds contain ricin, a powerful cytotoxin that can cause multi-organ failure and death.",
-      "card_label": "Card 176"
+      "card_label": "Card 176",
+      "waterRequirement": 0
     },
     {
       "name": "Datura stramonium",
@@ -625,7 +660,8 @@
         "hallucinogenic_toxic"
       ],
       "notes": "Rich in tropane alkaloids; overdose leads to delirium, hyperthermia, and potentially fatal heart problems.",
-      "card_label": "Card 177"
+      "card_label": "Card 177",
+      "waterRequirement": 0
     },
     {
       "name": "Digitalis purpurea",
@@ -643,7 +679,8 @@
         "cardiotoxic_plant"
       ],
       "notes": "Cardiac glycosides can cause dangerous arrhythmias and cardiac arrest if ingested.",
-      "card_label": "Card 178"
+      "card_label": "Card 178",
+      "waterRequirement": 0
     },
     {
       "name": "Urtica dioica",
@@ -660,7 +697,8 @@
         "irritant"
       ],
       "notes": "Hollow hairs inject irritants, causing painful welts; not usually lethal but very defensive.",
-      "card_label": "Card 179"
+      "card_label": "Card 179",
+      "waterRequirement": 0
     },
     {
       "name": "Acacia nilotica",
@@ -677,7 +715,8 @@
         "thorny_shelter"
       ],
       "notes": "Long sharp thorns can seriously injure large herbivores and deter most browsers.",
-      "card_label": "Card 180"
+      "card_label": "Card 180",
+      "waterRequirement": 0
     },
     {
       "name": "Yersinia pestis",
@@ -693,7 +732,8 @@
         "lethal_pathogen"
       ],
       "notes": "Agent of bubonic plague; untreated infection can kill over half of infected hosts.",
-      "card_label": "Card 181"
+      "card_label": "Card 181",
+      "waterRequirement": 0
     },
     {
       "name": "Bacillus anthracis",
@@ -711,7 +751,8 @@
         "soil_reservoir"
       ],
       "notes": "Forms durable spores; inhalational anthrax is highly lethal without rapid treatment.",
-      "card_label": "Card 182"
+      "card_label": "Card 182",
+      "waterRequirement": 0
     },
     {
       "name": "Clostridium botulinum",
@@ -727,7 +768,8 @@
         "toxin_producer"
       ],
       "notes": "Produces botulinum toxin, one of the most potent known; causes flaccid paralysis and respiratory failure.",
-      "card_label": "Card 183"
+      "card_label": "Card 183",
+      "waterRequirement": 0
     },
     {
       "name": "Mycobacterium tuberculosis",
@@ -743,7 +785,8 @@
         "lethal_pathogen"
       ],
       "notes": "Leading infectious killer globally; untreated pulmonary TB has a high mortality rate.",
-      "card_label": "Card 184"
+      "card_label": "Card 184",
+      "waterRequirement": 0
     },
     {
       "name": "Pseudomonas aeruginosa (MDR)",
@@ -759,7 +802,8 @@
         "hospital_pathogen"
       ],
       "notes": "Multidrug-resistant strain causing severe, often deadly infections in hospitals.",
-      "card_label": "Card 185"
+      "card_label": "Card 185",
+      "waterRequirement": 0
     },
     {
       "name": "Cryptococcus neoformans",
@@ -775,7 +819,8 @@
         "lethal_pathogen"
       ],
       "notes": "Soil and wood-inhabiting yeast causing cryptococcosis; high mortality in immunocompromised hosts.",
-      "card_label": "Card 186"
+      "card_label": "Card 186",
+      "waterRequirement": 0
     },
     {
       "name": "Candida auris",
@@ -791,7 +836,8 @@
         "hospital_pathogen"
       ],
       "notes": "Multidrug-resistant yeast causing invasive infections with high mortality rates.",
-      "card_label": "Card 187"
+      "card_label": "Card 187",
+      "waterRequirement": 0
     },
     {
       "name": "Aspergillus fumigatus",
@@ -808,7 +854,8 @@
         "opportunistic_pathogen"
       ],
       "notes": "Airborne spores can cause invasive aspergillosis; often lethal in immunocompromised patients.",
-      "card_label": "Card 188"
+      "card_label": "Card 188",
+      "waterRequirement": 0
     },
     {
       "name": "Histoplasma capsulatum",
@@ -825,7 +872,8 @@
         "respiratory_pathogen"
       ],
       "notes": "Soil fungus associated with bat and bird droppings; inhalation leads to histoplasmosis, sometimes fatal.",
-      "card_label": "Card 189"
+      "card_label": "Card 189",
+      "waterRequirement": 0
     },
     {
       "name": "Dunkleosteus terrelli",
@@ -841,7 +889,8 @@
         "apex_predator"
       ],
       "notes": "Armored fish with massive biting plates; capable of crushing armored prey.",
-      "card_label": "Card 190"
+      "card_label": "Card 190",
+      "waterRequirement": 0
     },
     {
       "name": "Hyneria lindae",
@@ -858,7 +907,8 @@
         "apex_predator"
       ],
       "notes": "Large predatory fish with powerful jaws; dangerous to most contemporaneous vertebrates.",
-      "card_label": "Card 191"
+      "card_label": "Card 191",
+      "waterRequirement": 0
     },
     {
       "name": "Dimetrodon grandis",
@@ -875,7 +925,8 @@
         "apex_predator"
       ],
       "notes": "Sail-backed predator with sharp teeth; top land carnivore of many Permian ecosystems.",
-      "card_label": "Card 192"
+      "card_label": "Card 192",
+      "waterRequirement": 0
     },
     {
       "name": "Gorgonops torvus",
@@ -891,7 +942,8 @@
         "apex_predator"
       ],
       "notes": "Saber-toothed predator with large canines; capable of killing large herbivores.",
-      "card_label": "Card 193"
+      "card_label": "Card 193",
+      "waterRequirement": 0
     },
     {
       "name": "Spinosaurus aegyptiacus",
@@ -908,7 +960,8 @@
         "apex_predator"
       ],
       "notes": "Semi-aquatic theropod with powerful jaws and claws, preying on large fish and other animals.",
-      "card_label": "Card 194"
+      "card_label": "Card 194",
+      "waterRequirement": 0
     },
     {
       "name": "Tyrannosaurus rex",
@@ -925,7 +978,8 @@
         "apex_predator"
       ],
       "notes": "Massive carnivore with bone-crushing bite; apex predator of Late Cretaceous North America.",
-      "card_label": "Card 195"
+      "card_label": "Card 195",
+      "waterRequirement": 0
     },
     {
       "name": "Ankylosaurus magniventris",
@@ -943,7 +997,8 @@
         "defensive_herbivore"
       ],
       "notes": "Heavily armored herbivore with tail club; blows could cripple or kill large predators.",
-      "card_label": "Card 196"
+      "card_label": "Card 196",
+      "waterRequirement": 0
     },
     {
       "name": "Stegosaurus stenops",
@@ -959,7 +1014,8 @@
         "defensive_herbivore"
       ],
       "notes": "Tail spikes capable of inflicting deep, lethal puncture wounds in predators.",
-      "card_label": "Card 197"
+      "card_label": "Card 197",
+      "waterRequirement": 0
     },
     {
       "name": "Triceratops horridus",
@@ -975,7 +1031,8 @@
         "defensive_herbivore"
       ],
       "notes": "Three facial horns and bony frill; charge could impale large predators.",
-      "card_label": "Card 198"
+      "card_label": "Card 198",
+      "waterRequirement": 0
     },
     {
       "name": "Spicomellus afer",
@@ -992,7 +1049,8 @@
         "defensive_herbivore"
       ],
       "notes": "Early armored dinosaur with unique spiked armor; heavily defended against predators.",
-      "card_label": "Card 199"
+      "card_label": "Card 199",
+      "waterRequirement": 0
     },
     {
       "name": "Deinonychus antirrhopus",
@@ -1009,7 +1067,8 @@
         "pack_predator"
       ],
       "notes": "Sickle-shaped toe claws designed for slashing; dangerous pack hunter.",
-      "card_label": "Card 200"
+      "card_label": "Card 200",
+      "waterRequirement": 0
     },
     {
       "name": "Astrocaryum standleyanum",
@@ -1027,7 +1086,8 @@
         "thorny_shelter"
       ],
       "notes": "Palm tree with sharp spines on trunk and fronds; causes deep puncture wounds and infections.",
-      "card_label": "Card 201"
+      "card_label": "Card 201",
+      "waterRequirement": 0
     }
   ]
 }

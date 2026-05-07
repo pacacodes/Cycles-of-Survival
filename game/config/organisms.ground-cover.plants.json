@@ -34,7 +34,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 203",
@@ -69,7 +70,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 204",
@@ -105,7 +107,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 205",
@@ -141,7 +144,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "card_label": "Card 206",
@@ -176,7 +180,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 207",
@@ -212,7 +217,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 208",
@@ -248,7 +254,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 209",
@@ -283,7 +290,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "card_label": "Card 210",
@@ -318,7 +326,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "card_label": "Card 211",
@@ -353,7 +362,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 212",
@@ -388,7 +398,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "card_label": "Card 213",
@@ -424,7 +435,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "card_label": "Card 214",
@@ -460,7 +472,8 @@
       "role": [
         "producer",
         "mutualist"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 215",
@@ -495,7 +508,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "card_label": "Card 216",
@@ -531,7 +545,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 0
     }
   ]
 }

@@ -37,7 +37,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -74,7 +75,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -110,7 +112,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -4
     },
     {
       "type": "organism",
@@ -147,7 +150,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -183,7 +187,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -219,7 +224,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -254,7 +260,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -291,7 +298,8 @@
       "role": [
         "producer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -328,7 +336,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": -2
     },
     {
       "type": "organism",
@@ -364,7 +373,8 @@
       "bits": null,
       "role": [
         "producer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -400,7 +410,8 @@
       "bits": null,
       "role": [
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -436,7 +447,8 @@
       "bits": null,
       "role": [
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -473,7 +485,8 @@
       "role": [
         "decomposer",
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -509,7 +522,8 @@
       "bits": null,
       "role": [
         "detritivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -546,7 +560,8 @@
       "role": [
         "decomposer",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -582,7 +597,8 @@
       "bits": null,
       "role": [
         "detritivore"
-      ]
+      ],
+      "waterRequirement": 3
     },
     {
       "type": "organism",
@@ -619,7 +635,8 @@
       "bits": null,
       "role": [
         "decomposer"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -656,7 +673,8 @@
       "bits": null,
       "role": [
         "detritivore"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -692,7 +710,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -729,7 +748,8 @@
       "role": [
         "filter_feeder",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -765,7 +785,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -802,7 +823,8 @@
         "filter_feeder",
         "builder",
         "ecosystem_engineer"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -837,7 +859,8 @@
       "bits": null,
       "role": [
         "filter_feeder"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -873,7 +896,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -909,7 +933,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -945,7 +970,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -981,7 +1007,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1017,7 +1044,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1053,7 +1081,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1088,7 +1117,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1123,7 +1153,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1158,7 +1189,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1194,7 +1226,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1229,7 +1262,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1265,7 +1299,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1301,7 +1336,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -1337,7 +1373,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1373,7 +1410,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1409,7 +1447,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1445,7 +1484,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1481,7 +1521,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1517,7 +1558,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1552,7 +1594,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1588,7 +1631,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1623,7 +1667,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1658,7 +1703,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 5
     },
     {
       "type": "organism",
@@ -1694,7 +1740,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1730,7 +1777,8 @@
       "bits": null,
       "role": [
         "apex_predator"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1765,7 +1813,8 @@
       "bits": null,
       "role": [
         "predator"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1801,7 +1850,8 @@
       "bits": null,
       "role": [
         "herbivore"
-      ]
+      ],
+      "waterRequirement": 2
     }
   ]
 }

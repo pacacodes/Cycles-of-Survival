@@ -39,7 +39,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -78,7 +79,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -117,7 +119,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -156,7 +159,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -195,7 +199,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -234,7 +239,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -273,7 +279,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -312,7 +319,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -351,7 +359,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -390,7 +399,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -429,7 +439,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -468,7 +479,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -507,7 +519,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -546,7 +559,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -585,7 +599,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -624,7 +639,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -663,7 +679,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -702,7 +719,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -741,7 +759,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -780,7 +799,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -819,7 +839,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -858,7 +879,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -898,7 +920,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -937,7 +960,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -977,7 +1001,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -1017,7 +1042,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1057,7 +1083,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1097,7 +1124,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1137,7 +1165,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1177,7 +1206,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1217,7 +1247,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 2
     },
     {
       "type": "organism",
@@ -1257,7 +1288,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -1297,7 +1329,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1337,7 +1370,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1377,7 +1411,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1417,7 +1452,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1457,7 +1493,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1497,7 +1534,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1537,7 +1575,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -1577,7 +1616,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 1
     },
     {
       "type": "organism",
@@ -1617,7 +1657,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": -3
     },
     {
       "type": "organism",
@@ -1656,7 +1697,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 4
     },
     {
       "type": "organism",
@@ -1696,7 +1738,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1736,7 +1779,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     },
     {
       "type": "organism",
@@ -1776,7 +1820,8 @@
       ],
       "categories": [
         "shrubs"
-      ]
+      ],
+      "waterRequirement": 0
     }
   ]
 }
