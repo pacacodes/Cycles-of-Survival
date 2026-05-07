@@ -5,7 +5,7 @@
 
 const EVENT_TYPE_COLORS = {
   crisis: {
-    neon: '#9933FF',        // Purple
+    neon: '#FF8128',        // Orange
     background: '#4A90E2',  // Water blue
     titleText: '#FFFFFF',
   },

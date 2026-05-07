@@ -28,11 +28,10 @@ const registry = {
 
 
 function selectMainPhotoDrawer(card) {
-  // Special case: Card 1 (Anabaena sp.)
+  // Special case: Anabaena sp.
   if (
     card &&
-    ((card.card_label && card.card_label.trim() === 'Card 1') ||
-      (card.scientific_name && card.scientific_name.trim().toLowerCase() === 'anabaena sp.'))
+    (card.scientific_name && card.scientific_name.trim().toLowerCase() === 'anabaena sp.')
   ) {
     return anabaena;
   }
