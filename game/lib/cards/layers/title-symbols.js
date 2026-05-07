@@ -252,9 +252,10 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   const inputFontSize = Math.round(5 * scale);
   const inputFont = `${inputFontSize}px "DejaVu Sans", sans-serif`;
   const symbolY = y + Math.round(2 * scale);
-  const symbolXBase = x + (100 * scale) - (10 * scale) - 20;
+  const symbolXBase = x + (100 * scale) - (10 * scale) - 80;
   const symbolColor = '#000000';
   const symbolBgColor = '#F7B733';
+  const waterBgColor = '#3B6B9D';
   const topOpacity = 0.62;
   const bottomOpacity = 0.92;
   const effects = card.effects || {};
@@ -314,7 +315,8 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   }
 
   for (const rect of badgeRects) {
-    drawSplitBackground(ctx, rect.rx, rect.ry, rect.rw, rect.rh, boxRadius, symbolBgColor, topOpacity, bottomOpacity, scale, splitRatio);
+    const bgColor = (rect.kind === 'text' && rect.symbol === 'H₂O') ? waterBgColor : symbolBgColor;
+    drawSplitBackground(ctx, rect.rx, rect.ry, rect.rw, rect.rh, boxRadius, bgColor, topOpacity, bottomOpacity, scale, splitRatio);
   }
 
   ctx.fillStyle = symbolColor;
