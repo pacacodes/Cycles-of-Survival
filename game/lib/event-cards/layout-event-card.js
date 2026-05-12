@@ -96,8 +96,9 @@ function eventToCardObject(event, colors) {
     common_name: event.name,
     scientific_name: event.type.replace(/_/g, ' ').toUpperCase(),
     organism_type: event.type,
+    card_label: event.number || event.name,
     titleColor: '#000000',
-    background: colors.background,
+    background: event.background || colors.background,
     neonColor: colors.neon,
     // Store stat values as effects (matching organism card structure for title symbols)
     effects: {
@@ -105,6 +106,8 @@ function eventToCardObject(event, colors) {
       co2: event.co2Change,
       biodiversity: event.biodiversityChange,
     },
+    // Store water requirement for h2o symbol (using same field as organism cards)
+    waterRequirement: event.h2o !== undefined ? event.h2o : 0,
     // Dummy values for organism card fields (will be replaced with event-specific fields)
     text: event.effectText,
   };

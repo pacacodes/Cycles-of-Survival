@@ -7,16 +7,19 @@ const EVENT_TYPE_COLORS = {
   crisis: {
     neon: '#FF8128',        // Orange
     background: '#4A90E2',  // Water blue
+    h2oColor: '#3AD7F6',    // Water drop symbol blue (matches organism cards)
     titleText: '#FFFFFF',
   },
   recovery: {
     neon: '#22FF88',        // Cyan-green (distinct from organism greens)
     background: '#4A90E2',  // Water blue
+    h2oColor: '#3AD7F6',    // Water drop symbol blue (matches organism cards)
     titleText: '#FFFFFF',
   },
   mass_extinction: {
     neon: '#FF4444',        // Red
     background: '#4A90E2',  // Water blue
+    h2oColor: '#3AD7F6',    // Water drop symbol blue (matches organism cards)
     titleText: '#FFFFFF',
   },
 };

@@ -9,12 +9,8 @@
       "biodiversityChange": -2,
       "h2o": 0,
       "effectText": "A huge undersea landslide buries seafloor communities in mud. Remove bottom-dwelling organisms in deep-sea and slope biomes.",
-      "biomesBad": [
-        "Marine (Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Upwelling)"
-      ],
+      "biomesBad": ["Marine (Temperate Shelf and Seas)"],
+      "biomesGood": ["Marine (Temperate Upwelling)"],
       "organismsBad": [
         { "group": "Seafloor filter feeders", "example": "Sea cucumbers" },
         { "group": "Sessile invertebrates", "example": "Cold-water corals" }
@@ -33,12 +29,8 @@
       "biodiversityChange": -1,
       "h2o": -1,
       "effectText": "A volcanic eruption sends floating pumice rafts across the sea, shading waters and clogging coasts. Remove surface-feeding organisms from gyres and shoreline spaces.",
-      "biomesBad": [
-        "Marine (Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Upwelling, Tropical Upwelling)"
-      ],
+      "biomesBad": ["Marine (Temperate Shelf and Seas)"],
+      "biomesGood": ["Marine (Temperate Upwelling, Tropical Upwelling)"],
       "organismsBad": [
         { "group": "Surface-feeding birds", "example": "Albatross" },
         { "group": "Filter-feeding fish and invertebrates", "example": "Anchovies, krill" }
@@ -57,12 +49,8 @@
       "biodiversityChange": -2,
       "h2o": 0,
       "effectText": "A rare warm current and urchin boom wipe out kelp forests. Remove kelp and shelter-loving species from temperate rocky coasts.",
-      "biomesBad": [
-        "Marine (Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Upwelling)"
-      ],
+      "biomesBad": ["Marine (Temperate Shelf and Seas)"],
+      "biomesGood": ["Marine (Temperate Upwelling)"],
       "organismsBad": [
         { "group": "Canopy-forming algae", "example": "Giant kelp" },
         { "group": "Kelp-dependent fish", "example": "Rockfish" }
@@ -81,12 +69,8 @@
       "biodiversityChange": -3,
       "h2o": 0,
       "effectText": "A strong natural warm current lingers over reef zones. Remove coral-building organisms in shallow tropical reef spaces.",
-      "biomesBad": [
-        "Marine (Tropical Coral)"
-      ],
-      "biomesGood": [
-        "Marine (Tropical Upwelling, Temperate Shelf and Seas)"
-      ],
+      "biomesBad": ["Marine (Tropical Coral)"],
+      "biomesGood": ["Marine (Tropical Upwelling, Temperate Shelf and Seas)"],
       "organismsBad": [
         { "group": "Reef-building corals", "example": "Branching corals" },
         { "group": "Reef-dependent fish", "example": "Butterflyfish" }
@@ -105,12 +89,8 @@
       "biodiversityChange": -1,
       "h2o": 1,
       "effectText": "Mild winters let bark beetles explode in number. Remove pine and spruce trees heavily attacked by beetles.",
-      "biomesBad": [
-        "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)"
-      ],
-      "biomesGood": [
-        "Forest (Temperate Broadleaf and Mixed Forests)"
-      ],
+      "biomesBad": ["Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)"],
+      "biomesGood": ["Forest (Temperate Broadleaf and Mixed Forests)"],
       "organismsBad": [
         { "group": "Large conifers", "example": "Lodgepole pine" },
         { "group": "Tree-dependent specialists", "example": "Red crossbill" }
@@ -129,12 +109,8 @@
       "biodiversityChange": -1,
       "h2o": 1,
       "effectText": "Lightning ignites fires that race through the forest floor. Remove leaf-litter decomposers and understory plants.",
-      "biomesBad": [
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)"
-      ],
-      "biomesGood": [
-        "Forest (Mediterranean Forests, Woodlands, and Scrub, Temperate Coniferous Forests)"
-      ],
+      "biomesBad": ["Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)"],
+      "biomesGood": ["Forest (Mediterranean Forests, Woodlands, and Scrub, Temperate Coniferous Forests)"],
       "organismsBad": [
         { "group": "Shade-loving herbs", "example": "Trillium" },
         { "group": "Slow-moving litter animals", "example": "Forest salamanders" }
@@ -153,12 +129,8 @@
       "biodiversityChange": -1,
       "h2o": 0,
       "effectText": "A mega-storm knocks down swaths of trees, opening the canopy. Remove large trees in selected forest spaces and treat them as fresh gaps.",
-      "biomesBad": [
-        "Forest (Temperate Broadleaf and Mixed Forests, Tropical and Subtropical Moist Broadleaf Forests)"
-      ],
-      "biomesGood": [
-        "Forest (Montane Grasslands and Shrublands, Mediterranean Forests, Woodlands, and Scrub)"
-      ],
+      "biomesBad": ["Forest (Temperate Broadleaf and Mixed Forests, Tropical and Subtropical Moist Broadleaf Forests)"],
+      "biomesGood": ["Forest (Montane Grasslands and Shrublands, Mediterranean Forests, Woodlands, and Scrub)"],
       "organismsBad": [
         { "group": "Very tall canopy trees", "example": "Emergent rainforest trees" },
         { "group": "Canopy specialists", "example": "Howler monkeys" }
@@ -177,12 +149,8 @@
       "biodiversityChange": -1,
       "h2o": -1,
       "effectText": "A heavy ice storm coats branches until they snap. Remove canopy trees and high-branch species in affected forests.",
-      "biomesBad": [
-        "Forest (Temperate Broadleaf and Mixed Forests)"
-      ],
-      "biomesGood": [
-        "Forest (Boreal Forests and Taiga)"
-      ],
+      "biomesBad": ["Forest (Temperate Broadleaf and Mixed Forests)"],
+      "biomesGood": ["Forest (Boreal Forests and Taiga)"],
       "organismsBad": [
         { "group": "Canopy trees", "example": "Oaks and beeches" },
         { "group": "Canopy animals", "example": "Arboreal monkeys" }
@@ -201,12 +169,8 @@
       "biodiversityChange": -2,
       "h2o": 2,
       "effectText": "Winds push dunes over nearby habitats, burying soils and roots. Remove organisms in advancing dune and desert edge spaces.",
-      "biomesBad": [
-        "Desert (Deserts and Xeric Shrublands, Xeric Basins)"
-      ],
-      "biomesGood": [
-        "Desert (Deserts and Xeric Shrublands)"
-      ],
+      "biomesBad": ["Desert (Deserts and Xeric Shrublands, Xeric Basins)"],
+      "biomesGood": ["Desert (Deserts and Xeric Shrublands)"],
       "organismsBad": [
         { "group": "Shallow-rooted shrubs", "example": "Sagebrush" },
         { "group": "Burrows in dune fronts", "example": "Ground squirrels" }
@@ -225,12 +189,8 @@
       "biodiversityChange": -1,
       "h2o": 4,
       "effectText": "A sudden, brutal heat wave hits even hardy desert life. Remove less-tolerant plants and animals from exposed desert spaces.",
-      "biomesBad": [
-        "Desert (Deserts and Xeric Shrublands, Xeric Basins)"
-      ],
-      "biomesGood": [
-        "Desert (Deserts and Xeric Shrublands)"
-      ],
+      "biomesBad": ["Desert (Deserts and Xeric Shrublands, Xeric Basins)"],
+      "biomesGood": ["Desert (Deserts and Xeric Shrublands)"],
       "organismsBad": [
         { "group": "Semi-desert plants", "example": "Low shrubs" },
         { "group": "Day-active animals", "example": "Diurnal lizards" }
@@ -249,14 +209,8 @@
       "biodiversityChange": -1,
       "h2o": 2,
       "effectText": "Choking dust clouds block sun and coat leaves. Remove small plants and air-breathers in chosen desert and downwind grassland spaces.",
-      "biomesBad": [
-        "Desert (Deserts and Xeric Shrublands)",
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)"
-      ],
-      "biomesGood": [
-        "Desert (Xeric Basins)",
-        "Grassland (Montane Grasslands and Shrublands)"
-      ],
+      "biomesBad": ["Desert (Deserts and Xeric Shrublands)", "Grassland (Temperate Grasslands, Savannas, and Shrublands)"],
+      "biomesGood": ["Desert (Xeric Basins)", "Grassland (Montane Grasslands and Shrublands)"],
       "organismsBad": [
         { "group": "Small-leaved shrubs", "example": "Sagebrush" },
         { "group": "Surface-dwelling animals", "example": "Insects and rodents" }
@@ -275,14 +229,8 @@
       "biodiversityChange": -2,
       "h2o": 1,
       "effectText": "Native herbivore herds crowd the desert fringe after a few good years. Remove palatable grasses and small plants from margin grassland spaces.",
-      "biomesBad": [
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Desert (Deserts and Xeric Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Montane Grasslands and Shrublands)",
-        "Desert (Xeric Basins)"
-      ],
+      "biomesBad": ["Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)", "Desert (Deserts and Xeric Shrublands)"],
+      "biomesGood": ["Grassland (Montane Grasslands and Shrublands)", "Desert (Xeric Basins)"],
       "organismsBad": [
         { "group": "Palatable grasses", "example": "Buffelgrass" },
         { "group": "Small herbivores with little refuge", "example": "Rodents in open areas" }
@@ -301,12 +249,8 @@
       "biodiversityChange": -2,
       "h2o": 1,
       "effectText": "Shifting rains trigger huge locust swarms that strip grasses and herbs. Remove plant producers from affected grassland spaces.",
-      "biomesBad": [
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands, Temperate Grasslands, Savannas, and Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Flooded Grasslands and Savannas, Montane Grasslands and Shrublands)"
-      ],
+      "biomesBad": ["Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands, Temperate Grasslands, Savannas, and Shrublands)"],
+      "biomesGood": ["Grassland (Flooded Grasslands and Savannas, Montane Grasslands and Shrublands)"],
       "organismsBad": [
         { "group": "Grasses and forbs", "example": "Bunchgrasses, wildflowers" },
         { "group": "Small herbivores competing for plants", "example": "Hares" }
@@ -325,13 +269,8 @@
       "biodiversityChange": -1,
       "h2o": -1,
       "effectText": "Disease and harsh seasons wipe out large grazers. Remove big herbivore tokens and let woody plants begin to invade.",
-      "biomesBad": [
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Montane Grasslands and Shrublands)",
-        "Forest (Mediterranean Forests, Woodlands, and Scrub)"
-      ],
+      "biomesBad": ["Grassland (Temperate Grasslands, Savannas, and Shrublands)"],
+      "biomesGood": ["Grassland (Montane Grasslands and Shrublands)", "Forest (Mediterranean Forests, Woodlands, and Scrub)"],
       "organismsBad": [
         { "group": "Large grazers", "example": "Bison, wildebeest" },
         { "group": "Grazing-dependent predators", "example": "Lions, wolves" }
@@ -350,12 +289,8 @@
       "biodiversityChange": -1,
       "h2o": 0,
       "effectText": "A surprise frost hits during growing or nesting season. Remove young plants and nests from selected grassland spaces.",
-      "biomesBad": [
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands, Montane Grasslands and Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Flooded Grasslands and Savannas)"
-      ],
+      "biomesBad": ["Grassland (Temperate Grasslands, Savannas, and Shrublands, Montane Grasslands and Shrublands)"],
+      "biomesGood": ["Grassland (Flooded Grasslands and Savannas)"],
       "organismsBad": [
         { "group": "New seedlings", "example": "Young grasses and crops" },
         { "group": "Ground-nesting birds", "example": "Larks, plovers" }
@@ -374,12 +309,8 @@
       "biodiversityChange": -1,
       "h2o": -2,
       "effectText": "Distant volcanoes dust grasslands with ash. Remove delicate plants in freshly ash-covered spaces; later these soils may hold more water and nutrients.",
-      "biomesBad": [
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Montane Grasslands and Shrublands, Flooded Grasslands and Savannas)"
-      ],
+      "biomesBad": ["Grassland (Temperate Grasslands, Savannas, and Shrublands)"],
+      "biomesGood": ["Grassland (Montane Grasslands and Shrublands, Flooded Grasslands and Savannas)"],
       "organismsBad": [
         { "group": "Delicate grasses", "example": "Short bunchgrasses" },
         { "group": "Small grazers in heavy ash", "example": "Rodents" }
@@ -398,12 +329,8 @@
       "biodiversityChange": -1,
       "h2o": -3,
       "effectText": "Frozen ground melts and collapses into muddy slumps. Remove tundra plants and soil animals from thawed hill and riverbank spaces; some form new ponds.",
-      "biomesBad": [
-        "Tundra (Tundra, Polar)"
-      ],
-      "biomesGood": [
-        "Tundra (Tundra)"
-      ],
+      "biomesBad": ["Tundra (Tundra, Polar)"],
+      "biomesGood": ["Tundra (Tundra)"],
       "organismsBad": [
         { "group": "Tundra mosses and lichens", "example": "Reindeer moss" },
         { "group": "Burrowing mammals", "example": "Lemmings" }
@@ -422,13 +349,8 @@
       "biodiversityChange": -1,
       "h2o": 1,
       "effectText": "Thin, icy snow no longer protects tundra life. Remove small animals and plants that rely on soft snow cover.",
-      "biomesBad": [
-        "Tundra (Tundra, Polar)"
-      ],
-      "biomesGood": [
-        "Tundra (Tundra)",
-        "Forest (Boreal Forests and Taiga)"
-      ],
+      "biomesBad": ["Tundra (Tundra, Polar)"],
+      "biomesGood": ["Tundra (Tundra)", "Forest (Boreal Forests and Taiga)"],
       "organismsBad": [
         { "group": "Subnivean small mammals", "example": "Voles" },
         { "group": "Low tundra shrubs", "example": "Willow shrubs" }
@@ -447,13 +369,8 @@
       "biodiversityChange": -2,
       "h2o": 0,
       "effectText": "A rare warm-water intrusion melts seasonal sea ice early. Remove ice-dependent producers and animals from polar marine spaces.",
-      "biomesBad": [
-        "Tundra (Polar)",
-        "Marine (Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Shelf and Seas, Temperate Upwelling)"
-      ],
+      "biomesBad": ["Tundra (Polar)", "Marine (Temperate Shelf and Seas)"],
+      "biomesGood": ["Marine (Temperate Shelf and Seas, Temperate Upwelling)"],
       "organismsBad": [
         { "group": "Ice algae", "example": "Sea-ice diatoms" },
         { "group": "Ice-dependent animals", "example": "Krill, polar bears" }
@@ -472,13 +389,8 @@
       "biodiversityChange": -1,
       "h2o": -2,
       "effectText": "A natural warm phase lets shrubs spread over open tundra. Replace low tundra plants and open-ground species with taller shrubs and new browsers.",
-      "biomesBad": [
-        "Tundra (Tundra, Polar)"
-      ],
-      "biomesGood": [
-        "Tundra (Tundra)",
-        "Forest (Boreal Forests and Taiga)"
-      ],
+      "biomesBad": ["Tundra (Tundra, Polar)"],
+      "biomesGood": ["Tundra (Tundra)", "Forest (Boreal Forests and Taiga)"],
       "organismsBad": [
         { "group": "Low mat-forming plants", "example": "Cushion plants" },
         { "group": "Lichen grazers", "example": "Reindeer relying on lichens" }
@@ -497,13 +409,8 @@
       "biodiversityChange": -3,
       "h2o": 4,
       "effectText": "Peat bogs and mossy wetlands dry out, and stored peat starts to rot and burn. Remove peat moss and wetland-dependent organisms from chosen tundra and boreal wetland spaces; flip those wetland spaces to dry ground.",
-      "biomesBad": [
-        "Tundra (Tundra, Polar)",
-        "Forest (Boreal Forests and Taiga)"
-      ],
-      "biomesGood": [
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)"
-      ],
+      "biomesBad": ["Tundra (Tundra, Polar)", "Forest (Boreal Forests and Taiga)"],
+      "biomesGood": ["Grassland (Temperate Grasslands, Savannas, and Shrublands)"],
       "organismsBad": [
         { "group": "Peat-forming mosses", "example": "Sphagnum moss" },
         { "group": "Wetland specialist plants", "example": "Cranberries, bog orchids" },
@@ -516,975 +423,22 @@
       ]
     }
   ],
-      "type": "crisis",
-      "trend": "drier_warmer",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -2,
-      "effectText": "wet places dry up and water-loving life struggles. remove organisms from the board that are in wet biomes.",
-      "biomesBad": [
-        "Wetlands",
-        "Rivers and lakes",
-        "Tropical forests",
-        "Rain-dependent grasslands"
-      ],
-      "biomesGood": [
-        "Deserts",
-        "Dry scrublands",
-        "Drought-adapted savannas"
-      ],
-      "organismsBad": [
-        { "group": "Amphibians", "example": "Tiger salamander" },
-        { "group": "Shallow-water fish", "example": "Bluegill sunfish" },
-        { "group": "Moisture-dependent plants", "example": "Skunk cabbage" },
-        { "group": "Large water-dependent herbivores", "example": "African elephant" }
-      ],
-      "organismsGood": [
-        { "group": "Cacti and succulents", "example": "Saguaro cactus" },
-        { "group": "Deep-rooted shrubs", "example": "Creosote bush" },
-        { "group": "Drought-tolerant grasses", "example": "Buffalo grass" },
-        { "group": "Burrowing desert animals", "example": "Kangaroo rat" }
-      ]
-    },
-    {
-      "name": "Megaflood",
-      "type": "crisis",
-      "trend": "wetter_extremes",
-      "co2Change": 0,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "effectText": "huge floods wash away soil and life in low areas. remove soil and organism tokens from affected biomes.",
-      "biomesBad": [
-        "River valleys",
-        "Floodplains",
-        "Lowland forests",
-        "Coastal wetlands"
-      ],
-      "biomesGood": [
-        "Downstream deltas",
-        "Fresh gravel bars",
-        "Nutrient-enriched wetlands"
-      ],
-      "organismsBad": [
-        { "group": "Burrowing mammals", "example": "Prairie dog" },
-        { "group": "Ground-nesting birds", "example": "Killdeer" },
-        { "group": "Soil organisms in scoured zones", "example": "Earthworms" },
-        { "group": "Shallow-rooted plants", "example": "Annual wildflowers" }
-      ],
-      "organismsGood": [
-        { "group": "Opportunistic colonizer plants", "example": "Fireweed" },
-        { "group": "Fast-reproducing invertebrates", "example": "Midges" },
-        { "group": "Floodplain fish", "example": "Common carp" }
-      ]
-    },
-    {
-      "name": "Multi-year Heat Wave",
-      "type": "crisis",
-      "trend": "hotter",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -2,
-      "effectText": "The world bakes for many years and heat-sensitive life dies off. Replace or remove cold-loving organisms in hot-stressed biomes.",
-      "biomesBad": [
-        "Temperate forests",
-        "Coral reefs",
-        "Polar and alpine biomes",
-        "Shallow freshwater"
-      ],
-      "biomesGood": [
-        "Warm grasslands and savannas",
-        "Some subtropical seas",
-        "Hot-adapted deserts"
-      ],
-      "organismsBad": [
-        { "group": "Corals", "example": "Staghorn coral" },
-        { "group": "Cold-water fish", "example": "Brook trout" },
-        { "group": "Large water-needy mammals", "example": "Moose" },
-        { "group": "Heat-sensitive amphibians", "example": "Spotted salamander" }
-      ],
-      "organismsGood": [
-        { "group": "Heat-tolerant reptiles", "example": "Desert iguana" },
-        { "group": "Warm-water fish", "example": "Tilapia" },
-        { "group": "C4 grasses", "example": "Switchgrass" },
-        { "group": "Heat-loving insects", "example": "Locusts" }
-      ]
-    },
-    {
-      "name": "Sudden Cold Snap",
-      "type": "crisis",
-      "trend": "colder_spike",
-      "co2Change": 0,
-      "o2Change": 1,
-      "biodiversityChange": -1,
-      "effectText": "A sudden freeze hits warm regions and tropical life cannot cope. Remove or swap out warm-loving organisms in affected spaces.",
-      "biomesBad": [
-        "Tropical forests",
-        "Savannas",
-        "Warm-temperate coasts",
-        "Warm, shallow lakes"
-      ],
-      "biomesGood": [
-        "Tundra edges",
-        "Boreal forest margins",
-        "Cold-water streams"
-      ],
-      "organismsBad": [
-        { "group": "Tropical plants", "example": "Banana plant" },
-        { "group": "Reptiles", "example": "Green anole" },
-        { "group": "Many insects", "example": "Monarch butterfly (larvae)" },
-        { "group": "Warm-water fish", "example": "Guppy" }
-      ],
-      "organismsGood": [
-        { "group": "Cold-adapted conifers", "example": "Spruce" },
-        { "group": "Cold-water fish", "example": "Arctic char" },
-        { "group": "Cold-tolerant invertebrates", "example": "Stonefly nymphs" },
-        { "group": "Insulated mammals", "example": "Snowshoe hare" }
-      ]
-    },
-    {
-      "name": "Ocean Acidification Pulse",
-      "type": "crisis",
-      "trend": "acidic_oceans",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -2,
-      "effectText": "Seawater turns more acidic and shell-building sea life dissolves. Remove or weaken shell-building organisms in affected sea spaces.",
-      "biomesBad": [
-        "Coral reefs",
-        "Shell-plankton-rich surface oceans",
-        "Coastal upwelling zones"
-      ],
-      "biomesGood": [
-        "Seaweed beds",
-        "Seagrass meadows",
-        "Soft-plankton communities"
-      ],
-      "organismsBad": [
-        { "group": "Corals", "example": "Brain coral" },
-        { "group": "Mollusks", "example": "Blue mussel" },
-        { "group": "Shell-forming plankton", "example": "Coccolithophores" },
-        { "group": "Echinoderms", "example": "Sea urchin" }
-      ],
-      "organismsGood": [
-        { "group": "Macroalgae", "example": "Kelp" },
-        { "group": "Seagrasses", "example": "Eelgrass" },
-        { "group": "Jellyfish", "example": "Moon jelly" },
-        { "group": "Non-shell plankton", "example": "Dinoflagellates" }
-      ]
-    },
-    {
-      "name": "Harmful Algal Bloom",
-      "type": "crisis",
-      "trend": "eutrophication",
-      "co2Change": 0,
-      "o2Change": -2,
-      "biodiversityChange": -2,
-      "effectText": "Thick green scum covers the water and uses up oxygen. Remove fish and sensitive invertebrates from bloom-marked water spaces.",
-      "biomesBad": [
-        "Coastal oceans",
-        "Estuaries",
-        "Nutrient-rich lakes",
-        "Semi-enclosed seas"
-      ],
-      "biomesGood": [
-        "Deeper offshore waters (detritus input)",
-        "Detritus-based communities after bloom crash"
-      ],
-      "organismsBad": [
-        { "group": "Fish in low oxygen", "example": "Sardine" },
-        { "group": "Filter feeders", "example": "Oysters" },
-        { "group": "Seagrasses", "example": "Turtle grass" },
-        { "group": "Sensitive invertebrates", "example": "Crabs" }
-      ],
-      "organismsGood": [
-        { "group": "Tolerant algae", "example": "Cyanobacteria mats" },
-        { "group": "Decomposer bacteria", "example": "Sulfate-reducing bacteria" },
-        { "group": "Scavengers", "example": "Gulls" }
-      ]
-    },
-    {
-      "name": "Disease Outbreak",
-      "type": "crisis",
-      "trend": "unstable_populations",
-      "co2Change": 0,
-      "o2Change": 0,
-      "biodiversityChange": -2,
-      "effectText": "A new disease sweeps through crowded populations. Remove host species tokens from one biome type in a chosen region.",
-      "biomesBad": [
-        "Host-dominated forests",
-        "Host-dominated reefs",
-        "Any biome with dense host populations"
-      ],
-      "biomesGood": [
-        "Neighboring biomes with competitors",
-        "Early-successional patches after die-off"
-      ],
-      "organismsBad": [
-        { "group": "Target host species", "example": "American chestnut" },
-        { "group": "Close relatives", "example": "Related oak species" },
-        { "group": "Host-dependent mutualists", "example": "Host-specific mycorrhizae" }
-      ],
-      "organismsGood": [
-        { "group": "Competitor tree species", "example": "Maples" },
-        { "group": "Generalist predators", "example": "Coyote" },
-        { "group": "Scavengers", "example": "Vultures" },
-        { "group": "Decomposers", "example": "Saprobic fungi" }
-      ]
-    },
-    {
-      "name": "Invasive Species Arrival",
-      "type": "crisis",
-      "trend": "biotic_invasion",
-      "co2Change": 0,
-      "o2Change": 0,
-      "biodiversityChange": -2,
-      "effectText": "A tough new species arrives and pushes out locals. Add an invasive token and replace one matching native organism.",
-      "biomesBad": [
-        "Islands",
-        "Lakes and closed basins",
-        "Isolated forests",
-        "Isolated reefs"
-      ],
-      "biomesGood": [
-        "Disturbed edges",
-        "Fragmented landscapes",
-        "Human-disturbed / urban-edge areas"
-      ],
-      "organismsBad": [
-        { "group": "Endemic specialists", "example": "Island rails" },
-        { "group": "Naive prey", "example": "Ground-nesting island birds" },
-        { "group": "Native niche-overlap species", "example": "Native crayfish" }
-      ],
-      "organismsGood": [
-        { "group": "Invasive species", "example": "Zebra mussel" },
-        { "group": "Generalist predators", "example": "Raccoon" },
-        { "group": "Disturbance-tolerant natives", "example": "House sparrow" }
-      ]
-    },
-    {
-      "name": "Predator Boom",
-      "type": "crisis",
-      "trend": "top_down_control",
-      "co2Change": 0,
-      "o2Change": 0,
-      "biodiversityChange": -1,
-      "effectText": "Predators surge and prey are hit hard. Remove or flip large herbivores or common prey in one chosen region.",
-      "biomesBad": [
-        "Overgrazed grasslands",
-        "Fragmented forests",
-        "Overfished reefs"
-      ],
-      "biomesGood": [
-        "Overbrowsed forests",
-        "Algal-dominated reefs"
-      ],
-      "organismsBad": [
-        { "group": "Large herbivores", "example": "Deer" },
-        { "group": "Mid-level predators", "example": "Foxes" },
-        { "group": "Overabundant prey", "example": "Snowshoe hare" }
-      ],
-      "organismsGood": [
-        { "group": "Plants released from grazing", "example": "Oak saplings" },
-        { "group": "Prey of mesopredators", "example": "Small rodents" },
-        { "group": "Scavengers", "example": "Ravens" }
-      ]
-    },
-    {
-      "name": "Wildfire Season",
-      "type": "crisis",
-      "trend": "hotter_drier_fire",
-      "co2Change": 2,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "effectText": "Fires sweep through and burn non–fire-adapted areas. Remove organisms from 1–2 forest or peatland spaces and mark them as burned.",
-      "biomesBad": [
-        "Moist tropical forests",
-        "Peatlands",
-        "Wetlands",
-        "Non-fire-adapted biomes"
-      ],
-      "biomesGood": [
-        "Fire-adapted grasslands",
-        "Savannas",
-        "Mediterranean shrublands",
-        "Some pine forests"
-      ],
-      "organismsBad": [
-        { "group": "Large slow-moving animals", "example": "Koala" },
-        { "group": "Fire-sensitive trees", "example": "Tropical hardwoods" },
-        { "group": "Soil organisms in hot burns", "example": "Soil nematodes" }
-      ],
-      "organismsGood": [
-        { "group": "Fire-adapted trees", "example": "Lodgepole pine" },
-        { "group": "Seed-eating birds", "example": "Finches" },
-        { "group": "Burn-wood insects", "example": "Wood-boring beetles" }
-      ]
-    },
-    {
-      "name": "Volcanic Eruption (Regional)",
-      "type": "crisis",
-      "trend": "ash_and_new_lands",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "effectText": "Ash blankets nearby land and rivers. Remove organisms from one ash-covered land space and one river/coastal space.",
-      "biomesBad": [
-        "Downwind forests",
-        "Ash-covered grasslands",
-        "River systems with ash",
-        "Nearby coasts"
-      ],
-      "biomesGood": [
-        "Volcanic slopes over time",
-        "Fresh lava fields after weathering",
-        "Dust-enriched downwind regions"
-      ],
-      "organismsBad": [
-        { "group": "Local forest communities", "example": "Beech forest" },
-        { "group": "River fish", "example": "Salmon" },
-        { "group": "Nearby terrestrial animals", "example": "Deer" }
-      ],
-      "organismsGood": [
-        { "group": "Pioneer plants", "example": "Mosses" },
-        { "group": "Lichens", "example": "Crustose lichens" },
-        { "group": "Nitrogen-fixing organisms", "example": "Alder trees" }
-      ]
-    },
-    {
-      "name": "Ash-Darkened Skies",
-      "type": "crisis",
-      "trend": "dimmer_skies",
-      "co2Change": 0,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "effectText": "Dust and ash block sunlight. For this round, producers in 1–2 chosen regions do not give energy and may be replaced by shade-tolerant types.",
-      "biomesBad": [
-        "Marine",
-        "Coral reefs",
-        "Subpolar",
-        "Polar\nSun-dependent grasslands"
-      ],
-      "biomesGood": [
-        "Shade-tolerant forest understories",
-        "Deep ocean communities"
-      ],
-      "organismsBad": [
-        { "group": "Phytoplankton", "example": "Diatoms" },
-        { "group": "Coral symbionts", "example": "Symbiodinium algae" },
-        { "group": "Sun-loving plants", "example": "Prairie grasses" },
-        { "group": "Visual hunters", "example": "Eagles" }
-      ],
-      "organismsGood": [
-        { "group": "Shade plants", "example": "Ferns" },
-        { "group": "Detritivores", "example": "Millipedes" },
-        { "group": "Non-visual predators", "example": "Wolves" }
-      ]
-    },
-    {
-      "name": "River Pollution Event",
-      "type": "crisis",
-      "trend": "dirty_waters",
-      "co2Change": 1,
-      "o2Change": -2,
-      "biodiversityChange": -2,
-      "effectText": "Chemicals spill into rivers and lakes. Remove or move fish, amphibians, and sensitive invertebrates from two connected freshwater spaces.",
-      "biomesBad": [
-        "Rivers and streams",
-        "Connected lakes",
-        "Floodplain wetlands",
-        "Estuaries"
-      ],
-      "biomesGood": [
-        "Filtering wetlands downstream",
-        "Microbial mats using pollutants"
-      ],
-      "organismsBad": [
-        { "group": "Fish", "example": "Trout" },
-        { "group": "Amphibians", "example": "Frogs" },
-        { "group": "Aquatic invertebrates", "example": "Mayfly nymphs" },
-        { "group": "Sensitive riparian plants", "example": "Willows" }
-      ],
-      "organismsGood": [
-        { "group": "Pollution-tolerant invertebrates", "example": "Midge larvae" },
-        { "group": "Algae using extra nutrients", "example": "Filamentous green algae" },
-        { "group": "Pollutant-eating bacteria", "example": "Hydrocarbon-degrading bacteria" }
-      ]
-    },
-    {
-      "name": "Habitat Fragmentation",
-      "type": "crisis",
-      "trend": "broken_habitats",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -2,
-      "effectText": "Big habitats get chopped into small pieces. Remove wide-ranging or specialist organisms and replace them with edge-loving generalists.",
-      "biomesBad": [
-        "Continuous forests",
-        "Large grasslands",
-        "Big wetland complexes"
-      ],
-      "biomesGood": [
-        "Edge habitats",
-        "Hedgerows",
-        "Roadside strips",
-        "Small ponds and patches"
-      ],
-      "organismsBad": [
-        { "group": "Wide-ranging mammals", "example": "Wolves" },
-        { "group": "Interior forest birds", "example": "Wood thrush" },
-        { "group": "Corridor-using migrants", "example": "Caribou" },
-        { "group": "Specialists", "example": "Spotted owl" }
-      ],
-      "organismsGood": [
-        { "group": "Edge-dwelling birds", "example": "Robins" },
-        { "group": "Small generalist mammals", "example": "Raccoons" },
-        { "group": "Weedy plants", "example": "Dandelions" },
-        { "group": "Some insects", "example": "Cabbage white butterfly" }
-      ]
-    },
-    {
-      "name": "Oxygen Crash (Local)",
-      "type": "crisis",
-      "trend": "low_oxygen_waters",
-      "co2Change": 0,
-      "o2Change": -2,
-      "biodiversityChange": -2,
-      "effectText": "Oxygen disappears from a patch of water. Remove 2 fish or invertebrate tokens from a chosen low-oxygen water space.",
-      "biomesBad": [
-        "Stratified lakes",
-        "Estuaries",
-        "Coastal dead zones",
-        "Enclosed seas"
-      ],
-      "biomesGood": [
-        "Anoxic zones for special microbes"
-      ],
-      "organismsBad": [
-        { "group": "Most fish", "example": "Catfish" },
-        { "group": "Aerobic invertebrates", "example": "Crayfish" },
-        { "group": "Benthic animals", "example": "Mussels" }
-      ],
-      "organismsGood": [
-        { "group": "Anaerobic bacteria", "example": "Methanogens" },
-        { "group": "Sulfur-bacteria mats", "example": "Beggiatoa" },
-        { "group": "Low-oxygen extremophiles", "example": "Some tubeworms" }
-      ]
-    },
-    {
-      "name": "Submarine Landslide Shock",
-      "type": "crisis",
-      "trend": "seafloor_disturbance",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -2,
-      "h2o": 0,
-      "effectText": "A huge undersea landslide buries seafloor communities in mud. Remove or weaken bottom-dwelling organisms in deep-sea and slope biomes.",
-      "biomesBad": [
-        "Marine (Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Upwelling)"
-      ],
-      "organismsBad": [
-        { "group": "Seafloor filter feeders", "example": "Sea cucumbers" },
-        { "group": "Sessile invertebrates", "example": "Cold-water corals" }
-      ],
-      "organismsGood": [
-        { "group": "Mobile scavengers", "example": "Deep-sea fish" },
-        { "group": "Opportunistic microbes", "example": "Mud-tolerant bacteria" }
-      ]
-    },
-    {
-      "name": "Pumice Raft Drift",
-      "type": "crisis",
-      "trend": "floating_debris_mats",
-      "co2Change": 0,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "h2o": -1,
-      "effectText": "A volcanic eruption sends floating pumice rafts across the sea, shading waters and clogging coasts. Remove or move surface-feeding organisms from gyres and shoreline spaces.",
-      "biomesBad": [
-        "Marine (Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Upwelling, Tropical Upwelling)"
-      ],
-      "organismsBad": [
-        { "group": "Surface-feeding birds", "example": "Albatross" },
-        { "group": "Filter-feeding fish and invertebrates", "example": "Anchovies, krill" }
-      ],
-      "organismsGood": [
-        { "group": "Raft-colonizing invertebrates", "example": "Barnacles" },
-        { "group": "Opportunistic small fish", "example": "Mullet" }
-      ]
-    },
-    {
-      "name": "Kelp Forest Collapse",
-      "type": "crisis",
-      "trend": "lost_underwater_forests",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -2,
-      "h2o": 0,
-      "effectText": "A rare warm current and urchin boom wipe out kelp forests. Remove kelp and shelter-loving species from temperate rocky coasts.",
-      "biomesBad": [
-        "Marine (Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Upwelling)"
-      ],
-      "organismsBad": [
-        { "group": "Canopy-forming algae", "example": "Giant kelp" },
-        { "group": "Kelp-dependent fish", "example": "Rockfish" }
-      ],
-      "organismsGood": [
-        { "group": "Grazing sea urchins", "example": "Purple sea urchin" },
-        { "group": "Opportunistic turf algae", "example": "Filamentous algae" }
-      ]
-    },
-    {
-      "name": "Warm Current Coral Stress",
-      "type": "crisis",
-      "trend": "heat_stressed_reefs",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -3,
-      "h2o": 0,
-      "effectText": "A strong natural warm current lingers over reef zones. Remove or flip coral-building organisms in shallow tropical reef spaces.",
-      "biomesBad": [
-        "Marine (Tropical Coral)"
-      ],
-      "biomesGood": [
-        "Marine (Tropical Upwelling, Temperate Shelf and Seas)"
-      ],
-      "organismsBad": [
-        { "group": "Reef-building corals", "example": "Branching corals" },
-        { "group": "Reef-dependent fish", "example": "Butterflyfish" }
-      ],
-      "organismsGood": [
-        { "group": "Algae mats", "example": "Turf algae" },
-        { "group": "Hardy generalist fish", "example": "Damselfish" }
-      ]
-    },
-    {
-      "name": "Bark Beetle Explosion",
-      "type": "crisis",
-      "trend": "insect_outbreak",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "h2o": 1,
-      "effectText": "Several mild winters let bark beetles boom. Remove or flip mature conifer trees in vulnerable forest spaces.",
-      "biomesBad": [
-        "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)"
-      ],
-      "biomesGood": [
-        "Forest (Temperate Broadleaf and Mixed Forests)"
-      ],
-      "organismsBad": [
-        { "group": "Large conifers", "example": "Lodgepole pine" },
-        { "group": "Tree-dependent specialists", "example": "Red crossbill" }
-      ],
-      "organismsGood": [
-        { "group": "Bark beetles", "example": "Mountain pine beetle" },
-        { "group": "Dead-wood users", "example": "Woodpeckers" }
-      ]
-    },
-    {
-      "name": "Understory Fire Storm",
-      "type": "crisis",
-      "trend": "fire_in_forest",
-      "co2Change": 2,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "h2o": 1,
-      "effectText": "Lightning-sparked fires sweep the forest floor. Remove leaf-litter and understory organisms in chosen forest spaces.",
-      "biomesBad": [
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)"
-      ],
-      "biomesGood": [
-        "Forest (Mediterranean Forests, Woodlands, and Scrub, Temperate Coniferous Forests)"
-      ],
-      "organismsBad": [
-        { "group": "Shade-loving herbs", "example": "Trillium" },
-        { "group": "Slow-moving litter animals", "example": "Forest salamanders" }
-      ],
-      "organismsGood": [
-        { "group": "Fire-adapted trees", "example": "Thick-barked pines" },
-        { "group": "Post-fire colonizers", "example": "Fireweed" }
-      ]
-    },
-    {
-      "name": "Windthrow Patchwork",
-      "type": "crisis",
-      "trend": "storm_gap_mosaic",
-      "co2Change": 1,
-      "o2Change": 0,
-      "biodiversityChange": -1,
-      "h2o": 0,
-      "effectText": "A mega-storm knocks down swaths of trees, opening the canopy. Remove large trees in selected forest spaces and treat them as fresh gaps.",
-      "biomesBad": [
-        "Forest (Temperate Broadleaf and Mixed Forests, Tropical and Subtropical Moist Broadleaf Forests)"
-      ],
-      "biomesGood": [
-        "Forest (Montane Grasslands and Shrublands, Mediterranean Forests, Woodlands, and Scrub)"
-      ],
-      "organismsBad": [
-        { "group": "Very tall canopy trees", "example": "Emergent rainforest trees" },
-        { "group": "Canopy specialists", "example": "Howler monkeys" }
-      ],
-      "organismsGood": [
-        { "group": "Gap colonizing trees", "example": "Birch" },
-        { "group": "Sun-loving shrubs", "example": "Brambles" }
-      ]
-    },
-    {
-      "name": "Canopy Ice Breakage",
-      "type": "crisis",
-      "trend": "ice_storm_damage",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "h2o": -1,
-      "effectText": "A heavy ice storm coats branches until they snap. Remove or weaken canopy trees and high-branch species in affected forests.",
-      "biomesBad": [
-        "Forest (Temperate Broadleaf and Mixed Forests)"
-      ],
-      "biomesGood": [
-        "Forest (Boreal Forests and Taiga)"
-      ],
-      "organismsBad": [
-        { "group": "Canopy trees", "example": "Oaks and beeches" },
-        { "group": "Canopy animals", "example": "Arboreal monkeys" }
-      ],
-      "organismsGood": [
-        { "group": "Understory plants", "example": "Ferns" },
-        { "group": "Gap-opportunist herbs", "example": "Early spring wildflowers" }
-      ]
-    },
-    {
-      "name": "Sand Dune Encroachment",
-      "type": "crisis",
-      "trend": "shifting_sands",
-      "co2Change": 1,
-      "o2Change": 0,
-      "biodiversityChange": -2,
-      "h2o": 2,
-      "effectText": "Winds push dunes over nearby habitats, burying soils and roots. Bury or remove organisms in advancing dune and desert edge spaces.",
-      "biomesBad": [
-        "Desert (Deserts and Xeric Shrublands, Xeric Basins)"
-      ],
-      "biomesGood": [
-        "Desert (Deserts and Xeric Shrublands)"
-      ],
-      "organismsBad": [
-        { "group": "Shallow-rooted shrubs", "example": "Sagebrush" },
-        { "group": "Burrows in dune fronts", "example": "Ground squirrels" }
-      ],
-      "organismsGood": [
-        { "group": "Mobile desert animals", "example": "Fennec fox" },
-        { "group": "Deep-rooted plants", "example": "Tamarisk" }
-      ]
-    },
-    {
-      "name": "Flash Drought Heat Spike",
-      "type": "crisis",
-      "trend": "extreme_desert_heat",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "h2o": 4,
-      "effectText": "A sudden, brutal heat wave hits even hardy desert life. Remove less-tolerant plants and animals from exposed desert spaces.",
-      "biomesBad": [
-        "Desert (Deserts and Xeric Shrublands, Xeric Basins)"
-      ],
-      "biomesGood": [
-        "Desert (Deserts and Xeric Shrublands)"
-      ],
-      "organismsBad": [
-        { "group": "Semi-desert plants", "example": "Low shrubs" },
-        { "group": "Day-active animals", "example": "Diurnal lizards" }
-      ],
-      "organismsGood": [
-        { "group": "Extreme heat specialists", "example": "Sidewinder snakes" },
-        { "group": "Nocturnal animals", "example": "Jerboas" }
-      ]
-    },
-    {
-      "name": "Dust Storm Season",
-      "type": "crisis",
-      "trend": "airborne_dust",
-      "co2Change": 0,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "h2o": 2,
-      "effectText": "Choking dust clouds block sun and coat leaves. In chosen desert and downwind grassland spaces, weaken or remove small plants and air-breathers.",
-      "biomesBad": [
-        "Desert (Deserts and Xeric Shrublands)",
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)"
-      ],
-      "biomesGood": [
-        "Desert (Xeric Basins)",
-        "Grassland (Montane Grasslands and Shrublands)"
-      ],
-      "organismsBad": [
-        { "group": "Small-leaved shrubs", "example": "Sagebrush" },
-        { "group": "Surface-dwelling animals", "example": "Insects and rodents" }
-      ],
-      "organismsGood": [
-        { "group": "Dust-tolerant plants", "example": "Thick-coated succulents" },
-        { "group": "Burrowing animals", "example": "Desert tortoises" }
-      ]
-    },
-    {
-      "name": "Native Herbivore Surge",
-      "type": "crisis",
-      "trend": "herbivore_boom",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -2,
-      "h2o": 1,
-      "effectText": "Native herbivore herds crowd the desert fringe after a few good years. Remove palatable grasses and small plants from margin grassland spaces.",
-      "biomesBad": [
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Desert (Deserts and Xeric Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Montane Grasslands and Shrublands)",
-        "Desert (Xeric Basins)"
-      ],
-      "organismsBad": [
-        { "group": "Palatable grasses", "example": "Buffelgrass" },
-        { "group": "Small herbivores with little refuge", "example": "Rodents in open areas" }
-      ],
-      "organismsGood": [
-        { "group": "Thorny shrubs", "example": "Spiny acacias" },
-        { "group": "Hardy succulents", "example": "Prickly pear" }
-      ]
-    },
-    {
-      "name": "Locust Swarm Year",
-      "type": "crisis",
-      "trend": "insect_plague",
-      "co2Change": 0,
-      "o2Change": -1,
-      "biodiversityChange": -2,
-      "h2o": 1,
-      "effectText": "Shifting rains trigger huge locust swarms that strip grasses and herbs. Remove plant producers from affected grassland spaces.",
-      "biomesBad": [
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands, Temperate Grasslands, Savannas, and Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Flooded Grasslands and Savannas, Montane Grasslands and Shrublands)"
-      ],
-      "organismsBad": [
-        { "group": "Grasses and forbs", "example": "Bunchgrasses, wildflowers" },
-        { "group": "Small herbivores competing for plants", "example": "Hares" }
-      ],
-      "organismsGood": [
-        { "group": "Locusts", "example": "Swarming grasshoppers" },
-        { "group": "Insect-eating birds", "example": "Starlings, swallows" }
-      ]
-    },
-    {
-      "name": "Mega-Herbivore Crash",
-      "type": "crisis",
-      "trend": "lost_large_grazers",
-      "co2Change": 1,
-      "o2Change": 0,
-      "biodiversityChange": -1,
-      "h2o": -1,
-      "effectText": "Disease and harsh seasons wipe out large grazers. Remove big herbivore tokens and let woody plants begin to invade.",
-      "biomesBad": [
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Montane Grasslands and Shrublands)",
-        "Forest (Mediterranean Forests, Woodlands, and Scrub)"
-      ],
-      "organismsBad": [
-        { "group": "Large grazers", "example": "Bison, wildebeest" },
-        { "group": "Grazing-dependent predators", "example": "Lions, wolves" }
-      ],
-      "organismsGood": [
-        { "group": "Shrubs and small trees", "example": "Acacias, junipers" },
-        { "group": "Small browsers", "example": "Antelope" }
-      ]
-    },
-    {
-      "name": "Unseasonal Frost on Plains",
-      "type": "crisis",
-      "trend": "out_of_sync_cold",
-      "co2Change": 0,
-      "o2Change": 0,
-      "biodiversityChange": -1,
-      "h2o": 0,
-      "effectText": "A surprise frost hits during growing or nesting season. Remove young plants and nests from selected grassland spaces.",
-      "biomesBad": [
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands, Montane Grasslands and Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Flooded Grasslands and Savannas)"
-      ],
-      "organismsBad": [
-        { "group": "New seedlings", "example": "Young grasses and crops" },
-        { "group": "Ground-nesting birds", "example": "Larks, plovers" }
-      ],
-      "organismsGood": [
-        { "group": "Cold-hardy perennials", "example": "Deep-rooted grasses" },
-        { "group": "Later-season breeders", "example": "Species nesting after frost" }
-      ]
-    },
-    {
-      "name": "Ash-Fall Grassland Mantle",
-      "type": "crisis",
-      "trend": "volcanic_ash_blanket",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "h2o": -2,
-      "effectText": "Distant volcanoes dust grasslands with ash. Remove delicate plants in freshly ash-covered spaces; later these soils may hold more water and nutrients.",
-      "biomesBad": [
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)"
-      ],
-      "biomesGood": [
-        "Grassland (Montane Grasslands and Shrublands, Flooded Grasslands and Savannas)"
-      ],
-      "organismsBad": [
-        { "group": "Delicate grasses", "example": "Short bunchgrasses" },
-        { "group": "Small grazers in heavy ash", "example": "Rodents" }
-      ],
-      "organismsGood": [
-        { "group": "Ash-tolerant pioneers", "example": "Early colonizing herbs" },
-        { "group": "Deep-rooted grasses", "example": "Tall prairie grasses" }
-      ]
-    },
-    {
-      "name": "Permafrost Thaw Slump",
-      "type": "crisis",
-      "trend": "thawing_ground",
-      "co2Change": 2,
-      "o2Change": -1,
-      "biodiversityChange": -1,
-      "h2o": -3,
-      "effectText": "Frozen ground melts and collapses into muddy slumps. Remove tundra plants and soil animals from thawed hill and riverbank spaces; some form new ponds.",
-      "biomesBad": [
-        "Tundra (Tundra, Polar)"
-      ],
-      "biomesGood": [
-        "Tundra (Tundra)"
-      ],
-      "organismsBad": [
-        { "group": "Tundra mosses and lichens", "example": "Reindeer moss" },
-        { "group": "Burrowing mammals", "example": "Lemmings" }
-      ],
-      "organismsGood": [
-        { "group": "Methane-releasing microbes", "example": "Anaerobic bacteria" },
-        { "group": "Aquatic colonizers", "example": "Mosquito larvae" }
-      ]
-    },
-    {
-      "name": "Snowpack Failure Winter",
-      "type": "crisis",
-      "trend": "thin_snow_cover",
-      "co2Change": 0,
-      "o2Change": 0,
-      "biodiversityChange": -1,
-      "h2o": 1,
-      "effectText": "Thin, icy snow no longer protects tundra life. Remove or weaken small animals and plants that rely on soft snow cover.",
-      "biomesBad": [
-        "Tundra (Tundra, Polar)"
-      ],
-      "biomesGood": [
-        "Tundra (Tundra)",
-        "Forest (Boreal Forests and Taiga)"
-      ],
-      "organismsBad": [
-        { "group": "Subnivean small mammals", "example": "Voles" },
-        { "group": "Low tundra shrubs", "example": "Willow shrubs" }
-      ],
-      "organismsGood": [
-        { "group": "Snow-crust walkers", "example": "Caribou" },
-        { "group": "Aerial predators", "example": "Snowy owls" }
-      ]
-    },
-    {
-      "name": "Ice-Algae Collapse",
-      "type": "crisis",
-      "trend": "lost_sea_ice",
-      "co2Change": 1,
-      "o2Change": -1,
-      "biodiversityChange": -2,
-      "h2o": 0,
-      "effectText": "A rare warm-water intrusion melts seasonal sea ice early. Remove ice-dependent producers and animals from polar marine spaces.",
-      "biomesBad": [
-        "Tundra (Polar)",
-        "Marine (Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Shelf and Seas, Temperate Upwelling)"
-      ],
-      "organismsBad": [
-        { "group": "Ice algae", "example": "Sea-ice diatoms" },
-        { "group": "Ice-dependent animals", "example": "Krill, polar bears" }
-      ],
-      "organismsGood": [
-        { "group": "Open-water plankton", "example": "Pelagic phytoplankton" },
-        { "group": "Open-water fish", "example": "Arctic cod" }
-      ]
-    },
-    {
-      "name": "Tundra Shrub Takeover",
-      "type": "crisis",
-      "trend": "woody_tundra_shift",
-      "co2Change": 1,
-      "o2Change": 1,
-      "biodiversityChange": -1,
-      "h2o": -2,
-      "effectText": "A natural warm phase lets shrubs spread over open tundra. Replace low tundra plants and open-ground species with taller shrubs and new browsers.",
-      "biomesBad": [
-        "Tundra (Tundra, Polar)"
-      ],
-      "biomesGood": [
-        "Tundra (Tundra)",
-        "Forest (Boreal Forests and Taiga)"
-      ],
-      "organismsBad": [
-        { "group": "Low mat-forming plants", "example": "Cushion plants" },
-        { "group": "Lichen grazers", "example": "Reindeer relying on lichens" }
-      ],
-      "organismsGood": [
-        { "group": "Tall deciduous shrubs", "example": "Willows, birches" },
-        { "group": "Shrub browsers", "example": "Moose, hares" }
-      ]
-    }
-  ],
   "recovery": [
     {
-      "name": "New Colonization Wave",
+      "name": "Regeneration Pulse",
       "type": "recovery",
-      "trend": "new_life_spreads",
+      "trend": "resource_boost",
       "co2Change": -1,
       "o2Change": 1,
-      "biodiversityChange": 2,
-      "effectText": "New hardy species spread into empty spaces. Add new producer or simple organism tokens into recently disturbed biomes.",
-      "biomesBad": [
-        "Stable climax forests",
-        "Old coral reefs with little open space"
-      ],
-      "biomesGood": [
-        "Disturbed forest clearings",
-        "Fresh sandbars and gravel bars",
-        "Recently cooled lava fields"
-      ],
-      "organismsBad": [
-        { "group": "Old-growth specialists", "example": "Spotted owl" },
-        { "group": "Slow-growing corals", "example": "Brain coral" }
-      ],
+      "biodiversityChange": 1,
+      "h2o": 0,
+      "effectText": "Recovery begins. All players gain 1 extra organism of a chosen biome type (up to their biome cap).",
+      "biomesBad": [],
+      "biomesGood": ["All biomes equally"],
+      "organismsBad": [],
       "organismsGood": [
-        { "group": "Pioneer plants", "example": "Fireweed" },
-        { "group": "Colonizing grasses", "example": "Ryegrass" },
-        { "group": "Opportunistic reef organisms", "example": "Branching corals" }
+        { "group": "Pioneer plants and animals", "example": "Early colonizers of all types" },
+        { "group": "Reproductive success", "example": "Population bouncebacks" }
       ]
     },
     {
@@ -1494,240 +448,133 @@
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": 1,
-      "effectText": "Extra nutrients reach certain waters or floodplains. Add or upgrade producer tokens in one chosen ocean, lake, or floodplain region.",
-      "biomesBad": [
-        "Clear-water coral reefs (if overloaded)",
-        "Oligotrophic lakes (if over-fertilized)"
-      ],
-      "biomesGood": [
-        "Upwelling coastal zones",
-        "Productive estuaries",
-        "Flooded floodplains"
-      ],
-      "organismsBad": [
-        { "group": "Corals smothered by sediment", "example": "Staghorn coral" },
-        { "group": "Sensitive freshwater fish", "example": "Trout" }
-      ],
+      "h2o": 1,
+      "effectText": "Nutrient-rich soils and waters boost producer organisms. Each player may add 1 producer organism to any biome.",
+      "biomesBad": [],
+      "biomesGood": ["Wetlands, floodplains, and upwelling zones"],
+      "organismsBad": [],
       "organismsGood": [
-        { "group": "Phytoplankton", "example": "Diatoms" },
-        { "group": "Fast-growing algae", "example": "Kelp" },
-        { "group": "Grazing zooplankton", "example": "Copepods" },
-        { "group": "Filter feeders", "example": "Mussels" }
+        { "group": "Nitrogen-fixing plants", "example": "Legumes, alder" },
+        { "group": "Nutrient-cycling microbes", "example": "Mycorrhizal fungi" }
       ]
     },
     {
-      "name": "Refugia Discovered",
+      "name": "Pollinator Abundance",
       "type": "recovery",
-      "trend": "safe_hideouts",
+      "trend": "biotic_recovery",
       "co2Change": 0,
       "o2Change": 0,
-      "biodiversityChange": 2,
-      "effectText": "Hidden safe spots are found where life can hide. Mark 1–2 spaces as refuges; organisms there ignore the next crisis.",
-      "biomesBad": [
-        "Exposed degraded areas outside refuges",
-        "Overcrowded neighboring habitats"
-      ],
-      "biomesGood": [
-        "Cool moist ravines",
-        "Deep lakes and spring pools",
-        "Sheltered mountain valleys"
-      ],
-      "organismsBad": [
-        { "group": "Species stuck outside refuges", "example": "Isolated lizards" },
-        { "group": "Poor dispersers", "example": "Small understory plants" }
-      ],
+      "biodiversityChange": 1,
+      "h2o": 0,
+      "effectText": "Insect pollinators rebound and plant reproduction surges. Add 1 flowering plant organism to any biome you control.",
+      "biomesBad": [],
+      "biomesGood": ["Grasslands, meadows, and flowering forests"],
+      "organismsBad": [],
       "organismsGood": [
-        { "group": "Relict amphibians", "example": "Salamanders" },
-        { "group": "Shade-loving plants", "example": "Ferns" },
-        { "group": "Cold-tolerant fish", "example": "Spring trout" }
+        { "group": "Pollinators", "example": "Bees, butterflies, hummingbirds" },
+        { "group": "Flowering plants", "example": "Wildflowers, fruiting shrubs" }
       ]
     },
     {
-      "name": "Keystone Species Returns",
+      "name": "Predator Return",
       "type": "recovery",
-      "trend": "food_web_balance",
+      "trend": "food_web_restoration",
       "co2Change": 0,
       "o2Change": 0,
-      "biodiversityChange": 2,
-      "effectText": "A missing keystone species comes back and stabilizes the web. Add a keystone organism and remove up to two overabundant prey.",
-      "biomesBad": [
-        "Systems where prey drop quickly (short term)",
-        "Habitats where competitors of the keystone decline"
-      ],
-      "biomesGood": [
-        "Overgrazed grasslands",
-        "Algal-overgrown reefs",
-        "Forests missing key predators or herbivores"
-      ],
-      "organismsBad": [
-        { "group": "Overabundant prey", "example": "Deer" },
-        { "group": "Mesopredators", "example": "Coyotes" }
-      ],
+      "biodiversityChange": 1,
+      "h2o": 0,
+      "effectText": "Top predators return and stabilize ecosystems. Add 1 carnivore or omnivore organism to any biome you control.",
+      "biomesBad": [],
+      "biomesGood": ["Prey-rich grasslands and forests"],
+      "organismsBad": [],
       "organismsGood": [
-        { "group": "Keystone predators", "example": "Gray wolf" },
-        { "group": "Keystone herbivores", "example": "Bison" },
-        { "group": "Dependent plants", "example": "Aspen" }
+        { "group": "Large predators", "example": "Wolves, eagles, sharks" },
+        { "group": "Apex omnivores", "example": "Bears, crocodiles" }
       ]
     },
     {
-      "name": "Stabilized Food Web",
+      "name": "Seed Diaspora",
       "type": "recovery",
-      "trend": "webs_in_balance",
+      "trend": "biological_dispersal",
       "co2Change": 0,
       "o2Change": 0,
-      "biodiversityChange": 2,
-      "effectText": "Food webs become more balanced again. Remove one super-dominant species and add a new organism at a different trophic level.",
-      "biomesBad": [
-        "Very simplified monocultures",
-        "Highly disturbed edges losing chaotic dominance"
-      ],
-      "biomesGood": [
-        "Mixed-age forests",
-        "Balanced reefs",
-        "Grasslands with varied grazers"
-      ],
-      "organismsBad": [
-        { "group": "Single dominant species", "example": "One invasive grass" },
-        { "group": "Out-of-balance herbivore herds", "example": "Overabundant rabbits" }
-      ],
+      "biodiversityChange": 1,
+      "h2o": 0,
+      "effectText": "Seeds and spores spread widely, repopulating damaged areas. Add 1 plant organism to 2 different biomes you control.",
+      "biomesBad": [],
+      "biomesGood": ["All biome types benefit equally"],
+      "organismsBad": [],
       "organismsGood": [
-        { "group": "Diverse predator guilds", "example": "Hawks, foxes, owls" },
-        { "group": "Mixed herbivore communities", "example": "Bison and pronghorn" },
-        { "group": "Plants across layers", "example": "Canopy, understory, groundcover" }
+        { "group": "Seed-dispersing animals", "example": "Birds, squirrels, ants" },
+        { "group": "Colonizing plants", "example": "Pioneer shrubs, early-seral trees" }
       ]
     },
     {
-      "name": "Climate Settles",
+      "name": "Microbial Bloom",
       "type": "recovery",
-      "trend": "more_moderate",
+      "trend": "decomposer_rebound",
       "co2Change": -1,
       "o2Change": 1,
-      "biodiversityChange": 1,
-      "effectText": "Extreme heat or cold eases back toward the middle. Let climate-sensitive organisms return to 1–2 spaces that recently lost them.",
-      "biomesBad": [
-        "Extreme cold-only niches",
-        "Extreme heat-only niches"
-      ],
-      "biomesGood": [
-        "Temperate forests",
-        "Seasonal grasslands",
-        "Moderate coastal seas"
-      ],
-      "organismsBad": [
-        { "group": "Extreme cold specialists", "example": "Alpine cushion plants" },
-        { "group": "Extreme heat specialists", "example": "Desert beetles" }
-      ],
+      "biodiversityChange": 0,
+      "h2o": 1,
+      "effectText": "Decomposer microbes multiply and recycled nutrients feed new growth. Draw an extra Organism card and add it to any biome; do not spend biome points.",
+      "biomesBad": [],
+      "biomesGood": ["Rich soils and anoxic waters"],
+      "organismsBad": [],
       "organismsGood": [
-        { "group": "Temperate trees", "example": "Oak" },
-        { "group": "Seasonal grasses", "example": "Fescue" },
-        { "group": "Migratory birds needing regular seasons", "example": "Warblers" }
+        { "group": "Decomposers", "example": "Bacteria, fungi, archaea" },
+        { "group": "Nutrient recyclers", "example": "Denitrifiers, methanogens" }
       ]
     },
     {
-      "name": "Oxygen Surge",
+      "name": "Oxygen Stabilization",
       "type": "recovery",
-      "trend": "more_oxygen",
-      "co2Change": -1,
-      "o2Change": 2,
-      "biodiversityChange": 1,
-      "effectText": "Waters mix and oxygen levels rise again. In one water region, return or add fish and invertebrate tokens that were lost.",
-      "biomesBad": [
-        "Naturally low-oxygen niches for anaerobic microbes"
-      ],
-      "biomesGood": [
-        "Coastal upwelling zones",
-        "Lakes recovering from eutrophication",
-        "Shallow marine shelves"
-      ],
-      "organismsBad": [
-        { "group": "Strict anaerobic bacteria", "example": "Methanogens" }
-      ],
-      "organismsGood": [
-        { "group": "Active fish", "example": "Salmon" },
-        { "group": "Aerobic invertebrates", "example": "Crayfish" },
-        { "group": "Benthic animals", "example": "Mussels" },
-        { "group": "Aerobic microbes", "example": "Nitrifying bacteria" }
-      ]
-    },
-    {
-      "name": "Mutualisms Form",
-      "type": "recovery",
-      "trend": "teamwork_grows",
-      "co2Change": -1,
+      "trend": "atmospheric_recovery",
+      "co2Change": 0,
       "o2Change": 1,
-      "biodiversityChange": 2,
-      "effectText": "New partnerships form between species. Mark one biome as highly cooperative; organisms there are protected from the next crisis.",
-      "biomesBad": [
-        "Old simple systems where non-mutualists lose ground"
-      ],
-      "biomesGood": [
-        "Forests with root-fungal networks",
-        "Reefs with strong coral-algae partnerships",
-        "Grasslands with nitrogen-fixing plants"
-      ],
-      "organismsBad": [
-        { "group": "Non-mutualist competitors", "example": "Some solitary plants" }
-      ],
+      "biodiversityChange": 0,
+      "h2o": 0,
+      "effectText": "Atmospheric and aquatic oxygen levels stabilize. Reduce negative biodiversity effects by 1 point for any one card this round.",
+      "biomesBad": [],
+      "biomesGood": ["Oxygen-producing biomes (forests, algae beds, reefs)"],
+      "organismsBad": [],
       "organismsGood": [
-        { "group": "Mycorrhizal fungi", "example": "Tree-root partners" },
-        { "group": "Nitrogen-fixers", "example": "Legumes with rhizobia" },
-        { "group": "Pollinators", "example": "Bees" },
-        { "group": "Coral-algae pairs", "example": "Corals with Symbiodinium" }
+        { "group": "Oxygen producers", "example": "Forest trees, phytoplankton" },
+        { "group": "Oxygen-sensitive organisms", "example": "Deep-sea fish, soil fauna" }
       ]
     },
     {
-      "name": "Migration Wave",
+      "name": "Climate Stabilization",
       "type": "recovery",
-      "trend": "life_on_the_move",
+      "trend": "climate_regulation",
+      "co2Change": -1,
+      "o2Change": 0,
+      "biodiversityChange": 1,
+      "h2o": 0,
+      "effectText": "Global climate patterns stabilize, allowing displaced species to return. Restore 1 organism token that was removed by a Crisis card this round (if any remain available).",
+      "biomesBad": [],
+      "biomesGood": ["All climate zones stabilize"],
+      "organismsBad": [],
+      "organismsGood": [
+        { "group": "Climate-sensitive generalists", "example": "Cosmopolitan species" },
+        { "group": "Returning specialists", "example": "Re-colonizers from refugia" }
+      ]
+    },
+    {
+      "name": "Water Cycle Restoration",
+      "type": "recovery",
+      "trend": "hydrological_recovery",
       "co2Change": 0,
       "o2Change": 0,
       "biodiversityChange": 1,
-      "effectText": "Whole herds and flocks move to safer places. Move up to two organism tokens from a stressed biome into safer neighboring biomes.",
-      "biomesBad": [
-        "Overcrowded stopover sites",
-        "Habitats on routes briefly overgrazed"
-      ],
-      "biomesGood": [
-        "Seasonal wetlands",
-        "Coastal flyways",
-        "Mountain passes and corridors"
-      ],
-      "organismsBad": [
-        { "group": "Non-migratory residents", "example": "Local small birds" },
-        { "group": "Plants heavily grazed at stopovers", "example": "Marsh sedges" }
-      ],
+      "h2o": -1,
+      "effectText": "Rainfall patterns return to normal, refilling rivers, lakes, and aquifers. Add 1 water-dependent organism to any wetland or aquatic biome you control.",
+      "biomesBad": [],
+      "biomesGood": ["Wetlands, rivers, lakes, reefs"],
+      "organismsBad": [],
       "organismsGood": [
-        { "group": "Migratory birds", "example": "Geese" },
-        { "group": "Migratory mammals", "example": "Caribou" },
-        { "group": "Predators tracking migrations", "example": "Wolves" }
-      ]
-    },
-    {
-      "name": "Rapid Regrowth",
-      "type": "recovery",
-      "trend": "green_bounce_back",
-      "co2Change": -2,
-      "o2Change": 2,
-      "biodiversityChange": 2,
-      "effectText": "Plants spring back quickly after damage. Turn 1–2 burned or empty spaces into growing forest or grassland and add producer tokens.",
-      "biomesBad": [
-        "Late-successional shade-dependent patches",
-        "Open-ground specialist patches"
-      ],
-      "biomesGood": [
-        "Recently burned forests",
-        "Logged or storm-damaged woods",
-        "Overgrazed grasslands after grazing eases"
-      ],
-      "organismsBad": [
-        { "group": "Open-ground weeds", "example": "Pioneer forbs" },
-        { "group": "Bare-rock lichens and mosses", "example": "Crustose lichens" }
-      ],
-      "organismsGood": [
-        { "group": "Fast-growing trees", "example": "Aspen" },
-        { "group": "Shrubs", "example": "Willow" },
-        { "group": "Grasses", "example": "Bluestem" },
-        { "group": "Browsing herbivores", "example": "Deer" }
+        { "group": "Water-dependent plants", "example": "Reeds, water lilies" },
+        { "group": "Aquatic and semi-aquatic animals", "example": "Dragonflies, otters, frogs" }
       ]
     }
   ],
@@ -1744,12 +591,8 @@
       "biodiversityChange": -3,
       "h2o": -1,
       "effectText": "Shallow sea life crashes as oceans shrink and conditions change fast. Remove 2 marine organism tokens from shallow sea biomes.",
-      "biomesBad": [
-        "Marine (Temperate Shelf and Seas, Temperate Upwelling)"
-      ],
-      "biomesGood": [
-        "Marine (Tropical Upwelling, Tropical Coral)"
-      ],
+      "biomesBad": ["Marine (Temperate Shelf and Seas, Temperate Upwelling)"],
+      "biomesGood": ["Marine (Tropical Upwelling, Tropical Coral)"],
       "organismsBad": [
         { "group": "Marine benthic animals", "example": "Brachiopods and trilobites" },
         { "group": "Plankton groups", "example": "Graptolites" }
@@ -1771,12 +614,8 @@
       "biodiversityChange": -3,
       "h2o": 0,
       "effectText": "Reef systems collapse and many shallow sea animals die off. Remove 2 reef-building or shallow marine organism tokens.",
-      "biomesBad": [
-        "Marine (Tropical Coral, Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Tropical Upwelling, Temperate Upwelling)"
-      ],
+      "biomesBad": ["Marine (Tropical Coral, Temperate Shelf and Seas)"],
+      "biomesGood": ["Marine (Tropical Upwelling, Temperate Upwelling)"],
       "organismsBad": [
         { "group": "Reef builders", "example": "Stromatoporoid sponges and rugose/tabulate corals" },
         { "group": "Armored fishes", "example": "Placoderms and many early sharks" }
@@ -1798,15 +637,8 @@
       "biodiversityChange": -4,
       "h2o": 3,
       "effectText": "This is the biggest die-off of all. In every major region, remove 2 organism tokens; marine spaces may also lose 1 extra organism if crowded.",
-      "biomesBad": [
-        "Marine (Temperate Shelf and Seas, Tropical Coral)",
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Boreal Forests and Taiga)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Tundra (Tundra, Polar)"
-      ],
-      "biomesGood": [
-        "Desert (Deserts and Xeric Shrublands, Xeric Basins)"
-      ],
+      "biomesBad": ["Marine (Temperate Shelf and Seas, Tropical Coral)", "Forest (Tropical and Subtropical Moist Broadleaf Forests, Boreal Forests and Taiga)", "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)", "Tundra (Tundra, Polar)"],
+      "biomesGood": ["Desert (Deserts and Xeric Shrublands, Xeric Basins)"],
       "organismsBad": [
         { "group": "Most marine invertebrates", "example": "Trilobites and many corals and brachiopods" },
         { "group": "Large land vertebrates", "example": "Many synapsids and amphibians" }
@@ -1828,15 +660,8 @@
       "biodiversityChange": -3,
       "h2o": 2,
       "effectText": "Volcanic warming and ocean change wipe out many large reptiles and sensitive sea animals. Remove 1 large land organism and 1 marine organism from each affected region.",
-      "biomesBad": [
-        "Marine (Temperate Shelf and Seas, Tropical Coral)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests)"
-      ],
-      "biomesGood": [
-        "Desert (Deserts and Xeric Shrublands)",
-        "Forest (Temperate Coniferous Forests)"
-      ],
+      "biomesBad": ["Marine (Temperate Shelf and Seas, Tropical Coral)", "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)", "Forest (Tropical and Subtropical Moist Broadleaf Forests)"],
+      "biomesGood": ["Desert (Deserts and Xeric Shrublands)", "Forest (Temperate Coniferous Forests)"],
       "organismsBad": [
         { "group": "Many marine invertebrates", "example": "Corals, bivalves, brachiopods, radiolarians" },
         { "group": "Non-dinosaur large reptiles", "example": "Many archosauromorphs" }
@@ -1858,14 +683,8 @@
       "biodiversityChange": -3,
       "h2o": -1,
       "effectText": "A giant impact darkens the world and food webs crash. Remove 2 large land organisms and 1 surface-ocean organism from play.",
-      "biomesBad": [
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
-        "Marine (Tropical Coral, Temperate Shelf and Seas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Upwelling, Tropical Upwelling)"
-      ],
+      "biomesBad": ["Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)", "Grassland (Temperate Grasslands, Savannas, and Shrublands)", "Marine (Tropical Coral, Temperate Shelf and Seas)"],
+      "biomesGood": ["Marine (Temperate Upwelling, Tropical Upwelling)"],
       "organismsBad": [
         { "group": "Non-avian dinosaurs and large reptiles", "example": "Tyrannosaurs, ceratopsians, mosasaurs" },
         { "group": "Many marine plankton and invertebrates", "example": "Ammonites and some foraminifera" }
@@ -1887,14 +706,8 @@
       "biodiversityChange": -3,
       "h2o": 5,
       "effectText": "Drained and drying peatlands release huge amounts of stored carbon. In every tundra, boreal forest, and wetland-rich region, remove 2 wetland or moss organisms; then in any 1 other biome type, remove 1 additional producer organism.",
-      "biomesBad": [
-        "Tundra (Tundra, Polar)",
-        "Forest (Boreal Forests and Taiga)",
-        "Grassland (Flooded Grasslands and Savannas)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Shelf and Seas, Temperate Upwelling)"
-      ],
+      "biomesBad": ["Tundra (Tundra, Polar)", "Forest (Boreal Forests and Taiga)", "Grassland (Flooded Grasslands and Savannas)"],
+      "biomesGood": ["Marine (Temperate Shelf and Seas, Temperate Upwelling)"],
       "organismsBad": [
         { "group": "Peatland and wetland plants", "example": "Sphagnum moss, bog shrubs" },
         { "group": "Cold-adapted land animals", "example": "Caribou, peatland birds" },
@@ -1917,16 +730,8 @@
       "biodiversityChange": -3,
       "h2o": 1,
       "effectText": "A new disease spreads through many animal groups at once. In every biome, remove 1 vertebrate organism and 1 invertebrate organism; then choose any 1 biome and remove 1 extra vertebrate organism there.",
-      "biomesBad": [
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Tundra (Tundra, Polar)",
-        "Desert (Deserts and Xeric Shrublands)",
-        "Marine (Temperate Shelf and Seas, Tropical Coral)"
-      ],
-      "biomesGood": [
-        "Marine (Temperate Upwelling, Tropical Upwelling)"
-      ],
+      "biomesBad": ["Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)", "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)", "Tundra (Tundra, Polar)", "Desert (Deserts and Xeric Shrublands)", "Marine (Temperate Shelf and Seas, Tropical Coral)"],
+      "biomesGood": ["Marine (Temperate Upwelling, Tropical Upwelling)"],
       "organismsBad": [
         { "group": "Large land vertebrates", "example": "Primates, hoofed animals" },
         { "group": "Social or crowded animals", "example": "Bats, colonial seabirds" }

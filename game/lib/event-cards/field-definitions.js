@@ -85,7 +85,7 @@ function getEventCardFields() {
       name: 'stats',
       label: 'Global Impact',
       type: 'stats',
-      fields: ['co2Change', 'o2Change', 'biodiversityChange'],
+      fields: ['biodiversityChange', 'o2Change', 'co2Change', 'h2o'],
     },
   ];
 }
@@ -99,6 +99,9 @@ function prepareEventForDisplay(event) {
   return {
     id: event.name.replace(/\s+/g, '-').toLowerCase(),
     name: event.name,
+    title: event.name,
+    number: event.number || null,
+    background: event.background || 'event-card',
     type: event.type,
     trend: event.trend || '',
     period: event.period || '',
@@ -108,6 +111,7 @@ function prepareEventForDisplay(event) {
     co2Change: event.co2Change || 0,
     o2Change: event.o2Change || 0,
     biodiversityChange: event.biodiversityChange || 0,
+    h2o: event.h2o || 0,
     biomes: formatBiomes(event.biomesBad, event.biomesGood),
     organisms: formatOrganisms(event.organismsBad, event.organismsGood),
   };
