@@ -58,7 +58,8 @@ module.exports = function drawEventFields(ctx, contentX, contentY, contentW, con
   });
 
   // Calculate block Y position (at bottom of content area)
-  const blockY = contentY + contentH - totalHeight - bottomPadding + Math.round(8 * scale);
+  // Shifted down 10px for event cards
+  const blockY = contentY + contentH - totalHeight - bottomPadding + Math.round(18 * scale);
 
   // Second pass: draw fields at correct positions
   let currentY = blockY;

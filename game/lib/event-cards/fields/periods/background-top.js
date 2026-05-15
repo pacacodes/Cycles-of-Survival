@@ -1,5 +1,5 @@
 // Periods field: top background for split effect
-module.exports = function drawPeriodsBackgroundTop(ctx, rx, ry, rw, rh, boxRadius, color, hexToRgba, opacity) {
+module.exports = function drawPeriodsBackgroundTop(ctx, rx, ry, rw, rh, boxRadius, color, hexToRgba, opacity, topH) {
   ctx.save();
   ctx.beginPath();
   // Top left outer corner (rounded)
@@ -8,9 +8,9 @@ module.exports = function drawPeriodsBackgroundTop(ctx, rx, ry, rw, rh, boxRadiu
   // Top right outer corner (rounded)
   ctx.quadraticCurveTo(rx + rw, ry, rx + rw, ry + boxRadius);
   // Right inner corner (90deg)
-  ctx.lineTo(rx + rw, ry + rh / 2);
+  ctx.lineTo(rx + rw, ry + topH);
   // Left inner corner (90deg)
-  ctx.lineTo(rx, ry + rh / 2);
+  ctx.lineTo(rx, ry + topH);
   // Top left outer corner (rounded)
   ctx.lineTo(rx, ry + boxRadius);
   ctx.quadraticCurveTo(rx, ry, rx + boxRadius, ry);

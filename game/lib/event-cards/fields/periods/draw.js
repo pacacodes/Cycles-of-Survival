@@ -16,6 +16,8 @@
  *   drawTop      - background-top draw fn
  *   drawBottom   - background-bottom draw fn
  */
+const measureTextLines = require('../../lib/measure-text-lines');
+
 module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, titleColor, main, sub, maxWidth, hexToRgba, drawTop, drawBottom }) {
   ctx.save();
   ctx.textAlign = 'left';
@@ -28,16 +30,26 @@ module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, tit
   const boxPadY   = 2 * scale;
   const boxRadius = 6 * scale;
   const lineGap   = Math.round(2 * scale);
-  const subY      = rowY + fieldSize + lineGap;
 
   // Normalize label and sub
   const displayLabel = 'PERIODS';
   const displaySub = sub ? sub.toLowerCase().replace(/\bma\b/g, 'Ma').replace(/\bga\b/g, 'Ga') : null;
 
-  // Measure widths for background box
+  // Measure main text lines
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
   const labelPart = `${displayLabel} : `;
   const labelPartW = ctx.measureText(labelPart).width;
+  const mainAvailWidth = maxWidth ? maxWidth - labelPartW : undefined;
+  const mainLineCount = mainAvailWidth ? measureTextLines(ctx, main, mainAvailWidth) : 1;
+  
+  // Measure sub text lines
+  let subLineCount = 0;
+  if (displaySub) {
+    ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
+    subLineCount = maxWidth ? measureTextLines(ctx, displaySub, maxWidth) : 1;
+  }
+
+  // Measure widths for background box
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
   const mainW = ctx.measureText(main).width;
   let subW = 0;
@@ -47,13 +59,18 @@ module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, tit
   }
   const line1W = labelPartW + mainW;
   const contentW = maxWidth ? Math.min(Math.max(line1W, subW), maxWidth) : Math.max(line1W, subW);
-  const boxH = fieldSize + (displaySub ? lineGap + subSize : 0) + 2 * boxPadY;
+
+  // Calculate height: top is always exactly 8px, bottom expands based on content
+  const topH = Math.round(8 * scale); // Constant 8px top
+  const bottomH = Math.round(8 * scale * (subLineCount || 1)); // 8px per line of period timespan
+  const boxH = topH + 5 + bottomH; // 5 is the gap
   const boxW = contentW + 2 * boxPadX;
+  const subY = rowY + fieldSize + lineGap;
 
   // Background (isolated save/restore)
   ctx.save();
-  drawTop(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.45);
-  drawBottom(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.8);
+  drawTop(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.45, topH);
+  drawBottom(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.8, topH);
   ctx.restore();
 
   // Clip text to within the background box so it never overflows
@@ -61,7 +78,6 @@ module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, tit
   ctx.rect(textX - boxPadX, rowY - boxPadY, boxW, boxH);
   ctx.clip();
 
-  // Line 1: "PERIODS: " then bold "Main Value"
   ctx.shadowColor = '#FFFFFF';
   ctx.shadowBlur = 10 * scale;
   ctx.font = `bold ${fieldSize}px "DejaVu Sans", sans-serif`;
@@ -83,3 +99,4 @@ module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, tit
     height: boxH + Math.round(4 * scale) // height + gap
   };
 };
+

@@ -43,8 +43,8 @@ function getEventFieldDefinitions(event) {
     const biomesList = event.biomesBad.join(' · ').replace(/ and /g, ' · ');
     fields.push({
       label: 'Biomes',
-      main: biomesList,
-      sub: 'Negatively Affected',
+      main: 'Negatively Affected',
+      sub: biomesList,
     });
   }
 
@@ -53,8 +53,8 @@ function getEventFieldDefinitions(event) {
     const orgList = event.organismsBad.map(o => o.group).join(' · ').replace(/ and /g, ' · ');
     fields.push({
       label: 'Organisms',
-      main: orgList,
-      sub: 'Negatively Affected',
+      main: 'Negatively Affected',
+      sub: orgList,
     });
   }
 

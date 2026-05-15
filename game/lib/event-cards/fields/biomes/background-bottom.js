@@ -1,14 +1,15 @@
 // Biomes field: bottom background
-module.exports = function drawBiomesBackgroundBottom(ctx, rx, ry, rw, rh, boxRadius, color, hexToRgba, opacity) {
+module.exports = function drawBiomesBackgroundBottom(ctx, rx, ry, rw, rh, boxRadius, color, hexToRgba, opacity, topH) {
+  const gapY = ry + topH + 5; // 5px gap
   ctx.save();
   ctx.beginPath();
-  ctx.moveTo(rx, ry + rh / 2 - 1 + 5);
-  ctx.lineTo(rx + rw, ry + rh / 2 - 1 + 5);
+  ctx.moveTo(rx, gapY);
+  ctx.lineTo(rx + rw, gapY);
   ctx.lineTo(rx + rw, ry + rh - boxRadius);
   ctx.quadraticCurveTo(rx + rw, ry + rh, rx + rw - boxRadius, ry + rh);
   ctx.lineTo(rx + boxRadius, ry + rh);
   ctx.quadraticCurveTo(rx, ry + rh, rx, ry + rh - boxRadius);
-  ctx.lineTo(rx, ry + rh / 2 - 1);
+  ctx.lineTo(rx, gapY);
   ctx.closePath();
   ctx.fillStyle = hexToRgba(color, opacity);
   ctx.fill();
