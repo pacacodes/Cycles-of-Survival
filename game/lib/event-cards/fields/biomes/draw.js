@@ -49,7 +49,13 @@ module.exports = function drawBiomesField(ctx, { textX, rowY, scale, color, titl
   const bottomH = Math.round(8 * scale * subLineCount); // 8px per line of biome list
   const boxH = topH + 5 + bottomH; // 5 is the gap
   const boxW = contentW + 2 * boxPadX;
-  const subY = rowY + fieldSize + lineGap;
+  
+  // Calculate content height for sub text to center vertically in bottom background
+  const subContentHeight = displaySub ? (subLineCount * subSize + (subLineCount - 1) * lineGap) : 0;
+  const bottomBackgroundStart = rowY + topH + 5; // After top background and gap
+  const bottomMargin = Math.round(2 * scale); // Margin at bottom to prevent clipping
+  const verticalOffset = displaySub ? Math.max(0, (bottomH - subContentHeight - bottomMargin) / 2) : 0;
+  const subY = bottomBackgroundStart + verticalOffset;
 
   ctx.save();
   drawTop(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.45, topH);

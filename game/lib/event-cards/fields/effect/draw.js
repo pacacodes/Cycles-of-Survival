@@ -46,10 +46,17 @@ module.exports = function drawEffectField(ctx, { textX, rowY, scale, color, titl
 
   // Calculate heights: top is always exactly 8px, bottom is 8px per line of description
   const topH = Math.round(8 * scale); // Constant 8px top
-  const bottomH = Math.round(8 * scale * mainLineCount); // 8px per line of main text
+  // Ensure effect descriptions have enough space (minimum 3 lines)
+  const bottomH = Math.round(8 * scale * Math.max(3, mainLineCount)); // At least 3 lines worth of space
   const boxH = topH + 5 + bottomH; // 5 is the gap
   const boxW = contentW + 2 * boxPadX;
-  const subY = rowY + fieldSize + lineGap;
+  
+  // Calculate content height for sub text to center vertically in bottom background
+  const subContentHeight = displaySub ? (subLineCount * subSize + (subLineCount - 1) * lineGap) : 0;
+  const bottomBackgroundStart = rowY + topH + 5; // After top background and gap
+  const bottomMargin = Math.round(2 * scale); // Margin at bottom to prevent clipping
+  const verticalOffset = displaySub ? Math.max(0, (bottomH - subContentHeight - bottomMargin) / 2) : 0;
+  const subY = bottomBackgroundStart + verticalOffset;
 
   ctx.save();
   drawTop(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.45, topH);
