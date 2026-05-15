@@ -252,7 +252,7 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   const inputFontSize = Math.round(5 * scale);
   const inputFont = `${inputFontSize}px "DejaVu Sans", sans-serif`;
   const symbolY = y + Math.round(2 * scale);
-  const symbolXBase = x + (100 * scale) - (10 * scale) - 80;
+  const symbolXBase = x + (100 * scale) - (10 * scale) - 62;
   const symbolColor = '#000000';
   const symbolBgColor = '#F7B733';
   const waterBgColor = '#3AD7F6';
@@ -265,7 +265,7 @@ module.exports = function drawTitleSymbols(ctx, x, y, scale, card = {}) {
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
 
-  const boxPadX = 4 * scale;
+  const boxPadX = 3 * scale;
   const boxRadius = 4 * scale;
   const badgeGap = Math.round(3 * scale);
   const badgeHeight = Math.round(18 * scale);

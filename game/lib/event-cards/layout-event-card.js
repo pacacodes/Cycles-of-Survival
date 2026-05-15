@@ -13,6 +13,7 @@ const { drawTitleColorBlock, CATEGORY_COLORS } = require('../cards/layers/title-
 const { buildBadgeList } = require('../cards/helpers/badge-list');
 const { drawBadgesAndConnectors } = require('../cards/helpers/draw-badge-connectors');
 const { getEventColorScheme } = require('./color-scheme');
+const { getPeriodField } = require('./period-field-for-events');
 
 /**
  * Get background drawing functions (matching organism card style)
@@ -29,15 +30,12 @@ function getEventBackgroundFunctions() {
  */
 function getEventFieldDefinitions(event) {
   const fields = [];
-  const { drawTop, drawBottom } = getEventBackgroundFunctions();
 
   // Field 1: Effect
   fields.push({
     label: 'Effect',
     main: 'Event Impact',
     sub: event.effectText || null,
-    drawTop,
-    drawBottom,
   });
 
   // Field 2: Biomes (negative)
@@ -45,10 +43,8 @@ function getEventFieldDefinitions(event) {
     const biomesList = event.biomesBad.join(' · ').replace(/ and /g, ' · ');
     fields.push({
       label: 'Biomes',
-      main: 'Negatively Affected',
-      sub: biomesList,
-      drawTop,
-      drawBottom,
+      main: biomesList,
+      sub: 'Negatively Affected',
     });
   }
 
@@ -57,11 +53,17 @@ function getEventFieldDefinitions(event) {
     const orgList = event.organismsBad.map(o => o.group).join(' · ').replace(/ and /g, ' · ');
     fields.push({
       label: 'Organisms',
-      main: 'Negatively Affected',
-      sub: orgList,
-      drawTop,
-      drawBottom,
+      main: orgList,
+      sub: 'Negatively Affected',
     });
+  }
+
+  // Field 4: Periods (if available)
+  if (event.periods && event.periods.length) {
+    const periodField = getPeriodField(event.periods);
+    if (periodField) {
+      fields.push(periodField);
+    }
   }
 
   return fields;
@@ -184,11 +186,11 @@ async function drawEventCardPNG(ctx, xPt, yPt, event, scale, options = {}) {
   configureCanvasContext(ctx);
 
   // First pass: field backgrounds (matching organism card)
-  drawEventFields(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
+  drawEventFields(ctx, contentX, contentY, contentW, contentH, card, scale);
 
   // Final text layer (drawn over connectors) - matching organism card
   drawTitle(ctx, contentX, contentY - 30, contentW, card, scale);
-  drawEventFields(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
+  drawEventFields(ctx, contentX, contentY, contentW, contentH, card, scale);
   drawCardNumber(ctx, safeX, safeY, card, scale);
   drawCorners(ctx, safeX, safeY, card, scale);
 
