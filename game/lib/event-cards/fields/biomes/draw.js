@@ -46,7 +46,7 @@ module.exports = function drawBiomesField(ctx, { textX, rowY, scale, color, titl
 
   // Calculate heights: top is always exactly 8px, bottom is 8px per line of description
   const topH = Math.round(8 * scale); // Constant 8px top
-  const bottomH = Math.round(8 * scale * subLineCount); // 8px per line of biome list
+  const bottomH = Math.round(8 * scale * subLineCount - (subLineCount > 1 ? 2 : 1) * scale); // 8px per line, -2px if multi-line else -1px
   const boxH = topH + 5 + bottomH; // 5 is the gap
   const boxW = contentW + 2 * boxPadX;
   
@@ -55,7 +55,7 @@ module.exports = function drawBiomesField(ctx, { textX, rowY, scale, color, titl
   const bottomBackgroundStart = rowY + topH + 5; // After top background and gap
   const bottomMargin = Math.round(2 * scale); // Margin at bottom to prevent clipping
   const verticalOffset = displaySub ? Math.max(0, (bottomH - subContentHeight - bottomMargin) / 2) : 0;
-  const subY = bottomBackgroundStart + verticalOffset;
+  const subY = bottomBackgroundStart + verticalOffset - (2 * scale); // Move text up 2px
 
   ctx.save();
   drawTop(ctx, textX - boxPadX, rowY - boxPadY, boxW, boxH, boxRadius, color, hexToRgba, 0.45, topH);

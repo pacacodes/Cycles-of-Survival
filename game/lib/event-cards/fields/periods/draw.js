@@ -62,7 +62,7 @@ module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, tit
 
   // Calculate height: top is always exactly 8px, bottom expands based on content
   const topH = Math.round(8 * scale); // Constant 8px top
-  const bottomH = Math.round(8 * scale * (subLineCount || 1)); // 8px per line of period timespan
+  const bottomH = Math.round(8 * scale * (subLineCount || 1) - (subLineCount > 1 ? 2 : 1) * scale); // 8px per line, -2px if multi-line else -1px
   const boxH = topH + 5 + bottomH; // 5 is the gap
   const boxW = contentW + 2 * boxPadX;
   
@@ -71,7 +71,7 @@ module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, tit
   const bottomBackgroundStart = rowY + topH + 5; // After top background and gap
   const bottomMargin = Math.round(2 * scale); // Margin at bottom to prevent clipping
   const verticalOffset = displaySub ? Math.max(0, (bottomH - subContentHeight - bottomMargin) / 2) : 0;
-  const subY = bottomBackgroundStart + verticalOffset;
+  const subY = bottomBackgroundStart + verticalOffset - (2 * scale); // Move text up 2px
 
   // Background (isolated save/restore)
   ctx.save();
