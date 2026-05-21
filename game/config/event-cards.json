@@ -410,11 +410,11 @@
       "organismsBad": [
         {
           "group": "Small-leaved shrubs",
-          "example": "Sagebrush"
+          "example": "Sagebrush, Creosote bush, Saltbush, Brittlebush, Texas sage, rabbitbrush, semi-desert milkweeds"
         },
         {
           "group": "Surface-dwelling animals",
-          "example": "Insects and rodents"
+          "example": "Insects, rodents, lizards, ground-nesting birds, and small mammals without burrows"
         }
       ],
       "organismsGood": [

@@ -36674,6 +36674,179 @@
         "desert_fauna"
       ],
       "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 918",
+      "common_name": "Pine-leaf milkweed",
+      "scientific_name": "Asclepias linaria",
+      "organism_type": "Plant · Subshrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Gentianales",
+      "family": "Apocynaceae",
+      "genus": "Asclepias",
+      "species": "linaria",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Semi-desert subshrub with fine needle-like leaves; slender stems and foliage are highly exposed to abrasive dust, potentially reducing photosynthetic tissue and damaging buds during dust storms.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "milkweed_plant"
+      ],
+      "categories": [
+        "subshrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 919",
+      "common_name": "Horned lizard",
+      "scientific_name": "Phrynosoma cornutum",
+      "organism_type": "Reptile · Lizard",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Phrynosomatidae",
+      "genus": "Phrynosoma",
+      "species": "cornutum",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Diurnal ant-specialist lizard that flattens against soil; intense dust storms can abrade eyes and skin and temporarily disrupt surface foraging on ants.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "insectivore",
+        "surface_dwelling"
+      ],
+      "categories": [
+        "reptile",
+        "lizard",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 920",
+      "common_name": "Lark bunting",
+      "scientific_name": "Calamospiza melanocorys",
+      "organism_type": "Bird · Bunting",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Passerellidae",
+      "genus": "Calamospiza",
+      "species": "melanocorys",
+      "biomes": [
+        "Grassland (Temperate Grasslands, Savannas, and Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Ground-nesting grassland bird; blowing dust can erode or bury nests, reduce food visibility, and force birds to shelter in low vegetation.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "ground_nester",
+        "surface_dwelling"
+      ],
+      "categories": [
+        "bird",
+        "songbird",
+        "grassland_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 921",
+      "common_name": "Pronghorn",
+      "scientific_name": "Antilocapra americana",
+      "organism_type": "Mammal · Ungulate",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Antilocapridae",
+      "genus": "Antilocapra",
+      "species": "americana",
+      "biomes": [
+        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
+        "Desert (Deserts and Xeric Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Open-country grazer; high winds and dust reduce visibility, increase eye and respiratory irritation, and coat forage with dust, lowering palatability.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "herbivore",
+        "grazer",
+        "surface_dwelling"
+      ],
+      "categories": [
+        "mammal",
+        "ungulate",
+        "grassland_fauna"
+      ],
+      "waterRequirement": 1
     }
   ]
 }
