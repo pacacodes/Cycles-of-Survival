@@ -34,9 +34,6 @@
           "group": "Opportunistic microbes",
           "example": "Mud-tolerant bacteria"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -73,9 +70,6 @@
           "group": "Opportunistic small fish",
           "example": "Mullet"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -112,9 +106,6 @@
           "group": "Opportunistic turf algae",
           "example": "Filamentous algae"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -151,9 +142,6 @@
           "group": "Hardy generalist fish",
           "example": "Damselfish"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -190,9 +178,6 @@
           "group": "Dead-wood users",
           "example": "Woodpeckers"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -229,9 +214,6 @@
           "group": "Post-fire colonizers",
           "example": "Fireweed"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -268,9 +250,6 @@
           "group": "Sun-loving shrubs",
           "example": "Brambles"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -307,9 +286,6 @@
           "group": "Gap-opportunist herbs",
           "example": "Early spring wildflowers"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -346,9 +322,6 @@
           "group": "Deep-rooted plants",
           "example": "Tamarisk"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -385,9 +358,6 @@
           "group": "Nocturnal animals",
           "example": "Jerboas"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -426,9 +396,6 @@
           "group": "Burrowing animals",
           "example": "Desert tortoises"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -467,9 +434,6 @@
           "group": "Hardy succulents",
           "example": "Prickly pear"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -506,9 +470,6 @@
           "group": "Insect-eating birds",
           "example": "Starlings, swallows"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -546,9 +507,6 @@
           "group": "Small browsers",
           "example": "Antelope"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -585,9 +543,6 @@
           "group": "Later-season breeders",
           "example": "Species nesting after frost"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -624,9 +579,6 @@
           "group": "Deep-rooted grasses",
           "example": "Tall prairie grasses"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -663,9 +615,6 @@
           "group": "Aquatic colonizers",
           "example": "Mosquito larvae"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -703,9 +652,6 @@
           "group": "Aerial predators",
           "example": "Snowy owls"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -743,9 +689,6 @@
           "group": "Open-water fish",
           "example": "Arctic cod"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -783,9 +726,6 @@
           "group": "Shrub browsers",
           "example": "Moose, hares"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -831,9 +771,6 @@
           "group": "Generalist browsers",
           "example": "Deer and small herbivores using new dry patches"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     }
   ],
@@ -861,9 +798,6 @@
           "group": "Reproductive success",
           "example": "Population bouncebacks"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -889,9 +823,6 @@
           "group": "Nutrient-cycling microbes",
           "example": "Mycorrhizal fungi"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -917,9 +848,6 @@
           "group": "Flowering plants",
           "example": "Wildflowers, fruiting shrubs"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -945,9 +873,6 @@
           "group": "Apex omnivores",
           "example": "Bears, crocodiles"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -973,9 +898,6 @@
           "group": "Colonizing plants",
           "example": "Pioneer shrubs, early-seral trees"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -1001,9 +923,6 @@
           "group": "Nutrient recyclers",
           "example": "Denitrifiers, methanogens"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -1029,9 +948,6 @@
           "group": "Oxygen-sensitive organisms",
           "example": "Deep-sea fish, soil fauna"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -1057,9 +973,6 @@
           "group": "Returning specialists",
           "example": "Re-colonizers from refugia"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     },
     {
@@ -1085,9 +998,6 @@
           "group": "Aquatic and semi-aquatic animals",
           "example": "Dragonflies, otters, frogs"
         }
-      ],
-      "periods": [
-        "Quaternary"
       ]
     }
   ],
@@ -1131,7 +1041,7 @@
         }
       ],
       "periods": [
-        "Quaternary"
+        "Ordovician"
       ]
     },
     {
@@ -1173,7 +1083,7 @@
         }
       ],
       "periods": [
-        "Quaternary"
+        "Devonian"
       ]
     },
     {
@@ -1263,7 +1173,7 @@
         }
       ],
       "periods": [
-        "Quaternary"
+        "Triassic"
       ]
     },
     {
@@ -1321,7 +1231,7 @@
       "o2Change": -3,
       "biodiversityChange": -3,
       "h2o": 5,
-      "effectText": "Drained and drying peatlands release huge amounts of stored carbon. In every tundra, boreal forest, and wetland-rich region, remove 2 wetland or moss organisms; then in any 1 other biome type, remove 1 additional producer organism.",
+      "effectText": "Drained and drying peatlands release huge amounts of stored carbon. In every tundra, boreal forest, and wetland-rich region, remove 2 wetland or moss organisms; then in any 1 other biome type, remove 1 additional producer organism. Present day.",
       "biomesBad": [
         "Tundra (Tundra, Polar)",
         "Forest (Boreal Forests and Taiga)",
