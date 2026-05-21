@@ -125,7 +125,7 @@
       "o2Change": -1,
       "biodiversityChange": -3,
       "h2o": 0,
-      "effectText": "A strong natural warm current lingers over reef zones. Remove coral-building organisms.",
+      "effectText": "A strong natural warm current lingers over reef zones. Remove coral-building and dependent organisms.",
       "biomesBad": [
         "Marine (Tropical Coral)"
       ],
@@ -164,7 +164,7 @@
       "o2Change": -1,
       "biodiversityChange": -1,
       "h2o": 1,
-      "effectText": "Mild winters let bark beetles explode in number disrupting water and nutrient transport and killing trees. Remove conifer trees in forests.",
+      "effectText": "Mild winters let bark beetles explode in number disrupting water and nutrient transport killing trees. Remove conifer trees and dependent organisms in forests.",
       "biomesBad": [
         "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)"
       ],
@@ -242,7 +242,7 @@
       "o2Change": 0,
       "biodiversityChange": -1,
       "h2o": 0,
-      "effectText": "A mega-storm knocks down swaths of trees, opening the canopy. Remove large trees and affected organisms from the forest.",
+      "effectText": "A mega-storm knocks down swaths of trees, killing off some of the canopy layer. Remove large trees and affected organisms from the forest.",
       "biomesBad": [
         "Forest (Temperate Broadleaf and Mixed Forests, Tropical and Subtropical Moist Broadleaf Forests)"
       ],
@@ -320,7 +320,7 @@
       "o2Change": 0,
       "biodiversityChange": -2,
       "h2o": 2,
-      "effectText": "Winds push dunes over nearby habitats, burying soils and roots. Remove organisms that have shallow-rooted shrubs and burrowing animalsin desert biomes.",
+      "effectText": "Winds push dunes over nearby habitats, burying soils and roots. Remove organisms that have shallow-rooted shrubs and burrowing animals in desert biomes.",
       "biomesBad": [
         "Desert (Deserts and Xeric Shrublands, Xeric Basins)"
       ],
@@ -333,7 +333,7 @@
           "example": "Big sagebrush (Artemisia tridentata), Brittlebush (Encelia farinosa), Creosote bush (Larrea tridentata), Texas sage (Leucophyllum frutescens), Fourwing saltbush (Atriplex canescens), Fairy duster (Calliandra californica), Desert globemallow (Sphaeralcea ambigua)"
         },
         {
-          "group": "Burrowing fauna in dune fronts",
+          "group": "Burrowing animals in dune fronts",
           "example": "Merriam's kangaroo rat (Dipodomys merriami), Chihuahuan Desert pocket mouse (Chaetodipus eremicus), Yellow-faced pocket gopher (Cratogeomys castanops), Fringe-toed lizard (Uma notata), Shovel-nosed sand snake (Chionactis occipitalis), Banded sand snake (Chilomeniscus cinctus), Burrowing owl (Athene cunicularia)"
         }
       ],
