@@ -18,11 +18,11 @@
       "organismsBad": [
         {
           "group": "Seafloor filter feeders",
-          "example": "Sea cucumbers, Sponges, clams, mussels, oysters, Scallops, Crinoids"
+          "example": "Sea cucumber (Holothuroidea), Demosponge (Demospongiae), Hardshell clam (Mercenaria mercenaria), Blue mussel (Mytilus edulis), Atlantic oyster (Crassostrea virginica), Sea scallop (Placopecten magellanicus), Feather star (Crinoidea)"
         },
         {
           "group": "Sessile invertebrates",
-          "example": "Corals, Sea Anemones, Sea Sponges, Barnacles, Oysters, Mussels, Bryozoans"
+          "example": "Black coral (Antipathes), Sea anemone (Actiniaria), Branching sponge (Aplysina), Acorn barnacle (Balanus balanoides), Ribbed mussel (Geukensia demissa), Tube worm (Frenulata), Bryozoan colony (Bryozoa)"
         }
       ],
       "organismsGood": [
@@ -57,11 +57,11 @@
       "organismsBad": [
         {
           "group": "Surface-feeding birds",
-          "example": "Albatrosses, Terns, Gulls, Phalaropes, Babbling Ducks"
+          "example": "Black-footed albatross (Phoebastria nigripes), Common tern (Sterna hirundo), Herring gull (Larus argentatus), Red phalarope (Phalaropus fulicarius), Northern pintail (Anas acuta)"
         },
         {
           "group": "Filter-feeding fish and invertebrates",
-          "example": "Anchovies, krill, sardines, Jellyfish, Sponges, Manta rays, whale sharks, Polychaete worms"
+          "example": "Northern anchovy (Engraulis mordax), Antarctic krill (Euphausia superba), Pacific sardine (Sardinops sagax), Moon jellyfish (Aurelia aurita), Glass sponge (Hexactinellida), Manta ray (Manta birostris), Whale shark (Rhincodon typus), Polychaete worm (Polychaeta)"
         }
       ],
       "organismsGood": [
@@ -96,11 +96,11 @@
       "organismsBad": [
         {
           "group": "Canopy-forming algae",
-          "example": "Giant kelp, common kelp, Oarweed Kelp, sugar kelp, rockweeds, bladderwracks, Knotted wracks"
+          "example": "Giant kelp (Macrocystis pyrifera), Bull kelp (Nereocystis luetkeana), Oarweed (Laminaria), Sugar kelp (Saccharina latissima), Rockweed (Fucus), Bladder wrack (Fucus vesiculosus), Knotted wrack (Ascophyllum nodosum)"
         },
         {
           "group": "Kelp-dependent fish",
-          "example": "Rockfish, Kelp Bass, giant kelpfish, surfperches, pacific herring"
+          "example": "Blue rockfish (Sebastes mystinus), Kelp bass (Paralabrax clathratus), Giant kelpfish (Heterostichus rostratus), Shiner surfperch (Cymatogaster aggregata), Pacific herring (Clupea pallasii)"
         }
       ],
       "organismsGood": [
@@ -135,11 +135,11 @@
       "organismsBad": [
         {
           "group": "Reef-building corals",
-          "example": "Branching, elkhorn, staghorn, brain, boulder, table, finger, and star corals"
+          "example": "Branching coral (Acropora branching), Elkhorn coral (Acropora palmata), Staghorn coral (Acropora cervicornis), Brain coral (Diploria), Boulder coral (Porites), Table coral (Acropora tabulate), Finger coral (Porites porites), Star coral (Orbicella)"
         },
         {
           "group": "Reef-dependent fish",
-          "example": "Butterflyfishes, clownfishes, anthias, Groupers, snappers, Hogfishes, parrotfishes, surgeonfishes"
+          "example": "Lined butterflyfish (Chaetodon lineatus), Ocellaris clownfish (Amphiprion ocellaris), Purple anthias (Pseudanthias tuka), Goliath grouper (Epinephelus itajara), Mutton snapper (Lutjanus analis), Hogfish (Lachnolaimus maximus), Parrotfish (Scaridae), Surgeonfish (Acanthuridae)"
         }
       ],
       "organismsGood": [
@@ -174,11 +174,11 @@
       "organismsBad": [
         {
           "group": "Large conifers",
-          "example": "Pine, Spruces, firs, cedars, cypresses, Larches, redwoods "
+          "example": "Lodgepole pine (Pinus contorta), White spruce (Picea glauca), Subalpine fir (Abies lasiocarpa), Eastern red cedar (Juniperus virginiana), Monterey cypress (Cupressus macrocarpa), Western larch (Larix occidentalis), Coast redwood (Sequoia sempervirens)"
         },
         {
           "group": "Tree-dependent specialists",
-          "example": "Red crossbill, woodpeckers, chickadees, owls, squirrels, bats, songbirds, wasps, lichens, mosses, and fungi"
+          "example": "Red crossbill (Loxia curvirostra), Pileated woodpecker (Dryocopus pileatus), Black-capped chickadee (Poecile atricapillus), Northern pygmy-owl (Glaucidium gnoma), Douglas' squirrel (Tamiasciurus douglasii), Pallid bat (Antrozous pallidus), Blackburnian warbler (Setophaga fusca), Parasitic wasp (Ichneumonidae), Lichen (Lichen), Feather moss (Hypnum), Honey mushroom (Armillaria)"
         }
       ],
       "organismsGood": [
@@ -213,11 +213,11 @@
       "organismsBad": [
         {
           "group": "Shade-loving herbs, shrubs, ground cover, lichen, moss, fungi organisms",
-          "example": "Trillium, Witch-hazel, Spicebush, blueberries, shrubby viburnums, wild ginger, foamflower, sweet woodruff, lung lichen, old mans beard, sheet moss and carpet forming mosses, forest floor fungi"
+          "example": "Large-flowered trillium (Trillium grandiflorum), American witchhazel (Hamamelis virginiana), Spicebush (Lindera benzoin), Highbush blueberry (Vaccinium corymbosum), Arrowwood viburnum (Viburnum dentatum), Wild ginger (Asarum canadense), Foamflower (Tiarella cordifolia), Sweet woodruff (Galium odoratum), British soldier lichen (Cladonia cristatella), Old man's beard (Usnea), Feather moss (Hypnum), Honey mushroom (Armillaria mellea)"
         },
         {
           "group": "Slow-moving litter animals",
-          "example": "Forest salamanders, shrews, deer mouse, newts, snails, millipedes, centipedes, earthworms, woodlice, slugs, beetles, larvae, springtails and mites"
+          "example": "Red-backed salamander (Plethodon cinereus), Short-tailed shrew (Blarina brevicauda), Deer mouse (Peromyscus maniculatus), Eastern newt (Notophthalmus viridescens), Garden snail (Helix aspersa), Millipede (Diplopoda), Centipede (Chilopoda), Earthworm (Lumbricina), Pillbug (Armadillidium vulgare), Slug (Limax), Carrion beetle (Silphidae), Mite (Acari), Springtail (Collembola)"
         }
       ],
       "organismsGood": [
@@ -252,11 +252,11 @@
       "organismsBad": [
         {
           "group": "Very tall canopy trees",
-          "example": "Pines, Spruces, Firs, Oaks, Pecan, Maples"
+          "example": "Eastern white pine (Pinus strobus), Norway spruce (Picea abies), Balsam fir (Abies balsamea), White oak (Quercus alba), Pecan (Carya illinoinensis), Sugar maple (Acer saccharum)"
         },
         {
           "group": "Canopy specialists",
-          "example": "Howler monkeys, spider monkeys, arboreal snakes and lizards, red-cockaded woodpeckers, canopy songbirds, arboreal squirrels, bats"
+          "example": "Mantled howler monkey (Alouatta palliata), Black spider monkey (Ateles paniscus), Green anaconda (Eunectes murinus), Crested anole (Anolis cristatelus), Red-cockaded woodpecker (Leuconotopicus borealis), Scarlet tanager (Piranga olivacea), Eastern gray squirrel (Sciurus carolinensis), Little brown bat (Myotis lucifugus)"
         }
       ],
       "organismsGood": [
@@ -291,11 +291,11 @@
       "organismsBad": [
         {
           "group": "Canopy trees",
-          "example": "Oaks, Beeches, Silver maple, siberian elm, willows, poplars, birches, american elms, honey locusts, hackberry,  black cherry, bradford pear, white pine, spruces"
+          "example": "Black willow (Salix nigra), Eastern cottonwood (Populus deltoides), Paper birch (Betula papyrifera), Black spruce (Picea mariana), Silver maple, Oak, Beech, American elm, White pine, Honey locust, Hackberry"
         },
         {
-          "group": "Canopy animals",
-          "example": "Arboreal monkeys, arboreal snakes and lizards, woodpeckers, chickadees, nuthatches, hawks, owls, arboreal squirrels, tree roosting bats,"
+          "group": "Canopy animals vulnerable to ice damage",
+          "example": "Red-eyed vireo (Vireo olivaceus), Blackburnian warbler (Setophaga fusca), Downy woodpecker (Dryobates pubescens), Black-capped chickadee (Poecile atricapillus), Red bat (Lasiurus borealis), Arboreal squirrels, Nuthatches, Hawks, Owls"
         }
       ],
       "organismsGood": [
@@ -330,11 +330,11 @@
       "organismsBad": [
         {
           "group": "Shallow-rooted shrubs",
-          "example": "Sagebrush, brittlebush, creosote bush, texas sage, saltbush, fairy duster, desert globemallow"
+          "example": "Big sagebrush (Artemisia tridentata), Brittlebush (Encelia farinosa), Creosote bush (Larrea tridentata), Texas sage (Leucophyllum frutescens), Fourwing saltbush (Atriplex canescens), Fairy duster (Calliandra californica), Desert globemallow (Sphaeralcea ambigua)"
         },
         {
-          "group": "Burrows in dune fronts",
-          "example": "Ground squirrels, lizards, burrowing owls, desert tortoises, desert snakes, kangaroo rats"
+          "group": "Burrowing fauna in dune fronts",
+          "example": "Merriam's kangaroo rat (Dipodomys merriami), Chihuahuan Desert pocket mouse (Chaetodipus eremicus), Yellow-faced pocket gopher (Cratogeomys castanops), Fringe-toed lizard (Uma notata), Shovel-nosed sand snake (Chionactis occipitalis), Banded sand snake (Chilomeniscus cinctus), Burrowing owl (Athene cunicularia)"
         }
       ],
       "organismsGood": [
@@ -369,11 +369,11 @@
       "organismsBad": [
         {
           "group": "Semi-desert plants",
-          "example": "Agave, creosote bush, yuccas, mesquites, saltbush, sagebrush, blue grama, bushgrassses, aloe, jade plants, and smaller cacti"
+          "example": "Century plant (Agave americana), Creosote bush (Larrea tridentata), Soaptree yucca (Yucca elata), Mesquite (Prosopis glandulosa), Fourwing saltbush (Atriplex canescens), Big sagebrush (Artemisia tridentata), Prickly pear cactus (Opuntia phaeacantha)"
         },
         {
           "group": "Day-active animals",
-          "example": "Diurnal lizards, rodents, and birds, Bighorn sheep, antelope ground suirrel, desert cottontail"
+          "example": "Zebra-tailed lizard (Callisaurus draconoides), Tiger whiptail (Aspidoscelis tigris), Fringe-toed lizard (Uma notata), Greater roadrunner (Geococcyx californianus), Cactus wren (Campylorhynchus brunneicapillus), Black-throated sparrow (Amphispiza bilineata), Antelope ground squirrel (Ammospermophilus leucurus), Desert bighorn sheep (Ovis canadensis)"
         }
       ],
       "organismsGood": [
@@ -410,11 +410,11 @@
       "organismsBad": [
         {
           "group": "Small-leaved shrubs",
-          "example": "Sagebrush, Creosote bush, Saltbush, Brittlebush, Texas sage, rabbitbrush, semi-desert milkweeds"
+          "example": "Big sagebrush (Artemisia tridentata), Creosote bush (Larrea tridentata), Fourwing saltbush (Atriplex canescens), Brittlebush (Encelia farinosa), Texas sage (Leucophyllum frutescens), Rabbitbrush (Ericameria nauseosa), Pine-leaf milkweed (Asclepias linaria)"
         },
         {
           "group": "Surface-dwelling animals",
-          "example": "Insects, rodents, lizards, ground-nesting birds, and small mammals without burrows"
+          "example": "Horned lizard (Phrynosoma cornutum), Desert locusts (Schistocerca spp.), Ground-nesting Lark bunting (Calamospiza melanocorys), Greater roadrunner (Geococcyx californianus), Antelope ground squirrel (Ammospermophilus leucurus), Desert cottontail (Sylvilagus audubonii), Kangaroo rats (Dipodomys merriami)"
         }
       ],
       "organismsGood": [
@@ -451,11 +451,11 @@
       "organismsBad": [
         {
           "group": "Palatable grasses",
-          "example": "Buffelgrass"
+          "example": "Buffelgrass (Cenchrus ciliaris), Three-awn grass (Aristida), Blue grama (Bouteloua gracilis), Galleta grass (Pleuraphis jamesii), Black grama (Bouteloua eriopoda), Tobosa grass (Pleuraphis mutica)"
         },
         {
           "group": "Small herbivores with little refuge",
-          "example": "Rodents in open areas"
+          "example": "Desert woodrat (Neotoma lepida), Southern grasshopper mouse (Onychomys torridus), Merriam's kangaroo rat (Dipodomys merriami), Silky pocket mouse (Perognathus flavus), Ord's kangaroo rat (Dipodomys ordii), Black-chinned sparrow (Spizella atrogularis)"
         }
       ],
       "organismsGood": [
@@ -490,11 +490,11 @@
       "organismsBad": [
         {
           "group": "Grasses and forbs",
-          "example": "Bunchgrasses, wildflowers"
+          "example": "Purple needlegrass (Stipa pulchra), Hairy needlegrass (Stipa coronata), Deergrass (Muhlenbergia rigens), Lupine (Lupinus), Prairie coneflower (Ratibida), Blazing star (Liatris)"
         },
         {
           "group": "Small herbivores competing for plants",
-          "example": "Hares"
+          "example": "Black-tailed jackrabbit (Lepus californicus), White-tailed jackrabbit (Lepus townsendii), Desert hare (Lepus californicus deserticola), Cottontail rabbit (Sylvilagus nuttallii)"
         }
       ],
       "organismsGood": [
@@ -530,11 +530,11 @@
       "organismsBad": [
         {
           "group": "Large grazers",
-          "example": "Bison, wildebeest"
+          "example": "American bison (Bison bison), Wildebeest (Connochaetes taurinus), Cape buffalo (Syncerus caffer), Impala (Aepyceros melampus), Plains zebra (Equus quagga)"
         },
         {
           "group": "Grazing-dependent predators",
-          "example": "Lions, wolves"
+          "example": "African lion (Panthera leo), Gray wolf (Canis lupus), African wild dog (Lycaon pictus), Cheetah (Acinonyx jubatus)"
         }
       ],
       "organismsGood": [
@@ -569,11 +569,11 @@
       "organismsBad": [
         {
           "group": "New seedlings",
-          "example": "Young grasses and crops"
+          "example": "Spring brome seedlings (Bromus laevipes), Big bluestem (Andropogon gerardii), Gaura seedlings (Gaura lindheimeri), Annual wildflower seedlings, Crop seedlings (Zea mays)"
         },
         {
           "group": "Ground-nesting birds",
-          "example": "Larks, plovers"
+          "example": "Horned lark (Eremophila alpestris), Killdeer (Charadrius vociferus), Mountain plover (Charadrius montanus), Western meadowlark (Sturnella neglecta)"
         }
       ],
       "organismsGood": [
@@ -608,11 +608,11 @@
       "organismsBad": [
         {
           "group": "Delicate grasses",
-          "example": "Short bunchgrasses"
+          "example": "Slender oat (Avena barbata), Soft chess (Bromus hordeaceus), Purple needlegrass seedlings (Stipa pulchra), Medusa head (Elymus caput-medusae), Foxtail barley (Hordeum jubatum)"
         },
         {
           "group": "Small grazers in heavy ash",
-          "example": "Rodents"
+          "example": "Meadow vole (Microtus pennsylvanicus), Montane vole (Microtus montanus), Harvest mouse (Reithrodontomys), California ground squirrel (Otospermophilus beecheyi)"
         }
       ],
       "organismsGood": [
@@ -647,11 +647,11 @@
       "organismsBad": [
         {
           "group": "Tundra mosses and lichens",
-          "example": "Reindeer moss"
+          "example": "Reindeer lichen (Cladonia rangiferina), Beard lichen (Usnea), Iceland moss (Cetraria islandica), Grimmia moss (Grimmia), Polytrichum moss (Polytrichum)"
         },
         {
           "group": "Burrowing mammals",
-          "example": "Lemmings"
+          "example": "Collared lemming (Dicrostonyx groenlandicus), Brown lemming (Lemmus trimucronatus), Tundra vole (Microtus oeconomus), Arctic ground squirrel (Urocitellus parryi)"
         }
       ],
       "organismsGood": [
@@ -687,11 +687,11 @@
       "organismsBad": [
         {
           "group": "tiny rodents and insectivores that live between the ground and snow",
-          "example": "Voles, mice, shrews, lemmings, and some squirrels and rabbits"
+          "example": "Meadow vole (Microtus pennsylvanicus), Montane vole (Microtus montanus), Common shrew (Sorex araneus), Collared lemming (Dicrostonyx groenlandicus), Northern flying squirrel (Glaucomys sabrinus), Snowshoe hare (Lepus americanus)"
         },
         {
           "group": "Low tundra shrubs",
-          "example": "Willow shrubs"
+          "example": "Arctic willow (Salix arctica), Bearberry willow (Salix uva-ursi), Dwarf birch (Betula nana), Creeping juniper (Juniperus horizontalis)"
         }
       ],
       "organismsGood": [
@@ -727,11 +727,11 @@
       "organismsBad": [
         {
           "group": "Ice algae",
-          "example": "Sea-ice diatoms"
+          "example": "Melosira arctica (Sea-ice diatom), Navicula directa, Bacillaria paradoxa"
         },
         {
           "group": "Ice-dependent animals",
-          "example": "Krill, polar bears"
+          "example": "Antarctic krill (Euphausia superba), Arctic krill (Thysanoessa raschii), Polar bear (Ursus maritimus), Ringed seal (Pusa hispida), Harp seal (Pagophilus groenlandicus)"
         }
       ],
       "organismsGood": [
@@ -767,11 +767,11 @@
       "organismsBad": [
         {
           "group": "Low mat-forming plants",
-          "example": "Cushion plants"
+          "example": "Saxifrage (Saxifraga), Cushion pink (Silene acaulis), Bearberry (Arctostaphylos uva-ursi), Alpine forget-me-not (Myosotis alpestris)"
         },
         {
           "group": "Lichen grazers",
-          "example": "Reindeer relying on lichens"
+          "example": "Porcupine caribou (Rangifer tarandus), Woodland caribou (Rangifer tarandus caribou), Peary caribou (Rangifer tarandus pearyi)"
         }
       ],
       "organismsGood": [
@@ -807,15 +807,15 @@
       "organismsBad": [
         {
           "group": "Peat-forming mosses",
-          "example": "Sphagnum moss"
+          "example": "Sphagnum moss (Sphagnum), Dicranum moss (Dicranum), Polytrichum moss (Polytrichum)"
         },
         {
           "group": "Wetland specialist plants",
-          "example": "Cranberries, bog orchids"
+          "example": "Cranberry (Vaccinium oxycoccos), Small cranberry (Vaccinium microcarpum), Bog orchid (Platanthera obtusata), Sundew (Drosera), Pitcher plant (Sarracenia)"
         },
         {
           "group": "Bog-dependent animals",
-          "example": "Wading birds, peatland amphibians"
+          "example": "Great egret (Ardea alba), Black-necked stilt (Himantopus mexicanus), Damselfly (Odonata), Wood frog (Lithobates sylvaticus), Leatherback frog (Ascaphus truei)"
         }
       ],
       "organismsGood": [
@@ -1113,21 +1113,21 @@
       "organismsBad": [
         {
           "group": "Marine benthic animals",
-          "example": "Brachiopods and trilobites"
+          "example": "Trilobite (Phacops), Brachiopod (Orthis), Dalmanellid brachiopod (Dalmanella), Cyclopygid trilobite (Cyclopyge), Triarthrus trilobite (Triarthrus)"
         },
         {
           "group": "Plankton groups",
-          "example": "Graptolites"
+          "example": "Graptolite (Climacograptus), Diplograptid graptolite (Diplograptus), Dendrograptus dendroid graptolite"
         }
       ],
       "organismsGood": [
         {
           "group": "Surviving small brachiopods",
-          "example": "Linguliforms"
+          "example": "Lingulid brachiopod (Lingula), Disciniscid brachiopod (Discina)"
         },
         {
           "group": "Early fish and new plankton",
-          "example": "Jawless fishes and post-crisis plankton"
+          "example": "Jawless fish (Agnathida), Ostracoderm (Ostracoderm), Post-crisis plankton (Conodonts)"
         }
       ],
       "periods": [
@@ -1155,21 +1155,21 @@
       "organismsBad": [
         {
           "group": "Reef builders",
-          "example": "Stromatoporoid sponges and rugose/tabulate corals"
+          "example": "Stromatoporoid (Actinostroma), Tabulate coral (Favosites), Rugose coral (Zaphrentis), Helioid coral (Heliolites)"
         },
         {
           "group": "Armored fishes",
-          "example": "Placoderms and many early sharks"
+          "example": "Placoderm (Dunkleosteus), Early shark (Cladoselache), Antiarchiid placoderm (Bothriolepis)"
         }
       ],
       "organismsGood": [
         {
           "group": "Siliceous sponges and microbes",
-          "example": "Stromatolites and sponge reefs"
+          "example": "Stromatolite (Stromatolite), Hexactinellid sponge (Hexactinellida), Glass sponge (Hyalospongiae)"
         },
         {
           "group": "Surviving bony fishes",
-          "example": "Early actinopterygians"
+          "example": "Ray-finned fish (Actinopterygii), Lobe-finned fish (Sarcopterygii)"
         }
       ],
       "periods": [
@@ -1200,11 +1200,11 @@
       "organismsBad": [
         {
           "group": "Most marine invertebrates",
-          "example": "Trilobites and many corals and brachiopods"
+          "example": "Trilobite (Phacops), Rugose coral (Cyathaxonia), Productid brachiopod (Productus), Ammonite (Goniatites), Nautiloid (Paraceltites)"
         },
         {
           "group": "Large land vertebrates",
-          "example": "Many synapsids and amphibians"
+          "example": "Synapsid therapsid (Dimetrodon), Pelycosaur (Varanosaurus), Amphibian (Eryops), Parieasaur (Pareasuchus)"
         }
       ],
       "organismsGood": [
@@ -1245,11 +1245,11 @@
       "organismsBad": [
         {
           "group": "Many marine invertebrates",
-          "example": "Corals, bivalves, brachiopods, radiolarians"
+          "example": "Scleractinian coral (Fungia), Bivalve (Trigonia), Brachiopod (Lingula), Radiolarian (Actinomma), Ammonite (Dactylioceras)"
         },
         {
           "group": "Non-dinosaur large reptiles",
-          "example": "Many archosauromorphs"
+          "example": "Phytosaur (Parasuchus), Nothosaur (Nothosaurus), Archosaur (Desmatosuchus), Ichthyosaur (Mixosaurus)"
         }
       ],
       "organismsGood": [
@@ -1333,25 +1333,25 @@
       "organismsBad": [
         {
           "group": "Peatland and wetland plants",
-          "example": "Sphagnum moss, bog shrubs"
+          "example": "Sphagnum moss (Sphagnum), Leatherleaf (Chamaedaphne calyculata), Bog rosemary (Andromeda polifolia), Labrador tea (Ledum palustre)"
         },
         {
           "group": "Cold-adapted land animals",
-          "example": "Caribou, peatland birds"
+          "example": "Porcupine caribou (Rangifer tarandus), Sandhill crane (Antigone canadensis), Whooping crane (Grus americana), Trumpeter swan (Cygnus buccinator)"
         },
         {
           "group": "Moisture-dependent decomposers",
-          "example": "Bog fungi and invertebrates"
+          "example": "Honey mushroom (Armillaria mellea), Puffball (Lycoperdon), Springtail (Collembola), Bog beetle (Donacia)"
         }
       ],
       "organismsGood": [
         {
           "group": "Heat-tolerant generalists",
-          "example": "Wide-ranging insects and hardy shrubs"
+          "example": "Ground beetle (Carabidae), Robber fly (Asilidae), Native buckwheat (Eriogonum), Creosote bush (Larrea tridentata)"
         },
         {
           "group": "Warm-water plankton",
-          "example": "Some phytoplankton in newly warm seas"
+          "example": "Coccolithophore (Coccolithophora), Dinoflagellate (Dinophyceae)"
         }
       ],
       "periods": [
@@ -1383,21 +1383,21 @@
       "organismsBad": [
         {
           "group": "Large land vertebrates",
-          "example": "Primates, hoofed animals"
+          "example": "Chimpanzee (Pan troglodytes), Gorilla (Gorilla gorilla), Domestic cattle (Bos taurus), Reindeer (Rangifer tarandus), Bighorn sheep (Ovis canadensis), Mountain lion (Puma concolor)"
         },
         {
           "group": "Social or crowded animals",
-          "example": "Bats, colonial seabirds"
+          "example": "Pallid bat (Antrozous pallidus), Little brown bat (Myotis lucifugus), Herring gull (Larus argentatus), Royal tern (Thalasseus maximus), Zebra mussel (Dreissena polymorpha), Honey bee (Apis mellifera)"
         }
       ],
       "organismsGood": [
         {
           "group": "Small generalists",
-          "example": "Rodents, insects with many hosts"
+          "example": "Harvest mouse (Reithrodontomys), House sparrow (Passer domesticus), Darkling beetle (Tenebrionidae), Fruit fly (Drosophilidae)"
         },
         {
           "group": "Isolated island species",
-          "example": "Animals in remote refuges"
+          "example": "Galapagos finch (Geospiza), Hawaiian honeycreeper (Drepanitidae), Island fox (Urocyon littoralis)"
         }
       ],
       "periods": [
