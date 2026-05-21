@@ -1232,7 +1232,7 @@
       "o2Change": -2,
       "biodiversityChange": -3,
       "h2o": 2,
-      "effectText": "Volcanic warming and ocean change wipe out many large reptiles and sensitive sea animals. Remove 1 large land organism and 1 marine organism from each affected region.",
+      "effectText": "Volcanic warming and ocean change wipe out many large reptiles and sensitive sea animals. Remove 1 large land organism and 1 marine organism all affected biomes.",
       "biomesBad": [
         "Marine (Temperate Shelf and Seas, Tropical Coral)",
         "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
@@ -1277,7 +1277,7 @@
       "o2Change": -1,
       "biodiversityChange": -3,
       "h2o": -1,
-      "effectText": "A giant impact darkens the world and food webs crash. Remove 2 large land organisms and 1 surface-ocean organism from play.",
+      "effectText": "A massive rocky space rock traveling at extreme speed slams into Earth. The impact creates an explosion, sending dust and ash into the sky that blocks the sun for months. The world freezes in darkness, and food webs collapse. Remove 2 large land organisms and 1 surface-ocean organism from play.",
       "biomesBad": [
         "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
         "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
