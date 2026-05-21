@@ -439,7 +439,7 @@
       "o2Change": -1,
       "biodiversityChange": -2,
       "h2o": 1,
-      "effectText": "Native herbivore herds crowd the desert fringe after a few good years. Remove palatable grasses and small plants from margin grassland spaces.",
+      "effectText": "Native herbivore herds crowd the desert fringe after a few good years. Remove palatable grasses and small plants from grassland biomes.",
       "biomesBad": [
         "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
         "Desert (Deserts and Xeric Shrublands)"
@@ -480,7 +480,7 @@
       "o2Change": -1,
       "biodiversityChange": -2,
       "h2o": 1,
-      "effectText": "Shifting rains trigger huge locust swarms that strip grasses and herbs. Remove plant producers from affected grassland spaces.",
+      "effectText": "Shifting rains trigger huge locust swarms that strip grasses and herbs. Remove autotrophic organisms from affected grassland biomes.",
       "biomesBad": [
         "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands, Temperate Grasslands, Savannas, and Shrublands)"
       ],
@@ -519,7 +519,7 @@
       "o2Change": 0,
       "biodiversityChange": -1,
       "h2o": -1,
-      "effectText": "Disease and harsh seasons wipe out large grazers. Remove big herbivore tokens and let woody plants begin to invade.",
+      "effectText": "Disease and harsh seasons wipe out large grazers. Remove big herbivores from affected grassland and forest biomes.",
       "biomesBad": [
         "Grassland (Temperate Grasslands, Savannas, and Shrublands)"
       ],
@@ -559,7 +559,7 @@
       "o2Change": 0,
       "biodiversityChange": -1,
       "h2o": 0,
-      "effectText": "A surprise frost hits during growing or nesting season. Remove young plants and nests from selected grassland spaces.",
+      "effectText": "A surprise frost hits during growing or nesting season. Remove one plant and one ground-nesting bird from each grassland biome.",
       "biomesBad": [
         "Grassland (Temperate Grasslands, Savannas, and Shrublands, Montane Grasslands and Shrublands)"
       ],
@@ -568,8 +568,8 @@
       ],
       "organismsBad": [
         {
-          "group": "New seedlings",
-          "example": "Spring brome seedlings (Bromus laevipes), Big bluestem (Andropogon gerardii), Gaura seedlings (Gaura lindheimeri), Annual wildflower seedlings, Crop seedlings (Zea mays)"
+          "group": "Early spring plants vulnerable to frost",
+          "example": "Big bluestem emerging growth (Andropogon gerardii), Purple coneflower (Echinacea angustifolia), Prairie blazing star shoots (Liatris pycnostachya), Milkweed leaves (Asclepias), Black-eyed Susan early growth (Rudbeckia hirta)"
         },
         {
           "group": "Ground-nesting birds",
