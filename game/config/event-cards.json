@@ -164,7 +164,7 @@
       "o2Change": -1,
       "biodiversityChange": -1,
       "h2o": 1,
-      "effectText": "Mild winters let bark beetles explode in number. Remove pine and spruce trees heavily attacked by beetles.",
+      "effectText": "Mild winters let bark beetles explode in number disrupting water and nutrient transport and killing trees. Remove conifer trees in forests.",
       "biomesBad": [
         "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)"
       ],
@@ -174,11 +174,11 @@
       "organismsBad": [
         {
           "group": "Large conifers",
-          "example": "Lodgepole pine"
+          "example": "Pine, Spruces, firs, cedars, cypresses, Larches, redwoods "
         },
         {
           "group": "Tree-dependent specialists",
-          "example": "Red crossbill"
+          "example": "Red crossbill, woodpeckers, chickadees, owls, squirrels, bats, songbirds, wasps, lichens, mosses, and fungi"
         }
       ],
       "organismsGood": [
@@ -203,7 +203,7 @@
       "o2Change": -1,
       "biodiversityChange": -1,
       "h2o": 1,
-      "effectText": "Lightning ignites fires that race through the forest floor. Remove leaf-litter decomposers and understory plants.",
+      "effectText": "Lightning ignites fires that race through the forest floor. Remove leaf-litter decomposers and layers of plants beneath understory layer of plants.",
       "biomesBad": [
         "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)"
       ],
@@ -212,12 +212,12 @@
       ],
       "organismsBad": [
         {
-          "group": "Shade-loving herbs",
-          "example": "Trillium"
+          "group": "Shade-loving herbs, shrubs, ground cover, lichen, moss, fungi organisms",
+          "example": "Trillium, Witch-hazel, Spicebush, blueberries, shrubby viburnums, wild ginger, foamflower, sweet woodruff, lung lichen, old mans beard, sheet moss and carpet forming mosses, forest floor fungi"
         },
         {
           "group": "Slow-moving litter animals",
-          "example": "Forest salamanders"
+          "example": "Forest salamanders, shrews, deer mouse, newts, snails, millipedes, centipedes, earthworms, woodlice, slugs, beetles, larvae, springtails and mites"
         }
       ],
       "organismsGood": [

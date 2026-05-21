@@ -30830,6 +30830,2966 @@
         "reef_building_coral"
       ],
       "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 780",
+      "common_name": "Parrotfishes",
+      "scientific_name": "Scaridae (e.g., Sparisoma viride)",
+      "organism_type": "Animal · Fish (Herbivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Blenniiformes",
+      "family": "Scaridae",
+      "genus": "Sparisoma",
+      "species": "viride",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Graze algae from reef surfaces, helping prevent algal overgrowth of corals; tightly linked to living reef structure for food and shelter.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "reef_dependent",
+        "algae_grazer"
+      ],
+      "categories": [
+        "reef_fish"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 781",
+      "common_name": "Surgeonfishes and tangs",
+      "scientific_name": "Acanthuridae (e.g., Zebrasoma flavescens)",
+      "organism_type": "Animal · Fish (Herbivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Acanthuriformes",
+      "family": "Acanthuridae",
+      "genus": "Zebrasoma",
+      "species": "flavescens",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Graze algae on reef flats and slopes; depend on reef topography and productivity for feeding and refuge.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "reef_dependent",
+        "algae_grazer"
+      ],
+      "categories": [
+        "reef_fish"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 782",
+      "common_name": "Damselfishes (reef-algal gardeners)",
+      "scientific_name": "Pomacentridae (various)",
+      "organism_type": "Animal · Fish (Omnivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacentridae",
+      "genus": "Pomacentridae",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (omnivores)",
+      "dna_sequence": null,
+      "notes": "Many species maintain algal 'gardens' on coral heads or live within branching corals; use reefs for food, nesting sites, and shelter.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "reef_dependent",
+        "symbiont",
+        "algae_farmer"
+      ],
+      "categories": [
+        "reef_fish"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 783",
+      "common_name": "Anthias (fairy basslets)",
+      "scientific_name": "Anthiinae (e.g., Pseudanthias spp.)",
+      "organism_type": "Animal · Fish (Planktivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Serranidae",
+      "genus": "Pseudanthias",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Form schools hovering above coral heads; feed on plankton while using reef structure for refuge from predators.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "reef_dependent",
+        "planktivore",
+        "forage_fish"
+      ],
+      "categories": [
+        "reef_fish"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 784",
+      "common_name": "Butterflyfishes",
+      "scientific_name": "Chaetodontidae (e.g., Chaetodon spp.)",
+      "organism_type": "Animal · Fish (Invertivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Chaetodontidae",
+      "genus": "Chaetodon",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (invertivores)",
+      "dna_sequence": null,
+      "notes": "Many species feed on coral polyps and invertebrates on coral surfaces, making them highly dependent on live coral cover.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "reef_dependent",
+        "corallivore",
+        "predator"
+      ],
+      "categories": [
+        "reef_fish"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 785",
+      "common_name": "Clownfishes",
+      "scientific_name": "Amphiprion spp.",
+      "organism_type": "Animal · Fish (Omnivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacentridae",
+      "genus": "Amphiprion",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (omnivores)",
+      "dna_sequence": null,
+      "notes": "Live in symbiosis with sea anemones embedded in coral reefs; rely on reef structure and anemones for protection and foraging.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "reef_dependent",
+        "symbiont",
+        "omnivore"
+      ],
+      "categories": [
+        "reef_fish"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 786",
+      "common_name": "Groupers",
+      "scientific_name": "Epinephelidae (e.g., Epinephelus striatus)",
+      "organism_type": "Animal · Fish (Predator)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Epinephelidae",
+      "genus": "Epinephelus",
+      "species": "striatus",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Tertiary consumers (mesopredators to apex predators)",
+      "dna_sequence": null,
+      "notes": "Ambush predators that live around coral heads and crevices; reef structure is critical for hunting and shelter.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "reef_dependent",
+        "predator",
+        "apex_predator"
+      ],
+      "categories": [
+        "reef_fish"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 787",
+      "common_name": "Snappers",
+      "scientific_name": "Lutjanidae (e.g., Lutjanus spp.)",
+      "organism_type": "Animal · Fish (Predator)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Lutjanidae",
+      "genus": "Lutjanus",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary to tertiary consumers (predators)",
+      "dna_sequence": null,
+      "notes": "Often use reef-associated habitats as nurseries and feeding grounds; many species hunt around coral structures as adults.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "reef_dependent",
+        "predator",
+        "nursery_user"
+      ],
+      "categories": [
+        "reef_fish"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 788",
+      "common_name": "Hogfish and reef wrasses",
+      "scientific_name": "Labridae (e.g., Lachnolaimus maximus)",
+      "organism_type": "Animal · Fish (Invertivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Labridae",
+      "genus": "Lachnolaimus",
+      "species": "maximus",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (invertivores)",
+      "dna_sequence": null,
+      "notes": "Forage for invertebrates on and around coral reefs; depend on reef structure for feeding opportunities and refuge.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "reef_dependent",
+        "invertivore",
+        "predator"
+      ],
+      "categories": [
+        "reef_fish"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 789",
+      "common_name": "Loblolly pine",
+      "scientific_name": "Pinus taeda",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "taeda",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Primary host for southern pine beetle and Ips engraver beetles; especially vulnerable when stressed.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 790",
+      "common_name": "Shortleaf pine",
+      "scientific_name": "Pinus echinata",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "echinata",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Attacked by bark beetles including southern pine beetle and Ips engraver beetles; vulnerable when stressed.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 791",
+      "common_name": "Virginia pine",
+      "scientific_name": "Pinus virginiana",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "virginiana",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Secondary host for bark beetles including southern pine beetle and Ips species.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 792",
+      "common_name": "Pond pine",
+      "scientific_name": "Pinus serotina",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "serotina",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Hosts for various bark beetle species; often found in wetland pine stands.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 793",
+      "common_name": "Pitch pine",
+      "scientific_name": "Pinus rigida",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "rigida",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Susceptible to bark beetle attack; pioneer species often colonizing disturbed areas.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 794",
+      "common_name": "Red pine",
+      "scientific_name": "Pinus resinosa",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "resinosa",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Host for bark beetles when stressed; important timber and wildlife tree.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 795",
+      "common_name": "Ponderosa pine",
+      "scientific_name": "Pinus ponderosa",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "ponderosa",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Montane Grasslands and Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Major host for mountain pine beetle and western pine beetle; vulnerable when drought-stressed.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 796",
+      "common_name": "Sitka spruce",
+      "scientific_name": "Picea sitchensis",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Picea",
+      "species": "sitchensis",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Attacked by spruce bark beetles; native to Pacific Northwest coastal forests.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 797",
+      "common_name": "White spruce",
+      "scientific_name": "Picea glauca",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Picea",
+      "species": "glauca",
+      "biomes": [
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Susceptible to spruce beetles in northern forests; important boreal forest tree.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 798",
+      "common_name": "Douglas-fir",
+      "scientific_name": "Pseudotsuga menziesii",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pseudotsuga",
+      "species": "menziesii",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Susceptible to fir bark beetles; particularly when drought-stressed or damaged.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 799",
+      "common_name": "White fir",
+      "scientific_name": "Abies concolor",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Abies",
+      "species": "concolor",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Montane Grasslands and Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Attacked by fir bark beetles; susceptible when drought-stressed.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 800",
+      "common_name": "Grand fir",
+      "scientific_name": "Abies grandis",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Abies",
+      "species": "grandis",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Host for fir bark beetles; important in Pacific Northwest forests.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 801",
+      "common_name": "True cedar",
+      "scientific_name": "Cedrus spp.",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Cedrus",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Host for various bark beetle species; often targeted on weakened or stressed trees.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 802",
+      "common_name": "Western redcedar",
+      "scientific_name": "Thuja plicata",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Cupressales",
+      "family": "Cupressaceae",
+      "genus": "Thuja",
+      "species": "plicata",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Attacked by cedar bark beetles and other borers; relatively resistant when healthy.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 803",
+      "common_name": "Juniper",
+      "scientific_name": "Juniperus spp.",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Cupressales",
+      "family": "Cupressaceae",
+      "genus": "Juniperus",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Desert (Deserts and Xeric Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Susceptible to bark beetles; important in arid and semi-arid forest ecosystems.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 804",
+      "common_name": "Eastern arborvitae",
+      "scientific_name": "Thuja occidentalis",
+      "organism_type": "Plant · Conifer (ornamental)",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Cupressales",
+      "family": "Cupressaceae",
+      "genus": "Thuja",
+      "species": "occidentalis",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Landscape arborvitae can be attacked by bark beetles and related borers when stressed by drought or poor site conditions.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 805",
+      "common_name": "Leyland cypress",
+      "scientific_name": "Xanthocyparis leylandii",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Cupressales",
+      "family": "Cupressaceae",
+      "genus": "Xanthocyparis",
+      "species": "leylandii",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Cypress bark beetles specialize on cypress; infestations often follow drought or root damage.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 806",
+      "common_name": "Arizona cypress",
+      "scientific_name": "Cupressus arizonica",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Cupressales",
+      "family": "Cupressaceae",
+      "genus": "Cupressus",
+      "species": "arizonica",
+      "biomes": [
+        "Desert (Deserts and Xeric Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Susceptible to bark beetles in arid regions; vulnerable after drought stress.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 807",
+      "common_name": "European larch",
+      "scientific_name": "Larix decidua",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Larix",
+      "species": "decidua",
+      "biomes": [
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Deciduous conifer that can host bark beetles, especially in stressed stands.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 808",
+      "common_name": "Tamarack",
+      "scientific_name": "Larix laricina",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Larix",
+      "species": "laricina",
+      "biomes": [
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Deciduous conifer; hosts larch beetles in boreal wetland forests.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 809",
+      "common_name": "Coast redwood",
+      "scientific_name": "Sequoia sempervirens",
+      "organism_type": "Plant · Conifer",
+      "kingdom": "Plantae",
+      "phylum": "Pinophyta",
+      "class": "Pinopsida",
+      "order": "Cupressales",
+      "family": "Cupressaceae",
+      "genus": "Sequoia",
+      "species": "sempervirens",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Has bark beetle associates; attacks most serious on stressed or injured trees.",
+      "effects": {
+        "oxygen": 3,
+        "co2": -3,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "conifer",
+        "bark_beetle_host"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 810",
+      "common_name": "Elm",
+      "scientific_name": "Ulmus spp.",
+      "organism_type": "Plant · Broadleaf Tree",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Rosales",
+      "family": "Ulmaceae",
+      "genus": "Ulmus",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Shade and ornamental tree; vulnerable to bark beetles and related borers when weakened by stress or damage.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "broadleaf",
+        "shade_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 811",
+      "common_name": "Apple tree",
+      "scientific_name": "Malus spp.",
+      "organism_type": "Plant · Broadleaf Tree (fruit tree)",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Rosales",
+      "family": "Rosaceae",
+      "genus": "Malus",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Fruit tree attacked by bark beetles and related borers; vulnerable when weakened by stress or damage.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "broadleaf",
+        "fruit_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 812",
+      "common_name": "Pear tree",
+      "scientific_name": "Pyrus spp.",
+      "organism_type": "Plant · Broadleaf Tree (fruit tree)",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Rosales",
+      "family": "Rosaceae",
+      "genus": "Pyrus",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Fruit tree susceptible to bark beetles and related borers when stressed or damaged.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "host_tree"
+      ],
+      "categories": [
+        "broadleaf",
+        "fruit_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 813",
+      "common_name": "Red-breasted nuthatch",
+      "scientific_name": "Sitta canadensis",
+      "organism_type": "Animal · Bird (Insectivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Sittidae",
+      "genus": "Sitta",
+      "species": "canadensis",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (insectivores)",
+      "dna_sequence": null,
+      "notes": "Forages on insects on conifer bark and nests in tree cavities; loss of live conifer stands and structural diversity from bark beetle outbreaks reduces foraging habitat and suitable nest sites.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "cavity_nester",
+        "forest_dependent"
+      ],
+      "categories": [
+        "bird",
+        "conifer_forest_specialist"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 814",
+      "common_name": "Mountain chickadee",
+      "scientific_name": "Poecile gambeli",
+      "organism_type": "Animal · Bird (Omnivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Paridae",
+      "genus": "Poecile",
+      "species": "gambeli",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Montane Grasslands and Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (omnivores)",
+      "dna_sequence": null,
+      "notes": "Uses cavities in conifers for nesting and feeds on insects and seeds in conifer canopies; extensive beetle-caused mortality can simplify canopy structure and reduce habitat quality.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "cavity_nester",
+        "forest_dependent"
+      ],
+      "categories": [
+        "bird",
+        "conifer_forest_specialist"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 815",
+      "common_name": "Three-toed woodpecker",
+      "scientific_name": "Picoides tridactylus",
+      "organism_type": "Animal · Bird (Insectivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Picidae",
+      "genus": "Picoides",
+      "species": "tridactylus",
+      "biomes": [
+        "Forest (Boreal Forests and Taiga)",
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (insectivores)",
+      "dna_sequence": null,
+      "notes": "Specializes on insects in conifer bark; benefits initially from increased beetle larvae but may lose long-term habitat as forests convert from live conifer to open snag fields.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "cavity_nester",
+        "forest_dependent"
+      ],
+      "categories": [
+        "bird",
+        "conifer_forest_specialist"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 816",
+      "common_name": "American marten",
+      "scientific_name": "Martes americana",
+      "organism_type": "Animal · Mammal (Carnivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Martes",
+      "species": "americana",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary to tertiary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Relies on structurally complex conifer forests with abundant cover and downed logs; large-scale bark beetle mortality can reduce canopy cover and alter prey and den availability.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "forest_dependent",
+        "apex_predator"
+      ],
+      "categories": [
+        "mammal",
+        "conifer_forest_specialist"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 817",
+      "common_name": "Northern flying squirrel",
+      "scientific_name": "Glaucomys sabrinus",
+      "organism_type": "Animal · Mammal (Omnivore)",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Glaucomys",
+      "species": "sabrinus",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary to secondary consumers (omnivores)",
+      "dna_sequence": null,
+      "notes": "Uses continuous canopy and tree cavities for movement and nesting; widespread snag fields from beetle outbreaks fragment canopy and reduce safe glide paths and den sites over time.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "omnivore",
+        "cavity_nester",
+        "forest_dependent"
+      ],
+      "categories": [
+        "mammal",
+        "conifer_forest_specialist"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 818",
+      "common_name": "Lung lichen",
+      "scientific_name": "Lobaria pulmonaria",
+      "organism_type": "Lichen · Epiphytic Lichen",
+      "kingdom": "Fungi",
+      "phylum": "Ascomycota",
+      "class": "Lecanoromycetes",
+      "order": "Peltigerales",
+      "family": "Lobariaceae",
+      "genus": "Lobaria",
+      "species": "pulmonaria",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers / symbionts",
+      "dna_sequence": null,
+      "notes": "Grows on stable, long-lived tree bark; loss of mature live trees and shifts to younger or deadwood-dominated stands reduce suitable substrates.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "symbiont",
+        "epiphyte",
+        "forest_dependent"
+      ],
+      "categories": [
+        "lichen",
+        "old_growth_indicator"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 819",
+      "common_name": "Conifer-associated polypore fungi",
+      "scientific_name": "Fomitopsis, Trichaptum, and related genera",
+      "organism_type": "Fungus · Wood-decay Fungus",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Polyporales",
+      "family": "Fomitopsidaceae",
+      "genus": "Fomitopsis / Trichaptum",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers",
+      "dna_sequence": null,
+      "notes": "Some species require particular host trees and successional stages; rapid, large-scale mortality can shift wood type and decay dynamics, favoring generalists over host- or stage-specialist fungi.",
+      "effects": {
+        "oxygen": -1,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer",
+        "wood_decay_specialist"
+      ],
+      "categories": [
+        "fungus",
+        "conifer_forest_specialist"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 820",
+      "common_name": "Witch-hazel",
+      "scientific_name": "Hamamelis virginiana",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Saxifragales",
+      "family": "Hamamelidaceae",
+      "genus": "Hamamelis",
+      "species": "virginiana",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Deciduous understory shrub of eastern North American forests; flowers and grows under closed-canopy shade.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "understory_shrub",
+        "shade_dependent"
+      ],
+      "categories": [
+        "understory_plant",
+        "deciduous_shrub"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 821",
+      "common_name": "Spicebush",
+      "scientific_name": "Lindera benzoin",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Laurales",
+      "family": "Lauraceae",
+      "genus": "Lindera",
+      "species": "benzoin",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Aromatic woodland shrub that thrives in moist, shaded understories and along forested streams.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "understory_shrub",
+        "shade_dependent"
+      ],
+      "categories": [
+        "understory_plant",
+        "deciduous_shrub"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 822",
+      "common_name": "Mapleleaf viburnum",
+      "scientific_name": "Viburnum acerifolium",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Dipsacales",
+      "family": "Adoxaceae",
+      "genus": "Viburnum",
+      "species": "acerifolium",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Low understory shrub of deciduous forests; adapted to filtered light beneath taller trees.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "understory_shrub",
+        "shade_dependent"
+      ],
+      "categories": [
+        "understory_plant",
+        "deciduous_shrub"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 823",
+      "common_name": "Solomon's seal",
+      "scientific_name": "Polygonatum biflorum",
+      "organism_type": "Plant · Herb",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Monocots",
+      "order": "Asparagales",
+      "family": "Asparagaceae",
+      "genus": "Polygonatum",
+      "species": "biflorum",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Arching woodland herb with dangling flowers; characteristic of rich, shaded deciduous forests.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "understory_herb",
+        "shade_dependent"
+      ],
+      "categories": [
+        "understory_plant",
+        "herbaceous"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 824",
+      "common_name": "False Solomon's seal",
+      "scientific_name": "Maianthemum racemosum",
+      "organism_type": "Plant · Herb",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Monocots",
+      "order": "Asparagales",
+      "family": "Asparagaceae",
+      "genus": "Maianthemum",
+      "species": "racemosum",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Forest herb with plume-like flower clusters; found in dappled shade of mixed and deciduous woods.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "understory_herb",
+        "shade_dependent"
+      ],
+      "categories": [
+        "understory_plant",
+        "herbaceous"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 825",
+      "common_name": "Foamflower",
+      "scientific_name": "Tiarella cordifolia",
+      "organism_type": "Plant · Ground Cover",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Saxifragales",
+      "family": "Saxifragaceae",
+      "genus": "Tiarella",
+      "species": "cordifolia",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Creeping woodland perennial that forms mats and sends up frothy flower spikes in deep to partial shade.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ground_cover",
+        "shade_dependent"
+      ],
+      "categories": [
+        "understory_plant",
+        "ground_cover"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 826",
+      "common_name": "Sweet woodruff",
+      "scientific_name": "Galium odoratum",
+      "organism_type": "Plant · Ground Cover",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Gentianales",
+      "family": "Rubiaceae",
+      "genus": "Galium",
+      "species": "odoratum",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Low, whorled-leaf herb that spreads to form dense ground cover in cool, shaded forests.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ground_cover",
+        "shade_dependent"
+      ],
+      "categories": [
+        "understory_plant",
+        "ground_cover"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 827",
+      "common_name": "Lily-of-the-valley",
+      "scientific_name": "Convallaria majalis",
+      "organism_type": "Plant · Ground Cover",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Monocots",
+      "order": "Asparagales",
+      "family": "Asparagaceae",
+      "genus": "Convallaria",
+      "species": "majalis",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Clonal, shade-loving ground-cover herb with nodding white flowers; carpets cool forest understories.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ground_cover",
+        "shade_dependent"
+      ],
+      "categories": [
+        "understory_plant",
+        "ground_cover"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 828",
+      "common_name": "Sheet moss",
+      "scientific_name": "Hypnum spp.",
+      "organism_type": "Bryophyte · Moss",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Hypnaceae",
+      "genus": "Hypnum",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Carpet-forming moss that creates continuous green mats over soil, logs, and rocks in shaded forests.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "ground_cover"
+      ],
+      "categories": [
+        "moss",
+        "forest_floor"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 829",
+      "common_name": "Feather moss",
+      "scientific_name": "Pleurozium schreberi",
+      "organism_type": "Bryophyte · Moss",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Bryopsida",
+      "order": "Hypnales",
+      "family": "Hylocomiaceae",
+      "genus": "Pleurozium",
+      "species": "schreberi",
+      "biomes": [
+        "Forest (Boreal Forests and Taiga)",
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Dominant forest-floor moss in many boreal and cool forests; thrives under closed canopies.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "ground_cover"
+      ],
+      "categories": [
+        "moss",
+        "forest_floor"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 830",
+      "common_name": "Haircap moss",
+      "scientific_name": "Polytrichum spp.",
+      "organism_type": "Bryophyte · Moss",
+      "kingdom": "Plantae",
+      "phylum": "Bryophyta",
+      "class": "Polytrichopsida",
+      "order": "Polytrichales",
+      "family": "Polytrichaceae",
+      "genus": "Polytrichum",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Erect moss forming tufts or patches on shaded forest soils and rotting wood.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "decomposer_associate",
+        "ground_cover"
+      ],
+      "categories": [
+        "moss",
+        "forest_floor"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 831",
+      "common_name": "Mycena mushrooms",
+      "scientific_name": "Mycena spp.",
+      "organism_type": "Fungus · Saprotrophic Mushroom",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Mycenaceae",
+      "genus": "Mycena",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Decomposers",
+      "dna_sequence": null,
+      "notes": "Small saprotrophic mushrooms that fruit on leaf litter and woody debris in cool, shaded forest understories.",
+      "effects": {
+        "oxygen": -1,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "ecosystem_engineer",
+        "forest_floor_specialist"
+      ],
+      "categories": [
+        "fungus",
+        "saprotrophic_fungus"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 832",
+      "common_name": "Russula mushrooms",
+      "scientific_name": "Russula spp.",
+      "organism_type": "Fungus · Ectomycorrhizal Mushroom",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Russulales",
+      "family": "Russulaceae",
+      "genus": "Russula",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Symbionts / decomposers",
+      "dna_sequence": null,
+      "notes": "Ectomycorrhizal fungi forming colorful caps on forest floors; associated with trees in shaded woods.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "symbiont",
+        "ecosystem_engineer",
+        "forest_floor_specialist"
+      ],
+      "categories": [
+        "fungus",
+        "mycorrhizal_fungus"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 833",
+      "common_name": "Amanita mushrooms",
+      "scientific_name": "Amanita spp.",
+      "organism_type": "Fungus · Ectomycorrhizal Mushroom",
+      "kingdom": "Fungi",
+      "phylum": "Basidiomycota",
+      "class": "Agaricomycetes",
+      "order": "Agaricales",
+      "family": "Amanitaceae",
+      "genus": "Amanita",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Symbionts / decomposers",
+      "dna_sequence": null,
+      "notes": "Ectomycorrhizal forest fungi whose fruiting bodies appear on shaded forest floors beneath their tree partners.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "symbiont",
+        "ecosystem_engineer",
+        "forest_floor_specialist"
+      ],
+      "categories": [
+        "fungus",
+        "mycorrhizal_fungus"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 834",
+      "common_name": "Red wiggler",
+      "scientific_name": "Eisenia fetida",
+      "organism_type": "Annelid · Earthworm",
+      "kingdom": "Animalia",
+      "phylum": "Annelida",
+      "class": "Clitellata",
+      "order": "Haplotaxida",
+      "family": "Lumbricidae",
+      "genus": "Eisenia",
+      "species": "fetida",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Detritivores",
+      "dna_sequence": null,
+      "notes": "Surface litter decomposer that thrives in rich organic litter and duff; highly sensitive to heat and desiccation.",
+      "effects": {
+        "oxygen": -1,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "litter_processor",
+        "soil_engineer"
+      ],
+      "categories": [
+        "litter_fauna",
+        "soil_organism"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 835",
+      "common_name": "Common pillbug",
+      "scientific_name": "Armadillidium vulgare",
+      "organism_type": "Crustacean · Isopod",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Isopoda",
+      "family": "Armadillidiidae",
+      "genus": "Armadillidium",
+      "species": "vulgare",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Detritivores",
+      "dna_sequence": null,
+      "notes": "Litter shredder that requires damp leaf litter, logs, and cool refuges; vulnerable to desiccation and fire.",
+      "effects": {
+        "oxygen": -1,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "litter_processor",
+        "ecosystem_engineer"
+      ],
+      "categories": [
+        "litter_fauna",
+        "arthropod"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 836",
+      "common_name": "Woodlouse",
+      "scientific_name": "Porcellio spp.",
+      "organism_type": "Crustacean · Isopod",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Isopoda",
+      "family": "Porcellionidae",
+      "genus": "Porcellio",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Detritivores",
+      "dna_sequence": null,
+      "notes": "Leaf and wood decomposer living in humid microhabitats under forest litter; fire removes shelter and food.",
+      "effects": {
+        "oxygen": -1,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "litter_processor",
+        "ecosystem_engineer"
+      ],
+      "categories": [
+        "litter_fauna",
+        "arthropod"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 837",
+      "common_name": "Flat-backed millipede",
+      "scientific_name": "Polydesmus spp.",
+      "organism_type": "Myriapod · Millipede",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Diplopoda",
+      "order": "Polydesmida",
+      "family": "Polydesmidae",
+      "genus": "Polydesmus",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Detritivores",
+      "dna_sequence": null,
+      "notes": "Litter feeder requiring damp leaf litter and decaying wood; highly exposed to lethal fire temperatures.",
+      "effects": {
+        "oxygen": -1,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "litter_processor",
+        "ecosystem_engineer"
+      ],
+      "categories": [
+        "litter_fauna",
+        "arthropod"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 838",
+      "common_name": "Garden snail",
+      "scientific_name": "Cornu aspersum",
+      "organism_type": "Gastropod · Snail",
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Stylommatophora",
+      "family": "Helicidae",
+      "genus": "Cornu",
+      "species": "aspersum",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Herbivores / detritivores",
+      "dna_sequence": null,
+      "notes": "Detritivore and fungal grazer requiring cool, moist litter; highly vulnerable to heat and desiccation from fire.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "herbivore",
+        "fungal_grazer"
+      ],
+      "categories": [
+        "litter_fauna",
+        "mollusk"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 839",
+      "common_name": "Forest slug",
+      "scientific_name": "Arion spp.",
+      "organism_type": "Gastropod · Slug",
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Stylommatophora",
+      "family": "Arionidae",
+      "genus": "Arion",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Herbivores / detritivores",
+      "dna_sequence": null,
+      "notes": "Detritivore and herbivore living in humid leaf litter; surface fires kill adults and eggs; moist litter loss removes habitat.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "herbivore",
+        "litter_processor"
+      ],
+      "categories": [
+        "litter_fauna",
+        "mollusk"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 840",
+      "common_name": "Springtail",
+      "scientific_name": "Collembola (Folsomia candida)",
+      "organism_type": "Hexapod · Springtail",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Collembola",
+      "order": "Entomobryomorpha",
+      "family": "Isotomidae",
+      "genus": "Folsomia",
+      "species": "candida",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Micro-detritivores",
+      "dna_sequence": null,
+      "notes": "Micro-detritivore and fungal grazer in organic-rich litter; heat and organic horizon loss reduce populations and alter decomposition.",
+      "effects": {
+        "oxygen": -1,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "micro_scavenger",
+        "fungal_grazer"
+      ],
+      "categories": [
+        "litter_fauna",
+        "arthropod"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 841",
+      "common_name": "Soil mite",
+      "scientific_name": "Acari (Oribatida)",
+      "organism_type": "Arachnid · Mite",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Oribatida",
+      "family": "Oribatida (various)",
+      "genus": "Acari",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Micro-detritivores",
+      "dna_sequence": null,
+      "notes": "Micro-detritivore and fungal feeder in moist leaf litter; fire kills individuals and eliminates organic microhabitats, slowing fine-scale litter breakdown.",
+      "effects": {
+        "oxygen": -1,
+        "co2": 1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "micro_scavenger",
+        "fungal_grazer"
+      ],
+      "categories": [
+        "litter_fauna",
+        "arthropod"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 842",
+      "common_name": "Carrion beetle",
+      "scientific_name": "Nicrophorus spp.",
+      "organism_type": "Insect · Beetle",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Silphidae",
+      "genus": "Nicrophorus",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Detritivores / scavengers",
+      "dna_sequence": null,
+      "notes": "Scavenger and decomposer of animal remains; larvae slow-moving in organic litter; fire destroys carcasses and microhabitats, disrupting decomposer webs.",
+      "effects": {
+        "oxygen": -1,
+        "co2": 1,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "decomposer",
+        "scavenger",
+        "litter_processor"
+      ],
+      "categories": [
+        "litter_fauna",
+        "beetle"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 843",
+      "common_name": "Rove beetle",
+      "scientific_name": "Staphylinidae (various)",
+      "organism_type": "Insect · Beetle",
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Staphylinidae",
+      "genus": "Staphylinidae",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Predators / scavengers",
+      "dna_sequence": null,
+      "notes": "Predator and micro-scavenger of litter microhabitats; loss of structural complexity and prey after fire reduces abundance and alters species composition.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "scavenger",
+        "litter_processor"
+      ],
+      "categories": [
+        "litter_fauna",
+        "beetle"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 844",
+      "common_name": "Red-backed salamander",
+      "scientific_name": "Plethodon cinereus",
+      "organism_type": "Amphibian · Salamander",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Plethodontidae",
+      "genus": "Plethodon",
+      "species": "cinereus",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Forest-floor invertebrate predator requiring moist leaf litter, decaying logs, and stones; highly sensitive to heat and desiccation.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "litter_specialist",
+        "fire_sensitive"
+      ],
+      "categories": [
+        "litter_fauna",
+        "amphibian"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 845",
+      "common_name": "Ensatina",
+      "scientific_name": "Ensatina eschscholtzii",
+      "organism_type": "Amphibian · Salamander",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Plethodontidae",
+      "genus": "Ensatina",
+      "species": "eschscholtzii",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Mediterranean Forests, Woodlands, and Scrub)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Forest-floor invertebrate predator in cool, moist litter and rotting wood; surface fires consuming litter greatly reduce refuges and cause high mortality.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "litter_specialist",
+        "fire_sensitive"
+      ],
+      "categories": [
+        "litter_fauna",
+        "amphibian"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 846",
+      "common_name": "Slender salamanders",
+      "scientific_name": "Batrachoseps spp.",
+      "organism_type": "Amphibian · Salamander",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Plethodontidae",
+      "genus": "Batrachoseps",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Mediterranean Forests, Woodlands, and Scrub)",
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Leaf-litter and soil micro-predator living in thin films of moisture; extremely vulnerable to even low-intensity burns; removal of fine litter eliminates critical microhabitats.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "litter_specialist",
+        "fire_sensitive"
+      ],
+      "categories": [
+        "litter_fauna",
+        "amphibian"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 847",
+      "common_name": "Dusky salamanders",
+      "scientific_name": "Desmognathus spp.",
+      "organism_type": "Amphibian · Salamander",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Plethodontidae",
+      "genus": "Desmognathus",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Stream-margin and litter predator requiring moist leaf litter near forest streams and seeps; riparian forest fires reduce damp refuges and fragment populations.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "litter_specialist",
+        "stream_dependent"
+      ],
+      "categories": [
+        "litter_fauna",
+        "amphibian"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 848",
+      "common_name": "Terrestrial newt",
+      "scientific_name": "Notophthalmus spp. (eft stage)",
+      "organism_type": "Amphibian · Newt",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae",
+      "genus": "Notophthalmus",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Terrestrial lifecycle stage (eft) living in shaded, humid litter and moss; forest-floor fires directly kill terrestrial stages and reduce humid refuges between aquatic phases.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "litter_specialist",
+        "fire_sensitive"
+      ],
+      "categories": [
+        "litter_fauna",
+        "amphibian"
+      ],
+      "waterRequirement": 2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 849",
+      "common_name": "Forest shrew",
+      "scientific_name": "Sorex spp.",
+      "organism_type": "Mammal · Shrew",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Soricomorpha",
+      "family": "Soricidae",
+      "genus": "Sorex",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Small insectivore foraging and sheltering in dense leaf litter and moss; fire removes litter supporting invertebrate prey and reduces cover, increasing predation risk.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "litter_specialist",
+        "fire_sensitive"
+      ],
+      "categories": [
+        "litter_fauna",
+        "mammal"
+      ],
+      "waterRequirement": 0
     }
   ]
 }
