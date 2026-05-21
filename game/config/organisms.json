@@ -28902,6 +28902,424 @@
         "roots"
       ],
       "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 724",
+      "common_name": "Deer mouse",
+      "scientific_name": "Peromyscus maniculatus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Cricetidae",
+      "genus": "Peromyscus",
+      "species": "maniculatus",
+      "biomes": [
+        "Temperate Grasslands, Savannas, and Shrublands",
+        "Boreal Forests"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Uses subnivean tunnels to move, forage, and nest under winter snowpacks.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "seed_disperser"
+      ],
+      "categories": [
+        "subnivean_rodents"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 725",
+      "common_name": "Field mice (various species)",
+      "scientific_name": "Apodemus spp.",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Cricetidae",
+      "genus": "Apodemus",
+      "species": "spp.",
+      "biomes": [
+        "Temperate Grasslands, Savannas, and Shrublands",
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Active under snow in tunnel systems accessing seeds and plant material.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "seed_disperser"
+      ],
+      "categories": [
+        "subnivean_rodents"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 726",
+      "common_name": "Meadow vole",
+      "scientific_name": "Microtus pennsylvanicus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Cricetidae",
+      "genus": "Microtus",
+      "species": "pennsylvanicus",
+      "biomes": [
+        "Temperate Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Maintains extensive subnivean tunnel networks to reach grasses and bark.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "ecosystem_engineer"
+      ],
+      "categories": [
+        "subnivean_rodents"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 727",
+      "common_name": "Other voles (various species)",
+      "scientific_name": "Microtus spp.",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Cricetidae",
+      "genus": "Microtus",
+      "species": "spp.",
+      "biomes": [
+        "Boreal Forests",
+        "Temperate Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Use subnivean zones for foraging and protection from predators.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "ecosystem_engineer"
+      ],
+      "categories": [
+        "subnivean_rodents"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 728",
+      "common_name": "Lemmings (e.g., brown and collared lemmings)",
+      "scientific_name": "Lemmus spp.",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Cricetidae",
+      "genus": "Lemmus",
+      "species": "spp.",
+      "biomes": [
+        "Boreal Forests",
+        "Tundra"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "In boreal and Arctic regions, feed on vegetation beneath the snow.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "prey_species"
+      ],
+      "categories": [
+        "subnivean_rodents"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 729",
+      "common_name": "Shrews (e.g., short-tailed shrews)",
+      "scientific_name": "Blarina brevicauda",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Soricomorpha",
+      "family": "Soricidae",
+      "genus": "Blarina",
+      "species": "brevicauda",
+      "biomes": [
+        "Temperate Broadleaf and Mixed Forests",
+        "Temperate Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Hunt invertebrates and small prey in subnivean tunnels.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "invertebrate_control"
+      ],
+      "categories": [
+        "subnivean_predators"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 730",
+      "common_name": "Red squirrel",
+      "scientific_name": "Sciurus vulgaris",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Sciurus",
+      "species": "vulgaris",
+      "biomes": [
+        "Boreal Forests",
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "May use subnivean spaces and connected burrows as winter refuges and travel routes.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "seed_disperser"
+      ],
+      "categories": [
+        "arboreal_rodents"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 731",
+      "common_name": "Chipmunk",
+      "scientific_name": "Tamias striatus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Tamias",
+      "species": "striatus",
+      "biomes": [
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Uses burrows and subnivean spaces to access cached seeds and nuts in winter.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "seed_disperser"
+      ],
+      "categories": [
+        "terrestrial_rodents"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 732",
+      "common_name": "Snowshoe hare",
+      "scientific_name": "Lepus americanus",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Lagomorpha",
+      "family": "Leporidae",
+      "genus": "Lepus",
+      "species": "americanus",
+      "biomes": [
+        "Boreal Forests",
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Can use subnivean spaces and burrows under snow cover for shelter and movement.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "prey_species"
+      ],
+      "categories": [
+        "lagomorphs"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 733",
+      "common_name": "Other small rabbits (various species)",
+      "scientific_name": "Sylvilagus spp.",
+      "main_photo": null,
+      "organism_type": "Terrestrial vertebrates",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Lagomorpha",
+      "family": "Leporidae",
+      "genus": "Sylvilagus",
+      "species": "spp.",
+      "biomes": [
+        "Temperate Grasslands, Savannas, and Shrublands",
+        "Temperate Broadleaf and Mixed Forests"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "In deeper snow regions, may use subnivean spaces for cover and movement.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "prey_species"
+      ],
+      "categories": [
+        "lagomorphs"
+      ],
+      "waterRequirement": -1
     }
   ]
 }

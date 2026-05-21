@@ -8,7 +8,7 @@
       "o2Change": -1,
       "biodiversityChange": -2,
       "h2o": 0,
-      "effectText": "A huge undersea landslide buries seafloor communities in mud. Remove bottom-dwelling organisms in deep-sea and slope biomes.",
+      "effectText": "A huge undersea landslide buries seafloor communities in mud. Remove bottom-dwelling organisms in marine biomes.",
       "biomesBad": [
         "Marine (Temperate Shelf and Seas)"
       ],
@@ -18,7 +18,7 @@
       "organismsBad": [
         {
           "group": "Seafloor filter feeders",
-          "example": "Sea cucumbers"
+          "example": "Sea cucumbers, Sponges, clams, mussels, oysters, Scallops, Crinoids"
         },
         {
           "group": "Sessile invertebrates",
@@ -686,8 +686,8 @@
       ],
       "organismsBad": [
         {
-          "group": "Subnivean small mammals",
-          "example": "Voles"
+          "group": "tiny rodents and insectivores that live between the ground and snow",
+          "example": "Voles, mice, shrews, lemmings, and some squirrels and rabbits"
         },
         {
           "group": "Low tundra shrubs",
