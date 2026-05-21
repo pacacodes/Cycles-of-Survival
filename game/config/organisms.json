@@ -29320,6 +29320,1516 @@
         "lagomorphs"
       ],
       "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 744",
+      "common_name": "Gulls",
+      "scientific_name": "Larus spp.",
+      "main_photo": null,
+      "organism_type": "Seabirds",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Charadriiformes",
+      "family": "Laridae",
+      "genus": "Larus",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Seize fish and invertebrates at or near the surface and scavenge floating food items.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "scavenger"
+      ],
+      "categories": [
+        "surface_feeding_seabirds"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 745",
+      "common_name": "Terns",
+      "scientific_name": "Sterna spp.",
+      "main_photo": null,
+      "organism_type": "Seabirds",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Charadriiformes",
+      "family": "Laridae",
+      "genus": "Sterna",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Hover and make shallow plunges for small fish and invertebrates close to the surface.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ],
+      "categories": [
+        "surface_feeding_seabirds"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 746",
+      "common_name": "Phalaropes",
+      "scientific_name": "Phalaropus spp.",
+      "main_photo": null,
+      "organism_type": "Shorebirds",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Charadriiformes",
+      "family": "Scolopacidae",
+      "genus": "Phalaropus",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Feed while swimming on the surface, picking small invertebrates as they spin to bring prey up.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ],
+      "categories": [
+        "surface_feeding_seabirds"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 747",
+      "common_name": "Dabbling ducks",
+      "scientific_name": "Anas spp.",
+      "main_photo": null,
+      "organism_type": "Waterfowl",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Anseriformes",
+      "family": "Anatidae",
+      "genus": "Anas",
+      "species": "spp.",
+      "biomes": [
+        "Freshwater",
+        "Temperate Grasslands, Savannas, and Shrublands"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Feed at the surface or by tipping up in shallow water rather than diving deeply.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "omnivore"
+      ],
+      "categories": [
+        "waterfowl"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 748",
+      "common_name": "Shearwaters and petrels (surface-feeding forms)",
+      "scientific_name": "Procellaria spp.",
+      "main_photo": null,
+      "organism_type": "Seabirds",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Procellariiformes",
+      "family": "Procellariidae",
+      "genus": "Procellaria",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Take fish and zooplankton from or just below the surface while gliding and pattering on the water.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ],
+      "categories": [
+        "surface_feeding_seabirds"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 749",
+      "common_name": "Albatrosses",
+      "scientific_name": "Diomedeidae spp.",
+      "main_photo": null,
+      "organism_type": "Seabirds",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Procellariiformes",
+      "family": "Diomedeidae",
+      "genus": "Diomedea",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Large pelagic seabirds that mainly feed by surface-seizing squid and fish at or near the water surface; make only shallow dives.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator"
+      ],
+      "categories": [
+        "surface_feeding_seabirds"
+      ],
+      "waterRequirement": -4
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 750",
+      "common_name": "Whale shark",
+      "scientific_name": "Rhincodon typus",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Chondrichthyes",
+      "order": "Orectolobiformes",
+      "family": "Rhincodontidae",
+      "genus": "Rhincodon",
+      "species": "typus",
+      "biomes": [
+        "Marine (Tropical Coral Reefs)",
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Largest living fish; filters zooplankton and small fish using gill rakers while swimming with mouth open.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "plankton_consumer"
+      ],
+      "categories": [
+        "filter_feeding_fish"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 751",
+      "common_name": "Basking shark",
+      "scientific_name": "Cetorhinus maximus",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Chondrichthyes",
+      "order": "Lamniformes",
+      "family": "Cetorhinidae",
+      "genus": "Cetorhinus",
+      "species": "maximus",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Large coastal and oceanic shark; slowly swims with mouth open to strain plankton from the water.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "plankton_consumer"
+      ],
+      "categories": [
+        "filter_feeding_fish"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 752",
+      "common_name": "Megamouth shark",
+      "scientific_name": "Megachasma pelagios",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Chondrichthyes",
+      "order": "Lamniformes",
+      "family": "Megachasmidae",
+      "genus": "Megachasma",
+      "species": "pelagios",
+      "biomes": [
+        "Marine (Deep Sea)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Rare deep-water shark; uses large mouth and gill filters to capture plankton and small fish.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "plankton_consumer"
+      ],
+      "categories": [
+        "filter_feeding_fish",
+        "deep_sea"
+      ],
+      "waterRequirement": -4
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 753",
+      "common_name": "Manta rays",
+      "scientific_name": "Mobula spp.",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Chondrichthyes",
+      "order": "Myliobatiformes",
+      "family": "Mobulidae",
+      "genus": "Mobula",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral Reefs)",
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Large rays; channel plankton-rich water into the mouth using cephalic lobes and filter it with gill structures.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "plankton_consumer"
+      ],
+      "categories": [
+        "filter_feeding_fish"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 754",
+      "common_name": "Menhaden",
+      "scientific_name": "Brevoortia spp.",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Clupeiformes",
+      "family": "Clupeidae",
+      "genus": "Brevoortia",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Schooling forage fish; use fine gill rakers to strain phytoplankton and zooplankton.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "forage_fish",
+        "prey_species"
+      ],
+      "categories": [
+        "filter_feeding_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 755",
+      "common_name": "Anchovies and sardines",
+      "scientific_name": "Engraulidae and Clupeidae",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Clupeiformes",
+      "family": "Clupeidae",
+      "genus": "Various",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Small schooling fishes; sieve plankton from the water column with specialized gill rakers.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "forage_fish",
+        "prey_species"
+      ],
+      "categories": [
+        "filter_feeding_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 756",
+      "common_name": "American paddlefish",
+      "scientific_name": "Polyodon spathula",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Acipenseriformes",
+      "family": "Polyodontidae",
+      "genus": "Polyodon",
+      "species": "spathula",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Freshwater filter feeder; swims with mouth open, using gill rakers to strain zooplankton.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "plankton_consumer"
+      ],
+      "categories": [
+        "filter_feeding_fish",
+        "freshwater"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 757",
+      "common_name": "Silver carp and bighead carp",
+      "scientific_name": "Hypophthalmichthys molitrix and Hypophthalmichthys nobilis",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Cypriniformes",
+      "family": "Cyprinidae",
+      "genus": "Hypophthalmichthys",
+      "species": "spp.",
+      "biomes": [
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Planktivorous carps; use specialized gill structures to filter phytoplankton and small particles.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "plankton_consumer"
+      ],
+      "categories": [
+        "filter_feeding_fish",
+        "freshwater"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 758",
+      "common_name": "Clams and mussels",
+      "scientific_name": "Bivalvia (various)",
+      "main_photo": null,
+      "organism_type": "Invertebrate",
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Bivalvia",
+      "order": "Various",
+      "family": "Various",
+      "genus": "Various",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Freshwater"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (filter feeders)",
+      "dna_sequence": null,
+      "notes": "Pump water over gills; cilia and mucus capture phytoplankton, bacteria, and organic particles.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "filter_feeder",
+        "water_purifier"
+      ],
+      "categories": [
+        "bivalve_mollusks"
+      ],
+      "waterRequirement": -1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 759",
+      "common_name": "Ecklonia kelp / common kelp",
+      "scientific_name": "Ecklonia radiata",
+      "main_photo": null,
+      "organism_type": "Plant · Marine Macroalga",
+      "kingdom": "Protista",
+      "phylum": "Ochrophyta",
+      "class": "Phaeophyceae",
+      "order": "Laminariales",
+      "family": "Lessoniaceae",
+      "genus": "Ecklonia",
+      "species": "radiata",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Ecklonia kelp creates dense subtidal canopies on rocky reefs in Australasia and parts of the Indian and Pacific Oceans.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "canopy_former"
+      ],
+      "categories": [
+        "marine_macroalgae",
+        "kelp"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 760",
+      "common_name": "Kelp (oarweed and related kelps)",
+      "scientific_name": "Laminaria spp.",
+      "main_photo": null,
+      "organism_type": "Plant · Marine Macroalga",
+      "kingdom": "Protista",
+      "phylum": "Ochrophyta",
+      "class": "Phaeophyceae",
+      "order": "Laminariales",
+      "family": "Laminariaceae",
+      "genus": "Laminaria",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Boreal)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Laminaria kelps (such as oarweed) form underwater forests on temperate and subpolar rocky shores.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "canopy_former"
+      ],
+      "categories": [
+        "marine_macroalgae",
+        "kelp"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 761",
+      "common_name": "Sugar kelp and related kelps",
+      "scientific_name": "Saccharina spp.",
+      "main_photo": null,
+      "organism_type": "Plant · Marine Macroalga",
+      "kingdom": "Protista",
+      "phylum": "Ochrophyta",
+      "class": "Phaeophyceae",
+      "order": "Laminariales",
+      "family": "Saccharinaceae",
+      "genus": "Saccharina",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Boreal)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Sugar kelp and related Saccharina kelps create canopy layers in cool-temperate marine habitats.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "canopy_former"
+      ],
+      "categories": [
+        "marine_macroalgae",
+        "kelp"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 762",
+      "common_name": "Rockweeds / bladderwrack",
+      "scientific_name": "Fucus spp.",
+      "main_photo": null,
+      "organism_type": "Plant · Marine Macroalga",
+      "kingdom": "Protista",
+      "phylum": "Ochrophyta",
+      "class": "Phaeophyceae",
+      "order": "Fucales",
+      "family": "Fucaceae",
+      "genus": "Fucus",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Boreal)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Rockweed species of Fucus form dense intertidal canopies on North Atlantic rocky shores.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "canopy_former"
+      ],
+      "categories": [
+        "marine_macroalgae",
+        "rockweed"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 763",
+      "common_name": "Knotted wrack",
+      "scientific_name": "Ascophyllum nodosum",
+      "main_photo": null,
+      "organism_type": "Plant · Marine Macroalga",
+      "kingdom": "Protista",
+      "phylum": "Ochrophyta",
+      "class": "Phaeophyceae",
+      "order": "Fucales",
+      "family": "Fucaceae",
+      "genus": "Ascophyllum",
+      "species": "nodosum",
+      "biomes": [
+        "Marine (Boreal)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Knotted wrack creates thick, ropey canopies in the mid-intertidal zone of North Atlantic coasts.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "canopy_former"
+      ],
+      "categories": [
+        "marine_macroalgae",
+        "rockweed"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 764",
+      "common_name": "Cystoseira brown algae",
+      "scientific_name": "Cystoseira spp.",
+      "main_photo": null,
+      "organism_type": "Plant · Marine Macroalga",
+      "kingdom": "Protista",
+      "phylum": "Ochrophyta",
+      "class": "Phaeophyceae",
+      "order": "Fucales",
+      "family": "Cystoseiraceae",
+      "genus": "Cystoseira",
+      "species": "spp.",
+      "biomes": [
+        "Mediterranean Forests, Woodlands, and Scrub",
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Cystoseira-type brown algae build complex canopy structures on Mediterranean and eastern Atlantic rocky reefs.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "canopy_former"
+      ],
+      "categories": [
+        "marine_macroalgae",
+        "rocky_reef"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 765",
+      "common_name": "Sargassum / gulfweed",
+      "scientific_name": "Sargassum spp.",
+      "main_photo": null,
+      "organism_type": "Plant · Marine Macroalga",
+      "kingdom": "Protista",
+      "phylum": "Ochrophyta",
+      "class": "Phaeophyceae",
+      "order": "Fucales",
+      "family": "Sargassaceae",
+      "genus": "Sargassum",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral Reefs)",
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Sargassum forms canopy-like stands on shallow reefs and floating mats (such as in the Sargasso Sea) that provide three-dimensional habitat.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ecosystem_engineer",
+        "canopy_former",
+        "floating_habitat"
+      ],
+      "categories": [
+        "marine_macroalgae",
+        "sargassum"
+      ],
+      "waterRequirement": -3
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 766",
+      "common_name": "Kelp bass",
+      "scientific_name": "Paralabrax clathratus",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Serranidae",
+      "genus": "Paralabrax",
+      "species": "clathratus",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Predatory reef fish closely associated with giant kelp forests along the Pacific coast of North America; uses kelp structure for hunting and shelter.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "kelp_dependent"
+      ],
+      "categories": [
+        "kelp_forest_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 767",
+      "common_name": "Black rockfish",
+      "scientific_name": "Sebastes melanops",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Sebastidae",
+      "genus": "Sebastes",
+      "species": "melanops",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Rockfish species that shelters among kelp stipes and relies on kelp-forest structure for feeding and refuge.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "kelp_dependent"
+      ],
+      "categories": [
+        "kelp_forest_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 768",
+      "common_name": "Blue rockfish",
+      "scientific_name": "Sebastes mystinus",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Sebastidae",
+      "genus": "Sebastes",
+      "species": "mystinus",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Kelp-forest rockfish that inhabits midwater and canopy zones, feeding on invertebrates and small fishes among kelp fronds.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "kelp_dependent"
+      ],
+      "categories": [
+        "kelp_forest_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 769",
+      "common_name": "Giant kelpfish",
+      "scientific_name": "Heterostichus rostratus",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Scorpaeniformes",
+      "family": "Cottidae",
+      "genus": "Heterostichus",
+      "species": "rostratus",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Elongate fish that lives among kelp blades and stipes; uses kelp for camouflage and ambush feeding.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "kelp_dependent"
+      ],
+      "categories": [
+        "kelp_forest_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 770",
+      "common_name": "Garibaldi",
+      "scientific_name": "Hypsypops rubicundus",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacentridae",
+      "genus": "Hypsypops",
+      "species": "rubicundus",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (invertivores)",
+      "dna_sequence": null,
+      "notes": "Bright orange damselfish of eastern Pacific kelp forests; defends territories and nests on rocky substrate within kelp habitat and feeds on invertebrates on kelp and rocks.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "invertivore",
+        "kelp_dependent"
+      ],
+      "categories": [
+        "kelp_forest_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 771",
+      "common_name": "Surfperches (kelp-forest species)",
+      "scientific_name": "Embiotocidae (various)",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Embiotocidae",
+      "genus": "Various",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (invertivores)",
+      "dna_sequence": null,
+      "notes": "Family of livebearing fishes, with several species that feed and rear young within kelp forests, moving through the kelp canopy and midwater.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "invertivore",
+        "kelp_dependent"
+      ],
+      "categories": [
+        "kelp_forest_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 772",
+      "common_name": "Kelp wrasses / kelp-associated wrasses",
+      "scientific_name": "Labridae (various)",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Labridae",
+      "genus": "Various",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (invertivores)",
+      "dna_sequence": null,
+      "notes": "Wrasses that forage on invertebrates living on kelp and reef surfaces, using kelp forests as core habitat for feeding and shelter.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "invertivore",
+        "kelp_dependent"
+      ],
+      "categories": [
+        "kelp_forest_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 773",
+      "common_name": "Pacific herring (kelp-spawning populations)",
+      "scientific_name": "Clupea pallasii",
+      "main_photo": null,
+      "organism_type": "Fish",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Clupeiformes",
+      "family": "Clupeidae",
+      "genus": "Clupea",
+      "species": "pallasii",
+      "biomes": [
+        "Marine (Temperate Shelf and Seas)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (planktivores)",
+      "dna_sequence": null,
+      "notes": "Schooling forage fish; some populations attach eggs to kelp and other macroalgae, making spawning dependent on kelp-dominated habitats.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "forage_fish",
+        "prey_species",
+        "kelp_dependent"
+      ],
+      "categories": [
+        "kelp_forest_fish"
+      ],
+      "waterRequirement": -2
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 774",
+      "common_name": "Staghorn corals",
+      "scientific_name": "Acropora spp.",
+      "organism_type": "Animal · Cnidarian (scleractinian coral)",
+      "kingdom": "Animalia",
+      "phylum": "Cnidaria",
+      "class": "Anthozoa",
+      "order": "Scleractinia",
+      "family": "Acroporidae",
+      "genus": "Acropora",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs) / symbiotic",
+      "dna_sequence": null,
+      "notes": "Fast-growing branching corals that form complex, tree-like structures and are major framework builders on many tropical reefs.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "reef_builder",
+        "ecosystem_engineer",
+        "producer"
+      ],
+      "categories": [
+        "reef_building_coral"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 775",
+      "common_name": "Table corals",
+      "scientific_name": "Acropora spp. (table forms)",
+      "organism_type": "Animal · Cnidarian (scleractinian coral)",
+      "kingdom": "Animalia",
+      "phylum": "Cnidaria",
+      "class": "Anthozoa",
+      "order": "Scleractinia",
+      "family": "Acroporidae",
+      "genus": "Acropora",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs) / symbiotic",
+      "dna_sequence": null,
+      "notes": "Form horizontal table-like colonies that create shaded microhabitats and contribute to reef complexity.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "reef_builder",
+        "ecosystem_engineer",
+        "producer"
+      ],
+      "categories": [
+        "reef_building_coral"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 776",
+      "common_name": "Massive porites",
+      "scientific_name": "Porites spp.",
+      "organism_type": "Animal · Cnidarian (scleractinian coral)",
+      "kingdom": "Animalia",
+      "phylum": "Cnidaria",
+      "class": "Anthozoa",
+      "order": "Scleractinia",
+      "family": "Poritidae",
+      "genus": "Porites",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs) / symbiotic",
+      "dna_sequence": null,
+      "notes": "Slow-growing, long-lived boulder and mound-forming corals that add substantial bulk and stability to reef frameworks.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "reef_builder",
+        "ecosystem_engineer",
+        "producer"
+      ],
+      "categories": [
+        "reef_building_coral"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 777",
+      "common_name": "Finger porites",
+      "scientific_name": "Porites spp. (finger forms)",
+      "organism_type": "Animal · Cnidarian (scleractinian coral)",
+      "kingdom": "Animalia",
+      "phylum": "Cnidaria",
+      "class": "Anthozoa",
+      "order": "Scleractinia",
+      "family": "Poritidae",
+      "genus": "Porites",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs) / symbiotic",
+      "dna_sequence": null,
+      "notes": "Form clusters of finger-like branches and help fill in gaps between larger massive colonies.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "reef_builder",
+        "ecosystem_engineer",
+        "producer"
+      ],
+      "categories": [
+        "reef_building_coral"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 778",
+      "common_name": "Star corals",
+      "scientific_name": "Orbicella (formerly Montastraea) spp.",
+      "organism_type": "Animal · Cnidarian (scleractinian coral)",
+      "kingdom": "Animalia",
+      "phylum": "Cnidaria",
+      "class": "Anthozoa",
+      "order": "Scleractinia",
+      "family": "Merulinidae",
+      "genus": "Orbicella",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs) / symbiotic",
+      "dna_sequence": null,
+      "notes": "Key Caribbean framework corals forming large domes and boulders that shape much of the reef structure.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "reef_builder",
+        "ecosystem_engineer",
+        "producer"
+      ],
+      "categories": [
+        "reef_building_coral"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 779",
+      "common_name": "Brain corals",
+      "scientific_name": "Diploria, Pseudodiploria, Platygyra and related genera",
+      "organism_type": "Animal · Cnidarian (scleractinian coral)",
+      "kingdom": "Animalia",
+      "phylum": "Cnidaria",
+      "class": "Anthozoa",
+      "order": "Scleractinia",
+      "family": "Mussidae",
+      "genus": "Diploria / Pseudodiploria / Platygyra",
+      "species": "spp.",
+      "biomes": [
+        "Marine (Tropical Coral)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs) / symbiotic",
+      "dna_sequence": null,
+      "notes": "Dome-shaped colonies with winding grooves resembling a brain; contribute pronounced relief and complexity to reefs.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -1,
+        "biodiversity": 3
+      },
+      "bits": null,
+      "role": [
+        "reef_builder",
+        "ecosystem_engineer",
+        "producer"
+      ],
+      "categories": [
+        "reef_building_coral"
+      ],
+      "waterRequirement": 0
     }
   ]
 }

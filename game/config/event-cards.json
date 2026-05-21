@@ -47,7 +47,7 @@
       "o2Change": -1,
       "biodiversityChange": -1,
       "h2o": -1,
-      "effectText": "A volcanic eruption sends floating pumice rafts across the sea, shading waters and clogging coasts. Remove surface-feeding organisms from gyres and shoreline spaces.",
+      "effectText": "A volcanic eruption sends floating pumice rafts across the sea, shading waters and clogging coasts. Remove surface-feeding organisms from marine biomes.",
       "biomesBad": [
         "Marine (Temperate Shelf and Seas)"
       ],
@@ -57,11 +57,11 @@
       "organismsBad": [
         {
           "group": "Surface-feeding birds",
-          "example": "Albatross"
+          "example": "Albatrosses, Terns, Gulls, Phalaropes, Babbling Ducks"
         },
         {
           "group": "Filter-feeding fish and invertebrates",
-          "example": "Anchovies, krill"
+          "example": "Anchovies, krill, sardines, Jellyfish, Sponges, Manta rays, whale sharks, Polychaete worms"
         }
       ],
       "organismsGood": [
@@ -86,7 +86,7 @@
       "o2Change": -1,
       "biodiversityChange": -2,
       "h2o": 0,
-      "effectText": "A rare warm current and urchin boom wipe out kelp forests. Remove kelp and shelter-loving species from temperate rocky coasts.",
+      "effectText": "A rare warm current and urchin boom wipe out kelp forests. Remove kelp and shelter-loving species from marine biomes.",
       "biomesBad": [
         "Marine (Temperate Shelf and Seas)"
       ],
@@ -96,11 +96,11 @@
       "organismsBad": [
         {
           "group": "Canopy-forming algae",
-          "example": "Giant kelp"
+          "example": "Giant kelp, common kelp, Oarweed Kelp, sugar kelp, rockweeds, bladderwracks, Knotted wracks"
         },
         {
           "group": "Kelp-dependent fish",
-          "example": "Rockfish"
+          "example": "Rockfish, Kelp Bass, giant kelpfish, surfperches, pacific herring"
         }
       ],
       "organismsGood": [
@@ -125,7 +125,7 @@
       "o2Change": -1,
       "biodiversityChange": -3,
       "h2o": 0,
-      "effectText": "A strong natural warm current lingers over reef zones. Remove coral-building organisms in shallow tropical reef spaces.",
+      "effectText": "A strong natural warm current lingers over reef zones. Remove coral-building organisms.",
       "biomesBad": [
         "Marine (Tropical Coral)"
       ],
@@ -135,11 +135,11 @@
       "organismsBad": [
         {
           "group": "Reef-building corals",
-          "example": "Branching corals"
+          "example": "Branching, elkhorn, staghorn, brain, boulder, table, finger, and star corals"
         },
         {
           "group": "Reef-dependent fish",
-          "example": "Butterflyfish"
+          "example": "Butterflyfishes, clownfishes, anthias, Groupers, snappers, Hogfishes, parrotfishes, surgeonfishes"
         }
       ],
       "organismsGood": [
