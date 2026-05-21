@@ -359,7 +359,7 @@
       "o2Change": -1,
       "biodiversityChange": -1,
       "h2o": 4,
-      "effectText": "A sudden, brutal heat wave hits even hardy desert life. Remove less-tolerant plants and animals from exposed desert spaces.",
+      "effectText": "A sudden, brutal heat wave hits even hardy desert life. Remove less-tolerant plants and animals from desert biomes.",
       "biomesBad": [
         "Desert (Deserts and Xeric Shrublands, Xeric Basins)"
       ],
@@ -369,11 +369,11 @@
       "organismsBad": [
         {
           "group": "Semi-desert plants",
-          "example": "Low shrubs"
+          "example": "Agave, creosote bush, yuccas, mesquites, saltbush, sagebrush, blue grama, bushgrassses, aloe, jade plants, and smaller cacti"
         },
         {
           "group": "Day-active animals",
-          "example": "Diurnal lizards"
+          "example": "Diurnal lizards, rodents, and birds, Bighorn sheep, antelope ground suirrel, desert cottontail"
         }
       ],
       "organismsGood": [
@@ -398,7 +398,7 @@
       "o2Change": -1,
       "biodiversityChange": -1,
       "h2o": 2,
-      "effectText": "Choking dust clouds block sun and coat leaves. Remove small plants and air-breathers in chosen desert and downwind grassland spaces.",
+      "effectText": "Choking dust clouds block sun and coat leaves. Remove small plants and air-breathers in desert and grassland biomes.",
       "biomesBad": [
         "Desert (Deserts and Xeric Shrublands)",
         "Grassland (Temperate Grasslands, Savannas, and Shrublands)"

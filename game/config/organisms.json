@@ -35908,6 +35908,772 @@
         "desert_fauna"
       ],
       "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 900",
+      "common_name": "Big sagebrush",
+      "scientific_name": "Artemisia tridentata",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Artemisia",
+      "species": "tridentata",
+      "biomes": [
+        "Desert (Deserts and Xeric Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Key shrub of many semi-arid basins and cold desert steppes; aromatic, drought-tolerant foliage and deep roots allow persistence under low precipitation.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "dominant_species"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 901",
+      "common_name": "Fourwing saltbush",
+      "scientific_name": "Atriplex canescens",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Amaranthaceae",
+      "genus": "Atriplex",
+      "species": "canescens",
+      "biomes": [
+        "Desert (Deserts and Xeric Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Gray-leaved, salt-tolerant shrub of semi-desert shrublands and desert grassland ecotones; adapted to saline, alkaline, and drought-prone soils.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "halophyte"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 902",
+      "common_name": "Mesquite",
+      "scientific_name": "Prosopis glandulosa",
+      "organism_type": "Plant · Shrub/Small Tree",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Prosopis",
+      "species": "glandulosa",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Deep taproots access groundwater in semi-arid thornscrub and desert grasslands; fixes nitrogen and forms open tree–shrub savannas.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "nitrogen_fixer",
+        "ecosystem_engineer"
+      ],
+      "categories": [
+        "shrub",
+        "tree",
+        "desert_plant"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 903",
+      "common_name": "Soaptree yucca",
+      "scientific_name": "Yucca elata",
+      "organism_type": "Plant · Succulent",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Monocots",
+      "order": "Asparagales",
+      "family": "Asparagaceae",
+      "genus": "Yucca",
+      "species": "elata",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Characteristic of semi-arid grassland–desert transitions; narrow, tough leaves and deep roots tolerate drought and poor soils.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "succulent"
+      ],
+      "categories": [
+        "succulent",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 904",
+      "common_name": "Banana yucca",
+      "scientific_name": "Yucca baccata",
+      "organism_type": "Plant · Succulent",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Monocots",
+      "order": "Asparagales",
+      "family": "Asparagaceae",
+      "genus": "Yucca",
+      "species": "baccata",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Semi-desert yucca with thick leaves and fleshy fruits; stores water in tissues and occupies rocky, semi-arid slopes and flats.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "succulent"
+      ],
+      "categories": [
+        "succulent",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 905",
+      "common_name": "Century plant",
+      "scientific_name": "Agave americana",
+      "organism_type": "Plant · Succulent",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Monocots",
+      "order": "Asparagales",
+      "family": "Asparagaceae",
+      "genus": "Agave",
+      "species": "americana",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Large agave rosettes store water in thick leaves; CAM photosynthesis allows survival in semi-arid climates with episodic rainfall.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "succulent"
+      ],
+      "categories": [
+        "succulent",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 906",
+      "common_name": "Needle-and-thread grass",
+      "scientific_name": "Hesperostipa comata",
+      "organism_type": "Plant · Grass",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Monocots",
+      "order": "Poales",
+      "family": "Poaceae",
+      "genus": "Hesperostipa",
+      "species": "comata",
+      "biomes": [
+        "Desert (Deserts and Xeric Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Characteristic grass of semi-arid steppe and sagebrush grasslands; adapted to low precipitation and cold winters.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "bunchgrass"
+      ],
+      "categories": [
+        "grass",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 907",
+      "common_name": "Prickly pear cactus",
+      "scientific_name": "Opuntia phaeacantha",
+      "organism_type": "Plant · Succulent",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Opuntia",
+      "species": "phaeacantha",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Shrubby cactus with flat pads that store water; common in semi-arid shrublands and grasslands, filling a succulent shrub niche.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "succulent"
+      ],
+      "categories": [
+        "succulent",
+        "cactus",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 908",
+      "common_name": "Hedgehog cactus",
+      "scientific_name": "Echinocereus triglochidiatus",
+      "organism_type": "Plant · Succulent",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Caryophyllales",
+      "family": "Cactaceae",
+      "genus": "Echinocereus",
+      "species": "triglochidiatus",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Small clumping cactus of semi-arid rocky slopes; stores water in stem tissue and flowers after seasonal rains.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "succulent"
+      ],
+      "categories": [
+        "succulent",
+        "cactus",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 909",
+      "common_name": "Rabbitbrush",
+      "scientific_name": "Ericameria nauseosa",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Ericameria",
+      "species": "nauseosa",
+      "biomes": [
+        "Desert (Deserts and Xeric Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Drought-tolerant shrub of semi-arid basins and foothills; narrow leaves and deep roots suit dry, poor soils.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "deep_rooted"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 910",
+      "common_name": "Zebra-tailed lizard",
+      "scientific_name": "Callisaurus draconoides",
+      "organism_type": "Reptile · Lizard",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Phrynosomatidae",
+      "genus": "Callisaurus",
+      "species": "draconoides",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Diurnal insectivorous lizard; heat spikes shorten safe daytime activity windows on open desert flats, increasing risk of overheating and reducing foraging and reproduction time.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "insectivore",
+        "diurnal"
+      ],
+      "categories": [
+        "reptile",
+        "lizard",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 911",
+      "common_name": "Tiger whiptail",
+      "scientific_name": "Aspidoscelis tigris",
+      "organism_type": "Reptile · Lizard",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Teiidae",
+      "genus": "Aspidoscelis",
+      "species": "tigris",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Active foraging diurnal lizard; high surface temperatures force earlier retreat to shade, limiting foraging and potentially leading to energy deficits during prolonged heat spikes.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "insectivore",
+        "diurnal"
+      ],
+      "categories": [
+        "reptile",
+        "lizard",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 912",
+      "common_name": "Common chuckwalla",
+      "scientific_name": "Sauromalus ater",
+      "organism_type": "Reptile · Lizard",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Iguanidae",
+      "genus": "Sauromalus",
+      "species": "ater",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Herbivorous rock-dwelling diurnal lizard; extreme rock and air temperatures restrict basking and foraging time on outcrops, increasing reliance on crevice refuges and reducing plant food access.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "herbivore",
+        "rock_specialist"
+      ],
+      "categories": [
+        "reptile",
+        "lizard",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 913",
+      "common_name": "Greater roadrunner",
+      "scientific_name": "Geococcyx californianus",
+      "organism_type": "Bird · Cuckoo",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Cuculiformes",
+      "family": "Cuculidae",
+      "genus": "Geococcyx",
+      "species": "californianus",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Ground-dwelling diurnal predator; higher daytime heat raises evaporative cooling costs and compresses safe hunting periods, potentially reducing lizard and insect captures.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "insectivore",
+        "ground_specialist"
+      ],
+      "categories": [
+        "bird",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 914",
+      "common_name": "Cactus wren",
+      "scientific_name": "Campylorhynchus brunneicapillus",
+      "organism_type": "Bird · Wren",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Troglodytidae",
+      "genus": "Campylorhynchus",
+      "species": "brunneicapillus",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Insectivorous/omnivorous diurnal songbird; flash drought and heat reduce insect prey and dry nesting shrubs, while extreme mid-day temperatures increase thermal stress at nest sites.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "insectivore",
+        "desert_specialist"
+      ],
+      "categories": [
+        "bird",
+        "songbird",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 915",
+      "common_name": "Black-throated sparrow",
+      "scientific_name": "Amphispiza bilineata",
+      "organism_type": "Bird · Sparrow",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Passerellidae",
+      "genus": "Amphispiza",
+      "species": "bilineata",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Seed- and insect-eating diurnal passerine; rapidly rising temperatures and drier conditions increase water stress and constrain mid-day foraging, especially where water vanishes during flash drought.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "granivore",
+        "insectivore"
+      ],
+      "categories": [
+        "bird",
+        "songbird",
+        "desert_fauna"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 916",
+      "common_name": "Antelope ground squirrel",
+      "scientific_name": "Ammospermophilus leucurus",
+      "organism_type": "Mammal · Rodent",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Ammospermophilus",
+      "species": "leucurus",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Small diurnal omnivore that relies on brief above-ground forays with tail shading; extreme heat spikes can overwhelm behavioral cooling and reduce foraging and caching time.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "omnivore",
+        "diurnal_specialist"
+      ],
+      "categories": [
+        "mammal",
+        "rodent",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 917",
+      "common_name": "Desert bighorn sheep",
+      "scientific_name": "Ovis canadensis (desert subspecies)",
+      "organism_type": "Mammal · Ungulate",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Ovis",
+      "species": "canadensis",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Large herbivore of desert mountains; flash drought reduces water availability at springs and raises daytime temperatures on slopes, making diurnal movements and foraging thermally risky.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "herbivore",
+        "mountain_specialist"
+      ],
+      "categories": [
+        "mammal",
+        "ungulate",
+        "desert_fauna"
+      ],
+      "waterRequirement": 2
     }
   ]
 }
