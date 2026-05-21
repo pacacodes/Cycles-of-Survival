@@ -242,7 +242,7 @@
       "o2Change": 0,
       "biodiversityChange": -1,
       "h2o": 0,
-      "effectText": "A mega-storm knocks down swaths of trees, opening the canopy. Remove large trees in selected forest spaces and treat them as fresh gaps.",
+      "effectText": "A mega-storm knocks down swaths of trees, opening the canopy. Remove large trees and affected organisms from the forest.",
       "biomesBad": [
         "Forest (Temperate Broadleaf and Mixed Forests, Tropical and Subtropical Moist Broadleaf Forests)"
       ],
@@ -252,11 +252,11 @@
       "organismsBad": [
         {
           "group": "Very tall canopy trees",
-          "example": "Emergent rainforest trees"
+          "example": "Pines, Spruces, Firs, Oaks, Pecan, Maples"
         },
         {
           "group": "Canopy specialists",
-          "example": "Howler monkeys"
+          "example": "Howler monkeys, spider monkeys, arboreal snakes and lizards, red-cockaded woodpeckers, canopy songbirds, arboreal squirrels, bats"
         }
       ],
       "organismsGood": [
@@ -291,11 +291,11 @@
       "organismsBad": [
         {
           "group": "Canopy trees",
-          "example": "Oaks and beeches"
+          "example": "Oaks, Beeches, Silver maple, siberian elm, willows, poplars, birches, american elms, honey locusts, hackberry,  black cherry, bradford pear, white pine, spruces"
         },
         {
           "group": "Canopy animals",
-          "example": "Arboreal monkeys"
+          "example": "Arboreal monkeys, arboreal snakes and lizards, woodpeckers, chickadees, nuthatches, hawks, owls, arboreal squirrels, tree roosting bats,"
         }
       ],
       "organismsGood": [
@@ -320,7 +320,7 @@
       "o2Change": 0,
       "biodiversityChange": -2,
       "h2o": 2,
-      "effectText": "Winds push dunes over nearby habitats, burying soils and roots. Remove organisms in advancing dune and desert edge spaces.",
+      "effectText": "Winds push dunes over nearby habitats, burying soils and roots. Remove organisms that have shallow-rooted shrubs and burrowing animalsin desert biomes.",
       "biomesBad": [
         "Desert (Deserts and Xeric Shrublands, Xeric Basins)"
       ],
@@ -330,11 +330,11 @@
       "organismsBad": [
         {
           "group": "Shallow-rooted shrubs",
-          "example": "Sagebrush"
+          "example": "Sagebrush, brittlebush, creosote bush, texas sage, saltbush, fairy duster, desert globemallow"
         },
         {
           "group": "Burrows in dune fronts",
-          "example": "Ground squirrels"
+          "example": "Ground squirrels, lizards, burrowing owls, desert tortoises, desert snakes, kangaroo rats"
         }
       ],
       "organismsGood": [

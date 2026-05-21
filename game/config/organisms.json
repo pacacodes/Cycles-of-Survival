@@ -33790,6 +33790,2124 @@
         "mammal"
       ],
       "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 850",
+      "common_name": "Slash pine",
+      "scientific_name": "Pinus elliottii",
+      "organism_type": "Conifer · Pine",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "elliottii",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Southern pine with shallow root system; vulnerable to windthrow in storm-prone coastal and lowland forests.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "windthrow_prone"
+      ],
+      "categories": [
+        "conifer",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 851",
+      "common_name": "Longleaf pine",
+      "scientific_name": "Pinus palustris",
+      "organism_type": "Conifer · Pine",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "palustris",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Forms tall, open-canopy southern forests; mature trees can be uprooted in extreme storms, especially on saturated soils.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 2
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "windthrow_prone"
+      ],
+      "categories": [
+        "conifer",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 852",
+      "common_name": "Red spruce",
+      "scientific_name": "Picea rubens",
+      "organism_type": "Conifer · Spruce",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Picea",
+      "species": "rubens",
+      "biomes": [
+        "Forest (Boreal Forests and Taiga)",
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "High-elevation and northern conifer; can be blown down in patches during strong winds, especially at exposed ridges and edges.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "windthrow_prone"
+      ],
+      "categories": [
+        "conifer",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 853",
+      "common_name": "Southern red oak",
+      "scientific_name": "Quercus falcata",
+      "organism_type": "Broadleaf · Oak",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Fagales",
+      "family": "Fagaceae",
+      "genus": "Quercus",
+      "species": "falcata",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Fast-growing oak with heavy crown; branches and entire trees can fail during intense windstorms.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "windthrow_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 854",
+      "common_name": "Water oak",
+      "scientific_name": "Quercus nigra",
+      "organism_type": "Broadleaf · Oak",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Fagales",
+      "family": "Fagaceae",
+      "genus": "Quercus",
+      "species": "nigra",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Common bottomland oak; experiences broken limbs and blowdowns in hurricanes due to saturated soils and large crowns.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "windthrow_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 855",
+      "common_name": "Red maple",
+      "scientific_name": "Acer rubrum",
+      "organism_type": "Broadleaf · Maple",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Acer",
+      "species": "rubrum",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Widely distributed hardwood; can be uprooted or suffer crown damage in high winds, especially on wet sites and in dense stands.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "windthrow_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 856",
+      "common_name": "Silver maple",
+      "scientific_name": "Acer saccharinum",
+      "organism_type": "Broadleaf · Maple",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Sapindales",
+      "family": "Sapindaceae",
+      "genus": "Acer",
+      "species": "saccharinum",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Rapid-growing floodplain and urban tree; often loses large limbs or uproots in storms due to brittle wood and heavy crown.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "windthrow_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 857",
+      "common_name": "Pecan",
+      "scientific_name": "Carya illinoinensis",
+      "organism_type": "Broadleaf · Hickory",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Fagales",
+      "family": "Juglandaceae",
+      "genus": "Carya",
+      "species": "illinoinensis",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Tall nut-producing tree; susceptible to limb breakage and occasional uprooting in severe wind events, especially on saturated soils.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "windthrow_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 858",
+      "common_name": "Red-cockaded woodpecker",
+      "scientific_name": "Dryobates borealis",
+      "organism_type": "Bird · Woodpecker",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Picidae",
+      "genus": "Dryobates",
+      "species": "borealis",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Cavity-nesting insectivore requiring mature live pines in closed-canopy pine forests; loss or breakage of old pines removes essential habitat.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "cavity_nester",
+        "canopy_specialist"
+      ],
+      "categories": [
+        "bird",
+        "canopy_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 859",
+      "common_name": "Scarlet tanager",
+      "scientific_name": "Piranga olivacea",
+      "organism_type": "Bird · Songbird",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Cardinalidae",
+      "genus": "Piranga",
+      "species": "olivacea",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Insect- and fruit-eating songbird requiring intact deciduous or mixed-forest canopy; canopy loss reduces nesting sites and resources.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "canopy_specialist",
+        "windstorm_vulnerable"
+      ],
+      "categories": [
+        "bird",
+        "canopy_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 860",
+      "common_name": "Yellow-throated warbler",
+      "scientific_name": "Setophaga dominica",
+      "organism_type": "Bird · Warbler",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Parulidae",
+      "genus": "Setophaga",
+      "species": "dominica",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Canopy gleaning insectivore requiring tall pines and mixed forests; broken crowns and toppled trees reduce foraging and nesting substrate.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "canopy_specialist",
+        "windstorm_vulnerable"
+      ],
+      "categories": [
+        "bird",
+        "canopy_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 861",
+      "common_name": "Howler monkey",
+      "scientific_name": "Alouatta spp.",
+      "organism_type": "Mammal · Primate",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Atelidae",
+      "genus": "Alouatta",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Tropical and Subtropical Moist Broadleaf Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Arboreal folivore requiring continuous tropical forest canopy; patchy canopy collapse isolates groups and increases ground predation risk.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "canopy_specialist",
+        "windstorm_vulnerable"
+      ],
+      "categories": [
+        "mammal",
+        "primate"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 862",
+      "common_name": "Spider monkey",
+      "scientific_name": "Ateles spp.",
+      "organism_type": "Mammal · Primate",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Atelidae",
+      "genus": "Ateles",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Tropical and Subtropical Moist Broadleaf Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Arboreal frugivore requiring high, continuous canopy pathways and fruiting trees; windthrow disrupts travel routes and feeding circuits.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "frugivore",
+        "canopy_specialist"
+      ],
+      "categories": [
+        "mammal",
+        "primate"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 863",
+      "common_name": "Southern flying squirrel",
+      "scientific_name": "Glaucomys volans",
+      "organism_type": "Mammal · Squirrel",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Glaucomys",
+      "species": "volans",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Arboreal gliding omnivore requiring tree cavities and connected canopy; storm damage destroys cavity trees and breaks connectivity.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "omnivore",
+        "glider",
+        "cavity_nester"
+      ],
+      "categories": [
+        "mammal",
+        "rodent"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 864",
+      "common_name": "Gray squirrel",
+      "scientific_name": "Sciurus carolinensis",
+      "organism_type": "Mammal · Squirrel",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae",
+      "genus": "Sciurus",
+      "species": "carolinensis",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Arboreal seed and bud feeder requiring large-crowned hardwoods; broken crowns and fallen oaks/maples remove nesting branches and food.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "herbivore",
+        "seed_disperser",
+        "canopy_specialist"
+      ],
+      "categories": [
+        "mammal",
+        "rodent"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 865",
+      "common_name": "Hoary bat",
+      "scientific_name": "Lasiurus cinereus",
+      "organism_type": "Mammal · Bat",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "genus": "Lasiurus",
+      "species": "cinereus",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Aerial insectivore using foliage roosts in tree crowns; loss of leafy canopy roosts forces relocation to lower or more exposed sites.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "canopy_specialist",
+        "pest_control"
+      ],
+      "categories": [
+        "mammal",
+        "bat"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 866",
+      "common_name": "Green anole",
+      "scientific_name": "Anolis carolinensis",
+      "organism_type": "Reptile · Lizard",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Dactyloidae",
+      "genus": "Anolis",
+      "species": "carolinensis",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Arboreal insectivore requiring branches and foliage for hunting and thermoregulation; branch loss and canopy thinning alter microhabitats.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "arboreal_specialist",
+        "thermoregulator"
+      ],
+      "categories": [
+        "reptile",
+        "canopy_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 867",
+      "common_name": "Siberian elm",
+      "scientific_name": "Ulmus pumila",
+      "organism_type": "Broadleaf · Elm",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Rosales",
+      "family": "Ulmaceae",
+      "genus": "Ulmus",
+      "species": "pumila",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Fast-growing, weak-wooded elm; prone to limb failure under heavy ice loads.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 868",
+      "common_name": "American elm",
+      "scientific_name": "Ulmus americana",
+      "organism_type": "Broadleaf · Elm",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Rosales",
+      "family": "Ulmaceae",
+      "genus": "Ulmus",
+      "species": "americana",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Large shade tree particularly susceptible to crown damage during severe ice storms.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 869",
+      "common_name": "Hackberry",
+      "scientific_name": "Celtis occidentalis",
+      "organism_type": "Broadleaf · Hackberry",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Rosales",
+      "family": "Cannabaceae",
+      "genus": "Celtis",
+      "species": "occidentalis",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Can develop multiple leaders and weak branch junctions; often experiences branch loss in ice events.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 870",
+      "common_name": "Honey locust",
+      "scientific_name": "Gleditsia triacanthos",
+      "organism_type": "Broadleaf · Locust",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Gleditsia",
+      "species": "triacanthos",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Particularly susceptible to ice-storm crown damage and limb loss.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 871",
+      "common_name": "Black cherry",
+      "scientific_name": "Prunus serotina",
+      "organism_type": "Broadleaf · Cherry",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Rosales",
+      "family": "Rosaceae",
+      "genus": "Prunus",
+      "species": "serotina",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Branches and major forks can split under heavy ice loads, especially in older trees.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 872",
+      "common_name": "Black willow",
+      "scientific_name": "Salix nigra",
+      "organism_type": "Broadleaf · Willow",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Malpighiales order",
+      "family": "Salicaceae",
+      "genus": "Salix",
+      "species": "nigra",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "North America's largest native willow; soft-wooded and fast-growing, weak branches frequently crack or break in ice storms.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "riparian_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 873",
+      "common_name": "Eastern cottonwood",
+      "scientific_name": "Populus deltoides",
+      "organism_type": "Broadleaf · Poplar",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Malpighiales order",
+      "family": "Salicaceae",
+      "genus": "Populus",
+      "species": "deltoides",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Tallest hardwood in North America; fast-growing with weak-wooded structure highly vulnerable to ice breakage and windthrow.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 874",
+      "common_name": "Paper birch",
+      "scientific_name": "Betula papyrifera",
+      "organism_type": "Broadleaf · Birch",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Fagales",
+      "family": "Betulaceae",
+      "genus": "Betula",
+      "species": "papyrifera",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Northern birch with slender stems and flexible crowns; can bend or break under heavy ice and snow loads.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 875",
+      "common_name": "Bradford pear",
+      "scientific_name": "Pyrus calleryana 'Bradford'",
+      "organism_type": "Broadleaf · Pear",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Eudicots",
+      "order": "Rosales",
+      "family": "Rosaceae",
+      "genus": "Pyrus",
+      "species": "calleryana",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Notorious for weak branch unions and multiple codominant stems; readily splits in ice and snow storms.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "ornamental_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "broadleaf_tree",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 876",
+      "common_name": "White pine",
+      "scientific_name": "Pinus strobus",
+      "organism_type": "Conifer · Pine",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Pinus",
+      "species": "strobus",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Retains needles year-round; long, flexible branches collect ice and snow, often leading to snapping.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "conifer",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 877",
+      "common_name": "Black spruce",
+      "scientific_name": "Picea mariana",
+      "organism_type": "Conifer · Spruce",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Pinopsida",
+      "order": "Pinales",
+      "family": "Pinaceae",
+      "genus": "Picea",
+      "species": "mariana",
+      "biomes": [
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Boreal spruce with dense evergreen branches that accumulate heavy ice; limbs and tops break under extreme loads.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "canopy_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "conifer",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 878",
+      "common_name": "Arborvitae",
+      "scientific_name": "Thuja spp.",
+      "organism_type": "Conifer · Arborvitae",
+      "kingdom": "Plantae",
+      "phylum": "Magnoliophyta",
+      "class": "Pinopsida",
+      "order": "Cupressales",
+      "family": "Cupressaceae",
+      "genus": "Thuja",
+      "species": "spp.",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary producers (autotrophs)",
+      "dna_sequence": null,
+      "notes": "Multi-stemmed architecture and evergreen foliage make them prone to splitting or splaying open in ice and snow.",
+      "effects": {
+        "oxygen": 2,
+        "co2": -2,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "evergreen_tree",
+        "ice_storm_prone"
+      ],
+      "categories": [
+        "conifer",
+        "canopy_tree"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 879",
+      "common_name": "Red-eyed vireo",
+      "scientific_name": "Vireo olivaceus",
+      "organism_type": "Bird · Vireo",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Vireonidae",
+      "genus": "Vireo",
+      "species": "olivaceus",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Canopy foliage-gleaning insectivore; ice-induced branch breakage and canopy thinning reduce nesting sites and foraging substrate.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "canopy_specialist",
+        "ice_storm_vulnerable"
+      ],
+      "categories": [
+        "bird",
+        "canopy_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 880",
+      "common_name": "Blackburnian warbler",
+      "scientific_name": "Setophaga fusca",
+      "organism_type": "Bird · Warbler",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Parulidae",
+      "genus": "Setophaga",
+      "species": "fusca",
+      "biomes": [
+        "Forest (Temperate Coniferous Forests)",
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Upper canopy insectivore in northern hardwood-conifer forests; loss of fine twigs and crown structure reduces foraging and nesting habitat.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "canopy_specialist",
+        "ice_storm_vulnerable"
+      ],
+      "categories": [
+        "bird",
+        "canopy_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 881",
+      "common_name": "Downy woodpecker",
+      "scientific_name": "Dryobates pubescens",
+      "organism_type": "Bird · Woodpecker",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Picidae",
+      "genus": "Dryobates",
+      "species": "pubescens",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Cavity-nesting bark insectivore; ice breakage destroys cavity trees but also creates new cavity sites from broken stems.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "cavity_nester",
+        "ecosystem_engineer"
+      ],
+      "categories": [
+        "bird",
+        "canopy_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 882",
+      "common_name": "Black-capped chickadee",
+      "scientific_name": "Poecile atricapillus",
+      "organism_type": "Bird · Chickadee",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Paridae",
+      "genus": "Poecile",
+      "species": "atricapillus",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Boreal Forests and Taiga)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Cavity-nesting insectivore; snapped branches and thinned crowns reduce protective cover and eliminate cavity nest sites until new deadwood develops.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "cavity_nester",
+        "canopy_specialist"
+      ],
+      "categories": [
+        "bird",
+        "canopy_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 883",
+      "common_name": "Red bat",
+      "scientific_name": "Lasiurus borealis",
+      "organism_type": "Mammal · Bat",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "genus": "Lasiurus",
+      "species": "borealis",
+      "biomes": [
+        "Forest (Temperate Broadleaf and Mixed Forests)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Aerial insectivore using broadleaf canopy leaves for cryptic roosting; loss of fine twigs and leaves reduces roost opportunities.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "canopy_specialist",
+        "pest_control"
+      ],
+      "categories": [
+        "mammal",
+        "bat"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 884",
+      "common_name": "Brittlebush",
+      "scientific_name": "Encelia farinosa",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Asterales",
+      "family": "Asteraceae",
+      "genus": "Encelia",
+      "species": "farinosa",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Common Sonoran Desert shrub; relies on shallow lateral roots to rapidly absorb water from light surface rains.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "shallow_rooted"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 885",
+      "common_name": "Creosote bush",
+      "scientific_name": "Larrea tridentata",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Zygophyllales",
+      "family": "Zygophyllaceae",
+      "genus": "Larrea",
+      "species": "tridentata",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Dominant desert shrub with extensive shallow roots that exploit small rain events near the soil surface.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 0
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "dominant_species"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 886",
+      "common_name": "Texas sage (cenizo)",
+      "scientific_name": "Leucophyllum frutescens",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Scrophulariaceae",
+      "genus": "Leucophyllum",
+      "species": "frutescens",
+      "biomes": [
+        "Desert (Steppe and Scrub)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Southwestern desert shrub with relatively shallow, fibrous roots suited to rocky, well-drained soils.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "shallow_rooted"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 887",
+      "common_name": "Desert globemallow",
+      "scientific_name": "Sphaeralcea ambigua",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Malvales",
+      "family": "Malvaceae",
+      "genus": "Sphaeralcea",
+      "species": "ambigua",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Low, mounding desert shrub; uses shallow roots to persist on sparse rainfall and poor soils.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "shallow_rooted"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 888",
+      "common_name": "Fairy duster",
+      "scientific_name": "Calliandra californica",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Fabales",
+      "family": "Fabaceae",
+      "genus": "Calliandra",
+      "species": "californica",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Desert shrub with a shallow, spreading root system adapted to brief, localized rains in Baja and Sonoran deserts.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "shallow_rooted"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 889",
+      "common_name": "Yellow bells (desert Tecoma)",
+      "scientific_name": "Tecoma stans",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Bignoniaceae",
+      "genus": "Tecoma",
+      "species": "stans",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Showy desert shrub used in xeric landscapes; described as having relatively shallow, non-aggressive roots exploiting surface moisture.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "shallow_rooted"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 890",
+      "common_name": "Desert ruellia",
+      "scientific_name": "Ruellia peninsularis",
+      "organism_type": "Plant · Shrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Acanthaceae",
+      "genus": "Ruellia",
+      "species": "peninsularis",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Small desert shrub; landscaping sources note a shallow, fibrous root system suitable for thin desert soils.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "shallow_rooted"
+      ],
+      "categories": [
+        "shrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 891",
+      "common_name": "Lantana (desert landscaping forms)",
+      "scientific_name": "Lantana camara (xeric cultivars)",
+      "organism_type": "Plant · Subshrub",
+      "kingdom": "Plantae",
+      "phylum": "Tracheophyta",
+      "class": "Magnoliopsida",
+      "order": "Lamiales",
+      "family": "Verbenaceae",
+      "genus": "Lantana",
+      "species": "camara",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Often used as a low desert shrub/ground cover; has relatively shallow, spreading roots that take advantage of irrigated surface soils.",
+      "effects": {
+        "oxygen": 1,
+        "co2": -1,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "producer",
+        "drought_tolerant",
+        "shallow_rooted"
+      ],
+      "categories": [
+        "subshrub",
+        "desert_plant"
+      ],
+      "waterRequirement": 1
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 892",
+      "common_name": "Merriam's kangaroo rat",
+      "scientific_name": "Dipodomys merriami",
+      "organism_type": "Mammal · Rodent",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Heteromyidae",
+      "genus": "Dipodomys",
+      "species": "merriami",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Constructs burrow systems in loose desert sands, including dune fronts; uses burrows for food storage and refuge from heat and predators.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "burrower",
+        "seed_disperser"
+      ],
+      "categories": [
+        "mammal",
+        "rodent",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 893",
+      "common_name": "Chihuahuan Desert pocket mouse",
+      "scientific_name": "Chaetodipus eremicus",
+      "organism_type": "Mammal · Rodent",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Heteromyidae",
+      "genus": "Chaetodipus",
+      "species": "eremicus",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Digs burrows in sandy soils and dune bases, often near desert shrubs, to shelter and cache seeds.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "burrower",
+        "seed_cache_builder"
+      ],
+      "categories": [
+        "mammal",
+        "rodent",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 894",
+      "common_name": "Yellow-faced pocket gopher",
+      "scientific_name": "Cratogeomys castanops",
+      "organism_type": "Mammal · Rodent",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Geomyidae",
+      "genus": "Cratogeomys",
+      "species": "castanops",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Excavates extensive tunnel systems in sandy substrates, including dune fields; mounds and burrow openings dot dune fronts and interdune areas.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "ecosystem_engineer",
+        "soil_tiller"
+      ],
+      "categories": [
+        "mammal",
+        "rodent",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 895",
+      "common_name": "Desert cottontail",
+      "scientific_name": "Sylvilagus audubonii",
+      "organism_type": "Mammal · Lagomorph",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Lagomorpha",
+      "family": "Leporidae",
+      "genus": "Sylvilagus",
+      "species": "audubonii",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Primary consumers (herbivores)",
+      "dna_sequence": null,
+      "notes": "Uses shallow scrapes and burrow-like forms in dune bases and among shrubs for shelter from heat and predators.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "consumer",
+        "prey_species",
+        "burrower"
+      ],
+      "categories": [
+        "mammal",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 896",
+      "common_name": "Fringe-toed lizard",
+      "scientific_name": "Uma notata",
+      "organism_type": "Reptile · Lizard",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Phrynosomatidae",
+      "genus": "Uma",
+      "species": "notata",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Highly specialized for 'sand swimming' and shallow burrowing in dune faces; uses loose dune sand to escape heat and predators.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "insectivore",
+        "sand_specialist"
+      ],
+      "categories": [
+        "reptile",
+        "lizard",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 897",
+      "common_name": "Shovel-nosed sand snake",
+      "scientific_name": "Chionactis occipitalis",
+      "organism_type": "Reptile · Snake",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Chionactis",
+      "species": "occipitalis",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Streamlined head and smooth scales allow rapid burrowing through dune sands; spends much time beneath the surface in dune fronts.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "burrower",
+        "sand_specialist"
+      ],
+      "categories": [
+        "reptile",
+        "snake",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 898",
+      "common_name": "Banded sand snake",
+      "scientific_name": "Chilomeniscus cinctus",
+      "organism_type": "Reptile · Snake",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Colubridae",
+      "genus": "Chilomeniscus",
+      "species": "cinctus",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Moves and hides beneath loose dune sands, often in dune slopes and bases where sand remains mobile.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "burrower",
+        "sand_specialist"
+      ],
+      "categories": [
+        "reptile",
+        "snake",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
+    },
+    {
+      "type": "organism",
+      "card_label": "Card 899",
+      "common_name": "Burrowing owl (desert populations)",
+      "scientific_name": "Athene cunicularia",
+      "organism_type": "Bird · Owl",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Strigiformes",
+      "family": "Strigidae",
+      "genus": "Athene",
+      "species": "cunicularia",
+      "biomes": [
+        "Desert (Hot Desert Shrublands)"
+      ],
+      "eras": [
+        "Cenozoic"
+      ],
+      "periods": [
+        "Quaternary"
+      ],
+      "trophic_level": "Secondary consumers (carnivores)",
+      "dna_sequence": null,
+      "notes": "Uses mammal-dug burrows (e.g., rodent and gopher burrows) in sandy soils near dune fronts and open desert, nesting underground.",
+      "effects": {
+        "oxygen": 0,
+        "co2": 0,
+        "biodiversity": 1
+      },
+      "bits": null,
+      "role": [
+        "predator",
+        "secondary_burrow_user",
+        "pest_control"
+      ],
+      "categories": [
+        "bird",
+        "owl",
+        "desert_fauna"
+      ],
+      "waterRequirement": 0
     }
   ]
 }
