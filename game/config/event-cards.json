@@ -637,7 +637,7 @@
       "o2Change": -1,
       "biodiversityChange": -1,
       "h2o": -3,
-      "effectText": "Frozen ground melts and collapses into muddy slumps. Remove tundra plants and soil animals from thawed hill and riverbank spaces; some form new ponds.",
+      "effectText": "Frozen ground melts and collapses into muddy slumps. Remove tundra plants and soil animals from the biomes.",
       "biomesBad": [
         "Tundra (Tundra, Polar)"
       ],
@@ -756,7 +756,7 @@
       "o2Change": 1,
       "biodiversityChange": -1,
       "h2o": -2,
-      "effectText": "A natural warm phase lets shrubs spread over open tundra. Replace low tundra plants and open-ground species with taller shrubs and new browsers.",
+      "effectText": "A natural warm phase lets shrubs spread over open tundra. Remove only low tundra plants and open-ground species.",
       "biomesBad": [
         "Tundra (Tundra, Polar)"
       ],
@@ -796,7 +796,7 @@
       "o2Change": -2,
       "biodiversityChange": -3,
       "h2o": 4,
-      "effectText": "Peat bogs and mossy wetlands dry out, and stored peat starts to rot and burn. Remove peat moss and wetland-dependent organisms from chosen tundra and boreal wetland spaces; flip those wetland spaces to dry ground.",
+      "effectText": "Peat bogs and mossy wetlands dry out, and stored peat starts to rot and burn. Remove peat moss and wetland-dependent organisms from chosen tundra and forested wetlands.",
       "biomesBad": [
         "Tundra (Tundra, Polar)",
         "Forest (Boreal Forests and Taiga)"
@@ -1103,7 +1103,7 @@
       "o2Change": 1,
       "biodiversityChange": -3,
       "h2o": -1,
-      "effectText": "Shallow sea life crashes as oceans shrink and conditions change fast. Remove 2 marine organism tokens from shallow sea biomes.",
+      "effectText": "Shallow sea life crashes as oceans shrink and conditions change fast. Remove all marine bottom feeders and plankton organisms.",
       "biomesBad": [
         "Marine (Temperate Shelf and Seas, Temperate Upwelling)"
       ],
@@ -1145,7 +1145,7 @@
       "o2Change": -2,
       "biodiversityChange": -3,
       "h2o": 0,
-      "effectText": "Reef systems collapse and many shallow sea animals die off. Remove 2 reef-building or shallow marine organism tokens.",
+      "effectText": "Reef systems collapse and many shallow sea animals die off. Remove all reef-building or shallow marine organisms.",
       "biomesBad": [
         "Marine (Tropical Coral, Temperate Shelf and Seas)"
       ],
@@ -1187,7 +1187,7 @@
       "o2Change": -4,
       "biodiversityChange": -4,
       "h2o": 3,
-      "effectText": "This is the biggest die-off of all. In every major region, remove 2 organism tokens; marine spaces may also lose 1 extra organism if crowded.",
+      "effectText": "Massive volcanic eruptions release carbon dioxide, methane, and toxic gases, causing extreme warming, acid rain, and ocean chaos. This is the biggest die-off of all. Remove all but large land vertebrates and marine animals from affected biomes; many other organisms also die off.",
       "biomesBad": [
         "Marine (Temperate Shelf and Seas, Tropical Coral)",
         "Forest (Tropical and Subtropical Moist Broadleaf Forests, Boreal Forests and Taiga)",
