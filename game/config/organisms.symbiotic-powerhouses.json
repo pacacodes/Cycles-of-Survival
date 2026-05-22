@@ -695,10 +695,14 @@
         "Taiga"
       ],
       "eras": [
-        "Mesozoic"
+        "Mesozoic",
+        "Cenozoic"
       ],
       "periods": [
-        "Cretaceous"
+        "Cretaceous",
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
       ],
       "trophic_level": "Primary producers (autotrophs)",
       "dna_sequence": null,
@@ -733,10 +737,15 @@
         "Taiga"
       ],
       "eras": [
-        "Mesozoic"
+        "Mesozoic",
+        "Cenozoic"
       ],
       "periods": [
-        "Jurassic"
+        "Jurassic",
+        "Cretaceous",
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
       ],
       "trophic_level": "Primary producers (autotrophs)",
       "dna_sequence": null,

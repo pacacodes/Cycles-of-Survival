@@ -1015,10 +1015,10 @@
       "h2o": -1,
       "effectText": "Shallow sea life crashes as oceans shrink and conditions change fast. Remove all marine bottom feeders and plankton organisms.",
       "biomesBad": [
-        "Marine (Temperate Shelf and Seas, Temperate Upwelling)"
+        "Marine (Shallow Shelf, Continental Shelf)"
       ],
       "biomesGood": [
-        "Marine (Tropical Upwelling, Tropical Coral)"
+        "Marine (Deep Ocean, Upwelling Zones)"
       ],
       "organismsBad": [
         {
@@ -1057,10 +1057,10 @@
       "h2o": 0,
       "effectText": "Reef systems collapse and many shallow sea animals die off. Remove all reef-building or shallow marine organisms.",
       "biomesBad": [
-        "Marine (Tropical Coral, Temperate Shelf and Seas)"
+        "Marine (Shallow Reefs, Shelf Waters, Shallow Seas)"
       ],
       "biomesGood": [
-        "Marine (Tropical Upwelling, Temperate Upwelling)"
+        "Marine (Deep Ocean, Upwelling Zones)"
       ],
       "organismsBad": [
         {
@@ -1099,13 +1099,13 @@
       "h2o": 3,
       "effectText": "Massive basalt eruptions released deathly amounts of carbon dioxide, methane, and other gases leading into extreme global warming, acid rain, and drastic imbalances in the carbon cycle. Many marine and land organisms died off, especially those with narrow environmental tolerances. Remove 2 large land organisms and 2 marine organisms from each affected region.",
       "biomesBad": [
-        "Marine (Temperate Shelf and Seas, Tropical Coral)",
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Boreal Forests and Taiga)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Tundra (Tundra, Polar)"
+        "Marine (All Shallow and Deep Seas)",
+        "Forest (All Forest Types)",
+        "Grassland (All Grassland Types)",
+        "Desert (All Desert Types)"
       ],
       "biomesGood": [
-        "Desert (Deserts and Xeric Shrublands, Xeric Basins)"
+        "Marine (Deep Anoxic Zones)"
       ],
       "organismsBad": [
         {
@@ -1144,13 +1144,12 @@
       "h2o": 2,
       "effectText": "Volcanic warming and ocean change wipe out many large reptiles and sensitive sea animals. Remove 1 large land organism and 1 marine organism all affected biomes.",
       "biomesBad": [
-        "Marine (Temperate Shelf and Seas, Tropical Coral)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests)"
+        "Marine (Tropical Coral, Shallow Shelf, Tropical Waters)",
+        "Forest (Tropical Moist Forests, Subtropical Forests)",
+        "Grassland (Tropical Grasslands, Savannas)"
       ],
       "biomesGood": [
-        "Desert (Deserts and Xeric Shrublands)",
-        "Forest (Temperate Coniferous Forests)"
+        "Desert (Arid Zones)"
       ],
       "organismsBad": [
         {
@@ -1189,12 +1188,12 @@
       "h2o": -1,
       "effectText": "A massive rocky space rock traveling at extreme speed slams into Earth. The impact creates an explosion, sending dust and ash into the sky that blocks the sun for months. The world freezes in darkness, and food webs collapse. Remove 2 large land organisms and 1 surface-ocean organism from play.",
       "biomesBad": [
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
-        "Marine (Tropical Coral, Temperate Shelf and Seas)"
+        "Marine (All Marine Habitats)",
+        "Forest (All Forest Types)",
+        "Grassland (All Grassland Types)"
       ],
       "biomesGood": [
-        "Marine (Temperate Upwelling, Tropical Upwelling)"
+        "Desert (Arid Refugia)"
       ],
       "organismsBad": [
         {
@@ -1281,14 +1280,12 @@
       "h2o": 1,
       "effectText": "A new disease spreads through many animal groups at once. In every biome, remove 1 vertebrate organism and 1 invertebrate organism; then choose any 1 biome and remove 1 extra vertebrate organism there.",
       "biomesBad": [
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Tundra (Tundra, Polar)",
-        "Desert (Deserts and Xeric Shrublands)",
-        "Marine (Temperate Shelf and Seas, Tropical Coral)"
+        "Forest (Tropical Forests, Temperate Forests)",
+        "Grassland (Tropical Grasslands, Temperate Grasslands)",
+        "Marine (Shallow Seas, Coral Reefs, Shelf Waters)"
       ],
       "biomesGood": [
-        "Marine (Temperate Upwelling, Tropical Upwelling)"
+        "Marine (Deep Ocean, Isolated Habitats)"
       ],
       "organismsBad": [
         {

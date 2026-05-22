@@ -199,10 +199,14 @@
         "Rainforest"
       ],
       "eras": [
-        "Mesozoic"
+        "Mesozoic",
+        "Cenozoic"
       ],
       "periods": [
-        "Cretaceous"
+        "Cretaceous",
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
       ],
       "trophic_level": "Primary producers (autotrophs)",
       "dna_sequence": null,

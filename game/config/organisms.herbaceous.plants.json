@@ -23,7 +23,9 @@
         "Cenozoic"
       ],
       "periods": [
-        "Paleogene"
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
       ],
       "trophic_level": "Primary producers (autotrophs)",
       "dna_sequence": null,
@@ -61,7 +63,9 @@
         "Cenozoic"
       ],
       "periods": [
-        "Paleogene"
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
       ],
       "trophic_level": "Primary producers (autotrophs)",
       "dna_sequence": null,
@@ -99,7 +103,9 @@
         "Cenozoic"
       ],
       "periods": [
-        "Paleogene"
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
       ],
       "trophic_level": "Primary producers (autotrophs)",
       "dna_sequence": null,
@@ -137,7 +143,10 @@
         "Cenozoic"
       ],
       "periods": [
-        "Paleogene"
+        "Cretaceous",
+        "Paleogene",
+        "Neogene",
+        "Quaternary"
       ],
       "trophic_level": "Primary producers (autotrophs)",
       "dna_sequence": null,
