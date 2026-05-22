@@ -1099,7 +1099,7 @@
       "h2o": 3,
       "effectText": "Massive basalt eruptions released deathly amounts of carbon dioxide, methane, and other gases leading into extreme global warming, acid rain, and drastic imbalances in the carbon cycle. All biomes were affected—all marine types, all forest types, all grassland types, all desert types. Many marine and land organisms died off, especially those with narrow environmental tolerances. Remove 2 large land organisms and 2 marine organisms from each affected region.",
       "biomesBad": [
-        "All Biomes Present"
+        "All Biomes Present (all marine, all forest, all desert)"
       ],
       "biomesGood": [
         "Marine (Deep Anoxic Zones)"
@@ -1142,8 +1142,7 @@
       "effectText": "Volcanic warming and ocean change wipe out many large reptiles and sensitive sea animals. Remove 1 large land organism and 1 marine organism all affected biomes.",
       "biomesBad": [
         "Marine (Tropical Coral, Shallow Shelf, Tropical Waters)",
-        "Forest (Tropical Moist Forests, Subtropical Forests)",
-        "Grassland (Tropical Grasslands, Savannas)"
+        "Forest (Tropical Moist Forests, Subtropical Forests)"
       ],
       "biomesGood": [
         "Desert (Arid Zones)"
@@ -1183,9 +1182,9 @@
       "o2Change": -1,
       "biodiversityChange": -3,
       "h2o": -1,
-      "effectText": "The Cretaceous–Paleogene (K–Pg) extinction event where a massive rocky space rock traveling at extreme speed slams into Earth near the Yucatán Peninsula. The impact creates an explosion, sending dust and ash into the sky that blocks the sun for months. All biomes were affected—all marine types, all forest types, all desert types, all grassland types. The world freezes in darkness, and food webs collapse. Remove 2 large land organisms and 1 surface-ocean organism from play.",
+      "effectText": "The Cretaceous–Paleogene (K–Pg) extinction event where a massive space rock traveling at extreme speed slammed into Earth. The explosion sent dust and ash into the sky that blocked the sun for months. All biomes that were present were affected. The world freezes in darkness and food webs collapsed. Remove two large land organisms and one surface-ocean organism from play.",
       "biomesBad": [
-        "All Biomes Present"
+        "All Biomes Present (all marine, all forest, all desert)"
       ],
       "biomesGood": [
         "Desert (Arid Refugia)"
@@ -1225,11 +1224,9 @@
       "o2Change": -3,
       "biodiversityChange": -3,
       "h2o": 5,
-      "effectText": "Drained and drying peatlands release huge amounts of stored carbon. In every tundra, boreal forest, and wetland-rich region, remove 2 wetland or moss organisms; then in any 1 other biome type, remove 1 additional producer organism. Present day.",
+      "effectText": "Drained and drying peatlands release huge amounts of stored carbon. In every tundra, forest, and grassland biomes. Remove two grassland organisms; then in any other biome remove one moss organism type and remove one additional producer organism.",
       "biomesBad": [
-        "Tundra (Tundra, Polar)",
-        "Forest (Boreal Forests and Taiga)",
-        "Grassland (Flooded Grasslands and Savannas)"
+        "All Biomes Present (all marine, all forest, all desert, all grassland, all tundra)"
       ],
       "biomesGood": [
         "Marine (Temperate Shelf and Seas, Temperate Upwelling)"
