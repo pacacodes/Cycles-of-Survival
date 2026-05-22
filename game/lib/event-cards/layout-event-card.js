@@ -38,17 +38,27 @@ function getEventFieldDefinitions(event) {
     sub: event.effectText || null,
   });
 
-  // Field 2: Biomes (negative)
-  if (event.biomesBad && event.biomesBad.length) {
-    // Extract biome types and descriptions (matching organism card style)
-    const biomeTypes = [...new Set(event.biomesBad.map(biome => {
+  // Field 2: Biomes (negative or positive)
+  const biomesData = event.biomesBad && event.biomesBad.length ? event.biomesBad : (event.biomesGood && event.biomesGood.length ? event.biomesGood : null);
+  
+  if (biomesData) {
+    // Extract main biome types only (before parentheses) - keep only the 5 main categories, exclude Wetlands
+    const mainCategorySet = new Set();
+    biomesData.forEach(biome => {
       const match = biome.match(/^([^(]+)/);
-      return match ? match[1].trim() : biome;
-    }))];
+      if (match) {
+        const category = match[1].trim();
+        // Include "All Biomes" or "All Biomes Present", and the 5 main categories (exclude Wetlands)
+        if (category.startsWith('All Biomes') || ['Marine', 'Forest', 'Grassland', 'Desert', 'Tundra'].includes(category)) {
+          mainCategorySet.add(category);
+        }
+      }
+    });
+    const biomeTypes = Array.from(mainCategorySet);
     
-    // Extract all individual biome descriptions
+    // Extract all individual biome descriptions for subtitle (including wetlands types)
     const allDescriptions = [];
-    event.biomesBad.forEach(biome => {
+    biomesData.forEach(biome => {
       const match = biome.match(/\(([^)]+)\)/);
       if (match) {
         let desc = match[1].trim();
@@ -80,14 +90,16 @@ function getEventFieldDefinitions(event) {
       }
     });
     
-    const biomeTypesList = biomeTypes.join(', ');
+    const biomeTypesList = biomeTypes.length > 0 ? biomeTypes.join(', ') : '';
     const biomeDescList = groupedList.length > 0 ? groupedList.join(' · ') : null;
     
-    fields.push({
-      label: 'Biomes',
-      main: biomeTypesList,
-      sub: biomeDescList,
-    });
+    if (biomeTypesList || biomeDescList) {
+      fields.push({
+        label: 'Biomes',
+        main: biomeTypesList,
+        sub: biomeDescList,
+      });
+    }
   }
 
   // Field 3: Organisms (negative)
