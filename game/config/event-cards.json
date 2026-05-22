@@ -783,10 +783,27 @@
       "o2Change": 1,
       "biodiversityChange": 1,
       "h2o": 0,
-      "effectText": "Recovery begins. All players gain 1 extra organism of a chosen biome type (up to their biome cap).",
+      "effectText": "Recovery begins across all marine types, all forest types, all desert types, all grassland types, all tundra types, and all wetland types. All players gain 1 extra organism of a chosen biome type (up to their biome cap).",
       "biomesBad": [],
       "biomesGood": [
-        "All biomes equally"
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Tropical Upwelling, Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)",
+        "Marine (Temperate Upwelling, Tropical Upwelling)",
+        "Marine (Tropical Coral)",
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)",
+        "Forest (Boreal Forests and Taiga)",
+        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
+        "Forest (Mediterranean Forests, Woodlands, and Scrub)",
+        "Desert (Deserts and Xeric Shrublands)",
+        "Desert (Xeric Basins)",
+        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
+        "Grassland (Montane Grasslands and Shrublands)",
+        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
+        "Grassland (Flooded Grasslands and Savannas)",
+        "Tundra (Tundra)",
+        "Tundra (Polar)"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -811,7 +828,9 @@
       "effectText": "Nutrient-rich soils and waters boost producer organisms. Each player may add 1 producer organism to any biome.",
       "biomesBad": [],
       "biomesGood": [
-        "Wetlands, floodplains, and upwelling zones"
+        "Marine (Temperate Upwelling)",
+        "Marine (Tropical Upwelling, Temperate Shelf and Seas)",
+        "Grassland (Flooded Grasslands and Savannas)"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -836,7 +855,9 @@
       "effectText": "Insect pollinators rebound and plant reproduction surges. Add 1 flowering plant organism to any biome you control.",
       "biomesBad": [],
       "biomesGood": [
-        "Grasslands, meadows, and flowering forests"
+        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
+        "Grassland (Montane Grasslands and Shrublands)",
+        "Forest (Mediterranean Forests, Woodlands, and Scrub)"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -861,7 +882,10 @@
       "effectText": "Top predators return and stabilize ecosystems. Add 1 carnivore or omnivore organism to any biome you control.",
       "biomesBad": [],
       "biomesGood": [
-        "Prey-rich grasslands and forests"
+        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
+        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -883,10 +907,27 @@
       "o2Change": 0,
       "biodiversityChange": 1,
       "h2o": 0,
-      "effectText": "Seeds and spores spread widely, repopulating damaged areas. Add 1 plant organism to 2 different biomes you control.",
+      "effectText": "Seeds and spores spread widely across all marine types, all forest types, all desert types, all grassland types, all tundra types, and all wetland types, repopulating damaged areas. Add 1 plant organism to 2 different biomes you control.",
       "biomesBad": [],
       "biomesGood": [
-        "All biome types benefit equally"
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Tropical Upwelling, Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)",
+        "Marine (Temperate Upwelling, Tropical Upwelling)",
+        "Marine (Tropical Coral)",
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)",
+        "Forest (Boreal Forests and Taiga)",
+        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
+        "Forest (Mediterranean Forests, Woodlands, and Scrub)",
+        "Desert (Deserts and Xeric Shrublands)",
+        "Desert (Xeric Basins)",
+        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
+        "Grassland (Montane Grasslands and Shrublands)",
+        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
+        "Grassland (Flooded Grasslands and Savannas)",
+        "Tundra (Tundra)",
+        "Tundra (Polar)"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -911,7 +952,9 @@
       "effectText": "Decomposer microbes multiply and recycled nutrients feed new growth. Draw an extra Organism card and add it to any biome; do not spend biome points.",
       "biomesBad": [],
       "biomesGood": [
-        "Rich soils and anoxic waters"
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Tropical Coral)",
+        "Grassland (Flooded Grasslands and Savannas)"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -936,7 +979,10 @@
       "effectText": "Atmospheric and aquatic oxygen levels stabilize. Reduce negative biodiversity effects by 1 point for any one card this round.",
       "biomesBad": [],
       "biomesGood": [
-        "Oxygen-producing biomes (forests, algae beds, reefs)"
+        "Marine (Tropical Coral)",
+        "Marine (Temperate Upwelling)",
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -958,10 +1004,27 @@
       "o2Change": 0,
       "biodiversityChange": 1,
       "h2o": 0,
-      "effectText": "Global climate patterns stabilize, allowing displaced species to return. Restore 1 organism token that was removed by a Crisis card this round (if any remain available).",
+      "effectText": "Global climate patterns stabilize across all marine types, all forest types, all desert types, all grassland types, all tundra types, and all wetland types, allowing displaced species to return. Restore 1 organism token that was removed by a Crisis card this round (if any remain available).",
       "biomesBad": [],
       "biomesGood": [
-        "All climate zones stabilize"
+        "Marine (Temperate Shelf and Seas)",
+        "Marine (Tropical Upwelling, Temperate Shelf and Seas)",
+        "Marine (Temperate Upwelling)",
+        "Marine (Temperate Upwelling, Tropical Upwelling)",
+        "Marine (Tropical Coral)",
+        "Forest (Temperate Broadleaf and Mixed Forests)",
+        "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)",
+        "Forest (Boreal Forests and Taiga)",
+        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
+        "Forest (Mediterranean Forests, Woodlands, and Scrub)",
+        "Desert (Deserts and Xeric Shrublands)",
+        "Desert (Xeric Basins)",
+        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
+        "Grassland (Montane Grasslands and Shrublands)",
+        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
+        "Grassland (Flooded Grasslands and Savannas)",
+        "Tundra (Tundra)",
+        "Tundra (Polar)"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -986,7 +1049,9 @@
       "effectText": "Rainfall patterns return to normal, refilling rivers, lakes, and aquifers. Add 1 water-dependent organism to any wetland or aquatic biome you control.",
       "biomesBad": [],
       "biomesGood": [
-        "Wetlands, rivers, lakes, reefs"
+        "Marine (Tropical Coral)",
+        "Marine (Temperate Shelf and Seas)",
+        "Grassland (Flooded Grasslands and Savannas)"
       ],
       "organismsBad": [],
       "organismsGood": [
