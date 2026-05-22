@@ -783,27 +783,10 @@
       "o2Change": 1,
       "biodiversityChange": 1,
       "h2o": 0,
-      "effectText": "Recovery begins across all marine types, all forest types, all desert types, all grassland types, all tundra types, and all wetland types. All players gain 1 extra organism of a chosen biome type (up to their biome cap).",
+      "effectText": "Recovery begins across all biomes. All players draw one extra organism card and add any one of their organism cards to any biome.",
       "biomesBad": [],
       "biomesGood": [
-        "Marine (Temperate Shelf and Seas)",
-        "Marine (Tropical Upwelling, Temperate Shelf and Seas)",
-        "Marine (Temperate Upwelling)",
-        "Marine (Temperate Upwelling, Tropical Upwelling)",
-        "Marine (Tropical Coral)",
-        "Forest (Temperate Broadleaf and Mixed Forests)",
-        "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)",
-        "Forest (Boreal Forests and Taiga)",
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
-        "Forest (Mediterranean Forests, Woodlands, and Scrub)",
-        "Desert (Deserts and Xeric Shrublands)",
-        "Desert (Xeric Basins)",
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
-        "Grassland (Montane Grasslands and Shrublands)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Grassland (Flooded Grasslands and Savannas)",
-        "Tundra (Tundra)",
-        "Tundra (Polar)"
+        "All Biomes"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -825,12 +808,10 @@
       "o2Change": 0,
       "biodiversityChange": 1,
       "h2o": 1,
-      "effectText": "Nutrient-rich soils and waters boost producer organisms. Each player may add 1 producer organism to any biome.",
+      "effectText": "Nutrient-rich soils and waters boost producer organisms. Each player may add 1 producer organism to any biome if available.",
       "biomesBad": [],
       "biomesGood": [
-        "Marine (Temperate Upwelling)",
-        "Marine (Tropical Upwelling, Temperate Shelf and Seas)",
-        "Grassland (Flooded Grasslands and Savannas)"
+        "Wetlands, floodplains, and upwelling zones"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -852,12 +833,10 @@
       "o2Change": 0,
       "biodiversityChange": 1,
       "h2o": 0,
-      "effectText": "Insect pollinators rebound and plant reproduction surges. Add 1 flowering plant organism to any biome you control.",
+      "effectText": "Insect pollinators rebound and plant reproduction surges. Add 1 flowering plant organism to any biome if available.",
       "biomesBad": [],
       "biomesGood": [
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
-        "Grassland (Montane Grasslands and Shrublands)",
-        "Forest (Mediterranean Forests, Woodlands, and Scrub)"
+        "Grasslands, meadows, and flowering forests"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -879,13 +858,10 @@
       "o2Change": 0,
       "biodiversityChange": 1,
       "h2o": 0,
-      "effectText": "Top predators return and stabilize ecosystems. Add 1 carnivore or omnivore organism to any biome you control.",
+      "effectText": "Top predators return and stabilize ecosystems. Add 1 carnivore or omnivore organism to any biome.",
       "biomesBad": [],
       "biomesGood": [
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Forest (Temperate Broadleaf and Mixed Forests)",
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)"
+        "Prey-rich grasslands and forests"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -907,27 +883,10 @@
       "o2Change": 0,
       "biodiversityChange": 1,
       "h2o": 0,
-      "effectText": "Seeds and spores spread widely across all marine types, all forest types, all desert types, all grassland types, all tundra types, and all wetland types, repopulating damaged areas. Add 1 plant organism to 2 different biomes you control.",
+      "effectText": "Seeds and spores spread widely across all biomes repopulating damaged areas. Add 1 plant organism to 2 different biomes if available.",
       "biomesBad": [],
       "biomesGood": [
-        "Marine (Temperate Shelf and Seas)",
-        "Marine (Tropical Upwelling, Temperate Shelf and Seas)",
-        "Marine (Temperate Upwelling)",
-        "Marine (Temperate Upwelling, Tropical Upwelling)",
-        "Marine (Tropical Coral)",
-        "Forest (Temperate Broadleaf and Mixed Forests)",
-        "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)",
-        "Forest (Boreal Forests and Taiga)",
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
-        "Forest (Mediterranean Forests, Woodlands, and Scrub)",
-        "Desert (Deserts and Xeric Shrublands)",
-        "Desert (Xeric Basins)",
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
-        "Grassland (Montane Grasslands and Shrublands)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Grassland (Flooded Grasslands and Savannas)",
-        "Tundra (Tundra)",
-        "Tundra (Polar)"
+        "All Biomes"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -949,12 +908,10 @@
       "o2Change": 1,
       "biodiversityChange": 0,
       "h2o": 1,
-      "effectText": "Decomposer microbes multiply and recycled nutrients feed new growth. Draw an extra Organism card and add it to any biome; do not spend biome points.",
+      "effectText": "Decomposer microbes multiply and recycled nutrients feed new growth. Draw an extra Organism card and add it to any biome.",
       "biomesBad": [],
       "biomesGood": [
-        "Marine (Temperate Shelf and Seas)",
-        "Marine (Tropical Coral)",
-        "Grassland (Flooded Grasslands and Savannas)"
+        "Rich soils and anoxic waters"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -974,15 +931,12 @@
       "trend": "atmospheric_recovery",
       "co2Change": 0,
       "o2Change": 1,
-      "biodiversityChange": 0,
+      "biodiversityChange": 1,
       "h2o": 0,
-      "effectText": "Atmospheric and aquatic oxygen levels stabilize. Reduce negative biodiversity effects by 1 point for any one card this round.",
+      "effectText": "Atmospheric and aquatic oxygen levels stabilize. Update scales to reflect improvement.",
       "biomesBad": [],
       "biomesGood": [
-        "Marine (Tropical Coral)",
-        "Marine (Temperate Upwelling)",
-        "Forest (Temperate Broadleaf and Mixed Forests)",
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)"
+        "Oxygen-producing biomes (forests, algae beds, reefs)"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -1004,27 +958,10 @@
       "o2Change": 0,
       "biodiversityChange": 1,
       "h2o": 0,
-      "effectText": "Global climate patterns stabilize across all marine types, all forest types, all desert types, all grassland types, all tundra types, and all wetland types, allowing displaced species to return. Restore 1 organism token that was removed by a Crisis card this round (if any remain available).",
+      "effectText": "Global climate patterns stabilize across all biomes, allowing displaced species to return. Update scales to reflect improvement and restore one organism that was removed by a previous Crisis card.",
       "biomesBad": [],
       "biomesGood": [
-        "Marine (Temperate Shelf and Seas)",
-        "Marine (Tropical Upwelling, Temperate Shelf and Seas)",
-        "Marine (Temperate Upwelling)",
-        "Marine (Temperate Upwelling, Tropical Upwelling)",
-        "Marine (Tropical Coral)",
-        "Forest (Temperate Broadleaf and Mixed Forests)",
-        "Forest (Temperate Coniferous Forests, Boreal Forests and Taiga)",
-        "Forest (Boreal Forests and Taiga)",
-        "Forest (Tropical and Subtropical Moist Broadleaf Forests, Temperate Broadleaf and Mixed Forests)",
-        "Forest (Mediterranean Forests, Woodlands, and Scrub)",
-        "Desert (Deserts and Xeric Shrublands)",
-        "Desert (Xeric Basins)",
-        "Grassland (Temperate Grasslands, Savannas, and Shrublands)",
-        "Grassland (Montane Grasslands and Shrublands)",
-        "Grassland (Tropical and Subtropical Grasslands, Savannas, and Shrublands)",
-        "Grassland (Flooded Grasslands and Savannas)",
-        "Tundra (Tundra)",
-        "Tundra (Polar)"
+        "All Biomes"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -1046,12 +983,10 @@
       "o2Change": 0,
       "biodiversityChange": 1,
       "h2o": -1,
-      "effectText": "Rainfall patterns return to normal, refilling rivers, lakes, and aquifers. Add 1 water-dependent organism to any wetland or aquatic biome you control.",
+      "effectText": "Rainfall patterns return to normal, refilling rivers, lakes, and aquifers. Update scales to reflect improvement and add one water-dependent organism to any wetland or aquatic biome.",
       "biomesBad": [],
       "biomesGood": [
-        "Marine (Tropical Coral)",
-        "Marine (Temperate Shelf and Seas)",
-        "Grassland (Flooded Grasslands and Savannas)"
+        "Wetlands, rivers, lakes, reefs"
       ],
       "organismsBad": [],
       "organismsGood": [
@@ -1162,12 +1097,9 @@
       "o2Change": -4,
       "biodiversityChange": -4,
       "h2o": 3,
-      "effectText": "Massive basalt eruptions released deathly amounts of carbon dioxide, methane, and other gases leading into extreme global warming, acid rain, and drastic imbalances in the carbon cycle. Many marine and land organisms died off, especially those with narrow environmental tolerances. Remove 2 large land organisms and 2 marine organisms from each affected region.",
+      "effectText": "Massive basalt eruptions released deathly amounts of carbon dioxide, methane, and other gases leading into extreme global warming, acid rain, and drastic imbalances in the carbon cycle. All biomes were affected—all marine types, all forest types, all grassland types, all desert types. Many marine and land organisms died off, especially those with narrow environmental tolerances. Remove 2 large land organisms and 2 marine organisms from each affected region.",
       "biomesBad": [
-        "Marine (All Shallow and Deep Seas)",
-        "Forest (All Forest Types)",
-        "Grassland (All Grassland Types)",
-        "Desert (All Desert Types)"
+        "All Biomes Present"
       ],
       "biomesGood": [
         "Marine (Deep Anoxic Zones)"
@@ -1241,7 +1173,7 @@
       ]
     },
     {
-      "name": "Asteroid Impact",
+      "name": "Chicxulub Impact",
       "type": "mass_extinction",
       "period": "End Cretaceous (K\u2013Pg)",
       "approxMa": 66,
@@ -1251,11 +1183,9 @@
       "o2Change": -1,
       "biodiversityChange": -3,
       "h2o": -1,
-      "effectText": "A massive rocky space rock traveling at extreme speed slams into Earth. The impact creates an explosion, sending dust and ash into the sky that blocks the sun for months. The world freezes in darkness, and food webs collapse. Remove 2 large land organisms and 1 surface-ocean organism from play.",
+      "effectText": "The Cretaceous–Paleogene (K–Pg) extinction event where a massive rocky space rock traveling at extreme speed slams into Earth near the Yucatán Peninsula. The impact creates an explosion, sending dust and ash into the sky that blocks the sun for months. All biomes were affected—all marine types, all forest types, all desert types, all grassland types. The world freezes in darkness, and food webs collapse. Remove 2 large land organisms and 1 surface-ocean organism from play.",
       "biomesBad": [
-        "Marine (All Marine Habitats)",
-        "Forest (All Forest Types)",
-        "Grassland (All Grassland Types)"
+        "All Biomes Present"
       ],
       "biomesGood": [
         "Desert (Arid Refugia)"
