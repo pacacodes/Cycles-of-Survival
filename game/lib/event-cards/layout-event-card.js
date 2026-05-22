@@ -40,11 +40,53 @@ function getEventFieldDefinitions(event) {
 
   // Field 2: Biomes (negative)
   if (event.biomesBad && event.biomesBad.length) {
-    const biomesList = event.biomesBad.join(' · ').replace(/ and /g, ' · ');
+    // Extract biome types and descriptions (matching organism card style)
+    const biomeTypes = [...new Set(event.biomesBad.map(biome => {
+      const match = biome.match(/^([^(]+)/);
+      return match ? match[1].trim() : biome;
+    }))];
+    
+    // Extract all individual biome descriptions
+    const allDescriptions = [];
+    event.biomesBad.forEach(biome => {
+      const match = biome.match(/\(([^)]+)\)/);
+      if (match) {
+        let desc = match[1].trim();
+        // Split by various delimiters while preserving structure
+        const items = desc.split(/[,&]|\s+and\s+/).map(s => s.trim()).filter(Boolean);
+        allDescriptions.push(...items);
+      }
+    });
+    
+    // Group descriptions by their first word (climate/biome type)
+    const groupedDescs = {};
+    const groupOrder = ['Tropical', 'Subtropical', 'Temperate', 'Boreal', 'Arctic', 'Polar', 'Deep', 'Other'];
+    
+    allDescriptions.forEach(desc => {
+      // Extract the first word as the climate type
+      const firstWord = desc.split(/\s+/)[0];
+      const group = groupOrder.includes(firstWord) ? firstWord : 'Other';
+      if (!groupedDescs[group]) {
+        groupedDescs[group] = [];
+      }
+      groupedDescs[group].push(desc);
+    });
+    
+    // Build description list with grouped items
+    const groupedList = [];
+    groupOrder.forEach(group => {
+      if (groupedDescs[group]) {
+        groupedList.push(...groupedDescs[group]);
+      }
+    });
+    
+    const biomeTypesList = biomeTypes.join(', ');
+    const biomeDescList = groupedList.length > 0 ? groupedList.join(' · ') : null;
+    
     fields.push({
       label: 'Biomes',
-      main: 'Negatively Affected',
-      sub: biomesList,
+      main: biomeTypesList,
+      sub: biomeDescList,
     });
   }
 

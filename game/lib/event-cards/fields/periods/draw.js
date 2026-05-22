@@ -17,6 +17,7 @@
  *   drawBottom   - background-bottom draw fn
  */
 const measureTextLines = require('../../lib/measure-text-lines');
+const wrapText = require('../../../cards/utils/text');
 
 module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, titleColor, main, sub, maxWidth, hexToRgba, drawTop, drawBottom }) {
   ctx.save();
@@ -42,7 +43,7 @@ module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, tit
   const mainAvailWidth = maxWidth ? maxWidth - labelPartW : undefined;
   const mainLineCount = mainAvailWidth ? measureTextLines(ctx, main, mainAvailWidth) : 1;
   
-  // Measure sub text lines
+  // Measure sub text lines (with wrapping support)
   let subLineCount = 0;
   if (displaySub) {
     ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
@@ -90,10 +91,12 @@ module.exports = function drawPeriodsField(ctx, { textX, rowY, scale, color, tit
   ctx.fillText(labelPart, textX, rowY);
   ctx.fillText(main, textX + labelPartW, rowY);
 
-  // Line 2: sub description, smaller
+  // Line 2: sub description with text wrapping
   if (displaySub) {
     ctx.font = `${subSize}px "DejaVu Sans", sans-serif`;
-    ctx.fillText(displaySub, textX, subY);
+    const lineHeight = Math.round(subSize + 2 * scale);
+    const subMaxWidth = maxWidth ? maxWidth : 200 * scale;
+    wrapText(ctx, displaySub, textX, subY, subMaxWidth, lineHeight);
   }
 
   ctx.shadowColor = 'transparent';

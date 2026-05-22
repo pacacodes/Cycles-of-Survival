@@ -4,25 +4,25 @@
  */
 
 // Geological period time ranges (start Ma = million years ago, end Ma; Ga = billion)
-// Format: [startMa, endMa, label] — end=0 means "Present"
+// Format: [startMa, endMa, label] — all display start to Present for clarity
 const PERIOD_RANGES = {
-  'Early Archean':     [4000,  3200, '~4.0 – 3.2 Ga'],
-  'Late Archean':      [3200,  2500, '~3.2 – 2.5 Ga'],
-  'Early Proterozoic': [2500,  1600, '~2.5 – 1.6 Ga'],
-  'Late Proterozoic':  [1000,   635, '~1.0 Ga – 635 Ma'],
-  'Ediacaran':         [ 635,   539, '635 – 539 Ma'],
-  'Cambrian':          [ 539,   485, '539 – 485 Ma'],
-  'Ordovician':        [ 485,   444, '485 – 444 Ma'],
-  'Silurian':          [ 444,   419, '444 – 419 Ma'],
-  'Devonian':          [ 419,   359, '419 – 359 Ma'],
-  'Carboniferous':     [ 359,   299, '359 – 299 Ma'],
-  'Permian':           [ 299,   252, '299 – 252 Ma'],
-  'Triassic':          [ 252,   201, '252 – 201 Ma'],
-  'Jurassic':          [ 201,   145, '201 – 145 Ma'],
-  'Cretaceous':        [ 145,    66, '145 – 66 Ma'],
-  'Paleogene':         [  66,    23, '66 – 23 Ma'],
-  'Neogene':           [  23,   2.6, '23 – 2.6 Ma'],
-  'Quaternary':        [ 2.6,     0, '2.6 Ma – Present'],
+  'Early Archean':     [4000,  3200, 'apply the effects to all organisms from the early archean period or later'],
+  'Late Archean':      [3200,  2500, 'apply the effects to all organisms from the late archean period or later'],
+  'Early Proterozoic': [2500,  1600, 'apply the effects to all organisms from the early proterozoic period or later'],
+  'Late Proterozoic':  [1000,   635, 'apply the effects to all organisms from the late proterozoic period or later'],
+  'Ediacaran':         [ 635,   539, 'apply the effects to all organisms from the ediacaran period or later'],
+  'Cambrian':          [ 539,   485, 'apply the effects to all organisms from the cambrian period or later'],
+  'Ordovician':        [ 485,   444, 'apply the effects to all organisms from the ordovician period or later'],
+  'Silurian':          [ 444,   419, 'apply the effects to all organisms from the silurian period or later'],
+  'Devonian':          [ 419,   359, 'apply the effects to all organisms from the devonian period or later'],
+  'Carboniferous':     [ 359,   299, 'apply the effects to all organisms from the carboniferous period or later'],
+  'Permian':           [ 299,   252, 'apply the effects to all organisms from the permian period or later'],
+  'Triassic':          [ 252,   201, 'apply the effects to all organisms from the triassic period or later'],
+  'Jurassic':          [ 201,   145, 'apply the effects to all organisms from the jurassic period or later'],
+  'Cretaceous':        [ 145,    66, 'apply the effects to all organisms from the cretaceous period or later'],
+  'Paleogene':         [  66,    23, 'apply the effects to all organisms from the paleogene period or later'],
+  'Neogene':           [  23,   2.6, 'apply the effects to all organisms from the neogene period or later'],
+  'Quaternary':        [ 2.6,     0, 'apply the effects to all organisms from the quaternary period'],
 };
 
 function formatValue(value) {
@@ -59,7 +59,7 @@ function getPeriodField(periods) {
 
   return {
     label: 'Periods',
-    main: periods.map(p => formatValue(p)).join(', '),
+    main: periods.map(p => formatValue(p)).join(' · '),
     sub: periodTimeSpan(periods),
     drawTop: require('../cards/layers/detailed-type/category/periods-background-top'),
     drawBottom: require('../cards/layers/detailed-type/category/periods-background-bottom'),
