@@ -14,6 +14,7 @@ const { buildBadgeList } = require('../cards/helpers/badge-list');
 const { drawBadgesAndConnectors } = require('../cards/helpers/draw-badge-connectors');
 const { getEventColorScheme } = require('./color-scheme');
 const { getPeriodField } = require('./period-field-for-events');
+const drawEventFieldConnectors = require('./helpers/draw-event-field-connectors');
 
 /**
  * Get background drawing functions (matching organism card style)
@@ -124,26 +125,6 @@ function getEventFieldDefinitions(event) {
 }
 
 /**
- * Create a badge list for event cards (CO2, O2, Biodiversity)
- */
-function buildEventBadgeList(event) {
-  // Create pseudo-badges matching organism badge structure
-  return [
-    { type: 'co2', label: 'CO₂' },
-    { type: 'o2', label: 'O₂' },
-    { type: 'bio', label: 'Bio' },
-  ];
-}
-
-/**
- * Draw event badges and connectors (custom implementation for stat badges)
- */
-async function drawEventBadgesAndConnectors(ctx, badgeList, params, event) {
-  // This function is now empty - badges and connectors are removed
-  // Title symbols are now drawn in the title area instead
-}
-
-/**
  * Transform event into organism-like card object
  */
 function eventToCardObject(event, colors) {
@@ -223,12 +204,6 @@ async function drawEventCardPNG(ctx, xPt, yPt, event, scale, options = {}) {
   const contentW = CARD_TRIM_W * scale - 2 * margin;
   const contentH = CARD_TRIM_H * scale - 2 * margin;
 
-  // Badge list + placement (matching organism card)
-  const badgeGap = 0.04 * 72 * scale;
-  const badgeList = buildEventBadgeList(event);
-  const dynamicBadgeColumnHeight = badgeList.length * badgeRadius * 2 + (badgeList.length - 1) * badgeGap;
-  const badgeY = contentY + (contentH - dynamicBadgeColumnHeight) / 2 + badgeRadius + 60;
-
   const neonColor = card.neonColor || '#02BDF2';
   
   // Get field definitions with exact organism card structure
@@ -240,11 +215,26 @@ async function drawEventCardPNG(ctx, xPt, yPt, event, scale, options = {}) {
   configureCanvasContext(ctx);
 
   // First pass: field backgrounds (matching organism card)
-  drawEventFields(ctx, contentX, contentY, contentW, contentH, card, scale);
+  const fieldGeometry = drawEventFields(ctx, contentX, contentY, contentW, contentH, card, scale);
 
   // Final text layer (drawn over connectors) - matching organism card
   drawTitle(ctx, contentX, contentY - 30, contentW, card, scale);
   drawEventFields(ctx, contentX, contentY, contentW, contentH, card, scale);
+
+  // Connector lines + connector circles for event Biomes/Organisms/Periods fields.
+  drawEventFieldConnectors(ctx, card, {
+    contentX,
+    contentY,
+    contentW,
+    contentH,
+    badgeStartX,
+    badgeRadius,
+    badgeTextGap,
+    leftPadding,
+    scale,
+    fieldGeometry,
+  });
+
   drawCardNumber(ctx, safeX, safeY, card, scale);
   drawCorners(ctx, safeX, safeY, card, scale);
 

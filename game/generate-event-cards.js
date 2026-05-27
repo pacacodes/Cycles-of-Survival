@@ -10,6 +10,7 @@ const { writeEventSheetsPNG } = require('./lib/event-cards/layout-event-sheets')
 const { ensureDir } = require('./lib/file');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
+const EVENT_CARD_RENDER_SIGNATURE = 'event-render-v3-connectors-periods';
 
 /**
  * Parse command-line arguments
@@ -139,7 +140,7 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
       const generatedPNGs = new Set();
 
       for (const event of preparedEvents) {
-        const sig = createEventSignature(event);
+        const sig = `${createEventSignature(event)}|${EVENT_CARD_RENDER_SIGNATURE}`;
         const oldRecord = getManifestRecord(activeManifest, event.id);
 
         const shouldRegenerate = opts.forceAll || !oldRecord || oldRecord.signature !== sig;
@@ -160,6 +161,7 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
         newManifest._events[event.id] = {
           signature: sig,
           fileName: `${event.fileName}.png`,
+          renderSignature: EVENT_CARD_RENDER_SIGNATURE,
         };
       }
 

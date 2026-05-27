@@ -63,10 +63,17 @@ module.exports = function drawEventFields(ctx, contentX, contentY, contentW, con
 
   // Second pass: draw fields at correct positions
   let currentY = blockY;
+  const byLabel = {};
   
   fields.forEach((field, i) => {
     const fieldType = field.label ? field.label.toLowerCase() : 'effect';
     const drawer = fieldDrawers[fieldType] || drawEffectFieldRow;
+    const label = (field.label || '').toLowerCase();
+    byLabel[label] = {
+      rowY: currentY,
+      height: fieldHeights[i],
+      field,
+    };
     
     drawer(ctx, {
       textX,
@@ -82,4 +89,10 @@ module.exports = function drawEventFields(ctx, contentX, contentY, contentW, con
     
     currentY += fieldHeights[i];
   });
+
+  return {
+    textX,
+    maxTextWidth: maxTextWidth > 0 ? maxTextWidth : undefined,
+    byLabel,
+  };
 };
