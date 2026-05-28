@@ -75,6 +75,11 @@ function calculateFieldGeometry(ctx, card, layout) {
   return { textX, maxTextWidth, byLabel };
 }
 
+function getTitleColorBlockHeight(scale) {
+  // Mirrors drawTitleColorBlock: blockHeight = (dpi * 0.5) + 20 + 20, where dpi = 72 * scale.
+  return (72 * scale * 0.5) + 40;
+}
+
 module.exports = function drawEventFieldConnectors(ctx, card, layout) {
   const {
     badgeStartX,
@@ -91,6 +96,7 @@ module.exports = function drawEventFieldConnectors(ctx, card, layout) {
   const connectorStartYOffset = Math.round((badgeRadius * 0.65) + (4 * scale));
   const biomesFieldYAdjustPx = 10;
   const organismsFieldYAdjustPx = 10;
+  const periodsFieldYAdjustPx = 10;
 
   // Match organism-card badge column feel: fixed vertical step between connector circles.
   const badgeGap = 0.04 * 72 * scale;
@@ -98,9 +104,13 @@ module.exports = function drawEventFieldConnectors(ctx, card, layout) {
   const connectorOrder = ['biomes', 'organisms', 'periods'].filter((label) => !!byLabel[label]);
   const badgeYByLabel = {};
   if (connectorOrder.length) {
-    const firstLabel = connectorOrder[0];
-    const firstFieldY = byLabel[firstLabel].rowY + Math.round(4 * scale);
-    const firstBadgeY = firstFieldY - connectorStartYOffset;
+    const cardTopY = Number.isFinite(layout.cardY) ? layout.cardY : 0;
+    const titleBlockBottomY = cardTopY + getTitleColorBlockHeight(scale);
+    const centeringTopY = Math.max(layout.contentY, titleBlockBottomY);
+    const centeringBottomY = layout.contentY + layout.contentH;
+    const columnCenterY = centeringTopY + ((centeringBottomY - centeringTopY) / 2);
+    const stackHalfHeight = ((connectorOrder.length - 1) * badgeStep) / 2;
+    const firstBadgeY = columnCenterY - stackHalfHeight;
     connectorOrder.forEach((label, idx) => {
       badgeYByLabel[label] = firstBadgeY + (idx * badgeStep);
     });
@@ -164,7 +174,7 @@ module.exports = function drawEventFieldConnectors(ctx, card, layout) {
 
   const periodsMeta = byLabel.periods;
   if (periodsMeta) {
-    const fieldY = periodsMeta.rowY + Math.round(4 * scale);
+    const fieldY = periodsMeta.rowY + Math.round(4 * scale) + periodsFieldYAdjustPx;
     const badgeY = Number.isFinite(badgeYByLabel.periods)
       ? badgeYByLabel.periods
       : (fieldY - connectorStartYOffset);

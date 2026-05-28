@@ -234,6 +234,7 @@ async function drawEventCardPNG(ctx, xPt, yPt, event, scale, options = {}) {
     contentY,
     contentW,
     contentH,
+    cardY: y,
     badgeStartX,
     badgeRadius,
     badgeTextGap,
