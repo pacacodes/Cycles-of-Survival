@@ -10,7 +10,7 @@ const { writeEventSheetsPNG } = require('./lib/event-cards/layout-event-sheets')
 const { ensureDir } = require('./lib/file');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
-const EVENT_CARD_RENDER_SIGNATURE = 'event-render-v3-connectors-periods';
+const EVENT_CARD_RENDER_SIGNATURE = 'event-render-v6-connector-column-y';
 
 /**
  * Parse command-line arguments

@@ -86,14 +86,30 @@ module.exports = function drawEventFieldConnectors(ctx, card, layout) {
   const fieldGeometry = layout.fieldGeometry || calculateFieldGeometry(ctx, card, layout);
   const { textX, maxTextWidth, byLabel } = fieldGeometry;
   const neonColor = card.neonColor || '#02BDF2';
-  const effectiveBadgeX = Number.isFinite(textX)
-    ? Math.round(textX - (badgeTextGap || 0) - badgeRadius)
-    : badgeStartX;
+  // Keep event connector circles on the same badge-column X used by organism cards.
+  const effectiveBadgeX = badgeStartX;
+  const connectorStartYOffset = Math.round((badgeRadius * 0.65) + (4 * scale));
+
+  // Match organism-card badge column feel: fixed vertical step between connector circles.
+  const badgeGap = 0.04 * 72 * scale;
+  const badgeStep = (badgeRadius * 2) + badgeGap;
+  const connectorOrder = ['biomes', 'organisms', 'periods'].filter((label) => !!byLabel[label]);
+  const badgeYByLabel = {};
+  if (connectorOrder.length) {
+    const firstLabel = connectorOrder[0];
+    const firstFieldY = byLabel[firstLabel].rowY + Math.round(4 * scale);
+    const firstBadgeY = firstFieldY - connectorStartYOffset;
+    connectorOrder.forEach((label, idx) => {
+      badgeYByLabel[label] = firstBadgeY + (idx * badgeStep);
+    });
+  }
 
   const biomesMeta = byLabel.biomes;
   if (biomesMeta) {
     const fieldY = biomesMeta.rowY + Math.round(4 * scale);
-    const badgeY = biomesMeta.rowY + Math.round(Math.max(6 * scale, biomesMeta.height * 0.2));
+    const badgeY = Number.isFinite(badgeYByLabel.biomes)
+      ? badgeYByLabel.biomes
+      : (fieldY - connectorStartYOffset);
     const backgroundRightX = computeBackgroundRightX(ctx, {
       label: biomesMeta.field.label,
       main: biomesMeta.field.main || '',
@@ -119,7 +135,9 @@ module.exports = function drawEventFieldConnectors(ctx, card, layout) {
   const organismsMeta = byLabel.organisms;
   if (organismsMeta) {
     const fieldY = organismsMeta.rowY + Math.round(4 * scale);
-    const badgeY = organismsMeta.rowY + Math.round(Math.max(6 * scale, organismsMeta.height * 0.2));
+    const badgeY = Number.isFinite(badgeYByLabel.organisms)
+      ? badgeYByLabel.organisms
+      : (fieldY - connectorStartYOffset);
     const backgroundRightX = computeBackgroundRightX(ctx, {
       label: organismsMeta.field.label,
       main: organismsMeta.field.main || '',
@@ -133,7 +151,7 @@ module.exports = function drawEventFieldConnectors(ctx, card, layout) {
       ctx,
       effectiveBadgeX,
       badgeY,
-      textX,
+      textX - (18 * scale),
       fieldY,
       badgeRadius,
       scale,
@@ -145,7 +163,9 @@ module.exports = function drawEventFieldConnectors(ctx, card, layout) {
   const periodsMeta = byLabel.periods;
   if (periodsMeta) {
     const fieldY = periodsMeta.rowY + Math.round(4 * scale);
-    const badgeY = periodsMeta.rowY + Math.round(Math.max(6 * scale, periodsMeta.height * 0.2));
+    const badgeY = Number.isFinite(badgeYByLabel.periods)
+      ? badgeYByLabel.periods
+      : (fieldY - connectorStartYOffset);
     const backgroundRightX = computeBackgroundRightX(ctx, {
       label: periodsMeta.field.label,
       main: periodsMeta.field.main || '',
