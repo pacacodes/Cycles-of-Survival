@@ -89,6 +89,7 @@ module.exports = function drawEventFieldConnectors(ctx, card, layout) {
   // Keep event connector circles on the same badge-column X used by organism cards.
   const effectiveBadgeX = badgeStartX;
   const connectorStartYOffset = Math.round((badgeRadius * 0.65) + (4 * scale));
+  const biomesFieldYAdjustPx = 10;
 
   // Match organism-card badge column feel: fixed vertical step between connector circles.
   const badgeGap = 0.04 * 72 * scale;
@@ -106,7 +107,7 @@ module.exports = function drawEventFieldConnectors(ctx, card, layout) {
 
   const biomesMeta = byLabel.biomes;
   if (biomesMeta) {
-    const fieldY = biomesMeta.rowY + Math.round(4 * scale);
+    const fieldY = biomesMeta.rowY + Math.round(4 * scale) + biomesFieldYAdjustPx;
     const badgeY = Number.isFinite(badgeYByLabel.biomes)
       ? badgeYByLabel.biomes
       : (fieldY - connectorStartYOffset);
