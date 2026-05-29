@@ -111,7 +111,16 @@ const BIOME_TO_MAIN = {
 
 function mapToMainBiome(label) {
   const key = String(label || '').trim().toLowerCase();
-  return BIOME_TO_MAIN[key] || null;
+  if (BIOME_TO_MAIN[key]) return BIOME_TO_MAIN[key];
+
+  // Fallback keyword matching so specific biome strings still collapse into the 5 main groups.
+  if (key.includes('forest') || key.includes('taiga') || key.includes('woodland')) return 'Forest';
+  if (key.includes('grassland') || key.includes('savanna') || key.includes('savannah') || key.includes('prairie') || key.includes('farmland') || key.includes('urban')) return 'Grassland';
+  if (key.includes('desert') || key.includes('arid')) return 'Desert';
+  if (key.includes('tundra') || key.includes('arctic') || key.includes('polar')) return 'Tundra';
+  if (key.includes('marine') || key.includes('ocean') || key.includes('reef') || key.includes('freshwater') || key.includes('wetland') || key.includes('floodplain') || key.includes('river') || key.includes('lake')) return 'Marine';
+
+  return null;
 }
 
 function addUnique(list, seen, value) {
@@ -125,6 +134,7 @@ function getBiomeField(cardBiomes) {
   const mainSet = new Set();
   const subList = [];
   const subSeen = new Set();
+  const mainSetLabel = new Set(MAIN_BIOME_ORDER);
 
   for (const rawBiome of cardBiomes) {
     const biome = formatValue(rawBiome);
@@ -138,11 +148,22 @@ function getBiomeField(cardBiomes) {
 
     const descMatch = biome.match(/\(([^)]+)\)/);
     if (descMatch) {
+      // Keep non-main category labels as specifics (e.g., Freshwater, Wetland).
+      if (!mainSetLabel.has(category)) {
+        addUnique(subList, subSeen, category);
+      }
+
       const pieces = descMatch[1]
         .split(/[,&]|\s+and\s+/)
         .map(s => formatValue(s))
         .filter(Boolean);
-      pieces.forEach(p => addUnique(subList, subSeen, p));
+      pieces.forEach((p) => {
+        const pieceMain = mapToMainBiome(p);
+        if (pieceMain) {
+          mainSet.add(pieceMain);
+        }
+        addUnique(subList, subSeen, p);
+      });
       continue;
     }
 
@@ -151,7 +172,10 @@ function getBiomeField(cardBiomes) {
       continue;
     }
 
-    addUnique(subList, subSeen, BIOME_DESC[category] || category);
+    // Keep subtitle focused on specific biome variants/details, not the 5 main labels themselves.
+    if (!mainSetLabel.has(category)) {
+      addUnique(subList, subSeen, BIOME_DESC[category] || category);
+    }
   }
 
   const main = MAIN_BIOME_ORDER.filter(label => mainSet.has(label)).join(', ');
@@ -184,6 +208,7 @@ const TYPE_EXTRA = {
   'early vascular plant': '· first land plant',
   'vascular plant':       '· fluid-conducting plant',
   'monocot':              '· single-seed-leaf plant',
+  'dicot':                '· two-seed-leaf plant',
   'flowering plant':      '· angiosperm',
   // Invertebrates
   'trilobite':            '· segmented arthropod',
@@ -261,8 +286,9 @@ function getSpecificTypeDesc(card) {
   if (cls    === 'Polypodiopsida') return 'fern';
   if (cls    === 'Rhyniopsida')    return 'early vascular plant';
   if (phylum === 'Tracheophyta')   return 'vascular plant';
-  if (cls    === 'Liliopsida')     return 'monocot';
-  if (cls    === 'Magnoliopsida')  return 'dicot';
+  // Accept both formal and simplified class labels present in configs.
+  if (cls === 'Liliopsida' || cls === 'Monocots' || cls === 'Monocotyledonae') return 'monocot';
+  if (cls === 'Magnoliopsida' || cls === 'Eudicots' || cls === 'Dicots' || cls === 'Dicotyledonae') return 'dicot';
   if (phylum === 'Magnoliophyta')  return 'flowering plant';
 
   // Invertebrates by class
@@ -318,8 +344,13 @@ module.exports = function getFieldDefinitions(card) {
 
   if (card.organism_type) {
     const parsed = parseField(card.organism_type);
+    const typeMain = parsed.sub ? `${parsed.main} · ${parsed.sub}` : parsed.main;
+    const isPlant = /^plant/i.test(String(parsed.main || ''));
+    const layerLabel = parsed.sub || '';
+    const hasPlantLayer = isPlant && !!layerLabel;
+
     const taxonomyType = getSpecificTypeDesc(card);
-    const specificType = parsed.sub || taxonomyType;
+    const specificType = hasPlantLayer ? taxonomyType : (parsed.sub || taxonomyType);
     const typeExtra = specificType
       ? (TYPE_EXTRA[specificType] || TYPE_EXTRA[String(specificType).toLowerCase()] || '')
       : '';
@@ -327,8 +358,6 @@ module.exports = function getFieldDefinitions(card) {
     let typeSub = specificType ? (typeExtra ? `${specificType} ${typeExtra}` : specificType) : null;
 
     // For layered plant cards, prefer: layer meaning · growth form (e.g., "shaded lower-canopy plants · monocot").
-    const isPlant = /^plant/i.test(String(parsed.main || ''));
-    const layerLabel = parsed.sub || '';
     const layerExtra = TYPE_EXTRA[String(layerLabel).toLowerCase()] || TYPE_EXTRA[layerLabel] || '';
     const layerMeaning = normalizeLeadDot(layerExtra);
     if (isPlant && layerLabel && layerMeaning) {
@@ -340,7 +369,7 @@ module.exports = function getFieldDefinitions(card) {
 
     fields.push({
       label: 'Type',
-      main:  parsed.main,
+      main:  typeMain,
       sub:   typeSub,
       drawTop:    require('./functional-category-background-top'),
       drawBottom: require('./functional-category-background-bottom'),

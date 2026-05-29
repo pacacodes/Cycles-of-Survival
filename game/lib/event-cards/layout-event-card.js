@@ -217,18 +217,8 @@ async function drawEventCardPNG(ctx, xPt, yPt, event, scale, options = {}) {
   // First pass: field backgrounds (matching organism card)
   const fieldGeometry = drawEventFields(ctx, contentX, contentY, contentW, contentH, card, scale);
 
-  // Final text layer (drawn over connectors) - matching organism card
-  drawTitle(ctx, contentX, contentY - 30, contentW, card, scale);
-  drawEventFields(ctx, contentX, contentY, contentW, contentH, card, scale);
-  drawCardNumber(ctx, safeX, safeY, card, scale);
-  drawCorners(ctx, safeX, safeY, card, scale);
-
-  if (includeGuides) {
-    drawTrim(ctx, safeX, safeY, scale, { roundedRectPath });
-  }
-
   // Connector lines + connector circles for event Biomes/Organisms/Periods fields.
-  // Draw this last so connectors are always on the top z-layer.
+  // Draw between passes so final field backgrounds/text sit above connector lines.
   drawEventFieldConnectors(ctx, card, {
     contentX,
     contentY,
@@ -242,6 +232,16 @@ async function drawEventCardPNG(ctx, xPt, yPt, event, scale, options = {}) {
     scale,
     fieldGeometry,
   });
+
+  // Final text layer (drawn over connectors) - matching organism card
+  drawTitle(ctx, contentX, contentY - 30, contentW, card, scale);
+  drawEventFields(ctx, contentX, contentY, contentW, contentH, card, scale);
+  drawCardNumber(ctx, safeX, safeY, card, scale);
+  drawCorners(ctx, safeX, safeY, card, scale);
+
+  if (includeGuides) {
+    drawTrim(ctx, safeX, safeY, scale, { roundedRectPath });
+  }
 
   ctx.restore();
 }

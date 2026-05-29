@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { loadEvents, loadEventsByType } = require('./lib/event-cards/load-events');
 const { prepareEventForDisplay } = require('./lib/event-cards/field-definitions');
 const { loadManifest, saveManifest, getManifestRecord, createEventSignature } = require('./lib/event-cards/manifest');
@@ -11,6 +12,38 @@ const { ensureDir } = require('./lib/file');
 
 const REPO_ROOT = path.resolve(__dirname, '..');
 const EVENT_CARD_RENDER_SIGNATURE = 'event-render-v18-biomes-vertical-halfleft';
+
+function getRenderCodeChecksum() {
+  const hash = crypto.createHash('md5');
+  const roots = [
+    path.resolve(__dirname, './lib/event-cards'),
+    path.resolve(__dirname, './lib/cards/layers'),
+    path.resolve(__dirname, './lib/cards/utils'),
+  ];
+
+  function appendPath(targetPath) {
+    let stats;
+    try {
+      stats = fs.statSync(targetPath);
+    } catch (_) {
+      return;
+    }
+
+    if (stats.isDirectory()) {
+      for (const entry of fs.readdirSync(targetPath).sort()) {
+        appendPath(path.join(targetPath, entry));
+      }
+      return;
+    }
+
+    if (!targetPath.endsWith('.js')) return;
+    hash.update(path.relative(__dirname, targetPath));
+    hash.update(fs.readFileSync(targetPath, 'utf8'));
+  }
+
+  for (const root of roots) appendPath(root);
+  return hash.digest('hex');
+}
 
 /**
  * Parse command-line arguments
@@ -87,6 +120,7 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
 (async function main() {
   try {
     const opts = parseArgs();
+    const renderCodeChecksum = getRenderCodeChecksum();
     const configPath = path.resolve(REPO_ROOT, opts.config);
     const outBaseDir = path.resolve(REPO_ROOT, opts.outDir);
     const safeBaseDir = path.resolve(REPO_ROOT, opts.safeDir);
@@ -140,7 +174,7 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
       const generatedPNGs = new Set();
 
       for (const event of preparedEvents) {
-        const sig = `${createEventSignature(event)}|${EVENT_CARD_RENDER_SIGNATURE}`;
+        const sig = `${createEventSignature(event)}|${EVENT_CARD_RENDER_SIGNATURE}|${renderCodeChecksum}`;
         const oldRecord = getManifestRecord(activeManifest, event.id);
 
         const shouldRegenerate = opts.forceAll || !oldRecord || oldRecord.signature !== sig;
@@ -162,6 +196,7 @@ function removeUnexpectedPNGs(dirPath, expectedFiles) {
           signature: sig,
           fileName: `${event.fileName}.png`,
           renderSignature: EVENT_CARD_RENDER_SIGNATURE,
+          renderCodeChecksum,
         };
       }
 
