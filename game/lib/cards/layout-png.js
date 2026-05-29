@@ -97,18 +97,7 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
   drawFunctionalCategory(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
   drawBody(ctx, contentX + 20, contentY + 40, contentW, card, scale, { wrapText });
 
-  // Connector lines + badge icons
-  const fieldDefs = getFieldDefinitions(card);
-  const funcTextX = (contentX + 20) + Math.round(21 * scale) + badgeRadius + badgeTextGap;
-  await drawBadgesAndConnectors(ctx, badgeList, {
-    badgeY, badgeRadius, badgeGap, badgeStartX,
-    contentX, contentY, contentH, contentW,
-    blockHeight, bottomPadding, condensedRowH,
-    leftPadding, badgeTextGap, funcTextX,
-    scale, neonColor, card, fieldDefs,
-  });
-
-  // Final text layer (drawn over connectors)
+  // Final text layer
   drawTitle(ctx, contentX, contentY - 30, contentW, card, scale);
   drawFunctionalCategory(ctx, contentX + 20, contentY + 40, contentW, contentH, card, scale);
   drawBody(ctx, contentX + 20, contentY + 40, contentW, card, scale, { wrapText });
@@ -118,6 +107,18 @@ async function drawCardPNG(ctx, xPt, yPt, card, scale, options = {}) {
   if (includeGuides) {
     drawTrim(ctx, safeX, safeY, scale, { roundedRectPath });
   }
+
+  // Connector lines + badge icons
+  // Draw this last so connectors are always on the top z-layer (matching event cards).
+  const fieldDefs = getFieldDefinitions(card);
+  const funcTextX = (contentX + 20) + Math.round(21 * scale) + badgeRadius + badgeTextGap;
+  await drawBadgesAndConnectors(ctx, badgeList, {
+    badgeY, badgeRadius, badgeGap, badgeStartX,
+    contentX, contentY, contentH, contentW,
+    blockHeight, bottomPadding, condensedRowH,
+    leftPadding, badgeTextGap, funcTextX,
+    scale, neonColor, card, fieldDefs,
+  });
 
   ctx.restore();
 }

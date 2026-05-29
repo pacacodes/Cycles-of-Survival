@@ -85,6 +85,81 @@ const BIOME_DESC = {
   'Wetland':    'marsh & bog',
 };
 
+const MAIN_BIOME_ORDER = ['Marine', 'Forest', 'Grassland', 'Desert', 'Tundra'];
+
+const BIOME_TO_MAIN = {
+  marine: 'Marine',
+  reef: 'Marine',
+  freshwater: 'Marine',
+  wetland: 'Marine',
+  floodplain: 'Marine',
+
+  forest: 'Forest',
+  woodland: 'Forest',
+  taiga: 'Forest',
+
+  grassland: 'Grassland',
+  savanna: 'Grassland',
+  savannah: 'Grassland',
+  'tropical savannah/grasslands': 'Grassland',
+  farmland: 'Grassland',
+  urban: 'Grassland',
+
+  desert: 'Desert',
+  tundra: 'Tundra',
+};
+
+function mapToMainBiome(label) {
+  const key = String(label || '').trim().toLowerCase();
+  return BIOME_TO_MAIN[key] || null;
+}
+
+function addUnique(list, seen, value) {
+  const v = String(value || '').trim();
+  if (!v || seen.has(v)) return;
+  seen.add(v);
+  list.push(v);
+}
+
+function getBiomeField(cardBiomes) {
+  const mainSet = new Set();
+  const subList = [];
+  const subSeen = new Set();
+
+  for (const rawBiome of cardBiomes) {
+    const biome = formatValue(rawBiome);
+    const categoryMatch = biome.match(/^([^(]+)/);
+    const category = categoryMatch ? categoryMatch[1].trim() : biome;
+    const mappedMain = mapToMainBiome(category);
+
+    if (mappedMain) {
+      mainSet.add(mappedMain);
+    }
+
+    const descMatch = biome.match(/\(([^)]+)\)/);
+    if (descMatch) {
+      const pieces = descMatch[1]
+        .split(/[,&]|\s+and\s+/)
+        .map(s => formatValue(s))
+        .filter(Boolean);
+      pieces.forEach(p => addUnique(subList, subSeen, p));
+      continue;
+    }
+
+    if (mappedMain && category !== mappedMain) {
+      addUnique(subList, subSeen, category);
+      continue;
+    }
+
+    addUnique(subList, subSeen, BIOME_DESC[category] || category);
+  }
+
+  const main = MAIN_BIOME_ORDER.filter(label => mainSet.has(label)).join(', ');
+  const sub = subList.length ? subList.join(' · ') : null;
+
+  return { main, sub };
+}
+
 // Short clarifier appended after the specific type label
 const TYPE_EXTRA = {
   // Microbes
@@ -140,6 +215,19 @@ const TYPE_EXTRA = {
   'insect':               '· six-legged arthropod',
   'arachnid':             '· eight-legged arthropod',
   'segmented worm':       '· ringed invertebrate',
+
+  // Plant / layered habitat variants
+  'overstory layer':             '· upper tree canopy',
+  'understory layer':            '· shaded lower-canopy plants',
+  'shrub layer':                 '· woody mid-height plants',
+  'bush layer':                  '· dense low woody growth',
+  'herbaceous layer':            '· non-woody flowering plants',
+  'ground cover layer':          '· low spreading soil cover',
+  'vine layer':                  '· climbing or trailing plants',
+  'root layer':                  '· below-ground plant structures',
+  'jurassic layer':              '· mesozoic-adapted flora',
+  'symbiotic powerhouse layer':  '· high-yield mutualist plants',
+  'general layer':               '· broad habitat generalist',
 };
 
 // Derive a specific organism description from its taxonomy fields.
@@ -174,6 +262,7 @@ function getSpecificTypeDesc(card) {
   if (cls    === 'Rhyniopsida')    return 'early vascular plant';
   if (phylum === 'Tracheophyta')   return 'vascular plant';
   if (cls    === 'Liliopsida')     return 'monocot';
+  if (cls    === 'Magnoliopsida')  return 'dicot';
   if (phylum === 'Magnoliophyta')  return 'flowering plant';
 
   // Invertebrates by class
@@ -216,6 +305,10 @@ function getSpecificTypeDesc(card) {
   return ORGANISM_TYPE_DESC[card.organism_type] || null;
 }
 
+function normalizeLeadDot(text) {
+  return String(text || '').replace(/^\s*·\s*/, '').trim();
+}
+
 /**
  * Returns an ordered array of field row configs for a card.
  * Each entry: { label, main, sub, drawTop, drawBottom }
@@ -225,24 +318,41 @@ module.exports = function getFieldDefinitions(card) {
 
   if (card.organism_type) {
     const parsed = parseField(card.organism_type);
-    const specificType = parsed.sub || getSpecificTypeDesc(card);
-    const typeExtra = specificType ? (TYPE_EXTRA[specificType] || '') : '';
+    const taxonomyType = getSpecificTypeDesc(card);
+    const specificType = parsed.sub || taxonomyType;
+    const typeExtra = specificType
+      ? (TYPE_EXTRA[specificType] || TYPE_EXTRA[String(specificType).toLowerCase()] || '')
+      : '';
+
+    let typeSub = specificType ? (typeExtra ? `${specificType} ${typeExtra}` : specificType) : null;
+
+    // For layered plant cards, prefer: layer meaning · growth form (e.g., "shaded lower-canopy plants · monocot").
+    const isPlant = /^plant/i.test(String(parsed.main || ''));
+    const layerLabel = parsed.sub || '';
+    const layerExtra = TYPE_EXTRA[String(layerLabel).toLowerCase()] || TYPE_EXTRA[layerLabel] || '';
+    const layerMeaning = normalizeLeadDot(layerExtra);
+    if (isPlant && layerLabel && layerMeaning) {
+      const growthType = taxonomyType && String(taxonomyType).toLowerCase() !== String(layerLabel).toLowerCase()
+        ? taxonomyType
+        : null;
+      typeSub = growthType ? `${layerMeaning} · ${growthType}` : layerMeaning;
+    }
+
     fields.push({
       label: 'Type',
       main:  parsed.main,
-      sub:   specificType ? (typeExtra ? `${specificType} ${typeExtra}` : specificType) : null,
+      sub:   typeSub,
       drawTop:    require('./functional-category-background-top'),
       drawBottom: require('./functional-category-background-bottom'),
     });
   }
 
   if (card.biomes && card.biomes.length) {
-    const biomeNames = card.biomes.map(b => formatValue(b));
-    const biomeDescs = card.biomes.map(b => BIOME_DESC[b]).filter(Boolean);
+    const biomeField = getBiomeField(card.biomes);
     fields.push({
       label: 'Biomes',
-      main:  biomeNames.join(', '),
-      sub:   biomeDescs.length ? biomeDescs.join(' · ') : null,
+      main:  biomeField.main,
+      sub:   biomeField.sub,
       drawTop:    require('./biomes-background-top'),
       drawBottom: require('./biomes-background-bottom'),
     });

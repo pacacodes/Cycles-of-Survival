@@ -25,6 +25,11 @@ function formatValue(raw) {
 // Split "Main text (sub text)" into { main, sub }
 function parseField(raw) {
   const str = String(raw || '').replace(/_/g, ' ').trim();
+  // Support composite labels like "Plant · Overstory Layer".
+  const dotParts = str.split(/\s*[·•]\s*/).map(s => s.trim()).filter(Boolean);
+  if (dotParts.length >= 2) {
+    return { main: formatValue(dotParts[0]), sub: formatValue(dotParts.slice(1).join(' · ')) };
+  }
   const m = str.match(/^(.*?)\s*\((.*?)\)\s*$/);
   if (m) return { main: formatValue(m[1].trim()), sub: formatValue(m[2].trim()) };
   return { main: formatValue(str), sub: null };
